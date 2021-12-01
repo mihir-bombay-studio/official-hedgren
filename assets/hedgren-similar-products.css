@@ -47,4 +47,11 @@
   .slick-dotted.slick-slider {
     margin-bottom: 94px;
 }
+  
+  .similar-prods-subheading {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.21px;
+    margin-bottom: 24px;
+}
 }
