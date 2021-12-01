@@ -19,9 +19,9 @@
         {% endfor %}
       </div>
       <div class="product-info">
-      	<h1 class="product-title">{{ product.title | escape  }}</h1>
-        <div class="product-price">{{ product.price | money  }}</div>
-        <div class="product-rating">
+      	<h1 class="product-title no-t-m">{{ product.title | escape  }}</h1>
+        <div class="product-price no-t-m">{{ product.price | money  }}</div>
+        <div class="product-rating no-t-m">
         	{% include 'icon-black-star' %}
           	{% include 'icon-black-star' %}
           	{% include 'icon-black-star' %}
