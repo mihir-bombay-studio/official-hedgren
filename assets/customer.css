@@ -900,4 +900,8 @@ h2.register-heading {
     line-height: 29px;
     margin-top: -5px;
 }
+  
+  h2.register-heading {
+    left: 0;
+}
 }
