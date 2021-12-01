@@ -43,4 +43,8 @@
   .txt-right{
   	text-align: right;
   }
+  
+  .slick-dotted.slick-slider {
+    margin-bottom: 94px;
+}
 }
