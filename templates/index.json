@@ -21,9 +21,9 @@
         "extra_txt": "",
         "margin_top": "no-top",
         "margin_bottom": "normal-bottom",
-        "padding_top": "p-no-top",
-        "padding_bottom": "p-no-bottom",
-        "bg_color": ""
+        "padding_top": "p-half-top",
+        "padding_bottom": "p-normal-bottom",
+        "bg_color": "#375d54"
       }
     },
     "163757919167ffebdf": {
@@ -90,7 +90,8 @@
         "margin_top": "normal-top",
         "margin_bottom": "normal-bottom",
         "padding_top": "p-no-top",
-        "padding_bottom": "p-no-bottom"
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
       }
     },
     "163671749709f642b4": {
@@ -109,7 +110,8 @@
         "margin_top": "normal-top",
         "margin_bottom": "normal-bottom",
         "padding_top": "p-no-top",
-        "padding_bottom": "p-no-bottom"
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
       }
     },
     "16367175460d53cf07": {
@@ -128,7 +130,8 @@
         "margin_top": "normal-top",
         "margin_bottom": "normal-bottom",
         "padding_top": "p-no-top",
-        "padding_bottom": "p-no-bottom"
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
       }
     },
     "163758822799304a91": {
@@ -347,7 +350,8 @@
         "margin_top": "normal-top",
         "margin_bottom": "normal-bottom",
         "padding_top": "p-no-top",
-        "padding_bottom": "p-no-bottom"
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
       }
     },
     "16377402112d16d687": {
@@ -378,7 +382,8 @@
         "margin_top": "normal-top",
         "margin_bottom": "normal-bottom",
         "padding_top": "p-no-top",
-        "padding_bottom": "p-no-bottom"
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
       }
     },
     "1637742644c576d5fd": {
