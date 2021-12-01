@@ -34,4 +34,8 @@
   .product-collection-wrapper .img-text{
   	flex-direction: column;
   }
+  
+  .product-collection-wrapper .img-text-img{
+  	height: 204px;
+  }
 }
