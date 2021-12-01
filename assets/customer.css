@@ -880,4 +880,8 @@ h2.register-heading {
     width: calc( 100% - 40px ) !important;
     padding: 40px 60px !important;
   }
+  
+  input {
+    width: 100%;
+}
 }
