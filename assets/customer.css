@@ -895,7 +895,9 @@ h2.register-heading {
 }
   
   h2#recover {
-    width: auto;
-    margin-left: 0;
+    width: 100%;
+    margin-left: unset;
+    line-height: 29px;
+    margin-top: -5px;
 }
 }
