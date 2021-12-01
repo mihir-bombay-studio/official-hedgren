@@ -29,3 +29,9 @@
 .product-collection-wrapper {
     margin-bottom: 140px;
 }
+
+@media(max-width: 992px){
+  .product-collection-wrapper .img-text{
+  	flex-direction: column;
+  }
+}
