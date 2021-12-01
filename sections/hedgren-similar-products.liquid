@@ -5,7 +5,43 @@
   <div class="container">
     <h2 class="similar-prods-heading">You may also like</h2>
     <div class="similar-prods-subheading">WHAT OTHER HEDGRENISTS THINK</div>
-    <div class="similar-products flex-box justify-between">
+    <div class="similar-products flex-box justify-between no-t-m">
+      {% for coll in product.collections limit:1 %}
+      {% for product in coll.products limit: 3 %}
+      <div class="hero-product">
+        <div class="hero-product-images-block">
+          {% for image in product.images limit: 2 %}
+          <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+          {% endfor %}
+        </div>
+        <div class="hero-product-text-block">
+          <div class="hero-row">
+            <div class="hero-col">
+              <span class="product-font">
+                {{ product.title }}
+              </span>
+            </div>
+            <div class="hero-col">
+              <span class="product-font">
+                {{ product.price | money }}
+              </span>
+            </div>
+          </div>
+          <div class="hero-row">            
+            <span class="product-tag">
+              Drawstring Backpack RFID
+            </span>
+          </div>
+          <button class="add-direct btn btn-center">ADD TO CART {% render "svg-plus" %}</button>
+          <a href="{{ product.url }}" class="more-info">
+            More info <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+      {% endfor %}
+    </div>
+    <div class="similar-products-mob no-d">
       {% for coll in product.collections limit:1 %}
       {% for product in coll.products limit: 3 %}
       <div class="hero-product">
