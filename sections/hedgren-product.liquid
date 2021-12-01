@@ -4,8 +4,10 @@
   <div class="container">
     <div class="product-info-imgs flex-box justify-between">
       <div class="product-name-price-rating-wrap no-d">
+        <div class="product-name-price-wrap flex-box justify-between">
       	<h1 class="product-title">{{ product.title | escape  }}</h1>
         <div class="product-price">{{ product.price | money  }}</div>
+        </div>
         <div class="product-rating">
         	{% include 'icon-black-star' %}
           	{% include 'icon-black-star' %}
