@@ -409,7 +409,6 @@
     },
     "16378181835936a9a9": {
       "type": "hedgren-contact",
-      "disabled": true,
       "settings": {
         "heading": "Contact us",
         "contact_text": "If you have a remark, question or anything else we can help you with please fill in the form and we’ll get back to you asap.",
