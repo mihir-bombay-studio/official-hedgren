@@ -418,12 +418,6 @@
         "contact_info": "Tel: <span class=\"tel\">+32 (0)15 300 560<\/span><br><br> We can be reached by telephone during office hours. Monday to Thursday between 9 AM &amp; 5 PM CET. Friday between 9 AM &amp; 4 PM CET."
       }
     },
-    "16378226154b875f73": {
-      "type": "hedgren-map",
-      "settings": {
-        "heading": "Find your store"
-      }
-    },
     "16378264917c8079bd": {
       "type": "hedgren-policies",
       "disabled": true,
@@ -548,6 +542,15 @@
         "button_label": "OTHER QUESTION? CONTACT US",
         "button_link": ""
       }
+    },
+    "1638355103e0d38569": {
+      "type": "hedgren-policies",
+      "settings": {
+        "heading_left": "1994",
+        "heading": "Policy",
+        "heading_right": "2021",
+        "content": "This privacy Policy governs the processing of your personal data by HEDGREN CREATIONS NV, Grote Steenweg 50, 2550 Kontich - Belgium when you visit HEDGREN E-Store. HEDGREN respects your privacy and strives to conform to the rules rules under applicable EU Regulation. Note : If you want general information on how we process your personal data through cookies, please refer to our Cookie Policy."
+      }
     }
   },
   "order": [
@@ -566,10 +569,10 @@
     "1637742644c576d5fd",
     "1637756153eb6098f2",
     "16378181835936a9a9",
-    "16378226154b875f73",
     "16378264917c8079bd",
     "16378358284111b380",
     "16378373813177f295",
-    "1637837522d42e2fae"
+    "1637837522d42e2fae",
+    "1638355103e0d38569"
   ]
 }
