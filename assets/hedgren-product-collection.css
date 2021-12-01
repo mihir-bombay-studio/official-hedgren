@@ -38,4 +38,11 @@
   .product-collection-wrapper .img-text-img{
   	height: 204px;
   }
+  
+  .product-collection-wrapper .img-text-text-heading {
+    width: unset;
+    right: unset;
+    left: 0;
+    top: -192px;
+}
 }
