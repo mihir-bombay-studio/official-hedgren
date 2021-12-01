@@ -884,4 +884,11 @@ h2.register-heading {
   input {
     width: 100%;
 }
+  
+  h2 {
+    position: unset;
+    margin-top: -58px;
+    text-align: center;
+    margin-bottom: 0;
+}
 }
