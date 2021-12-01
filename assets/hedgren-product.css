@@ -218,3 +218,9 @@
 .product-wrap{
 	margin-bottom: 148px;
 }
+
+@media(max-width: 992px){
+	.product-info-imgs {
+    flex-direction: column;
+}
+}
