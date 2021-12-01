@@ -45,4 +45,11 @@
     left: 0;
     top: -192px;
 }
+  
+  .product-collection-wrapper .prod-coll-btn {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    width: moz-fit-content;
+}
 }
