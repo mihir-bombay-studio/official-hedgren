@@ -92,4 +92,12 @@ $(document).ready(function(){
     dots: true,
     arrows: false
   });
+  
+  $('.similar-products-mob').slick({
+  	infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: true
+  });
 });
