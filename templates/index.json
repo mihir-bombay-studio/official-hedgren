@@ -108,9 +108,9 @@
         "button_link": "",
         "extra_txt": "",
         "margin_top": "normal-top",
-        "margin_bottom": "normal-bottom",
-        "padding_top": "p-no-top",
-        "padding_bottom": "p-no-bottom",
+        "margin_bottom": "no-bottom",
+        "padding_top": "p-normal-top",
+        "padding_bottom": "p-half-bottom",
         "bg_color": ""
       }
     },
