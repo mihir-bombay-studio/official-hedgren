@@ -13,3 +13,9 @@
 .product-features-wrapper{
 	margin-bottom: 168px;
 }
+
+@media(max-width: 992px){
+	.product-features-wrapper {
+    margin-bottom: 92px;
+}
+}
