@@ -1,0 +1,90 @@
+{{ 'hedgren-faq.css' | asset_url | stylesheet_tag }}
+
+<div id="{{ section.settings.sec_id }}" class="faq-wrapper {{ section.settings.background }}">
+  <div class="container">
+    <h2 class="faq-heading">{{ section.settings.heading }}</h2>
+    {% for block in section.blocks %}
+    	{% if block.type == 'faq' %}
+    <div class="faq-wrap{% if section.settings.background == 'normal-bg' %} grey-bg{% endif %}">
+      <div class="question accordion flex-box"><div class="que">{{ block.settings.question }}</div><div class="plus-sign">{% include 'icon-plus-new' %}</div></div>
+      <div class="answer panel">{{ block.settings.answer }}</div>
+    </div>
+    	{% endif %}
+    {% endfor %}
+    <a class="btn faq-btn{% if section.settings.background == 'normal-bg' %} black-btn{% endif %}" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+  </div>
+</div>
+
+{% schema %}
+ {
+   "name":"Hedgren FAQ",
+   "settings":[
+      {
+         "type":"select",
+         "id":"background",
+         "options":[
+            {
+               "value":"normal-bg",
+               "label":"Normal background"
+            },
+            {
+               "value":"dark-bg",
+               "label":"Dark Background"
+            }
+         ],
+         "default":"normal-bg",
+         "label":"Choose background"
+      },
+      {
+         "type":"text",
+         "id":"heading",
+         "label":"Heading text"
+      },
+		{
+         "type":"text",
+         "id":"sec_id",
+         "label":"Id"
+      },
+      {
+         "type":"text",
+         "id":"button_label",
+         "default":"Button label",
+         "label":"Link text"
+      },
+      {
+         "type":"url",
+         "id":"button_link",
+         "label":"Link URL"
+      }
+   ],
+	"blocks": [
+		{
+			"type": "faq",
+			"name": "FAQ",
+			"settings": [
+				{
+					"type": "text",
+					"id": "question",
+					"label": "Question"
+				},
+				{
+					"type": "text",
+					"id": "answer",
+					"label": "Answer"
+				}
+			]
+		}
+	],
+   "presets":[
+      {
+         "name":"Hedgren FAQ"
+      }
+   ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

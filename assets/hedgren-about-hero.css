@@ -1,0 +1,64 @@
+.about-page-heading{
+	color: #ffffff;
+  width: 632px;
+    margin: 0 auto;
+    padding-top: 140px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.about-main-heading{
+	font-size: 80px;
+    line-height: 71px;
+    font-family: var(--font-heading-family);
+    letter-spacing: -3.5px;
+    margin: 0;
+}
+
+.side-title {
+    font-size: 18px;
+    line-height: 29px;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+
+.about-page-sub-heading {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 6px;
+    text-align: center;
+  margin-bottom: 120px;
+}
+
+.about-hero-overlay {
+    background: transparent linear-gradient(0deg, #D3142B00 0%, #D3142B 100%) 0% 0% no-repeat padding-box;
+}
+
+.img-text-text.about-img-text-text {
+    margin-top: 223px;
+}
+
+.about-img-text-text .img-text-text-subheading {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2.21px;
+    color: #D3142B;
+    margin-bottom: 11px;
+}
+
+.about-img-text-text .img-text-text-heading {
+    margin-top: 0;
+    color: #ffffff;
+  margin-left: 30px;
+}
+
+.hedgren-about-hero .img-text {
+    margin-top: 0;
+}
+
+@media(max-width: 1200px){
+	.about-page-sub-heading {
+  margin-bottom: 3vw;
+}
+}

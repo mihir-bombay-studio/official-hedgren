@@ -1,0 +1,48 @@
+{{ 'hedgren-half-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="half-hero" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
+  <div class="half-hero-overlay">
+    <div class="container">
+      <div class="half-hero-headings">
+      	<h1 class="half-hero-heading">
+        {{ section.settings.heading_main }}
+      </h1>
+    <div class="half-hero-sub-heading">{{ section.settings.sub_heading }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hedgren Half Hero",
+    "settings": [
+      {
+         "type":"image_picker",
+         "id":"image",
+         "label":"Image"
+      },
+		{
+			"type": "text",
+			"id": "heading_main",
+			"label": "Heading Main"
+		},
+		{
+			"type": "text",
+			"id": "sub_heading",
+			"label": "Sub Heading"
+		}
+     ],
+   "presets":[
+      {
+         "name":"Hedgren Half Hero"
+      }
+   ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

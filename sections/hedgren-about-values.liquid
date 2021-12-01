@@ -1,0 +1,85 @@
+{{ 'hedgren-about-values.css' | asset_url | stylesheet_tag }}
+
+<div class="about-values-wrapper {{ section.settings.background }}">
+  <div class="about-values container flex-box">
+    <div class="about-values-text text-one rel">
+      <span class="arrows">
+        {% include "svg-arrows-big" %}
+      </span> 
+      <h2 class="about-values-heading heading-one">
+        {{ section.settings.heading }}
+      </h2>
+      <div class="about-values-text-text">
+        {{ section.settings.content_one }}
+      </div>
+    </div> 
+    <div class="about-values-text text-two rel">
+      <span class="arrows">
+        {% include "svg-arrows-big" %}
+      </span> 
+      <h2 class="about-values-heading">
+        {{ section.settings.heading_two }}
+      </h2>
+      <div class="about-values-text-text">
+        {{ section.settings.content_two }}
+      </div>
+    </div> 
+  </div>
+</div>
+
+{% schema %}
+ {
+   "name":"Hedgren About Values",
+   "settings":[
+      {
+         "type":"select",
+         "id":"background",
+         "options":[
+            {
+               "value":"normal-bg",
+               "label":"Normal background"
+            },
+            {
+               "value":"dark-bg",
+               "label":"Dark Background"
+            }
+         ],
+         "default":"normal-bg",
+         "label":"Choose background"
+      },
+      {
+         "type":"text",
+         "id":"heading",
+         "default":"Heading 1",
+         "label":"Heading One"
+      },
+      {
+         "type":"text",
+         "id":"heading_two",
+         "default":"Heading 2",
+         "label":"Heading Two"
+      },
+      {
+         "type":"html",
+         "id":"content_one",
+         "label":"Content One"
+      },
+      {
+         "type":"html",
+         "id":"content_two",
+         "label":"Content Two"
+      }
+   ],
+   "presets":[
+      {
+         "name":"Hedgren About Values"
+      }
+   ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

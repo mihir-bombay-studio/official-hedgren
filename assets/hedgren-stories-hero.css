@@ -1,0 +1,16 @@
+.stories-hero-overlay{
+	background: transparent linear-gradient(0deg,#00000000 0,#000 100%) 0 0 no-repeat padding-box;
+}
+
+.stories-heading{
+	font-size: 80px;
+    line-height: 71px;
+    font-family: var(--font-heading-family);
+    letter-spacing: -3.5px;
+    margin:0 auto;
+      padding-top: 80px;
+    margin-bottom: 16px;
+    color: #fff;
+    width: 602px;
+    text-align: center;
+}

@@ -1,0 +1,117 @@
+{{ 'hedgren-img-text.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-contact.css' | asset_url | stylesheet_tag }}
+
+<div class="hedgren-contact-wrapper">
+  <div class="img-text container flex-box">
+    <div class="img-text-text">
+      <h2 class="img-text-text-heading {{ section.settings.heading_color }}">
+        {{ section.settings.heading }}
+      </h2>
+      <div class="img-text-text-content">
+        {{ section.settings.contact_text }}
+      </div>
+      <div class="img-text-text-subheading">
+      	{{ section.settings.address_head }}
+      </div>
+      <div class="img-text-text-content">
+        {{ section.settings.address }}
+      </div>
+      <div class="img-text-text-subheading">
+      	{{ section.settings.contact_info_heading }}
+      </div>
+      <div class="img-text-text-content">
+        {{ section.settings.contact_info }}
+      </div>
+    </div>  
+    <div class="img-text-img contact-form-wrap flex-box rel">
+      <span class="image-overlay">
+        {% include "svg-arrows-big" %}
+      </span>    
+      <div class="contact-form-wr">
+      	{% form 'contact' %}
+        {% if form.posted_successfully? %}
+	      <h6> Thank you message <h6>
+        {% else %}
+              {{ form.errors | default_errors }}
+        {% endif %}
+        <div class="contact-name contact-input">
+         
+          <input type="text" name="contact[name]" placeholder="Name" required/>
+        </div>
+        <div class="contact-email contact-input">
+          
+          <input type="email" name="contact[email]" placeholder="Email" required/>
+        </div>
+        <div class="contact-phone contact-input">
+          
+          <input type="tel" name="contact[phone]" placeholder="Phone Number" required/>
+        </div>
+        <div class="contact-message contact-input">
+          
+          <textarea name="contact[message]" placeholder="Message" rows="8"></textarea>
+        </div>
+        <div class="submit">
+          <input class="btn btn-center contact-submit-btn" type="submit" value="Send" />
+        </div>
+        {% endform %}
+      </div>
+    </div>
+        
+        
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hedgren Contact",
+    "settings": [
+		{
+         "type":"text",
+         "id":"heading",
+         "default":"Heading",
+         "label":"Heading text"
+      },
+		{
+         "type":"text",
+         "id":"contact_text",
+         "default":"Text",
+         "label":"Contact text"
+      },
+		{
+         "type":"text",
+         "id":"address_head",
+         "default":"Address",
+         "label":"Address Heading"
+      },
+		{
+         "type":"html",
+         "id":"address",
+         "default":"Address Text",
+         "label":"Address"
+      },
+		{
+         "type":"text",
+         "id":"contact_info_heading",
+         "default":"Contact Information",
+         "label":"Contact Info Heading"
+      },
+		{
+         "type":"html",
+         "id":"contact_info",
+         "default":"Contact Info",
+         "label":"Contact Info"
+      }
+	],
+	"presets": [
+		{
+			"name": "Hedgren Contact"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

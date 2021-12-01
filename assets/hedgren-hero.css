@@ -1,0 +1,147 @@
+.hero {
+  height: 66.66666666666667vw;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  max-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-text {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: 'Hedgren-Shift';
+  font-size: 124px;
+  line-height: 121px;
+  text-align: right;
+}
+.hero-products {
+  margin-bottom: 60px !important;
+}
+.hero-product img {
+  width: 100%;
+}
+/* the slides */
+.hero-products .slick-slide {
+  margin: 0 10px;
+}
+.hero-products-wrapper {
+  background-color: #375d54;
+  padding: 120px 0;
+}
+.btn {
+  font-family: Circular;
+  font-size: 13px;
+  letter-spacing: 2.2px;
+  background-color: #fff;
+  border: 0;
+  color: #000;
+  border-radius: 50px;
+  padding: 15px 32px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-center {
+  display: table;
+  margin: 0 auto;
+}
+.hero-product-images-block {
+  position: relative;
+}
+.hero-product-images-block img:first-child {
+  position: absolute;
+  opacity: 0;
+  transition: .4s ease;
+}
+.hero-product:hover .hero-product-images-block img:first-child {
+  opacity: 1;
+}
+.hero-product-text-block {
+  background-color: #fff;
+  padding: 16px 32px;
+}
+.hero-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.hero-row .hero-col:first-child {
+  width: calc( 69.5% - 4px );
+}
+.hero-row .hero-col:last-child {
+  width: calc( 30.5% - 4px );
+}
+.product-font {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.hero-row .hero-col:last-child .product-font {
+  text-align: right;
+}
+.hero-product-text-block {
+  font-size: 13px;
+  line-height: 18px;
+}
+.add-direct {
+  border: 2px solid;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  transition: .4s ease;
+}
+.add-direct:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;  
+}
+
+
+.add-direct svg {
+  transition: .4s ease;
+}
+.add-direct:hover svg {
+  transform: rotate(180deg);
+}
+.add-direct:hover svg path {
+  stroke: #fff;
+}
+.more-info {
+  text-align: center;
+  display: flex;
+  color: #000;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  transition: .4s ease;
+}
+.more-info .link-arows {
+  margin-left: 2px;
+}
+.more-info .link-arows svg path {
+  stroke-width: 1px;
+}
+.more-info:hover {
+  margin-left: 4px;
+}
+
+.product-slider-wrap {
+    margin-top: -140px;
+}
+
+@media(max-width: 992px){
+  
+  .hero {
+    height: 50vh;
+}
+	.hero-text {
+    font-size: 66px;
+    line-height: 65px;
+    letter-spacing: -2.9px;
+    text-align: center;
+}
+}

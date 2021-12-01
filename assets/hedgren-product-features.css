@@ -1,0 +1,15 @@
+.key-point-text {
+    letter-spacing: 2.21px;
+    margin-bottom: 12px;
+    margin-left: 8px;
+}
+
+.product-features-wrapper .image-overlay{
+	z-index: 5;
+  bottom: 15px;
+  cursor: pointer;
+}
+
+.product-features-wrapper{
+	margin-bottom: 168px;
+}

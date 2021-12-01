@@ -1,0 +1,52 @@
+.about-values-wrapper.dark-bg {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.about-values {
+    justify-content: space-between;
+}
+
+.about-values-wrapper.dark-bg .arrows svg {
+  fill: #fff;
+}
+
+.arrows{
+	position: absolute;
+  top: -72px;
+}
+
+.text-one .arrows{
+	transform: rotate(180deg);
+  left: -20px;
+}
+
+.text-two .arrows{
+	right: -20px;
+}
+
+.about-values-heading {
+    margin-bottom: 25px;
+}
+
+.about-values-text-text {
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 6px;
+    color: #8A8A8A;
+  	position: absolute;
+}
+
+.text-one {
+    margin-top: 145px;
+  padding-bottom: 120px;
+}
+
+.text-two .about-values-text-text{
+	left: -60px;
+  text-align: right;
+}
+
+.text-one .about-values-text-text{
+	right: -60px;
+}

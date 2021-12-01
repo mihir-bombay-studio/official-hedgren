@@ -1,0 +1,41 @@
+{{ 'hedgren-map.css' | asset_url | stylesheet_tag }}
+
+<div class="hedgren-map-wrapper">
+  <div class="container">
+    <h2 class="map-title">{{ section.settings.heading }}</h2>
+    <div class="hedgren-map">
+    
+      <div id="storemapper" style="width: 100%;">
+        <p>Store Locator is loading from <a href="https://www.storemapper.co">Storemapper store locator app</a>...</p>
+      </div>
+      <script data-storemapper-start="2018,02,01" data-storemapper-id="4548">// <![CDATA[
+        (function() {var script = document.createElement('script');script.type  = 'text/javascript';script.async = true;script.src = document.location.protocol + '//www.storemapper.co/js/widget.js'; var entry = document.getElementsByTagName('script')[0];entry.parentNode.insertBefore(script, entry);}());
+        // ]]></script>
+    
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hedgren Map",
+    "settings": [
+		{
+			"type": "text",
+			"id": "heading",
+			"label": "Heading"
+		}
+	],
+	"presets": [
+		{
+			"name": "Hedgren Map"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

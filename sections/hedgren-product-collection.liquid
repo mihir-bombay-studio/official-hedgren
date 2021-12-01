@@ -1,0 +1,52 @@
+{{ 'hedgren-img-text.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-product-collection.css' | asset_url | stylesheet_tag }}
+
+{% for collection in product.collections limit:1 %}
+    
+
+<div class="img-text-wrapper product-collection-wrapper">
+  <div class="img-text container flex-box">
+    <div class="img-text-img rel">
+        
+      {% if collection.image %}
+          <img loading="lazy" src="{{ collection.image | img_url: '350x' }}" alt="{{ collection.title }}">
+          {% else %}
+          {{ 'collection-1' | placeholder_svg_tag }}
+          {% endif %}
+  </div>
+    <div class="img-text-text rel">
+      <h2 class="img-text-text-heading">
+        The collection
+      </h2>
+      
+      <div class="img-text-text-content">
+        {{ collection.description }}
+      </div>
+      
+      <a href="{{ collection.url }}" class="btn prod-coll-btn">
+        SHOP COLLECTION
+      </a>
+      
+    </div>  
+    
+</div>
+{% endfor %}
+{% schema %}
+ {
+   "name":"Hedgren Prod Collection",
+   "settings":[
+      
+   ],
+   "presets":[
+      {
+         "name":"Hedgren Prod Collection"
+      }
+   ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

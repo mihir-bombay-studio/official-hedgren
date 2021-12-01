@@ -1,0 +1,72 @@
+{{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-collection-hero.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-discover-collection.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-coll-list-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="hero hedgren-coll-list-hero" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
+  <div class="container">
+    	<h1 class="coll-list-heading">
+        {{ section.settings.heading_main }}
+      </h1>
+    <div class="coll-list-sub-heading">{{ section.settings.sub_heading }}</div>
+  </div>
+</div>
+<div class="hero-products-wrapper hedgren-collections-wrapper">
+  <div class="container rel">
+     <span class="image-overlay">
+        {% include "svg-arrows-big" %}
+      </span> 
+    <div class="collection-list-wrap flex-box justify-between">
+      {% for collection_handle in collections limit: 15 %}
+      <div class="coll-card">
+        <div class="coll-img">
+          {% if collection_handle.image %}
+          <img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+          {% else %}
+          {{ 'collection-1' | placeholder_svg_tag }}
+          {% endif %}
+        </div>
+        <div class="coll-text">
+          <div class="coll-title">{{ collection_handle.title }}</div>
+          <div class="coll-desc">{% if collection.description != blank %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+          <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hedgren Coll List Hero",
+    "settings": [
+      {
+         "type":"image_picker",
+         "id":"image",
+         "label":"Image"
+      },
+		{
+			"type": "text",
+			"id": "heading_main",
+			"label": "Heading Main"
+		},
+		{
+			"type": "text",
+			"id": "sub_heading",
+			"label": "Sub Heading"
+		}
+     ],
+   "presets":[
+      {
+         "name":"Hedgren Coll List Hero"
+      }
+   ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

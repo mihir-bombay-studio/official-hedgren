@@ -1,0 +1,76 @@
+{{ 'hedgren-policies.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-faq-page-heading.css' | asset_url | stylesheet_tag }}
+
+<div class="hedgren-policies-wrapper">
+  <div class="policies-headings-wrapper hedgren-faq-page-heading-wrapper">
+    <div class="container rel">
+      <div class="policies-headings">
+        <div class="policies-side-title">{{ section.settings.heading_left }}</div>
+        <h1 class="policies-title">{{ section.settings.heading }}</h1>
+        <div class="policies-side-title">{{ section.settings.heading_right }}</div>
+      </div>
+      <div class="types-of-faq">
+      {% for block in section.blocks %}
+      {% if block.type == 'faq_type' %}
+      <a href="#{{ block.settings.sec_id }}" class="faq-type-link">{{ block.settings.sec_name }}</a>
+      {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hedgren FAQs Heading",
+    "settings": [
+		{
+			"type": "text",
+			"id": "heading_left",
+			"default": "1994",
+			"label": "Heading Left"
+		},
+		{
+			"type": "text",
+			"id": "heading",
+			"default": "FAQ",
+			"label": "Heading Main"
+		},
+		{
+			"type": "text",
+			"id": "heading_right",
+			"default": "2021",
+			"label": "Heading Right"
+		}
+	],
+	"blocks": [
+		{
+			"type": "faq_type",
+			"name": "FAQ Type",
+			"settings": [
+				{
+                    "id": "sec_name",
+                    "type": "text",
+                    "label": "Type"
+                },
+				{
+					"id": "sec_id",
+					"type": "text",
+					"label": "Id"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "Hedgren FAQs Heading"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

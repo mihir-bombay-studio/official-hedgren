@@ -1,0 +1,42 @@
+.policies-headings-wrapper {
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 40px;
+}
+
+.policies-headings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.policies-title {
+    font-size: 80px;
+    line-height: 71px;
+    font-family: var(--font-heading-family);
+    letter-spacing: -3.5px;
+    margin: 0 40px;
+}
+
+.policies-side-title {
+    font-size: 18px;
+    line-height: 29px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.policies-content {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.policy-title {
+    letter-spacing: 2.21px;
+    margin-bottom: 16px;
+}
+
+.underline{
+	text-decoration: underline;
+}

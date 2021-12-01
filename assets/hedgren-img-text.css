@@ -1,0 +1,145 @@
+.img-text-wrapper.dark-bg {
+  background-color: #000000;
+}
+.img-text {
+  justify-content: space-between;
+  margin-top: 160px;
+}
+.img-text-wrapper.dark-bg .img-text {
+  margin-top: 160px;
+/*   margin-top: 0; */
+  padding: 160px 0;
+}
+.img-text-wrapper.dark-bg .image-overlay svg {
+  fill: #fff;
+}
+.img-text-wrapper.dark-bg .img-text-text *,.img-text-wrapper.dark-bg .img-text-text a {
+    color: #fff;
+    stroke: #fff;
+}
+.img-text.order-reversed .img-text-text {
+  order: 2;
+}
+.img-text.order-reversed .img-text-img {
+  order: 1;
+}
+.img-text-text {
+  width: calc( 35% - 10px );
+}
+.img-text-img {
+  width: calc( 65% - 10px );
+  height: 360px;
+}
+.img-text-text-subheading {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+.img-text-text-content {
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 14px;
+}
+.img-text-text a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+.img-text-img img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 100%;
+}
+.img-text-text-heading {
+  z-index: 1;
+  position: relative;
+  margin-top: -31px;
+  width: 250%;
+  max-width: 683px;
+}
+.img-text.order-reversed .img-text-text .img-text-text-heading {
+  margin-left: -114%;
+  text-align: right;
+}
+.image-overlay {
+  position: absolute;
+  transform: rotate(180deg);
+  left: -20px;
+  bottom: -20px;
+}
+
+.red-txt{
+	color: #D3142B;
+}
+
+.img-text-text-heading.red {
+    color: #D3142B;
+}
+
+.extra-text {
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #7A7A7A;
+}
+
+.extra-text.txt-right{
+	text-align: right;
+}
+
+@media(max-width: 992px){
+	.img-text {
+    margin-top: 92px;
+      flex-direction: column-reverse;
+}
+  
+  .img-text-img {
+    width: 100%;
+    height: 64%;
+}
+  
+  .image-overlay {
+    left: unset;
+    right: -8px;
+    bottom: 8px;
+    width: 80px;
+    height: 107px;
+}
+  
+  .image-overlay svg {
+    width: 100%;
+    height: 100%;
+}
+  
+  .img-text-text-heading{
+  	position: absolute;
+    width: 80%;
+    top: 14px;
+  }
+  
+  .img-text-text {
+    width: 100%;
+}
+  
+  .img-text.order-reversed{
+  	flex-direction: column;
+  }
+  
+  .img-text-wrapper.dark-bg .img-text {
+    margin-top: 80px;
+    padding-top: 94px !important;
+}
+  
+  .img-text.order-reversed .img-text-text .img-text-text-heading{
+  	margin-left: -35px;
+    top: 106px;
+  }
+  
+  .img-text-wrapper.dark-bg .img-text-text-heading{
+  	top: 106px;
+  }
+}

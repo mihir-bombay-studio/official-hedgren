@@ -1,0 +1,116 @@
+{{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-img-text.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-about-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="hero hedgren-about-hero" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
+  <div class="about-hero-overlay">
+  <div class="container">
+    <div class="about-page-heading flex-box align-center justify-between">
+      <div class="side-title">
+      	{{ section.settings.heading_left }}
+      </div>
+    	<h1 class="about-main-heading">
+        {{ section.settings.heading_main }}
+      </h1>
+      <div class="side-title">
+      	{{ section.settings.heading_right }}
+      </div>
+    </div>
+    <div class="about-page-sub-heading">{{ section.settings.sub_heading }}</div>
+    {% for block in section.blocks %}
+    {% if block.type == 'img_over_img' %}
+    <div class="img-text flex-box">
+    <div class="img-text-text about-img-text-text">
+      <div class="img-text-text-subheading">
+        {{ block.settings.over_sub_heading }}
+      </div>
+      <h2 class="img-text-text-heading">
+        {{ block.settings.over_heading }}
+      </h2>
+    </div>  
+    <div class="img-text-img rel">
+      <span class="image-overlay">
+        {% include "svg-arrows-big" %}
+      </span>    
+      {%- if section.settings.image != blank -%}
+            <img
+              src="{{ block.settings.img_over_hero | img_url: '650x' }}"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}    
+    </div>
+  </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hedgren About Hero",
+    "settings": [
+      {
+         "type":"image_picker",
+         "id":"image",
+         "label":"Image"
+      },
+		{
+			"type": "text",
+			"id": "heading_left",
+			"label": "Heading Left"
+		},
+		{
+			"type": "text",
+			"id": "heading_main",
+			"label": "Heading Main"
+		},
+		{
+			"type": "text",
+			"id": "heading_right",
+			"label": "Heading Right"
+		},
+		{
+			"type": "text",
+			"id": "sub_heading",
+			"label": "Sub Heading"
+		}
+     ],
+	"blocks": [
+		{
+			"type": "img_over_img",
+			"name": "Image over Hero",
+			"limit": 1,
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "img_over_hero",
+					"label": "Select Image"
+				},
+				{
+					"type": "text",
+					"id": "over_sub_heading",
+					"label": "Sub Heading"
+				},
+				{
+					"type": "text",
+					"id": "over_heading",
+					"label": "Heading"
+				}
+			]
+		}
+	],
+   "presets":[
+      {
+         "name":"Hedgren About Hero"
+      }
+   ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

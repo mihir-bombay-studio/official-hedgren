@@ -1,0 +1,102 @@
+{{ 'hedgren-testimonials.css' | asset_url | stylesheet_tag }}
+
+<div class="testimonial-wrapper">
+  <div class="container">
+    <h2 class="testimonial-heading">
+        {{ section.settings.title }}
+      </h2>
+    <div class="testimonial-sub-heading">{{ section.settings.subtitle }}</div>
+    <div class="testimonials">
+    {% for block in section.blocks %}
+    {% if block.type == 'testimonial' %}
+    <div class="testimonial-card">
+              <div class="testimonial-img">
+                	<img loading="lazy" src="{{ block.settings.img | img_url: '350x' }}">
+              </div>
+              <div class="testimonial-text">
+                <div class="testimonial-rating flex-box">
+                	{% assign rating = block.settings.rating %}
+                  {% assign remain = 5 | minus: rating %}
+                  {% for i in (1..rating) %}
+                  +
+                  {% endfor %}
+                  {% for i in (1..remain) %}
+                  -
+                  {% endfor %}
+                </div>
+                <div class="testimonial-title">{{ block.settings.prod_title }}</div>
+              <div class="testimonial-desc">{{ block.settings.testimonial_text }}</div>
+                <div class="testimonial-author">{{ block.settings.author }}</div>
+              </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+      </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hedgren Testimonials",
+    "settings": [
+		{
+			"id": "title",
+			"type": "text",
+			"label": "Title Middle"
+		},
+		{
+			"id": "subtitle",
+			"type": "text",
+			"label": "Subtitle"
+		}
+	],
+	"blocks": [
+		{
+			"type": "testimonial",
+			"name": "Testimonial",
+			"settings": [
+				{
+                    "id": "img",
+                    "type": "image_picker",
+                    "label": "Select Image"
+                },
+				{
+                  "type": "range",
+                  "id": "rating",
+                  "min": 1,
+                  "max": 5,
+                  "step": 1,
+                  "label": "Rating",
+                  "default": 4
+                },
+				{
+					"id": "prod_title",
+					"type": "text",
+					"label": "Testimonial Title"
+				},
+				{
+					"id": "testimonial_text",
+					"type": "text",
+					"label": "Testimonial Text"
+				},
+				{
+					"id": "author",
+					"type": "text",
+					"label": "Author"
+				}
+			]
+		}
+	],
+	"presets":[
+      {
+         "name":"Hedgren Testimonials"
+      }
+   ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

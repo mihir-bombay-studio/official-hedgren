@@ -1,0 +1,133 @@
+{{ 'hedgren-product.css' | asset_url | stylesheet_tag }}
+
+<div class="product-wrap">
+  <div class="container">
+    <div class="product-info-imgs flex-box justify-between">
+      <div class="product-imgs flex-box">
+      	{% for media in product.media %}
+        <div class="product-img">
+        <img src="{{ media | img_url: 'x300' }}" alt="{{ media.alt | escape }}">
+        </div>          
+        {% endfor %}
+        <div class="load-more-images">LOAD MORE IMAGES</div>
+      </div>
+      <div class="product-info">
+      	<h1 class="product-title">{{ product.title | escape  }}</h1>
+        <div class="product-price">{{ product.price | money  }}</div>
+        <div class="product-rating">
+        	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          <span class="no-of-ratings">(521)</span>
+        </div>
+        <div class="color-variant-wrap">
+          <div class="variant-title">COLOUR</div>
+          <div class="variants flex-box">
+            <div class="variant-color grey-color selected"></div>
+            <div class="variant-color yellow-color"></div>
+            <div class="variant-color blue-color"></div>
+            <div class="variant-color red-color"></div>
+          </div>
+        </div>
+        <div class="add-to-cart">ADD TO CART {% include 'icon-plus-black' %}</div>
+        <div class="product-desc">{{ product.description }}</div>
+        <div class="product-usps">
+          <div class="product-ups-wrap">
+            <div class="product-usp-title accordion flex-box justify-between">SIZES<span class="down-chev">{% include 'icon-down-chev-red' %}</span></div>
+            <div class="product-usp-content panel">
+              DIMENSIONS<br> H:42 cm<br> D:15 cm<br> W:31 cm<br> WEIGHT<br> 560 g<br> VOLUME<br> 19,5 l
+            </div>
+          </div>
+          <div class="product-ups-wrap">
+            <div class="product-usp-title accordion flex-box justify-between">MATERIALS<span class="down-chev">{% include 'icon-down-chev-red' %}</span></div>
+            <div class="product-usp-content panel">OUTER BODY MATERIAL<br> 100% Recycled Nylon<br> LINING MATERIAL<br> 100% Polyester</div>
+          </div>
+          <div class="product-ups-wrap">
+            <div class="product-usp-title accordion flex-box justify-between">FEATURES<span class="down-chev">{% include 'icon-down-chev-red' %}</span></div>
+            <div class="product-usp-content panel">
+              <div class="product-usp-features flex-box justify-between">
+            	{% for i in (1..12) %}
+                <div class="usp-feature flex-box{% if forloop.first == true %} selected{% endif %}" data-id="{{ forloop.index }}">
+                <div class="feature-circle"></div>
+                  <div class="feature-title">Feature</div>
+                </div>
+              	{% endfor %}
+              </div>
+              <div class="feature-text" data-id="1">
+                 1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna a
+                </div>
+              <div class="feature-text no-disp" data-id="2">
+                 2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna a
+                </div>
+              <div class="feature-text no-disp" data-id="3">
+                 3 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna a
+                </div>
+              <div class="feature-text no-disp" data-id="4">
+                 4 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna a
+                </div>
+              <div class="feature-text no-disp" data-id="5">
+                 5 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna a
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  
+  var numItems = $('.product-img').length;
+  if(numItems<5){
+  	$('.load-more-images').addClass('no-disp');
+  }
+  
+  $(".product-img").hide();
+ $(".product-img:lt(4)").show();
+  
+  $('.load-more-images').click(function() {
+  	$(".product-img").show();
+    $(this).addClass('no-disp');
+  });
+  
+  
+  $('.variant-color').click(function() {
+  	$('.variant-color').removeClass('selected');
+    $(this).addClass('selected');
+  });
+  
+  $('.usp-feature').click(function() {
+  	$('.usp-feature').removeClass('selected');
+    $(this).addClass('selected');
+    var fet_id = $(this).data('id');
+    $('.feature-text').addClass('no-disp');
+    $('.feature-text').each(function() {
+    	var txt_id = $(this).data('id');
+      if(txt_id == fet_id)
+      {
+      	$(this).removeClass('no-disp');
+      }
+    });
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Hedgren Product",
+    "settings": [],
+	"presets": [
+		{
+			"name": "Hedgren Product"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

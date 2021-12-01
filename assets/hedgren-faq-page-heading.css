@@ -1,0 +1,21 @@
+.faq-type-link {
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 16px 24px;
+    display: block;
+  border: 1px solid;
+}
+
+.types-of-faq{
+	display: flex;
+  justify-content: space-between;
+  width: 711px;
+  position: absolute;
+    bottom: -110px;
+    left: 138.5px;
+}
+
+.hedgren-faq-page-heading-wrapper{
+	margin-bottom: 104px;
+}

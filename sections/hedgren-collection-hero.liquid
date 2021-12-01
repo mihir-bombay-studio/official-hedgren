@@ -1,0 +1,103 @@
+{{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-collection-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="hero hedgren-collection-hero" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
+  <div class="container flex-box justify-end">
+    <div class="discover-coll-heading flex-box">
+      <div class="side-title">
+      	{{ section.settings.heading_left }}
+      </div>
+    	<h1 class="discover-coll-main-heading">
+        {{ section.settings.heading_main }}
+      </h1>
+      <div class="side-title">
+      	{{ section.settings.heading_right }}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hero-products-wrapper hedgren-collection-products-wrapper">
+  <div class="container rel">
+    <div class="product-slider-wrap">
+    <div class="hero-products">
+      {% for product in collection.products limit: 8 %}
+      <div class="hero-product">
+        <div class="hero-product-images-block">
+          {% for image in product.images limit: 2 %}
+          <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+          {% endfor %}
+        </div>
+        <div class="hero-product-text-block">
+          <div class="hero-row">
+            <div class="hero-col">
+              <span class="product-font">
+                {{ product.title }}
+              </span>
+            </div>
+            <div class="hero-col">
+              <span class="product-font">
+                {{ product.price | money }}
+              </span>
+            </div>
+          </div>
+          <div class="hero-row">            
+            <span class="product-tag">
+              Drawstring Backpack RFID
+            </span>
+          </div>
+          <button class="add-direct btn btn-center">ADD TO CART {% render "svg-plus" %}</button>
+          <a href="{{ product.url }}" class="more-info">
+            More info <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <a class="btn btn-center" href="#">SHOP ALL PRODUCTS</a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hedgren Collection Hero",
+    "settings": [
+      {
+         "type":"image_picker",
+         "id":"image",
+         "label":"Image"
+      },
+		{
+			"type": "text",
+			"id": "heading_left",
+			"label": "Heading Left"
+		},
+		{
+			"type": "text",
+			"id": "heading_main",
+			"label": "Heading Main"
+		},
+		{
+			"type": "text",
+			"id": "heading_right",
+			"label": "Heading Right"
+		},
+		{
+			"type": "text",
+			"id": "sub_heading",
+			"label": "Sub Heading"
+		}
+     ],
+   "presets":[
+      {
+         "name":"Hedgren Collection Hero"
+      }
+   ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

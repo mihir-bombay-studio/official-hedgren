@@ -1,0 +1,139 @@
+{{ 'hedgren-colorful-cards.css' | asset_url | stylesheet_tag }}
+
+<div class="headgren-colorful-cards-wrapper">
+  <div class="container">
+    <div class="colorful-cards-headings">
+      <h2 class="colorful-cards-heading">{{ section.settings.heading }}</h2>
+      <div class="colorful-cards-subheading">{{ section.settings.subheading }}</div>
+    </div>
+    <div class="colorful-cards flex-box justify-between">
+    	{% for block in section.blocks %}
+      		{% if block.type == 'colorful_card' %}
+      			<div class="colorful-card {{ block.settings.background }} {{ block.settings.card_size }}">
+                  {% if block.settings.svg != blank %}
+                  <div class="card-svg">{{ block.settings.svg }}</div>
+                  {% endif %}
+                  <div class="card-headings-wrap {{ block.settings.sub_head_pos }}">
+                    <div class="card-sub-heading">{{ block.settings.card_subheading }}</div>
+                    <div class="card-heading">{{ block.settings.card_heading }}</div>
+                  </div>
+                  <div class="card-extra-txt">{{ block.settings.card_extra_txt }}</div>
+      			</div>
+      		{% endif %}
+      	{% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hedgren Colorful Cards",
+    "settings": [
+		{
+			"type": "text",
+			"id": "heading",
+			"label": "Heading"
+		},
+		{
+			"type": "text",
+			"id": "subheading",
+			"label": "Sub Heading"
+		}
+	],
+	"blocks": [
+		{
+			"type": "colorful_card",
+			"name": "Colorful Card",
+			"settings": [
+				{
+                   "type":"select",
+                   "id":"card_size",
+                   "options":[
+                      {
+                         "value":"regular",
+                         "label":"Regular"
+                      },
+                      {
+                         "value":"big",
+                         "label":"Big"
+                      }	
+                   ],
+                   "default":"regular",
+                   "label":"Choose Card Size"
+                },
+				{
+                   "type":"select",
+                   "id":"background",
+                   "options":[
+                      {
+                         "value":"blue-bg",
+                         "label":"Blue background"
+                      },
+                      {
+                         "value":"green-bg",
+                         "label":"Green Background"
+                      },
+					  {
+                         "value":"red-bg",
+                         "label":"Red Background"
+                      },
+					  {
+                         "value":"grey-bg",
+                         "label":"Grey Background"
+                      }	
+                   ],
+                   "default":"blue-bg",
+                   "label":"Choose background"
+                },
+				{
+					"type": "text",
+					"id": "svg",
+					"label": "SVG"
+				},
+				{
+					"type": "text",
+					"id": "card_subheading",
+					"label": "Card Sub Heading"
+				},
+				{
+					"type": "text",
+					"id": "card_heading",
+					"label": "Card Heading"
+				},
+				{
+                   "type":"select",
+                   "id":"sub_head_pos",
+                   "options":[
+                      {
+                         "value":"sub-up",
+                         "label":"Sub Heading Up"
+                      },
+                      {
+                         "value":"sub-down",
+                         "label":"Sub Heading Down"
+                      }	
+                   ],
+                   "default":"sub-up",
+                   "label":"Choose Sub Heading Position"
+                },
+				{
+					"type": "text",
+					"id": "card_extra_txt",
+					"label": "Card Extra Text"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name":"Hedgren Colorful Cards"
+		}	
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

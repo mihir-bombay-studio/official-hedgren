@@ -1,0 +1,46 @@
+.coll-list-heading {
+    font-size: 80px;
+    line-height: 71px;
+    font-family: var(--font-heading-family);
+    letter-spacing: -3.5px;
+    margin: 80px auto;
+    margin-bottom: 16px;
+    color: #ffffff;
+    width: 602px;
+    text-align: center;
+}
+
+.coll-list-sub-heading {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 6px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hedgren-collections-wrapper .coll-card {
+    margin: 0;
+  width: 32%;
+  margin-bottom: 40px;
+}
+
+.hedgren-collections-wrapper .collection-list-wrap {
+    flex-wrap: wrap;
+}
+
+.hedgren-collections-wrapper.hero-products-wrapper{
+	background-color: #000000;
+  	padding-top: 0;
+    margin-top: -141px;
+}
+
+.image-overlay {
+    position: absolute;
+    transform: rotate(180deg);
+    left: 5px;
+    top: -20px;
+}
+
+.hedgren-collections-wrapper .image-overlay svg {
+    fill: #fff;
+}

@@ -1,0 +1,120 @@
+<link rel="stylesheet" href="{{ 'hedgren-footer.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'hedgren-footer.css' | asset_url | stylesheet_tag }}</noscript>
+<div class="footer-wrapper">
+<footer>
+  <div class="footer-newsletter">
+    {%- form 'customer' -%}
+    <h3>
+      Subscribe to hedgren
+    </h3>
+    {{ form.errors | default_errors }}
+    {%- if form.posted_successfully? -%}
+    <div class="note form-success">Newsletter subscribed successfully</div>
+    {% else %}
+    <div class="input-group">
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="email@example.com" name="contact[email]" id="Email" aria-label="email" autocorrect="off" autocapitalize="off">
+      <input type="submit" name="commit" id="Subscribe" value="Subscribe">
+    </div>
+    {% endif %}
+    {%- endform -%}
+  </div>
+  <hr class="footer-hr">
+  <div class="footer-navs flex-box justify-between">
+    <ul class="footer-nav-col">
+      <li class="link-heading">
+        <a href="#">SHOP FOR THE HEDGRENIST</a>
+      </li>
+      <li class="link-secondary">
+        <a href="#">A PARENT PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+      <li class="link-secondary">
+        <a href="#">AN ACTIVE PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+      <li class="link-secondary">
+        <a href="#">A WANDERLUST PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+      <li class="link-secondary">
+        <a href="#">URBAN GARDEN PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+      <li class="link-primary">
+        <a href="#">SHOP ALL PRODUCTS <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
+      </li>
+    </ul>
+    <hr class="footer-hr no-d">
+    <ul class="footer-nav-col">
+      <li class="link-heading">
+        <a href="#">ABOUT HEDGREN</a>
+      </li>
+      <li class="link-secondary">
+        <a href="#">OUR STORY <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+      <li class="link-secondary">
+        <a href="#">OUR COMMUNITY <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+      <li class="link-secondary">
+        <a href="#">OUR LOYALTY PROGRAM <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+    </ul>
+    <hr class="footer-hr no-d">
+    <ul class="footer-nav-col">
+      <li class="link-heading">
+        <a href="#">INFORMATION</a>
+      </li>
+      <li class="link-secondary">
+        <a href="#">CONTACT <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+      <li class="link-secondary">
+        <a href="#">FAQ <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+      <li class="link-secondary">
+        <a href="#">STORE LOCATOR <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+    </ul>
+    <hr class="footer-hr no-d">
+    <ul class="footer-nav-col">
+      <li class="link-heading">
+        <a href="#">GET CONNECTED</a>
+      </li>
+      <li class="social-links">
+        <a href="#">{% render "svg-facebook" %}</a>
+        <a href="#">{% render "svg-instagram" %}</a>
+        <a href="#">{% render "svg-pinterest" %}</a>
+        <a href="#">{% render "svg-youtube" %}</a>
+      </li>
+    </ul>
+  </div>
+  <hr class="footer-hr">
+  <div class="footer-line flex-box justify-between">
+    <div class="footer-line-left">
+      <span>© 2021, Official Hedgren Store</span>
+      <span>Powered by <a href="https://deardigital.be" target="_blank">dear digital</a></span>
+    </div>
+    <div class="footer-line-center">
+      <span><a href="#">Privacy Policy</a></span>
+      <span><a href="#">Terms of Use</a></span>
+      <span><a href="#">Cookie Policy</a></span>
+    </div>
+    <div class="footer-line-right">
+      {% for type in shop.enabled_payment_types %}
+      <div class="payment-method"> 
+        {{ type | payment_type_svg_tag: class: 'section-footer__payment-icon' }}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</footer>
+</div>
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

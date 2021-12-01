@@ -1,0 +1,179 @@
+{{ 'hedgren-img-text.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-stories.css' | asset_url | stylesheet_tag }}
+{% for block in section.blocks %}
+{% if block.type == 'img_txt' %}
+<div class="img-text-wrapper story-wrap {{ block.settings.background }}">
+  <div class="img-text container flex-box {{ block.settings.order }}">
+    <div class="img-text-text">
+      <h2 class="img-text-text-heading {{ block.settings.heading_color }}">
+        {{ block.settings.heading }}
+      </h2>
+      <div class="img-text-text-subheading">
+        {{ block.settings.subheading }}
+      </div>
+      <div class="img-text-text-content">
+        {{ block.settings.content }}
+      </div>
+      {% if block.settings.button_label %}
+      <a href="{% if block.settings.button_link %}{{block.settings.button_link}}{% else %}#{% endif %}">
+        {{ block.settings.button_label }} {% if block.settings.button_label != blank %}<span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>{% endif %}
+      </a>
+      {% endif %}
+    </div>  
+    <div class="img-text-img rel">
+      <span class="image-overlay">
+        {% include "svg-arrows-big" %}
+      </span>    
+      {%- if block.settings.image != blank -%}
+            <img
+              srcset="{%- if block.settings.image.width >= 165 -%}{{ block.settings.image | img_url: '165x' }} 165w,{%- endif -%}
+                {%- if block.settings.image.width >= 360 -%}{{ block.settings.image | img_url: '360x' }} 360w,{%- endif -%}
+                {%- if block.settings.image.width >= 535 -%}{{ block.settings.image | img_url: '535x' }} 535w,{%- endif -%}
+                {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | img_url: '750x' }} 750w,{%- endif -%}
+                {%- if block.settings.image.width >= 1070 -%}{{ block.settings.image | img_url: '1070x' }} 1070w,{%- endif -%}
+                {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}
+                {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
+              src="{{ block.settings.image | img_url: '1500x' }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ block.settings.image.alt | escape }}"
+              loading="lazy"
+              width="{{ block.settings.image.width }}"
+              height="{{ block.settings.image.height }}"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%} 
+      <div class="extra-text{% if block.settings.order == 'order-normal' %} txt-right{% endif %}">{{ block.settings.extra_txt }}</div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+<span class="btn btn-center more-stories no-disp">LOAD MORE STORIES</span>
+<script>
+	var numItems = $('.story-wrap').length;
+  if(numItems>2){
+  	$('.more-stories').removeClass('no-disp');
+  }
+  
+  $(".story-wrap").hide();
+ $(".story-wrap:lt(2)").show();
+  
+  $('.more-stories').click(function() {
+  	$(".story-wrap").show();
+    $(this).addClass('no-disp');
+  });
+</script>
+{% schema %}
+ {
+   "name":"Hedgren Stories",
+   "settings":[
+     
+   ],
+	"blocks": [
+		{
+			"type": "img_txt",
+			"name": "Story",
+			"settings":[
+      {
+         "type":"select",
+         "id":"background",
+         "options":[
+            {
+               "value":"normal-bg",
+               "label":"Normal background"
+            },
+            {
+               "value":"dark-bg",
+               "label":"Dark Background"
+            }
+         ],
+         "default":"normal-bg",
+         "label":"Choose background"
+      },
+      {
+         "type":"select",
+         "id":"order",
+         "options":[
+            {
+               "value":"order-normal",
+               "label":"Default"
+            },
+            {
+               "value":"order-reversed",
+               "label":"Reversed columns"
+            }
+         ],
+         "default":"order-normal",
+         "label":"Column order"
+      },
+		{
+         "type":"select",
+         "id":"heading_color",
+         "options":[
+            {
+               "value":"regular",
+               "label":"Default"
+            },
+            {
+               "value":"red",
+               "label":"Red"
+            }
+         ],
+         "default":"regular",
+         "label":"Heading Color"
+      },
+      {
+         "type":"image_picker",
+         "id":"image",
+         "label":"Image"
+      },
+      {
+         "type":"text",
+         "id":"heading",
+         "default":"Image with text",
+         "label":"Heading text"
+      },
+      {
+         "type":"text",
+         "id":"subheading",
+         "default":"Subheading",
+         "label":"Subheading text"
+      },
+      {
+         "type":"html",
+         "id":"content",
+         "label":"Content"
+      },
+      {
+         "type":"text",
+         "id":"button_label",
+         "default":"Button label",
+         "label":"Link text"
+      },
+      {
+         "type":"url",
+         "id":"button_link",
+         "label":"Link URL"
+      },
+	  {
+		 "type": "html",
+		 "id": "extra_txt",
+		 "label": "Extra Text"
+	  }
+   ]
+		}	
+	],
+   "presets":[
+      {
+         "name":"Hedgren Stories"
+      }
+   ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

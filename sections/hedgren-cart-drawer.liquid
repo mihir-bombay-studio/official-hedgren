@@ -1,0 +1,101 @@
+{{ 'hedgren-cart-drawer.css' | asset_url | stylesheet_tag }}
+
+<div class="drawer-cart">
+  <div class="drawer-cart-header">
+    <span class="close-cart">{% include 'icon-close-new' %}</span>
+    <h2 class="cart-headign">cart</h2>
+  </div>
+  <div class="drawer-cart-main-sec">
+    <div class="cart-body">
+      <div class="cart-product-wrapper">
+        <div class="cart-product-image">
+        	<img src="{{ 'bag_img.png' | asset_img_url: '100x' }}">
+        </div>
+        <div class="cart-product-infos justify-between">
+          <div class="cart-product-info flex-box justify-between">
+            <div class="product-name">Crusade</div>
+            <div class="product-price"><span class="product-compare-price">€89.00</span><span class="product-selling-price">€79.00</span></div>
+            <div class="product-color">Color: yellow</div>
+          </div>
+          <div class="cart-product-qty-del justify-between">
+            <div class="cart-product-qty" data-quantity="1">
+              <div class="qty-manipulation-symbol minus-symbol">-</div>
+              <div class="cart-qty">1</div>
+              <div class="qty-manipulation-symbol plus-symbol">+</div>
+            </div>
+            <div class="delete-cart-product">
+              <div class="delete-text">delete</div>
+              <div class="delete-icon">{% include 'icon-delete-new' %}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-cart-footer">
+    <div class="drawer-cart-upsell">
+      <div class="upsell-title">PEOPLE ALSO BOUGHT:</div>
+      <div class="upsell-product-wrap">
+        <div class="upsell-product-image">
+        	<img src="{{ 'bag_img.png' | asset_img_url: '100x' }}">
+        </div>
+        <div class="upsell-product-infos rel">
+          <div class="upsell-product-title-price">
+          	<div class="product-name">Crusade</div>
+            <div class="product-price upsell-price"><span class="product-compare-price upsell-compare-price">€89.00</span><span class="product-selling-price">€79.00</span></div>
+          </div>
+          <div class="upsell-product-desc">Drawstring Backpack RFID</div>
+          <div class="product-color">Color: yellow</div>
+          <div class="add-upsell-prod">ADD <span class="icon-plus">{% include 'icon-plus-new' %}</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="drawer-cart-checkout">
+      <div class="checkout-subtotal justify-between">
+        <div class="checkout-title">Subtotal</div>
+        <div class="subtotal">€ 54,00</div>
+      </div>
+      <div class="checkout-shipping justify-between">
+        <div class="shipping-title">Shipping</div>
+        <div class="shipping-price">Calculated at checkout</div>
+      </div>
+      <div class="checkout-btn">CHECKOUT</div>
+      <div class="cont-shopping">Continue shopping</div>
+    </div>
+  </div>
+  </div>
+
+<script>
+  $('.delete-cart-product').click(function() {
+  	$(this).parent().parent().parent().remove();
+  });
+  
+  
+   $(".qty-manipulation-symbol.plus-symbol").click(function(){
+     console.log('plus');
+      var adder = 1;
+      $(this).parent().data("quantity",parseInt($(this).parent().data("quantity"))+1);
+      $(this).parent().find('.cart-qty').text($(this).parent().data("quantity"));
+    }); 
+    $(".qty-manipulation-symbol.minus-symbol").click(function(){
+      if($(this).parent().data("quantity") > 1) {
+      	var adder = 1;
+        $(this).parent().data("quantity",parseInt($(this).parent().data("quantity"))-1);
+        $(this).parent().find('.cart-qty').text($(this).parent().data("quantity"));
+       
+      }
+    });
+</script>
+
+{% schema %}
+  {
+    "name": "Ajax Cart",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

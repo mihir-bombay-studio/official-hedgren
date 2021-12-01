@@ -1,0 +1,35 @@
+.half-hero {
+  height: 33.33333333vw;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  max-height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.half-hero-overlay{
+	background: transparent linear-gradient(0deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.half-hero-headings{
+	color: #ffffff;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.half-hero-heading{
+	font-size: 80px;
+    line-height: 71px;
+    font-family: var(--font-heading-family);
+    letter-spacing: -3.5px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.half-hero-sub-heading {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 6px;
+}

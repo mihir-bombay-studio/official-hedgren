@@ -1,0 +1,74 @@
+{{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="hero" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
+  <div class="container flex-box justify-end">
+    <h1 class="hero-text">
+      Back to&nbsp;&nbsp; School
+    </h1>
+  </div>
+</div>
+<div class="hero-products-wrapper hedgren-collection-products-wrapper">
+  <div class="container rel">
+    <div class="product-slider-wrap">
+    <div class="hero-products">
+      {% for product in collections.all.products limit: 8 %}
+      <div class="hero-product">
+        <div class="hero-product-images-block">
+          {% for image in product.images limit: 2 %}
+          <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+          {% endfor %}
+        </div>
+        <div class="hero-product-text-block">
+          <div class="hero-row">
+            <div class="hero-col">
+              <span class="product-font">
+                {{ product.title }}
+              </span>
+            </div>
+            <div class="hero-col">
+              <span class="product-font">
+                {{ product.price | money }}
+              </span>
+            </div>
+          </div>
+          <div class="hero-row">            
+            <span class="product-tag">
+              Drawstring Backpack RFID
+            </span>
+          </div>
+          <button class="add-direct btn btn-center">ADD TO CART {% render "svg-plus" %}</button>
+          <a href="{{ product.url }}" class="more-info">
+            More info <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <a class="btn btn-center" href="#">All products</a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Hedgren Hero",
+    "settings": [
+      {
+         "type":"image_picker",
+         "id":"image",
+         "label":"Image"
+      }
+     ],
+   "presets":[
+      {
+         "name":"Hedgren Hero"
+      }
+   ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
