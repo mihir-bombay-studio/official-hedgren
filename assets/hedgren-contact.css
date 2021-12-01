@@ -55,3 +55,9 @@
 .contact-form-wrap .btn:hover{
 	background-color: #7A7A7A;
 }
+
+@media(width: 992px){
+  .hedgren-contact-wrapper .img-text{
+  	flex-direction: column;
+  }
+}
