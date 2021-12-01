@@ -3,13 +3,20 @@
 <div class="product-wrap">
   <div class="container">
     <div class="product-info-imgs flex-box justify-between">
-      <div class="product-imgs flex-box">
+      <div class="product-imgs flex-box no-t-m">
       	{% for media in product.media %}
         <div class="product-img">
         <img src="{{ media | img_url: 'x300' }}" alt="{{ media.alt | escape }}">
         </div>          
         {% endfor %}
         <div class="load-more-images">LOAD MORE IMAGES</div>
+      </div>
+      <div class="product-imgs-mobile no-d">
+      	{% for media in product.media %}
+        <div class="product-img">
+        <img src="{{ media | img_url: 'x300' }}" alt="{{ media.alt | escape }}">
+        </div>          
+        {% endfor %}
       </div>
       <div class="product-info">
       	<h1 class="product-title">{{ product.title | escape  }}</h1>
