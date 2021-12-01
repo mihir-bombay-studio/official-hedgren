@@ -58,4 +58,8 @@
   .similar-prods-heading {
     margin-bottom: 8px;
 }
+  
+  .hero-products-wrapper.similar-products-wrapper{
+  	padding: 80px 0;
+  }
 }
