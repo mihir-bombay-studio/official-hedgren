@@ -887,9 +887,10 @@ h2.register-heading {
   
   h2 {
     position: relative;
-    margin-top: -22px;
+    margin-top: 12px;
     text-align: center;
     margin-bottom: 0;
+    left: 0;
     line-height: 0;
 }
   
