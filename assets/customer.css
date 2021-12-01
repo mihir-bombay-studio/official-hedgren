@@ -876,7 +876,7 @@ h2.register-heading {
 
 @media(max-width:992px){
   .customer.login, .customer.register{
-  	margin: 93px 20px 300px;
+  	margin: 93px 20px 300px !important;
     width: calc( 100% - 40px ) !important;
     padding: 40px 60px !important;
   }
