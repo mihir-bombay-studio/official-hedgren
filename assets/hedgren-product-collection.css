@@ -52,4 +52,8 @@
     width: fit-content;
     width: moz-fit-content;
 }
+  
+  .product-collection-wrapper {
+    margin-bottom: 80px;
+}
 }
