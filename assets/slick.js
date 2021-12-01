@@ -84,4 +84,12 @@ $(document).ready(function(){
     $slideshow.slick('slickNext');
   });
 	};
+  
+  $('.product-imgs-mobile').slick({
+  	infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false
+  });
 });
