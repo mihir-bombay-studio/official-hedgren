@@ -3,6 +3,18 @@
 <div class="product-wrap">
   <div class="container">
     <div class="product-info-imgs flex-box justify-between">
+      <div class="product-name-price-rating-wrap no-d">
+      	<h1 class="product-title">{{ product.title | escape  }}</h1>
+        <div class="product-price">{{ product.price | money  }}</div>
+        <div class="product-rating">
+        	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          <span class="no-of-ratings">(521)</span>
+        </div>
+      </div>
       <div class="product-imgs flex-box no-t-m">
       	{% for media in product.media %}
         <div class="product-img">
