@@ -878,7 +878,7 @@ h2.register-heading {
   .customer.login, .customer.register{
   	margin: 93px 20px 300px !important;
     width: calc( 100% - 40px ) !important;
-    padding: 40px 60px !important;
+    padding: 24px 60px 40px !important;
   }
   
   input {
