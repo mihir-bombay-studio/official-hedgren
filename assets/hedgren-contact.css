@@ -63,7 +63,8 @@
   }
   
   .hedgren-contact-wrapper .img-text-text-heading{
-  	position: unset;
+  	position: relative;
+    margin-top: 0;
     margin-bottom: 24px;
   }
 }
