@@ -127,10 +127,10 @@
         "button_label": "READ THE STORIES",
         "button_link": "",
         "extra_txt": "",
-        "margin_top": "normal-top",
-        "margin_bottom": "normal-bottom",
-        "padding_top": "p-no-top",
-        "padding_bottom": "p-no-bottom",
+        "margin_top": "no-top",
+        "margin_bottom": "no-bottom",
+        "padding_top": "p-normal-top",
+        "padding_bottom": "p-normal-bottom",
         "bg_color": ""
       }
     },
