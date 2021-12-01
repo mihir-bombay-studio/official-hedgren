@@ -223,4 +223,9 @@
 	.product-info-imgs {
     flex-direction: column;
 }
+  
+  .product-img-mob img{
+  	width: 100%;
+    object-fit: cover;
+  }
 }
