@@ -4,9 +4,6 @@
 .img-text {
   justify-content: space-between;
 }
-.img-text-wrapper.dark-bg .img-text {
-  padding: 160px 0;
-}
 .img-text-wrapper.dark-bg .image-overlay svg {
   fill: #fff;
 }
