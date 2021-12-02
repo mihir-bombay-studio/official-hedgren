@@ -100,4 +100,9 @@
     left: unset;
     right: 60px;
 }
+  
+  .text-one .about-values-text-text {
+    right: unset;
+    left: 60px;
+}
 }
