@@ -218,4 +218,11 @@
   .article-content-wrap iframe{
   	width: 100%;
   }
+  
+  .upsell-product .add-direct{
+  	padding: 8px 16px;
+    width: fit-content;
+    width: moz-fit-content;
+    margin-left: calc( 100% - 89px );
+  }
 }
