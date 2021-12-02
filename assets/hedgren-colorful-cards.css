@@ -107,7 +107,7 @@
     margin-bottom: 32px;
 }
   
-  .colorful-card.regular {
+  .colorful-card.regular, .colorful-card.big {
     width: 48%;
     height: 44.7vw;
 }
