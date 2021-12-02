@@ -60,4 +60,9 @@
   	width: 80px;
     height: 107px;
   }
+  
+  .about-values-text .arrows svg{
+  	width: 100%;
+    height: 100%;
+  }
 }
