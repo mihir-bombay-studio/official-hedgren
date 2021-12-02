@@ -106,4 +106,15 @@
   .colorful-cards-headings {
     margin-bottom: 32px;
 }
+  
+  .colorful-card.regular {
+    width: 48%;
+    height: unset;
+}
+  
+  .colorful-card.regular:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
 }
