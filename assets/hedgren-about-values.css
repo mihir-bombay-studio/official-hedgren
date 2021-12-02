@@ -50,3 +50,9 @@
 .text-one .about-values-text-text{
 	right: -60px;
 }
+
+@media(max-width: 992px){
+	.about-values {
+    flex-direction: column-reverse;
+}
+}
