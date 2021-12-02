@@ -68,4 +68,9 @@
     width: 100%;
     padding-top: 40px;
 }
+  
+  .side-title {
+    font-size: 10px;
+    line-height: 13px;
+}
 }
