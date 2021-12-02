@@ -109,12 +109,8 @@
   
   .colorful-card.regular {
     width: 48%;
-    height: unset;
+    height: 40vw;
 }
   
-  .colorful-card.regular:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-}
+  
 }
