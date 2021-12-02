@@ -210,4 +210,8 @@
   .article-author-date {
     margin-left: 80px;
 }
+  
+  .article-content-wrap {
+    width: 100%;
+}
 }
