@@ -49,4 +49,13 @@
 	.hedgren-collections-wrapper .coll-card {
     width: 100%;
 }
+  
+  .coll-list-heading {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -1.73px;
+    margin: 40px auto;
+    margin-bottom: 16px;
+    width: auto;
+}
 }
