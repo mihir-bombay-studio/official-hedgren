@@ -9,7 +9,7 @@
         <h1 class="policies-title">{{ section.settings.heading }}</h1>
         <div class="policies-side-title">{{ section.settings.heading_right }}</div>
       </div>
-      <div class="types-of-faq">
+      <div class="types-of-faq no-t-m">
       {% for block in section.blocks %}
       {% if block.type == 'faq_type' %}
       <a href="#{{ block.settings.sec_id }}" class="faq-type-link">{{ block.settings.sec_name }}</a>
