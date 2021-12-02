@@ -79,4 +79,11 @@
     line-height: 40px;
     letter-spacing: -1.73px;
 }
+  
+  .about-page-sub-heading {
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    letter-spacing: 2.21px;
+}
 }
