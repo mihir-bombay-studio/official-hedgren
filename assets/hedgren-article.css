@@ -206,4 +206,8 @@
   .article-author-date-wrap {
     flex-direction: column;
 }
+  
+  .article-author-date {
+    margin-left: 80px;
+}
 }
