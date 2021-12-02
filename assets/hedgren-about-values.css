@@ -88,4 +88,10 @@
     text-align: left;
     margin-left: 20px;
 }
+  
+  .about-values-text-text {
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 3.9px;
+}
 }
