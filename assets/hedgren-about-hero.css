@@ -73,4 +73,10 @@
     font-size: 10px;
     line-height: 13px;
 }
+  
+  .about-main-heading {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -1.73px;
+}
 }
