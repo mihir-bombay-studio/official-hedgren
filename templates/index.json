@@ -299,7 +299,6 @@
     },
     "16377374959756b2a0": {
       "type": "hedgren-img-text",
-      "disabled": true,
       "settings": {
         "background": "dark-bg",
         "order": "order-reversed",
@@ -315,7 +314,6 @@
     },
     "16377402112d16d687": {
       "type": "hedgren-about-values",
-      "disabled": true,
       "settings": {
         "background": "dark-bg",
         "heading": "We are",
@@ -326,7 +324,6 @@
     },
     "1637741742b6e6125e": {
       "type": "hedgren-img-text",
-      "disabled": true,
       "settings": {
         "background": "dark-bg",
         "order": "order-normal",
