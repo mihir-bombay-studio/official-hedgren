@@ -233,7 +233,7 @@ hr.footer-hr {
     margin-left: calc( 100% - 89px );
   }
   
-  hr.footer-hr{
-  	padding: 0 20px;
-  }
+  .article-bg hr.footer-hr {
+    width: calc( 100% - 40px );
+}
 }
