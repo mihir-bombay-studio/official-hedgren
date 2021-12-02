@@ -69,4 +69,12 @@
   .arrows {
     top: -36px;
 }
+  
+  .text-two .arrows {
+    right: 0;
+}
+  
+  .text-one .arrows {
+    left: 0;
+}
 }
