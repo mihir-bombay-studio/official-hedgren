@@ -135,8 +135,9 @@
 }
   
   .img-text.order-reversed .img-text-text .img-text-text-heading{
-  	margin-left: -35px;
+  	margin-left: 0;
     top: 106px;
+    text-align: left;
   }
   
   .img-text-wrapper.dark-bg .img-text-text-heading{
