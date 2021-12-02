@@ -55,4 +55,9 @@
 	.about-values {
     flex-direction: column-reverse;
 }
+  
+  .about-values-text .arrows{
+  	width: 80px;
+    height: 107px;
+  }
 }
