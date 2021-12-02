@@ -71,11 +71,11 @@
 }
   
   .text-two .arrows {
-    right: 0;
+    right: -10px;
 }
   
   .text-one .arrows {
-    left: 0;
+    left: -10px;
 }
   
   .about-values-heading {
