@@ -87,4 +87,8 @@
     letter-spacing: 2.21px;
     margin-bottom: 7vh;
 }
+  
+  .about-hero-overlay .img-text-img {
+    height: 27vh;
+}
 }
