@@ -91,4 +91,10 @@
   .about-hero-overlay .img-text-img {
     height: 27vh;
 }
+  
+  .about-hero-overlay .image-overlay {
+    left: -8px;
+    right: unset;
+    bottom: -8px;
+}
 }
