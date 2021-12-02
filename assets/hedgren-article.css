@@ -214,4 +214,8 @@
   .article-content-wrap {
     width: 100%;
 }
+  
+  .article-content-wrap iframe{
+  	width: 100%;
+  }
 }
