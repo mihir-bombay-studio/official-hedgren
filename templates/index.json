@@ -426,7 +426,6 @@
     },
     "16378358284111b380": {
       "type": "hedgren-faq-page-heading",
-      "disabled": true,
       "blocks": {
         "24974ec3-f57b-40f3-af23-3dd684c6c7bf": {
           "type": "faq_type",
@@ -479,7 +478,6 @@
     },
     "16378373813177f295": {
       "type": "hedgren-faq",
-      "disabled": true,
       "blocks": {
         "7bb2b86c-e1fa-455b-824e-7392f2c375b4": {
           "type": "faq",
@@ -510,7 +508,6 @@
     },
     "1637837522d42e2fae": {
       "type": "hedgren-faq",
-      "disabled": true,
       "blocks": {
         "7f978e9e-036d-4012-a1d5-cc26cfe12328": {
           "type": "faq",
