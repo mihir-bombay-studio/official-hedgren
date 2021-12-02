@@ -55,7 +55,13 @@
     line-height: 40px;
     letter-spacing: -1.73px;
     margin: 40px auto;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     width: auto;
+}
+  
+  .coll-list-sub-heading {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.21px;
 }
 }
