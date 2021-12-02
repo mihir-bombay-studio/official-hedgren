@@ -69,13 +69,26 @@
             "sub_head_pos": "sub-up",
             "card_extra_txt": ""
           }
+        },
+        "559439cb-d056-47d0-b2eb-6dc32e5ba360": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "regular",
+            "background": "red-bg",
+            "svg": "",
+            "card_subheading": "",
+            "card_heading": "ENERGETIC",
+            "sub_head_pos": "sub-up",
+            "card_extra_txt": ""
+          }
         }
       },
       "block_order": [
         "db655f20-bbb5-4be0-8124-b7e0f7bb17a1",
         "e872144b-8f35-4f85-b98b-e3fc00400756",
         "2734ed6f-7f66-49f8-95ae-fac83315b152",
-        "2072e275-15c0-40f0-9fdc-bd174256c572"
+        "2072e275-15c0-40f0-9fdc-bd174256c572",
+        "559439cb-d056-47d0-b2eb-6dc32e5ba360"
       ],
       "settings": {
         "heading": "How to earn points",
