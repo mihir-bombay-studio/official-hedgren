@@ -97,4 +97,10 @@
     right: unset;
     bottom: -8px;
 }
+  
+  .img-text-text.about-img-text-text {
+    margin-top: -6vh;
+    z-index: 2;
+    margin-left: 8px;
+}
 }
