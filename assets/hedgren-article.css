@@ -190,4 +190,12 @@
     height: 100%;
     top: -28px;
   }
+  
+  .article-title {
+    font-size: 66px;
+    line-height: 65px;
+    letter-spacing: -2.9px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
 }
