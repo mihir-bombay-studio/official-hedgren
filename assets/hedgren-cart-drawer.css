@@ -322,4 +322,8 @@
   .upsell-product-infos {
     width: calc(100% - 96px);
 }
+  
+  .upsell-product-title-price {
+    justify-content: space-between;
+}
 }
