@@ -314,4 +314,8 @@
   .drawer-cart-upsell {
     padding: 16px 20px;
 }
+  
+  .drawer-cart-checkout {
+    padding: 24px 20px 13px;
+}
 }
