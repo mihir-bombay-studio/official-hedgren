@@ -94,4 +94,9 @@
     line-height: 30px;
     letter-spacing: 3.9px;
 }
+  
+  .text-two .about-values-text-text {
+    left: unset;
+    right: 60px;
+}
 }
