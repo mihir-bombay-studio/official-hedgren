@@ -187,12 +187,12 @@
   .heding-arrows {
     width: 80px;
     height: 111px;
+    top: -28px;
 }
   
   .heding-arrows svg{
   	width: 100%;
     height: 100%;
-    top: -28px;
   }
   
   .article-title {
