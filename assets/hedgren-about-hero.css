@@ -62,3 +62,10 @@
   margin-bottom: 3vw;
 }
 }
+
+@media(max-width: 992px){
+	.about-page-heading {
+    width: 100%;
+    padding-top: 40px;
+}
+}
