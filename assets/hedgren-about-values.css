@@ -77,4 +77,10 @@
   .text-one .arrows {
     left: 0;
 }
+  
+  .about-values-heading {
+    margin-bottom: 11px;
+    text-align: right;
+    margin-right: 20px;
+}
 }
