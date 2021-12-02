@@ -285,4 +285,8 @@
     width: 100vw;
     max-width: unset;
   }
+  
+  .cart-headign {
+    margin-left: calc(50% - 71px);
+}
 }
