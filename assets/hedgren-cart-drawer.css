@@ -318,4 +318,8 @@
   .drawer-cart-checkout {
     padding: 24px 20px 13px;
 }
+  
+  .upsell-product-infos {
+    width: calc(100% - 96px);
+}
 }
