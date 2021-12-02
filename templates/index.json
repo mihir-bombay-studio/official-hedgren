@@ -276,7 +276,6 @@
     },
     "1637732040ea16813e": {
       "type": "hedgren-about-hero",
-      "disabled": true,
       "blocks": {
         "353ec5bf-72f5-4eb2-99ea-07f09346e875": {
           "type": "img_over_img",
