@@ -19,3 +19,11 @@
 .hedgren-faq-page-heading-wrapper{
 	margin-bottom: 104px;
 }
+
+@media(max-width: 992px){
+	.faq-filter-title-chev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+}
