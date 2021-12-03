@@ -265,4 +265,12 @@
   .apply-clear-filters-wrap {
     background-color: #DEDEDE;
 }
+  
+  .apply-clear-filters {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    align-items: center;
+    padding: 20px 0 30px;
+}
 }
