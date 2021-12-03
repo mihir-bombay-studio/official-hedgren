@@ -1,4 +1,15 @@
 .hero-products-wrapper.hedgren-collection-products-wrapper{
-	background-color: #000000;
-    padding: 0 0 140px;
+  background-color: #000000;
+  padding: 0 0 140px;
+}
+.hedgren-collection-hero .discover-coll-heading {
+  margin-top: 80px;
+}
+.hedgren-collection-hero .discover-coll-main-heading, .hedgren-collection-hero .side-title {
+  color: #fff;
+}
+.hedgren-collection-hero .discover-coll-main-heading {
+  font-size: 80px;
+  font-family: 'Hedgren-Shift';
+  line-height: 71px;
 }
