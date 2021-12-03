@@ -47,6 +47,49 @@
     <a class="btn btn-center" href="#">All products</a>
     </div>
   </div>
+  <div class="img-text rel flex-box {{ section.settings.order }}">
+    <div class="img-text-text">
+      <h2 class="img-text-text-heading {{ section.settings.heading_color }}">
+        {{ section.settings.heading }}
+      </h2>
+      <div class="img-text-text-subheading">
+        {{ section.settings.subheading }}
+      </div>
+      <div class="img-text-text-content">
+        {{ section.settings.content }}
+      </div>
+      {% if section.settings.button_label %}
+      <a href="{% if section.settings.button_link %}{{section.settings.button_link}}{% else %}#{% endif %}">
+        {{ section.settings.button_label }} {% if section.settings.button_label != blank %}<span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>{% endif %}
+      </a>
+      {% endif %}
+    </div>  
+    <div class="img-text-img rel">
+      <span class="image-overlay">
+        {% include "svg-arrows-big" %}
+      </span>    
+      {%- if section.settings.image != blank -%}
+            <img
+              srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | img_url: '165x' }} 165w,{%- endif -%}
+                {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | img_url: '360x' }} 360w,{%- endif -%}
+                {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | img_url: '535x' }} 535w,{%- endif -%}
+                {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | img_url: '750x' }} 750w,{%- endif -%}
+                {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | img_url: '1070x' }} 1070w,{%- endif -%}
+                {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}
+                {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w"
+              src="{{ section.settings.image | img_url: '1500x' }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="{{ section.settings.image.width }}"
+              height="{{ section.settings.image.height }}"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%} 
+      <div class="extra-text{% if section.settings.order == 'order-normal' %} txt-right{% endif %}">{{ section.settings.extra_txt }}</div>
+    </div>
+  </div>
 </div>
 
 {% schema %}
