@@ -278,6 +278,9 @@
     var fil_len = $('.filter-wrap.selected').length;
     if(fil_len>0){
       $('.applied-filters-wrap').removeClass('no-disp');
+      $('.applied-filter').each(function() {
+      	$(this).remove();
+      });
       $('.filter-wrap.selected').each(function() {
       	var filt_text = $(this).find('.filter-txt').text();
         $('.applied-filters').append(`<div class='applied-filter'>`+filt_text+`<span class='close-icon'><svg xmlns="http://www.w3.org/2000/svg" width="17.414" height="17.414" viewBox="0 0 17.414 17.414">
