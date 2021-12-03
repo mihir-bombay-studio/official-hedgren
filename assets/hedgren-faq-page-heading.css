@@ -30,4 +30,10 @@
   .down-chev {
     margin-bottom: 4px;
 }
+  
+  .faq-filter-title-wrap {
+    background-color: #DEDEDE;
+    padding: 20px 0;
+    margin-top: -40px;
+}
 }
