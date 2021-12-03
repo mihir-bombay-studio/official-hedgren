@@ -273,4 +273,8 @@
     align-items: center;
     padding: 20px 0 30px;
 }
+  
+  .apply-filters-btn {
+    margin: 0;
+}
 }
