@@ -152,6 +152,7 @@
   .hero-img-text-wrapper .img-text.rel.flex-box.no-d {
     margin-top: 0;
     padding-top: 0 !important;
+    padding-bottom: 80px;
 }
   
   .hero-img-text-wrapper.img-text-wrapper.dark-bg .img-text-text-heading{
