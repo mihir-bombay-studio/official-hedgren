@@ -285,4 +285,9 @@
     border-bottom: none;
     margin-bottom: 0;
 }
+  
+  .color-wrap {
+    width: 24%;
+    margin-bottom: 10px;
+}
 }
