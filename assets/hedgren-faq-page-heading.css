@@ -26,4 +26,8 @@
     align-items: center;
     justify-content: space-between;
 }
+  
+  .down-chev {
+    margin-bottom: 4px;
+}
 }
