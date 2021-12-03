@@ -153,4 +153,8 @@
     margin-top: 0;
     padding-top: 0 !important;
 }
+  
+  .hero-img-text-wrapper .img-text-wrapper.dark-bg .img-text-text-heading{
+  	top: 12px;
+  }
 }
