@@ -52,4 +52,8 @@
   .faq-filter-type-wrap {
     border-bottom: 1px solid;
 }
+  
+  .faq-types-wrap {
+    border-top: 1px solid;
+}
 }
