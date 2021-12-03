@@ -247,4 +247,9 @@
     padding-bottom: 12px;
     padding-top: 12px;
 }
+  
+  .filters-dropdown {
+    left: 0;
+    padding-top: 12px;
+}
 }
