@@ -235,6 +235,7 @@
   
   .filter-type-filters {
     flex-direction: column;
+    max-height: unset;
 }
   
   .filter-wrap {
