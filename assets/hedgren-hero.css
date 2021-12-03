@@ -144,4 +144,8 @@
     letter-spacing: -2.9px;
     text-align: center;
 }
+  
+  .hero-img-text-wrapper.img-text-wrapper.dark-bg {
+    background-color: #375d54;
+}
 }
