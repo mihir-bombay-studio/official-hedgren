@@ -261,4 +261,8 @@
     display: flex;
     justify-content: space-between;
 }
+  
+  .apply-clear-filters-wrap {
+    background-color: #DEDEDE;
+}
 }
