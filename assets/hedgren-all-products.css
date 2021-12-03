@@ -234,7 +234,7 @@
 }
   
   .filter-type-filters {
-    flex-direction: column;
+    display: block;
 }
   
   .filter-wrap {
