@@ -23,28 +23,30 @@
     <div class="hero-products">
       {% for product in collection.products limit: 8 %}
       <div class="hero-product">
-        <div class="hero-product-images-block">
-          {% for image in product.images limit: 2 %}
-          <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
-          {% endfor %}
-        </div>
-        <div class="hero-product-text-block">
-          <div class="hero-row">
-            <div class="hero-col">
-              <span class="product-font">
-                {{ product.title }}
-              </span>
-            </div>
-            <div class="hero-col">
-              <span class="product-font">
-                {{ product.price | money }}
-              </span>
-            </div>
+        <div>
+          <div class="hero-product-images-block">
+            {% for image in product.images limit: 2 %}
+            <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+            {% endfor %}
           </div>
-          <div class="hero-row">            
-            <span class="product-tag">
-              Drawstring Backpack RFID
-            </span>
+          <div class="hero-product-text-block">
+            <div class="hero-row">
+              <div class="hero-col">
+                <span class="product-font">
+                  {{ product.title }}
+                </span>
+              </div>
+              <div class="hero-col">
+                <span class="product-font">
+                  {{ product.price | money }}
+                </span>
+              </div>
+            </div>
+            <div class="hero-row">            
+              <span class="product-tag">
+                Drawstring Backpack RFID
+              </span>
+            </div>
           </div>
         </div>
         <div class="hero-product-text-block">
