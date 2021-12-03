@@ -53,6 +53,10 @@
     border-bottom: 1px solid;
 }
   
+  .faq-filter-type-wrap:first-child{
+  	border-top: 1px solid;
+  }
+  
   .faq-types-wrap {
 /*     border-bottom: 1px solid; */
 /*     border-top: 1px solid; */
