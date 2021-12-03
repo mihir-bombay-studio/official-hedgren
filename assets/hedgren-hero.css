@@ -148,4 +148,9 @@
   .hero-img-text-wrapper.img-text-wrapper.dark-bg {
     background-color: #375d54;
 }
+  
+  .hero-img-text-wrapper .img-text.rel.flex-box.no-d {
+    margin-top: 0;
+    padding-top: 0 !important;
+}
 }
