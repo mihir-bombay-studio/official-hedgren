@@ -57,8 +57,7 @@
   	border-top: 1px solid;
   }
   
-  .faq-types-wrap {
-/*     border-bottom: 1px solid; */
-/*     border-top: 1px solid; */
-}
+  .types-of-faq-mob{
+  	margin-bottom: 40px;
+  }
 }
