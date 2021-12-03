@@ -24,6 +24,9 @@
   width: 100%;
 }
 /* the slides */
+.hero-products .slick-track {
+  display: flex;
+}
 .hero-products .slick-slide {
   margin: 0 10px;
   height: inherit;
