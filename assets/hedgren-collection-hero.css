@@ -16,3 +16,7 @@
 .hedgren-collection-hero .discover-coll-sub-heading {
   color: #DEDEDE
 }
+.hedgren-collection-hero::before {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4542191876750701) 35%, rgba(0,0,0,0) 100%);
+}
