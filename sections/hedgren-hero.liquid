@@ -1,4 +1,5 @@
 {{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-img-text.css' | asset_url | stylesheet_tag }}
 
 <div class="hero" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
   <div class="container flex-box justify-end">
@@ -47,7 +48,10 @@
     <a class="btn btn-center" href="#">All products</a>
     </div>
   </div>
-  <div class="img-text rel flex-box no-t-m">
+</div>
+<div class="hero-img-text">
+  <div class="container">
+ <div class="img-text rel flex-box no-t-m">
     <div class="img-text-text">
       <h2 class="img-text-text-heading">
         Hedgrenist
@@ -69,6 +73,7 @@
       <img src="{{ 'img.png' | asset_img_url: '600x' }}">
       <div class="extra-text{% if section.settings.order == 'order-normal' %} txt-right{% endif %}">{{ section.settings.extra_txt }}</div>
     </div>
+  </div>
   </div>
 </div>
 
