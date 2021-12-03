@@ -36,4 +36,13 @@
     padding: 20px 0;
     margin-top: -40px;
 }
+  
+  .faq-filter-type{
+  	font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.21px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+  }
 }
