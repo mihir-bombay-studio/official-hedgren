@@ -1,1 +1,119 @@
-{"sections":{"banner":{"type":"main-collection-banner","disabled":true,"settings":{"show_collection_description":true,"show_collection_image":false}},"product-grid":{"type":"main-collection-product-grid","disabled":true,"settings":{"products_per_page":16,"image_ratio":"adapt","show_secondary_image":false,"add_image_padding":false,"show_image_outline":true,"show_vendor":false,"show_rating":false,"enable_filtering":true,"enable_sorting":true,"collapse_on_larger_devices":false}},"1637649148751d55cf":{"type":"hedgren-collection-hero","settings":{"image":"shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png","heading_left":"","heading_main":"","heading_right":"","sub_heading":""}},"16376533746a8281c3":{"type":"hedgren-collection-features","blocks":{"fd724b7d-f600-4f97-87e1-83b05e4acebd":{"type":"feature","settings":{"feature_img":"shopify:\/\/shop_images\/Image_2x_96d15e0d-f319-4820-81a0-874f8fbcd915.png","feature_title":"Sustainable materials","feature_text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"}}},"block_order":["fd724b7d-f600-4f97-87e1-83b05e4acebd"],"settings":{"background":"dark-bg","heading":"Discover features"}},"1637657831ee9ef62f":{"type":"hedgren-img-text","settings":{"background":"normal-bg","order":"order-normal","heading_color":"regular","image":"shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png","heading":"The story","subheading":"","content":"Our <span class=\"red-txt\">Great American Heritage<\/span> collection is back! This legendary collection, which was first released in 1994, has been <span class=\"red-txt\">reinvented<\/span> and customized to suit your needs even better. All our bags are made with you in mind, with the aim of enabling you to move freely and stylishly.\n<br><br>\nBut that’s not all. Every single item within this collection is made of <span class=\"red-txt\">sustainable<\/span> recycled materials, both inside and out. This way, we ensure that we have a minimum impact on the environment.","button_label":"","button_link":"","extra_txt":""}},"1637658320f19f8e7c":{"type":"hedgren-discover-collection","blocks":{"13021447-4b2d-470a-aee2-66f69c98fa2e":{"type":"collect","settings":{"coll":"great-american-heritage"}},"23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8":{"type":"collect","settings":{"coll":"cabin-size"}},"2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3":{"type":"collect","settings":{"coll":"aura"}},"1ed8fe6f-6171-47fc-a151-13c318a5e2e3":{"type":"collect","settings":{"coll":"charm-business"}},"f657a88c-b943-44c3-a8c7-16c9811d888d":{"type":"collect","settings":{"coll":"luggage"}},"3a0a04e6-8f94-49cd-8d5a-a9457f1b6755":{"type":"collect","settings":{"coll":"diamond-star"}},"a726fe23-c473-4920-8305-df6d75419a8b":{"type":"collect","settings":{"coll":"commute"}},"8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df":{"type":"collect","settings":{"coll":"escapade-1"}}},"block_order":["13021447-4b2d-470a-aee2-66f69c98fa2e","23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8","2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3","1ed8fe6f-6171-47fc-a151-13c318a5e2e3","f657a88c-b943-44c3-a8c7-16c9811d888d","3a0a04e6-8f94-49cd-8d5a-a9457f1b6755","a726fe23-c473-4920-8305-df6d75419a8b","8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df"],"settings":{"title_left":"1994","title_mid":"Discover our collections","title_right":"2021","subtitle":"SUBTITLE"}},"16381766261c7dbe21":{"type":"hedgren-all-products","settings":{}}},"order":["banner","product-grid","1637649148751d55cf","16376533746a8281c3","1637657831ee9ef62f","1637658320f19f8e7c","16381766261c7dbe21"]}
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1637649148751d55cf": {
+      "type": "hedgren-collection-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
+        "heading_left": "",
+        "heading_main": "",
+        "heading_right": "",
+        "sub_heading": ""
+      }
+    },
+    "1637658320f19f8e7c": {
+      "type": "hedgren-discover-collection",
+      "blocks": {
+        "13021447-4b2d-470a-aee2-66f69c98fa2e": {
+          "type": "collect",
+          "settings": {
+            "coll": "great-american-heritage"
+          }
+        },
+        "23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8": {
+          "type": "collect",
+          "settings": {
+            "coll": "cabin-size"
+          }
+        },
+        "2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3": {
+          "type": "collect",
+          "settings": {
+            "coll": "aura"
+          }
+        },
+        "1ed8fe6f-6171-47fc-a151-13c318a5e2e3": {
+          "type": "collect",
+          "settings": {
+            "coll": "charm-business"
+          }
+        },
+        "f657a88c-b943-44c3-a8c7-16c9811d888d": {
+          "type": "collect",
+          "settings": {
+            "coll": "luggage"
+          }
+        },
+        "3a0a04e6-8f94-49cd-8d5a-a9457f1b6755": {
+          "type": "collect",
+          "settings": {
+            "coll": "diamond-star"
+          }
+        },
+        "a726fe23-c473-4920-8305-df6d75419a8b": {
+          "type": "collect",
+          "settings": {
+            "coll": "commute"
+          }
+        },
+        "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df": {
+          "type": "collect",
+          "settings": {
+            "coll": "escapade-1"
+          }
+        }
+      },
+      "block_order": [
+        "13021447-4b2d-470a-aee2-66f69c98fa2e",
+        "23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8",
+        "2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3",
+        "1ed8fe6f-6171-47fc-a151-13c318a5e2e3",
+        "f657a88c-b943-44c3-a8c7-16c9811d888d",
+        "3a0a04e6-8f94-49cd-8d5a-a9457f1b6755",
+        "a726fe23-c473-4920-8305-df6d75419a8b",
+        "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df"
+      ],
+      "settings": {
+        "title_left": "1994",
+        "title_mid": "Discover our collections",
+        "title_right": "2021",
+        "subtitle": "SUBTITLE"
+      }
+    },
+    "16381766261c7dbe21": {
+      "type": "hedgren-all-products",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1637649148751d55cf",
+    "1637658320f19f8e7c",
+    "16381766261c7dbe21"
+  ]
+}
