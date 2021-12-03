@@ -21,12 +21,12 @@
   <div class="types-of-faq-mob no-d">
       <div class="faq-filter-title-wrap">
         <div class="container">
-          <div class="faq-filter-title-chev">
+          <div class="faq-filter-title-chev accordion">
             SUBJECT <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
           </div>
         </div>
       </div>
-    <div class="faq-types-wrap">
+    <div class="faq-types-wrap panel">
       {% for block in section.blocks %}
       {% if block.type == 'faq_type' %}
       <div class="faq-filter-type-wrap">
