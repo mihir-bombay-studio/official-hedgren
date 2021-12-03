@@ -42,11 +42,17 @@
 
 <script>
   
- 
+  var acc = document.getElementsByClassName("faq-types-wrap");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          var panel = document.getElementsByClassName("faq-filter-type-wrap");
+         
+            panel.style.maxHeight = null;
+        });
+      }
   
-  $('.faq-filter-type-wrap').click(function() {
-    $(this).parent().height(0);
-  });
 </script>
 
 
