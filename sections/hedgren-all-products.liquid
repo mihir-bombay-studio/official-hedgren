@@ -279,7 +279,7 @@
     if(fil_len>0){
       $('.filter-wrap.selected').each(function() {
       	var filt_text = $(this).find('.filter-txt').text();
-        $('.applied-filters').append("<div class='applied-filter'>"+filt_text+"<span class='close-icon'>{% include 'icon-close-new' %}</span></div>");
+        $('.applied-filters').append("<div class='applied-filter'>"+filt_text+"<span class='close-icon'>"+{% include 'icon-close-new' %}+"</span></div>");
       });
     }
     console.log(fil_len);
