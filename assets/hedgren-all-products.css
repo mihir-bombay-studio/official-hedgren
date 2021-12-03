@@ -240,4 +240,11 @@
   .filter-wrap {
     width: 100%;
 }
+  
+  .filter-type {
+    margin-bottom: 12px;
+    border-bottom: 1px solid;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
 }
