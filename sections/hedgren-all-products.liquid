@@ -297,6 +297,9 @@
   
   $('.clear-filters').click(function() {
   	$('.applied-filters-wrap').addClass('no-disp');
+    $('.filter-wrap').each(function() {
+    	$(this).removeClass('selected');
+    });
   });
   
 </script>
