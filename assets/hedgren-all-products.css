@@ -210,4 +210,11 @@
   .all-products .hero-product-text-block {
     padding: 8px 0 0 0;
 }
+  
+  .filter-sort-products {
+    border: none;
+    margin: 0 -20px;
+    padding: 16px 20px 0;
+    background-color: #DEDEDE;
+}
 }
