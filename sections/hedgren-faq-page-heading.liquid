@@ -41,6 +41,10 @@
 </div>
 
 <script>
+  $('.faq-filter-title-wrap').click(function() {
+  	$(this).next().height(100);
+  });
+  
   $('.faq-filter-type-wrap').click(function() {
     $(this).parent().height(0);
   });
