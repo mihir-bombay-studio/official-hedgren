@@ -157,4 +157,10 @@
   .hero-img-text-wrapper.img-text-wrapper.dark-bg .img-text-text-heading{
   	top: 12px;
   }
+  
+  .hero-img-text-wrapper .img-text-text-subheading.hero-img-text-text-subheading {
+    font-size: 36px;
+    line-height: 35px;
+    letter-spacing: 0.11px;
+}
 }
