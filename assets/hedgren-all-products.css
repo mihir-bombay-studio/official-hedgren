@@ -232,4 +232,8 @@
   .filters-dropdown-wrap {
     flex-direction: column;
 }
+  
+  .filter-type-filters {
+    flex-direction: column;
+}
 }
