@@ -278,4 +278,11 @@
   .apply-filters-btn {
     margin: 0;
 }
+  
+  .color-options {
+    flex-wrap: wrap;
+    padding: unset;
+    border-bottom: none;
+    margin-bottom: 0;
+}
 }
