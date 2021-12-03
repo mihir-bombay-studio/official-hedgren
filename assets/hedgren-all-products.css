@@ -340,4 +340,8 @@
   .sort-wrap{
   	top: 66px;
   }
+  
+  .applied-filters-wrap{
+  	border-bottom: none;
+  }
 }
