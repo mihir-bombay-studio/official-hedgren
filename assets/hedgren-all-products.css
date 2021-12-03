@@ -230,6 +230,13 @@
     flex-wrap: wrap;
 }
 
+.applied-filter {
+    font-size: 13px;
+    line-height: 18px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
 @media(max-width: 992px){
 	.all-products {
     margin: 0 -1%;
