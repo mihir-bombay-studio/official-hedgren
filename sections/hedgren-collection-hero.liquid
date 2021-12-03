@@ -74,23 +74,20 @@
 
 
 
-<div class="img-text-wrapper {{ section.settings.background }}" {% if section.settings.bg_color %}style="background-color:{{section.settings.bg_color}};"{% endif %}>
-  <div class="img-text container rel flex-box {{ section.settings.order }} {{ section.settings.margin_top }} {{ section.settings.margin_bottom }} {{ section.settings.padding_top }} {{ section.settings.padding_bottom }}">
+<div class="img-text-wrapper normal-bg">
+  <div class="img-text container rel flex-box order-normal normal-top normal-bottom">
     <div class="img-text-text">
-      <h2 class="img-text-text-heading {{ section.settings.heading_color }}">
-        {{ section.settings.heading }}
+      <h2 class="img-text-text-heading regular">
+        The Story
       </h2>
       <div class="img-text-text-subheading">
         {{ section.settings.subheading }}
       </div>
       <div class="img-text-text-content">
-        {{ section.settings.content }}
+        Our <span class="red-txt">Great American Heritage</span> collection is back! This legendary collection, which was first released in 1994, has been <span class="red-txt">reinvented</span> and customized to suit your needs even better. All our bags are made with you in mind, with the aim of enabling you to move freely and stylishly.
+        <br><br>
+        But that’s not all. Every single item within this collection is made of <span class="red-txt">sustainable</span> recycled materials, both inside and out. This way, we ensure that we have a minimum impact on the environment.
       </div>
-      {% if section.settings.button_label %}
-      <a href="{% if section.settings.button_link %}{{section.settings.button_link}}{% else %}#{% endif %}">
-        {{ section.settings.button_label }} {% if section.settings.button_label != blank %}<span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>{% endif %}
-      </a>
-      {% endif %}
     </div>  
     <div class="img-text-img rel">
       <span class="image-overlay">
@@ -115,7 +112,6 @@
           {%- else -%}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%} 
-      <div class="extra-text{% if section.settings.order == 'order-normal' %} txt-right{% endif %}">{{ section.settings.extra_txt }}</div>
     </div>
   </div>
 </div>
