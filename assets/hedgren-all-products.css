@@ -236,4 +236,8 @@
   .filter-type-filters {
     flex-direction: column;
 }
+  
+  .filter-wrap {
+    width: 100%;
+}
 }
