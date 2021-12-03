@@ -26,6 +26,11 @@
 /* the slides */
 .hero-products .slick-slide {
   margin: 0 10px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
 }
 .hero-products-wrapper {
   background-color: #375d54;
