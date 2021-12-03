@@ -265,6 +265,7 @@
   .apply-clear-filters-wrap {
     background-color: #DEDEDE;
     margin-top: 15vh;
+    border-top: 1px solid;
 }
   
   .apply-clear-filters {
