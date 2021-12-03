@@ -15,7 +15,91 @@
 
 <div class="all-products-wrapper">
   <div class="container">
-    <div class="filter-sort-products rel">
+    <div class="filter-sort-products rel no-t-m">
+      <div class="filters filters-filter">FILTER <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
+      	
+         <div class="filters-dropdown">
+        <div class="filters-dropdown-wrap">
+        <div class="filter-dropdown-left">
+        <div class="filter-type">
+          <div class="filter-type-title">TYPE OF BAG</div>
+          <div class="filter-type-filters">
+          {% for i in (1..13) %}
+          <div class="filter-wrap">
+            <div class="filter-checkbox"></div>
+            <div class="filter-txt">Cross over</div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+        </div>
+        <div class="filter-dropdown-right">
+          <div class="filter-dropdown-right-left">
+          	<div class="filter-type">
+          <div class="filter-type-title">TYPE OF LUGGAGE</div>
+          <div class="filter-type-filters">
+          {% for i in (1..4) %}
+          <div class="filter-wrap">
+            <div class="filter-checkbox"></div>
+            <div class="filter-txt">Cabin luggage</div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+            <div class="filter-type">
+          <div class="filter-type-title">LENGTH OF STAY</div>
+          <div class="filter-type-filters">
+          {% for i in (1..4) %}
+          <div class="filter-wrap">
+            <div class="filter-checkbox"></div>
+            <div class="filter-txt">Daytrip</div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+          </div>
+          <div class="filter-dropdown-right-right">
+            <div class="filter-type">
+          <div class="filter-type-title">FEATURES</div>
+          <div class="filter-type-filters">
+          {% for i in (1..4) %}
+          <div class="filter-wrap">
+            <div class="filter-checkbox"></div>
+            <div class="filter-txt">Feature</div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+            <div class="filter-type">
+          <div class="filter-type-title">SHOP FOR THE HEDGRENIST</div>
+          <div class="filter-type-filters">
+          {% for i in (1..4) %}
+          <div class="filter-wrap">
+            <div class="filter-checkbox"></div>
+            <div class="filter-txt">A parent person</div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+          </div>
+        	
+        </div>
+        </div>
+        <div class="apply-filters-btn">APPLY FILTER</div>
+      </div>
+        
+      </div>
+     
+      <div class="filters sort-title-wrap">SORT <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
+        <div class="sort-wrap">
+          <div class="sort new-first">Newest first</div>
+          <div class="sort bestsellers">Bestsellers</div>
+          <div class="sort ltoh">Price, low - high</div>
+          <div class="sort htol">Price, high - low</div>
+        </div>
+      </div>
+    </div>
+    <div class="filter-sort-products rel no-d">
       <div class="filters filters-filter">FILTER <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
       	
          <div class="filters-dropdown">
