@@ -108,7 +108,7 @@
       {% endfor %}
     </div>
     <div class="all-products">
-      {% for product in collections.all.products limit: 8 %}
+      {% for product in collection.products %}
       <div class="hero-product">
         <div class="hero-product-images-block rel">
           {% for image in product.images limit: 2 %}
