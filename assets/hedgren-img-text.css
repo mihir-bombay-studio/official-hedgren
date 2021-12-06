@@ -123,6 +123,19 @@
 }
 
 @media(max-width: 992px){
+  
+.p-normal-bottom {
+  padding-bottom: 80px;
+}
+.p-half-bottom {
+  padding-bottom: 40px;
+}
+.p-normal-top {
+  padding-top: 80px;
+}
+.p-half-top {
+  padding-top: 40px;
+}
 	.img-text {
       flex-direction: column-reverse;
 }
