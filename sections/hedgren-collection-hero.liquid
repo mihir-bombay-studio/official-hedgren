@@ -77,7 +77,7 @@
     <div class="feature-subtitle no-d">SELECT A BAG</div>
     <div class="features-filter-wrap flex-box">
       {% for block in section.blocks %}
-      <div class="filter {% if forloop.first %}selected{% endif %}">
+      <div class="filter {% if forloop.first %}selected{% endif %}" data-show="collection-features{{ forloop.index }}">
         <div class="filter-img"><img src="{{ block.settings.bag | image_url: width: 100 }}"></div>
         <div class="filter-name">{{ block.settings.name }}</div>
       </div>
@@ -85,7 +85,7 @@
       <div class="feature-subtitle no-t-m">SELECT A BAG</div>
     </div>
     {% for block in section.blocks %}
-    <div class="collection-features flex-box {% unless forloop.first %}no-disp{% endunless %}">
+    <div class="collection-features flex-box {% unless forloop.first %}no-disp{% endunless %} collection-features{{ forloop.index }}">
       {% if block.settings.feature_heading1 != blank %}
       <div class="feature-card selected">
         <div class="feature-img">
