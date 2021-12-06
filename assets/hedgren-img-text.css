@@ -1,14 +1,9 @@
+
 .img-text-wrapper.dark-bg {
   background-color: #000000;
 }
 .img-text {
   justify-content: space-between;
-  margin-top: 160px;
-}
-.img-text-wrapper.dark-bg .img-text {
-  margin-top: 160px;
-/*   margin-top: 0; */
-  padding: 160px 0;
 }
 .img-text-wrapper.dark-bg .image-overlay svg {
   fill: #fff;
@@ -89,6 +84,42 @@
 
 .extra-text.txt-right{
 	text-align: right;
+}
+.normal-top {
+  margin-top: 160px;
+}
+.half-top {
+  margin-top: 80px;
+}
+.no-top {
+  margin-top: 0;
+}
+.normal-bottom {
+  margin-bottom: 160px;
+}
+.half-bottom {
+  margin-bottom: 80px;
+}
+.no-bottom {
+  margin-bottom: 0;
+}
+.p-normal-top {
+  padding-top: 160px;
+}
+.p-half-top {
+  padding-top: 80px;
+}
+.p-no-top {
+  padding-top: 0;
+}
+.p-normal-bottom {
+  padding-bottom: 160px;
+}
+.p-half-bottom {
+  padding-bottom: 80px;
+}
+.p-no-bottom {
+  padding-bottom: 0;
 }
 
 @media(max-width: 992px){

@@ -6,6 +6,26 @@
         "image": "shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png"
       }
     },
+    "1638356576387ca461": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "dark-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/IMage_2x_7b935bfc-a347-41d3-a170-722f41f36aff.png",
+        "heading": "Hedgrenist",
+        "subheading": "stories",
+        "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur",
+        "button_label": "READ STORY",
+        "button_link": "shopify:\/\/blogs\/blog",
+        "extra_txt": "",
+        "margin_top": "no-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-half-top",
+        "padding_bottom": "p-normal-bottom",
+        "bg_color": "#375d54"
+      }
+    },
     "163757919167ffebdf": {
       "type": "hedgren-discover-collection",
       "blocks": {
@@ -66,7 +86,12 @@
         "content": "Be rewarded for the bag addict you are! Gain access to rewards, special offers, exclusive events and company intel.",
         "button_label": "JOIN TODAY",
         "button_link": "\/account",
-        "extra_txt": ""
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
       }
     },
     "163671749709f642b4": {
@@ -81,7 +106,12 @@
         "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur",
         "button_label": "READ OUR STORY",
         "button_link": "",
-        "extra_txt": ""
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "no-bottom",
+        "padding_top": "p-normal-top",
+        "padding_bottom": "p-half-bottom",
+        "bg_color": ""
       }
     },
     "16367175460d53cf07": {
@@ -96,7 +126,12 @@
         "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur",
         "button_label": "READ THE STORIES",
         "button_link": "",
-        "extra_txt": ""
+        "extra_txt": "",
+        "margin_top": "no-top",
+        "margin_bottom": "no-bottom",
+        "padding_top": "p-normal-top",
+        "padding_bottom": "p-normal-bottom",
+        "bg_color": ""
       }
     },
     "163758822799304a91": {
@@ -276,6 +311,7 @@
     },
     "1637732040ea16813e": {
       "type": "hedgren-about-hero",
+      "disabled": true,
       "blocks": {
         "353ec5bf-72f5-4eb2-99ea-07f09346e875": {
           "type": "img_over_img",
@@ -299,6 +335,7 @@
     },
     "16377374959756b2a0": {
       "type": "hedgren-img-text",
+      "disabled": true,
       "settings": {
         "background": "dark-bg",
         "order": "order-reversed",
@@ -309,11 +346,17 @@
         "content": "Regardless of in-between distances, within our global network we will always be connected by the 6 values that lie embedded in our Hedgren DNA. And we will always be open to include everybody <br><br>who shares our values in our family circle. Therefore we look at people with an open mind. We respect their personality and personal style and we’re always ready to fulfil their desire to belong.",
         "button_label": "",
         "button_link": "",
-        "extra_txt": ""
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
       }
     },
     "16377402112d16d687": {
       "type": "hedgren-about-values",
+      "disabled": true,
       "settings": {
         "background": "dark-bg",
         "heading": "We are",
@@ -324,6 +367,7 @@
     },
     "1637741742b6e6125e": {
       "type": "hedgren-img-text",
+      "disabled": true,
       "settings": {
         "background": "dark-bg",
         "order": "order-normal",
@@ -334,11 +378,17 @@
         "content": "It’s our mission to create essential bags and travel gear with smart functionality that helps you handle everyday adventures without compromising on your personality or freedom to move.<br><br> We promise that you will become part of an inclusive community that creates and embraces an endless portion of wanderlust.<br><br> We help you to get the most out of life by enabling your freedom of movement.",
         "button_label": "",
         "button_link": "",
-        "extra_txt": ""
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
       }
     },
     "1637742644c576d5fd": {
       "type": "hedgren-half-hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
         "heading_main": "Get addicted!",
@@ -405,6 +455,7 @@
     },
     "16378181835936a9a9": {
       "type": "hedgren-contact",
+      "disabled": true,
       "settings": {
         "heading": "Contact us",
         "contact_text": "If you have a remark, question or anything else we can help you with please fill in the form and we’ll get back to you asap.",
@@ -412,6 +463,13 @@
         "address": "Ankerrui 2<br> 2000 Antwerpen<br> Belgium",
         "contact_info_heading": "Contact Information",
         "contact_info": "Tel: <span class=\"tel\">+32 (0)15 300 560<\/span><br><br> We can be reached by telephone during office hours. Monday to Thursday between 9 AM &amp; 5 PM CET. Friday between 9 AM &amp; 4 PM CET."
+      }
+    },
+    "16378226154b875f73": {
+      "type": "hedgren-map",
+      "disabled": true,
+      "settings": {
+        "heading": "Find your store"
       }
     },
     "16378264917c8079bd": {
@@ -426,6 +484,7 @@
     },
     "16378358284111b380": {
       "type": "hedgren-faq-page-heading",
+      "disabled": true,
       "blocks": {
         "24974ec3-f57b-40f3-af23-3dd684c6c7bf": {
           "type": "faq_type",
@@ -478,6 +537,7 @@
     },
     "16378373813177f295": {
       "type": "hedgren-faq",
+      "disabled": true,
       "blocks": {
         "7bb2b86c-e1fa-455b-824e-7392f2c375b4": {
           "type": "faq",
@@ -505,49 +565,11 @@
         "button_label": "OTHER QUESTION? CONTACT US",
         "button_link": "shopify:\/\/pages\/contact-us"
       }
-    },
-    "1637837522d42e2fae": {
-      "type": "hedgren-faq",
-      "blocks": {
-        "7f978e9e-036d-4012-a1d5-cc26cfe12328": {
-          "type": "faq",
-          "settings": {
-            "question": "I want to return the order for a refund, what should I do?",
-            "answer": "I want to return the order for a refund, what should I do?"
-          }
-        },
-        "7ad871a1-f6a5-4888-8291-2d7ea848f88c": {
-          "type": "faq",
-          "settings": {
-            "question": "I want to return the order for a refund, what should I do?",
-            "answer": "I want to return the order for a refund, what should I do?"
-          }
-        }
-      },
-      "block_order": [
-        "7f978e9e-036d-4012-a1d5-cc26cfe12328",
-        "7ad871a1-f6a5-4888-8291-2d7ea848f88c"
-      ],
-      "settings": {
-        "background": "normal-bg",
-        "heading": "Returns",
-        "sec_id": "returns",
-        "button_label": "OTHER QUESTION? CONTACT US",
-        "button_link": ""
-      }
-    },
-    "1638355103e0d38569": {
-      "type": "hedgren-policies",
-      "settings": {
-        "heading_left": "1994",
-        "heading": "Privacy Policy",
-        "heading_right": "2021",
-        "content": "This privacy Policy governs the processing of your personal data by HEDGREN CREATIONS NV, Grote Steenweg 50, 2550 Kontich - Belgium when you visit HEDGREN E-Store. HEDGREN respects your privacy and strives to conform to the rules rules under applicable EU Regulation. Note : If you want general information on how we process your personal data through cookies, please refer to our Cookie Policy."
-      }
     }
   },
   "order": [
     "16371340368797eed8",
+    "1638356576387ca461",
     "163757919167ffebdf",
     "1636701628c3f2b6f2",
     "163671749709f642b4",
@@ -562,10 +584,9 @@
     "1637742644c576d5fd",
     "1637756153eb6098f2",
     "16378181835936a9a9",
+    "16378226154b875f73",
     "16378264917c8079bd",
     "16378358284111b380",
-    "16378373813177f295",
-    "1637837522d42e2fae",
-    "1638355103e0d38569"
+    "16378373813177f295"
   ]
 }

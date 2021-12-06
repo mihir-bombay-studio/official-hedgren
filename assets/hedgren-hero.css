@@ -3,7 +3,7 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-  max-height: 100vh;
+  max-height: calc( 100vh - 135px);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,8 +24,16 @@
   width: 100%;
 }
 /* the slides */
+.hero-products .slick-track {
+  display: flex;
+}
 .hero-products .slick-slide {
   margin: 0 10px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
 }
 .hero-products-wrapper {
   background-color: #375d54;
