@@ -425,50 +425,47 @@
   opacity: 1;
 }
 
-@media (max-width: 992px){
-  .hero-products .slick-next{
-  	top: auto;
-    bottom: -32px;
-  }
-  
-  .hero-products .slick-prev{
-  	top: auto;
-    bottom: -32px;
-  }
-  
-  .slick-next:before, .slick-prev:before {
-    content: url({{ "arrow_1_small.svg" | asset_url }});
+.featured-collections .slick-next:before, .featured-collections .slick-prev:before, .testimonials .slick-next:before, .testimonials .slick-prev:before {
+  content: url({{ "arrow_1_small_black.svg" | asset_url }});
 }
-  
-  
-  .slick-prev:hover:before,
-.slick-next:hover:before
-{
-  content: url({{ "arrow_1_small.svg" | asset_url }}) !important;
-}
-  
-  .featured-collections .slick-next, .featured-collections .slick-prev{
-  	top: auto;
-    bottom: -32px;
-  }
-  
-  
-  .featured-collections .slick-next:before, .featured-collections .slick-prev:before, .testimonials .slick-next:before, .testimonials .slick-prev:before {
-    content: url({{ "arrow_1_small_black.svg" | asset_url }});
-}
-  
-  
-  .featured-collections .slick-prev:hover:before,
+
+
+.featured-collections .slick-prev:hover:before,
 .featured-collections .slick-next:hover:before, .testimonials .slick-next:before, .testimonials .slick-prev:before
 {
   content: url({{ "arrow_1_small_black.svg" | asset_url }}) !important;
 }
-  
-  .testimonials .slick-next, .testimonials .slick-prev{
-  	top: auto;
+@media (max-width: 992px){
+  .hero-products .slick-next{
+    top: auto;
     bottom: -32px;
   }
-  
+
+  .hero-products .slick-prev{
+    top: auto;
+    bottom: -32px;
+  }
+
+  .slick-next:before, .slick-prev:before {
+    content: url({{ "arrow_1_small.svg" | asset_url }});
+  }  
+
+  .slick-prev:hover:before,
+  .slick-next:hover:before
+  {
+    content: url({{ "arrow_1_small.svg" | asset_url }}) !important;
+  }
+
+  .featured-collections .slick-next, .featured-collections .slick-prev{
+    top: auto;
+    bottom: -32px;
+  }
+
+  .testimonials .slick-next, .testimonials .slick-prev{
+    top: auto;
+    bottom: -32px;
+  }
+
   .hedgren-collection-products-wrapper .hero-products .slick-next, .hedgren-collection-products-wrapper .hero-products .slick-prev{
     top: auto;
     bottom: -32px;
