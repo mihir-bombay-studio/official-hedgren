@@ -31,5 +31,12 @@
     margin-bottom: 92px;
 }
   
-  
+  .next-btn-text {
+    bottom: 130px;
+    left: unset;
+    right: 31px;
+    font-size: 6px;
+    line-height: 8px;
+    letter-spacing: 1.02px;
+}
 }
