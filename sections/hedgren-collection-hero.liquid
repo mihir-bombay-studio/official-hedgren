@@ -86,7 +86,7 @@
     </div>
     <div class="collection-features flex-box">
       {% for block in section.blocks %}
-      {% if block.settings.feature_heading1 %}
+      {% if block.settings.feature_heading1 != blank %}
       <div class="feature-card selected">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img1 | image_url: width: 350 }}">
@@ -97,7 +97,7 @@
         </div>
       </div>
       {% endif %}
-      {% if block.settings.feature_heading2 %}
+      {% if block.settings.feature_heading2 != blank %}
       <div class="feature-card">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img2 | image_url: width: 350 }}">
@@ -108,7 +108,7 @@
         </div>
       </div>
       {% endif %}
-      {% if block.settings.feature_heading3 %}
+      {% if block.settings.feature_heading3 != blank %}
       <div class="feature-card">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img3 | image_url: width: 350 }}">
@@ -119,7 +119,7 @@
         </div>
       </div>
       {% endif %}
-      {% if block.settings.feature_heading4 %}
+      {% if block.settings.feature_heading4 != blank %}
       <div class="feature-card">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img4 | image_url: width: 350 }}">
@@ -141,7 +141,7 @@
         </div>
       </div>
       {% endif %}
-      {% if block.settings.feature_heading6 %}
+      {% if block.settings.feature_heading6 != blank %}
       <div class="feature-card">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img6 | image_url: width: 350 }}">
