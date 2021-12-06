@@ -456,6 +456,16 @@
     content: url({{ "arrow_1_small.svg" | asset_url }}) !important;
   }
 
+.featured-collections .slick-next:before, .featured-collections .slick-prev:before, .testimonials .slick-next:before, .testimonials .slick-prev:before {
+  content: url({{ "arrow_1_small_black.svg" | asset_url }});
+}
+
+
+.featured-collections .slick-prev:hover:before,
+.featured-collections .slick-next:hover:before, .testimonials .slick-next:before, .testimonials .slick-prev:before
+{
+  content: url({{ "arrow_1_small_black.svg" | asset_url }}) !important;
+}
   .featured-collections .slick-next, .featured-collections .slick-prev{
     top: auto;
     bottom: -32px;
