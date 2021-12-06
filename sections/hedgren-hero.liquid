@@ -7,18 +7,22 @@
     </h1>
   </div>
 </div>
+{% if section.settings.collection %}
 <div class="hero-products-wrapper hedgren-collection-products-wrapper">
   <div class="container rel">
     <div class="product-slider-wrap">
     <div class="hero-products">
-      {% for product in collections.all.products limit: 8 %}
+      {% for product in section.settings.collection.products limit: 8 %}
       <div class="hero-product">
         <div class="hero-product-images-block">
+          <a href="{{ product.url }}">
           {% for image in product.images limit: 2 %}
           <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
           {% endfor %}
+          </a>
         </div>
         <div class="hero-product-text-block">
+          <a href="{{ product.url }}">
           <div class="hero-row">
             <div class="hero-col">
               <span class="product-font">
@@ -31,6 +35,7 @@
               </span>
             </div>
           </div>
+          </a>
           <div class="hero-row">            
             <span class="product-tag">
               {{ product.tags.first }}
@@ -48,6 +53,7 @@
     </div>
   </div>
 </div>
+{% endif %}
 
 {% schema %}
   {
@@ -75,6 +81,11 @@
         "id": "moretext",
         "label": "More button text",
 		"default": "More info"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Select Collection"
       },
       {
         "type": "text",
