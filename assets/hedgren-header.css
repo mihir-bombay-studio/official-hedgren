@@ -217,7 +217,7 @@ main#MainContent {
 
   .container{
     max-width: none !important;
-    padding: 0 20px !important;
+    padding: 0 20px;
   }
 
   .dropdown-1 a {
