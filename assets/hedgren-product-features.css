@@ -30,4 +30,13 @@
 	.product-features-wrapper {
     margin-bottom: 92px;
 }
+  
+  .feature-imgs .slick-next {
+    right: 115px;
+    left: unset;
+    top: unset;
+    bottom: 150
+px
+;
+}
 }
