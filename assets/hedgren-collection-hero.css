@@ -27,3 +27,10 @@
   width: 100%;
   height: 40vh;
 }
+@media (max-width: 992px) {
+  .hedgren-collection-hero .discover-coll-main-heading {
+    font-size: 36px;
+    font-family: Hedgren-Shift;
+    line-height: 40px;
+  }
+}
