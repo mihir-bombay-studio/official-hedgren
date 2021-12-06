@@ -102,18 +102,12 @@
         "title_right": "2021",
         "subtitle": "SUBTITLE"
       }
-    },
-    "16381766261c7dbe21": {
-      "type": "hedgren-all-products",
-      "settings": {
-      }
     }
   },
   "order": [
     "banner",
     "product-grid",
     "1637649148751d55cf",
-    "1637658320f19f8e7c",
-    "16381766261c7dbe21"
+    "1637658320f19f8e7c"
   ]
 }
