@@ -146,14 +146,17 @@
 }
 
 @media(max-width: 992px){
-  
+
   .hero {
     height: calc(90vh - 135px);
-}
-	.hero-text {
+  }
+  .hero-text {
     font-size: 66px;
     line-height: 65px;
     letter-spacing: -2.9px;
     text-align: center;
-}
+  }
+  .hero-products .slick-slide {
+    margin: 0;
+  }
 }
