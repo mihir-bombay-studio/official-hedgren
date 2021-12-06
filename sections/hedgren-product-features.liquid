@@ -35,9 +35,11 @@
       </div>
     </div>  
     <div class="img-text-img rel">
+      {% comment %}
       <span class="image-overlay">
         {% include "svg-arrow-white" %}
       </span>    
+      {% endcomment %}
       <div class="feature-imgs">
       	<img src="{{ 'img.png' | asset_img_url: '620x' }}">
         <img src="{{ 'img.png' | asset_img_url: '620x' }}">
@@ -49,13 +51,7 @@
   </div>
 </div>
 
-<script>
-	$('.product-features-wrapper .image-overlay').click(function() {
-//     $slideshow.slick('slickNext');
-    console.log('next');
-    $('.feature-imgs').slider.slickNext();
-  });
-</script>
+
 
 {% schema %}
  {
