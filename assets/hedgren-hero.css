@@ -149,6 +149,7 @@
 
   .hero {
     height: calc(90vh - 135px);
+    min-height: 450px;
   }
   .hero-text {
     font-size: 66px;
