@@ -180,6 +180,17 @@ main#MainContent {
 .star {
   margin: 0 2px;
 }
+input::placeholder, textarea::placeholder {
+  color: #7A7A7A; /* Firefox */
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #7A7A7A;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder { /* Microsoft Edge */
+ color: #7A7A7A;
+}
 
 @media(min-width: 993px){
   .no-d{
