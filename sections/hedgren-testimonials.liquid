@@ -18,10 +18,10 @@
                 	{% assign rating = block.settings.rating %}
                   {% assign remain = 5 | minus: rating %}
                   {% for i in (1..rating) %}
-                  +
+                  <span class="active-star">{% include "svg-star" %}</span>
                   {% endfor %}
                   {% for i in (1..remain) %}
-                  -
+                  <span>{% include "svg-star" %}</span>
                   {% endfor %}
                 </div>
                 <div class="testimonial-title">{{ block.settings.prod_title }}</div>
