@@ -124,7 +124,6 @@
 
 @media(max-width: 992px){
 	.img-text {
-    margin-top: 92px;
       flex-direction: column-reverse;
 }
   
