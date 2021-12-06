@@ -3,7 +3,11 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png"
+        "image": "shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png",
+        "heading": "Back to&nbsp;&nbsp; School",
+        "addtext": "ADD TO CART",
+        "moretext": "More info",
+        "buttontext": "All products"
       }
     },
     "1638356576387ca461": {
