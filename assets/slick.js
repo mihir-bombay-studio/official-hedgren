@@ -67,12 +67,11 @@ $(document).ready(function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
-    arrows: false,
+    arrows: true,
     responsive: [
       {
         breakpoint: 560,
         settings: {
-          arrows: false
         }
       }
     ]
