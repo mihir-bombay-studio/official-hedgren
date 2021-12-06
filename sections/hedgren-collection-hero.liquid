@@ -86,7 +86,7 @@
     </div>
     <div class="collection-features flex-box">
       {% for block in section.blocks %}
-      {% if block.settings.heading1 != blank %}
+      {% if block.settings.feature_img1 %}
       <div class="feature-card selected">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img1 | image_url: width: 350 }}">
