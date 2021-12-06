@@ -85,16 +85,73 @@
       <div class="feature-subtitle no-t-m">SELECT A BAG</div>
     </div>
     <div class="collection-features flex-box">
-      {% for i in (1..6) %}
-      <div class="feature-card{% if forloop.first %} selected{% endif %}">
+      {% for block in section.blocks %}
+      {% if block.settings.heading1 %}
+      <div class="feature-card selected">
         <div class="feature-img">
-          <img src="{{ 'IMage_2x.png' | asset_img_url: '350x' }}">
+          <img src="{{ block.settings.feature_img1 | image_url: width: 350 }}">
         </div>
         <div class="feature-txt-wrap">
-          <div class="feature-title">Sustainable materials</div>
-          <div class="feature-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</div>
+          <div class="feature-title">{{ block.settings.heading1 }}</div>
+          <div class="feature-text">{{ block.settings.description1 }}</div>
         </div>
       </div>
+      {% endif %}
+      {% if block.settings.heading2 %}
+      <div class="feature-card selected">
+        <div class="feature-img">
+          <img src="{{ block.settings.feature_img2 | image_url: width: 350 }}">
+        </div>
+        <div class="feature-txt-wrap">
+          <div class="feature-title">{{ block.settings.heading2 }}</div>
+          <div class="feature-text">{{ block.settings.description2 }}</div>
+        </div>
+      </div>
+      {% endif %}
+      {% if block.settings.heading3 %}
+      <div class="feature-card selected">
+        <div class="feature-img">
+          <img src="{{ block.settings.feature_img3 | image_url: width: 350 }}">
+        </div>
+        <div class="feature-txt-wrap">
+          <div class="feature-title">{{ block.settings.heading3 }}</div>
+          <div class="feature-text">{{ block.settings.description3 }}</div>
+        </div>
+      </div>
+      {% endif %}
+      {% if block.settings.heading4 %}
+      <div class="feature-card selected">
+        <div class="feature-img">
+          <img src="{{ block.settings.feature_img4 | image_url: width: 350 }}">
+        </div>
+        <div class="feature-txt-wrap">
+          <div class="feature-title">{{ block.settings.heading4 }}</div>
+          <div class="feature-text">{{ block.settings.description4 }}</div>
+        </div>
+      </div>
+      {% endif %}
+      {% if block.settings.heading5 %}
+      <div class="feature-card selected">
+        <div class="feature-img">
+          <img src="{{ block.settings.feature_img5 | image_url: width: 350 }}">
+        </div>
+        <div class="feature-txt-wrap">
+          <div class="feature-title">{{ block.settings.heading5 }}</div>
+          <div class="feature-text">{{ block.settings.description5 }}</div>
+        </div>
+      </div>
+      {% endif %}
+      {% if block.settings.heading6 %}
+      <div class="feature-card selected">
+        <div class="feature-img">
+          <img src="{{ block.settings.feature_img6 | image_url: width: 350 }}">
+        </div>
+        <div class="feature-txt-wrap">
+          <div class="feature-title">{{ block.settings.heading6 }}</div>
+          <div class="feature-text">{{ block.settings.description6 }}</div>
+        </div>
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
   </div>
