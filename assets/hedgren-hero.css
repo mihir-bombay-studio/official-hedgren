@@ -136,6 +136,10 @@
 .more-info:hover {
   margin-left: 4px;
 }
+.hero-product-text-block a {
+  color: #000;
+  text-decoration: none;
+}
 
 .product-slider-wrap {
     margin-top: -140px;
