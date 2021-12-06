@@ -77,7 +77,7 @@
     <div class="feature-subtitle no-d">SELECT A BAG</div>
     <div class="features-filter-wrap flex-box">
       {% for block in section.blocks %}
-      <div class="filter selected">
+      <div class="filter {% if forloop.first %}selected{% endif %}">
         <div class="filter-img"><img src="{{ block.settings.bag | image_url: width: 100 }}"></div>
         <div class="filter-name">{{ block.settings.name }}</div>
       </div>
@@ -98,7 +98,7 @@
       </div>
       {% endif %}
       {% if block.settings.heading2 %}
-      <div class="feature-card selected">
+      <div class="feature-card">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img2 | image_url: width: 350 }}">
         </div>
@@ -109,7 +109,7 @@
       </div>
       {% endif %}
       {% if block.settings.heading3 %}
-      <div class="feature-card selected">
+      <div class="feature-card">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img3 | image_url: width: 350 }}">
         </div>
@@ -120,7 +120,7 @@
       </div>
       {% endif %}
       {% if block.settings.heading4 %}
-      <div class="feature-card selected">
+      <div class="feature-card">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img4 | image_url: width: 350 }}">
         </div>
@@ -131,7 +131,7 @@
       </div>
       {% endif %}
       {% if block.settings.heading5 %}
-      <div class="feature-card selected">
+      <div class="feature-card">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img5 | image_url: width: 350 }}">
         </div>
@@ -142,7 +142,7 @@
       </div>
       {% endif %}
       {% if block.settings.heading6 %}
-      <div class="feature-card selected">
+      <div class="feature-card">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img6 | image_url: width: 350 }}">
         </div>
