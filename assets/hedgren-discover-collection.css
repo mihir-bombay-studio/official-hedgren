@@ -81,44 +81,48 @@
 }
 
 .coll-card {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .featured-collections {
-    margin-bottom: 72px !important;
+  margin-bottom: 72px !important;
 }
 
 .btn.featured-coll-btn {
-    background-color: #000000;
-    color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
   transition: .4s ease;
 }
 
 .btn.featured-coll-btn:hover {
-	background-color: #7A7A7A;
+  background-color: #7A7A7A;
 }
 
 .right-chev-svgs svg{
-	margin-right: -5px;
+  margin-right: -5px;
 }
 
 .discover-collection-wrapper{
-	margin-top: 140px;
+  margin-top: 140px;
   margin-bottom: 140px;
 }
 
 @media(max-width: 992px){
-	.side-title {
+  .side-title {
     font-size: 10px;
     line-height: 13px;
-}
-  
+  }
+
   .discover-coll-heading {
     width: 100%;
-}
-  
+  }
+
   .discover-collection-wrapper {
     margin-top: 80px;
     margin-bottom: 92px;
-}
+  }
+  .discover-coll-main-heading {
+    margin: 0;
+    width: calc( 100% - 30px );
+  }
 }
