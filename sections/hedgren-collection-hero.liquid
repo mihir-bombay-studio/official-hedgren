@@ -161,6 +161,9 @@
   $('.filter').click(function() {
   	$('.filter').removeClass('selected');
     $(this).addClass('selected');
+  	$('.collection-features').addClass('no-disp');    
+    $('.'+$(this).data('show')).removeClass('no-disp');
+    
   });
 </script>
 
