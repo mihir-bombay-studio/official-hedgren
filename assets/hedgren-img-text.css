@@ -124,7 +124,6 @@
 
 @media(max-width: 992px){
 	.img-text {
-    margin-top: 92px;
       flex-direction: column-reverse;
 }
   
@@ -159,11 +158,6 @@
   .img-text.order-reversed{
   	flex-direction: column;
   }
-  
-  .img-text-wrapper.dark-bg .img-text {
-    margin-top: 80px;
-    padding-top: 94px !important;
-}
   
   .img-text.order-reversed .img-text-text .img-text-text-heading{
   	margin-left: -35px;
