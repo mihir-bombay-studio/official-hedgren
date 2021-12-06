@@ -180,4 +180,10 @@
   .img-text-wrapper.dark-bg .img-text-text-heading{
   	top: 106px;
   }
+  .img-text-wrapper .p-half-top .img-text-text-heading {
+    top: 53px;
+  }
+  .img-text-wrapper .p-normal-top .img-text-text-heading {
+    top: 93px;
+  }
 }
