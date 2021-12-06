@@ -219,12 +219,13 @@
     left: -20px;
 }
 @media(max-width: 1550px){
-	.slick-prev
-{
-  left: 20px;
-}
+  .slick-prev
+  {
+    transform: rotate(180deg) scale(-0.5);
+    display: block;
+  }
   .slick-next:before{
-  	transform: rotate(180deg) scale(-0.5);
+    transform: rotate(180deg) scale(-0.5);
     display: block;
   }
 }
