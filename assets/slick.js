@@ -82,6 +82,7 @@ $(document).ready(function(){
   
   $('.feature-imgs .image-overlay').click(function() {
 //     $slideshow.slick('slickNext');
+    console.log('next');
     $('.feature-imgs').slider.slickNext();
   });
 	};
