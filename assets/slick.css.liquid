@@ -469,6 +469,12 @@
 
   .slick-next:before, .slick-prev:before {
     content: url({{ "arrow_1_small.svg" | asset_url }});
+  }  
+
+  .slick-prev:hover:before,
+  .slick-next:hover:before
+  {
+    content: url({{ "arrow_1_small.svg" | asset_url }}) !important;
   }
 
 .featured-collections .slick-next:before, .featured-collections .slick-prev:before, .testimonials .slick-next:before, .testimonials .slick-prev:before {
@@ -477,7 +483,7 @@
 
 
 .featured-collections .slick-prev:hover:before,
-.featured-collections .slick-next:hover:before, .testimonials .slick-next:before, .testimonials .slick-prev:before
+.featured-collections .slick-next:hover:before, .testimonials .slick-next:before, .testimonials .slick-prev:before, .similar-products-mob .slick-next:before, .similar-products-mob .slick-prev:before
 {
   content: url({{ "arrow_1_small_black.svg" | asset_url }}) !important;
 }
