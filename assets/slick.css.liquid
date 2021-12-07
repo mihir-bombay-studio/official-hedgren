@@ -498,12 +498,12 @@
   }
 
   .feature-imgs .slick-next:before {
-    content: url(//cdn.shopify.com/s/files/1/1882/4247/t/25/assets/Arrow_med.svg?v=16935981721262306960);
+    content: url({{ "Arrow_med.svg" | asset_url }});
   }
 
   .feature-imgs .slick-next:hover:before
   {
-    content: url(//cdn.shopify.com/s/files/1/1882/4247/t/25/assets/Arrow_med.svg?v=16935981721262306960) !important;
+    content: url({{ "Arrow_med.svg" | asset_url }}) !important;
   }
 
   .feature-imgs .slick-next {
