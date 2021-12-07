@@ -3,7 +3,21 @@
 <div class="product-wrap">
   <div class="container">
     <div class="product-info-imgs flex-box justify-between">
-      <div class="product-imgs flex-box">
+      <div class="product-name-price-rating-wrap no-d">
+        <div class="product-name-price-wrap flex-box justify-between">
+      	<h1 class="product-title">{{ product.title | escape  }}</h1>
+        <div class="product-price">{{ product.price | money  }}</div>
+        </div>
+        <div class="product-rating">
+        	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          	{% include 'icon-black-star' %}
+          <span class="no-of-ratings">(521)</span>
+        </div>
+      </div>
+      <div class="product-imgs flex-box no-t-m">
       	{% for media in product.media %}
         <div class="product-img">
         <img src="{{ media | img_url: 'x300' }}" alt="{{ media.alt | escape }}">
@@ -11,10 +25,17 @@
         {% endfor %}
         <div class="load-more-images">LOAD MORE IMAGES</div>
       </div>
+      <div class="product-imgs-mobile no-d">
+      	{% for media in product.media %}
+        <div class="product-img-mob">
+        <img src="{{ media | img_url: 'x300' }}" alt="{{ media.alt | escape }}">
+        </div>          
+        {% endfor %}
+      </div>
       <div class="product-info">
-      	<h1 class="product-title">{{ product.title | escape  }}</h1>
-        <div class="product-price">{{ product.price | money  }}</div>
-        <div class="product-rating">
+      	<h1 class="product-title no-t-m">{{ product.title | escape  }}</h1>
+        <div class="product-price no-t-m">{{ product.price | money  }}</div>
+        <div class="product-rating no-t-m">
         	{% include 'icon-black-star' %}
           	{% include 'icon-black-star' %}
           	{% include 'icon-black-star' %}
@@ -112,6 +133,8 @@
       }
     });
   });
+  
+   
 </script>
 
 {% schema %}
