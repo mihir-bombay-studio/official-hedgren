@@ -62,26 +62,59 @@ $(document).ready(function(){
     ]
   });
   
-  window.onload=function(){
-  
-  $slideshow = $('.feature-imgs').slick({
+  $('.feature-imgs').slick({
     infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
-    arrows: false,
+    arrows: true,
     responsive: [
       {
         breakpoint: 560,
         settings: {
-          arrows: false
         }
       }
     ]
   });
   
-  $('.feature-imgs .image-overlay').click(function() {
-    $slideshow.slick('slickNext');
+//   window.onload=function(){
+  
+//   $slideshow = $('.feature-imgs').slick({
+//     infinite: false,
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     dots: true,
+//     arrows: false,
+//     responsive: [
+//       {
+//         breakpoint: 560,
+//         settings: {
+//           arrows: false
+//         }
+//       }
+//     ]
+//   });
+  
+//   $('.feature-imgs .image-overlay').click(function() {
+// //     $slideshow.slick('slickNext');
+//     console.log('next');
+//     $('.feature-imgs').slider.slickNext();
+//   });
+// 	};
+  
+  $('.product-imgs-mobile').slick({
+  	infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false
   });
-	};
+  
+  $('.similar-products-mob').slick({
+  	infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: true
+  });
 });
