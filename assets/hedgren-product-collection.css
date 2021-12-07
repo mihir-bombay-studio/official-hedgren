@@ -29,3 +29,31 @@
 .product-collection-wrapper {
     margin-bottom: 140px;
 }
+
+@media(max-width: 992px){
+  .product-collection-wrapper .img-text{
+  	flex-direction: column;
+  }
+  
+  .product-collection-wrapper .img-text-img{
+  	height: 204px;
+  }
+  
+  .product-collection-wrapper .img-text-text-heading {
+    width: unset;
+    right: unset;
+    left: 0;
+    top: -192px;
+}
+  
+  .product-collection-wrapper .prod-coll-btn {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    width: moz-fit-content;
+}
+  
+  .product-collection-wrapper {
+    margin-bottom: 80px;
+}
+}
