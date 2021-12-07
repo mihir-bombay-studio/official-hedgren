@@ -4,8 +4,1009 @@
     "theme_name": "Dawn",
     "theme_version": "2.3.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
+  },
+  {
+    "name": "Color Swatch",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "apricot_brandy_off_white",
+        "label": "Apricot Brandy \/ Off White",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "astro_print",
+        "label": "Astro Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blue_logica",
+        "label": "Blue\/Logica",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blue_ripple_print",
+        "label": "Blue\/Ripple Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "camo_print",
+        "label": "Camo Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "citadel_blue",
+        "label": "Citadel Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "corsair",
+        "label": "Corsair",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cube_print",
+        "label": "Cube Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "dolphin_blue",
+        "label": "Dolphin Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "ermine_off_white",
+        "label": "Ermine \/ Off White",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "graphic_attack",
+        "label": "Graphic Attack",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "malibu_blue",
+        "label": "Malibu Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "ccg",
+        "label": "Charcoal Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "ocean_print",
+        "label": "Ocean Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "purple_logica",
+        "label": "Purple\/Logica",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "rhubarb_off_white",
+        "label": "Rhubarb \/ Off White",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "stormy_sea",
+        "label": "Stormy Sea",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "rose_ripple_print",
+        "label": "Rose\/Ripple Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "wine",
+        "label": "Wine",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "woven_print",
+        "label": "Woven Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "grey_blue",
+        "label": "Grey \/ Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "black_green",
+        "label": "Black \/ Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "black_grey",
+        "label": "Black \/ Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "grape",
+        "label": "Grape",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "zinc",
+        "label": "Zinc",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "special_black",
+        "label": "Special Black",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "baked_apple",
+        "label": "Baked Apple",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "khaki",
+        "label": "Khaki",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blue_sapphire",
+        "label": "Blue Sapphire",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "sepia_brown",
+        "label": "Sepia\/Brown",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "dress_blue",
+        "label": "Dress Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "magnet",
+        "label": "Magnet",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "falcon_grey",
+        "label": "Falcon Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "parisian_night_blue",
+        "label": "Parisian Night Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "tango_red",
+        "label": "Tango Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "dark_denim",
+        "label": "Dark Denim",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "phantom",
+        "label": "Phantom",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "chili_pepper",
+        "label": "Chili Pepper",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "tornado_grey",
+        "label": "Tornado Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "purple_passion",
+        "label": "Purple Passion",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "black_red",
+        "label": "Black\/Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "silver_red",
+        "label": "Silver\/Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "red_silver",
+        "label": "Red\/Silver",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "golden_olive",
+        "label": "Golden Olive",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "rooibos_tea",
+        "label": "Rooibos Tea",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "nautical_blue",
+        "label": "Nautical Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "anthracite",
+        "label": "Anthracite",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "ecru_olive",
+        "label": "Ecru Olive",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "chinois_green",
+        "label": "Chinois Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "almond",
+        "label": "Almond",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "mauvewood",
+        "label": "Mauvewood",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "sunset_gold",
+        "label": "Sunset Gold",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "castle_rock",
+        "label": "Castle Rock",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "deep_lavander",
+        "label": "Deep Lavander",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blue_bird",
+        "label": "Blue Bird",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "pavement",
+        "label": "Pavement",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "pomegranate",
+        "label": "Pomegranate",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "pink_jungle",
+        "label": "Pink Jungle",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "curry",
+        "label": "Curry",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "sun_dried_tomato",
+        "label": "Sun_Dried Tomato",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "titanium",
+        "label": "Titanium",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "dark_blue_woven_print",
+        "label": "Dark Blue Woven Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "asphalt",
+        "label": "Asphalt",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "emberglow_coral",
+        "label": "Emberglow Coral",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "navy_peony",
+        "label": "Navy Peony",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "legion_blue",
+        "label": "Legion Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "light_grey",
+        "label": "Light Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "dark_grey",
+        "label": "Dark Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "baroquerose",
+        "label": "Baroque Rose",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "brightnavy",
+        "label": "Bright Navy",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "timberwolfbeige",
+        "label": "Timber Wolf Beige",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "oasisprint",
+        "label": "Oasis Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "anemone",
+        "label": "Anemone",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "garnetrose",
+        "label": "Garnet Rose",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "capers",
+        "label": "Capers",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "brittaneyblue",
+        "label": "Brittaney Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "aquaprint",
+        "label": "Aqua Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "lizard",
+        "label": "Lizard",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "sunburn",
+        "label": "Sunburn",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "bluemirage",
+        "label": "Blue Mirage",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "darkblue",
+        "label": "Dark Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "mahoganyred",
+        "label": "Mahogany Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "darkiron",
+        "label": "Dark Iron",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "beechkhaki",
+        "label": "Beech Khaki",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "rubbercamel",
+        "label": "Rubber Camel",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "beetred",
+        "label": "Beet Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blueopal",
+        "label": "Blue Opal",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "volcanicglassgrey",
+        "label": "Volcanic Glass Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blush",
+        "label": "Blush",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "darkchampagne",
+        "label": "Dark Champagne",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "black",
+        "label": "Black",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "grey",
+        "label": "Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "beige",
+        "label": "Beige",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blue",
+        "label": "Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "brown",
+        "label": "Brown",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "green",
+        "label": "Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "olive",
+        "label": "Olive",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "orange",
+        "label": "Orange",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "pink",
+        "label": "Pink",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "purple",
+        "label": "Purple",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "red",
+        "label": "Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "silver",
+        "label": "Silver",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "turquoise",
+        "label": "Turquoise",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "yellow",
+        "label": "Yellow",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "gradient",
+        "label": "Gradient Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "tartan",
+        "label": "Tartan Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "activeb",
+        "label": "Active Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "bronze",
+        "label": "Bronze",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "flintb",
+        "label": "Flint Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "mbrown",
+        "label": "Mahogany Brown",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "rustp",
+        "label": "Rust Paisley Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "moodi",
+        "label": "Mood Indigo",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "urbanc",
+        "label": "Urban Camo",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "marmalade",
+        "label": "Marmalade",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "silver-lin",
+        "label": "Silver Lin",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "egreen",
+        "label": "Earth Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "ggrey",
+        "label": "Galaxy Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "hblue",
+        "label": "Halo Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cbprint",
+        "label": "Craft Blue Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "sailorp",
+        "label": "Sailor Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "activeg",
+        "label": "Active Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "rosewood",
+        "label": "Rosewood",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "mlavender",
+        "label": "Misty Lavender",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "vineyard",
+        "label": "Vineyard Wine",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "onight",
+        "label": "Olive Night",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "wcraftprint",
+        "label": "Winter Craft Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "aebony",
+        "label": "Active Ebony",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "fig",
+        "label": "Fig",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "tandoorir",
+        "label": "Tandoori Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "igate",
+        "label": "Iron Gate",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "stylishg",
+        "label": "Stylish Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "ppink",
+        "label": "Powder Pink",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "scarabg",
+        "label": "Scarab Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "marsr",
+        "label": "Mars Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "lunarr",
+        "label": "Lunar Rock",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "spicedc",
+        "label": "Spiced Coral",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cashmb",
+        "label": "Cashmere Beige",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "lindene",
+        "label": "Linden Essence",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "mossp",
+        "label": "Moss Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "bamboop",
+        "label": "Bamboo Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "elegantb",
+        "label": "Elegant Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blackstr",
+        "label": "Black Storm",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "mustardo",
+        "label": "Mustard Olive",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "denimb",
+        "label": "Denim Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "salsar",
+        "label": "Salsa Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "bamboom",
+        "label": "Bamboo Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "classicm",
+        "label": "Classic Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "coktailm",
+        "label": "Coktail Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "floralpr",
+        "label": "Winter Floral Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "slvr",
+        "label": "Silvery",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "copper",
+        "label": "Copper",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cometb",
+        "label": "Comet Beige",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "lavar",
+        "label": "Lava Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "malachiteg",
+        "label": "Malachite Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "neptuneb",
+        "label": "Neptune Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "saffron",
+        "label": "Saffron",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "sienna",
+        "label": "Sienna",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "auberginap",
+        "label": "Aubergina Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "ebirch",
+        "label": "Essence Birch",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "essmix",
+        "label": "Essentials Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "toscansun",
+        "label": "Toscan Sunset Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cosmicm",
+        "label": "Cosmic Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "urbanj",
+        "label": "Urban Jungle",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "smokeym",
+        "label": "Smokey Mauve",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "bikingr",
+        "label": "Biking Red",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cabernet",
+        "label": "Cabernet",
+        "info": "Add\/Replace image for Color Swatch"
+      }
+    ]
   },
   {
     "name": "t:settings_schema.colors.name",
