@@ -401,6 +401,22 @@
 
 
 
+.feature-imgs .slick-next {
+    right: unset;
+    left: -20px;
+    top: unset;
+    bottom: 151px;
+}
+
+.feature-imgs .slick-prev{
+
+	display: none !important;
+}
+
+.feature-imgs .slick-next.slick-disabled:before{
+	opacity: 1;
+}
+
 @media (max-width: 560px) {
   .slick-dots li.slick-active
   {
@@ -479,6 +495,22 @@
   .hedgren-collection-products-wrapper .hero-products .slick-next, .hedgren-collection-products-wrapper .hero-products .slick-prev{
     top: auto;
     bottom: -32px;
+  }
+
+  .feature-imgs .slick-next:before {
+    content: url(//cdn.shopify.com/s/files/1/1882/4247/t/25/assets/Arrow_med.svg?v=16935981721262306960);
+  }
+
+  .feature-imgs .slick-next:hover:before
+  {
+    content: url(//cdn.shopify.com/s/files/1/1882/4247/t/25/assets/Arrow_med.svg?v=16935981721262306960) !important;
+  }
+
+  .feature-imgs .slick-next {
+    right: 65px;
+    left: unset;
+    top: unset;
+    bottom: 70px;
   }
   .slick-next:before {
     transform: scale(.7);
