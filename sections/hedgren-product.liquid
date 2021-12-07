@@ -36,11 +36,9 @@
       	<h1 class="product-title no-t-m">{{ product.title | escape  }}</h1>
         <div class="product-price no-t-m">{{ product.price | money  }}</div>
         <div class="product-rating no-t-m">
+          {%for i in (0..product.metafields.loox.avg_rating) %}
         	{% include 'icon-black-star' %}
-          	{% include 'icon-black-star' %}
-          	{% include 'icon-black-star' %}
-          	{% include 'icon-black-star' %}
-          	{% include 'icon-black-star' %}
+          {% endfor %}
           <span class="no-of-ratings">(521){{ product.metafields.loox.num_reviews }}</span>
         </div>
         <div class="color-variant-wrap">
