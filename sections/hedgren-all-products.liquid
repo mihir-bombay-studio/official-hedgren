@@ -320,87 +320,67 @@
     var fil_len = $('.filter-tag-wrapper.selected').length;
     if(fil_len>0){
       $('.applied-filters-wrap').removeClass('no-disp');
+    }
+
+    $('.applied-filter').click(function() {
+      $(this).remove();
+      runFilter();
+    });
+    runFilter();
+  });
+
+  
+  $('.clear-filters').click(function() {
+  	$('.applied-filters-wrap').addClass('no-disp');
+    $('.applied-filter').remove(); 
+    $('.filter-wrap').each(function() {
+    	$(this).removeClass('selected');
+    });
+    runFilter();
+  });
+  
+  
+  function runFilter() {
+    
+    var classString = "";
+    var i;
+    $('.filter-row').html('');
+    $('.hero-product').addClass('no-disp');
+
+      $('.hero-product').addClass('fop');
+
+
+    if($('.filter-tag-wrapper.selected').length > 0) {
+      var arrClass = [];
+      $('.hero-product').data('iteration',0);
       $('.filter-tag-wrapper.selected').each(function() {
       	var filt_text = $(this).find('.filter-txt').text();
-        $('.applied-filters').append(`<div class='applied-filter'>`+filt_text+`<span class='close-icon'><svg xmlns="http://www.w3.org/2000/svg" width="17.414" height="17.414" viewBox="0 0 17.414 17.414">
+        $('.applied-filters').append(`<div class="applied-filter" data-val="` +$(this).find('.filter-checkbox').data('value')+ `">`+filt_text+`<span class='close-icon'><svg xmlns="http://www.w3.org/2000/svg" width="17.414" height="17.414" viewBox="0 0 17.414 17.414">
   <g id="Close" transform="translate(-1129.328 -4781.55)">
     <path id="Path_7" data-name="Path 7" d="M0,0H22.626" transform="translate(1130.036 4782.258) rotate(45)" fill="none" stroke="#000" stroke-width="2"/>
     <path id="Path_10" data-name="Path 10" d="M0,0H22.626" transform="translate(1146.034 4782.257) rotate(135)" fill="none" stroke="#000" stroke-width="2"/>
   </g>
 </svg>
 </span></div>`);
-      });
-    }
-
-    $('.applied-filter').click(function() {
-      $(this).remove();
-    });
-    //runFilter();
-  });
-
-  
-  $('.clear-filters').click(function() {
-  	$('.applied-filters-wrap').addClass('no-disp');
-    $('.filter-wrap').each(function() {
-    	$(this).removeClass('selected');
-    });
-  });
-  
-  
-  function runFilter() {
-    
-    
-    
-    
-    
-    var classString = "";
-    var i;
-    $('.filter-row').html('');
-    $('.card-product').addClass('no-disp');
-
-    if($("#search-box").val() != "") {
-      $('.card-product').each(function() {
-        if($(this).find(".card-product-title").text().toLowerCase().indexOf($("#search-box").val().toLowerCase()) > -1 || $(this).find(".tagged").text().toLowerCase().indexOf($("#search-box").val().toLowerCase()) > -1 || $(this).attr('class').toLowerCase().indexOf($("#search-box").val().toLowerCase()) > -1) {
-          $(this).addClass('fop');
-        }
-      });
-    } else {
-      $('.card-product').addClass('fop');
-    }
-
-
-    if($('.only-border.filtered').length > 0) {
-      var arrClass = [];
-      $('.card-product').data('iteration',0);
-      $('.only-border.filtered').each(function() {
-        $('.filter-row').append(`<span class="filter-added" data-val="` +$(this).data('value')+ `"><span class="filter-content">Gebruik: `+$(this).data('value')+`</span><span class="pop-close">{% include "icon-x" %}</span></span>`);
-        arrClass.push($(this).data('value'));
+        arrClass.push($(this).find('.filter-checkbox').data('value'));
       });
       $.each(arrClass , function(index, val) {
-        $('.card-product').each(function(i,v) {            
+        $('.hero-product').each(function(i,v) {            
           if($(this).hasClass(val)) {
             $(this).data('iteration',(parseInt($(this).data('iteration')) || 0)+1);
           }
         });
-        $('.card-product').each(function(i,v) {            
-          if($(this).data('iteration') == $('.only-border.filtered').length && $(this).hasClass('fop')) {
+        $('.hero-product').each(function(i,v) {            
+          if($(this).data('iteration') == $('.filter-tag-wrapper.selected').length && $(this).hasClass('fop')) {
             $(this).removeClass('no-disp');
           }
         });
       });
     } else {
-      $('.card-product.fop').removeClass('no-disp');
+      $('.hero-product.fop').removeClass('no-disp');
     }
-    $('.fop').removeClass('fop');
-    $('.category-content .pop-close:not(.added)').click(function() {
-      var filter = $(this).parent().data('val');
-      $('.nav-colors .only-border').each(function() {
-        if($(this).data('value') == filter) {
-          $(this).click();
-        }
-      });  	
-      $('.category-content .pop-close').addClass('added');
-    });    
+    
+    $('.fop').removeClass('fop');      
   }
   runFilter();
   
