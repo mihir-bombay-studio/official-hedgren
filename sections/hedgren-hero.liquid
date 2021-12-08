@@ -20,7 +20,7 @@
           <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
           {% endfor %}
           </a>
-            <div class="variants flex-box">
+            <div class="variants flex-box no-t-m">
               {% include 'color-product-swatch' %}
               {% include 'color-product-swatch-2' %}
             </div>
@@ -46,7 +46,7 @@
             </span>
           </div>
           
-          <div class="hero-row"> 
+          <div class="hero-row no-d"> 
             <div class="variants flex-box">
               {% include 'color-product-swatch' %}
               {% include 'color-product-swatch-2' %}
