@@ -24,8 +24,8 @@
         "249f850c-87d9-4140-9f91-1ff2278a9e68": {
           "type": "collect",
           "settings": {
-            "coll": "",
-            "page": ""
+            "coll": "edge",
+            "page": "shopify:\/\/pages\/the-denim-collection"
           }
         },
         "87440358-2c24-4db3-b666-1205cd9fd6b2": {
