@@ -1,1 +1,71 @@
-{"sections":{"main":{"type":"main-list-collections","disabled":true,"settings":{"title":"Collections","sort":"alphabetical","image_ratio":"square","color_scheme":"background-1","image_padding":false}},"163766433393f3517f":{"type":"hedgren-coll-list-hero","settings":{"image":"shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png","heading_main":"Move in your own way","sub_heading":"CHOOSE YOUR STYLE"}}},"order":["main","163766433393f3517f"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "image_padding": false
+      }
+    },
+    "163766433393f3517f": {
+      "type": "hedgren-coll-list-hero",
+      "blocks": {
+        "91881b0c-bb67-487c-820f-b69074515850": {
+          "type": "collect",
+          "settings": {
+            "coll": "cabin-size",
+            "page": "shopify:\/\/pages\/the-denim-collection"
+          }
+        },
+        "249f850c-87d9-4140-9f91-1ff2278a9e68": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "87440358-2c24-4db3-b666-1205cd9fd6b2": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "2943f715-11a2-48c9-baeb-0cbcec4b1d24": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "460e2ea7-1863-49c5-be1e-c5e3820b606f": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "91881b0c-bb67-487c-820f-b69074515850",
+        "249f850c-87d9-4140-9f91-1ff2278a9e68",
+        "87440358-2c24-4db3-b666-1205cd9fd6b2",
+        "2943f715-11a2-48c9-baeb-0cbcec4b1d24",
+        "460e2ea7-1863-49c5-be1e-c5e3820b606f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png",
+        "heading_main": "Move in your own way",
+        "sub_heading": "CHOOSE YOUR STYLE"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163766433393f3517f"
+  ]
+}
