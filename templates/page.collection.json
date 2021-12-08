@@ -53,10 +53,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
-        "heading_left": "",
-        "heading_main": "",
-        "heading_right": "",
-        "sub_heading": "",
+        "heading_left": "1994",
+        "heading_right": "2021",
+        "sub_heading": "Is Bag",
         "addtext": "ADD TO CART",
         "outtext": "OUT OF STOCK",
         "moretext": "More info",
