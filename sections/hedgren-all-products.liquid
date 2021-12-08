@@ -5,7 +5,7 @@
 
     {% for tag in product.tags %}
       {% if tag contains "filter:" or tag contains "Filter:" %}
-      	{% assign tagx = tag | split: "-" %}
+      	{% assign tagx = tag | split: " - " %}
       	{% assign tag_first = tagx[0] | strip | replace: "filter:","" | replace: "Filter:","" | strip %}
 		{% unless categoryp contains tag_first %}
 			{% if categoryp == "" %}
