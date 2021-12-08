@@ -133,6 +133,7 @@
     $.ajax({
       url: "/cart/add.js",
       method: "POST",
+      dataType: "json",
       data: formData,
     })
     .done(function( data ) {     
