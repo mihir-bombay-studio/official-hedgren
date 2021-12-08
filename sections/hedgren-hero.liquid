@@ -64,7 +64,7 @@
       <script>
 
         $('.variants img').click(function() {
-          $(this).closest('.variants').find('img').removeClass('hedgren-color-active').addClass('hedgren-color-active');
+          $(this).closest('.variants').find('img').removeClass('hedgren-color-active').addClass('hedgren-color-inactive');
         $(this).addClass('hedgren-color-active').removeClass('hedgren-color-inactive');
           var current = $(this);
           $.ajax({
