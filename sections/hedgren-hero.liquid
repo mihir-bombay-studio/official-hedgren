@@ -15,37 +15,37 @@
       {% for product in section.settings.collection.products limit: 8 %}
       <div class="hero-product">
         <div>
-        <div class="hero-product-images-block">
-          <a href="{{ product.url }}">
-          {% for image in product.images limit: 2 %}
-          <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
-          {% endfor %}
-          </a>
+          <div class="hero-product-images-block">
+            <a href="{{ product.url }}">
+              {% for image in product.images limit: 2 %}
+              <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+              {% endfor %}
+            </a>
             <div class="variants flex-box no-t-m">
               {% include 'color-product-swatch' %}
               {% include 'color-product-swatch-2' %}
             </div>
-        </div>
-        <div class="hero-product-text-block">
-          <a href="{{ product.url }}">
-          <div class="hero-row">
-            <div class="hero-col">
-              <span class="product-font product-title">
-                {{ product.title }}
+          </div>
+          <div class="hero-product-text-block">
+            <a href="{{ product.url }}">
+              <div class="hero-row">
+                <div class="hero-col">
+                  <span class="product-font product-title">
+                    {{ product.title }}
+                  </span>
+                </div>
+                <div class="hero-col price-col">
+                  <span class="product-font money">
+                    {{ product.price | money_without_trailing_zeros }}
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="hero-row">            
+              <span class="product-tag">
+                {{ product.type }}
               </span>
             </div>
-            <div class="hero-col price-col">
-              <span class="product-font money">
-                {{ product.price | money_without_trailing_zeros }}
-              </span>
-            </div>
-          </div>
-          </a>
-          <div class="hero-row">            
-            <span class="product-tag">
-              {{ product.type }}
-            </span>
-          </div>
           </div>
         </div>
         <div class="hero-product-text-block">
