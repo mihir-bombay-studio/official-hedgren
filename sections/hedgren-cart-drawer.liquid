@@ -58,7 +58,7 @@
     <div class="drawer-cart-checkout">
       <div class="checkout-subtotal justify-between">
         <div class="checkout-title">Subtotal</div>
-        <div class="subtotal">€ 54,00</div>
+        <div class="subtotal">{{ cart.total_price | money_without_trailing_zeros }}</div>
       </div>
       <div class="checkout-shipping justify-between">
         <div class="shipping-title">Shipping</div>
