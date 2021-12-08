@@ -344,6 +344,64 @@
     });
   });
   
+  
+  function runFilter() {
+    
+    
+    
+    
+    
+    var classString = "";
+    var i;
+    $('.filter-row').html('');
+    $('.card-product').addClass('no-disp');
+
+    if($("#search-box").val() != "") {
+      $('.card-product').each(function() {
+        if($(this).find(".card-product-title").text().toLowerCase().indexOf($("#search-box").val().toLowerCase()) > -1 || $(this).find(".tagged").text().toLowerCase().indexOf($("#search-box").val().toLowerCase()) > -1 || $(this).attr('class').toLowerCase().indexOf($("#search-box").val().toLowerCase()) > -1) {
+          $(this).addClass('fop');
+        }
+      });
+    } else {
+      $('.card-product').addClass('fop');
+    }
+
+
+    if($('.only-border.filtered').length > 0) {
+      var arrClass = [];
+      $('.card-product').data('iteration',0);
+      $('.only-border.filtered').each(function() {
+        $('.filter-row').append(`<span class="filter-added" data-val="` +$(this).data('value')+ `"><span class="filter-content">Gebruik: `+$(this).data('value')+`</span><span class="pop-close">{% include "icon-x" %}</span></span>`);
+        arrClass.push($(this).data('value'));
+      });
+      $.each(arrClass , function(index, val) {
+        $('.card-product').each(function(i,v) {            
+          if($(this).hasClass(val)) {
+            $(this).data('iteration',(parseInt($(this).data('iteration')) || 0)+1);
+          }
+        });
+        $('.card-product').each(function(i,v) {            
+          if($(this).data('iteration') == $('.only-border.filtered').length && $(this).hasClass('fop')) {
+            $(this).removeClass('no-disp');
+          }
+        });
+      });
+    } else {
+      $('.card-product.fop').removeClass('no-disp');
+    }
+    $('.fop').removeClass('fop');
+    $('.category-content .pop-close:not(.added)').click(function() {
+      var filter = $(this).parent().data('val');
+      $('.nav-colors .only-border').each(function() {
+        if($(this).data('value') == filter) {
+          $(this).click();
+        }
+      });  	
+      $('.category-content .pop-close').addClass('added');
+    });    
+  }
+  runFilter();
+  
 </script>
 
 
