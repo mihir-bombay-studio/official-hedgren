@@ -44,3 +44,28 @@
 .hedgren-collections-wrapper .image-overlay svg {
     fill: #fff;
 }
+
+@media(max-width: 992px){
+	.hedgren-collections-wrapper .coll-card {
+    width: 100%;
+}
+  
+  .coll-list-heading {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -1.73px;
+    margin: 40px auto;
+    margin-bottom: 8px;
+    width: auto;
+}
+  
+  .coll-list-sub-heading {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.21px;
+}
+  
+  .coll-img {
+    height: 70vw;
+}
+}
