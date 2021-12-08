@@ -65,6 +65,17 @@
     },
     "163899354782bb1c63": {
       "type": "hedgren-discover-collection",
+      "blocks": {
+        "1169d393-c162-409d-a183-726b53077a34": {
+          "type": "collect",
+          "settings": {
+            "coll": ""
+          }
+        }
+      },
+      "block_order": [
+        "1169d393-c162-409d-a183-726b53077a34"
+      ],
       "settings": {
         "title_left": "1994",
         "title_mid": "Discover our collections",
