@@ -120,7 +120,9 @@
   font-size: 18px;
   line-height: 29px;
 }
-
+.price-col {
+  text-align: right;
+}
 .hero-row .hero-col:last-child .product-font {
   text-align: right;
 }
