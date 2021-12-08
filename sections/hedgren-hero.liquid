@@ -34,7 +34,7 @@
               </span>
             </div>
             <div class="hero-col price-col">
-              <span class="product-font">
+              <span class="product-font product-title">
                 {{ product.price | money_without_trailing_zeros }}
               </span>
             </div>
@@ -75,22 +75,17 @@
         .done(function( data ) {
           current.closest('.hero-product').find('.money').text("€"+(data.price / 100).toFixed(2).replace(/\.?0+$/, '').replace('.',','));
             current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.images[0]);
-            console.log(current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src'));
-            console.log(data.images[0]);
             current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.images[1]);
-           /* $('.featured-product-link{{index_no}}').attr('href',data.url);
-            $('.gotolink{{index_no}}').data('url',data.url);
-            $('.product-price{{index_no}}').text("€"+(data.price / 100).toFixed(2).replace(/\.?0+$/, '').replace('.',','));    
+            current.closest('.hero-product').find('a').attr('href',data.url);   
             if(data.available) {
-            $('.add-to-cart-btn{{index_no}}').text('ADD TO CART');
-              $('.add-to-cart-btn{{index_no}}').removeClass('no-avaliable');        
-              } else {
-              $('.add-to-cart-btn{{index_no}}').text('OUT OF STOCK');
-              $('.add-to-cart-btn{{index_no}}').addClass('no-avaliable');        	
-              }
-              $('.product-title{{index_no}}').text(data.title)
-
-              $('.add-to-cart-btn{{index_no}}').data('variant',data.variants[0].id);*/
+              current.closest('.hero-product').find('.add-direct').text('{{ section.settings.addtext }}');
+              current.closest('.hero-product').find('.add-direct').removeClass('no-avaliable');        
+            } else {
+              current.closest('.hero-product').find('.add-direct').text('OUT OF STOCK');
+              current.closest('.hero-product').find('.add-direct').addClass('no-avaliable');        	
+            }
+            current.closest('.hero-product').find('.product-title').text(data.title)
+            current.closest('.hero-product').find('.add-direct').data('variant',data.variants[0].id);
               })
             .fail(function(error) {
               console.log( error );
