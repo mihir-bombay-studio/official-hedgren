@@ -335,6 +335,8 @@
     var fil_len = $('.filter-tag-wrapper.selected').length;
     if(fil_len>0){
       $('.applied-filters-wrap').removeClass('no-disp');
+    } else {
+      $('.applied-filters-wrap').addClass('no-disp');
     }
     var classString = "";
     var i;
