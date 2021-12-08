@@ -3,6 +3,7 @@
 {{ 'hedgren-img-text.css' | asset_url | stylesheet_tag }}
 {{ 'hedgren-collection-features.css' | asset_url | stylesheet_tag }}
 
+{% assign collection = section.settings.collection %}
 <div class="hero hedgren-collection-hero" style="{% if collection.image %}background-image: url({{ collection.image | image_url: width: 2048 }}){% else %}background: #375D54{% endif %}">
   <div class="container rel">
     <div class="discover-coll-heading flex-box">
