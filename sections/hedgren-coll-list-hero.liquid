@@ -17,7 +17,8 @@
         {% include "svg-arrows-big" %}
       </span> 
     <div class="collection-list-wrap flex-box justify-between">
-      {% for collection in collections limit: 15 %}
+      {% for block in section.blocks %}
+      {% assign collection = block.settings.coll %}
       <div class="coll-card">
         <div class="coll-img">
           {% if collection.image %}
@@ -29,7 +30,7 @@
         <div class="coll-text">
           <div class="coll-title">{{ collection.title }}</div>
           <div class="coll-desc">{% if collection.description != "" %}{{ collection.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
-          <a class="coll-url" href="{{ collection.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+          <a class="coll-url" href="{{ block.settings.page }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
         </div>
       </div>
       {% endfor %}
@@ -57,6 +58,24 @@
 			"label": "Sub Heading"
 		}
      ],
+	"blocks": [
+		{
+			"type": "collect",
+			"name": "Collection",
+			"settings": [
+				{
+                    "id": "coll",
+                    "type": "collection",
+                    "label": "Select Collection"
+                },
+				{
+                    "id": "page",
+                    "type": "url",
+                    "label": "Select Collection Page"
+                }
+			]
+		}
+	],
    "presets":[
       {
          "name":"Hedgren Coll List Hero"
