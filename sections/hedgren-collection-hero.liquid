@@ -8,16 +8,16 @@
   <div class="container rel">
     <div class="discover-coll-heading flex-box">
       <div class="side-title">
-      	1994
+      	{{ section.settings.heading_left }}
       </div>
     	<h1 class="discover-coll-main-heading">
         {{ collection.title }}
       </h1>
       <div class="side-title">
-      	2021
+      	{{ section.settings.heading_right }}
       </div>
     </div>
-    <div class="discover-coll-sub-heading no-t-m">Is Bag</div>
+    <div class="discover-coll-sub-heading no-t-m">{{ section.settings.sub_heading }}</div>
   </div>
 </div>
 <div class="hero-products-wrapper hedgren-collection-products-wrapper">
@@ -304,11 +304,6 @@
 			"type": "text",
 			"id": "heading_left",
 			"label": "Heading Left"
-		},
-		{
-			"type": "text",
-			"id": "heading_main",
-			"label": "Heading Main"
 		},
 		{
 			"type": "text",
