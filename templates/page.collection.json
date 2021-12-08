@@ -72,10 +72,122 @@
             "coll": "cabin-size",
             "page": "shopify:\/\/pages\/the-denim-collection"
           }
+        },
+        "6ff09b05-e1dd-4203-a375-b756530f1572": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "698631de-a2f9-4aff-9e90-20a15a47f4cf": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "c4f17a5a-f5fc-4701-850b-fc31165139f5": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "f3207af3-6eb3-45cf-bd12-5e82d12d63b8": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "40a3b48d-4533-40cb-ba36-ad32893ae8eb": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "95d2b167-2c90-43d4-9dcc-ba429dc33fd0": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "374b5823-fa52-4ad5-8e19-d5b2c80483f8": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "e58329e7-09ba-4a72-a4ee-7c11a1278a36": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "d5ce8e92-4057-4bbd-a6c7-8effd2697c89": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "dd0522b5-2216-4dc0-9c95-2d659ee43a30": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "5d070681-e87d-4aa7-9be8-7a8b82bf1478": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "5304ef42-848e-4301-a9da-7153d678d0ba": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "a115633e-3bc1-44c6-ad80-568072d9ae25": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "b0b56650-3d76-456f-9edb-99f7770bc317": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "1169d393-c162-409d-a183-726b53077a34"
+        "1169d393-c162-409d-a183-726b53077a34",
+        "6ff09b05-e1dd-4203-a375-b756530f1572",
+        "698631de-a2f9-4aff-9e90-20a15a47f4cf",
+        "c4f17a5a-f5fc-4701-850b-fc31165139f5",
+        "f3207af3-6eb3-45cf-bd12-5e82d12d63b8",
+        "40a3b48d-4533-40cb-ba36-ad32893ae8eb",
+        "95d2b167-2c90-43d4-9dcc-ba429dc33fd0",
+        "374b5823-fa52-4ad5-8e19-d5b2c80483f8",
+        "e58329e7-09ba-4a72-a4ee-7c11a1278a36",
+        "d5ce8e92-4057-4bbd-a6c7-8effd2697c89",
+        "dd0522b5-2216-4dc0-9c95-2d659ee43a30",
+        "5d070681-e87d-4aa7-9be8-7a8b82bf1478",
+        "5304ef42-848e-4301-a9da-7153d678d0ba",
+        "a115633e-3bc1-44c6-ad80-568072d9ae25",
+        "b0b56650-3d76-456f-9edb-99f7770bc317"
       ],
       "settings": {
         "title_left": "1994",
