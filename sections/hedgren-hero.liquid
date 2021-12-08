@@ -42,10 +42,10 @@
           </a>
           <div class="hero-row">            
             <span class="product-tag">
-              {{ product.tags.first }}
+              {{ product.type }}
             </span>
           </div>
-          <button class="add-direct btn btn-center">{{ section.settings.addtext }} {% render "svg-plus" %}</button>
+          <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}">{% if product.available %}{{ section.settings.addtext }}{% else %}OUT OF STOCK{% endif %} {% render "svg-plus" %}</button>
           <a href="{{ product.url }}" class="more-info">
             {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
           </a>
