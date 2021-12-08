@@ -84,7 +84,7 @@
     padding: 24px 0;
     border-bottom: 2px solid;
   border-top: 2px solid;
-  z-index: 5;
+  z-index: 0;
   transition: .4s ease;
   max-height: 0;
     overflow: hidden;
@@ -167,6 +167,7 @@
     visibility: visible;
     height: auto;
     display: block;
+  z-index: 5;
 }
 
 .sort-wrap {
