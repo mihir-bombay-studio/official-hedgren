@@ -3,7 +3,7 @@
 {{ 'hedgren-img-text.css' | asset_url | stylesheet_tag }}
 {{ 'hedgren-collection-features.css' | asset_url | stylesheet_tag }}
 
-{% assign collectionx = section.settings.collection %}
+{% assign collection = section.settings.collection %}
 <div class="hero hedgren-collection-hero" style="{% if collection.image %}background-image: url({{ collection.image | image_url: width: 2048 }}){% else %}background: #375D54{% endif %}">
   <div class="container rel">
     <div class="discover-coll-heading flex-box">
@@ -24,7 +24,7 @@
   <div class="container rel">
     <div class="product-slider-wrap">
     <div class="hero-products">
-      {% for product in collectionx.products limit: 8 %}fghfgh
+      {% for product in collection.products limit: 8 %}
       <div class="hero-product">
         <div>
           <div class="hero-product-images-block">
