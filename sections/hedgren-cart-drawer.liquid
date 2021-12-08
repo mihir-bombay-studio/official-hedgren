@@ -7,29 +7,34 @@
   </div>
   <div class="drawer-cart-main-sec">
     <div class="cart-body">
+      {% for item in cart.items %}
+          
+      {% assign featured_image = item.variant.image.src | default: item.product.featured_image %}
       <div class="cart-product-wrapper">
         <div class="cart-product-image">
-        	<img src="{{ 'bag_img.png' | asset_img_url: '100x' }}">
+          <a href="{{ item.url }}"><img src="{{ featured_image | product_img_url: '590x' }}"></a>
         </div>
         <div class="cart-product-infos justify-between">
           <div class="cart-product-info flex-box justify-between">
-            <div class="product-name">Crusade</div>
-            <div class="product-price"><span class="product-compare-price">€89.00</span><span class="product-selling-price">€79.00</span></div>
-            <div class="product-color">Color: yellow</div>
+            <div class="product-name">{{ item.product.title }}</div>
+            <div class="product-price"><span class="product-selling-price">{{ item.original_line_price | money }}</span></div>
+            <div class="product-color">Colour: {% unless item.variant.title contains "Default Title" %}{{ item.variant.title }}{% endunless %}</div>
           </div>
           <div class="cart-product-qty-del justify-between">
             <div class="cart-product-qty" data-quantity="1">
               <div class="qty-manipulation-symbol minus-symbol">-</div>
-              <div class="cart-qty">1</div>
+              <div class="cart-qty" value="{{item.quantity}}">{{item.quantity}}</div>
               <div class="qty-manipulation-symbol plus-symbol">+</div>
             </div>
             <div class="delete-cart-product">
-              <div class="delete-text">delete</div>
+              <div class="delete-text"  data-variant="{{ item.variant.id }}">delete</div>
               <div class="delete-icon">{% include 'icon-delete-new' %}</div>
             </div>
           </div>
         </div>
       </div>
+      {% endfor %}
+      
     </div>
   </div>
   <div class="drawer-cart-footer">
