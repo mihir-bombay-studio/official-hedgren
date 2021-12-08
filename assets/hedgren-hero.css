@@ -214,7 +214,7 @@
     border: 2px solid transparent;
     position: relative !important;
   }
-  .hero-product:hover .hero-product-images-block img:first-child {
-    opacity: 0;
+  .hero-product .hero-product-images-block img:first-child {
+    opacity: 1;
   }
 }
