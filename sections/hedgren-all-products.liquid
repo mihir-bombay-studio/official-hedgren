@@ -117,9 +117,11 @@
                   <div class="filter-type-filters">
                     {% assign tags = tags_filter[forloop.index0] | split: "," %}
                     <div class="filter-wrap">
-                      {% for tag in tags %}    
+                      {% for tag in tags %}  
+                      <div class="filter-tag-wrapper">
                       <div class="filter-checkbox" data-value="{{filter | strip | replace: " ","-"}}-{{tag | replace: " ","-" | capitalize}}"></div>  
-                      <div class="filter-txt">{{tag | replace: " ","-" | capitalize}}</div>        
+                      <div class="filter-txt">{{tag | replace: " ","-" | capitalize}}</div>    
+                      </div>
                       {% endfor %}
                     </div>
                   </div>
