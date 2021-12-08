@@ -71,7 +71,7 @@
       </div>
       {% endfor %}
     </div>
-    <a class="btn btn-center" href="#">SHOP ALL PRODUCTS</a>
+    <a class="btn btn-center" href="#">{{ section.settings.buttontext }}</a>
     </div>
   </div>
 </div>
@@ -314,7 +314,31 @@
 			"type": "text",
 			"id": "sub_heading",
 			"label": "Sub Heading"
-		}
+		},
+        {
+          "type": "text",
+          "id": "addtext",
+          "label": "Add button text",
+          "default": "ADD TO CART"
+        },
+        {
+          "type": "text",
+          "id": "outtext",
+          "label": "Out of stock button text",
+          "default": "OUT OF STOCK"
+        },
+        {
+          "type": "text",
+          "id": "moretext",
+          "label": "More button text",
+          "default": "More info"
+        },
+        {
+          "type": "text",
+          "id": "buttontext",
+          "label": "Button text",
+          "default": "SHOP ALL PRODUCTS"
+        }
      ],
 	"blocks": [
 		{
