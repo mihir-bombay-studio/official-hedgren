@@ -74,8 +74,8 @@
           })
         .done(function( data ) {
           current.closest('.hero-product').find('.money').text("€"+(data.price / 100).toFixed(2).replace(/\.?0+$/, '').replace('.',','));
-            current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.product.images.get(0).src);
-            current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.product.images.get(1).src);
+            current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.images.get(0).src);
+            current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.images.get(1).src);
            /* $('.featured-product-link{{index_no}}').attr('href',data.url);
             $('.gotolink{{index_no}}').data('url',data.url);
             $('.product-price{{index_no}}').text("€"+(data.price / 100).toFixed(2).replace(/\.?0+$/, '').replace('.',','));    
