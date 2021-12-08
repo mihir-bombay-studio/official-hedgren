@@ -384,7 +384,7 @@
       $('.filter-wrap').each(function() {
         console.log($(this).find('.filter-checkbox').data('value'));
         if($(this).find('.filter-checkbox').data('value') == curr) {
-          $(this).parent().removeClass('selected');
+          $(this).removeClass('selected');
         }
       });
       $(this).remove();  	
