@@ -6,6 +6,7 @@
         "image": "shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png",
         "heading": "<span class=\"no-t-m\">Back to    School<\/span> \n<span class=\"no-d\">Back to School<\/span>",
         "addtext": "ADD TO CART",
+        "outtext": "OUT OF STOCK",
         "moretext": "More info",
         "collection": "all-men-bags",
         "buttontext": "SHOP ALL PRODUCTS"
@@ -20,7 +21,7 @@
         "image": "shopify:\/\/shop_images\/IMage_2x_7b935bfc-a347-41d3-a170-722f41f36aff.png",
         "heading": "Hedgrenist",
         "subheading": "stories",
-        "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur",
+        "content": "Our Hedgrenists know the world is full of opportunities and are eager to take them on. Expanding their comfort zone, one challenge at a time, is what keeps them going. Meet our urban adventures and find out how they stand their ground. Discover how Hedgren plays a role in keeping them level-headed.",
         "button_label": "READ STORY",
         "button_link": "shopify:\/\/blogs\/blog",
         "extra_txt": "",
