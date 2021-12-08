@@ -113,7 +113,7 @@
                 {% for filter in split_filter %}
                 {% assign floopindex = forloop.index %}
                 <div class="filter-type">
-                  <div class="filter-type-title">SHOP FOR THE HEDGRENIST</div>
+                  <div class="filter-type-title">{{filter}}</div>
                   <div class="filter-type-filters">
                     {% assign tags = tags_filter[forloop.index0] | split: "," %}
                     <div class="filter-wrap">
