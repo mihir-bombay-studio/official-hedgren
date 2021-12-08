@@ -58,20 +58,21 @@
               </span>
             </div>
           </div>
-          <div class="hero-product-text-block">
-
-            <div class="hero-row no-d"> 
-              <div class="variants flex-box">
-                {% include 'color-product-swatch' %}
-                {% include 'color-product-swatch-2' %}
-              </div>
-            </div>
-            <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
-            <a href="{{ product.url }}" class="more-info">
-              {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
-            </a>
-          </div>
         </div>
+        <div class="hero-product-text-block">
+
+          <div class="hero-row no-d"> 
+            <div class="variants flex-box">
+              {% include 'color-product-swatch' %}
+              {% include 'color-product-swatch-2' %}
+            </div>
+          </div>
+          <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
+          <a href="{{ product.url }}" class="more-info">
+            {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
+          </a>
+        </div>
+      </div>
       {% endfor %}
     </div>
     <a class="btn btn-center" href="#">{{ section.settings.buttontext }}</a>
