@@ -209,48 +209,50 @@
     <div class="all-products">
       {% for product in collection.products %}
       <div class="hero-product">
-        <div class="hero-product-images-block rel">
-          {% for image in product.images limit: 2 %}
-          <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
-          {% endfor %}
-          <div class="prod-tag no-t-m">{% for tag in product.tags limit: 1 %}{{ tag }}{% endfor %}</div>
+        <div>
+          <div class="hero-product-images-block rel">
+            <a href="{{ product.url }}">
+              {% for image in product.images limit: 2 %}
+              <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+              {% endfor %}
+            </a>
+            <div class="variants flex-box no-t-m">
+              {% include 'color-product-swatch' %}
+              {% include 'color-product-swatch-2' %}
+            </div>
+          </div>
+
+          <div class="hero-product-text-block">
+            <div class="hero-row">
+              <div class="hero-col">
+                <span class="product-font">
+                  {{ product.title }}
+                </span>
+              </div>
+              <div class="hero-col">
+                <span class="product-font">
+                  {{ product.price | money }}
+                </span>
+              </div>
+            </div>
+            <div class="hero-row">            
+              <span class="product-tag">
+                {{ product.type }}
+              </span>
+            </div>
+          </div>
         </div>
-        
         <div class="hero-product-text-block">
-          <div class="variants no-t-m">
-            <div class="variant-color grey-color selected"></div>
-            <div class="variant-color yellow-color"></div>
-            <div class="variant-color blue-color"></div>
-            <div class="variant-color red-color"></div>
-            <div class="more-colors">more colors</div>
-          </div>
-          <div class="hero-row">
-            <div class="hero-col">
-              <span class="product-font">
-                {{ product.title }}
-              </span>
-            </div>
-            <div class="hero-col">
-              <span class="product-font">
-                {{ product.price | money }}
-              </span>
+
+          <div class="hero-row no-d"> 
+            <div class="variants flex-box">
+              {% include 'color-product-swatch' %}
+              {% include 'color-product-swatch-2' %}
             </div>
           </div>
-          <div class="hero-row">            
-            <span class="product-tag">
-              Drawstring Backpack RFID
-            </span>
-          </div>
-          <div class="variants no-d">
-            <div class="variant-color grey-color selected"></div>
-            <div class="variant-color yellow-color"></div>
-            <div class="variant-color blue-color"></div>
-            <div class="variant-color red-color"></div>
-            <div class="more-colors">more colors</div>
-          </div>
-          <button class="add-direct btn btn-center">ADD TO CART {% render "svg-plus" %}</button>
+          <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
           <a href="{{ product.url }}" class="more-info">
-            More info <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
+            {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
           </a>
         </div>
       </div>
