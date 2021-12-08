@@ -379,12 +379,14 @@
     
     $('.applied-filter:not(.added)').click(function() {
       console.log($(this).data('val'));
-      $(this).remove();
+      
       var curr = $(this).data('val');
       $('.filter-wrap').each(function() {
+        console.log($(this).find('.filter-checkbox').data('value'));
         if($(this).find('.filter-checkbox').data('value') == curr) {
           $(this).parent().removeClass('selected');
-        }    	
+        }  
+      $(this).remove();  	
       });
       runFilter();      
     });
