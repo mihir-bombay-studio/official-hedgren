@@ -1,3 +1,82 @@
+{% assign categoryp = "" %}
+{% assign tagsp = "" %}
+{% paginate collection.products by 900 %}
+  {% for product in collection.products %}
+
+    {% for tag in product.tags %}
+      {% if tag contains "filter:" or tag contains "Filter:" %}
+      	{% assign tagx = tag | split: "-" %}
+      	{% assign tag_first = tagx[0] | strip | replace: "filter:","" | replace: "Filter:","" | strip %}
+		{% unless categoryp contains tag_first %}
+			{% if categoryp == "" %}
+				{% assign categoryp = tag_first %}
+			{% else %}
+				{% assign categoryp = categoryp | append: "," | append: tag_first %}
+			{% endif %}
+		{% endunless %}
+		{% assign tag_last = tagx[1] | strip | replace: " ","-" %}
+			{% if tagsp == "" %}
+				{% assign tagsp = tag_last %}
+			{% else %}
+				{% assign stringbuilder = "" %}
+				{% assign categoryp_split = categoryp | split: "," %}
+				{% assign index_no = 0 %}
+				{% for categories in categoryp_split %}
+					{% if categories == tag_first %}{% assign index_no = forloop.index0 %}{% endif %}
+				{% endfor %}
+				{% assign tagsp_split = tagsp | split: "|" %}
+				{% assign tagsp_split_size = tagsp_split | size | minus: 1 %}
+				{% if index_no > tagsp_split_size %}
+					{% assign tagsp = tagsp | append: "|" | append: tag_last %}
+				{% else %}
+                  {% for tags in tagsp_split %}
+                      {% if forloop.index0 == index_no %}
+                          {% unless tags contains tag_last %}
+							{% assign stringbuilder = tags | append: "," | append: tag_last %}
+                          {% endunless %}
+                      {% endif %}
+                  {% endfor %}
+
+					{% assign superstring = "" %}
+                  {% for tags in tagsp_split %}
+                      {% if forloop.index0 == index_no %}
+						{% unless tags contains tag_last %}
+                        {% if forloop.last %}
+                            {% assign superstring = superstring | append: stringbuilder %}
+                        {% else %}
+                            {% assign superstring = superstring | append: stringbuilder | append: "|" %}
+                        {% endif %}
+						{% else %}
+							{% if forloop.last %}
+                                {% assign superstring = superstring | append: tags %}
+                            {% else %}
+                                {% assign superstring = superstring | append: tags | append: "|" %}
+                            {% endif %}
+						{% endunless %}
+                      {% else %}
+                        {% if forloop.last %}
+                            {% assign superstring = superstring | append: tags %}
+                        {% else %}
+                            {% assign superstring = superstring | append: tags | append: "|" %}
+                        {% endif %}
+                      {% endif %}
+                  {% endfor %}
+					{% assign tagsp = superstring %}
+				{% endif %}
+			{% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endpaginate %}
+
+
+
+
+
+
+
+
+
 {{ 'hedgren-product.css' | asset_url | stylesheet_tag }}
 {{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
 {{ 'hedgren-all-products.css' | asset_url | stylesheet_tag }}
@@ -26,79 +105,75 @@
     <div class="all-filters-sorts-wrap">
     <div class="filter-sort-products rel no-t-m">
       <div class="filters filters-filter">FILTER <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
-      	
-         <div class="filters-dropdown">
-        <div class="filters-dropdown-wrap">
-        <div class="filter-dropdown-left">
-        <div class="filter-type">
-          <div class="filter-type-title">TYPE OF BAG</div>
-          <div class="filter-type-filters">
-          {% for i in (1..13) %}
-          <div class="filter-wrap">
-            <div class="filter-checkbox"></div>
-            <div class="filter-txt">Cross over</div>
+
+        <div class="filters-dropdown">
+          <div class="filters-dropdown-wrap">
+            <div class="filter-dropdown-left">
+              <div class="filter-type">
+                <div class="filter-type-title">TYPE OF BAG</div>
+                <div class="filter-type-filters">
+                  {% for i in (1..13) %}
+                  <div class="filter-wrap">
+                    <div class="filter-checkbox"></div>
+                    <div class="filter-txt">Cross over</div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+            <div class="filter-dropdown-right">
+              <div class="filter-dropdown-right-left">
+                <div class="filter-type">
+                  <div class="filter-type-title">TYPE OF LUGGAGE</div>
+                  <div class="filter-type-filters">
+                    {% for i in (1..4) %}
+                    <div class="filter-wrap">
+                      <div class="filter-checkbox"></div>
+                      <div class="filter-txt">Cabin luggage</div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+                <div class="filter-type">
+                  <div class="filter-type-title">LENGTH OF STAY</div>
+                  <div class="filter-type-filters">
+                    {% for i in (1..4) %}
+                    <div class="filter-wrap">
+                      <div class="filter-checkbox"></div>
+                      <div class="filter-txt">Daytrip</div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+              <div class="filter-dropdown-right-right">
+                {% assign split_filter = categoryp | split: "," %}
+                {% assign tags_filter = tagsp | split: "|" %}
+                {% for filter in split_filter %}
+                {% assign floopindex = forloop.index %}
+                <div class="filter-type">
+                  <div class="filter-type-title">SHOP FOR THE HEDGRENIST</div>
+                  <div class="filter-type-filters">
+                    {% assign tags = tags_filter[forloop.index0] | split: "," %}
+                    <div class="filter-wrap">
+                      {% for tag in tags %}    
+                      <div class="filter-checkbox" data-value="{{filter | strip | replace: " ","-"}}-{{tag | replace: " ","-" | capitalize}}"></div>  
+                      <div class="filter-txt">{{tag | replace: " ","-" | capitalize}}</div>        
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+
+            </div>
+            
           </div>
-          {% endfor %}
-          </div>
+          <div class="apply-filters-btn">APPLY FILTER</div>
         </div>
-        </div>
-        <div class="filter-dropdown-right">
-          <div class="filter-dropdown-right-left">
-          	<div class="filter-type">
-          <div class="filter-type-title">TYPE OF LUGGAGE</div>
-          <div class="filter-type-filters">
-          {% for i in (1..4) %}
-          <div class="filter-wrap">
-            <div class="filter-checkbox"></div>
-            <div class="filter-txt">Cabin luggage</div>
-          </div>
-          {% endfor %}
-          </div>
-        </div>
-            <div class="filter-type">
-          <div class="filter-type-title">LENGTH OF STAY</div>
-          <div class="filter-type-filters">
-          {% for i in (1..4) %}
-          <div class="filter-wrap">
-            <div class="filter-checkbox"></div>
-            <div class="filter-txt">Daytrip</div>
-          </div>
-          {% endfor %}
-          </div>
-        </div>
-          </div>
-          <div class="filter-dropdown-right-right">
-            <div class="filter-type">
-          <div class="filter-type-title">FEATURES</div>
-          <div class="filter-type-filters">
-          {% for i in (1..4) %}
-          <div class="filter-wrap">
-            <div class="filter-checkbox"></div>
-            <div class="filter-txt">Feature</div>
-          </div>
-          {% endfor %}
-          </div>
-        </div>
-            <div class="filter-type">
-          <div class="filter-type-title">SHOP FOR THE HEDGRENIST</div>
-          <div class="filter-type-filters">
-          {% for i in (1..4) %}
-          <div class="filter-wrap">
-            <div class="filter-checkbox"></div>
-            <div class="filter-txt">A parent person</div>
-          </div>
-          {% endfor %}
-          </div>
-        </div>
-          </div>
-        	
-        </div>
-        </div>
-        <div class="apply-filters-btn">APPLY FILTER</div>
+
       </div>
-        
-      </div>
-     
+
       <div class="filters sort-title-wrap">SORT <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
         <div class="sort-wrap">
           <div class="sort new-first">Newest first</div>
@@ -107,8 +182,8 @@
           <div class="sort htol">Price, high - low</div>
         </div>
       </div>
-    </div>
-    <div class="filter-sort-products rel no-d">
+      </div>
+      <div class="filter-sort-products rel no-d">
       <div class="filters filters-filter">FILTER <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
       	
          <div class="filters-dropdown">
