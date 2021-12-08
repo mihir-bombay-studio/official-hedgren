@@ -100,15 +100,19 @@
 }
 
 .filter-wrap {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
   display: flex;
-    align-items: center;
+  align-items: center;
   cursor: pointer;
   width: fit-content;
-    width: moz-fit-content;
+  width: moz-fit-content;
   flex-wrap: wrap;
 }
-
+.filter-tag-wrapper {
+  width: 100%;
+  display: flex;
+  margin-bottom: 8px;
+}
 
 
 .filter-checkbox {
@@ -136,7 +140,7 @@
 
 .filter-type {
     margin-bottom: 12px;
-  width: 50%;
+  width: 33%;
 }
 
 .filters-dropdown-wrap{
