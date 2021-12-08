@@ -191,6 +191,7 @@
     visibility: visible;
     height: auto;
     display: block;
+  z-index: 2;
 }
 
 .sort {
