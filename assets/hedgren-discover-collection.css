@@ -129,4 +129,7 @@
   .coll-card {
     margin: 0;
   }
+  .hedgren-collection-hero .discover-coll-sub-heading {
+    font-size: 13px;
+  }
 }
