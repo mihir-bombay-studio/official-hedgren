@@ -73,7 +73,11 @@
   bottom: 0;
   width: 100%;
   height: 40px;
-  background-color: #ffffff;
+  background-color: #ffffffcc;
+  opacity: 0;
+}
+.hero-product:hover .hero-product-images-block .variants {
+  opacity: 1;
 }
 .hero-product-images-block .variants img.hedgren-color-active {
   width: 20px;
