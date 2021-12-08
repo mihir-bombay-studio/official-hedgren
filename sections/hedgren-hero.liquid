@@ -52,7 +52,7 @@
               {% include 'color-product-swatch-2' %}
             </div>
           </div>
-          <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt">{% if product.available %}{{ section.settings.addtext }}{% else %}OUT OF STOCK{% endif %}</span> {% render "svg-plus" %}</button>
+          <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
           <a href="{{ product.url }}" class="more-info">
             {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
           </a>
@@ -88,7 +88,7 @@
               current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.addtext }}');
               current.closest('.hero-product').find('.add-direct').removeClass('no-avaliable');        
             } else {
-              current.closest('.hero-product').find('.add-direct .cart-txt').text('OUT OF STOCK');
+              current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.outtext }}');
               current.closest('.hero-product').find('.add-direct').addClass('no-avaliable');        	
             }
             current.closest('.hero-product').find('.product-title').text(data.title)
@@ -149,6 +149,12 @@
         "id": "addtext",
         "label": "Add button text",
 		"default": "ADD TO CART"
+      },
+      {
+        "type": "text",
+        "id": "outtext",
+        "label": "Out of stock button text",
+		"default": "OUT OF STOCK"
       },
       {
         "type": "text",
