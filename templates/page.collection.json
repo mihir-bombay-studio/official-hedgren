@@ -62,9 +62,19 @@
         "buttontext": "SHOP ALL PRODUCTS",
         "collection": "cabin-size"
       }
+    },
+    "163899354782bb1c63": {
+      "type": "hedgren-discover-collection",
+      "settings": {
+        "title_left": "1994",
+        "title_mid": "Discover our collections",
+        "title_right": "2021",
+        "subtitle": "SUBTITLE"
+      }
     }
   },
   "order": [
-    "16389903857f4039a8"
+    "16389903857f4039a8",
+    "163899354782bb1c63"
   ]
 }
