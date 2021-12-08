@@ -67,6 +67,68 @@
 
 
 
+      
+      
+      
+<script>
+
+  $('.variants img').click(function() {
+    $(this).closest('.variants').find('img').removeClass('hedgren-color-active').addClass('hedgren-color-inactive');
+    $(this).addClass('hedgren-color-active').removeClass('hedgren-color-inactive');
+    var current = $(this);
+    $.ajax({
+      url: $(this).parent().data('url')+'.js',
+      method: "GET",
+      dataType: "json"
+    })
+    .done(function( data ) {
+      current.closest('.hero-product').find('.money').text("€"+(data.price / 100).toFixed(2).replace(/\.?0+$/, '').replace('.',','));
+      current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.images[0]);
+      current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.images[1]);
+      current.closest('.hero-product').find('a').attr('href',data.url);   
+      if(data.available) {
+        current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.addtext }}');
+                                                                            current.closest('.hero-product').find('.add-direct').removeClass('no-avaliable');        
+      } else {
+        current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.outtext }}');
+                                                                            current.closest('.hero-product').find('.add-direct').addClass('no-avaliable');        	
+      }
+      current.closest('.hero-product').find('.product-title').text(data.title)
+      current.closest('.hero-product').find('.add-direct').data('variant',data.variants[0].id);
+    })
+    .fail(function(error) {
+      console.log( error );
+    });
+  });
+
+  $('.more-color-link').click(function() {
+    $(this).parent().find('.no-disp').removeClass('no-disp');
+    $(this).addClass('no-disp');
+  });    
+
+  $('.add-direct').click(function() {
+    var formData = {
+      'items': [{
+        'id': parseInt($(this).data('variant')),
+        'quantity': 1
+      }]
+    };
+    $.ajax({
+      url: "/cart/add.js",
+      method: "POST",
+      dataType: "json",
+      data: formData,
+    })
+    .done(function( data ) {     
+      console.log(data);
+    })
+    .fail(function(error) {
+      console.log( error );
+    });
+  });
+
+</script>
+
 
 
 
