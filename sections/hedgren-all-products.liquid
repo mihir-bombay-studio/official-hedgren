@@ -108,45 +108,6 @@
 
         <div class="filters-dropdown">
           <div class="filters-dropdown-wrap">
-            <div class="filter-dropdown-left">
-              <div class="filter-type">
-                <div class="filter-type-title">TYPE OF BAG</div>
-                <div class="filter-type-filters">
-                  {% for i in (1..13) %}
-                  <div class="filter-wrap">
-                    <div class="filter-checkbox"></div>
-                    <div class="filter-txt">Cross over</div>
-                  </div>
-                  {% endfor %}
-                </div>
-              </div>
-            </div>
-            <div class="filter-dropdown-right">
-              <div class="filter-dropdown-right-left">
-                <div class="filter-type">
-                  <div class="filter-type-title">TYPE OF LUGGAGE</div>
-                  <div class="filter-type-filters">
-                    {% for i in (1..4) %}
-                    <div class="filter-wrap">
-                      <div class="filter-checkbox"></div>
-                      <div class="filter-txt">Cabin luggage</div>
-                    </div>
-                    {% endfor %}
-                  </div>
-                </div>
-                <div class="filter-type">
-                  <div class="filter-type-title">LENGTH OF STAY</div>
-                  <div class="filter-type-filters">
-                    {% for i in (1..4) %}
-                    <div class="filter-wrap">
-                      <div class="filter-checkbox"></div>
-                      <div class="filter-txt">Daytrip</div>
-                    </div>
-                    {% endfor %}
-                  </div>
-                </div>
-              </div>
-              <div class="filter-dropdown-right-right">
                 {% assign split_filter = categoryp | split: "," %}
                 {% assign tags_filter = tagsp | split: "|" %}
                 {% for filter in split_filter %}
@@ -164,9 +125,6 @@
                   </div>
                 </div>
                 {% endfor %}
-              </div>
-
-            </div>
             
           </div>
           <div class="apply-filters-btn">APPLY FILTER</div>
