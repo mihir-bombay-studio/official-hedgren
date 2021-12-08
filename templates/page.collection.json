@@ -69,7 +69,8 @@
         "1169d393-c162-409d-a183-726b53077a34": {
           "type": "collect",
           "settings": {
-            "coll": ""
+            "coll": "cabin-size",
+            "page": "shopify:\/\/pages\/the-denim-collection"
           }
         }
       },
