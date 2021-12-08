@@ -82,7 +82,7 @@
 {{ 'hedgren-all-products.css' | asset_url | stylesheet_tag }}
 
 <style>
-  .filter-wrap.selected .filter-checkbox{
+  .filter-tag-wrapper.selected .filter-checkbox{
     background-image: url('{{ 'check_2x.png' | asset_img_url: '100x' }}');
       background-size: contain;
       background-repeat: no-repeat;
@@ -307,7 +307,7 @@
 
 <script>
   
-  $('.filter-wrap').click(function() {
+  $('.filter-tag-wrapper').click(function() {
     if(!$(this).hasClass('selected')){
     	$(this).addClass('selected');
     }else{
