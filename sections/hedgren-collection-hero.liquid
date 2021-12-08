@@ -144,7 +144,7 @@
       })
       .done(function( data ) {
         $('#shopify-section-hedgren-cart-drawer').remove();
-        $(data).insertAfter("#shopify-section-hedgren-header");
+        $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
         $('.drawer-cart').addClass('drawn');
         $('body').addClass('no-scroll');
       })
