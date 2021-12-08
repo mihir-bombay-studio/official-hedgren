@@ -321,11 +321,6 @@
     if(fil_len>0){
       $('.applied-filters-wrap').removeClass('no-disp');
     }
-
-    $('.applied-filter').click(function() {
-      $(this).remove();
-      runFilter();
-    });
     runFilter();
   });
 
@@ -380,7 +375,20 @@
       $('.hero-product.fop').removeClass('no-disp');
     }
     
-    $('.fop').removeClass('fop');      
+    $('.fop').removeClass('fop');   
+    
+    
+    $('.applied-filter:not(.added)').click(function() {
+      $(this).remove();
+      var curr = $(this).data('val');
+      $('.filter-wrap').each(function() {
+        if($(this).find('.filter-checkbox').data('value') == curr) {
+          $(this).parent().removeClass('selected');
+        }    	
+      });
+      runFilter();      
+    });
+    $('.applied-filter').addClass('added');
   }
   runFilter();
   
