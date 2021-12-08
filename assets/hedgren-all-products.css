@@ -167,7 +167,7 @@
     visibility: visible;
     height: auto;
     display: block;
-  z-index: 5;
+  z-index: 2;
 }
 
 .sort-wrap {
@@ -177,7 +177,7 @@
     background-color: #fff;
     top: 50px;
     right: 0;
-    z-index: 5;
+    z-index: 1;
   max-height: 0;
     overflow: hidden;
     opacity: 0;
@@ -331,6 +331,8 @@
     padding: 0 20px;
     border-bottom: none;
     margin-bottom: 0;
+    z-index: 1;
+    position: relative;
 }
   
   .color-wrap {
