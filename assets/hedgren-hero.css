@@ -80,7 +80,7 @@
 .hero-product:hover .hero-product-images-block .variants {
   opacity: 1;
 }
-.hero-product-images-block .variants a {
+.hero-product-images-block .variants span {
   display: flex;
   align-items: center;
 }
