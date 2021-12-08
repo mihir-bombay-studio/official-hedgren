@@ -315,12 +315,7 @@
     }
   });
   
-  $('.apply-filters-btn').click(function() {
-    $('.applied-filter').remove(); 
-    var fil_len = $('.filter-tag-wrapper.selected').length;
-    if(fil_len>0){
-      $('.applied-filters-wrap').removeClass('no-disp');
-    }
+  $('.apply-filters-btn').click(function() {    
     runFilter();
   });
 
