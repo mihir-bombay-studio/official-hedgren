@@ -328,7 +328,7 @@
   $('.clear-filters').click(function() {
   	$('.applied-filters-wrap').addClass('no-disp');
     $('.applied-filter').remove(); 
-    $('.filter-wrap').each(function() {
+    $('.filter-tag-wrapper').each(function() {
     	$(this).removeClass('selected');
     });
     runFilter();
