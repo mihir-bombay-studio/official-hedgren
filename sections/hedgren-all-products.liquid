@@ -3,13 +3,19 @@
 {{ 'hedgren-all-products.css' | asset_url | stylesheet_tag }}
 
 <style>
-	.filter-wrap.selected .filter-checkbox{
-      background-image: url('{{ 'check_2x.png' | asset_img_url: '100x' }}');
-        background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #000000;
-}
+  .filter-wrap.selected .filter-checkbox{
+    background-image: url('{{ 'check_2x.png' | asset_img_url: '100x' }}');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #000000;
+      }
+  .all-products-wrapper .hero-product .hero-product-images-block .variants {
+    opacity: 1;
+    margin-bottom: 0;
+    align-items: center;
+    background-color: #fff;
+  }
 
 </style>
 
