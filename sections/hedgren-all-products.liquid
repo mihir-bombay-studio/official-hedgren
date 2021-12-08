@@ -15,7 +15,8 @@
 
 <div class="all-products-wrapper">
   <div class="container">
-    <div class="filter-sort-products rel">
+    <div class="all-filters-sorts-wrap">
+    <div class="filter-sort-products rel no-t-m">
       <div class="filters filters-filter">FILTER <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
       	
          <div class="filters-dropdown">
@@ -99,6 +100,99 @@
         </div>
       </div>
     </div>
+    <div class="filter-sort-products rel no-d">
+      <div class="filters filters-filter">FILTER <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
+      	
+         <div class="filters-dropdown">
+        <div class="filters-dropdown-wrap">
+          <div class="filter-type">
+          <div class="filter-type-title accordion">COLOURS <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
+            <div class="color-options panel">
+              {% for i in (1..3) %}
+              <div class="color-wrap"><div class="variant-color grey-color"></div><div class="color-name">Grey</div></div>
+              <div class="color-wrap"><div class="variant-color yellow-color"></div><div class="color-name">Yellow</div></div>
+              <div class="color-wrap"><div class="variant-color blue-color"></div><div class="color-name">Blue</div></div>
+              <div class="color-wrap"><div class="variant-color red-color"></div><div class="color-name">Red</div></div>
+              {% endfor %}
+            </div>
+        </div>
+          
+        <div class="filter-type">
+          <div class="filter-type-title accordion">TYPE OF BAG <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
+          <div class="filter-type-filters panel">
+          {% for i in (1..13) %}
+          <div class="filter-wrap">
+            <div class="filter-checkbox"></div>
+            <div class="filter-txt">Cross over</div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+          	<div class="filter-type">
+          <div class="filter-type-title accordion">TYPE OF LUGGAGE <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
+          <div class="filter-type-filters panel">
+          {% for i in (1..4) %}
+          <div class="filter-wrap">
+            <div class="filter-checkbox"></div>
+            <div class="filter-txt">Cabin luggage</div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+            <div class="filter-type">
+          <div class="filter-type-title accordion">LENGTH OF STAY <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
+          <div class="filter-type-filters panel">
+          {% for i in (1..4) %}
+          <div class="filter-wrap">
+            <div class="filter-checkbox"></div>
+            <div class="filter-txt">Daytrip</div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+            <div class="filter-type">
+          <div class="filter-type-title accordion">FEATURES <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
+          <div class="filter-type-filters panel">
+          {% for i in (1..4) %}
+          <div class="filter-wrap">
+            <div class="filter-checkbox"></div>
+            <div class="filter-txt">Feature</div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+            <div class="filter-type">
+          <div class="filter-type-title accordion">SHOP FOR THE HEDGRENIST <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
+          <div class="filter-type-filters panel">
+          {% for i in (1..4) %}
+          <div class="filter-wrap">
+            <div class="filter-checkbox"></div>
+            <div class="filter-txt">A parent person</div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+        	
+        </div>
+           <div class="apply-clear-filters-wrap">
+             <div class="apply-clear-filters">
+             <div class="clear-filters">CLEAR ALL</div>
+        <div class="apply-filters-btn">APPLY FILTER</div>
+             </div>
+           </div>
+      </div>
+        
+      </div>
+     
+      <div class="filters sort-title-wrap">SORT <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
+        <div class="sort-wrap">
+          <div class="sort new-first">Newest first</div>
+          <div class="sort bestsellers">Bestsellers</div>
+          <div class="sort ltoh">Price, low - high</div>
+          <div class="sort htol">Price, high - low</div>
+        </div>
+      </div>
+    </div>
     <div class="color-options no-t-m">
       {% for i in (1..3) %}
       <div class="color-wrap"><div class="variant-color grey-color"></div><div class="color-name">Grey</div></div>
@@ -107,18 +201,23 @@
       <div class="color-wrap"><div class="variant-color red-color"></div><div class="color-name">Red</div></div>
       {% endfor %}
     </div>
+      <div class="applied-filters-wrap no-disp">
+        <div class="applied-filters"></div>
+        <div class="clear-filters no-t-m">CLEAR ALL <span class="close-icon">{% include 'icon-close-new' %}</span></div>
+      </div>
+    </div>
     <div class="all-products">
-      {% for product in collection.products %}
+      {% for product in collections.all.products limit: 8 %}
       <div class="hero-product">
         <div class="hero-product-images-block rel">
           {% for image in product.images limit: 2 %}
           <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
           {% endfor %}
-          <div class="prod-tag">{% for tag in product.tags limit: 1 %}{{ tag }}{% endfor %}</div>
+          <div class="prod-tag no-t-m">{% for tag in product.tags limit: 1 %}{{ tag }}{% endfor %}</div>
         </div>
         
         <div class="hero-product-text-block">
-          <div class="variants">
+          <div class="variants no-t-m">
             <div class="variant-color grey-color selected"></div>
             <div class="variant-color yellow-color"></div>
             <div class="variant-color blue-color"></div>
@@ -141,6 +240,13 @@
             <span class="product-tag">
               Drawstring Backpack RFID
             </span>
+          </div>
+          <div class="variants no-d">
+            <div class="variant-color grey-color selected"></div>
+            <div class="variant-color yellow-color"></div>
+            <div class="variant-color blue-color"></div>
+            <div class="variant-color red-color"></div>
+            <div class="more-colors">more colors</div>
           </div>
           <button class="add-direct btn btn-center">ADD TO CART {% render "svg-plus" %}</button>
           <a href="{{ product.url }}" class="more-info">
@@ -167,6 +273,36 @@
     	$(this).removeClass('selected');
     }
   });
+  
+  $('.apply-filters-btn').click(function() {
+    $('.applied-filter').remove(); 
+    var fil_len = $('.filter-wrap.selected').length;
+    if(fil_len>0){
+      $('.applied-filters-wrap').removeClass('no-disp');
+      $('.filter-wrap.selected').each(function() {
+      	var filt_text = $(this).find('.filter-txt').text();
+        $('.applied-filters').append(`<div class='applied-filter'>`+filt_text+`<span class='close-icon'><svg xmlns="http://www.w3.org/2000/svg" width="17.414" height="17.414" viewBox="0 0 17.414 17.414">
+  <g id="Close" transform="translate(-1129.328 -4781.55)">
+    <path id="Path_7" data-name="Path 7" d="M0,0H22.626" transform="translate(1130.036 4782.258) rotate(45)" fill="none" stroke="#000" stroke-width="2"/>
+    <path id="Path_10" data-name="Path 10" d="M0,0H22.626" transform="translate(1146.034 4782.257) rotate(135)" fill="none" stroke="#000" stroke-width="2"/>
+  </g>
+</svg>
+</span></div>`);
+      });
+    }
+  });
+  
+  $('.applied-filter').click(function() {
+  	$(this).remove();
+  });
+  
+  $('.clear-filters').click(function() {
+  	$('.applied-filters-wrap').addClass('no-disp');
+    $('.filter-wrap').each(function() {
+    	$(this).removeClass('selected');
+    });
+  });
+  
 </script>
 
 {% schema %}
