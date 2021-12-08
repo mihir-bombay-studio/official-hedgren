@@ -214,4 +214,7 @@
     border: 2px solid transparent;
     position: relative !important;
   }
+  .hero-product:hover .hero-product-images-block .variants {
+    opacity: 0;
+  }
 }
