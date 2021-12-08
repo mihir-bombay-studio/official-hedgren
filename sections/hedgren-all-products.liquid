@@ -378,7 +378,7 @@
     
     
     $('.applied-filter:not(.added)').click(function() {
-      console.log('here')
+      console.log($(this).data('val'));
       $(this).remove();
       var curr = $(this).data('val');
       $('.filter-wrap').each(function() {
