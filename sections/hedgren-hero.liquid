@@ -15,15 +15,20 @@
       {% for product in section.settings.collection.products limit: 8 %}
       <div class="hero-product">
         <div class="hero-product-images-block">
-          <a href="{{ product.url }}">
+          
           {% for image in product.images limit: 2 %}
+            {% if forloop.last %}
+            	<a href="{{ product.url }}">
+            {% endif %}
           <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+            {% if forloop.last %}
+            	</a>
+            {% endif %}
           {% endfor %}
             <div class="variants flex-box">
               {% include 'color-product-swatch' %}
               {% include 'color-product-swatch-2' %}
             </div>
-          </a>
         </div>
         <div class="hero-product-text-block">
           <a href="{{ product.url }}">
