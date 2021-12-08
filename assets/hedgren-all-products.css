@@ -25,6 +25,8 @@
     justify-content: space-between;
   padding: 14px 0;
   border-bottom: 2px solid;
+    z-index: 1;
+    position: relative;
 }
 
 .color-wrap {
@@ -331,8 +333,6 @@
     padding: 0 20px;
     border-bottom: none;
     margin-bottom: 0;
-    z-index: 1;
-    position: relative;
 }
   
   .color-wrap {
