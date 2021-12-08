@@ -25,36 +25,47 @@
     <div class="hero-products">
       {% for product in collection.products limit: 8 %}
       <div class="hero-product">
-        <div>
-          <div class="hero-product-images-block">
-            {% for image in product.images limit: 2 %}
-            <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
-            {% endfor %}
-          </div>
-          <div class="hero-product-text-block">
-            <div class="hero-row">
-              <div class="hero-col">
-                <span class="product-font">
-                  {{ product.title }}
-                </span>
-              </div>
-              <div class="hero-col">
-                <span class="product-font">
-                  {{ product.price | money }}
-                </span>
-              </div>
+        <div class="hero-product-images-block">
+          <a href="{{ product.url }}">
+          {% for image in product.images limit: 2 %}
+          <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+          {% endfor %}
+          </a>
+            <div class="variants flex-box no-t-m">
+              {% include 'color-product-swatch' %}
+              {% include 'color-product-swatch-2' %}
             </div>
-            <div class="hero-row">            
-              <span class="product-tag">
-                Drawstring Backpack RFID
+        </div>
+        <div class="hero-product-text-block">
+          <a href="{{ product.url }}">
+          <div class="hero-row">
+            <div class="hero-col">
+              <span class="product-font product-title">
+                {{ product.title }}
+              </span>
+            </div>
+            <div class="hero-col price-col">
+              <span class="product-font money">
+                {{ product.price | money_without_trailing_zeros }}
               </span>
             </div>
           </div>
-        </div>
-        <div class="hero-product-text-block">
-          <button class="add-direct btn btn-center">ADD TO CART {% render "svg-plus" %}</button>
+          </a>
+          <div class="hero-row">            
+            <span class="product-tag">
+              {{ product.type }}
+            </span>
+          </div>
+          
+          <div class="hero-row no-d"> 
+            <div class="variants flex-box">
+              {% include 'color-product-swatch' %}
+              {% include 'color-product-swatch-2' %}
+            </div>
+          </div>
+          <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
           <a href="{{ product.url }}" class="more-info">
-            More info <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
+            {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
           </a>
         </div>
       </div>
