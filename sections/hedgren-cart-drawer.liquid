@@ -17,7 +17,7 @@
         <div class="cart-product-infos justify-between">
           <div class="cart-product-info flex-box justify-between">
             <div class="product-name">{{ item.product.title }}</div>
-            <div class="product-price"><span class="product-selling-price">{{ item.original_line_price | money }}</span></div>
+            <div class="product-price"><span class="product-selling-price">{{ item.original_line_price | money_without_trailing_zeros }}</span></div>
             <div class="product-color">Colour: {% unless item.variant.title contains "Default Title" %}{{ item.variant.title }}{% endunless %}</div>
           </div>
           <div class="cart-product-qty-del justify-between">
