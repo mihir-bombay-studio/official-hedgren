@@ -179,11 +179,12 @@
   $('.variant-color-wrapper').click(function() {
     if($(this).find('img').hasClass('hedgren-color-inactive')) {
       $.ajax({
-        url: window.location.pathname+'/?sections=hedgren-product',
+        url: $(this).data('url')+'/?sections=hedgren-product',
         method: "GET",
         dataType: "json"
       })
       .done(function( data ) {
+        console.log(data);
         $('#shopify-section-hedgren-product').remove();
         $(data["hedgren-product"]).insertAfter("#shopify-section-hedgren-product");
       })
