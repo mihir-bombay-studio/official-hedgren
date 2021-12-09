@@ -52,20 +52,6 @@
         <div class="product-desc">{{ product.description }}</div>
         <div class="product-usps">
           <div class="product-ups-wrap">
-            <div class="product-usp-title accordion flex-box justify-between">SIZES<span class="down-chev">{% include 'icon-down-chev-red' %}</span></div>
-            <div class="product-usp-content panel">
-              DIMENSIONS<br> H:42 cm<br> D:15 cm<br> W:31 cm<br> WEIGHT<br> 560 g<br> VOLUME<br> 19,5 l
-            </div>
-          </div>
-          <div class="product-ups-wrap">
-            <div class="product-usp-title accordion flex-box justify-between">MATERIALS<span class="down-chev">{% include 'icon-down-chev-red' %}</span></div>
-            <div class="product-usp-content panel">OUTER BODY MATERIAL<br> 100% Recycled Nylon<br> LINING MATERIAL<br> 100% Polyester</div>
-          </div>
-          
-          <div class="product-ups-wrap">
-            <div class="product-usp-title accordion flex-box justify-between">MATERIALS<span class="down-chev">{% include 'icon-down-chev-red' %}</span></div>
-            <div class="product-usp-content panel">OUTER BODY MATERIAL<br> 100% Recycled Nylon<br> LINING MATERIAL<br> 100% Polyester</div>
-          </div>
           {% if product.description contains '<!-- split -->' %}
           {% assign row = product.description | split: '<!-- split -->' %}
           {% assign size = row.size | plus:0 | minus: 1 %}

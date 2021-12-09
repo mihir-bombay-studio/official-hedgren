@@ -1,0 +1,204 @@
+{
+  "sections": {
+    "16389903857f4039a8": {
+      "type": "hedgren-collection-hero",
+      "blocks": {
+        "411dc432-1cb7-4f96-bc4d-f31649016464": {
+          "type": "features",
+          "settings": {
+            "name": "Quest",
+            "bag": "shopify:\/\/shop_images\/quest1.png",
+            "feature_img1": "shopify:\/\/shop_images\/Image_2x_96d15e0d-f319-4820-81a0-874f8fbcd915.png",
+            "feature_heading1": "Sustainable materials",
+            "feature_description1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+            "feature_img2": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
+            "feature_heading2": "Spacious compartment",
+            "feature_description2": "Including an RFID zipped pocket for passport and credit card protection, 1 open pocket to store a mobile phone or small accessories, a ket chain made of a 3-tone rope and metal hook.",
+            "feature_img3": "shopify:\/\/shop_images\/Hedgren_Banner.jpg",
+            "feature_heading3": "Large front pocket",
+            "feature_description3": "Practical large front pocket closed by a trendy 3-tone rope and a flap.",
+            "feature_img4": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
+            "feature_heading4": "Zipped pocket",
+            "feature_description4": "Quick access to zipped pocket in the back offering an extra security loop to insert the puller after closing. Ideal pocket to store a mobile phone, ID document and more.",
+            "feature_heading5": "",
+            "feature_description5": "",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        },
+        "1612ed30-a773-4f02-8227-012e4f9fe485": {
+          "type": "features",
+          "settings": {
+            "name": "Featured",
+            "bag": "shopify:\/\/shop_images\/quest2.png",
+            "feature_img1": "shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png",
+            "feature_heading1": "fdghdfgh dfgh dfg",
+            "feature_description1": "fgh fghfghhhhf hhhhhhhhh hhhhhhhhhhh hhhhhhhhhhyy yyyyyy",
+            "feature_heading2": "",
+            "feature_description2": "",
+            "feature_heading3": "",
+            "feature_description3": "",
+            "feature_heading4": "",
+            "feature_description4": "",
+            "feature_heading5": "",
+            "feature_description5": "",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        }
+      },
+      "block_order": [
+        "411dc432-1cb7-4f96-bc4d-f31649016464",
+        "1612ed30-a773-4f02-8227-012e4f9fe485"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
+        "heading_left": "1994",
+        "heading_right": "2021",
+        "sub_heading": "Is Bag",
+        "addtext": "ADD TO CART",
+        "outtext": "OUT OF STOCK",
+        "moretext": "More info",
+        "buttontext": "SHOP ALL PRODUCTS",
+        "collection": "cabin-size"
+      }
+    },
+    "163899354782bb1c63": {
+      "type": "hedgren-discover-collection",
+      "blocks": {
+        "1169d393-c162-409d-a183-726b53077a34": {
+          "type": "collect",
+          "settings": {
+            "coll": "cabin-size",
+            "page": "shopify:\/\/pages\/the-denim-collection"
+          }
+        },
+        "6ff09b05-e1dd-4203-a375-b756530f1572": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "698631de-a2f9-4aff-9e90-20a15a47f4cf": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "c4f17a5a-f5fc-4701-850b-fc31165139f5": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "f3207af3-6eb3-45cf-bd12-5e82d12d63b8": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "40a3b48d-4533-40cb-ba36-ad32893ae8eb": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "95d2b167-2c90-43d4-9dcc-ba429dc33fd0": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "374b5823-fa52-4ad5-8e19-d5b2c80483f8": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "e58329e7-09ba-4a72-a4ee-7c11a1278a36": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "d5ce8e92-4057-4bbd-a6c7-8effd2697c89": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "dd0522b5-2216-4dc0-9c95-2d659ee43a30": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "5d070681-e87d-4aa7-9be8-7a8b82bf1478": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "5304ef42-848e-4301-a9da-7153d678d0ba": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "a115633e-3bc1-44c6-ad80-568072d9ae25": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        },
+        "b0b56650-3d76-456f-9edb-99f7770bc317": {
+          "type": "collect",
+          "settings": {
+            "coll": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1169d393-c162-409d-a183-726b53077a34",
+        "6ff09b05-e1dd-4203-a375-b756530f1572",
+        "698631de-a2f9-4aff-9e90-20a15a47f4cf",
+        "c4f17a5a-f5fc-4701-850b-fc31165139f5",
+        "f3207af3-6eb3-45cf-bd12-5e82d12d63b8",
+        "40a3b48d-4533-40cb-ba36-ad32893ae8eb",
+        "95d2b167-2c90-43d4-9dcc-ba429dc33fd0",
+        "374b5823-fa52-4ad5-8e19-d5b2c80483f8",
+        "e58329e7-09ba-4a72-a4ee-7c11a1278a36",
+        "d5ce8e92-4057-4bbd-a6c7-8effd2697c89",
+        "dd0522b5-2216-4dc0-9c95-2d659ee43a30",
+        "5d070681-e87d-4aa7-9be8-7a8b82bf1478",
+        "5304ef42-848e-4301-a9da-7153d678d0ba",
+        "a115633e-3bc1-44c6-ad80-568072d9ae25",
+        "b0b56650-3d76-456f-9edb-99f7770bc317"
+      ],
+      "settings": {
+        "title_left": "1994",
+        "title_mid": "Discover our collections",
+        "title_right": "2021",
+        "subtitle": "SUBTITLE"
+      }
+    }
+  },
+  "order": [
+    "16389903857f4039a8",
+    "163899354782bb1c63"
+  ]
+}
