@@ -329,13 +329,13 @@
   $('.variant-color-wrapper').each(function() {
     var index = arrayObj.findIndex(x => x.name==$(this).attr('title'));
     if(index === -1) {
-      arrayObj.push({name:$(this).attr('title'), img: $(this).find('img').attr('src')})
+      arrayObj.push({name:$(this).attr('title'), img: $(this).find('img').attr('src'), class: 'color-'+$(this).attr('title').replace(' ','-')})
     }
   });
   $(arrayObj).each(function(index,item) {
     console.log(item)
     $('.color-options').append(`
-		<div class="color-wrap"><div class="variant-color" style="background-image:url(`+item.img+`);"></div><div class="color-name">`+item.name+`</div></div>
+		<div class="color-wrap" data-val="`+item.class+`"><div class="variant-color" style="background-image:url(`+item.img+`);"></div><div class="color-name">`+item.name+`</div></div>
 	`);
   });
   $('.hero-product').each(function(index,item){
@@ -350,6 +350,7 @@
     }else{
     	$(this).removeClass('selected');
     }
+    runFilter();
   });
   
   function runFilter() {
@@ -365,7 +366,22 @@
     $('.filter-row').html('');
     $('.hero-product').addClass('no-disp');
 
-      $('.hero-product').addClass('fop');
+    if($('.color-wrap.selected').length > 0) {
+      $('.hero-product').each(function() {
+        $(this).data('iterationx',0);
+        var curx = $(this);
+        $('.color-wrap.selected').each(function() {
+          if(curx.hasClass($(this).data('val'))) {
+            $(this).data('iteration',(parseInt($(this).data('iteration')) || 0)+1);
+          }
+        });
+        if($(this).data('iterationx') == $('.color-wrap.selected').length){
+          $(this).addClass('fop');
+        }
+      });
+    } else {
+      $('.card-product').addClass('fop');
+    }
 
 
     if($('.filter-tag-wrapper.selected').length > 0) {
