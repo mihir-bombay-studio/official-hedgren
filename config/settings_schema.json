@@ -1009,6 +1009,26 @@
     ]
   },
   {
+    "name": "Hardcoded data",
+    "settings": [
+      {
+        "type": "text",
+        "id": "h_name1",
+        "label": "Name of collection1"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection1",
+        "label": "select collection1"
+      },
+      {
+        "type": "html",
+        "id": "h_description1",
+        "label": "Enter description1"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
