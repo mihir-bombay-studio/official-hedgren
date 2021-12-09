@@ -5,33 +5,16 @@
   <div class="img-text container flex-box">
     <div class="img-text-text">
       <h2 class="img-text-text-heading">
-        features {{ product.metafields.my_fields.features_line }}
+        features
       </h2>
       <div class="img-text-text-content">
+        {% assign points = product.metafields.my_fields.features_line | split: "," %}
+        {% for point in points %}
         <div class="feature-key-point flex-box">
           <span class="plus-icon">{% include 'icon-plus-new' %}</span>
-          <span class="key-point-text">1 ZIPPED POCKET</span>
+          <span class="key-point-text">{{ point }}</span>
         </div>
-        <div class="feature-key-point flex-box">
-          <span class="plus-icon">{% include 'icon-plus-new' %}</span>
-          <span class="key-point-text">1 INTERIOR ZIPPED POCKET</span>
-        </div>
-        <div class="feature-key-point flex-box">
-          <span class="plus-icon">{% include 'icon-plus-new' %}</span>
-          <span class="key-point-text">RFID PROTECTION</span>
-        </div>
-        <div class="feature-key-point flex-box">
-          <span class="plus-icon">{% include 'icon-plus-new' %}</span>
-          <span class="key-point-text">FITS A4</span>
-        </div>
-        <div class="feature-key-point flex-box">
-          <span class="plus-icon">{% include 'icon-plus-new' %}</span>
-          <span class="key-point-text">2 KEY HOOKS</span>
-        </div>
-        <div class="feature-key-point flex-box">
-          <span class="plus-icon">{% include 'icon-plus-new' %}</span>
-          <span class="key-point-text">A SECURITY ELASTIC LOOP AS ORGANISERS</span>
-        </div>
+        {% endfor %}
       </div>
     </div>  
     <div class="img-text-img rel">
@@ -40,10 +23,9 @@
         NEXT
       </span>   
       <div class="feature-imgs">
+        {% for point in points %}
       	<img src="{{ 'img.png' | asset_img_url: '620x' }}">
-        <img src="{{ 'img.png' | asset_img_url: '620x' }}">
-        <img src="{{ 'img.png' | asset_img_url: '620x' }}">
-        <img src="{{ 'img.png' | asset_img_url: '620x' }}">
+        {% endfor %}
       </div>
       
     </div>
