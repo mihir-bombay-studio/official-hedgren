@@ -4,7 +4,7 @@
 {{ 'hedgren-collection-features.css' | asset_url | stylesheet_tag }}
 {{ 'hedgren-discover-collection.css' | asset_url | stylesheet_tag }}
 
-{% assign collection = collections[section.settings.collection] %}
+
 <div class="hero hedgren-collection-hero" style="{% if collection.image %}background-image: url({{ collection.image | image_url: width: 2048 }}){% else %}background: #375D54{% endif %}">
   <div class="container rel">
     <div class="discover-coll-heading flex-box">
@@ -25,7 +25,8 @@
   <div class="container rel">
     <div class="product-slider-wrap">
     <div class="hero-products">
-      {% for product in collection.products limit: 8 %}
+      {% paginate collection.products by 2000 %}
+      {% for product in collection.products %}
       <div class="hero-product">
         <div>
           <div class="hero-product-images-block">
@@ -76,6 +77,7 @@
         </div>
       </div>
       {% endfor %}
+      {% endpaginate %}
     </div>
     <a class="btn btn-center" href="{{ collection.url }}">{{ section.settings.buttontext }}</a>
     </div>
@@ -348,11 +350,6 @@
           "id": "buttontext",
           "label": "Button text",
           "default": "SHOP ALL PRODUCTS"
-        },
-        {
-          "type": "collection",
-          "id": "collection",
-          "label": "Select Collection"
         }
      ],
 	"blocks": [
