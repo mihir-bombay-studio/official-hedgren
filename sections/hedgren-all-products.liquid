@@ -257,10 +257,16 @@
 
 
 <script>
-  $('.filters.filters-filter').click(function() {
+  $('.filters.filters-filter').click(function(e) {
+    if( e.target != this ) 
+       return false;
+    
   	$(this).toggleClass('clicked');
   });
-  $('.filters.sort-title-wrap').click(function() {
+  $('.filters.sort-title-wrap').click(function(e) {
+    if( e.target != this ) 
+       return false;
+
   	$(this).toggleClass('clicked');
   });
   $('.filter-tag-wrapper').click(function() {
