@@ -48,7 +48,10 @@
   border: 2px solid #fff;
   box-shadow: 0 2px 4px #00000026;
 }
-
+.sort.selected {
+  font-weight: 700;
+  text-decoration: underline;
+}
 .all-products {
     display: flex;
     flex-wrap: wrap;
