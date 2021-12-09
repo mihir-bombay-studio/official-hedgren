@@ -71,18 +71,18 @@
           {% assign size = row.size | plus:0 | minus: 1 %}
 
           {% for i in (1..size) %}
-
+          {% if forloop.index > 2 %}
           {% assign aux = i | plus: 1 %}
           {% assign mod = i | modulo: 2 %}
 
           {% if mod == 1 %}
           <div class="product-ups-wrap">
             <div class="product-usp-title accordion flex-box justify-between">{{row[i]}}<span class="down-chev">{% include 'icon-down-chev-red' %}</span></div>
-          {% else %}
+            {% else %}
             <div class="product-usp-content panel">{{row[i]}}</div>
           </div>
           {% endif %}
-
+          {% endif %}
           {% endfor %}
 
           {% endif %}
