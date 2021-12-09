@@ -1025,6 +1025,231 @@
         "type": "html",
         "id": "h_description1",
         "label": "Enter description1"
+      },
+      {
+        "type": "text",
+        "id": "h_name2",
+        "label": "Name of collection2"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection2",
+        "label": "select collection2"
+      },
+      {
+        "type": "html",
+        "id": "h_description2",
+        "label": "Enter description2"
+      },
+      {
+        "type": "text",
+        "id": "h_name3",
+        "label": "Name of collection3"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection3",
+        "label": "select collection3"
+      },
+      {
+        "type": "html",
+        "id": "h_description3",
+        "label": "Enter description3"
+      },
+      {
+        "type": "text",
+        "id": "h_name4",
+        "label": "Name of collection4"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection4",
+        "label": "select collection4"
+      },
+      {
+        "type": "html",
+        "id": "h_description4",
+        "label": "Enter description4"
+      },
+      {
+        "type": "text",
+        "id": "h_name5",
+        "label": "Name of collection5"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection5",
+        "label": "select collection5"
+      },
+      {
+        "type": "html",
+        "id": "h_description5",
+        "label": "Enter description5"
+      },
+      {
+        "type": "text",
+        "id": "h_name6",
+        "label": "Name of collection6"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection6",
+        "label": "select collection6"
+      },
+      {
+        "type": "html",
+        "id": "h_description6",
+        "label": "Enter description6"
+      },
+      {
+        "type": "text",
+        "id": "h_name7",
+        "label": "Name of collection7"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection7",
+        "label": "select collection7"
+      },
+      {
+        "type": "html",
+        "id": "h_description7",
+        "label": "Enter description7"
+      },
+      {
+        "type": "text",
+        "id": "h_name8",
+        "label": "Name of collection8"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection8",
+        "label": "select collection8"
+      },
+      {
+        "type": "html",
+        "id": "h_description8",
+        "label": "Enter description8"
+      },
+      {
+        "type": "text",
+        "id": "h_name9",
+        "label": "Name of collection9"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection9",
+        "label": "select collection9"
+      },
+      {
+        "type": "html",
+        "id": "h_description9",
+        "label": "Enter description9"
+      },
+      {
+        "type": "text",
+        "id": "h_name10",
+        "label": "Name of collection10"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection10",
+        "label": "select collection10"
+      },
+      {
+        "type": "html",
+        "id": "h_description10",
+        "label": "Enter description10"
+      },
+      {
+        "type": "text",
+        "id": "h_name11",
+        "label": "Name of collection11"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection11",
+        "label": "select collection11"
+      },
+      {
+        "type": "html",
+        "id": "h_description11",
+        "label": "Enter description11"
+      },
+      {
+        "type": "text",
+        "id": "h_name12",
+        "label": "Name of collection12"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection12",
+        "label": "select collection12"
+      },
+      {
+        "type": "html",
+        "id": "h_description12",
+        "label": "Enter description12"
+      },
+      {
+        "type": "text",
+        "id": "h_name13",
+        "label": "Name of collection13"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection13",
+        "label": "select collection13"
+      },
+      {
+        "type": "html",
+        "id": "h_description13",
+        "label": "Enter description13"
+      },
+      {
+        "type": "text",
+        "id": "h_name14",
+        "label": "Name of collection14"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection14",
+        "label": "select collection14"
+      },
+      {
+        "type": "html",
+        "id": "h_description14",
+        "label": "Enter description14"
+      },
+      {
+        "type": "text",
+        "id": "h_name15",
+        "label": "Name of collection15"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection15",
+        "label": "select collection15"
+      },
+      {
+        "type": "html",
+        "id": "h_description15",
+        "label": "Enter description15"
+      },
+      {
+        "type": "text",
+        "id": "h_name16",
+        "label": "Name of collection16"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection16",
+        "label": "select collection16"
+      },
+      {
+        "type": "html",
+        "id": "h_description16",
+        "label": "Enter description16"
       }
     ]
   },
