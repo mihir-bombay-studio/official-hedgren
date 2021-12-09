@@ -510,10 +510,7 @@
     .done(function( data ) {
       var placeholder = document.createElement('div');
       placeholder.innerHTML = data;
-      console.log(placeholder);
       var divx = $(placeholder).find('.all-products');
-      console.log(divx.innerHTML);
-      console.log(placeholder.querySelector('.all-products'));
       $('.all-products').first().replaceWith(placeholder.querySelector('.all-products'));
     })
     .fail(function(error) {
@@ -521,7 +518,6 @@
     });
   });
 </script>
-<div class="no-disp" id="removex"></div>
 
 
 {% schema %}
