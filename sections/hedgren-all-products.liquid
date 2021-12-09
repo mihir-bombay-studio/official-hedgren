@@ -514,7 +514,7 @@
       console.log(placeholder);
       var divx = $(placeholder).find('.all-products');
       console.log(divx);
-      $('.all-products').first().replaceWith(divx);
+      $('.all-products').first().replaceWith(divx.innerHTML);
     })
     .fail(function(error) {
       console.log( error );
