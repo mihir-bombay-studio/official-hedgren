@@ -198,6 +198,7 @@
             } 
           });
         }
+        window.history.pushState({}, null, $(this).data('url'));
         $('.product-wrap').last().parent().remove();
       })
       .fail(function(error) {
