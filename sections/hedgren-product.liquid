@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="add-to-cart">ADD TO CART {% include 'icon-plus-black' %}</div>
-        <div class="product-desc">{{ product.description }}</div>
+        <div class="product-desc">{{ product.description | split: '<!-- split -->' | first }}</div>
         <div class="product-usps">
           <div class="product-ups-wrap">
           {% if product.description contains '<!-- split -->' %}
