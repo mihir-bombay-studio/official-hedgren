@@ -408,9 +408,11 @@
       current.closest('.hero-product').find('a').attr('href',data.url);   
       if(data.available) {
         current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.addtext }}');
+        current.closest('.hero-product').find('.add-direct .cart-txt.no-d').text('ADD');
                                                                             current.closest('.hero-product').find('.add-direct').removeClass('no-avaliable');        
       } else {
         current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.outtext }}');
+        current.closest('.hero-product').find('.add-direct .cart-txt.no-d').text('Sold Out');
                                                                             current.closest('.hero-product').find('.add-direct').addClass('no-avaliable');        	
       }
       current.closest('.hero-product').find('.product-title').text(data.title)
