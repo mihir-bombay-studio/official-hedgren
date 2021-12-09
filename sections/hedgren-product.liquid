@@ -71,7 +71,7 @@
           {% assign size = row.size | plus:0 | minus: 1 %}
 
           {% for i in (1..size) %}
-          {% if forloop.index > 3 %}
+          {% if forloop.index > 1 %}
           {% assign aux = i | plus: 1 %}
           {% assign mod = i | modulo: 2 %}
 
