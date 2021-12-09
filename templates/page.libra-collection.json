@@ -76,8 +76,8 @@
         "6ff09b05-e1dd-4203-a375-b756530f1572": {
           "type": "collect",
           "settings": {
-            "coll": "",
-            "page": ""
+            "coll": "libra-collection",
+            "page": "shopify:\/\/pages\/libra-collection"
           }
         },
         "698631de-a2f9-4aff-9e90-20a15a47f4cf": {
