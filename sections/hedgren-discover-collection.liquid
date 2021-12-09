@@ -30,7 +30,7 @@
               </div>
               <div class="coll-text">
                 <div class="coll-title">{{ collection_handle.title }}</div>
-              <div class="coll-desc">{% if collection.description != blank %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
                 <a class="coll-url" href="{{ block.settings.page }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
               </div>
       </div>
