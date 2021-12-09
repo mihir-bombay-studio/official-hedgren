@@ -508,14 +508,13 @@
       method: "GET"
     })
     .done(function( data ) {
-      $('.all-products').first().replaceWith($('#removex').find('.all-products'));
       var placeholder = document.createElement('div');
       placeholder.innerHTML = data;
       console.log(placeholder);
       var divx = $(placeholder).find('.all-products');
       console.log(divx.innerHTML);
-      console.log(placeholder.querySelector('.all-products').innerHTML);
-      $('.all-products').html(placeholder.querySelector('.all-products').innerHTML);
+      console.log(placeholder.querySelector('.all-products'));
+      $('.all-products').first().replaceWith(placeholder.querySelector('.all-products'));
     })
     .fail(function(error) {
       console.log( error );
