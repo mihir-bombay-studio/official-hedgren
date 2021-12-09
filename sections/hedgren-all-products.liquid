@@ -508,9 +508,11 @@
       method: "GET"
     })
     .done(function( data ) {
-      $('#removex').html(data);
       $('.all-products').first().replaceWith($('#removex').find('.all-products'));
-      $('#removex').html('');
+      var placeholder = document.createElement('div');
+      placeholder.innerHTML = data;
+      var divx = $(placeholder).find('.all-products');
+      $('.all-products').first().replaceWith(divx);
     })
     .fail(function(error) {
       console.log( error );
