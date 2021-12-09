@@ -165,6 +165,9 @@
     "smokeym": "shopify:\/\/shop_images\/smokey_mauve.jpg",
     "bikingr": "shopify:\/\/shop_images\/biking_red.jpg",
     "cabernet": "shopify:\/\/shop_images\/cabernet.jpg",
+    "h_name1": "Great American Heritage",
+    "h_collection1": "great-american-heritage",
+    "h_description1": "Have you noticed how cool people just keep on reinventing themselves and getting away with the result? That’s exactly what you could say about The Great American Heritage. The collection might look familiar, but it’s been completely revised and revamped to blend in with its new surroundings. The entire collection is a revised edition of the original iconic design from 1993. Proving once again that The Great American Heritage is here to stay, it now presents itself as your loyal companion made from recycled materials.",
     "colors_solid_button_labels": "#FFFFFF",
     "colors_accent_1": "#121212",
     "colors_accent_2": "#334FB4",
@@ -198,6 +201,16 @@
           "menu": "main-menu",
           "show_search": true,
           "enable_sticky_header": true
+        }
+      },
+      "hedgren-cart-drawer": {
+        "type": "hedgren-cart-drawer",
+        "settings": {
+        }
+      },
+      "hedgren-footer": {
+        "type": "hedgren-footer",
+        "settings": {
         }
       }
     },
