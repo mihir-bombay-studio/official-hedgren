@@ -73,7 +73,7 @@
           {% for i in (1..size) %}
           {% if forloop.index > 1 %}
           {% assign aux = i | plus: 1 %}
-          {% assign mod = i | modulo: 2 %}
+          {% assign mod = aux | modulo: 2 %}
 
           {% if mod == 1 %}
           <div class="product-ups-wrap">
