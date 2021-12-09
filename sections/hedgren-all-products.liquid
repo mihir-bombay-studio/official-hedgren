@@ -433,13 +433,6 @@
   }
   runFilter();
   
-</script>
-
-
-      
-      
-      
-<script>
 
   $('.variants img').click(function() {
     $(this).closest('.variants').find('img').removeClass('hedgren-color-active').addClass('hedgren-color-inactive');
@@ -508,7 +501,24 @@
       console.log( error );
     });
   });
+  
+  $('.add-direct').click(function() {
+    $.ajax({
+      url: window.location.pathname+'?sort_by=title-ascending',
+      method: "GET"
+    })
+    .done(function( data ) {
+      $('#removex').html(data);
+      $('.all-products').first().replaceWith($('#removex').find('.all-products'));
+      $('#removex').html('');
+    })
+    .fail(function(error) {
+      console.log( error );
+    });
+  }
 </script>
+<div class="no-disp" id="removex"></div>
+
 
 {% schema %}
   {
