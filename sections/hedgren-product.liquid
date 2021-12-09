@@ -200,13 +200,7 @@
           });
         }
         window.history.pushState({}, null, url);
-        $('.product-imgs-mobile').slick({
-          infinite: false,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: true,
-          arrows: false
-        });
+        $('.product-imgs-mobile')[0].slick.refresh();
         $('.product-wrap').last().parent().remove();
       })
       .fail(function(error) {
