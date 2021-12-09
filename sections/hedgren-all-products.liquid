@@ -511,7 +511,9 @@
       $('.all-products').first().replaceWith($('#removex').find('.all-products'));
       var placeholder = document.createElement('div');
       placeholder.innerHTML = data;
+      console.log(placeholder);
       var divx = $(placeholder).find('.all-products');
+      console.log(divx);
       $('.all-products').first().replaceWith(divx);
     })
     .fail(function(error) {
