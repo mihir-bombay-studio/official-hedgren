@@ -184,7 +184,6 @@
       })
       .done(function( data ) {
         $('main').prepend(data['hedgren-product'])
-        $('#shopify-section-hedgren-product').last().remove();
       })
       .fail(function(error) {
         console.log( error );
