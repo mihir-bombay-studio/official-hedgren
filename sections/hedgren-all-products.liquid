@@ -333,7 +333,6 @@
     }
   });
   $(arrayObj).each(function(index,item) {
-    console.log(item)
     $('.color-options').append(`
 		<div class="color-wrap" data-val="`+item.class+`"><div class="variant-color" style="background-image:url(`+item.img+`);"></div><div class="color-name">`+item.name+`</div></div>
 	`);
