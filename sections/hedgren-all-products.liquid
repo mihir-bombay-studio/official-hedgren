@@ -459,6 +459,19 @@
     });
   });
 
+  var arrayObj = [];
+  $('.variant-color-wrapper').each(function() {
+    var index = arrayObj.findIndex(x => x.name==$(this).attr('title'));
+    if(index === -1) {
+      arrayObj.push({name:$(this).attr('title'), img: $(this).find('img').attr('src')})
+    }
+  });
+  $(arrayObj).each(function(index,item) {
+    console.log(item)
+    $('.color-options').append(`
+		<div class="color-wrap"><div class="variant-color" style="background-image:url(`+item.img+`);"></div><div class="color-name">`+item.name+`</div></div>
+	`);
+  });
 </script>
 
 {% schema %}
