@@ -151,72 +151,29 @@
           <div class="filter-type">
           <div class="filter-type-title accordion">COLOURS <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
             <div class="color-options panel">
-              {% for i in (1..3) %}
-              <div class="color-wrap"><div class="variant-color grey-color"></div><div class="color-name">Grey</div></div>
-              <div class="color-wrap"><div class="variant-color yellow-color"></div><div class="color-name">Yellow</div></div>
-              <div class="color-wrap"><div class="variant-color blue-color"></div><div class="color-name">Blue</div></div>
-              <div class="color-wrap"><div class="variant-color red-color"></div><div class="color-name">Red</div></div>
-              {% endfor %}
             </div>
-        </div>
-          
-        <div class="filter-type">
-          <div class="filter-type-title accordion">TYPE OF BAG <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
-          <div class="filter-type-filters panel">
-          {% for i in (1..13) %}
-          <div class="filter-wrap">
-            <div class="filter-checkbox"></div>
-            <div class="filter-txt">Cross over</div>
+          </div>
+          {% assign split_filter = categoryp | split: "," %}
+          {% assign tags_filter = tagsp | split: "|" %}
+          {% for filter in split_filter %}
+          {% assign floopindex = forloop.index %}
+          <div class="filter-type">
+            <div class="filter-type-title accordion">{{filter}} <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
+            <div class="filter-type-filters panel">
+              {% assign tags = tags_filter[forloop.index0] | split: "," %}
+              <div class="filter-wrap">
+                {% for tag in tags %}  
+                <div class="filter-tag-wrapper">
+                  <div class="filter-checkbox" data-value="{{filter | strip | replace: " ","-"}}-{{tag | replace: " ","-" | capitalize}}"></div>  
+                  <div class="filter-txt">{{tag | replace: " ","-" | capitalize}}</div>    
+                </div>
+                {% endfor %}
+              </div>
+            </div>
           </div>
           {% endfor %}
-          </div>
-        </div>
-          	<div class="filter-type">
-          <div class="filter-type-title accordion">TYPE OF LUGGAGE <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
-          <div class="filter-type-filters panel">
-          {% for i in (1..4) %}
-          <div class="filter-wrap">
-            <div class="filter-checkbox"></div>
-            <div class="filter-txt">Cabin luggage</div>
-          </div>
-          {% endfor %}
-          </div>
-        </div>
-            <div class="filter-type">
-          <div class="filter-type-title accordion">LENGTH OF STAY <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
-          <div class="filter-type-filters panel">
-          {% for i in (1..4) %}
-          <div class="filter-wrap">
-            <div class="filter-checkbox"></div>
-            <div class="filter-txt">Daytrip</div>
-          </div>
-          {% endfor %}
-          </div>
-        </div>
-            <div class="filter-type">
-          <div class="filter-type-title accordion">FEATURES <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
-          <div class="filter-type-filters panel">
-          {% for i in (1..4) %}
-          <div class="filter-wrap">
-            <div class="filter-checkbox"></div>
-            <div class="filter-txt">Feature</div>
-          </div>
-          {% endfor %}
-          </div>
-        </div>
-            <div class="filter-type">
-          <div class="filter-type-title accordion">SHOP FOR THE HEDGRENIST <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
-          <div class="filter-type-filters panel">
-          {% for i in (1..4) %}
-          <div class="filter-wrap">
-            <div class="filter-checkbox"></div>
-            <div class="filter-txt">A parent person</div>
-          </div>
-          {% endfor %}
-          </div>
-        </div>
-        	
-        </div>
+
+           </div>
            <div class="apply-clear-filters-wrap">
              <div class="apply-clear-filters">
              <div class="clear-filters">CLEAR ALL</div>
