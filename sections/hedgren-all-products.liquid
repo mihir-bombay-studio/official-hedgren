@@ -104,7 +104,7 @@
   <div class="container">
     <div class="all-filters-sorts-wrap">
     <div class="filter-sort-products rel no-t-m">
-      <div class="filters filters-filter">FILTER <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
+      <div class="filters filters-filter"><span class="fil">FILTER</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
 
         <div class="filters-dropdown">
           <div class="filters-dropdown-wrap">
@@ -134,7 +134,7 @@
 
       </div>
 
-      <div class="filters sort-title-wrap">SORT <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
+      <div class="filters sort-title-wrap"><span class="fil">SORT</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
         <div class="sort-wrap">
           <div class="sort new-first" data-sort="created-descending">Newest first</div>
           <div class="sort bestsellers" data-sort="best-selling">Bestsellers</div>
@@ -144,7 +144,7 @@
       </div>
       </div>
       <div class="filter-sort-products rel no-d">
-      <div class="filters filters-filter">FILTER <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
+        <div class="filters filters-filter"><span class="fil">FILTER</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
       	
          <div class="filters-dropdown">
         <div class="filters-dropdown-wrap">
@@ -184,7 +184,7 @@
         
       </div>
      
-      <div class="filters sort-title-wrap">SORT <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
+        <div class="filters sort-title-wrap"><span class="fil">SORT</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
         <div class="sort-wrap">
           <div class="sort new-first" data-sort="created-descending">Newest first</div>
           <div class="sort bestsellers" data-sort="best-selling">Bestsellers</div>
@@ -257,17 +257,8 @@
 
 
 <script>
-  $('.filters.filters-filter').click(function(e) {
-    if( e.target != this ) 
-       return false;
-    
-  	$(this).toggleClass('clicked');
-  });
-  $('.filters.sort-title-wrap').click(function(e) {
-    if( e.target != this ) 
-       return false;
-
-  	$(this).toggleClass('clicked');
+  $('.fil').click(function(e) {
+  	$(this).parent().toggleClass('clicked');
   });
   $('.filter-tag-wrapper').click(function() {
     if(!$(this).hasClass('selected')){
