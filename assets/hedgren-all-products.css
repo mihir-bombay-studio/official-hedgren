@@ -145,7 +145,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 250px;
 }
 
 .filter-dropdown-left, .filter-dropdown-right {
