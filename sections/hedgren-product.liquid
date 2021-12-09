@@ -51,7 +51,6 @@
         <div class="add-to-cart">ADD TO CART {% include 'icon-plus-black' %}</div>
         <div class="product-desc">{% if product.description contains '<!-- split -->' %}{% assign desc = product.description | split: '<!-- split -->' %}{{ desc[1] }}{% else %}{{ product.description }}{% endif %}</div>
         <div class="product-usps">
-          <div class="product-ups-wrap">
           {% if product.description contains '<!-- split -->' %}
           {% assign row = product.description | split: '<!-- split -->' %}
           {% assign size = row.size | plus:0 | minus: 1 %}
