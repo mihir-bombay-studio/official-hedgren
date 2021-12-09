@@ -207,6 +207,7 @@
           dots: true,
           arrows: false
         });
+        $("html, body").animate({ scrollTop: 0 }, "fast");
         $('.product-wrap').last().parent().remove();
       })
       .fail(function(error) {
