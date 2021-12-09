@@ -177,6 +177,7 @@
   });
   
   $('.variant-color-wrapper').click(function() {
+    var url = $(this).data('url');
     if($(this).find('img').hasClass('hedgren-color-inactive')) {
       $.ajax({
         url: $(this).data('url')+'/?sections=hedgren-product',
@@ -198,7 +199,7 @@
             } 
           });
         }
-        window.history.pushState({}, null, $(this).data('url'));
+        window.history.pushState({}, null, url);
         $('.product-wrap').last().parent().remove();
       })
       .fail(function(error) {
