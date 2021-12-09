@@ -503,6 +503,8 @@
   });
   
   $('.sort-wrap .sort').click(function() {
+    $('.sort-wrap .sort').removeClass('selected');
+    $(this).addClass('selected');
     $.ajax({
       url: window.location.pathname+'?sort_by=title-ascending',
       method: "GET"
