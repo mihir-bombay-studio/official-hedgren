@@ -31,11 +31,14 @@
 }
 
 .color-wrap {
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    line-height: 18px;
-    color: #7A7A7A;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  line-height: 18px;
+  color: #7A7A7A;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
 }
 
 .all-products {
