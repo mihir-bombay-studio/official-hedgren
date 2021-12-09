@@ -514,7 +514,7 @@
       console.log(placeholder);
       var divx = $(placeholder).find('.all-products');
       console.log(divx.innerHTML);
-      console.log(placeholder.querySelector('.all-products'));
+      console.log(placeholder.querySelector('.all-products').innerHTML);
       $('.all-products').html(placeholder.querySelector('.all-products').innerHTML);
     })
     .fail(function(error) {
