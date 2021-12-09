@@ -257,7 +257,12 @@
 
 
 <script>
-  
+  $('.filters.filters-filter').click(function() {
+  	$(this).toggleClass('clicked');
+  });
+  $('.filters.sort-title-wrap').click(function() {
+  	$(this).toggleClass('clicked');
+  });
   $('.filter-tag-wrapper').click(function() {
     if(!$(this).hasClass('selected')){
     	$(this).addClass('selected');

@@ -185,7 +185,7 @@
   color: #000;
 }
 
-.filters.filters-filter:hover .filters-dropdown{
+.filters.filters-filter.clicked .filters-dropdown{
 	opacity: 1;
   	max-height: 2000vh;
     visibility: visible;
@@ -207,7 +207,7 @@
     opacity: 0;
 }
 
-.filters.sort-title-wrap:hover .sort-wrap{
+.filters.sort-title-wrap.clicked .sort-wrap{
 	opacity: 1;
   	max-height: 2000vh;
     visibility: visible;
