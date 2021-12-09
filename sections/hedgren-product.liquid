@@ -180,13 +180,11 @@
     if($(this).find('img').hasClass('hedgren-color-inactive')) {
       $.ajax({
         url: $(this).data('url')+'/?sections=hedgren-product',
-        method: "GET",
-        dataType: "json"
+        method: "GET"
       })
       .done(function( data ) {
-        console.log(data);
-        $('#shopify-section-hedgren-product').remove();
-        $(data["hedgren-product"]).insertAfter("#shopify-section-hedgren-product");
+        $('main').prepend(data['hedgren-product'])
+        $('#shopify-section-hedgren-product').last().remove();
       })
       .fail(function(error) {
         console.log( error );
