@@ -324,6 +324,34 @@
   });
   
   
+
+  var arrayObj = [];
+  $('.variant-color-wrapper').each(function() {
+    var index = arrayObj.findIndex(x => x.name==$(this).attr('title'));
+    if(index === -1) {
+      arrayObj.push({name:$(this).attr('title'), img: $(this).find('img').attr('src')})
+    }
+  });
+  $(arrayObj).each(function(index,item) {
+    console.log(item)
+    $('.color-options').append(`
+		<div class="color-wrap"><div class="variant-color" style="background-image:url(`+item.img+`);"></div><div class="color-name">`+item.name+`</div></div>
+	`);
+  });
+  $('.hero-product').each(function(index,item){
+  	var current = $(this);
+    $(this).find('.variant-color-wrapper').each(function(){
+    	current.addClass('color-'+$(this).attr('title').replace(' ','-'));
+    });
+  });
+  $('.color-wrap').click(function() {
+    if(!$(this).hasClass('selected')){
+    	$(this).addClass('selected');
+    }else{
+    	$(this).removeClass('selected');
+    }
+  });
+  
   function runFilter() {
     $('.applied-filter').remove(); 
     var fil_len = $('.filter-tag-wrapper.selected').length;
@@ -450,26 +478,6 @@
     })
     .fail(function(error) {
       console.log( error );
-    });
-  });
-
-  var arrayObj = [];
-  $('.variant-color-wrapper').each(function() {
-    var index = arrayObj.findIndex(x => x.name==$(this).attr('title'));
-    if(index === -1) {
-      arrayObj.push({name:$(this).attr('title'), img: $(this).find('img').attr('src')})
-    }
-  });
-  $(arrayObj).each(function(index,item) {
-    console.log(item)
-    $('.color-options').append(`
-		<div class="color-wrap"><div class="variant-color" style="background-image:url(`+item.img+`);"></div><div class="color-name">`+item.name+`</div></div>
-	`);
-  });
-  $('.hero-product').each(function(index,item){
-  	var current = $(this);
-    $(this).find('.variant-color-wrapper').each(function(){
-    	current.addClass('color-'+$(this).attr('title').replace(' ','-'));
     });
   });
 </script>
