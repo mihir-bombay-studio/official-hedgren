@@ -372,8 +372,10 @@
   	top: 66px;
   }
   
-  .applied-filters-wrap{
+  .applied-filters-wrap {
     border-bottom: none;
+    z-index: 1;
+    position: relative;
   }
   .filter-type {
     margin-bottom: 12px;
