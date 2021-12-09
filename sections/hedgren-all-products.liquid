@@ -433,7 +433,7 @@
   }
   runFilter();
   
-
+  function forcards() {
   $('.variants img').click(function() {
     $(this).closest('.variants').find('img').removeClass('hedgren-color-active').addClass('hedgren-color-inactive');
     $(this).addClass('hedgren-color-active').removeClass('hedgren-color-inactive');
@@ -501,6 +501,8 @@
       console.log( error );
     });
   });
+  }
+  forcards();
   
   $('.sort-wrap .sort').click(function() {
     $('.sort-wrap .sort').removeClass('selected');
@@ -514,11 +516,24 @@
       placeholder.innerHTML = data;
       var divx = $(placeholder).find('.all-products');
       $('.all-products').first().replaceWith(placeholder.querySelector('.all-products'));
+      relaunch();
+      forcards();
+      runFilter();
     })
     .fail(function(error) {
       console.log( error );
     });
   });
+  
+  function relaunch() {
+
+    $('.hero-product').each(function(index,item){
+      var current = $(this);
+      $(this).find('.variant-color-wrapper').each(function(){
+        current.addClass('color-'+$(this).attr('title').replace(' ','-'));
+      });
+    });
+  }
 </script>
 
 
