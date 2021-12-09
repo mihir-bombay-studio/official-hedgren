@@ -238,7 +238,12 @@
 .product-wrap{
 	margin-bottom: 148px;
 }
-
+.product-usp-title p {
+  margin: 0;
+}
+.product-usp-title p strong {
+  font-weight: 400;
+}
 @media(max-width: 992px){
 	.product-info-imgs {
     flex-direction: column;
