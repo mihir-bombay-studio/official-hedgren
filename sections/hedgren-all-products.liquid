@@ -513,7 +513,8 @@
       placeholder.innerHTML = data;
       console.log(placeholder);
       var divx = $(placeholder).find('.all-products');
-      console.log(divx);
+      console.log(divx.innerHTML);
+      console.log(placeholder.querySelector('.all-products'));
       $('.all-products').first().replaceWith(divx.innerHTML);
     })
     .fail(function(error) {
