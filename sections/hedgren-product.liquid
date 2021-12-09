@@ -9,12 +9,10 @@
         <div class="product-price">{{ product.price | money  }}</div>
         </div>
         <div class="product-rating">
+        	{%for i in (1..product.metafields.loox.avg_rating) %}
         	{% include 'icon-black-star' %}
-          	{% include 'icon-black-star' %}
-          	{% include 'icon-black-star' %}
-          	{% include 'icon-black-star' %}
-          	{% include 'icon-black-star' %}
-          <span class="no-of-ratings">(521)</span>
+          {% endfor %}
+          <span class="no-of-ratings">{% if product.metafields.loox.num_reviews > 0 %}({{ product.metafields.loox.num_reviews }}){% endif %}</span>
         </div>
       </div>
       <div class="product-imgs flex-box no-t-m">
@@ -39,7 +37,7 @@
           {%for i in (1..product.metafields.loox.avg_rating) %}
         	{% include 'icon-black-star' %}
           {% endfor %}
-          <span class="no-of-ratings">({{ product.metafields.loox.num_reviews }})</span>
+          <span class="no-of-ratings">{% if product.metafields.loox.num_reviews > 0 %}({{ product.metafields.loox.num_reviews }}){% endif %}</span>
         </div>
         <div class="color-variant-wrap">
           <div class="variant-title">COLOUR</div>
