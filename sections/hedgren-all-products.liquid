@@ -466,6 +466,12 @@
 		<div class="color-wrap"><div class="variant-color" style="background-image:url(`+item.img+`);"></div><div class="color-name">`+item.name+`</div></div>
 	`);
   });
+  $('.hero-product').each(function(index,item){
+  	var current = $(this);
+    $(this).find('.variant-color-wrapper').each(function(){
+    	current.addClass('color-'+$(this).attr('title').replace(' ','-'));
+    });
+  });
 </script>
 
 {% schema %}
