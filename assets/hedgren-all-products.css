@@ -368,6 +368,10 @@
   }
   
   .applied-filters-wrap{
-  	border-bottom: none;
+    border-bottom: none;
+  }
+  .filter-type {
+    margin-bottom: 12px;
+    width: 100%;
   }
 }
