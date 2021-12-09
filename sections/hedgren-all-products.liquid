@@ -372,13 +372,10 @@
         $('.color-wrap.selected').each(function() {
           if(curx.hasClass($(this).data('val'))) {
             curx.data('iterationx',(parseInt(curx.data('iterationx')) || 0)+1);
-            console.log(curx.data('iterationx'));
           }
         });
-        console.log($(this).data('iterationx'));
-        console.log($('.color-wrap.selected').length);
         if($(this).data('iterationx') == $('.color-wrap.selected').length){
-          $(this).addClass('fop');console.log('dsfgsdfg');
+          $(this).addClass('fop');
         }
       });
     } else {
