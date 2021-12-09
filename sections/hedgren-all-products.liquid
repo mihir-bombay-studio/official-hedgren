@@ -201,6 +201,7 @@
       </div>
     </div>
     <div class="all-products">
+      {% paginate collection.products by 2000 %}
       {% for product in collection.products %}
       {% if product.tags contains "Main" %}
       <div class="hero-product {% for tag in product.tags %}{% if tag contains "filter:" or tag contains "Filter:" %}{% assign tagx = tag | split: " - " %}{{ tagx[0] | replace: "Filter:","" | replace: "filter:","" | strip | replace: " ","-" }}-{{ tagx[1] | strip | replace: " ","-" | capitalize }} {% endif %}{% endfor %}">
@@ -253,6 +254,7 @@
       </div>
       {% endif %}
       {% endfor %}
+      {% endpaginate %}
     </div>
   </div>
 </div>
