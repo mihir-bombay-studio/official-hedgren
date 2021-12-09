@@ -374,6 +374,8 @@
             $(this).data('iteration',(parseInt($(this).data('iteration')) || 0)+1);
           }
         });
+        console.log($(this).data('iterationx'));
+        console.log($('.color-wrap.selected').length);
         if($(this).data('iterationx') == $('.color-wrap.selected').length){
           $(this).addClass('fop');console.log('dsfgsdfg');
         }
