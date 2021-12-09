@@ -40,6 +40,14 @@
   margin-bottom: 16px;
   cursor: pointer;
 }
+.color-wrap.selected {
+  color: #000;
+  font-weight: 600;
+}
+.color-wrap.selected .variant-color {
+  border: 2px solid #fff;
+  box-shadow: 0 2px 4px #00000026;
+}
 
 .all-products {
     display: flex;
