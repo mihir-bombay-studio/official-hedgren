@@ -183,7 +183,8 @@
         method: "GET"
       })
       .done(function( data ) {
-        $('main').prepend(data['hedgren-product'])
+        $('main').prepend(data['hedgren-product']);
+        $('.product-wrap').last().parent().remove();
       })
       .fail(function(error) {
         console.log( error );
