@@ -371,7 +371,7 @@
         var curx = $(this);
         $('.color-wrap.selected').each(function() {
           if(curx.hasClass($(this).data('val'))) {
-            $(this).data('iteration',(parseInt($(this).data('iteration')) || 0)+1);
+            $(this).data('iterationx',(parseInt($(this).data('iterationx')) || 0)+1);
           }
         });
         console.log($(this).data('iterationx'));
