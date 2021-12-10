@@ -2,11 +2,21 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "1639134363fa2d057d": {
+      "type": "hedgren-half-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_19.jpg",
+        "heading_main": "Get addicted!",
+        "sub_heading": "SIGN UP - EARN - SPEND"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1639134363fa2d057d"
   ]
 }
