@@ -26,12 +26,12 @@
           </div>
           <div class="cart-product-qty-del justify-between">
             <div class="cart-product-qty" data-quantity="1">
-              <div class="qty-manipulation-symbol minus-symbol">-</div>
+              <div class="qty-manipulation-symbol minus-symbol cart-minus" data-variant="{{ item.variant.id }}" data-value="{{item.quantity}}">-</div>
               <div class="cart-qty" value="{{item.quantity}}">{{item.quantity}}</div>
-              <div class="qty-manipulation-symbol plus-symbol">+</div>
+              <div class="qty-manipulation-symbol plus-symbol cart-plus" data-variant="{{ item.variant.id }}" data-value="{{item.quantity}}">+</div>
             </div>
-            <div class="delete-cart-product">
-              <div class="delete-text"  data-variant="{{ item.variant.id }}">delete</div>
+            <div class="delete-cart-product" data-variant="{{ item.variant.id }}">
+              <div class="delete-text">delete</div>
               <div class="delete-icon">{% include 'icon-delete-new' %}</div>
             </div>
           </div>
@@ -57,7 +57,7 @@
           </div>
           <div class="upsell-product-desc">{{ section.settings.upsell.type }}</div>
           <div class="product-color">Colour: {{ section.settings.upsell.options_by_name['Color'].values.first }}</div>
-          <div class="add-upsell-prod">ADD <span class="icon-plus">{% include 'icon-plus-new' %}</span></div>
+          <div class="add-upsell-prod add-this" data-variant="{{ section.settings.upsell.variant.id }}">ADD <span class="icon-plus">{% include 'icon-plus-new' %}</span></div>
         </div>
       </div>
     </div>
@@ -107,6 +107,138 @@
   $('.close-cart').click(function() {
     $('.drawer-cart').removeClass('drawn');
     $('body').removeClass('no-scroll');
+  });
+  
+    $('.add-this').click(function() {
+    var formData = {
+      'items': [{
+        'id': parseInt($(this).data('variant')),
+        'quantity': 1
+      }]
+    };
+    $.ajax({
+      url: "/cart/add.js",
+      method: "POST",
+      dataType: "json",
+      data: formData,
+    })
+    .done(function( data ) {     
+      $.ajax({
+        url: '/?sections=hedgren-cart-drawer',
+        method: "GET",
+        dataType: "json"
+      })
+      .done(function( data ) {
+        $('#shopify-section-hedgren-cart-drawer').remove();
+        $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
+        $('.drawer-cart').addClass('drawn');
+        $('body').addClass('no-scroll');
+      })
+      .fail(function(error) {
+        console.log( error );
+      });
+    })
+    .fail(function(error) {
+      console.log( error );
+    });
+  });
+  
+    $('.delete-cart-product').click(function() {
+    var formData = {
+      'items': [{
+        'id': parseInt($(this).data('variant')),
+        'quantity': 0
+      }]
+    };
+    $.ajax({
+      url: "/cart/change.js",
+      method: "POST",
+      dataType: "json",
+      data: formData,
+    })
+    .done(function( data ) {     
+      $.ajax({
+        url: '/?sections=hedgren-cart-drawer',
+        method: "GET",
+        dataType: "json"
+      })
+      .done(function( data ) {
+        $('#shopify-section-hedgren-cart-drawer').remove();
+        $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
+      })
+      .fail(function(error) {
+        console.log( error );
+      });
+    })
+    .fail(function(error) {
+      console.log( error );
+    });
+  });
+  
+  $('.cart-minus').click(function() {
+    if($(this).data('value') > 1) {
+      var formData = {
+        'items': [{
+          'id': parseInt($(this).data('variant')),
+          'quantity': $(this).data('value')-1
+        }]
+      };
+      $.ajax({
+        url: "/cart/change.js",
+        method: "POST",
+        dataType: "json",
+        data: formData,
+      })
+      .done(function( data ) {     
+        $.ajax({
+          url: '/?sections=hedgren-cart-drawer',
+          method: "GET",
+          dataType: "json"
+        })
+        .done(function( data ) {
+          $('#shopify-section-hedgren-cart-drawer').remove();
+          $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
+        })
+        .fail(function(error) {
+          console.log( error );
+        });
+      })
+      .fail(function(error) {
+        console.log( error );
+      });
+    }
+  });
+  
+  $('.cart-plus').click(function() {
+      var formData = {
+        'items': [{
+          'id': parseInt($(this).data('variant')),
+          'quantity': $(this).data('value')+1
+        }]
+      };
+      $.ajax({
+        url: "/cart/change.js",
+        method: "POST",
+        dataType: "json",
+        data: formData,
+      })
+      .done(function( data ) {     
+        $.ajax({
+          url: '/?sections=hedgren-cart-drawer',
+          method: "GET",
+          dataType: "json"
+        })
+        .done(function( data ) {
+          $('#shopify-section-hedgren-cart-drawer').remove();
+          $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
+        })
+        .fail(function(error) {
+          console.log( error );
+        });
+      })
+      .fail(function(error) {
+        console.log( error );
+      });
   });
 </script>
 
