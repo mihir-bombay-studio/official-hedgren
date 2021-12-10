@@ -118,6 +118,26 @@
         "content_one": "DOWN-TO-EARTH<br>\nENERGETIC<br>\nINCLUSIVE",
         "content_two": "INTUITIVE DESIGN<br>\nFREEDOM OF MOVEMENT<br>\nSMART FUNCTIONALITY"
       }
+    },
+    "16391337289111c1f8": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "dark-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Image_3x_a16c0b6e-481c-4927-8cb4-a10d83498ba3.png",
+        "heading": "Move",
+        "subheading": "We want everybody to be free to move",
+        "content": "It’s our mission to create essential bags and travel gear with smart functionality that helps you handle everyday adventures without compromising on your personality or freedom to move.<br><br> We promise that you will become part of an inclusive community that creates and embraces an endless portion of wanderlust.<br><br> We help you to get the most out of life by enabling your freedom of movement.",
+        "button_label": "",
+        "button_link": "",
+        "extra_txt": "",
+        "margin_top": "no-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-normal-top",
+        "padding_bottom": "p-normal-bottom",
+        "bg_color": ""
+      }
     }
   },
   "order": [
@@ -127,6 +147,7 @@
     "163913317349def013",
     "1639133344a1bb9dd3",
     "163913354341753be9",
-    "163913334841e680e3"
+    "163913334841e680e3",
+    "16391337289111c1f8"
   ]
 }
