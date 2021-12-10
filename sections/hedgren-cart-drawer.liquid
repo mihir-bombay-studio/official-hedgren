@@ -43,19 +43,20 @@
   </div>
   <div class="drawer-cart-footer">
     {% if upsell %}
+    {% assign featured_image = section.settings.upsell.variant.image.src | default: section.settings.upsell.featured_image %}
     <div class="drawer-cart-upsell">
       <div class="upsell-title">PEOPLE ALSO BOUGHT:</div>
       <div class="upsell-product-wrap">
         <div class="upsell-product-image">
-        	<img src="{{ 'bag_img.png' | asset_img_url: '100x' }}">
+        	<img src="{{ featured_image | product_img_url: '100x' }}">
         </div>
         <div class="upsell-product-infos rel">
           <div class="upsell-product-title-price">
-          	<div class="product-name">Crusade</div>
-            <div class="product-price upsell-price"><span class="product-compare-price upsell-compare-price">€89.00</span><span class="product-selling-price">€79.00</span></div>
+          	<div class="product-name">{{ section.settings.upsell.title }}</div>
+            <div class="product-price upsell-price"><span class="product-compare-price upsell-compare-price">{{ section.settings.upsell.compare_at_price | money_without_trailing_zeros }}</span><span class="product-selling-price">{{ section.settings.upsell.price | money_without_trailing_zeros }}</span></div>
           </div>
-          <div class="upsell-product-desc">Drawstring Backpack RFID</div>
-          <div class="product-color">Color: yellow</div>
+          <div class="upsell-product-desc">{{ section.settings.upsell.type }}</div>
+          <div class="product-color">Color: {% unless section.settings.upsell.variant.title contains "Default Title" %}{{ section.settings.upsell.variant.title }}{% endunless %}</div>
           <div class="add-upsell-prod">ADD <span class="icon-plus">{% include 'icon-plus-new' %}</span></div>
         </div>
       </div>
