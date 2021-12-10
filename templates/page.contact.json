@@ -6,10 +6,12 @@
       "settings": {
       }
     },
-    "form": {
-      "type": "contact-form",
+    "1639135670d87f2fc5": {
+      "type": "hedgren-half-hero",
       "settings": {
-        "heading": ""
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_19.jpg",
+        "heading_main": "connect",
+        "sub_heading": ""
       }
     },
     "16391354921e526e44": {
@@ -22,11 +24,18 @@
         "contact_info_heading": "Contact Information",
         "contact_info": "Tel: <a href=\"tel:+32%20(0)15%20300%20560\">+32 (0)15 300 560<\/a><br><br> We can be reached by telephone during office hours. Monday to Thursday between 9 AM &amp; 5 PM CET. Friday between 9 AM &amp; 4 PM CET."
       }
+    },
+    "163913561890838b7f": {
+      "type": "hedgren-map",
+      "settings": {
+        "heading": "Find your store"
+      }
     }
   },
   "order": [
     "main",
-    "form",
-    "16391354921e526e44"
+    "1639135670d87f2fc5",
+    "16391354921e526e44",
+    "163913561890838b7f"
   ]
 }
