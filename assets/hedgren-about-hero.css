@@ -62,3 +62,50 @@
   margin-bottom: 3vw;
 }
 }
+
+@media(max-width: 992px){
+	.about-page-heading {
+    width: 100%;
+    padding-top: 40px;
+}
+  
+  .side-title {
+    font-size: 10px;
+    line-height: 13px;
+}
+  
+  .about-main-heading {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -1.73px;
+}
+  
+  .about-page-sub-heading {
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    letter-spacing: 2.21px;
+    margin-bottom: 7vh;
+}
+  
+  .about-hero-overlay .img-text-img {
+    height: 27vh;
+}
+  
+  .about-hero-overlay .image-overlay {
+    left: -8px;
+    right: unset;
+    bottom: -8px;
+}
+  
+  .img-text-text.about-img-text-text {
+    margin-top: -6vh;
+    z-index: 2;
+    margin-left: 8px;
+}
+  
+  .about-img-text-text .img-text-text-heading{
+  	top: unset;
+    right: -34%;
+  }
+}
