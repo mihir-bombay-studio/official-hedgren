@@ -110,11 +110,19 @@ $(document).ready(function(){
     arrows: false
   });
   
-  $('.similar-products-mob').slick({
-  	infinite: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+  $('.similar-products').slick({
+    infinite: false,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     dots: true,
-    arrows: true
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+    slidesToScroll: 1
+        }
+      }
+    ]
   });
 });
