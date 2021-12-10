@@ -1,18 +1,18 @@
 {{ 'hedgren-img-text.css' | asset_url | stylesheet_tag }}
 {{ 'hedgren-stories.css' | asset_url | stylesheet_tag }}
-{% for block in section.blocks %}
-{% if block.type == 'img_txt' %}
+{% for article in blog.articles %}
 <div class="img-text-wrapper story-wrap {{ block.settings.background }}">
-  <div class="img-text container flex-box {{ block.settings.order }}">
+  {% assign evenodd = forloop.index | modulo: 2 %}
+  <div class="img-text container flex-box {% if evenodd == 0 %}order-reversed{% else %}{{ block.settings.order }}{% endif %}">
     <div class="img-text-text">
       <h2 class="img-text-text-heading {{ block.settings.heading_color }}">
-        {{ block.settings.heading }}
+        {{ article.title }}
       </h2>
       <div class="img-text-text-subheading">
-        {{ block.settings.subheading }}
+        {{ article.tags.first }}
       </div>
       <div class="img-text-text-content">
-        {{ block.settings.content }}
+        {{ article.excerpt_or_content }}
       </div>
       {% if block.settings.button_label %}
       <a href="{% if block.settings.button_link %}{{block.settings.button_link}}{% else %}#{% endif %}">
@@ -47,7 +47,6 @@
     </div>
   </div>
 </div>
-{% endif %}
 {% endfor %}
 <span class="btn btn-center more-stories no-disp">LOAD MORE STORIES</span>
 <script>
