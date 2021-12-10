@@ -78,25 +78,6 @@
   </div>
   
 <script>
-  $('.delete-cart-product').click(function() {
-    $(this).parent().parent().parent().remove();
-  });
-
-
-  $(".qty-manipulation-symbol.plus-symbol").click(function(){
-    console.log('plus');
-    var adder = 1;
-    $(this).parent().data("quantity",parseInt($(this).parent().data("quantity"))+1);
-    $(this).parent().find('.cart-qty').text($(this).parent().data("quantity"));
-  }); 
-  $(".qty-manipulation-symbol.minus-symbol").click(function(){
-    if($(this).parent().data("quantity") > 1) {
-      var adder = 1;
-      $(this).parent().data("quantity",parseInt($(this).parent().data("quantity"))-1);
-      $(this).parent().find('.cart-qty').text($(this).parent().data("quantity"));
-
-    }
-  });
 
 
   $('#draw_cart').click(function() {
@@ -176,7 +157,6 @@
   });
   
   $('.cart-minus').click(function() {
-    if($(this).data('value') > 1) {
       var formData = {
         'items': [{
           'id': parseInt($(this).data('variant')),
@@ -206,7 +186,6 @@
       .fail(function(error) {
         console.log( error );
       });
-    }
   });
   
   $('.cart-plus').click(function() {
