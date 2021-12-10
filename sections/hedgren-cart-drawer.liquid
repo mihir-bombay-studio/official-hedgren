@@ -11,7 +11,7 @@
     <div class="cart-body">
       {% for item in cart.items %}
           {% if section.settings.upsell.id == item.id %}
-      		{% assign upsell = "added" %}yes
+      		{% assign upsell = "added" %}
       		{% endif %}
       {% assign featured_image = item.variant.image.src | default: item.product.featured_image %}
       <div class="cart-product-wrapper">
@@ -42,7 +42,7 @@
     </div>
   </div>
   <div class="drawer-cart-footer">
-    {% if upsell %}
+    {% unless upsell %}
     {% assign featured_image = section.settings.upsell.variant.image.src | default: section.settings.upsell.featured_image %}
     <div class="drawer-cart-upsell">
       <div class="upsell-title">PEOPLE ALSO BOUGHT:</div>
@@ -61,7 +61,7 @@
         </div>
       </div>
     </div>
-    {% endif %}
+    {% endunless %}
     <div class="drawer-cart-checkout">
       <div class="checkout-subtotal justify-between">
         <div class="checkout-title">Subtotal</div>
