@@ -248,6 +248,7 @@
       "hedgren-cart-drawer": {
         "type": "hedgren-cart-drawer",
         "settings": {
+          "upsell": "canyon-square-backpack-15-rfid-mustardo"
         }
       },
       "hedgren-footer": {
