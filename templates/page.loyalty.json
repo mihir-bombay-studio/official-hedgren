@@ -33,11 +33,75 @@
         "padding_bottom": "p-no-bottom",
         "bg_color": ""
       }
+    },
+    "1639134529a6601b76": {
+      "type": "hedgren-colorful-cards",
+      "blocks": {
+        "6daf1b5d-0038-4a6e-9016-069f8e7cf1cc": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "regular",
+            "background": "blue-bg",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"34.133\" height=\"24\" viewbox=\"0 0 34.133 24\">   <path id=\"Icon_awesome-youtube\" data-name=\"Icon awesome-youtube\" d=\"M34.47,8.255a4.289,4.289,0,0,0-3.018-3.037C28.79,4.5,18.117,4.5,18.117,4.5s-10.674,0-13.336.718A4.289,4.289,0,0,0,1.763,8.255a44.992,44.992,0,0,0-.713,8.269,44.992,44.992,0,0,0,.713,8.269,4.225,4.225,0,0,0,3.018,2.989c2.662.718,13.336.718,13.336.718s10.674,0,13.336-.718a4.225,4.225,0,0,0,3.018-2.989,44.992,44.992,0,0,0,.713-8.269,44.992,44.992,0,0,0-.713-8.269ZM14.626,21.6V11.449l8.921,5.075L14.626,21.6Z\" transform=\"translate(-1.05 -4.5)\" fill=\"#7a7a7a\"><\/path> <\/svg>",
+            "card_subheading": "make purchase",
+            "card_heading": "5 POINTS",
+            "sub_head_pos": "sub-up",
+            "card_extra_txt": "for every €1"
+          }
+        },
+        "9b562ad9-3de9-4804-8a54-a8b2eca25466": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "regular",
+            "background": "green-bg",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"34.133\" height=\"24\" viewbox=\"0 0 34.133 24\">   <path id=\"Icon_awesome-youtube\" data-name=\"Icon awesome-youtube\" d=\"M34.47,8.255a4.289,4.289,0,0,0-3.018-3.037C28.79,4.5,18.117,4.5,18.117,4.5s-10.674,0-13.336.718A4.289,4.289,0,0,0,1.763,8.255a44.992,44.992,0,0,0-.713,8.269,44.992,44.992,0,0,0,.713,8.269,4.225,4.225,0,0,0,3.018,2.989c2.662.718,13.336.718,13.336.718s10.674,0,13.336-.718a4.225,4.225,0,0,0,3.018-2.989,44.992,44.992,0,0,0,.713-8.269,44.992,44.992,0,0,0-.713-8.269ZM14.626,21.6V11.449l8.921,5.075L14.626,21.6Z\" transform=\"translate(-1.05 -4.5)\" fill=\"#7a7a7a\"><\/path> <\/svg>",
+            "card_subheading": "follow us on instagram",
+            "card_heading": "50 POINTS",
+            "sub_head_pos": "sub-up",
+            "card_extra_txt": ""
+          }
+        },
+        "a3cd85e6-5af9-4db2-ab7d-110fd7fa264d": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "regular",
+            "background": "red-bg",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"34.133\" height=\"24\" viewbox=\"0 0 34.133 24\">   <path id=\"Icon_awesome-youtube\" data-name=\"Icon awesome-youtube\" d=\"M34.47,8.255a4.289,4.289,0,0,0-3.018-3.037C28.79,4.5,18.117,4.5,18.117,4.5s-10.674,0-13.336.718A4.289,4.289,0,0,0,1.763,8.255a44.992,44.992,0,0,0-.713,8.269,44.992,44.992,0,0,0,.713,8.269,4.225,4.225,0,0,0,3.018,2.989c2.662.718,13.336.718,13.336.718s10.674,0,13.336-.718a4.225,4.225,0,0,0,3.018-2.989,44.992,44.992,0,0,0,.713-8.269,44.992,44.992,0,0,0-.713-8.269ZM14.626,21.6V11.449l8.921,5.075L14.626,21.6Z\" transform=\"translate(-1.05 -4.5)\" fill=\"#7a7a7a\"><\/path> <\/svg>",
+            "card_subheading": "like us on Facebook",
+            "card_heading": "50 POINTS",
+            "sub_head_pos": "sub-up",
+            "card_extra_txt": ""
+          }
+        },
+        "ff21dc43-293b-4479-bf47-205c7d9219be": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "big",
+            "background": "grey-bg",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"34.133\" height=\"24\" viewbox=\"0 0 34.133 24\">   <path id=\"Icon_awesome-youtube\" data-name=\"Icon awesome-youtube\" d=\"M34.47,8.255a4.289,4.289,0,0,0-3.018-3.037C28.79,4.5,18.117,4.5,18.117,4.5s-10.674,0-13.336.718A4.289,4.289,0,0,0,1.763,8.255a44.992,44.992,0,0,0-.713,8.269,44.992,44.992,0,0,0,.713,8.269,4.225,4.225,0,0,0,3.018,2.989c2.662.718,13.336.718,13.336.718s10.674,0,13.336-.718a4.225,4.225,0,0,0,3.018-2.989,44.992,44.992,0,0,0,.713-8.269,44.992,44.992,0,0,0-.713-8.269ZM14.626,21.6V11.449l8.921,5.075L14.626,21.6Z\" transform=\"translate(-1.05 -4.5)\" fill=\"#7a7a7a\"><\/path> <\/svg>",
+            "card_subheading": "Happy birthday",
+            "card_heading": "500 POINTS",
+            "sub_head_pos": "sub-up",
+            "card_extra_txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "6daf1b5d-0038-4a6e-9016-069f8e7cf1cc",
+        "9b562ad9-3de9-4804-8a54-a8b2eca25466",
+        "a3cd85e6-5af9-4db2-ab7d-110fd7fa264d",
+        "ff21dc43-293b-4479-bf47-205c7d9219be"
+      ],
+      "settings": {
+        "heading": "How to earn points",
+        "subheading": "START EARNING REWARDS WHEN YOU JOIN. EARN POINTS AND RECEIVE DISCOUNT VOUCHERS FOR YOUR NEXT PURCHASE."
+      }
     }
   },
   "order": [
     "main",
     "1639134363fa2d057d",
-    "16391344571978294d"
+    "16391344571978294d",
+    "1639134529a6601b76"
   ]
 }
