@@ -2,11 +2,152 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false
+      }
+    },
+    "16391360600af4e558": {
+      "type": "hedgren-stories-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_19.jpg",
+        "heading_main": "Hedgrenism",
+        "sub_heading": "IT’S ALL ABOUT MOVING PEOPLE"
+      }
+    },
+    "1639136095880eeb32": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_43.jpg",
+        "heading": "Designed for",
+        "subheading": "We’re not just a global network, we’re a global family.",
+        "content": "This enormous mass we call “home” is constantly moving, each second of each day. Energy is all around us. We move from point A to B, but more importantly, we move people emotionally.",
+        "button_label": "",
+        "button_link": "",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
+    "1639136134ec3aabfa": {
+      "type": "hedgren-colorful-cards",
+      "blocks": {
+        "441e353a-9809-4fcf-b0bb-756241f3d50f": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "regular",
+            "background": "blue-bg",
+            "svg": "",
+            "card_subheading": "intuitive",
+            "card_heading": "DESIGN",
+            "sub_head_pos": "sub-up",
+            "card_extra_txt": ""
+          }
+        },
+        "74d8d765-acba-408a-af2c-36c924c27357": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "regular",
+            "background": "green-bg",
+            "svg": "",
+            "card_subheading": "Of movement",
+            "card_heading": "FREEDOM",
+            "sub_head_pos": "sub-down",
+            "card_extra_txt": ""
+          }
+        },
+        "9e4394bd-0789-4a77-b378-38e0e3faa8fc": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "regular",
+            "background": "red-bg",
+            "svg": "",
+            "card_subheading": "functionality",
+            "card_heading": "SMART",
+            "sub_head_pos": "sub-down",
+            "card_extra_txt": ""
+          }
+        },
+        "c185d24c-55f3-4471-838d-ea70fe230ca5": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "regular",
+            "background": "green-bg",
+            "svg": "",
+            "card_subheading": "To earth",
+            "card_heading": "DOWN",
+            "sub_head_pos": "sub-up",
+            "card_extra_txt": ""
+          }
+        },
+        "b644f3ed-aebe-4d95-985a-02a8c575b326": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "regular",
+            "background": "red-bg",
+            "svg": "",
+            "card_subheading": "",
+            "card_heading": "ENERGETIC",
+            "sub_head_pos": "sub-up",
+            "card_extra_txt": ""
+          }
+        },
+        "e07bc56e-c582-4b55-9073-b6f1b9f313d5": {
+          "type": "colorful_card",
+          "settings": {
+            "card_size": "regular",
+            "background": "blue-bg",
+            "svg": "",
+            "card_subheading": "",
+            "card_heading": "INCLUSIVE",
+            "sub_head_pos": "sub-up",
+            "card_extra_txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "441e353a-9809-4fcf-b0bb-756241f3d50f",
+        "74d8d765-acba-408a-af2c-36c924c27357",
+        "9e4394bd-0789-4a77-b378-38e0e3faa8fc",
+        "c185d24c-55f3-4471-838d-ea70fe230ca5",
+        "b644f3ed-aebe-4d95-985a-02a8c575b326",
+        "e07bc56e-c582-4b55-9073-b6f1b9f313d5"
+      ],
+      "settings": {
+        "heading": "A culture based on 6 values",
+        "subheading": "WE VALUE INTUITIVE DESIGN, FREEDOM OF MOVEMENT AND SMART FUNCTIONALITY. WE ARE DOWN TO EARTH, ENERGETIC AND INCLUSIVE."
+      }
+    },
+    "1639136284c83d20a7": {
+      "type": "hedgren-stories-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_19.jpg",
+        "heading_main": "Hedgrenist Stories",
+        "sub_heading": "IT’S ALL ABOUT MOVING PEOPLE"
+      }
+    },
+    "1639136322b1e9719f": {
+      "type": "hedgren-stories",
       "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16391360600af4e558",
+    "1639136095880eeb32",
+    "1639136134ec3aabfa",
+    "1639136284c83d20a7",
+    "1639136322b1e9719f"
   ]
 }
