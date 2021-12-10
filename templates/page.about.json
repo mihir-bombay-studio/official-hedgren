@@ -89,6 +89,26 @@
         "bg_color": ""
       }
     },
+    "163913354341753be9": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "dark-bg",
+        "order": "order-reversed",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_11.jpg",
+        "heading": "Our values",
+        "subheading": "",
+        "content": "Regardless of in-between distances, within our global network we will always be connected by the 6 values that lie embedded in our Hedgren DNA. And we will always be open to include everybody<br><br> who shares our values in our family circle. Therefore we look at people with an open mind. We respect their personality and personal style and we’re always ready to fulfil their desire to belong.",
+        "button_label": "",
+        "button_link": "",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "no-bottom",
+        "padding_top": "p-normal-top",
+        "padding_bottom": "p-normal-bottom",
+        "bg_color": ""
+      }
+    },
     "163913334841e680e3": {
       "type": "hedgren-about-values",
       "settings": {
@@ -106,6 +126,7 @@
     "16391330120105ea23",
     "163913317349def013",
     "1639133344a1bb9dd3",
+    "163913354341753be9",
     "163913334841e680e3"
   ]
 }
