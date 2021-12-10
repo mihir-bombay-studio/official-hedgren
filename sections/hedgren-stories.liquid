@@ -12,7 +12,7 @@
         {{ article.tags.first }}
       </div>
       <div class="img-text-text-content">
-        {{ article.excerpt_or_content }}
+        {{ article.excerpt }}
       </div>
       {% if block.settings.button_label %}
       <a href="{% if block.settings.button_link %}{{block.settings.button_link}}{% else %}#{% endif %}">
