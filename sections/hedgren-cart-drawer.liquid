@@ -57,7 +57,7 @@
           </div>
           <div class="upsell-product-desc">{{ section.settings.upsell.type }}</div>
           <div class="product-color">Colour: {{ section.settings.upsell.options_by_name['Color'].values.first }}</div>
-          <div class="add-upsell-prod add-this" data-variant="{{ section.settings.upsell.variant.id }}">ADD <span class="icon-plus">{% include 'icon-plus-new' %}</span></div>
+          <div class="add-upsell-prod add-this" data-variant="{{ section.settings.upsell.variants.first.id }}">ADD <span class="icon-plus">{% include 'icon-plus-new' %}</span></div>
         </div>
       </div>
     </div>
