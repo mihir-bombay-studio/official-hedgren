@@ -160,10 +160,26 @@
             "question": "Where do you deliver?",
             "answer": "olren ipsdiuybnrfn riew gidef g"
           }
+        },
+        "f61268ed-7577-4fdb-914f-e7e55cc1f8d8": {
+          "type": "faq",
+          "settings": {
+            "question": "Is there a shipping charge for orders?",
+            "answer": ""
+          }
+        },
+        "4c8e3893-1f4c-4397-a920-09a339796bef": {
+          "type": "faq",
+          "settings": {
+            "question": "I want to return the order for a refund, what should I do?",
+            "answer": ""
+          }
         }
       },
       "block_order": [
-        "9499df00-fd68-4103-ada4-32ca9b778294"
+        "9499df00-fd68-4103-ada4-32ca9b778294",
+        "f61268ed-7577-4fdb-914f-e7e55cc1f8d8",
+        "4c8e3893-1f4c-4397-a920-09a339796bef"
       ],
       "settings": {
         "background": "normal-bg",
