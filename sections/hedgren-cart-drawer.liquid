@@ -126,10 +126,8 @@
   
     $('.delete-cart-product').click(function() {
     var formData = {
-      'items': [{
         'id': parseInt($(this).data('variant')),
         'quantity': 0
-      }]
     };
     $.ajax({
       url: "/cart/change.js",
@@ -146,6 +144,8 @@
       .done(function( data ) {
         $('#shopify-section-hedgren-cart-drawer').remove();
         $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
+        $('.drawer-cart').addClass('drawn');
+        $('body').addClass('no-scroll');
       })
       .fail(function(error) {
         console.log( error );
@@ -176,6 +176,8 @@
         .done(function( data ) {
           $('#shopify-section-hedgren-cart-drawer').remove();
           $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
+        $('.drawer-cart').addClass('drawn');
+        $('body').addClass('no-scroll');
         })
         .fail(function(error) {
           console.log( error );
@@ -188,10 +190,8 @@
   
   $('.cart-plus').click(function() {
       var formData = {
-        'items': [{
           'id': parseInt($(this).data('variant')),
           'quantity': $(this).data('value')+1
-        }]
       };
       $.ajax({
         url: "/cart/change.js",
@@ -208,6 +208,8 @@
         .done(function( data ) {
           $('#shopify-section-hedgren-cart-drawer').remove();
           $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
+        $('.drawer-cart').addClass('drawn');
+        $('body').addClass('no-scroll');
         })
         .fail(function(error) {
           console.log( error );
