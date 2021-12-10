@@ -1,6 +1,6 @@
 {{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
 {{ 'hedgren-similar-products.css' | asset_url | stylesheet_tag }}
-
+{% assign main_handle = product.handle %}
 {% if product.metafields.my_fields.collection == settings.h_name1 %}{% assign collection = settings.h_collection1 %}{% endif %}
 {% if product.metafields.my_fields.collection == settings.h_name2 %}{% assign collection = settings.h_collection2 %}{% endif %}
 {% if product.metafields.my_fields.collection == settings.h_name3 %}{% assign collection = settings.h_collection3 %}{% endif %}
@@ -29,7 +29,7 @@
     <div class="similar-products flex-box justify-between">
       
       {% for product in collection.products %}
-      {% if product.tags contains "Main" %}
+      {% if product.tags contains "Main" and product.handle != main_handle %}
       <div class="hero-product">
         <div>
           <div class="hero-product-images-block">
