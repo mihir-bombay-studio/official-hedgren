@@ -158,10 +158,8 @@
   
   $('.cart-minus').click(function() {
       var formData = {
-        'items': [{
           'id': parseInt($(this).data('variant')),
           'quantity': $(this).data('value')-1
-        }]
       };
       $.ajax({
         url: "/cart/change.js",
