@@ -50,3 +50,59 @@
 .text-one .about-values-text-text{
 	right: -60px;
 }
+
+@media(max-width: 992px){
+	.about-values {
+    flex-direction: column-reverse;
+}
+  
+  .about-values-text .arrows{
+  	width: 80px;
+    height: 107px;
+  }
+  
+  .about-values-text .arrows svg{
+  	width: 100%;
+    height: 100%;
+  }
+  
+  .arrows {
+    top: -36px;
+}
+  
+  .text-two .arrows {
+    right: -10px;
+}
+  
+  .text-one .arrows {
+    left: -10px;
+}
+  
+  .about-values-heading {
+    margin-bottom: 11px;
+    text-align: right;
+    margin-right: 20px;
+}
+  
+  .about-values-heading.heading-one {
+    text-align: left;
+    margin-left: 20px;
+}
+  
+  .about-values-text-text {
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 3.9px;
+    color: #fff;
+}
+  
+  .text-two .about-values-text-text {
+    left: unset;
+    right: 90px;
+}
+  
+  .text-one .about-values-text-text {
+    right: unset;
+    left: 90px;
+}
+}
