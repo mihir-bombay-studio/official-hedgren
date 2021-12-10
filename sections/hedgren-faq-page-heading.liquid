@@ -9,7 +9,7 @@
         <h1 class="policies-title">{{ section.settings.heading }}</h1>
         <div class="policies-side-title">{{ section.settings.heading_right }}</div>
       </div>
-      <div class="types-of-faq">
+      <div class="types-of-faq no-t-m">
       {% for block in section.blocks %}
       {% if block.type == 'faq_type' %}
       <a href="#{{ block.settings.sec_id }}" class="faq-type-link">{{ block.settings.sec_name }}</a>
@@ -18,7 +18,34 @@
       </div>
     </div>
   </div>
+  <div class="types-of-faq-mob no-d">
+      <div class="faq-filter-title-wrap accordion">
+        <div class="container">
+          <div class="faq-filter-title-chev">
+            SUBJECT <span class="down-chev">{% include 'icon-down-chev-red' %}</span>
+          </div>
+        </div>
+      </div>
+    <div class="faq-types-wrap panel">
+      {% for block in section.blocks %}
+      {% if block.type == 'faq_type' %}
+      <div class="faq-filter-type-wrap">
+        <div class="container faq-filter-type">
+          <a href="#{{ block.settings.sec_id }}" class="faq-type-link-mob">{{ block.settings.sec_name }}</a>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
+
+<script>
+  
+  
+  
+</script>
+
 
 {% schema %}
   {
