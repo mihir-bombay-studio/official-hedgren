@@ -13,10 +13,31 @@
         "heading_main": "Get addicted!",
         "sub_heading": "SIGN UP - EARN - SPEND"
       }
+    },
+    "16391344571978294d": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_11.jpg",
+        "heading": "Sign up today",
+        "subheading": "Sign up today and earn 200 points for free!",
+        "content": "Be rewarded for the bag addict you are!<br><br> Join our FREE Loyalty Program designed to reward you, our Favourite customers!<br><br> Gain access to rewards, special offers, exclusive events and company intel.",
+        "button_label": "Join Now",
+        "button_link": "",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "1639134363fa2d057d"
+    "1639134363fa2d057d",
+    "16391344571978294d"
   ]
 }
