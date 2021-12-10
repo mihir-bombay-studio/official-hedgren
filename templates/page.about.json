@@ -68,12 +68,33 @@
         "padding_bottom": "p-no-bottom",
         "bg_color": ""
       }
+    },
+    "1639133344a1bb9dd3": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_43.jpg",
+        "heading": "7 offices worldwide",
+        "subheading": "",
+        "content": "+ 50 countries<br><br>\n3000 points of sales",
+        "button_label": "Find a store near you",
+        "button_link": "shopify:\/\/pages\/deliveries",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
     }
   },
   "order": [
     "main",
     "163913271310b1a984",
     "16391330120105ea23",
-    "163913317349def013"
+    "163913317349def013",
+    "1639133344a1bb9dd3"
   ]
 }
