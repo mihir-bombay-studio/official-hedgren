@@ -48,11 +48,32 @@
         "padding_bottom": "p-no-bottom",
         "bg_color": ""
       }
+    },
+    "163913317349def013": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-reversed",
+        "heading_color": "red",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_11.jpg",
+        "heading": "Global family",
+        "subheading": "We’re not just a global network, we’re a global family.",
+        "content": "With 7 offices and a network of 3,000 points off sale in more than 50 countries, we have developed a solid global network. As an inclusive brand, we see this network and our partners as an extension of our family, sharing the same values, investing in collaborations and believing in the power of local knowledge and execution.",
+        "button_label": "",
+        "button_link": "",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
     }
   },
   "order": [
     "main",
     "163913271310b1a984",
-    "16391330120105ea23"
+    "16391330120105ea23",
+    "163913317349def013"
   ]
 }
