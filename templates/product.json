@@ -130,10 +130,21 @@
             "testimonial_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita",
             "author": "Laura T."
           }
+        },
+        "6da15cbe-ef07-43e4-b8c7-6899c13378b1": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/IMage_2x_0b6d9407-c620-457d-9605-4689960323e0.png",
+            "rating": 5,
+            "prod_title": "CRUSADE Drawstring Backpack RFID",
+            "testimonial_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita",
+            "author": "Laura T."
+          }
         }
       },
       "block_order": [
-        "904cd6de-3041-42fd-840c-084496eac604"
+        "904cd6de-3041-42fd-840c-084496eac604",
+        "6da15cbe-ef07-43e4-b8c7-6899c13378b1"
       ],
       "settings": {
         "title": "Reviews",
