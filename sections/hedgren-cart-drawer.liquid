@@ -11,7 +11,7 @@
     <div class="cart-body">
       {% for item in cart.items %}
           {% if section.settings.upsell.id == item.id %}
-      		{% assign upsell = "added" %}
+      		{% assign upsell = "added" %}yes
       		{% endif %}
       {% assign featured_image = item.variant.image.src | default: item.product.featured_image %}
       <div class="cart-product-wrapper">
