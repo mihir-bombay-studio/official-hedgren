@@ -272,8 +272,23 @@
       <h2 class="img-text-text-heading regular">
         The Story
       </h2>
-      <div class="img-text-text-content">        
-        {{ page.content }}
+      <div class="img-text-text-content">       
+        {% if collection.handle == settings.h_collection1.handle %}{{settings.h_description1}}{% endif %}
+        {% if collection.handle == settings.h_collection2.handle %}{{settings.h_description2}}{% endif %}
+        {% if collection.handle == settings.h_collection3.handle %}{{settings.h_description3}}{% endif %}
+        {% if collection.handle == settings.h_collection4.handle %}{{settings.h_description4}}{% endif %}
+        {% if collection.handle == settings.h_collection5.handle %}{{settings.h_description5}}{% endif %}
+        {% if collection.handle == settings.h_collection6.handle %}{{settings.h_description6}}{% endif %}
+        {% if collection.handle == settings.h_collection7.handle %}{{settings.h_description7}}{% endif %}
+        {% if collection.handle == settings.h_collection8.handle %}{{settings.h_description8}}{% endif %}
+        {% if collection.handle == settings.h_collection9.handle %}{{settings.h_description9}}{% endif %}
+        {% if collection.handle == settings.h_collection10.handle %}{{settings.h_description10}}{% endif %}
+        {% if collection.handle == settings.h_collection11.handle %}{{settings.h_description11}}{% endif %}
+        {% if collection.handle == settings.h_collection12.handle %}{{settings.h_description12}}{% endif %}
+        {% if collection.handle == settings.h_collection13.handle %}{{settings.h_description13}}{% endif %}
+        {% if collection.handle == settings.h_collection14.handle %}{{settings.h_description14}}{% endif %}
+        {% if collection.handle == settings.h_collection15.handle %}{{settings.h_description15}}{% endif %}
+        {% if collection.handle == settings.h_collection16.handle %}{{settings.h_description16}}{% endif %}
       </div>
     </div>  
     <div class="img-text-img rel">
