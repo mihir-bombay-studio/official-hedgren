@@ -94,3 +94,39 @@
     font-size: 13px;
     line-height: 18px;
 }
+
+@media(max-width: 992px){
+	.colorful-cards-subheading {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.21px;
+    width: unset;
+}
+  
+  .colorful-cards-headings {
+    margin-bottom: 32px;
+}
+  
+  .colorful-card.regular, .colorful-card.big {
+    width: 48%;
+    height: 44.7vw;
+}
+  
+  .card-sub-heading {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+  
+  .card-heading {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.21px;
+}
+  
+  .card-extra-txt{
+  	margin-top: 4px;
+  }
+  
+  
+}
