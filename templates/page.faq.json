@@ -2,11 +2,135 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "16391374609e5952e2": {
+      "type": "hedgren-faq-page-heading",
+      "blocks": {
+        "0c187d0c-5857-4757-ad1a-1277b1ae563e": {
+          "type": "faq_type",
+          "settings": {
+            "sec_name": "Shipping",
+            "sec_id": "Shipping"
+          }
+        },
+        "30010009-1c81-4628-be8c-e039849c3c9f": {
+          "type": "faq_type",
+          "settings": {
+            "sec_name": "Returns",
+            "sec_id": "Returns"
+          }
+        },
+        "a980d810-f3b4-4796-bf35-889a26b15a26": {
+          "type": "faq_type",
+          "settings": {
+            "sec_name": "Warrenty",
+            "sec_id": "Warrenty"
+          }
+        },
+        "c665a2fc-3fea-4874-a5fc-7bddac15458b": {
+          "type": "faq_type",
+          "settings": {
+            "sec_name": "Cleaning",
+            "sec_id": "Cleaning"
+          }
+        },
+        "d3945519-b08a-47b6-b756-885cc2d04477": {
+          "type": "faq_type",
+          "settings": {
+            "sec_name": "Features",
+            "sec_id": "Features"
+          }
+        }
+      },
+      "block_order": [
+        "0c187d0c-5857-4757-ad1a-1277b1ae563e",
+        "30010009-1c81-4628-be8c-e039849c3c9f",
+        "a980d810-f3b4-4796-bf35-889a26b15a26",
+        "c665a2fc-3fea-4874-a5fc-7bddac15458b",
+        "d3945519-b08a-47b6-b756-885cc2d04477"
+      ],
+      "settings": {
+        "heading_left": "1994",
+        "heading": "FAQ",
+        "heading_right": "2021"
+      }
+    },
+    "1639137530507bec72": {
+      "type": "hedgren-faq",
+      "blocks": {
+        "86633901-b234-4660-a75c-3582922534b6": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I place an order?",
+            "answer": "To place an order select your desired item and add it to your shopping cart. If you are interested in buying one or more items, you can change the quantity and selection in the course of the buying process. Follow the instructions on the checkout page to complete your order. As soon as you confirm your order, an automated e-mail confirmation will be sent."
+          }
+        },
+        "b8c4e5d2-b90c-44d9-a07f-fda24127364a": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I place an order?",
+            "answer": "To place an order select your desired item and add it to your shopping cart. If you are interested in buying one or more items, you can change the quantity and selection in the course of the buying process. Follow the instructions on the checkout page to complete your order. As soon as you confirm your order, an automated e-mail confirmation will be sent."
+          }
+        },
+        "33347926-6f4b-48dc-bf78-b4a5894de59a": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I place an order?",
+            "answer": "To place an order select your desired item and add it to your shopping cart. If you are interested in buying one or more items, you can change the quantity and selection in the course of the buying process. Follow the instructions on the checkout page to complete your order. As soon as you confirm your order, an automated e-mail confirmation will be sent."
+          }
+        }
+      },
+      "block_order": [
+        "86633901-b234-4660-a75c-3582922534b6",
+        "b8c4e5d2-b90c-44d9-a07f-fda24127364a",
+        "33347926-6f4b-48dc-bf78-b4a5894de59a"
+      ],
+      "settings": {
+        "background": "normal-bg",
+        "heading": "Shipping",
+        "sec_id": "Shipping",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "1639137579a3b2384d": {
+      "type": "hedgren-faq",
+      "blocks": {
+        "7980d808-20bb-40c3-a9e5-7cc2fb330cfc": {
+          "type": "faq",
+          "settings": {
+            "question": "I want to return the order for a refund, what should I do?",
+            "answer": ""
+          }
+        },
+        "89e80631-cbb2-40d8-b411-795521a8564e": {
+          "type": "faq",
+          "settings": {
+            "question": "I want to return the order for a refund, what should I do?",
+            "answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "7980d808-20bb-40c3-a9e5-7cc2fb330cfc",
+        "89e80631-cbb2-40d8-b411-795521a8564e"
+      ],
+      "settings": {
+        "background": "normal-bg",
+        "heading": "Returns",
+        "sec_id": "Returns",
+        "button_label": "",
+        "button_link": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16391374609e5952e2",
+    "1639137530507bec72",
+    "1639137579a3b2384d"
   ]
 }
