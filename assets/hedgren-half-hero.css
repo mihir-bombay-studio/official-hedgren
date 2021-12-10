@@ -33,3 +33,26 @@
     line-height: 30px;
     letter-spacing: 6px;
 }
+
+@media(max-width: 992px){
+  .half-hero{
+  	height: 50vh;
+  }
+  
+  .half-hero-heading {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -1.73px;
+    margin-bottom: 0;
+}
+  
+  .half-hero-sub-heading {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.21px;
+}
+  
+  .half-hero-headings {
+    padding-top: 40px;
+}
+}
