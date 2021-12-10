@@ -17,6 +17,7 @@
         {{ section.settings.button_label }} {% if section.settings.button_label != blank %}<span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>{% endif %}
       </a>
       {% endif %}
+      <div class="extra-text{% if section.settings.order == 'order-normal' %} txt-right{% endif %} no-d">{{ section.settings.extra_txt }}</div>
     </div>  
     <div class="img-text-img rel">
       <span class="image-overlay">
@@ -41,7 +42,7 @@
           {%- else -%}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%} 
-      <div class="extra-text{% if section.settings.order == 'order-normal' %} txt-right{% endif %}">{{ section.settings.extra_txt }}</div>
+      <div class="extra-text{% if section.settings.order == 'order-normal' %} txt-right{% endif %} no-t-m">{{ section.settings.extra_txt }}</div>
     </div>
   </div>
 </div>
