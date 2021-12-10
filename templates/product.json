@@ -28,6 +28,11 @@
           "settings": {
           }
         },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-photo-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -54,11 +59,6 @@
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "loox-rating": {
-          "type": "shopify:\/\/apps\/loox-photo-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
           }
         }
       },
@@ -111,6 +111,55 @@
     "16379239984199c29f": {
       "type": "hedgren-similar-products",
       "settings": {
+        "heading": "You may also like",
+        "addtext": "ADD TO CART",
+        "outtext": "OUT OF STOCK",
+        "moretext": "More info",
+        "buttontext": "SHOP ALL PRODUCTS"
+      }
+    },
+    "16391218459658d81d": {
+      "type": "hedgren-testimonials",
+      "blocks": {
+        "904cd6de-3041-42fd-840c-084496eac604": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/IMage_2x_0b6d9407-c620-457d-9605-4689960323e0.png",
+            "rating": 5,
+            "prod_title": "CRUSADE Drawstring Backpack RFID",
+            "testimonial_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita",
+            "author": "Laura T."
+          }
+        }
+      },
+      "block_order": [
+        "904cd6de-3041-42fd-840c-084496eac604"
+      ],
+      "settings": {
+        "title": "Reviews",
+        "subtitle": "WHAT DO OUR CUSTOMERS THINK?"
+      }
+    },
+    "1639121864070ecb61": {
+      "type": "hedgren-faq",
+      "blocks": {
+        "9499df00-fd68-4103-ada4-32ca9b778294": {
+          "type": "faq",
+          "settings": {
+            "question": "",
+            "answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "9499df00-fd68-4103-ada4-32ca9b778294"
+      ],
+      "settings": {
+        "background": "normal-bg",
+        "heading": "",
+        "sec_id": "",
+        "button_label": "Button label",
+        "button_link": ""
       }
     },
     "loox-product-reviews-app-section": {
@@ -141,6 +190,8 @@
     "163791773478585842",
     "1637920516a9cb0b6b",
     "16379239984199c29f",
+    "16391218459658d81d",
+    "1639121864070ecb61",
     "loox-product-reviews-app-section"
   ]
 }
