@@ -12,7 +12,8 @@
   <div class="container rel">
     <div class="product-slider-wrap">
     <div class="hero-products">
-      {% for product in section.settings.collection.products limit: 8 %}
+      {% for product in section.settings.collection.products %}
+      {% if product.tags contains "Main" %}
       <div class="hero-product">
         <div>
           <div class="hero-product-images-block">
@@ -61,6 +62,7 @@
           </a>
         </div>
       </div>
+      {% endif %}
       {% endfor %}
     </div>
     <a class="btn btn-center" href="{{section.settings.collection.url}}">{{ section.settings.buttontext }}</a>
