@@ -96,12 +96,54 @@
         "heading": "How to earn points",
         "subheading": "START EARNING REWARDS WHEN YOU JOIN. EARN POINTS AND RECEIVE DISCOUNT VOUCHERS FOR YOUR NEXT PURCHASE."
       }
+    },
+    "16391348115f0fc8b5": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-reversed",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_43.jpg",
+        "heading": "Refer your friends",
+        "subheading": "Share your link to give your friend a € 5 voucher to spend on their first purchase.",
+        "content": "When they make a purchase you’ll receive a € 5 voucher!",
+        "button_label": "SIGN UP NOW",
+        "button_link": "",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
+    "163913486649a78351": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_11.jpg",
+        "heading": "Get rewards",
+        "subheading": "Start earning great rewards when you join. Earn points and receive discount vouchers for your next purchase.*",
+        "content": "Voucher €5 discount - 500 points<br><br> Voucher €10 discount - 1000 points<br><br> Voucher €15 discount - 1500 points<br><br> Voucher €20 discount - 2000<br><br> points Voucher €25 discount - 2500 points",
+        "button_label": "",
+        "button_link": "",
+        "extra_txt": "* €5 and €10 voucher is only valid for orders above €30.<br> €15 &amp; €20 voucher is only valid for orders above €50.<br> €25 voucher is only valid for orders above €75.",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
     }
   },
   "order": [
     "main",
     "1639134363fa2d057d",
     "16391344571978294d",
-    "1639134529a6601b76"
+    "1639134529a6601b76",
+    "16391348115f0fc8b5",
+    "163913486649a78351"
   ]
 }
