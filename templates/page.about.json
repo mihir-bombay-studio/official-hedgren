@@ -88,6 +88,16 @@
         "padding_bottom": "p-no-bottom",
         "bg_color": ""
       }
+    },
+    "163913334841e680e3": {
+      "type": "hedgren-about-values",
+      "settings": {
+        "background": "dark-bg",
+        "heading": "We are",
+        "heading_two": "we value",
+        "content_one": "DOWN-TO-EARTH<br>\nENERGETIC<br>\nINCLUSIVE",
+        "content_two": "INTUITIVE DESIGN<br>\nFREEDOM OF MOVEMENT<br>\nSMART FUNCTIONALITY"
+      }
     }
   },
   "order": [
@@ -95,6 +105,7 @@
     "163913271310b1a984",
     "16391330120105ea23",
     "163913317349def013",
-    "1639133344a1bb9dd3"
+    "1639133344a1bb9dd3",
+    "163913334841e680e3"
   ]
 }
