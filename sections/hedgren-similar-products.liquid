@@ -137,7 +137,20 @@
                 data: formData,
               })
               .done(function( data ) {     
-				console.log(data);
+                $.ajax({
+                  url: '/?sections=hedgren-cart-drawer',
+                  method: "GET",
+                  dataType: "json"
+                })
+                .done(function( data ) {
+                  $('#shopify-section-hedgren-cart-drawer').remove();
+                  $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
+                  $('.drawer-cart').addClass('drawn');
+                  $('body').addClass('no-scroll');
+                })
+                .fail(function(error) {
+                  console.log( error );
+                });
               })
               .fail(function(error) {
                 console.log( error );
