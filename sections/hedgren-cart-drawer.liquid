@@ -9,7 +9,7 @@
   </div>
   <div class="drawer-cart-main-sec">
     <div class="cart-body">
-      {% for item in cart.items %}
+      {% for item in cart.items %}{{ section.settings.upsell.id }} - {{item.id}}
           {% if section.settings.upsell.id == item.id %}
       		{% assign upsell = "added" %}
       		{% endif %}
