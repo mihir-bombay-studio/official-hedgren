@@ -1,5 +1,7 @@
 {{ 'hedgren-cart-drawer.css' | asset_url | stylesheet_tag }}
 
+
+
 <div class="drawer-cart">
   <div class="drawer-cart-header">
     <span class="close-cart">{% include 'icon-close-new' %}</span>
@@ -8,7 +10,9 @@
   <div class="drawer-cart-main-sec">
     <div class="cart-body">
       {% for item in cart.items %}
-          
+          {% if section.settings.upsell.id == item.id %}
+      		{% assign upsell = "added" %}
+      		{% endif %}
       {% assign featured_image = item.variant.image.src | default: item.product.featured_image %}
       <div class="cart-product-wrapper">
         <div class="cart-product-image">
@@ -38,6 +42,7 @@
     </div>
   </div>
   <div class="drawer-cart-footer">
+    {% if upsell %}
     <div class="drawer-cart-upsell">
       <div class="upsell-title">PEOPLE ALSO BOUGHT:</div>
       <div class="upsell-product-wrap">
@@ -55,6 +60,7 @@
         </div>
       </div>
     </div>
+    {% endif %}
     <div class="drawer-cart-checkout">
       <div class="checkout-subtotal justify-between">
         <div class="checkout-title">Subtotal</div>
