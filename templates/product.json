@@ -157,8 +157,8 @@
         "9499df00-fd68-4103-ada4-32ca9b778294": {
           "type": "faq",
           "settings": {
-            "question": "",
-            "answer": ""
+            "question": "Where do you deliver?",
+            "answer": "olren ipsdiuybnrfn riew gidef g"
           }
         }
       },
@@ -167,10 +167,10 @@
       ],
       "settings": {
         "background": "normal-bg",
-        "heading": "",
+        "heading": "FAQ",
         "sec_id": "",
-        "button_label": "Button label",
-        "button_link": ""
+        "button_label": "More FAQ's",
+        "button_link": "shopify:\/\/pages\/faq"
       }
     },
     "loox-product-reviews-app-section": {
