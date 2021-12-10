@@ -15,8 +15,8 @@
         {{ article.excerpt }}
       </div>
       {% if block.settings.button_label %}
-      <a href="{% if block.settings.button_link %}{{block.settings.button_link}}{% else %}#{% endif %}">
-        {{ block.settings.button_label }} {% if block.settings.button_label != blank %}<span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>{% endif %}
+      <a href="{{ article.url }}">
+        READ STORY<span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
       </a>
       {% endif %}
     </div>  
@@ -43,7 +43,6 @@
           {%- else -%}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%} 
-      <div class="extra-text{% if block.settings.order == 'order-normal' %} txt-right{% endif %}">{{ block.settings.extra_txt }}</div>
     </div>
   </div>
 </div>
