@@ -206,7 +206,9 @@
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
     <meta name="facebook-domain-verification" content="95prg0opv4jd3pbvriz5viuahrfq8d" />
-  </head>
+  
+	{{ shop.metafields.loox["global_html_head"] }}
+</head>
 
   <body class="gradient">
     
@@ -268,5 +270,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+  
+	{{ shop.metafields.loox["global_html_body"] }}
+</body>
 </html>
