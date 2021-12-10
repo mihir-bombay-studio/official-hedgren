@@ -2,11 +2,22 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "163913780623103de6": {
+      "type": "hedgren-policies",
+      "settings": {
+        "heading_left": "1994",
+        "heading": "Policy",
+        "heading_right": "2021",
+        "content": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "163913780623103de6"
   ]
 }
