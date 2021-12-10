@@ -15,11 +15,10 @@
     </div>
     <div class="discover-coll-sub-heading no-t-m">{{ section.settings.subtitle }}</div>
     <div class="featured-collections">
-    {% for block in section.blocks %}
-    {% if block.type == 'collect' %}
-      {% assign coll = blocks.settings.coll %}
+      {% if settings.h_collection1 %}
+      {% assign coll = settings.h_collection1 %}
     <div class="featured-coll-card">
-      {% assign collection_handle = block.settings.coll %}
+      {% assign collection_handle = settings.h_collection1 %}
       		<div class="coll-card">
               <div class="coll-img">
               	{% if collection_handle.image %}
@@ -31,12 +30,11 @@
               <div class="coll-text">
                 <div class="coll-title">{{ collection_handle.title }}</div>
               <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
-                <a class="coll-url" href="{{ block.settings.page }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
               </div>
       </div>
     </div>
-    {% endif %}
-    {% endfor %}
+      {% endif %}
       </div>
     <a href="/collections" class="btn btn-center featured-coll-btn">SHOP COLLECTIONS</a>
   </div>
