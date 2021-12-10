@@ -202,12 +202,14 @@
     border-radius: 23px;
     cursor: pointer;
     position: absolute;
-    right: -71px;
+    right: 0;
     bottom: 0;
   color: #D3142B;
   font-weight: 600;
 }
-
+.upsell-product-wrap .product-color, .upsell-product-wrap .upsell-product-desc {
+    max-width: calc( 100% - 84px );
+}
 .upsell-product-infos {
     display: flex;
     flex-direction: column;
