@@ -9,8 +9,8 @@
   </div>
   <div class="drawer-cart-main-sec">
     <div class="cart-body">
-      {% for item in cart.items %}{{ section.settings.upsell.id }} - {{item.product.id}}
-          {% if section.settings.upsell.id == item.id %}
+      {% for item in cart.items %}
+          {% if section.settings.upsell.id == item.product.id %}
       		{% assign upsell = "added" %}
       		{% endif %}
       {% assign featured_image = item.variant.image.src | default: item.product.featured_image %}
