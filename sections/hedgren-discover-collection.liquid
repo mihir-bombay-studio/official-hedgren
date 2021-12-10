@@ -16,7 +16,7 @@
     <div class="discover-coll-sub-heading no-t-m">{{ section.settings.subtitle }}</div>
     <div class="featured-collections">
       {% if settings.h_collection1 %}
-      {% assign coll = settings.h_collection1 %}
+      {% assign coll = settings.h_collection1 %}{% unless coll.handle == collection.handle %}
     <div class="featured-coll-card">
       {% assign collection_handle = settings.h_collection1 %}
       		<div class="coll-card">
@@ -33,7 +33,307 @@
                 <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
               </div>
       </div>
-    </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection2 %}
+      {% assign coll = settings.h_collection2 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection3 %}
+      {% assign coll = settings.h_collection3 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection4 %}
+      {% assign coll = settings.h_collection4 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection5 %}
+      {% assign coll = settings.h_collection5 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection6 %}
+      {% assign coll = settings.h_collection6 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection7 %}
+      {% assign coll = settings.h_collection7 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection8 %}
+      {% assign coll = settings.h_collection8 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection9 %}
+      {% assign coll = settings.h_collection9 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection10 %}
+      {% assign coll = settings.h_collection10 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection11 %}
+      {% assign coll = settings.h_collection11 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection12 %}
+      {% assign coll = settings.h_collection12 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection13 %}
+      {% assign coll = settings.h_collection13 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection14 %}
+      {% assign coll = settings.h_collection14 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection15 %}
+      {% assign coll = settings.h_collection15 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+      {% if settings.h_collection16 %}
+      {% assign coll = settings.h_collection16 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection1 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}">
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.{% endif %}</div>
+                <a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">DISCOVER COLLECTION</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a>
+              </div>
+      </div>
+    </div>{% endunless %}
       {% endif %}
       </div>
     <a href="/collections" class="btn btn-center featured-coll-btn">SHOP COLLECTIONS</a>
