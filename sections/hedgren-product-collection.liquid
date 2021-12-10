@@ -1,37 +1,54 @@
 {{ 'hedgren-img-text.css' | asset_url | stylesheet_tag }}
 {{ 'hedgren-product-collection.css' | asset_url | stylesheet_tag }}
 
-{% for collection in product.collections limit:1 %}
-    
 
+{% if product.metafields.my_fields.collection == settings.h_name1 %}{% assign collection = settings.h_collection1 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name2 %}{% assign collection = settings.h_collection2 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name3 %}{% assign collection = settings.h_collection3 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name4 %}{% assign collection = settings.h_collection4 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name5 %}{% assign collection = settings.h_collection5 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name6 %}{% assign collection = settings.h_collection6 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name7 %}{% assign collection = settings.h_collection7 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name8 %}{% assign collection = settings.h_collection8 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name9 %}{% assign collection = settings.h_collection9 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name10 %}{% assign collection = settings.h_collection10 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name11 %}{% assign collection = settings.h_collection11 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name12 %}{% assign collection = settings.h_collection12 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name13 %}{% assign collection = settings.h_collection13 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name14 %}{% assign collection = settings.h_collection14 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name15 %}{% assign collection = settings.h_collection15 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name16 %}{% assign collection = settings.h_collection16 %}{% endif %}
+    
+{% if collection %}
 <div class="img-text-wrapper product-collection-wrapper">
   <div class="img-text container flex-box">
     <div class="img-text-img rel">
-        
+
       {% if collection.image %}
-          <img loading="lazy" src="{{ collection.image | img_url: '350x' }}" alt="{{ collection.title }}">
-          {% else %}
-          {{ 'collection-1' | placeholder_svg_tag }}
-          {% endif %}
-  </div>
+      <img loading="lazy" src="{{ collection.image | img_url: '350x' }}" alt="{{ collection.title }}">
+      {% else %}
+      {{ 'collection-1' | placeholder_svg_tag }}
+      {% endif %}
+    </div>
     <div class="img-text-text rel">
       <h2 class="img-text-text-heading">
         The collection
       </h2>
-      
+
       <div class="img-text-text-content">
         {{ collection.description }}
       </div>
-      
+
       <a href="{{ collection.url }}" class="btn prod-coll-btn">
         SHOP COLLECTION
       </a>
-      
+
     </div>  
-    
+
+  </div>
 </div>
-</div>
-{% endfor %}
+{% endif %}
+
 {% schema %}
  {
    "name":"Hedgren Prod Collection",
