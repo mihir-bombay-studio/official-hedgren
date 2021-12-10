@@ -1,80 +1,84 @@
 {{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
 {{ 'hedgren-similar-products.css' | asset_url | stylesheet_tag }}
 
+{% if product.metafields.my_fields.collection == settings.h_name1 %}{% assign collection = settings.h_collection1 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name2 %}{% assign collection = settings.h_collection2 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name3 %}{% assign collection = settings.h_collection3 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name4 %}{% assign collection = settings.h_collection4 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name5 %}{% assign collection = settings.h_collection5 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name6 %}{% assign collection = settings.h_collection6 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name7 %}{% assign collection = settings.h_collection7 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name8 %}{% assign collection = settings.h_collection8 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name9 %}{% assign collection = settings.h_collection9 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name10 %}{% assign collection = settings.h_collection10 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name11 %}{% assign collection = settings.h_collection11 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name12 %}{% assign collection = settings.h_collection12 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name13 %}{% assign collection = settings.h_collection13 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name14 %}{% assign collection = settings.h_collection14 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name15 %}{% assign collection = settings.h_collection15 %}{% endif %}
+{% if product.metafields.my_fields.collection == settings.h_name16 %}{% assign collection = settings.h_collection16 %}{% endif %}
+
+{% unless collection %}
+{% assign collection = collections.all %}
+{% endunless %}
+
 <div class="hero-products-wrapper similar-products-wrapper">
   <div class="container">
     <h2 class="similar-prods-heading">You may also like</h2>
     <div class="similar-prods-subheading">WHAT OTHER HEDGRENISTS THINK</div>
     <div class="similar-products flex-box justify-between no-t-m">
-      {% for coll in product.collections limit:1 %}
-      {% for product in coll.products limit: 3 %}
+      
+      {% for product in collection.products %}
+      {% if product.tags contains "Main" %}
       <div class="hero-product">
-        <div class="hero-product-images-block">
-          {% for image in product.images limit: 2 %}
-          <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
-          {% endfor %}
+        <div>
+          <div class="hero-product-images-block">
+            <a href="{{ product.url }}">
+              {% for image in product.images limit: 2 %}
+              <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+              {% endfor %}
+            </a>
+            <div class="variants flex-box no-t-m">
+              {% include 'color-product-swatch' %}
+              {% include 'color-product-swatch-2' %}
+            </div>
+          </div>
+          <div class="hero-product-text-block">
+            <a href="{{ product.url }}">
+              <div class="hero-row">
+                <div class="hero-col">
+                  <span class="product-font product-title">
+                    {{ product.title }}
+                  </span>
+                </div>
+                <div class="hero-col price-col">
+                  <span class="product-font money">
+                    {{ product.price | money_without_trailing_zeros }}
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="hero-row">            
+              <span class="product-tag">
+                {{ product.type }}
+              </span>
+            </div>
+          </div>
         </div>
         <div class="hero-product-text-block">
-          <div class="hero-row">
-            <div class="hero-col">
-              <span class="product-font">
-                {{ product.title }}
-              </span>
-            </div>
-            <div class="hero-col">
-              <span class="product-font">
-                {{ product.price | money }}
-              </span>
+          <div class="hero-row no-d"> 
+            <div class="variants flex-box">
+              {% include 'color-product-swatch' %}
+              {% include 'color-product-swatch-2' %}
             </div>
           </div>
-          <div class="hero-row">            
-            <span class="product-tag">
-              Drawstring Backpack RFID
-            </span>
-          </div>
-          <button class="add-direct btn btn-center">ADD TO CART {% render "svg-plus" %}</button>
+          <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
           <a href="{{ product.url }}" class="more-info">
-            More info <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
+            {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
           </a>
         </div>
       </div>
-      {% endfor %}
-      {% endfor %}
-    </div>
-    <div class="similar-products-mob no-d">
-      {% for coll in product.collections limit:1 %}
-      {% for product in coll.products limit: 3 %}
-      <div class="hero-product">
-        <div class="hero-product-images-block">
-          {% for image in product.images limit: 2 %}
-          <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
-          {% endfor %}
-        </div>
-        <div class="hero-product-text-block">
-          <div class="hero-row">
-            <div class="hero-col">
-              <span class="product-font">
-                {{ product.title }}
-              </span>
-            </div>
-            <div class="hero-col txt-right">
-              <span class="product-font">
-                {{ product.price | money }}
-              </span>
-            </div>
-          </div>
-          <div class="hero-row">            
-            <span class="product-tag">
-              Drawstring Backpack RFID
-            </span>
-          </div>
-          <button class="add-direct btn btn-center">ADD TO CART {% render "svg-plus" %}</button>
-          <a href="{{ product.url }}" class="more-info">
-            More info <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
-          </a>
-        </div>
-      </div>
-      {% endfor %}
+      {% endif %}
       {% endfor %}
     </div>
     <a class="btn btn-center similar-prods-btn" href="#">Shop All products</a>
