@@ -132,6 +132,15 @@ a:hover .link-arows {
   flex-wrap: wrap;
   position: relative;
 }
+.nav-right-cards .image-overlay {
+  left: auto;
+  right: -110px;
+  bottom: 0;
+  z-index: -1;
+}
+.nav-right-cards .image-overlay svg path {
+  fill: #DEDEDE;
+}
 .nav-card {
     width: calc( 50% - 10px );
 }
