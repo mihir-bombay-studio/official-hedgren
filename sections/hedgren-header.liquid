@@ -92,9 +92,10 @@
             </ul>
             <div class="nav-right-cards">
               <div class="nav-card">
+                {% assign colxn = collections["lineo"] %}
                 <a href="#">
-                <img src="https://cdn.shopify.com/s/files/1/1882/4247/files/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png?v=1636715308">
-                  <div class="nav-title">collection 1</div>
+                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}">
+                  <div class="nav-title">{{ colxn.title }}</div>
                 </a>
               </div>
               <div class="nav-card">
