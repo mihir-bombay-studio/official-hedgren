@@ -83,8 +83,8 @@ header a {
   width: 100%;
   z-index: 2;
   visibility: hidden;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;    
+  -webkit-transition: none;
+  transition: none;    
   max-height: 0;
   overflow: hidden;
   opacity: 0;
@@ -150,11 +150,12 @@ a:hover .link-arows {
   font-weight: 700;
 }
 .dropdown-1:hover .dropdown {
-    max-height: 2000vh;
-    opacity: 1;
-    visibility: visible;
-    height: auto;
-    display: block;
+  max-height: 2000vh;
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  display: block;
+  transition: all .4s ease;
 }
 .nav-left-cards {
     width: 30%;
