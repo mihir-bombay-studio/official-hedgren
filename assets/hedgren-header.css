@@ -144,9 +144,11 @@ a:hover .link-arows {
 .nav-card {
     width: calc( 50% - 10px );
 }
-.nav-right-cards .nav-card img {
+.nav-card img {
   display: block;
   width: 100%;
+}
+.nav-right-cards .nav-card img {
   height: 175px;
   object-fit: cover;
 }
