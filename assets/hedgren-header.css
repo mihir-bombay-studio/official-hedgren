@@ -130,6 +130,7 @@ a:hover .link-arows {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: relative;
 }
 .nav-card {
     width: calc( 50% - 10px );
