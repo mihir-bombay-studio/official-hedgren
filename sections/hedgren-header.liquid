@@ -93,7 +93,7 @@
             <div class="nav-right-cards">
               <div class="nav-card">
                 {% assign colxn = collections["lineo"] %}
-                <a href="#">
+                <a href="{{ colxn.url }}">
                 <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}">
                   <div class="nav-title">{{ colxn.title }}</div>
                 </a>
