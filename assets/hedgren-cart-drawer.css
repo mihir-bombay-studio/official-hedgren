@@ -297,6 +297,11 @@
   margin: 0 auto;
   margin-top: 18px;
 }
+.product-discount-price {
+  color: #7A7A7A;
+  text-decoration: line-through;
+  letter-spacing: 2.2px;
+}
 @media (max-width: 992px) {
   .drawer-cart-header {
     position: relative;
