@@ -31,6 +31,9 @@
   line-height: 29px;
   margin-bottom: 16px;
 }
+.img-text-text-subheading.different-sub-font {
+  font-size: 36px;
+}
 .img-text-text-content {
   font-size: 13px;
   line-height: 18px;
