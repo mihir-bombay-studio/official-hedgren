@@ -45,35 +45,51 @@
     </ul>
     {%- endif -%}
     <hr class="footer-hr no-d">
+    {%- if section.settings.menu2 != blank -%}
     <ul class="footer-nav-col">
+      {%- for link in section.settings.menu2.links -%}
+      {% if forloop.first %}      
       <li class="link-heading">
-        <a href="#">ABOUT HEDGREN</a>
+        <a href="#" onclick="return false;">{{ link.title | escape }}</a>
       </li>
+      {% else %}
+      {% assign first_letter = link.title | slice: 0 %}
+      {% if first_letter == "-" %}
+      <li class="link-primary">
+        <a href="{{ link.url }}">{{ link.title | escape | remove_first: "-" }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
+      </li>
+      {% else %}
       <li class="link-secondary">
-        <a href="#">OUR STORY <span class="link-arows">{% include "svg-arrow" %}</span></a>
+        <a href="{{ link.url }}">{{ link.title | escape }} <span class="link-arows">{% include "svg-arrow" %}</span></a>
       </li>
-      <li class="link-secondary">
-        <a href="#">OUR COMMUNITY <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
-      <li class="link-secondary">
-        <a href="#">OUR LOYALTY PROGRAM <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
+      {% endif %}
+      {% endif %}
+      {%- endfor -%}
     </ul>
+    {%- endif -%}
     <hr class="footer-hr no-d">
+    {%- if section.settings.menu != blank -%}
     <ul class="footer-nav-col">
+      {%- for link in section.settings.menu.links -%}
+      {% if forloop.first %}      
       <li class="link-heading">
-        <a href="#">INFORMATION</a>
+        <a href="#" onclick="return false;">{{ link.title | escape }}</a>
       </li>
+      {% else %}
+      {% assign first_letter = link.title | slice: 0 %}
+      {% if first_letter == "-" %}
+      <li class="link-primary">
+        <a href="{{ link.url }}">{{ link.title | escape | remove_first: "-" }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
+      </li>
+      {% else %}
       <li class="link-secondary">
-        <a href="#">CONTACT <span class="link-arows">{% include "svg-arrow" %}</span></a>
+        <a href="{{ link.url }}">{{ link.title | escape }} <span class="link-arows">{% include "svg-arrow" %}</span></a>
       </li>
-      <li class="link-secondary">
-        <a href="#">FAQ <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
-      <li class="link-secondary">
-        <a href="#">STORE LOCATOR <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
+      {% endif %}
+      {% endif %}
+      {%- endfor -%}
     </ul>
+    {%- endif -%}
     <hr class="footer-hr no-d">
     <ul class="footer-nav-col">
       <li class="link-heading">
