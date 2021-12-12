@@ -304,6 +304,17 @@
   text-decoration: line-through;
   letter-spacing: 2.2px;
 }
+.secure-icon {
+  height: 13px;
+  display: inline-flex;
+  align-items: flex-end;
+}
+.secure-icon svg{
+  display: block;
+  width: 10px;
+  height: auto;
+  margin-right: 8px;
+}
 @media (max-width: 992px) {
   .drawer-cart-header {
     position: relative;
