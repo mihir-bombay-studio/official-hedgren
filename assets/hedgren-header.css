@@ -257,7 +257,7 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder { /* Microsoft Edg
   }
 
   .header-hamburger-menu {
-    width: 40%;
+    width: 20%;
   }
 
   .upper-header {
@@ -425,5 +425,9 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder { /* Microsoft Edg
   }
   .upper-header .upper-nav-center {
     min-height: 31px;
+    width: 60%;
+  }
+  .upper-header .upper-nav-right {
+  	width: 20%;
   }
 }
