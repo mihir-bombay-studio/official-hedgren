@@ -49,8 +49,12 @@
   background-color: #DEDEDE;
   padding: 24px 32px 32px;
   height: calc( 100% - 225px );
+  position: absolute;
 }
-
+span.free-radical {
+    position: absolute;
+    bottom: 32px;
+}
 .coll-title {
     font-size: 18px;
     line-height: 29px;
