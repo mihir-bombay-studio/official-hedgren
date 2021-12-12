@@ -225,4 +225,7 @@
   .hero-product .hero-product-images-block img:first-child {
     opacity: 1;
   }
+  .hero-products-wrapper {
+    padding: 0 0 70px;
+  }
 }
