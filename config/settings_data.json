@@ -241,6 +241,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/Logo_2x_d71d0448-aea4-466f-b1e4-f2be1e92ebbf.png",
           "menu": "hedgren-updated",
+          "menu2": "hedgren-mobile",
           "show_search": true,
           "enable_sticky_header": true
         }
