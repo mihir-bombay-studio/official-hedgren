@@ -185,4 +185,8 @@
   .img-text-wrapper .p-normal-top .img-text-text-heading {
     top: 93px;
   }
+  .img-text-text-subheading {
+    margin-bottom: 16px;
+    margin-top: 20px;
+  }
 }
