@@ -26,7 +26,7 @@
   <div class="container">
     <h2 class="similar-prods-heading">{{ section.settings.heading }}</h2>
     <div class="similar-prods-subheading">WHAT OTHER HEDGRENISTS THINK</div>
-    <div class="similar-products flex-box justify-between">
+    <div class="similar-products flex-box justify-between hero-products">
       
       {% for product in collection.products %}
       {% if product.tags contains "Main" and product.handle != main_handle %}
