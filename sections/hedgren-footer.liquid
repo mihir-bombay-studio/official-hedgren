@@ -68,9 +68,9 @@
     </ul>
     {%- endif -%}
     <hr class="footer-hr no-d">
-    {%- if section.settings.menu != blank -%}
+    {%- if section.settings.menu3 != blank -%}
     <ul class="footer-nav-col">
-      {%- for link in section.settings.menu.links -%}
+      {%- for link in section.settings.menu3.links -%}
       {% if forloop.first %}      
       <li class="link-heading">
         <a href="#" onclick="return false;">{{ link.title | escape }}</a>
@@ -109,10 +109,12 @@
       <span>© 2021, Official Hedgren Store</span>
       <span>Powered by <a href="https://deardigital.be" target="_blank">dear digital</a></span>
     </div>
-    <div class="footer-line-center">
-      <span><a href="#">Privacy Policy</a></span>
-      <span><a href="#">Terms of Use</a></span>
-      <span><a href="#">Cookie Policy</a></span>
+    <div class="footer-line-center">      
+      {%- if section.settings.menu4 != blank -%}
+      {%- for link in section.settings.menu4.links -%}
+      <span><a href="{{ link.url }}">{{ link.title | escape }}</a></span>
+      {%- endfor -%}
+      {%- endif -%}
     </div>
     <div class="footer-line-right">
       {% for type in shop.enabled_payment_types %}
