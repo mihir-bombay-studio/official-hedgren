@@ -25,7 +25,7 @@
       </div>
       <div class="product-imgs-mobile no-d">
       	{% for media in product.media %}
-        <div class="product-img-mob">
+        <div class="product-img-mob" href="{{ media | img_url: 'master' }}" data-caption="{{ product.title | escape  }}" data-width="{{media.width}}" data-height="{{media.height}}" itemprop="contentUrl" data-index="{{ forloop.index0 }}">
         <img src="{{ media | img_url: 'x300' }}" alt="{{ media.alt | escape }}">
         </div>          
         {% endfor %}
@@ -254,7 +254,7 @@
     });
 
     // Define click event on gallery item
-    $('.product-imgs .product-img').click(function(event) {
+    $('.product-imgs .product-img,.product-imgs-mobile .product-img-mob').click(function(event) {
 
       // Prevent location change
       event.preventDefault();
