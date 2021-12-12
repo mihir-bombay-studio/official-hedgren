@@ -19,8 +19,8 @@
 
 .drawer-cart-header{
 	padding-top: 24px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 37px;
+  padding-right: 37px;
   display: flex;
   align-items: center;
   margin-bottom: 18px;
@@ -43,7 +43,7 @@
     max-width: none;
     display: block;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 37px;
     height: calc(100vh - 487px);
     overflow-y: scroll;
 }
@@ -162,7 +162,7 @@
 
 .drawer-cart-upsell {
     background-color: #DEDEDE;
-    padding: 16px 40px;
+    padding: 16px 37px;
 }
 
 .upsell-title {
