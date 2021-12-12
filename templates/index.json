@@ -8,7 +8,7 @@
         "addtext": "ADD TO CART",
         "outtext": "OUT OF STOCK",
         "moretext": "More info",
-        "collection": "all-men-bags",
+        "collection": "charm",
         "buttontext": "SHOP ALL PRODUCTS"
       }
     },
@@ -38,31 +38,36 @@
         "e7d8f46b-e25f-458b-86c8-02fc482a56c9": {
           "type": "collect",
           "settings": {
-            "coll": "great-american-heritage"
+            "coll": "great-american-heritage",
+            "page": ""
           }
         },
         "e43561e7-da9e-480d-b5e9-7eb9159e5849": {
           "type": "collect",
           "settings": {
-            "coll": "charm"
+            "coll": "charm",
+            "page": ""
           }
         },
         "f11c2d38-ceab-4e98-8eb1-c3a40d01d7c0": {
           "type": "collect",
           "settings": {
-            "coll": "cocoon"
+            "coll": "cocoon",
+            "page": ""
           }
         },
         "11fe1852-cfa0-44f8-a1ea-7434bbfe54ce": {
           "type": "collect",
           "settings": {
-            "coll": "aura"
+            "coll": "aura",
+            "page": ""
           }
         },
         "2de9460c-f8b0-4272-b16d-6289d9201057": {
           "type": "collect",
           "settings": {
-            "coll": "diamond-star"
+            "coll": "diamond-star",
+            "page": ""
           }
         }
       },
