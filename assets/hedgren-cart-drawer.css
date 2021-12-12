@@ -373,5 +373,8 @@
   }
   .cart-body {
     height: calc(100vh - 410px);
-}
+  }
+  .checkout-shipping {
+    margin-bottom: 16px;
+  }
 }
