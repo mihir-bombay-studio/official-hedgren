@@ -49,7 +49,7 @@
       {%- if section.settings.menu != blank -%}
       {%- for link in section.settings.menu.links -%}
       <li class="dropdown-1 no-t-m">        
-        <a href="{{ link.url }}">{{ link.title | escape }}</a>
+        <a href="{{ link.url }}">{{ link.title | escape }}</a>{{link.links.first}}
         {%- if link.links != blank -%}
         <div class="dropdown">  
           <div class="container flex-box justify-between">
