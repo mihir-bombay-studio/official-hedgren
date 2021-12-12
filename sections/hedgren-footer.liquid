@@ -30,7 +30,7 @@
         <a href="#" onclick="return false;">{{ link.title | escape }}</a>
       </li>
       {% else %}
-      {% assign first_letter = childlink.title | slice: 0 %}
+      {% assign first_letter = link.title | slice: 0 %}
       {% if first_letter == "-" %}
       <li class="link-primary">
         <a href="{{ link.url }}">{{ link.title | escape }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
@@ -44,26 +44,6 @@
       {%- endfor -%}
     </ul>
     {%- endif -%}
-    <ul class="footer-nav-col">
-      <li class="link-heading">
-        <a href="#">SHOP FOR THE HEDGRENIST</a>
-      </li>
-      <li class="link-secondary">
-        <a href="#">A PARENT PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
-      <li class="link-secondary">
-        <a href="#">AN ACTIVE PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
-      <li class="link-secondary">
-        <a href="#">A WANDERLUST PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
-      <li class="link-secondary">
-        <a href="#">URBAN GARDEN PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
-      <li class="link-primary">
-        <a href="#">SHOP ALL PRODUCTS <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
-      </li>
-    </ul>
     <hr class="footer-hr no-d">
     <ul class="footer-nav-col">
       <li class="link-heading">
