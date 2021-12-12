@@ -36,7 +36,7 @@
         {% render "svg-search" %}
       </a>      
       {% endif %}
-      <a title="cart" id="draw_cart">
+      <a title="cart" id="draw_cart" class="{% if cart.item_count == 0 %}empty-c{% endif %}">
         {% render "svg-cart" %}
       </a>
     </div>
