@@ -255,6 +255,10 @@
       "hedgren-footer": {
         "type": "hedgren-footer",
         "settings": {
+          "menu": "hedgren-footer-1",
+          "menu2": "main-menu",
+          "menu3": "main-menu",
+          "menu4": "main-menu"
         }
       }
     },
