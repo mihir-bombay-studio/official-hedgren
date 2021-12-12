@@ -423,7 +423,8 @@
         current.closest('.hero-product').find('.add-direct .cart-txt.no-d').text('Sold Out');
                                                                             current.closest('.hero-product').find('.add-direct').addClass('no-avaliable');        	
       }
-      current.closest('.hero-product').find('.product-title').text(data.title)
+      current.closest('.hero-product').find('.product-title').text(data.title.split(" ")[0]);
+      current.closest('.hero-product').find('.product-tag').text(data.title.replace(data.title.split(" ")[0],""));
       current.closest('.hero-product').find('.add-direct').data('variant',data.variants[0].id);
       current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.images[0]);
       current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.images[1]);
