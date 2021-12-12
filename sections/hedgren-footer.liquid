@@ -22,26 +22,27 @@
   </div>
   <hr class="footer-hr">
   <div class="footer-navs flex-box justify-between">
+    {%- if section.settings.menu != blank -%}
     <ul class="footer-nav-col">
+      {%- for link in section.settings.menu.links -%}
+      {% if forloop.first %}      
       <li class="link-heading">
-        <a href="#">SHOP FOR THE HEDGRENIST</a>
+        <a href="#">{{ link.title | escape }}</a>
       </li>
-      <li class="link-secondary">
-        <a href="#">A PARENT PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
-      <li class="link-secondary">
-        <a href="#">AN ACTIVE PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
-      <li class="link-secondary">
-        <a href="#">A WANDERLUST PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
-      <li class="link-secondary">
-        <a href="#">URBAN GARDEN PERSON <span class="link-arows">{% include "svg-arrow" %}</span></a>
-      </li>
+      {% else %}
+      {% assign first_letter = childlink.title | slice: 0 %}
+      {% if first_letter == "-" %}
       <li class="link-primary">
-        <a href="#">SHOP ALL PRODUCTS <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
+        <a href="{{ link.url }}">{{ link.title | escape }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
       </li>
-    </ul>
+      {% else %}
+      <li class="link-secondary">
+        <a href="{{ link.url }}">{{ link.title | escape }} <span class="link-arows">{% include "svg-arrow" %}</span></a>
+      </li>
+      {% endif %}
+      {% endif %}
+      {%- endfor -%}
+      {%- endif -%}
     <hr class="footer-hr no-d">
     <ul class="footer-nav-col">
       <li class="link-heading">
@@ -108,8 +109,33 @@
 </div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Hedgren Footer",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "menu",
+        "default": "main-menu",
+        "label": "Footer Column 1"
+      },
+      {
+        "type": "link_list",
+        "id": "menu2",
+        "default": "main-menu",
+        "label": "Footer Column 2"
+      },
+      {
+        "type": "link_list",
+        "id": "menu3",
+        "default": "main-menu",
+        "label": "Footer Column 3"
+      },
+      {
+        "type": "link_list",
+        "id": "menu4",
+        "default": "main-menu",
+        "label": "Sub Footer Column 4"
+      }
+	]
   }
 {% endschema %}
 
