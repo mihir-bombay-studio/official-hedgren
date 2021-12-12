@@ -232,11 +232,6 @@
 <script src="{{ "photoswipe-ui-default.min.js" | asset_url }}"></script> 
 
 <script>
-  'use strict';
-
-  /* global jQuery, PhotoSwipe, PhotoSwipeUI_Default, console */
-
-  (function($) {
 
     // Init empty gallery array
     var container = [];
@@ -272,7 +267,6 @@
       gallery.init();
     });
 
-  }(jQuery));
 </script>
 {% include "photoswipe" %}
 {% schema %}
