@@ -74,8 +74,8 @@
 }
 
 .cart-product-infos {
-    display: flex;
-  width: 100%;
+  display: flex;
+  width: calc(100% - 96px);
 }
 
 .cart-product-qty-del {
