@@ -22,6 +22,7 @@
 }
 .hero-product img {
   width: 100%;
+  aspect-ratio: 1/1;
 }
 /* the slides */
 .hero-products .slick-track {
