@@ -316,6 +316,28 @@
   height: auto;
   margin-right: 8px;
 }
+
+
+/* width */
+.cart-body::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.cart-body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+/* Handle */
+.cart-body::-webkit-scrollbar-thumb {
+  background: #d3142b; 
+}
+
+/* Handle on hover */
+.cart-body::-webkit-scrollbar-thumb:hover {
+  background: #d3142f; 
+}
+
 @media (max-width: 992px) {
   .drawer-cart-header {
     position: relative;
