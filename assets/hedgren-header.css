@@ -221,6 +221,10 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder { /* Microsoft Edg
  color: #7A7A7A;
 }
 
+.empty-c svg #Ellipse_13 {
+  display: none;
+}
+
 @media(min-width: 993px){
   .no-d{
     display: none !important;
