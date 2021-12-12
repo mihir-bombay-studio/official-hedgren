@@ -45,87 +45,52 @@
     
     
     <ul class="order-1">
-      <li class="dropdown-1 no-t-m">
-        <a href="#">All products</a>
+      
+      {%- if section.settings.menu != blank -%}
+      {%- for link in section.settings.menu.links -%}
+      <li class="dropdown-1 no-t-m">        
+        <a href="{{ link.url }}">{{ link.title | escape }}</a>
+        {%- if link.links != blank -%}
         <div class="dropdown">  
           <div class="container flex-box justify-between">
             <ul class="order-2">
+              {%- for childlink in link.links -%}
+              {% assign first_letter = childlink.title | slice: 0 %}
+              {% if first_letter == "-" %}
               <li class="link-primary">
-                <a href="#">SHOP ALL PRODUCTS <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
+                <a href="{{ childlink.url }}">{{ childlink.title | escape }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
               </li>
+              {% elsif childlink.title != "(col)" %}
               <li class="link-secondary">
-                <a href="#">SHOP BESTSELLERS <span class="link-arows">{% include "svg-arrow" %}</span></a>
+                <a href="{{ childlink.url }}">{{ childlink.title | escape }} <span class="link-arows">{% include "svg-arrow" %}</span></a>
               </li>
-              <li class="link-secondary">
-                <a href="#">SHOP NEW <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">SHOP WEBSPECIALS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-heading">
-                <a href="#">COLLECTIONS</a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">COCOON <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">COMMUTE <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">GREAT AMERICAN HERITAGE <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">LINEO <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">NEXT <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">ZEPPELIN REVISED <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">NOVA <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-primary">
-                <a href="#">SEE ALL COLLECTIONS <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
-              </li>
+              {% endif %}
+              {%- endfor -%}
             </ul>
             <div class="nav-right-cards">
+              {%- for childlink in link.links -%}
+              {% if childlink.title == "(col)" %}
+              {% assign handlesxn = childlink.url | split: "/" %}
               <div class="nav-card">
-                {% assign colxn = collections["lineo"] %}
+                {% assign colxn = collections[handlesxn.last] %}
                 <a href="{{ colxn.url }}">
                 <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}">
                   <div class="nav-title">{{ colxn.title }}</div>
                 </a>
               </div>
-              <div class="nav-card">
-                {% assign colxn = collections["great-american-heritage"] %}
-                <a href="{{ colxn.url }}">
-                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}">
-                  <div class="nav-title">{{ colxn.title }}</div>
-                </a>
-              </div>
-              <div class="nav-card">
-                {% assign colxn = collections["zeppelin-revised"] %}
-                <a href="{{ colxn.url }}">
-                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}">
-                  <div class="nav-title">{{ colxn.title }}</div>
-                </a>
-              </div>
-              <div class="nav-card">
-                {% assign colxn = collections["nova"] %}
-                <a href="{{ colxn.url }}">
-                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}">
-                  <div class="nav-title">{{ colxn.title }}</div>
-                </a>
-              </div>
+              {% endif %}
+              {%- endfor -%}
               <span class="image-overlay">
                 {% include "svg-arrows-big" %}
               </span>
             </div>
           </div>
         </div>
+        {%- endif -%}
       </li>
+      {%- endfor -%}
+      {%- endif -%}
+      
       <li class="dropdown-1 no-d">
         <a href="#">SHOP ALL</a>
       </li>
