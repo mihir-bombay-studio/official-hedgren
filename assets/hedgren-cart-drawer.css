@@ -216,9 +216,10 @@
     max-width: calc( 100% - 84px );
 }
 .upsell-product-infos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% - 96px);
 }
 
 .drawer-cart-checkout {
