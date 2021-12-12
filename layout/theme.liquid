@@ -16,6 +16,12 @@
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
+    {% if template == 'cart' %}  
+    <meta http-equiv="refresh" content = "0; url = https://{{ shop.domain }}?cartopen=true">
+    <script>
+      window.location.replace("https://{{ shop.domain }}?cartopen=true");
+    </script>
+    {% endif %}
     <title>
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
