@@ -107,6 +107,17 @@
   margin-bottom: 140px;
 }
 
+/* the slides */
+.featured-collections .slick-track {
+  display: flex;
+}
+.featured-collections .slick-slide {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
 @media(max-width: 992px){
   .side-title {
     font-size: 10px;
