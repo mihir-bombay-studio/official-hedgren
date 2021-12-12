@@ -186,9 +186,9 @@
 	font-size: 10px;
 }
 
-.upsell-price{
-	line-height: 29px;
-  margin-left: 40px;
+.upsell-price {
+  line-height: 29px;
+  display: flex;
 }
 
 .upsell-product-desc {
