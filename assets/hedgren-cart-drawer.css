@@ -369,6 +369,9 @@
   }
 
   .drawer-cart-checkout {
-    padding: 24px 17px 13px;
+    padding: 17px 17px 13px;
   }
+  .cart-body {
+    height: calc(100vh - 410px);
+}
 }
