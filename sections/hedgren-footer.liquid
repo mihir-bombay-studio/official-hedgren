@@ -33,7 +33,7 @@
       {% assign first_letter = link.title | slice: 0 %}
       {% if first_letter == "-" %}
       <li class="link-primary">
-        <a href="{{ link.url }}">{{ link.title | escape }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
+        <a href="{{ link.url }}">{{ link.title | escape | remove_first: "-" }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
       </li>
       {% else %}
       <li class="link-secondary">
