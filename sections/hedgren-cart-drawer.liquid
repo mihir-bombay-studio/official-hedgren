@@ -7,6 +7,12 @@
     <span class="close-cart">{% include 'icon-close-new' %}</span>
     <h2 class="cart-headign">cart</h2>
   </div>
+  {% if cart.item_count == 0 %}
+  <div class="drawer-cart-main-sec">
+    <div class="cart-body">
+    </div>
+  </div>
+  {% else %}
   <div class="drawer-cart-main-sec">
     <div class="cart-body">
       {% for item in cart.items %}
@@ -75,6 +81,7 @@
       <div class="cont-shopping">Continue shopping</div>
     </div>
   </div>
+  {% endif %}
   </div>
 <script>
   {% if cart.item_count == 0 %}
