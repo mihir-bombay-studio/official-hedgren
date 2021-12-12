@@ -256,9 +256,9 @@
         "type": "hedgren-footer",
         "settings": {
           "menu": "hedgren-footer-1",
-          "menu2": "main-menu",
-          "menu3": "main-menu",
-          "menu4": "main-menu"
+          "menu2": "hedgren-footer-2",
+          "menu3": "hedgren-footer-3",
+          "menu4": "hedgren-footer-4"
         }
       }
     },
