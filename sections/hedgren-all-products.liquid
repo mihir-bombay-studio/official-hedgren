@@ -211,7 +211,7 @@
               {% for image in product.images limit: 2 %}
               <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
               {% endfor %}
-              <div class="prod-tag">{% if product.tags contains "Outlet" %}Outlet{% elsif product.tags contains "New" %}New{% endif %}</div>
+              {% if product.tags contains "Outlet" %}<div class="prod-tag">Outlet</div>{% elsif product.tags contains "New" %}<div class="prod-tag">New</div>{% endif %}
             </a>
             <div class="variants flex-box no-t-m">
               {% include 'color-product-swatch' %}
