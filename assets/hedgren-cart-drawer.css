@@ -223,7 +223,7 @@
 }
 
 .drawer-cart-checkout {
-    padding: 24px 40px 13px;
+    padding: 24px 37px 13px;
 }
 
 .checkout-subtotal, .checkout-shipping {
@@ -232,7 +232,7 @@
 }
 
 .checkout-subtotal{
-	margin-bottom: 16px;
+	margin-bottom: 10px;
 }
 
 .checkout-shipping{
