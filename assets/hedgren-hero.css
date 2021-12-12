@@ -53,6 +53,10 @@
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.btn:hover {
+  background-color: #DEDEDE;
 }
 .btn-center {
   display: table;
