@@ -408,7 +408,7 @@
       dataType: "json"
     })
     .done(function( data ) {
-      current.closest('.hero-product').find('.money').text("€"+(data.price / 100).toFixed(2).replace(/\.?0+$/, '').replace('.',','));
+      current.closest('.hero-product').find('.money').text("€"+(data.price / 100).toFixed(2).replace(/\.?0+$/, ''));
       current.closest('.hero-product').find('a').attr('href',data.url);   
       if(data.available) {
         current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.addtext }}');
