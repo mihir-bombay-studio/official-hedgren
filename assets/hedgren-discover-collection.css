@@ -45,8 +45,9 @@
 }
 
 .coll-text {
-    background-color: #DEDEDE;
-    padding: 24px 32px 32px;
+  background-color: #DEDEDE;
+  padding: 24px 32px 32px;
+  height: 100%;
 }
 
 .coll-title {
@@ -82,6 +83,7 @@
 
 .coll-card {
   margin: 0 10px;
+  height: 100%;
 }
 
 .featured-collections {
