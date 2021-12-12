@@ -211,6 +211,7 @@
               {% for image in product.images limit: 2 %}
               <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
               {% endfor %}
+              <div class="prod-tag">{% for tag in product.tags limit: 1 %}{{ tag }}{% endfor %}</div>
             </a>
             <div class="variants flex-box no-t-m">
               {% include 'color-product-swatch' %}
