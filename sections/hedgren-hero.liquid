@@ -11,142 +11,143 @@
 <div class="hero-products-wrapper hedgren-collection-products-wrapper">
   <div class="container rel">
     <div class="product-slider-wrap">
-    <div class="hero-products">
-      {% for product in section.settings.collection.products %}
-      {% if product.tags contains "Main" %}
-      <div class="hero-product">
-        <div>
-          <div class="hero-product-images-block">
-            <a href="{{ product.url }}">
-              {% for image in product.images limit: 2 %}
-              <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
-              {% endfor %}
-            </a>
-            <div class="variants flex-box no-t-m">
-              {% include 'color-product-swatch' %}
-              {% include 'color-product-swatch-2' %}
+      <div class="hero-products">
+        {% for product in section.settings.collection.products %}
+        {% if product.tags contains "Main" %}
+        <div class="hero-product">
+          <div>
+            <div class="hero-product-images-block">
+              <a href="{{ product.url }}">
+                {% for image in product.images limit: 2 %}
+                <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+                {% endfor %}
+              </a>
+              <div class="variants flex-box no-t-m">
+                {% include 'color-product-swatch' %}
+                {% include 'color-product-swatch-2' %}
+              </div>
+            </div>
+            <div class="hero-product-text-block">
+              <a href="{{ product.url }}">
+                <div class="hero-row">
+                  <div class="hero-col">
+                    <span class="product-font product-title">
+                      {{ product.title }}
+                    </span>
+                  </div>
+                  <div class="hero-col price-col">
+                    <span class="product-font save-money">
+                      {{ product.compare_at_price | money_without_trailing_zeros | strip_html }}
+                    </span>
+                    <span class="product-font money">
+                      {{ product.price | money_without_trailing_zeros | strip_html }}
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="hero-row">            
+                <span class="product-tag">
+                  {{ product.type }}
+                </span>
+              </div>
             </div>
           </div>
           <div class="hero-product-text-block">
-            <a href="{{ product.url }}">
-              <div class="hero-row">
-                <div class="hero-col">
-                  <span class="product-font product-title">
-                    {{ product.title }}
-                  </span>
-                </div>
-                <div class="hero-col price-col">
-                  <span class="product-font save-money">
-                    {{ product.compare_at_price | money_without_trailing_zeros | strip_html }}
-                  </span>
-                  <span class="product-font money">
-                    {{ product.price | money_without_trailing_zeros | strip_html }}
-                  </span>
-                </div>
+            <div class="hero-row no-d"> 
+              <div class="variants flex-box">
+                {% include 'color-product-swatch' %}
+                {% include 'color-product-swatch-2' %}
               </div>
+            </div>
+            <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
+            <a href="{{ product.url }}" class="more-info">
+              {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
             </a>
-            <div class="hero-row">            
-              <span class="product-tag">
-                {{ product.type }}
-              </span>
-            </div>
           </div>
         </div>
-        <div class="hero-product-text-block">
-          <div class="hero-row no-d"> 
-            <div class="variants flex-box">
-              {% include 'color-product-swatch' %}
-              {% include 'color-product-swatch-2' %}
-            </div>
-          </div>
-          <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
-          <a href="{{ product.url }}" class="more-info">
-            {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
-          </a>
-        </div>
+        {% endif %}
+        {% endfor %}
       </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-    <a class="btn btn-center" href="{{section.settings.collection.url}}">{{ section.settings.buttontext }}</a>
+      <a class="btn btn-center" href="{{section.settings.collection.url}}">{{ section.settings.buttontext }}</a>
     </div>
   </div>
 </div>
 
-      
-      
-      
-      <script>
 
-        $('.variants img').click(function() {
-          $(this).closest('.variants').find('img').removeClass('hedgren-color-active').addClass('hedgren-color-inactive');
-        $(this).addClass('hedgren-color-active').removeClass('hedgren-color-inactive');
-          var current = $(this);
-          $.ajax({
-            url: $(this).parent().data('url')+'.js',
-            method: "GET",
-            dataType: "json"
-          })
-        .done(function( data ) {
-          current.closest('.hero-product').find('.money').text("€"+(data.price / 100).toFixed(2).replace(/\.?0+$/, ''));
-            current.closest('.hero-product').find('a').attr('href',data.url);   
-            if(data.available) {
-              current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.addtext }}');
-              current.closest('.hero-product').find('.add-direct').removeClass('no-avaliable');        
-            } else {
-              current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.outtext }}');
-              current.closest('.hero-product').find('.add-direct').addClass('no-avaliable');        	
-            }
-            current.closest('.hero-product').find('.product-title').text(data.title)
-            current.closest('.hero-product').find('.add-direct').data('variant',data.variants[0].id);
-            current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.images[0]);
-            current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.images[1]);
-              })
-            .fail(function(error) {
-              console.log( error );
-            });
-          });
 
-            $('.more-color-link').click(function() {
-              $(this).parent().find('.no-disp').removeClass('no-disp');
-              $(this).addClass('no-disp');
-            });    
 
-            $('.add-direct').click(function() {
-              var formData = {
-                'items': [{
-                  'id': parseInt($(this).data('variant')),
-                  'quantity': 1
-                }]
-              };
-              $.ajax({
-                url: "/cart/add.js",
-                method: "POST",
-                dataType: "json",
-                data: formData,
-              })
-              .done(function( data ) {     
-                $.ajax({
-                  url: '/?sections=hedgren-cart-drawer',
-                  method: "GET",
-                  dataType: "json"
-                })
-                .done(function( data ) {
-                  $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
-                  $('.cart-remover').last().remove();
-                  $('.drawer-cart').addClass('drawn');
-                  $('body').addClass('no-scroll');
-                })
-                .fail(function(error) {
-                  console.log( error );
-                });
-              })
-              .fail(function(error) {
-                console.log( error );
-              });
-            });
+<script>
 
-      </script>
+  $('.variants img').click(function() {
+    $(this).closest('.variants').find('img').removeClass('hedgren-color-active').addClass('hedgren-color-inactive');
+    $(this).addClass('hedgren-color-active').removeClass('hedgren-color-inactive');
+    var current = $(this);
+    $.ajax({
+      url: $(this).parent().data('url')+'.js',
+      method: "GET",
+      dataType: "json"
+    })
+    .done(function( data ) {
+      current.closest('.hero-product').find('.money').text("€"+(data.price / 100).toFixed(2).replace(/\.?0+$/, ''));
+      current.closest('.hero-product').find('.save-money').text("€"+(data.compare_at_price / 100).toFixed(2).replace(/\.?0+$/, ''));
+      current.closest('.hero-product').find('a').attr('href',data.url);   
+      if(data.available) {
+        current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.addtext }}');
+                                                                            current.closest('.hero-product').find('.add-direct').removeClass('no-avaliable');        
+      } else {
+        current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.outtext }}');
+                                                                            current.closest('.hero-product').find('.add-direct').addClass('no-avaliable');        	
+      }
+      current.closest('.hero-product').find('.product-title').text(data.title)
+      current.closest('.hero-product').find('.add-direct').data('variant',data.variants[0].id);
+      current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.images[0]);
+      current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.images[1]);
+    })
+    .fail(function(error) {
+      console.log( error );
+    });
+  });
+
+  $('.more-color-link').click(function() {
+    $(this).parent().find('.no-disp').removeClass('no-disp');
+    $(this).addClass('no-disp');
+  });    
+
+  $('.add-direct').click(function() {
+    var formData = {
+      'items': [{
+        'id': parseInt($(this).data('variant')),
+        'quantity': 1
+      }]
+    };
+    $.ajax({
+      url: "/cart/add.js",
+      method: "POST",
+      dataType: "json",
+      data: formData,
+    })
+    .done(function( data ) {     
+      $.ajax({
+        url: '/?sections=hedgren-cart-drawer',
+        method: "GET",
+        dataType: "json"
+      })
+      .done(function( data ) {
+        $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
+        $('.cart-remover').last().remove();
+        $('.drawer-cart').addClass('drawn');
+        $('body').addClass('no-scroll');
+      })
+      .fail(function(error) {
+        console.log( error );
+      });
+    })
+    .fail(function(error) {
+      console.log( error );
+    });
+  });
+
+</script>
 
 {% endif %}
 
