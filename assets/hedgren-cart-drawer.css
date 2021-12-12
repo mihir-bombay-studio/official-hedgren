@@ -338,6 +338,9 @@
   background: #d3142f; 
 }
 
+.cart-body.upsell-added {
+  height: calc(100vh - 348px);
+}
 @media (max-width: 992px) {
   .drawer-cart-header {
     position: relative;
@@ -376,5 +379,8 @@
   }
   .checkout-shipping {
     margin-bottom: 16px;
+  }
+  .cart-body.upsell-added {
+    height: calc(100vh - 348px);
   }
 }
