@@ -381,6 +381,6 @@
     margin-bottom: 16px;
   }
   .cart-body.upsell-added {
-    height: calc(100vh - 348px);
+    height: calc(100vh - 271px);
   }
 }
