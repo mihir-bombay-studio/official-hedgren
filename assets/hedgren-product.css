@@ -132,7 +132,6 @@
     width: moz-fit-content;
     width: fit-content;
     cursor: pointer;
-    transition: .4s ease;
   margin-bottom: 24px;
 }
 
