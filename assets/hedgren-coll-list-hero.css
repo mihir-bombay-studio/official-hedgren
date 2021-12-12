@@ -70,4 +70,7 @@
   .coll-img {
     height: 70vw;
 }
+.hedgren-collections-wrapper .coll-card {
+    height: 100%;
+}
 }
