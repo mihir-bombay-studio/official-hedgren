@@ -353,5 +353,22 @@
   .cart-headign {
     text-align: center;
     margin: 0 auto;
+  }  
+
+  .drawer-cart-header{
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .cart-body {
+    padding: 0 17px;
+  }
+
+  .drawer-cart-upsell {
+    padding: 16px 17px;
+  }
+
+  .drawer-cart-checkout {
+    padding: 24px 17px 13px;
   }
 }
