@@ -79,15 +79,16 @@
 }
 
 .cart-product-qty-del {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   align-items: flex-end;
 }
 
 .product-name {
-    font-size: 18px;
-    line-height: 29px;
-    font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-top: -3px;
 }
 
 .product-price {
