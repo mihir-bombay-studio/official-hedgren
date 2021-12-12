@@ -163,233 +163,69 @@
         <div class="drawer-menu-item-img-text">SHOP ALL <span class="link-arows">{% include "svg-arrow-white-small" %}{% include "svg-arrow-white-small" %}</span></div>
       </a>
       </div>
+    
+      
+        
+          
+          
+    
+    
+    {%- if section.settings.menu != blank -%}
+      {%- for link in section.settings.menu.links -%}
       <div class="mobile-menu-item-wrap">
         <div class="accordion-wrap">
           <div class="mobile-menu-item-with-acco accordion">
-            <span class="mobile-menu-item-name">ALL PRODUCTS</span>
+            <span class="mobile-menu-item-name">{{ link.title | escape }}</span>
             <span class="down-chev">{% include 'icon-down-chevron-black' %}</span>
           </div>
-          <div class="panel">
-          	<div class="sub-menu-wrap flex-box justify-between">
-            <ul class="order-2">
-              <li class="link-primary">
-                <a href="#">SHOP ALL PRODUCTS <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">SHOP BESTSELLERS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">SHOP NEW <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">SHOP WEBSPECIALS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-heading">
-                <a href="#">COLLECTIONS</a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">COCOON <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">COMMUTE <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">GREAT AMERICAN HERITAGE <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">LINEO <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-primary">
-                <a href="#">SEE ALL COLLECTIONS <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
-              </li>
-            </ul>
-          </div>
-          </div>
-        </div>
-    </div>
-    
-    <div class="mobile-menu-item-wrap">
-        <div class="accordion-wrap">
-          <div class="mobile-menu-item-with-acco accordion">
-            <span class="mobile-menu-item-name">BAGS</span>
-            <span class="down-chev">{% include 'icon-down-chevron-black' %}</span>
-          </div>
-          <div class="panel">
-          	<div class="sub-menu-wrap flex-box justify-between">
-            <ul class="order-2">
-              <li class="link-primary">
-                <a href="#">SHOP ALL BAGS <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-heading">
-                <a href="#">TYPE OF BAG</a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">BACKPACKS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">CROSS OVER <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">SHOULDER BAGS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">HANDBAGS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">TOTE BAGS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">SPORT BAGS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">WAIST BAGS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">POUCHES <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">BABY BAGS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">ACCESSORIES <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-            </ul>
-          </div>
-          </div>
-        </div>
-    </div>
-    
-    <div class="mobile-menu-item-wrap">
-        <div class="accordion-wrap">
-          <div class="mobile-menu-item-with-acco accordion">
-            <span class="mobile-menu-item-name">LUGGAGE</span>
-            <span class="down-chev">{% include 'icon-down-chevron-black' %}</span>
-          </div>
-          <div class="panel">
-          	<div class="sub-menu-wrap flex-box justify-between">
-            <ul class="order-2">
-              <li class="link-primary">
-                <a href="#">SHOP ALL LUGGAGE <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-heading">
-                <a href="#">TYPE OF LUGGAGE</a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">CABIN LUGGAGE <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">CHECK-IN LUGGAGE <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">DUFFEL BAGS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">DUFFEL BAGS ON WHEELS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-heading">
-                <a href="#">LENGTH OF STAY</a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">DAYTRIP <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">OVERNIGHTER <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">WEEKEND ESCAPE <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">1 WEEK AND LONGER STAY <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-            </ul>
-          </div>
-          </div>
-        </div>
-    </div>
-    
-    <div class="mobile-menu-item-wrap">
-        <div class="accordion-wrap">
-          <div class="mobile-menu-item-with-acco accordion">
-            <span class="mobile-menu-item-name">ECO-FRIENDLY</span>
-            <span class="down-chev">{% include 'icon-down-chevron-black' %}</span>
-          </div>
-          <div class="panel">
-          	<div class="sub-menu-wrap flex-box justify-between">
-            <ul class="order-2">
-              <li class="link-primary">
-                <a href="#">SHOP ALL ECO-FRIENDLY <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-heading">
-                <a href="#">ECO-FRIENDLY BAGS</a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">BACKPACKS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">CROSS OVER <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">SHOULDER BAGS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">HANDBAGS <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-heading">
-                <a href="#">ECO-FRIENDLY COLLECTIONS</a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">HGAH <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">LIBRE <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              <li class="link-secondary">
-                <a href="#">DENIM <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-            </ul>
-          </div>
-          </div>
-        </div>
-    </div>
-    
-    <div class="mobile-menu-item-wrap">
-        <div class="accordion-wrap">
-          <div class="mobile-menu-item-with-acco accordion">
-            <span class="mobile-menu-item-name">SHOP FOR THE HEDGRENIST</span>
-            <span class="down-chev">{% include 'icon-down-chevron-black' %}</span>
-          </div>
-          <div class="panel">
-          	<div class="sub-menu-wrap flex-box justify-between">
+        {%- if link.links != blank -%}
+        <div class="panel">
+          	<div class="sub-menu-wrap flex-box justify-between">            
+            {% if link.links.first.title == "(col-left)" %}
             <div class="nav-right-cards">
+              {%- for childlink in link.links -%}
+              {% if childlink.title == "(col-left)" or childlink.title == "(col)" %}
+              {% assign handlesxn = childlink.url | split: "/" %}
               <div class="nav-card">
-                <a href="#">
-                <img src="https://cdn.shopify.com/s/files/1/1882/4247/files/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png?v=1636715308">
-                  <div class="nav-title">collection 1</div>
+                {% assign colxn = collections[handlesxn.last] %}
+                <a href="{{ colxn.url }}">
+                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}">
+                  <div class="nav-title">{{ colxn.title }}</div>
                 </a>
               </div>
-              <div class="nav-card">
-                <a href="#">
-                <img src="https://cdn.shopify.com/s/files/1/1882/4247/files/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png?v=1636715308">
-                  <div class="nav-title">collection 1</div>
-                </a>
-              </div>
-              <div class="nav-card">
-                <a href="#">
-                <img src="https://cdn.shopify.com/s/files/1/1882/4247/files/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png?v=1636715308">
-                  <div class="nav-title">collection 1</div>
-                </a>
-              </div>
-              <div class="nav-card">
-                <a href="#">
-                <img src="https://cdn.shopify.com/s/files/1/1882/4247/files/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png?v=1636715308">
-                  <div class="nav-title">collection 1</div>
-                </a>
-              </div>
+              {% endif %}
+              {%- endfor -%}
             </div>
-          </div>
+            {% else %}
+            <ul class="order-2">
+              {%- for childlink in link.links -%}
+              {% assign first_letter = childlink.title | slice: 0 %}
+              {% if first_letter == "-" %}
+              <li class="link-primary">
+                <a href="{{ childlink.url }}">{{ childlink.title | escape | remove_first: "-" }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
+              </li>
+              {% elsif childlink.title != "(col)" %}
+              {% if childlink.url == "#" %}
+              <li class="link-heading">
+                <a href="#">{{ childlink.title | escape }}</a>
+              </li>
+              {% else %}
+              <li class="link-secondary">
+                <a href="{{ childlink.url }}">{{ childlink.title | escape }} <span class="link-arows">{% include "svg-arrow" %}</span></a>
+              </li>
+              {% endif %}
+              {% endif %}
+              {%- endfor -%}
+            </ul>
+            {% endif %}
           </div>
         </div>
-    </div>
+        {%- endif -%}
+        </div>
+      </div>
+      {%- endfor -%}
+      {%- endif -%}
+    
     <div class="mobile-menu-item-wrap">
       <div class="mobile-menu-links">
     	<a href="/account">LOG IN / REGISTER <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
