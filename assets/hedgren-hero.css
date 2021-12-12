@@ -101,6 +101,7 @@
   margin-right: 8px;
   border: 2px solid transparent;
   position: relative !important;
+  cursor: pointer;
 }
 .hero-product-text-block {
   background-color: #fff;
