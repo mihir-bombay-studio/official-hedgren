@@ -291,7 +291,9 @@
     cursor: pointer;
     margin-right: 16px;
 }
-
+.hero-row .hero-col:last-child {
+  text-align: right;
+}
 @media(max-width: 992px){
 	.all-products {
     margin: 0 -1%;
