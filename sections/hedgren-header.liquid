@@ -49,11 +49,11 @@
       {%- if section.settings.menu != blank -%}
       {%- for link in section.settings.menu.links -%}
       <li class="dropdown-1 no-t-m">        
-        <a href="{{ link.url }}">{{ link.title | escape }}</a>{{link.links.first}}
+        <a href="{{ link.url }}">{{ link.title | escape }}</a>
         {%- if link.links != blank -%}
         <div class="dropdown">  
           <div class="container flex-box justify-between">
-            {% if link.links.first == "(col-left)" %}
+            {% if link.links.first.title == "(col-left)" %}
             <div class="nav-left-cards">
               {%- for childlink in link.links -%}
               {% if childlink.title == "(col-left)" %}
