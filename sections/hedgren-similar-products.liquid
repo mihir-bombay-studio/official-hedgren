@@ -48,7 +48,12 @@
               <div class="hero-row">
                 <div class="hero-col">
                   <span class="product-font product-title">
-                      {{ product.title | truncatewords: 1, "" }}
+                    {{ product.title | truncatewords: 1, "" }}
+                  </span>
+
+                  <span class="product-tag">
+                    {% assign remove_word = product.title | truncatewords: 1, "" %}
+                    {{ product.title | replace: remove_word,"" }}
                   </span>
                 </div>
                 <div class="hero-col price-col">
@@ -61,12 +66,6 @@
                 </div>
               </div>
             </a>
-            <div class="hero-row">            
-              <span class="product-tag">
-                  {% assign remove_word = product.title | truncatewords: 1, "" %}
-                  {{ product.title | replace: remove_word,"" }}
-              </span>
-            </div>
           </div>
         </div>
         <div class="hero-product-text-block">
