@@ -111,7 +111,9 @@ hr.footer-hr {
   font-weight: 400;
   font-size: 13px;
 }
-
+.note.form-success {
+    text-align: center;
+}
 @media(max-width: 992px){
   
   footer {
