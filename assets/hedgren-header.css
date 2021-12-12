@@ -423,4 +423,7 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder { /* Microsoft Edg
   main#MainContent {
     margin-top: 116px;
   }
+  .upper-header .upper-nav-center {
+    min-height: 31px;
+  }
 }
