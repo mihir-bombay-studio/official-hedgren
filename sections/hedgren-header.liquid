@@ -114,9 +114,14 @@
       {%- endfor -%}
       {%- endif -%}
       
+      {%- if section.settings.menu2 != blank -%}
+      {%- for link in section.settings.menu2.links -%}
       <li class="dropdown-1 no-d">
-        <a href="#">SHOP ALL</a>
+        <a href="{{ link.url }}">{{ link.title | escape }}</a>
       </li>
+      {%- endfor -%}
+      {%- endif -%}
+      
     </ul>
     
     
@@ -155,14 +160,14 @@
     {%- endif -%}
     {% endcomment %}
   </div>
-  
+
   <div class="header-drawer no-d">
     <div class="mobile-menu-item-wrap">
       <a href="#" class="drawer-menu-item-with-img">
         <div class="drawer-menu-item-img"><img src="https://cdn.shopify.com/s/files/1/1882/4247/files/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png?v=1636715308"></div>
         <div class="drawer-menu-item-img-text">SHOP ALL <span class="link-arows">{% include "svg-arrow-white-small" %}{% include "svg-arrow-white-small" %}</span></div>
       </a>
-      </div>
+    </div>
     
       
         
