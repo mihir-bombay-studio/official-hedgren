@@ -48,6 +48,10 @@
     overflow-y: scroll;
 }
 
+.cart-body.c-empty {
+    height: auto;
+}
+
 .cart-product-wrapper{
 	display: flex;
 }
