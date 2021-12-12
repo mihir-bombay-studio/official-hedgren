@@ -1,5 +1,9 @@
 {{ 'hedgren-cart-drawer.css' | asset_url | stylesheet_tag }}
-
+{% for item in cart.items %}
+{% if section.settings.upsell.id == item.product.id %}
+{% assign upsell = "added" %}
+{% endif %}
+{% endfor %}
 
 
 <div class="drawer-cart">
@@ -15,11 +19,8 @@
   </div>
   {% else %}
   <div class="drawer-cart-main-sec">
-    <div class="cart-body">
+    <div class="cart-body {% if upsell %}upsell-added{% endif %}">
       {% for item in cart.items %}
-          {% if section.settings.upsell.id == item.product.id %}
-      		{% assign upsell = "added" %}
-      		{% endif %}
       {% assign featured_image = item.variant.image.src | default: item.product.featured_image %}
       <div class="cart-product-wrapper">
         <div class="cart-product-image">
