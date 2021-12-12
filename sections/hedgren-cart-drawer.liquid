@@ -76,9 +76,15 @@
     </div>
   </div>
   </div>
-  
 <script>
+  {% if cart.item_count == 0 %}
+  $('#draw_cart').addClass('empty-c');
+  {% else %}
+  $('#draw_cart').removeClass('empty-c');
+  {% endif %}
+</script>
 
+<script>
 
   $('#draw_cart').click(function() {
     $('.drawer-cart').addClass('drawn');
