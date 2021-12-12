@@ -17,7 +17,7 @@
       </div>
       <div class="product-imgs flex-box no-t-m">
       	{% for media in product.media %}
-        <div class="product-img">
+        <div class="product-img" href="{{ media | img_url: 'master' }}" data-caption="{{ product.title | escape  }}" data-width="{{media.width}}" data-height="{{media.height}}" itemprop="contentUrl" data-index="{{ forloop.index0 }}">
         <img src="{{ media | img_url: 'x300' }}" alt="{{ media.alt | escape }}">
         </div>          
         {% endfor %}
@@ -231,6 +231,49 @@
 <!-- UI JS file -->
 <script src="{{ "photoswipe-ui-default.min.js" | asset_url }}"></script> 
 
+<script>
+  'use strict';
+
+  /* global jQuery, PhotoSwipe, PhotoSwipeUI_Default, console */
+
+  (function($) {
+
+    // Init empty gallery array
+    var container = [];
+
+    // Loop over gallery items and push it to the array
+    $('.product-imgs .product-img').each(function() {
+      var $link = $(this),
+          item = {
+            src: $link.attr('href'),
+            w: $link.data('width'),
+            h: $link.data('height'),
+            title: $link.data('caption')
+          };
+      container.push(item);
+    });
+
+    // Define click event on gallery item
+    $('.product-imgs .product-img').click(function(event) {
+
+      // Prevent location change
+      event.preventDefault();
+
+      // Define object and gallery options
+      var $pswp = $('.pswp')[0],
+          options = {
+            index: $(this).data('index'),
+            bgOpacity: 0.85,
+            showHideOpacity: true
+          };
+
+      // Initialize PhotoSwipe
+      var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, container, options);
+      gallery.init();
+    });
+
+  }(jQuery));
+</script>
 {% include "photoswipe" %}
 {% schema %}
   {
