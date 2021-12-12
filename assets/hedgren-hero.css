@@ -91,6 +91,7 @@
   margin-right: 8px;
   border: 2px solid #fff;
   position: relative !important;
+  box-shadow: 0px 2px 4px #00000026;
 }
 .hero-product-images-block .variants img.hedgren-color-inactive {
   width: 20px;
