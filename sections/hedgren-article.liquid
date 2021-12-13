@@ -24,43 +24,45 @@
       <div class="article-content-wrap">
       <div class="article-excerpt">{{ article.excerpt }}</div>
       <div class="article-content">{{ article.content }}</div>
-        
+        {% assign product = all_products["crusade-drawstring-backpack-rfid-bblackstr"] %}
         <div class="upsell-product">
-        	<div class="hero-product flex-box">
-        <div class="hero-product-images-block">
-          <img src="{{ 'img.png' | asset_img_url: '310x' }}" alt="product.title">
-        </div>
-        <div class="hero-product-text-block">
-          <div class="hero-row">
-            <div class="hero-col">
-              <span class="product-font">
-                Crusade
-              </span>
+          <div class="hero-product flex-box">
+            <div class="hero-product-images-block">
+              <a href="{{ product.url }}">
+                <img src="{{ product.featured_image | img_url: "450x" }}" alt="{{ product.title }}">
+              </a>
+            </div>
+            <div class="hero-product-text-block">
+              <div class="hero-row">
+                <div class="hero-col">
+                  <span class="product-font">
+                    Crusade
+                  </span>
+                </div>
+              </div>
+              <div class="hero-col product-prices">
+                <span class="product-compare-price">€89.00</span>
+                <span class="product-font product-price">
+                  €79.00
+                </span>
+              </div>
+              <div class="color-variant-wrap">
+                <div class="variant-title">COLOUR</div>
+                <div class="variants flex-box">
+                  <div class="variant-color grey-color selected"></div>
+                  <div class="variant-color yellow-color"></div>
+                  <div class="variant-color blue-color"></div>
+                  <div class="variant-color red-color"></div>
+                </div>
+              </div>
+              <div class="hero-row">            
+                <span class="product-tag">
+                  When travel gets serious, you need a bag that can take on the Crusade with you!
+                </span>
+              </div>
+              <button class="add-direct btn btn-center">ADD TO CART {% render "svg-plus" %}</button>
             </div>
           </div>
-          <div class="hero-col product-prices">
-            <span class="product-compare-price">€89.00</span>
-              <span class="product-font product-price">
-                €79.00
-              </span>
-            </div>
-          <div class="color-variant-wrap">
-          <div class="variant-title">COLOUR</div>
-          <div class="variants flex-box">
-            <div class="variant-color grey-color selected"></div>
-            <div class="variant-color yellow-color"></div>
-            <div class="variant-color blue-color"></div>
-            <div class="variant-color red-color"></div>
-          </div>
-        </div>
-          <div class="hero-row">            
-            <span class="product-tag">
-              When travel gets serious, you need a bag that can take on the Crusade with you!
-            </span>
-          </div>
-          <button class="add-direct btn btn-center">ADD TO CART {% render "svg-plus" %}</button>
-        </div>
-      </div>
         </div>
         
         <div class="article-toggler flex-box justify-between">
