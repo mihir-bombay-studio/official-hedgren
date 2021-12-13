@@ -55,7 +55,8 @@
               </div>
               <div class="hero-row">            
                 <span class="product-tag">
-                  {{ product.description | strip_html | truncatewords: 20, "..." }}
+                  {% assign desc = product.description | split: "<!--split-->" %}
+                  {{ desc[1] | strip_html | truncatewords: 20, "..." }}
                 </span>
               </div>
               <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}" data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt no-d">{% if product.available %}ADD{% else %}Sold Out{% endif %}</span><span class="cart-txt no-t-m">{% if product.available %}Add to cart{% else %}Out of stock{% endif %}</span>  {% render "svg-plus" %}</button>
