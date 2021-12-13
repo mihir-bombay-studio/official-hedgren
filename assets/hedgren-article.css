@@ -222,10 +222,14 @@ hr.footer-hr {
 .related-article .img-text-text-content {
   font-size: 13px;
   color: #758298;
+  line-height: 18px;
 }
 .related-article .img-text-text-subheading {
   font-size: 13px;
   color: #000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 700;
 }
 .related-article a {
   text-decoration: none;
