@@ -1,0 +1,161 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1637649148751d55cf": {
+      "type": "hedgren-collection-hero",
+      "blocks": {
+        "411dc432-1cb7-4f96-bc4d-f31649016464": {
+          "type": "features",
+          "settings": {
+            "name": "Quest",
+            "bag": "shopify:\/\/shop_images\/quest1.png",
+            "feature_img1": "shopify:\/\/shop_images\/Image_2x_96d15e0d-f319-4820-81a0-874f8fbcd915.png",
+            "feature_heading1": "Sustainable materials",
+            "feature_description1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+            "feature_img2": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
+            "feature_heading2": "Spacious compartment",
+            "feature_description2": "Including an RFID zipped pocket for passport and credit card protection, 1 open pocket to store a mobile phone or small accessories, a ket chain made of a 3-tone rope and metal hook.",
+            "feature_img3": "shopify:\/\/shop_images\/Hedgren_Banner.jpg",
+            "feature_heading3": "Large front pocket",
+            "feature_description3": "Practical large front pocket closed by a trendy 3-tone rope and a flap.",
+            "feature_img4": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
+            "feature_heading4": "Zipped pocket",
+            "feature_description4": "Quick access to zipped pocket in the back offering an extra security loop to insert the puller after closing. Ideal pocket to store a mobile phone, ID document and more.",
+            "feature_heading5": "",
+            "feature_description5": "",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        },
+        "1612ed30-a773-4f02-8227-012e4f9fe485": {
+          "type": "features",
+          "settings": {
+            "name": "Featured",
+            "bag": "shopify:\/\/shop_images\/quest2.png",
+            "feature_img1": "shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png",
+            "feature_heading1": "fdghdfgh dfgh dfg",
+            "feature_description1": "",
+            "feature_heading2": "",
+            "feature_description2": "",
+            "feature_heading3": "",
+            "feature_description3": "",
+            "feature_heading4": "",
+            "feature_description4": "",
+            "feature_heading5": "",
+            "feature_description5": "",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        }
+      },
+      "block_order": [
+        "411dc432-1cb7-4f96-bc4d-f31649016464",
+        "1612ed30-a773-4f02-8227-012e4f9fe485"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
+        "heading_left": "",
+        "heading_right": "",
+        "sub_heading": ""
+      }
+    },
+    "1637658320f19f8e7c": {
+      "type": "hedgren-discover-collection",
+      "blocks": {
+        "13021447-4b2d-470a-aee2-66f69c98fa2e": {
+          "type": "collect",
+          "settings": {
+            "coll": "great-american-heritage"
+          }
+        },
+        "23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8": {
+          "type": "collect",
+          "settings": {
+            "coll": "cabin-size"
+          }
+        },
+        "2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3": {
+          "type": "collect",
+          "settings": {
+            "coll": "aura"
+          }
+        },
+        "1ed8fe6f-6171-47fc-a151-13c318a5e2e3": {
+          "type": "collect",
+          "settings": {
+            "coll": "charm-business"
+          }
+        },
+        "f657a88c-b943-44c3-a8c7-16c9811d888d": {
+          "type": "collect",
+          "settings": {
+            "coll": "luggage"
+          }
+        },
+        "3a0a04e6-8f94-49cd-8d5a-a9457f1b6755": {
+          "type": "collect",
+          "settings": {
+            "coll": "diamond-star"
+          }
+        },
+        "a726fe23-c473-4920-8305-df6d75419a8b": {
+          "type": "collect",
+          "settings": {
+            "coll": "commute"
+          }
+        },
+        "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df": {
+          "type": "collect",
+          "settings": {
+            "coll": "escapade-1"
+          }
+        }
+      },
+      "block_order": [
+        "13021447-4b2d-470a-aee2-66f69c98fa2e",
+        "23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8",
+        "2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3",
+        "1ed8fe6f-6171-47fc-a151-13c318a5e2e3",
+        "f657a88c-b943-44c3-a8c7-16c9811d888d",
+        "3a0a04e6-8f94-49cd-8d5a-a9457f1b6755",
+        "a726fe23-c473-4920-8305-df6d75419a8b",
+        "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df"
+      ],
+      "settings": {
+        "title_left": "1994",
+        "title_mid": "Discover our collections",
+        "title_right": "2021",
+        "subtitle": "SUBTITLE"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1637649148751d55cf",
+    "1637658320f19f8e7c"
+  ]
+}
