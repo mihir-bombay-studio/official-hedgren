@@ -14,17 +14,15 @@
       <div class="img-text-text-content">
         {{ article.excerpt }}
       </div>
-      {% if block.settings.button_label %}
       <a href="{{ article.url }}">
         READ STORY<span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
       </a>
-      {% endif %}
     </div>  
     <div class="img-text-img rel">
       <span class="image-overlay">
         {% include "svg-arrows-big" %}
       </span>    
-      {%- if block.settings.image != blank -%}
+      {%- if article.image != blank -%}
             <img
               srcset="{%- if article.image.width >= 165 -%}{{ article.image | img_url: '165x' }} 165w,{%- endif -%}
                 {%- if article.image.width >= 360 -%}{{ article.image | img_url: '360x' }} 360w,{%- endif -%}
