@@ -150,6 +150,30 @@
             "feature_heading6": "Security hook",
             "feature_description6": ""
           }
+        },
+        "10beabcd-fbbb-4c70-9ed8-2ebc5e5411e7": {
+          "type": "features",
+          "settings": {
+            "name": "Suburbanite",
+            "feature_img1": "shopify:\/\/shop_images\/HCOM06_003_01_4k.jpg",
+            "feature_heading1": "Compartment for clothing storage.",
+            "feature_description1": "Full opening for an easy packing. Elastic strap to maintain the clothing.",
+            "feature_img2": "shopify:\/\/shop_images\/HCOM06_003_01_4g.jpg",
+            "feature_heading2": "Unique double side pockets",
+            "feature_description2": "Zipped pocket\nand mesh pocket behind for bottle or umbrella storage",
+            "feature_img3": "shopify:\/\/shop_images\/HCOM06_003_01_4b.jpg",
+            "feature_heading3": "Mutiple pockets including and RFID pocket",
+            "feature_description3": "",
+            "feature_img4": "shopify:\/\/shop_images\/HCOM06-_16_copy.jpg",
+            "feature_heading4": "Rain cover, stored in a hidden water proof zipped pocket",
+            "feature_description4": "",
+            "feature_img5": "shopify:\/\/shop_images\/HCOM06_003_01_4c.jpg",
+            "feature_heading5": "Expandable",
+            "feature_description5": "",
+            "feature_img6": "shopify:\/\/shop_images\/HCOM06_003_01_4e.jpg",
+            "feature_heading6": "Adjustable chest strap",
+            "feature_description6": ""
+          }
         }
       },
       "block_order": [
@@ -157,7 +181,8 @@
         "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7",
         "7c289c8d-f795-426d-a6f0-ccbb7e116719",
         "3bad18c4-f5e6-4a34-ada7-18bfb7b11f97",
-        "096ebac3-047d-4dc9-b070-3620abbc4c46"
+        "096ebac3-047d-4dc9-b070-3620abbc4c46",
+        "10beabcd-fbbb-4c70-9ed8-2ebc5e5411e7"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
