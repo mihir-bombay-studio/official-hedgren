@@ -528,7 +528,7 @@
       $.each(array,function(i){
         $('.filter-checkbox').each(function() {
           if($(this).data('value') == array[i].replace('Filter:-','')) {
-          	$(this).parent().addClass('selected');
+          	$(this).parent().trigger('click');
           }
         });
       });
