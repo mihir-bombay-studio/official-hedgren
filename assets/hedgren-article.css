@@ -210,6 +210,7 @@ hr.footer-hr {
     letter-spacing: -2.9px;
     margin-bottom: 10px;
     margin-left: 20px;
+    word-break: break-word;
   }
 
   .article-author-date-wrap {
