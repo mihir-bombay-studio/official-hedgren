@@ -155,6 +155,7 @@
           "type": "features",
           "settings": {
             "name": "Suburbanite",
+            "bag": "shopify:\/\/shop_images\/HCOM06_003_01_4k.jpg",
             "feature_img1": "shopify:\/\/shop_images\/HCOM06_003_01_4k.jpg",
             "feature_heading1": "Compartment for clothing storage.",
             "feature_description1": "Full opening for an easy packing. Elastic strap to maintain the clothing.",
