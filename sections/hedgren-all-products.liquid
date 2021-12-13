@@ -526,8 +526,13 @@
     if(typeof filtervar !== "undefined") {        
       var array = filtervar.split(",");
       $.each(array,function(i){
-        console.log(array[i]);
+        $('.filter-checkbox').each(function() {
+          if($(this).data('value') == array[i].replace('Filter:-','')) {
+          	$(this).parent().addClass('selected');
+          }
+        });
       });
+      runFilter();
     }
 
   });
