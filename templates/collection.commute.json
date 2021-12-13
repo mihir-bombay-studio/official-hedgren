@@ -100,12 +100,32 @@
             "feature_heading6": "Coated water repellent fabric",
             "feature_description6": ""
           }
+        },
+        "3bad18c4-f5e6-4a34-ada7-18bfb7b11f97": {
+          "type": "features",
+          "settings": {
+            "name": "Tram",
+            "feature_img1": "shopify:\/\/shop_images\/HCOM04-_2.jpg",
+            "feature_heading1": "Front compartment closed by a puller with hook",
+            "feature_description1": "",
+            "feature_heading2": "",
+            "feature_description2": "",
+            "feature_heading3": "",
+            "feature_description3": "",
+            "feature_heading4": "",
+            "feature_description4": "",
+            "feature_heading5": "",
+            "feature_description5": "",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
         }
       },
       "block_order": [
         "411dc432-1cb7-4f96-bc4d-f31649016464",
         "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7",
-        "7c289c8d-f795-426d-a6f0-ccbb7e116719"
+        "7c289c8d-f795-426d-a6f0-ccbb7e116719",
+        "3bad18c4-f5e6-4a34-ada7-18bfb7b11f97"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
