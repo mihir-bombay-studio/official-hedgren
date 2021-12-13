@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1637649148751d55cf": {
+      "type": "hedgren-collection-hero",
+      "blocks": {
+        "411dc432-1cb7-4f96-bc4d-f31649016464": {
+          "type": "features",
+          "settings": {
+            "name": "Freestyle",
+            "bag": "shopify:\/\/shop_images\/hlno01mex_250_01_1.jpg",
+            "feature_img1": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04d.jpg",
+            "feature_heading1": "100% Polycarbonate",
+            "feature_description1": "Ultra-resistant and light. Polycarbonate is very popular material for hard luggage. It is light and durable. The material flexes to absorb the impact and then flexes back to its original shape, making polycarbonate luggage extremely resilient to rough handling.",
+            "feature_img2": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04i.jpg",
+            "feature_heading2": "Waterproof pocket",
+            "feature_description2": "We all know the situation, ‘hotel check out at noon but an evening flight’. We have made sure that even in this situation, you can enjoy your last day by the pool. We have equipped the trolley with a waterproof pocket for damp toiletries, wet swimsuits or sweaty gym clothing.",
+            "feature_img3": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04a.jpg",
+            "feature_heading3": "Double tube handle",
+            "feature_description3": "The handle locks into two different positions. This ensures smooth manoeuvrability at all times. Using 4 wheels, compared to 2, causes less weight on the arm and brings an unmatched driving experience.",
+            "feature_img4": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04b.jpg",
+            "feature_heading4": "TSA lock",
+            "feature_description4": "Using TSA approved locks allows your luggage to be unlocked and inspected by security authorities without damage.",
+            "feature_img5": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04c.jpg",
+            "feature_heading5": "Flat handles",
+            "feature_description5": "Flat handles are aesthetically more attractive and in addition, they optimize the dimensions of the trolley case and avoid the risk of tearing during handling by the airlines.",
+            "feature_img6": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04f.jpg",
+            "feature_heading6": "Expandable",
+            "feature_description6": "The trolleys are easy to expand. No more stress to be able to close your suitcase after buying those extra items abroad."
+          }
+        }
+      },
+      "block_order": [
+        "411dc432-1cb7-4f96-bc4d-f31649016464"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
+        "heading_left": "",
+        "heading_right": "",
+        "sub_heading": "",
+        "addtext": "ADD TO CART",
+        "outtext": "OUT OF STOCK",
+        "moretext": "More info",
+        "buttontext": "SHOP ALL PRODUCTS"
+      }
+    },
+    "1637658320f19f8e7c": {
+      "type": "hedgren-discover-collection",
+      "blocks": {
+        "13021447-4b2d-470a-aee2-66f69c98fa2e": {
+          "type": "collect",
+          "settings": {
+            "coll": "great-american-heritage",
+            "page": ""
+          }
+        },
+        "23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8": {
+          "type": "collect",
+          "settings": {
+            "coll": "cabin-size",
+            "page": ""
+          }
+        },
+        "2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3": {
+          "type": "collect",
+          "settings": {
+            "coll": "aura",
+            "page": ""
+          }
+        },
+        "1ed8fe6f-6171-47fc-a151-13c318a5e2e3": {
+          "type": "collect",
+          "settings": {
+            "coll": "charm-business",
+            "page": ""
+          }
+        },
+        "f657a88c-b943-44c3-a8c7-16c9811d888d": {
+          "type": "collect",
+          "settings": {
+            "coll": "luggage",
+            "page": ""
+          }
+        },
+        "3a0a04e6-8f94-49cd-8d5a-a9457f1b6755": {
+          "type": "collect",
+          "settings": {
+            "coll": "diamond-star",
+            "page": ""
+          }
+        },
+        "a726fe23-c473-4920-8305-df6d75419a8b": {
+          "type": "collect",
+          "settings": {
+            "coll": "commute",
+            "page": ""
+          }
+        },
+        "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df": {
+          "type": "collect",
+          "settings": {
+            "coll": "escapade-1",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "13021447-4b2d-470a-aee2-66f69c98fa2e",
+        "23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8",
+        "2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3",
+        "1ed8fe6f-6171-47fc-a151-13c318a5e2e3",
+        "f657a88c-b943-44c3-a8c7-16c9811d888d",
+        "3a0a04e6-8f94-49cd-8d5a-a9457f1b6755",
+        "a726fe23-c473-4920-8305-df6d75419a8b",
+        "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df"
+      ],
+      "settings": {
+        "title_left": "1994",
+        "title_mid": "Discover our collections",
+        "title_right": "2021",
+        "subtitle": "SUBTITLE"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1637649148751d55cf",
+    "1637658320f19f8e7c"
+  ]
+}
