@@ -31,7 +31,8 @@
 }
 
 .about-hero-overlay {
-    background: transparent linear-gradient(0deg, #D3142B00 0%, #D3142B 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(0deg, #D3142B00 0%, #D3142B 100%) 0% 0% no-repeat padding-box;
+  position: relative;
 }
 
 .img-text-text.about-img-text-text {
