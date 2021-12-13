@@ -180,6 +180,7 @@
           "type": "features",
           "settings": {
             "name": "Turtle",
+            "bag": "shopify:\/\/shop_images\/HCOM07_003_01_5.jpg",
             "feature_img1": "shopify:\/\/shop_images\/HEDGREN-120782.jpg",
             "feature_heading1": "15.6’’ computer pocket on the back panel closed by a puller with hook",
             "feature_description1": "",
