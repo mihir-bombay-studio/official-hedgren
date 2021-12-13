@@ -6,9 +6,10 @@
   height: auto;
   padding-top: 71px;
   padding-bottom: 40px;
-  margin-bottom: 160px;
 }
-
+.hedgren-contact-wrapper {
+  margin: 160px 0;
+}
 .contact-form-wr{
 	width: 48%;
 }
@@ -79,5 +80,8 @@
   
   .contact-form-wr {
     width: 100%;
+}
+  .hedgren-contact-wrapper {
+    margin: 80px 0;
 }
 }
