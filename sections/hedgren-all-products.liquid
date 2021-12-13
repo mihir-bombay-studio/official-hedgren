@@ -74,6 +74,10 @@
 
 
 
+{% for tag in collection.tags %}
+  {{ tag | link_to_add_tag: tag }}
+{% endfor %}
+
 
 {{ 'hedgren-product.css' | asset_url | stylesheet_tag }}
 {{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
