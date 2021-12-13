@@ -16,7 +16,7 @@
         {% endfor %}
       </div>
       <div class="img-text-text-content">
-        {{ article.excerpt_or_content | truncatewords: 30,"..." }}
+        {{ article.excerpt_or_content | strip_html | truncatewords: 30,"..." }}
       </div>
       <a href="{{ article.url }}">
         READ STORY<span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
