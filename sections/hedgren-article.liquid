@@ -25,7 +25,11 @@
       <div class="article-content-wrap">
       <div class="article-excerpt">{{ article.excerpt }}</div>
       <div class="article-content">{{ article.content }}</div>
-        {% assign product = all_products["crusade-drawstring-backpack-rfid-bblackstr"] %}
+        {% for tag in article.tags %}
+        {% if tag contains "Upsell:" %}
+        {% assign uptag = tag | replace: "Upsell:","" %}
+
+        {% assign product = all_products[uptag] %}
         <div class="upsell-product">
           <div class="hero-product flex-box">
             <div class="hero-product-images-block">
@@ -64,6 +68,9 @@
             </div>
           </div>
         </div>
+        {% endif %}
+        {% endfor %}
+        
         
         <div class="article-toggler flex-box justify-between">
           <a href="{{ blog.previous_article }}"><span class="prev-arrow arrow">{% include 'icon-arrow-grey' %}</span>PREVIOUS STORY</a>
