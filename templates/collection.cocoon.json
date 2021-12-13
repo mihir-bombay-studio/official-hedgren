@@ -32,21 +32,23 @@
           "settings": {
             "name": "Quest",
             "bag": "shopify:\/\/shop_images\/quest1.png",
-            "feature_img1": "shopify:\/\/shop_images\/Image_2x_96d15e0d-f319-4820-81a0-874f8fbcd915.png",
-            "feature_heading1": "Sustainable materials",
-            "feature_description1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
-            "feature_img2": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
-            "feature_heading2": "Spacious compartment",
-            "feature_description2": "Including an RFID zipped pocket for passport and credit card protection, 1 open pocket to store a mobile phone or small accessories, a ket chain made of a 3-tone rope and metal hook.",
-            "feature_img3": "shopify:\/\/shop_images\/Hedgren_Banner.jpg",
-            "feature_heading3": "Large front pocket",
-            "feature_description3": "Practical large front pocket closed by a trendy 3-tone rope and a flap.",
-            "feature_img4": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
-            "feature_heading4": "Zipped pocket",
-            "feature_description4": "Quick access to zipped pocket in the back offering an extra security loop to insert the puller after closing. Ideal pocket to store a mobile phone, ID document and more.",
-            "feature_heading5": "",
+            "feature_img1": "shopify:\/\/shop_images\/LOW_RES.jpg",
+            "feature_heading1": "Water repellent coating",
+            "feature_description1": "",
+            "feature_img2": "shopify:\/\/shop_images\/HCOM01-_27_57c5ea7d-dc9f-44bc-b2ae-2eab7b1002db.jpg",
+            "feature_heading2": "Key Chain",
+            "feature_description2": "",
+            "feature_img3": "shopify:\/\/shop_images\/HCOCN02_003_01_4c.jpg",
+            "feature_heading3": "Removable inner pouch",
+            "feature_description3": "Except in the Snug and Cosy.",
+            "feature_img4": "shopify:\/\/shop_images\/HCOCN03_003_01_1.jpg",
+            "feature_heading4": "Protected and comfort feeling",
+            "feature_description4": "",
+            "feature_img5": "shopify:\/\/shop_images\/HCOCN02_003_01_4b.jpg",
+            "feature_heading5": "Eyecatching decorative detail",
             "feature_description5": "",
-            "feature_heading6": "",
+            "feature_img6": "shopify:\/\/shop_images\/HEDGREN-119249.jpg",
+            "feature_heading6": "Inner pocket with colour and material contrast",
             "feature_description6": ""
           }
         },
@@ -79,7 +81,11 @@
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
         "heading_left": "",
         "heading_right": "",
-        "sub_heading": ""
+        "sub_heading": "",
+        "addtext": "ADD TO CART",
+        "outtext": "OUT OF STOCK",
+        "moretext": "More info",
+        "buttontext": "SHOP ALL PRODUCTS"
       }
     },
     "1637658320f19f8e7c": {
@@ -88,49 +94,57 @@
         "13021447-4b2d-470a-aee2-66f69c98fa2e": {
           "type": "collect",
           "settings": {
-            "coll": "great-american-heritage"
+            "coll": "great-american-heritage",
+            "page": ""
           }
         },
         "23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8": {
           "type": "collect",
           "settings": {
-            "coll": "cabin-size"
+            "coll": "cabin-size",
+            "page": ""
           }
         },
         "2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3": {
           "type": "collect",
           "settings": {
-            "coll": "aura"
+            "coll": "aura",
+            "page": ""
           }
         },
         "1ed8fe6f-6171-47fc-a151-13c318a5e2e3": {
           "type": "collect",
           "settings": {
-            "coll": "charm-business"
+            "coll": "charm-business",
+            "page": ""
           }
         },
         "f657a88c-b943-44c3-a8c7-16c9811d888d": {
           "type": "collect",
           "settings": {
-            "coll": "luggage"
+            "coll": "luggage",
+            "page": ""
           }
         },
         "3a0a04e6-8f94-49cd-8d5a-a9457f1b6755": {
           "type": "collect",
           "settings": {
-            "coll": "diamond-star"
+            "coll": "diamond-star",
+            "page": ""
           }
         },
         "a726fe23-c473-4920-8305-df6d75419a8b": {
           "type": "collect",
           "settings": {
-            "coll": "commute"
+            "coll": "commute",
+            "page": ""
           }
         },
         "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df": {
           "type": "collect",
           "settings": {
-            "coll": "escapade-1"
+            "coll": "escapade-1",
+            "page": ""
           }
         }
       },
