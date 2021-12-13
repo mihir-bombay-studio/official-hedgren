@@ -72,6 +72,7 @@
       </div>
         <div class="related-articles no-t-m">
           <div class="related-title">Other stories</div>
+          {% for article in blog.articles limit: 2 %}
           <div class="related-article">
             <a href="{{ article.url }}">
             <div class="img-text-img rel">
@@ -114,6 +115,7 @@
             </div>
             </a>
           </div>
+          {% endfor %}
         </div>
       </div>
     </div>
