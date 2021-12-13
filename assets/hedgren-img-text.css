@@ -168,6 +168,7 @@
     bottom: 8px;
     width: 80px;
     height: 107px;
+    top: auto;
   }
 
   .image-overlay svg {
