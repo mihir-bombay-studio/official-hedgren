@@ -21,6 +21,7 @@
         <div class="article-author">WRITTEN BY {{ article.author }}</div>
         <div class="article-date">{{ article.created_at | date: "%d/%m/'%y" }}</div>
       </div>
+      <div class="wrappers-wrapper">
       <div class="article-content-wrap">
       <div class="article-excerpt">{{ article.excerpt }}</div>
       <div class="article-content">{{ article.content }}</div>
@@ -67,6 +68,10 @@
         <div class="article-toggler flex-box justify-between">
           <a href="{{ blog.previous_article }}"><span class="prev-arrow arrow">{% include 'icon-arrow-grey' %}</span>PREVIOUS STORY</a>
         	<a href="{{ blog.next_article }}">NEXT STORY<span class="arrow next-arrow">{% include 'icon-arrow-grey' %}</span></a>
+        </div>
+      </div>
+        <div class="related-articles">
+          fghdfghdfgh dfgh dghjfg hjfghj fghd
         </div>
       </div>
     </div>
