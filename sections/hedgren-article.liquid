@@ -24,7 +24,7 @@
       <div class="wrappers-wrapper">
       <div class="article-content-wrap">
       <div class="article-excerpt">{{ article.excerpt }}</div>
-      <div class="article-content">{{ article.content }}</div>
+        {% capture upsell %}
         {% for tag in article.tags %}
         {% if tag contains "Upsell:" %}
         {% assign uptag = tag | replace: "Upsell:","" | strip%}
@@ -69,7 +69,9 @@
         </div>
         {% endif %}
         {% endfor %}
+        {% endcapture %}
         
+      <div class="article-content">{{ article.content | replace: "<!-- upsell -->",upsell }}</div>
         
         <div class="article-toggler flex-box justify-between">
           <a href="{{ blog.previous_article }}"><span class="prev-arrow arrow">{% include 'icon-arrow-grey' %}</span>PREVIOUS STORY</a>
