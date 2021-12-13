@@ -55,7 +55,7 @@
               </div>
               <div class="hero-row">            
                 <span class="product-tag">
-                  {% assign desc = product.description | split: "<!--split-->" %}
+                  {% assign desc = product.description | split: "<!-- split -->" %}
                   {{ desc[1] | strip_html | truncatewords: 20, "..." }}
                 </span>
               </div>
