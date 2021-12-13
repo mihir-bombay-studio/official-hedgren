@@ -75,11 +75,37 @@
             "feature_heading6": "Puller with hook to secure the main opening",
             "feature_description6": ""
           }
+        },
+        "7c289c8d-f795-426d-a6f0-ccbb7e116719": {
+          "type": "features",
+          "settings": {
+            "name": "Line",
+            "bag": "shopify:\/\/shop_images\/HCOM03_163_01_3.jpg",
+            "feature_img1": "shopify:\/\/shop_images\/HCOM03_163_01_3.jpg",
+            "feature_heading1": "Extra padding on the back panel and at the bottom of the bag",
+            "feature_description1": "",
+            "feature_img2": "shopify:\/\/shop_images\/HCOM03_163_01_4c.jpg",
+            "feature_heading2": "Adjustable foamed shoulder straps with a chest strap",
+            "feature_description2": "",
+            "feature_img3": "shopify:\/\/shop_images\/HCOM03_163_01_5.jpg",
+            "feature_heading3": "Main zippered compartment holds up to 15\" laptop",
+            "feature_description3": "",
+            "feature_img4": "shopify:\/\/shop_images\/HCOM03_163_01_4e.jpg",
+            "feature_heading4": "Main compartment (roll-up) closed by an eyecatching buckle",
+            "feature_description4": "",
+            "feature_img5": "shopify:\/\/shop_images\/HCOM03_163_01_4b.jpg",
+            "feature_heading5": "Easy acces side pocket",
+            "feature_description5": "",
+            "feature_img6": "shopify:\/\/shop_images\/HCOM03_163_01_4a.jpg",
+            "feature_heading6": "Coated water repellent fabric",
+            "feature_description6": ""
+          }
         }
       },
       "block_order": [
         "411dc432-1cb7-4f96-bc4d-f31649016464",
-        "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7"
+        "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7",
+        "7c289c8d-f795-426d-a6f0-ccbb7e116719"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
