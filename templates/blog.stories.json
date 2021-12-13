@@ -160,6 +160,26 @@
         "padding_bottom": "p-no-bottom",
         "bg_color": ""
       }
+    },
+    "16393820366a398861": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-reversed",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_SS2_43.jpg",
+        "heading": "Become our influencer",
+        "subheading": "",
+        "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur",
+        "button_label": "MORE INFO",
+        "button_link": "shopify:\/\/pages\/contact-us",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
     }
   },
   "order": [
@@ -169,6 +189,7 @@
     "1639136134ec3aabfa",
     "1639136284c83d20a7",
     "1639136322b1e9719f",
-    "1639381977e8fe9522"
+    "1639381977e8fe9522",
+    "16393820366a398861"
   ]
 }
