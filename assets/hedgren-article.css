@@ -81,7 +81,7 @@
 }
 
 .article-content-wrap{
-  width: 620px;
+  width: calc(100% - 220px);
 }
 
 .article-excerpt{
@@ -186,6 +186,22 @@ hr.footer-hr {
 }
 .article-content-wrap .variants span {
   display: flex;
+}
+.wrappers-wrapper {
+  justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.related-articles {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 146px;
+  width: 100%;
+  max-width: 200px;
 }
 @media(max-width: 992px){
   .article-img {
