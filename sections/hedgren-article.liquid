@@ -72,7 +72,9 @@
       </div>
         <div class="related-articles no-t-m">
           <div class="related-title">Other stories</div>
-          {% for article in blog.articles limit: 2 %}
+          {% assign original_handle = article.handle %}
+          {% for article in blog.articles limit: 3 %}
+          {% unless original_handle == article.handle %}
           <div class="related-article">
             <a href="{{ article.url }}">
             <div class="img-text-img rel">
@@ -115,6 +117,7 @@
             </div>
             </a>
           </div>
+          {% endunless %}
           {% endfor %}
         </div>
       </div>
