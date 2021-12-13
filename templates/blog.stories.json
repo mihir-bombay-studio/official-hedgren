@@ -138,6 +138,25 @@
     },
     "1639136322b1e9719f": {
       "type": "hedgren-stories",
+      "blocks": {
+        "06324151-cbf4-4856-b5be-f8e1cd92c142": {
+          "type": "img_txt",
+          "settings": {
+            "background": "normal-bg",
+            "order": "order-normal",
+            "heading_color": "regular",
+            "heading": "Image with text",
+            "subheading": "Subheading",
+            "content": "Stefanos Alexopoulos is creating quite the storm with the very first COCO-Mat bike shop in the world. Based in Antwerp, he is inspired by how the beauty of nature can enhance an urban environment. That’s how the wooden bikes came about: by seeing the potential of a tree. According to Stefanos there is an innate rhythm to everything. By finding the freedom to move according to your own pace, you find your path. As an entrepreneur, he values the starting point, the destination and the distance between both equally. But there is always a choice to move forward. ‘I believe there is a fire in everyone, the more you move, the bigger it gets’. There are many reasons why Stefanos is one of our Hedgrenists, his free-spirited nature is just one of them.",
+            "button_label": "Button label",
+            "button_link": "",
+            "extra_txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "06324151-cbf4-4856-b5be-f8e1cd92c142"
+      ],
       "settings": {
       }
     },
