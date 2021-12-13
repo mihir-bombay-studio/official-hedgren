@@ -203,14 +203,14 @@ hr.footer-hr {
   width: 100%;
   max-width: 200px;
 }
-span.image-overlay {
+.related-article span.image-overlay {
   position: absolute;
   transform: rotate(180deg);
   left: -5px;
   bottom: -5px;
   height: 40%;
 }
-span.image-overlay svg {
+.related-article span.image-overlay svg {
   height: 100%;
   width: auto;
 }
@@ -219,16 +219,25 @@ span.image-overlay svg {
   height: auto;
   display: block;
 }
-.img-text-text-content {
-    font-size: 13px;
-    color: #798c9c;
+.related-article .img-text-text-content {
+  font-size: 13px;
+  color: #758298;
 }
-.img-text-text-subheading {
-    font-size: 13px;
-    color: #000;
+.related-article .img-text-text-subheading {
+  font-size: 13px;
+  color: #000;
 }
 .related-article a {
   text-decoration: none;
+}
+.related-article h2.img-text-text-heading {
+  font-size: 19px;
+  line-height: 16px;
+  position: absolute;
+  bottom: 12px;
+  margin-bottom: 0;
+  color: #000;
+  letter-spacing: 0;
 }
 @media(max-width: 992px){
   .article-img {
