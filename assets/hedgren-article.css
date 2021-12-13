@@ -219,6 +219,17 @@ span.image-overlay svg {
   height: auto;
   display: block;
 }
+.img-text-text-content {
+    font-size: 13px;
+    color: #798c9c;
+}
+.img-text-text-subheading {
+    font-size: 13px;
+    color: #000;
+}
+.related-article a {
+  text-decoration: none;
+}
 @media(max-width: 992px){
   .article-img {
     width: 100%;
