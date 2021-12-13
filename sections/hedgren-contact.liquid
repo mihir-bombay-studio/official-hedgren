@@ -30,7 +30,7 @@
       <div class="contact-form-wr">
       	{% form 'contact' %}
         {% if form.posted_successfully? %}
-	      <h6> Thank you message <h6>
+	      <h6> Thank you for getting in touch, we'll get back to you. <h6>
         {% else %}
               {{ form.errors | default_errors }}
         {% endif %}
