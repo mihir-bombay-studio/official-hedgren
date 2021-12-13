@@ -107,6 +107,15 @@
   
   .about-img-text-text .img-text-text-heading{
   	top: unset;
-    right: -34%;
+    right: 20px;
+    text-align: right;
+    margin-left: 0;
+    left: auto;
+    bottom: -6px;
+    margin-bottom: 0;
+  }
+  .about-img-text-text .img-text-text-subheading {
+  	margin-top: -20px;
+    margin-bottom: 50px;
   }
 }
