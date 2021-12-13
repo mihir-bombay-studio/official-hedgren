@@ -11,7 +11,7 @@
       <div class="img-text-text-subheading">
         {% for tag in article.tags %}
         {% if tag contains "Occupation:" %}
-        {{ tag | replace: "Occupation","" }}
+        {{ tag | replace: "Occupation:","" }}
         {% endif %}
         {% endfor %}
       </div>
