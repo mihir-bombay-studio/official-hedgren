@@ -184,7 +184,7 @@ hr.footer-hr {
   margin: 0 auto;
   max-width: 1280px;
 }
-.hero-product-images-block .variants span {
+.article-content-wrap .variants span {
   display: flex;
 }
 @media(max-width: 992px){
