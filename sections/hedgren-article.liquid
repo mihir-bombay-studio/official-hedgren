@@ -28,7 +28,7 @@
         {% for tag in article.tags %}
         {% if tag contains "Upsell:" %}
         {% assign uptag = tag | replace: "Upsell:","" %}
-
+{{uptag}}
         {% assign product = all_products[uptag] %}
         <div class="upsell-product">
           <div class="hero-product flex-box">
