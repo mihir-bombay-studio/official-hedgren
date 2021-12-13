@@ -9,7 +9,11 @@
         {{ article.title }}
       </h2>
       <div class="img-text-text-subheading">
-        {{ article.tags.first }}
+        {% for tag in article.tags %}
+        {% if tag contains "Occupation:" %}
+        {{ tag | replace: "Occupation","" }}
+        {% endif %}
+        {% endfor %}
       </div>
       <div class="img-text-text-content">
         {{ article.excerpt }}
