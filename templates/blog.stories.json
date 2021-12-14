@@ -174,6 +174,25 @@
         "bg_color": ""
       }
     },
+    "16394901903a3b2923": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "heading": "Niels",
+        "subheading": "Entrepeneur",
+        "content": "When Niels decided to take his life off-grid, he discovered a calling. Once an avid meat eater, he became a plant-based entrepreneur who wholeheartedly embraces what nature brings to the table. By developing a relationship with food that is attuned to the seasons, he and his family took on the challenge of becoming self-sufficient. Now it has become a way of life. \n<br><br>\nNiels’ move mirrors the patterns of life and it’s a reflection he is deeply grateful for. \n<br><br>\nIt is adaptable to change, dynamic, exciting and extremely inspiring. Ask Niels what it entails to embark on a journey of self-sufficiency and he’ll gladly share his secrets. This Hedgrenist is as passionate about being human, as he is about changing the game.",
+        "button_label": "Button label",
+        "button_link": "",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
     "1639136322b1e9719f": {
       "type": "hedgren-stories",
       "disabled": true,
@@ -229,6 +248,7 @@
     "1639136284c83d20a7",
     "1639489632c6749af1",
     "163948998160b8f47d",
+    "16394901903a3b2923",
     "1639136322b1e9719f",
     "1639381977e8fe9522",
     "16393820366a398861"
