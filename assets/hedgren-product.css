@@ -248,13 +248,16 @@
 	.product-info-imgs {
     flex-direction: column;
 }
-  
+
   .product-img-mob img{
-  	width: 100%;
+    width: 100%;
     object-fit: cover;
   }
-  
+
   .product-info {
     width: 100%;
-}
+  }
+  .product-wrap {
+    margin-bottom: 80px;
+  }
 }
