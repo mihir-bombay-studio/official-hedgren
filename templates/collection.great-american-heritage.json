@@ -76,11 +76,30 @@
             "feature_heading6": "Ultra padded back with breathable mesh",
             "feature_description6": "material providing an ergonomic\nsupport."
           }
+        },
+        "a9c3e227-519d-47e9-b512-35f18c756641": {
+          "type": "features",
+          "settings": {
+            "name": "QUEST",
+            "feature_heading1": "Sustainable materials",
+            "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.<br>\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.<br>\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
+            "feature_heading2": "Spacious compartment",
+            "feature_description2": "Including an RFID zipped pocket for passport and credit card protection, 1 open pocket to store a mobile phone or small accessories, a ket chain made of a 3-tone rope and metal hook.",
+            "feature_heading3": "Large front pocket",
+            "feature_description3": "Practical large front pocket closed by a trendy 3-tone rope and a flap.",
+            "feature_heading4": "Zipped pocket",
+            "feature_description4": "Quick access to zipped pocket in the back offering an extra security loop to insert the puller after closing. Ideal pocket to store a mobile phone, ID document and more.",
+            "feature_heading5": "Hedgren hardware",
+            "feature_description5": "Iconic, qualitative Hedgren branded hardware: puller, front metal buckle, rope stopper, strap buckle.",
+            "feature_heading6": "Fabric flap",
+            "feature_description6": "The main compartment zipper is covered by a fabric flap providing extra protection, especially against the rain."
+          }
         }
       },
       "block_order": [
         "411dc432-1cb7-4f96-bc4d-f31649016464",
-        "09c32939-19d2-4927-9549-7a4d226c120d"
+        "09c32939-19d2-4927-9549-7a4d226c120d",
+        "a9c3e227-519d-47e9-b512-35f18c756641"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
