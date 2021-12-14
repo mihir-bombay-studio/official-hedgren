@@ -51,10 +51,29 @@
             "feature_heading6": "",
             "feature_description6": ""
           }
+        },
+        "09c32939-19d2-4927-9549-7a4d226c120d": {
+          "type": "features",
+          "settings": {
+            "name": "CANYON",
+            "feature_heading1": "",
+            "feature_description1": "",
+            "feature_heading2": "",
+            "feature_description2": "",
+            "feature_heading3": "",
+            "feature_description3": "",
+            "feature_heading4": "",
+            "feature_description4": "",
+            "feature_heading5": "",
+            "feature_description5": "",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
         }
       },
       "block_order": [
-        "411dc432-1cb7-4f96-bc4d-f31649016464"
+        "411dc432-1cb7-4f96-bc4d-f31649016464",
+        "09c32939-19d2-4927-9549-7a4d226c120d"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
