@@ -18,6 +18,7 @@
     font-family: var(--font-heading-family);
     letter-spacing: -3.5px;
     margin: 0 40px;
+      text-align: center;
 }
 
 .policies-side-title {
