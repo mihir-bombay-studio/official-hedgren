@@ -10,7 +10,9 @@
     max-width: 47.8rem;
   }
 }
-
+h3.form__message {
+    line-height: normal;
+}
 .customer form {
   margin-top: 4rem;
 }
