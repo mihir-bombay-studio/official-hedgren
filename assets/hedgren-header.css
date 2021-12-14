@@ -225,7 +225,9 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder { /* Microsoft Edg
 .empty-c svg #Ellipse_13 {
   display: none;
 }
-
+.dropdown-1.active-link a {
+  border-bottom: 2px solid black;
+}
 @media(min-width: 993px){
   .no-d{
     display: none !important;
