@@ -86,8 +86,11 @@
 }
 
 .all-products .hero-product {
-    width: 299px;
-    margin: 0 10px 40px;
+  width: 299px;
+  margin: 0 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .all-products .variants{
