@@ -106,16 +106,23 @@
           "type": "features",
           "settings": {
             "name": "VENTURA",
+            "bag": "shopify:\/\/shop_images\/HGAHR04_540_01_2_636b1f64-e585-4f85-8ca2-f97aac703314.jpg",
+            "feature_img1": "shopify:\/\/shop_images\/HGAHR04_540_01_3.jpg",
             "feature_heading1": "Sustainable Materials",
             "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.<br>\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.<br>\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
+            "feature_img2": "shopify:\/\/shop_images\/HGAHR04_540_01_5.jpg",
             "feature_heading2": "Spacious main compartment",
             "feature_description2": "with wide opening\nthanks to the U-shape, including:<br>\n- 2 large open pockets to store accessories,<br>\n- a key chain made of a 3-tone rope\nand metal hook,<br>\n- 1 zipped pocket.",
+            "feature_img3": "shopify:\/\/shop_images\/HGAHR04_540_01_6.jpg",
             "feature_heading3": "Covered main compartiment",
             "feature_description3": "by a fabric flap providing extra protection,\nespecially against the rain.",
+            "feature_img4": "shopify:\/\/shop_images\/HGAHR04_540_01_4c.jpg",
             "feature_heading4": "Interlocking sliders",
             "feature_description4": "on the main\nopening to enable the use of a\npadlock for extra security",
+            "feature_img5": "shopify:\/\/shop_images\/HGAHR04_540_01_4b.jpg",
             "feature_heading5": "Quick access to zipped side pockets",
             "feature_description5": "offering an extra security loop to\ninsert the puller after closing. Ideal\npocket to store the last minutes\nitems.",
+            "feature_img6": "shopify:\/\/shop_images\/HGAHR04_540_01_3_005154f8-b5c1-4ab6-bfe9-de051add8ec7.jpg",
             "feature_heading6": "Decorative foamed carry handles",
             "feature_description6": "with foamed muffle\nfor extra comfort."
           }
