@@ -74,7 +74,7 @@
             </div>
           </div>
           <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
-          <a href="{{ product.url }}" class="more-info">
+          <a href="{{ product.url }}" class="more-info" title="{{ product.title }}">
             {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
           </a>
         </div>
