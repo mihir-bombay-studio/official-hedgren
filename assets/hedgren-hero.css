@@ -193,6 +193,9 @@
 .product-font.product-title {
   display: block;
 }
+.add-direct.no-avaliable svg {
+  display: none;
+}
 @media(max-width: 992px){
 
   .hero {
