@@ -4,9 +4,9 @@
   <span class="image-overlay no-t-m">
         {% include "svg-arrows-big" %}
       </span> 
-  <h2 id="recover" tabindex="-1">
+  <h3 id="recover" tabindex="-1">
     {{ 'customer.recover_password.title' | t }}
-  </h2>
+  </h3>
   <div>
     <p>
       {{ 'customer.recover_password.subtext' | t }}
@@ -61,10 +61,10 @@
     {%- endif -%}
     {%- form 'customer_login', novalidate: 'novalidate' -%}
       {%- if form.errors -%}
-        <h2 class="form__message" tabindex="-1" autofocus>
+        <h3 class="form__message" tabindex="-1" autofocus>
           <span class="visually-hidden">{{ 'accessibility.error' | t }} </span>
           {{ 'templates.contact.form.error_heading' | t }}
-        </h2>
+        </h3>
         {{ form.errors | default_errors }}
       {%- endif -%}
 
