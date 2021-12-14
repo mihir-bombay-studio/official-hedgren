@@ -235,4 +235,10 @@
   .hero-products-wrapper {
     padding: 0 0 70px;
   }
+  .hero-row .hero-col:last-child {
+    width: calc(34.5% - 2px);
+  }
+  .hero-row .hero-col:first-child {
+    width: calc(65.5% - 2px);
+  }
 }
