@@ -94,12 +94,31 @@
             "feature_heading6": "Fabric flap",
             "feature_description6": "The main compartment zipper is covered by a fabric flap providing extra protection, especially against the rain."
           }
+        },
+        "a5ac82d4-ab3b-4fcc-a01e-0f4942e3d2a4": {
+          "type": "features",
+          "settings": {
+            "name": "VENTURA",
+            "feature_heading1": "Sustainable Materials",
+            "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.<br>\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.<br>\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
+            "feature_heading2": "Spacious main compartment",
+            "feature_description2": "with wide opening\nthanks to the U-shape, including:<br>\n- 2 large open pockets to store accessories,<br>\n- a key chain made of a 3-tone rope\nand metal hook,<br>\n- 1 zipped pocket.",
+            "feature_heading3": "Covered main compartiment",
+            "feature_description3": "by a fabric flap providing extra protection,\nespecially against the rain.",
+            "feature_heading4": "Interlocking sliders",
+            "feature_description4": "on the main\nopening to enable the use of a\npadlock for extra security",
+            "feature_heading5": "Quick access to zipped side pockets",
+            "feature_description5": "offering an extra security loop to\ninsert the puller after closing. Ideal\npocket to store the last minutes\nitems.",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
         }
       },
       "block_order": [
         "411dc432-1cb7-4f96-bc4d-f31649016464",
         "09c32939-19d2-4927-9549-7a4d226c120d",
-        "a9c3e227-519d-47e9-b512-35f18c756641"
+        "a9c3e227-519d-47e9-b512-35f18c756641",
+        "a5ac82d4-ab3b-4fcc-a01e-0f4942e3d2a4"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
