@@ -31,6 +31,7 @@
 .policies-content {
     font-size: 13px;
     line-height: 18px;
+  margin-bottom: 80px;
 }
 
 .policy-title {
@@ -44,19 +45,15 @@
 
 @media(max-width: 992px){
   .policies-headings-wrapper{
-  	padding-top: 40px;
+    padding-top: 40px;
     padding-bottom: 40px;
   }
-  
-	.policies-title {
+
+  .policies-title {
     font-size: 36px;
     line-height: 40px;
     letter-spacing: -1.73px;
     margin: 0 40px;
-      text-align: center;
-}
-  
-  .policies-content{
-  	margin-bottom: 80px;
+    text-align: center;
   }
 }
