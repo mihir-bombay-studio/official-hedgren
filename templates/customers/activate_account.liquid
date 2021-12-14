@@ -1,6 +1,22 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 {{ 'base.css' | asset_url | stylesheet_tag }}
-
+<style>
+  form button {
+    width: 100%;
+    background-color: #000 !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 15px 0 !important;
+    border-radius: 23px !important;
+    transition: .4s ease;
+    cursor: pointer;
+    font-size: 13px !important;
+    line-height: 18px !important;
+    letter-spacing: 2.21px !important;
+    font-weight: 600;
+    margin-left: 0 !important;
+}
+</style>
 <div class="customer activate">
   <h1>
     {{ 'customer.activate_account.title' | t }}
