@@ -112,13 +112,39 @@
             "feature_heading6": "Decorative foamed carry handles",
             "feature_description6": "with foamed muffle\nfor extra comfort."
           }
+        },
+        "ffb2022c-fc95-44d7-8ce8-2e530baad17f": {
+          "type": "features",
+          "settings": {
+            "name": "MAP",
+            "bag": "shopify:\/\/shop_images\/HGAHR05_540_01_5.jpg",
+            "feature_img1": "shopify:\/\/shop_images\/HGAHR05_540_01_5.jpg",
+            "feature_heading1": "Sustainable Materials",
+            "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
+            "feature_img2": "shopify:\/\/shop_images\/HGAHR05_540_01_4b.jpg",
+            "feature_heading2": "An elastic security loop",
+            "feature_description2": "",
+            "feature_img3": "shopify:\/\/shop_images\/HGAHR05_540_01_4c.jpg",
+            "feature_heading3": "Includes an RFID protection pocket on the inside",
+            "feature_description3": "",
+            "feature_img4": "shopify:\/\/shop_images\/HGAHR05_540_01_2.jpg",
+            "feature_heading4": "A flap drawstring pocket",
+            "feature_description4": "",
+            "feature_img5": "shopify:\/\/shop_images\/HGAHR05_540_01_3.jpg",
+            "feature_heading5": "Adjustable strap so it fits perfectly on every body",
+            "feature_description5": "",
+            "feature_img6": "shopify:\/\/shop_images\/HGAHR05_540_01_5_74310637-919d-43c6-8480-067d0832e9aa.jpg",
+            "feature_heading6": "The inside keeps everything organised",
+            "feature_description6": "with a compartment for your phone and a hook for your key."
+          }
         }
       },
       "block_order": [
         "411dc432-1cb7-4f96-bc4d-f31649016464",
         "09c32939-19d2-4927-9549-7a4d226c120d",
         "a9c3e227-519d-47e9-b512-35f18c756641",
-        "a5ac82d4-ab3b-4fcc-a01e-0f4942e3d2a4"
+        "a5ac82d4-ab3b-4fcc-a01e-0f4942e3d2a4",
+        "ffb2022c-fc95-44d7-8ce8-2e530baad17f"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
