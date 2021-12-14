@@ -69,3 +69,8 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+@media (max-width: 992px) {
+  .hedgren-faq-page-heading-wrapper {
+    margin-bottom: 40px;
+  }
+}
