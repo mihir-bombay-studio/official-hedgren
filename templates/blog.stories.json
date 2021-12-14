@@ -155,6 +155,25 @@
         "bg_color": ""
       }
     },
+    "163948998160b8f47d": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-reversed",
+        "heading_color": "regular",
+        "heading": "Lily",
+        "subheading": "Food influencer",
+        "content": "Food has power. Don’t take our word for it, believe Lily’s – she knows what she’s talking about. They say food is the way to someone’s heart, but it’s also what brings us together and makes us connect. By bringing food to the table you invite hearts to join. \n<br><br>\nSo meet Lily. She knows all about food and how it feeds not just the body, but also the soul. Getting others to discover the flavor of nature is her move.",
+        "button_label": "",
+        "button_link": "",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
     "1639136322b1e9719f": {
       "type": "hedgren-stories",
       "disabled": true,
@@ -209,6 +228,7 @@
     "1639136134ec3aabfa",
     "1639136284c83d20a7",
     "1639489632c6749af1",
+    "163948998160b8f47d",
     "1639136322b1e9719f",
     "1639381977e8fe9522",
     "16393820366a398861"
