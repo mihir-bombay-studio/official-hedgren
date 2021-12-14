@@ -75,7 +75,7 @@
       
       {%- if section.settings.menu != blank -%}
       {%- for link in section.settings.menu.links -%}
-      <li class="dropdown-1 no-t-m">        
+      <li class="dropdown-1 no-t-m {% if collection.url == link.url %}active-link{% endif %}">        
         <a href="{{ link.url }}">{{ link.title | escape }}</a>
         {%- if link.links != blank -%}
         <div class="dropdown">  
