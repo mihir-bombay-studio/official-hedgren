@@ -260,4 +260,7 @@
   .product-wrap {
     margin-bottom: 80px;
   }
+  .product-price {
+    text-align: right;
+  }
 }
