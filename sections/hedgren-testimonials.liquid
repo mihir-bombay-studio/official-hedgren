@@ -11,7 +11,7 @@
     {% if block.type == 'testimonial' %}
     <div class="testimonial-card">
               <div class="testimonial-img">
-                	<img loading="lazy" src="{{ block.settings.img | img_url: '350x' }}">
+                	<img loading="lazy" src="{{ block.settings.img | img_url: '350x' }}" alt="{{ block.settings.img.alt | default: block.settings.prod_title }}">
               </div>
               <div class="testimonial-text">
                 <div class="testimonial-rating flex-box">
