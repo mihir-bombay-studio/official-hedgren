@@ -31,7 +31,7 @@
           "type": "features",
           "settings": {
             "name": "Next",
-            "bag": "shopify:\/\/shop_images\/HNXT04_003_01_6.jpg",
+            "bag": "shopify:\/\/shop_images\/HGAHR02_701_01_5.jpg",
             "feature_img1": "shopify:\/\/shop_images\/HGAHR02_701_01_5.jpg",
             "feature_heading1": "Spacious main compartment",
             "feature_description1": "with flap\nclosure including:\n<br>- RFID zipped pocket for passport and\ncredit card protection.<br>\n- 2 large inner pockets to store charger,\npower bank and small accessories,<br>\n- a key chain made of a 3-tone rope and\nmetal hook.",
@@ -56,8 +56,10 @@
           "type": "features",
           "settings": {
             "name": "CANYON",
-            "feature_heading1": "",
-            "feature_description1": "",
+            "bag": "shopify:\/\/shop_images\/HGAHR03_359_01_5.jpg",
+            "feature_img1": "shopify:\/\/shop_images\/HGAHR03_359_01_5.jpg",
+            "feature_heading1": "2-compartment backpack:",
+            "feature_description1": "- Main compartment provides space for larger\nitems and storage organization for charger,\npower bank and small accessories.<br>\n- RFID zipped pocket for passport and credit\ncard protection.<br>\n- Dedicated foamed back compartment\nfor 15.6’’ laptop.",
             "feature_heading2": "",
             "feature_description2": "",
             "feature_heading3": "",
