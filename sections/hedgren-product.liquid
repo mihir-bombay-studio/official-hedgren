@@ -167,6 +167,7 @@
         if(typeof response.data[0].compare_at_price !== "undefined") {
          $('.product-font.save-money').text("€"+parseFloat(response.data[0].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
         } 
+  		$('.add-to-cart').data('variant',response.data[0].variantId);
     })
     .fail(function(error) {
         console.log( error );
