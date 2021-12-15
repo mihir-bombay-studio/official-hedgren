@@ -17,31 +17,11 @@
         Subscribe to hedgren
       </h3>
       <div class="input-group">
-        <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="email@example.com" name="email" id="k_id_email" aria-label="email" autocorrect="off" autocapitalize="off">
-        <input type="submit" name="commit" id="sub-form" value="Subscribe">
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="email@example.com" name="contact[email]" id="Email" aria-label="email" autocorrect="off" autocapitalize="off">
+        <input type="submit" name="commit" id="Subscribe" value="Subscribe">
       </div>
     </form>
-    <script type="text/javascript" src="//www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
-    <script type="text/javascript">
-      KlaviyoSubscribe.attachToForms('#email_signup', {
-        hide_form_on_success: true,
-        success_message: "Gelukt! Je ontvangt een bevestigingsmail (kan in spam zitten).",
-        error_message: "Falsche Email",
-        extra_properties: {
-          $source: '$embed',
-          $method_type: "Klaviyo Form",
-          $method_id: 'embed',
-          $consent_version: 'Embed default text'
-        },
-
-        success: function ($form) {
-          // `$form` is a jQuery wrapper around the form that was submitted. This makes it easy to get the email address or form fields.
-          var email = $form.find('[name="email"]').val();
-          _learnq.push(['identify', { $email: email }]);
-          _learnq.push(['track', 'Signed Up for Newsletter']);
-        }
-      });
-    </script>
   </div>
   <hr class="footer-hr">
   <div class="footer-navs flex-box justify-between">
