@@ -164,11 +164,15 @@
         data: {data: JSON.stringify(mlvedaData)},
     })
     .done(function( response ) { 
+        if(typeof response.data[0].price !== "undefined") {
         $('.product-font.money').text("€"+parseFloat(response.data[0].price).toFixed(2).replace(/\.?00+$/, ''));
+        }
         if(typeof response.data[0].compare_at_price !== "undefined") {
          $('.product-font.save-money').text("€"+parseFloat(response.data[0].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
         } 
+  if(typeof response.data[0].variantId !== "undefined") {
   		$('.add-to-cart').data('variant',response.data[0].variantId);
+  }
   $('.product-font.money').css('visibility','visible');
   $('.product-font.save-money').css('visibility','visible');
     })
