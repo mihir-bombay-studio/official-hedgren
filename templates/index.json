@@ -4,7 +4,9 @@
       "type": "hedgren-hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/GIVING_4.png",
-        "heading": "",
+        "heading": "Giving",
+        "subheading": "It's the season of",
+        "design2": true,
         "addtext": "ADD TO CART",
         "outtext": "OUT OF STOCK",
         "moretext": "More info",
