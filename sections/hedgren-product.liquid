@@ -162,7 +162,7 @@
         timeout: 10000,
         data: {data: JSON.stringify(mlvedaData)},
         success: function(response) {
-              $('.product-font.money').text(response[0].price);
+              $('.product-font.money').text(response.data[0].price);
                    }
    });
   
