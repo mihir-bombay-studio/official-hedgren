@@ -122,6 +122,40 @@
       current.closest('.hero-product').find('.add-direct').data('variant',data.variants[0].id);
       current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.images[0]);
       current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.images[1]);
+      
+      var mlvedaData = {"data": ["url":current.parent().data('url')+".js"]};
+      $('.product-font.money').css('visibility','hidden');
+      $('.product-font.save-money').css('visibility','hidden');
+      setTimeout(function(){
+        $('.product-font.money').css('visibility','visible');
+        $('.product-font.save-money').css('visibility','visible');
+      }, 4000);
+      var mlvedaCallUrl = "//www.mlveda.com/ShopifyApps/ShopifyMultiPricing/getPrices?shop=hedgrenstore.myshopify.com";         
+      $.ajax({
+        url: mlvedaCallUrl,
+        type: "POST",
+        dataType: "json",
+        timeout: 10000,
+        data: {data: JSON.stringify(mlvedaData)},
+      })
+      .done(function( response ) { 
+          if(typeof response.data[index].price !== "undefined") {
+            current.closest('.hero-product').find('.product-font.money').text("€"+parseFloat(response.data[index].price).toFixed(2).replace(/\.?00+$/, ''));
+          }
+          if(typeof response.data[index].compare_at_price !== "undefined") {
+            current.closest('.hero-product').find('.product-font.save-money').text("€"+parseFloat(response.data[index].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
+          } 
+          if(typeof response.data[index].variantId !== "undefined") {
+            current.closest('.hero-product').find('.add-to-cart').data('variant',response.data[index].variantId);
+          }
+        $('.product-font.money').css('visibility','visible');
+        $('.product-font.save-money').css('visibility','visible');
+      })
+      .fail(function(error) {
+        console.log( error );
+        $('.product-font.money').css('visibility','visible');
+        $('.product-font.save-money').css('visibility','visible');
+      });
     })
     .fail(function(error) {
       console.log( error );
