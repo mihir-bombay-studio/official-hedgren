@@ -50,7 +50,7 @@
 @media(min-width: 993px){
   .hedgren-collections-wrapper .collection-list-wrap {
     flex-wrap: wrap;
-    width: calc( 100% + 26.6px );
+    margin: 0 -13.3px;
   }
   .hedgren-collections-wrapper .coll-card {
     margin: 0 13.3px;
