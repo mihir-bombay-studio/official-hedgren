@@ -88,13 +88,21 @@
             "question": "What should I check upon delivery of my goods?",
             "answer": "The courier will deliver your goods, provided that you sign for them. Before signing you should check the item(s) for quality and accuracy."
           }
+        },
+        "994eb0fc-8cc9-4557-a062-5e26d5ba871e": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I place an order?",
+            "answer": "To place an order select your desired item and add it to your shopping cart. If you are interested in buying one or more items, you can change the quantity and selection in the course of the buying process. Follow the instructions on the checkout page to complete your order. As soon as you confirm your order, an automated e-mail confirmation will be sent."
+          }
         }
       },
       "block_order": [
         "86633901-b234-4660-a75c-3582922534b6",
         "b8c4e5d2-b90c-44d9-a07f-fda24127364a",
         "33347926-6f4b-48dc-bf78-b4a5894de59a",
-        "6a71d798-3d2c-4b9a-9808-c6c3000a7791"
+        "6a71d798-3d2c-4b9a-9808-c6c3000a7791",
+        "994eb0fc-8cc9-4557-a062-5e26d5ba871e"
       ],
       "settings": {
         "background": "normal-bg",
