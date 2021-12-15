@@ -87,6 +87,9 @@
               {% assign handlesxn = childlink.url | split: "/" %}
               <div class="nav-card">
                 {% assign colxn = collections[handlesxn.last] %}
+                {% if colxn.url == blank %}
+                {% assign colxn = all_products[handlesxn.last] %}
+                {% endif %}
                 <a href="{{ colxn.url }}">
                 <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy">
                   <div class="nav-title">{{ colxn.title }}</div>
@@ -223,6 +226,9 @@
               {% assign handlesxn = childlink.url | split: "/" %}
               <div class="nav-card">
                 {% assign colxn = collections[handlesxn.last] %}
+                {% if colxn.url == blank %}
+                {% assign colxn = all_products[handlesxn.last] %}
+                {% endif %}
                 <a href="{{ colxn.url }}">
                 <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy">
                   <div class="nav-title">{{ colxn.title }}</div>
