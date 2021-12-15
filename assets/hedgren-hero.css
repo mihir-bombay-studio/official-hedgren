@@ -220,6 +220,9 @@ span.sub-head {
   .hero, .hero.alternate-hero {
     height: calc(90vh - 135px);
     min-height: 450px;
+  }  
+  .hero.alternate-hero {
+    background-position: right;
   }
   .hero-text {
     font-size: 66px;
