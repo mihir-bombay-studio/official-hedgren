@@ -71,6 +71,12 @@
     </script>
     {% endif %}
     {% endif %}
+    <script>
+      window.mlvedaShopCurrency = "{{ shop.currency }}";
+      window.shopCurrency = "{{ shop.currency }}";
+      window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
+      window.ml_money_format = "{{ shop.money_format }}";
+    </script>
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
