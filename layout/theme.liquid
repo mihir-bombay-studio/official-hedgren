@@ -1,13 +1,20 @@
-{% include 'buildify-global' %}<!doctype html>
+<!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    {% assign mlveda_code_flag = true %}    
+    {% if mlveda_code_flag == true %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script>
+      $m = $.noConflict(true);
+      window.pattern = /^(do|sv|ee|fi|fr|gd|gp|gg|hu|is|im|il|kz|ke|kg|la|mo|mk|mh|mq|ms|ma|nl|ne|ng|no|pw|py|pl|pt|kn|st|sc|sg|sk|za|sr|sj|th|to|tm|tc|uz|vu|vn|zm|af|al|as|ao|ai|an|ag|ar|as|bb|by|aq|bm|bq|bv|au|vg|bs|cv|bh|cf|bd|cn|be|co|ba|ci|bw|dk|bn|dm|bi|cd|cm|ec|ca|eg|td|gq|cx|er|cc|et|cr|eu|ga|gh|cy|gi|dj|gu|eu|gt|fk|gn|fo|gw|gf|hm|pf|hn|gm|iq|ge|ie|de|jm|gr|jp|in|ki|id|lr|je|mw|lv|my|ly|mu|li|yt|mv|mx|mc|mn|mz|nr|np|ni|nu|nf|pk|na|ph|oc|pn|om|qa|pg|re|pr|sh|ro|ru|rw|sm|bl|rs|pm|sx|vc|gs|sa|sd|sl|se|si|tj|tz|sb|tt|sa|tn|es|gb|lk|va|ch|zw|sy|tw|tl|tg|tr|um|vi|ug|us|uy|ve|af|ax|dz|ad|am|aw|at|az|bz|bj|bt|bo|br|io|bg|bf|kh|ky|cl|km|cg|ck|hr|cu|cw|cz|fj|tf|gl|gy|ht|hk|ir|it|jo|kw|lb|ls|lt|lu|mg|ml|mt|mr|fm|md|me|mm|na|nc|nz|kp|mp|ps|pa|pe|lc|mf|ws|sn|so|kr|ss|sz|tk|tv|ua|ae|wf|eh|ye|intl)$/;
+    </script>
+    {% endif %}
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: '32x32' }}">
@@ -36,6 +43,45 @@
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="https://conditional-redirect.spicegems.com/js/scripttags/hedgrenstore/static/country-redirect.js?shop=hedgrenstore" defer="defer"></script>
     {{ content_for_header }}
+    
+    {{ shop.metafields.loox["global_html_head"] }}
+    <meta name="google-site-verification" content="IDztGAlVFm4jSzXcxBCj137mC65bbg13rzJVcp9dZrI" />
+    
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="EiTifLPnEQtgI8OsmPS7-32R20reChtCRZ63Id8BmyE" />
+    <!-- Hotjar Tracking Code for www.hedgren.com -->
+    <script>
+      (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1256865,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    {% if mlveda_code_flag == true %}
+    {% if template != 'cart' %}
+    <script>
+      $m("<style type='text/css'>.selector-wrapper,span.money{ display: none; }</style>").appendTo("head");
+
+      {% if template contains 'product' %}
+      $m("<style type='text/css'>.add-direct,.add-to-cart{visibility : hidden;}</style>").appendTo("head");
+      {% endif %}
+
+    </script>
+    {% endif %}
+    {% endif %}
+    <script>
+      window.mlvedaShopCurrency = "{{ shop.currency }}";
+      window.shopCurrency = "{{ shop.currency }}";
+      window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
+      window.ml_money_format = "{{ shop.money_format }}";
+    </script>
+    {% render 'shogun-head' %}
+  {% render 'weglot_hreftags' %}
+{% render 'weglot_switcher' %}
+    <meta name="facebook-domain-verification" content="95prg0opv4jd3pbvriz5viuahrfq8d" />
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -220,7 +266,15 @@
     {% section 'hedgren-header' %}
     {% section 'hedgren-cart-drawer' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
+      {% if mlveda_code_flag == true %}
+      <div class="mlvedaform">
+        {{ content_for_layout }}
+        {% include 'mlveda-multipricing-options' %}
+      </div>
+      {% include 'mlveda-multipricing-selectBox' %}
+
+      {% include 'mlveda-multipricing-selectors' %}
+      {% endif %}
     </main>
 
     {% section 'hedgren-footer' %}
@@ -271,11 +325,27 @@
       }
     </script>
   
-
+    {% unless settings.show_multiple_currencies %}
+    <script type="text/javascript">
+      window.default_currency_format = {{ shop.money_format | json }};
+    </script>
+    {% endunless %}
+    {% include 'mlveda-multipricing-updateprice' %}
+    
+    
+    
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  
+    
+    {% if settings.mlvedaACS_enable %}
+   <script>
+      $acs = $.noConflict(true);
+     mlflag1 = false;
+     mlflag2 = false;
+   </script>
+    {% endif %}
+  {% include 'mlveda-currencies' %}
 	{{ shop.metafields.loox["global_html_body"] }}
 </body>
 </html>

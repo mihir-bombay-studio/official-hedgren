@@ -162,12 +162,16 @@
         timeout: 10000,
         data: {data: JSON.stringify(mlvedaData)},
     })
-        .done(function( response ) { 
-              $('.product-font.money').text(response.data[0].price);
-                   })
-      .fail(function(error) {
+    .done(function( response ) { 
+        $('.product-font.money').text(response.data[0].price);
+        if(typeof response.data[0].compare !== "undefined")
+        {
+          alert("Hi. Variable is defined.");
+        } 
+    })
+    .fail(function(error) {
         console.log( error );
-      });
+    });
   
   $('.add-to-cart').click(function() {
     var formData = {
