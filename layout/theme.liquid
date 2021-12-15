@@ -77,6 +77,10 @@
       window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
       window.ml_money_format = "{{ shop.money_format }}";
     </script>
+    {% render 'shogun-head' %}
+  {% render 'weglot_hreftags' %}
+{% render 'weglot_switcher' %}
+    <meta name="facebook-domain-verification" content="95prg0opv4jd3pbvriz5viuahrfq8d" />
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -261,7 +265,15 @@
     {% section 'hedgren-header' %}
     {% section 'hedgren-cart-drawer' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
+      {% if mlveda_code_flag == true %}
+      <div class="mlvedaform">
+        {{ content_for_layout }}
+        {% include 'mlveda-multipricing-options' %}
+      </div>
+      {% include 'mlveda-multipricing-selectBox' %}
+
+      {% include 'mlveda-multipricing-selectors' %}
+      {% endif %}
     </main>
 
     {% section 'hedgren-footer' %}
