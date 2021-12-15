@@ -112,11 +112,19 @@
             "question": "I want to return the order for a refund, what should I do?",
             "answer": "Returns will only be accepted within 14 days of the delivery date.  For further questions view our returns page or get in contact with customer service."
           }
+        },
+        "4793ffca-8593-475f-8db0-eeb458cce9c0": {
+          "type": "faq",
+          "settings": {
+            "question": "My goods are damaged or faulty, what should I do?",
+            "answer": "If the goods are damaged or faulty, please contact customer service."
+          }
         }
       },
       "block_order": [
         "7980d808-20bb-40c3-a9e5-7cc2fb330cfc",
-        "89e80631-cbb2-40d8-b411-795521a8564e"
+        "89e80631-cbb2-40d8-b411-795521a8564e",
+        "4793ffca-8593-475f-8db0-eeb458cce9c0"
       ],
       "settings": {
         "background": "normal-bg",
