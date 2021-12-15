@@ -566,7 +566,7 @@
   })
   .done(function( response ) { 
 
-    $('.hedgren-color-active').each(function(data,index){
+    $('.hedgren-color-active').each(function(data,index){console.log(index);
       $(this).closest('.hero-product').find('.product-font.money').text("€"+parseFloat(response.data[index].price).toFixed(2).replace(/\.?00+$/, ''));
       if(typeof response.data[index].compare_at_price !== "undefined") {
         $(this).closest('.hero-product').find('.product-font.save-money').text("€"+parseFloat(response.data[index].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
