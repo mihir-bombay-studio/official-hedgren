@@ -7,13 +7,6 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-    {% assign mlveda_code_flag = true %}    
-    {% if mlveda_code_flag == true %}
-    <script>
-      $m = $.noConflict(true);
-      window.pattern = /^(do|sv|ee|fi|fr|gd|gp|gg|hu|is|im|il|kz|ke|kg|la|mo|mk|mh|mq|ms|ma|nl|ne|ng|no|pw|py|pl|pt|kn|st|sc|sg|sk|za|sr|sj|th|to|tm|tc|uz|vu|vn|zm|af|al|as|ao|ai|an|ag|ar|as|bb|by|aq|bm|bq|bv|au|vg|bs|cv|bh|cf|bd|cn|be|co|ba|ci|bw|dk|bn|dm|bi|cd|cm|ec|ca|eg|td|gq|cx|er|cc|et|cr|eu|ga|gh|cy|gi|dj|gu|eu|gt|fk|gn|fo|gw|gf|hm|pf|hn|gm|iq|ge|ie|de|jm|gr|jp|in|ki|id|lr|je|mw|lv|my|ly|mu|li|yt|mv|mx|mc|mn|mz|nr|np|ni|nu|nf|pk|na|ph|oc|pn|om|qa|pg|re|pr|sh|ro|ru|rw|sm|bl|rs|pm|sx|vc|gs|sa|sd|sl|se|si|tj|tz|sb|tt|sa|tn|es|gb|lk|va|ch|zw|sy|tw|tl|tg|tr|um|vi|ug|us|uy|ve|af|ax|dz|ad|am|aw|at|az|bz|bj|bt|bo|br|io|bg|bf|kh|ky|cl|km|cg|ck|hr|cu|cw|cz|fj|tf|gl|gy|ht|hk|ir|it|jo|kw|lb|ls|lt|lu|mg|ml|mt|mr|fm|md|me|mm|na|nc|nz|kp|mp|ps|pa|pe|lc|mf|ws|sn|so|kr|ss|sz|tk|tv|ua|ae|wf|eh|ye|intl)$/;
-    </script>
-    {% endif %}
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: '32x32' }}">
@@ -40,6 +33,13 @@
     {% render 'meta-tags' %}
     <script src="{{ 'jquery-3.6.0.min.js' | asset_url }}"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    {% assign mlveda_code_flag = true %}    
+    {% if mlveda_code_flag == true %}
+    <script>
+      $m = $.noConflict(true);
+      window.pattern = /^(do|sv|ee|fi|fr|gd|gp|gg|hu|is|im|il|kz|ke|kg|la|mo|mk|mh|mq|ms|ma|nl|ne|ng|no|pw|py|pl|pt|kn|st|sc|sg|sk|za|sr|sj|th|to|tm|tc|uz|vu|vn|zm|af|al|as|ao|ai|an|ag|ar|as|bb|by|aq|bm|bq|bv|au|vg|bs|cv|bh|cf|bd|cn|be|co|ba|ci|bw|dk|bn|dm|bi|cd|cm|ec|ca|eg|td|gq|cx|er|cc|et|cr|eu|ga|gh|cy|gi|dj|gu|eu|gt|fk|gn|fo|gw|gf|hm|pf|hn|gm|iq|ge|ie|de|jm|gr|jp|in|ki|id|lr|je|mw|lv|my|ly|mu|li|yt|mv|mx|mc|mn|mz|nr|np|ni|nu|nf|pk|na|ph|oc|pn|om|qa|pg|re|pr|sh|ro|ru|rw|sm|bl|rs|pm|sx|vc|gs|sa|sd|sl|se|si|tj|tz|sb|tt|sa|tn|es|gb|lk|va|ch|zw|sy|tw|tl|tg|tr|um|vi|ug|us|uy|ve|af|ax|dz|ad|am|aw|at|az|bz|bj|bt|bo|br|io|bg|bf|kh|ky|cl|km|cg|ck|hr|cu|cw|cz|fj|tf|gl|gy|ht|hk|ir|it|jo|kw|lb|ls|lt|lu|mg|ml|mt|mr|fm|md|me|mm|na|nc|nz|kp|mp|ps|pa|pe|lc|mf|ws|sn|so|kr|ss|sz|tk|tv|ua|ae|wf|eh|ye|intl)$/;
+    </script>
+    {% endif %}
     <script src="https://conditional-redirect.spicegems.com/js/scripttags/hedgrenstore/static/country-redirect.js?shop=hedgrenstore" defer="defer"></script>
     {{ content_for_header }}
     
