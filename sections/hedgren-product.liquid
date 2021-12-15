@@ -163,9 +163,9 @@
         data: {data: JSON.stringify(mlvedaData)},
     })
     .done(function( response ) { 
-        $('.product-font.money').text("€"+response.data[0].price.toFixed(2).replace(/\.?00+$/, ''));
+        $('.product-font.money').text("€"+parseFloat(response.data[0].price).toFixed(2).replace(/\.?00+$/, ''));
         if(typeof response.data[0].compare_at_price !== "undefined") {
-         $('.product-font.save-money').text("€"+response.data[0].compare_at_price.toFixed(2).replace(/\.?00+$/, ''));
+         $('.product-font.save-money').text("€"+parseFloat(response.data[0].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
         } 
     })
     .fail(function(error) {
