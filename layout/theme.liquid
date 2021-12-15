@@ -325,7 +325,15 @@
       }
     </script>
   
-
+    {% unless settings.show_multiple_currencies %}
+    <script type="text/javascript">
+      window.default_currency_format = {{ shop.money_format | json }};
+    </script>
+    {% endunless %}
+    {% include 'mlveda-multipricing-updateprice' %}
+    
+    
+    
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
