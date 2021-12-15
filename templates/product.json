@@ -120,11 +120,22 @@
             "testimonial_text": "Wonderful bag very easy and light to wear. What I was looking for!",
             "author": "loredana c."
           }
+        },
+        "0a749d23-d061-4926-b252-8c8e95f62037": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HIC112_155_08_07_a4c63c46-e998-4706-9a14-e1cd8a76e94e.jpg",
+            "rating": 4,
+            "prod_title": "LEONCE Small Vertical Crossover RFID",
+            "testimonial_text": "I own this bag since 3 years and I use it everyday. It's like new, and it always looks fine, in every context - work, going for a walk, dancing. I love the compartments. I had a similar bigger Hedgren before which used for more than 10 years.",
+            "author": "Corinna"
+          }
         }
       },
       "block_order": [
         "904cd6de-3041-42fd-840c-084496eac604",
-        "6da15cbe-ef07-43e4-b8c7-6899c13378b1"
+        "6da15cbe-ef07-43e4-b8c7-6899c13378b1",
+        "0a749d23-d061-4926-b252-8c8e95f62037"
       ],
       "settings": {
         "title": "Reviews",
