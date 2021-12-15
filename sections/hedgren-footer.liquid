@@ -5,6 +5,10 @@
 <footer>
   <div class="footer-newsletter">
     <form id="email_signup" class="klaviyo_styling klaviyo_gdpr_embed_RaHJHf" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
+      
+      <h3>
+        Subscribe to hedgren
+      </h3>
       <div class="klaviyo_messages">
         <div id="f-success" class="success_message form-success text-center note" style="display:none;">Newsletter subscribed successfully</div>
         <div id="f-error" class="error_message form-error text-center note" style="display:none;">Incorrecte Email</div>
@@ -13,9 +17,6 @@
       <input type="hidden" name="g" value="RaHJHf">
       <input type="hidden" name="$fields" value="$consent">
       <input type="hidden" name="$list_fields" value="$consent">
-      <h3>
-        Subscribe to hedgren
-      </h3>
       <div class="input-group">
         <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="email@example.com" name="email" id="Email" aria-label="email" autocorrect="off" autocapitalize="off">
         <input type="submit" name="commit" id="Subscribe" value="Subscribe">
