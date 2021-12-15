@@ -428,7 +428,8 @@
       current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.images[0]);
       current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.images[1]);
       
-      var mlvedaData = {"data": ["url":current.parent().data('url')+".js"]};
+            var mlvedaData = {"data": []};
+            mlvedaData.data.push({"url":current.parent().data('url')});
       $('.product-font.money').css('visibility','hidden');
       $('.product-font.save-money').css('visibility','hidden');
       setTimeout(function(){
