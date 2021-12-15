@@ -204,6 +204,18 @@
     },
     "1639575597225bb535": {
       "type": "hedgren-faq",
+      "blocks": {
+        "12b7fc87-09fe-4451-81f0-bced8a1d8ee5": {
+          "type": "faq",
+          "settings": {
+            "question": "RFID Blocking Technology",
+            "answer": "Skimming fingers beware! This digital information is protected.\n<br><br>\nYour RFID pocket enables cards against unauthorized RFID readers. Many credit cards, passports and other RFID enabled media contain RFID chips that record your personal information, if you do not use protective measures with RFID pockets, identity thieves can obtain your credit card data using hidden RFID readers without you ever knowing."
+          }
+        }
+      },
+      "block_order": [
+        "12b7fc87-09fe-4451-81f0-bced8a1d8ee5"
+      ],
       "settings": {
         "background": "normal-bg",
         "heading": "Features",
