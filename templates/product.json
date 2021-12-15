@@ -130,12 +130,23 @@
             "testimonial_text": "I own this bag since 3 years and I use it everyday. It's like new, and it always looks fine, in every context - work, going for a walk, dancing. I love the compartments. I had a similar bigger Hedgren before which used for more than 10 years.",
             "author": "Corinna"
           }
+        },
+        "6b95d9aa-9051-4d27-bfee-13114fab575b": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HIC11L_316_09_07_53cfb374-427a-456f-a65f-89d940b179ae.jpg",
+            "rating": 4,
+            "prod_title": "VOGUE L Backpack Large RFID",
+            "testimonial_text": "An amazing high quality backpack I always buy Hedgren products as they are so well made.",
+            "author": "Katharine P."
+          }
         }
       },
       "block_order": [
         "904cd6de-3041-42fd-840c-084496eac604",
         "6da15cbe-ef07-43e4-b8c7-6899c13378b1",
-        "0a749d23-d061-4926-b252-8c8e95f62037"
+        "0a749d23-d061-4926-b252-8c8e95f62037",
+        "6b95d9aa-9051-4d27-bfee-13114fab575b"
       ],
       "settings": {
         "title": "Reviews",
