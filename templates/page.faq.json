@@ -206,9 +206,9 @@
       "type": "hedgren-faq",
       "settings": {
         "background": "normal-bg",
-        "heading": "",
-        "sec_id": "",
-        "button_label": "Button label",
+        "heading": "Features",
+        "sec_id": "Features",
+        "button_label": "",
         "button_link": ""
       }
     }
