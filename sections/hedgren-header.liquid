@@ -91,7 +91,7 @@
                 {% assign colxn = all_products[handlesxn.last] %}
                 {% endif %}
                 <a href="{{ colxn.url }}">
-                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" usemap="{{ colxn.featured_image.height }}" useabc="{{ colxn.featured_image.width }}" {% if colxn.featured_image.height > colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
+                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" usemap="{{ colxn.featured_image.height }}" useabc="{{ colxn.featured_image.width }}" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
                   <div class="nav-title">{{ colxn.title }}</div>
                 </a>
               </div>
@@ -130,7 +130,7 @@
                 {% assign colxn = all_products[handlesxn.last] %}
                 {% endif %}
                 <a href="{{ colxn.url }}">
-                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" usemap="{{ colxn.featured_image.height }}" useabc="{{ colxn.featured_image.width }}" {% if colxn.featured_image.height > colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
+                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" usemap="{{ colxn.featured_image.height }}" useabc="{{ colxn.featured_image.width }}" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
                   <div class="nav-title">{{ colxn.title }}</div>
                 </a>
               </div>
@@ -230,7 +230,7 @@
                 {% assign colxn = all_products[handlesxn.last] %}
                 {% endif %}
                 <a href="{{ colxn.url }}">
-                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" usemap="{{ colxn.featured_image.height }}" useabc="{{ colxn.featured_image.width }}" {% if colxn.featured_image.height > colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
+                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" usemap="{{ colxn.featured_image.height }}" useabc="{{ colxn.featured_image.width }}" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
                   <div class="nav-title">{{ colxn.title }}</div>
                 </a>
               </div>
