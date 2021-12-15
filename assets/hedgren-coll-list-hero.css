@@ -47,6 +47,17 @@
 .hedgren-collections-wrapper .coll-card {
     height: auto;
 }
+@media(min-width: 993px){
+  .hedgren-collections-wrapper .collection-list-wrap {
+    flex-wrap: wrap;
+    width: calc( 100% + 26.6px );
+  }
+  .hedgren-collections-wrapper .coll-card {
+    margin: 0 13.3px;
+    width: calc( 33.333% - 26.6px);
+    margin-bottom: 40px;
+  }
+}
 @media(max-width: 992px){
 	.hedgren-collections-wrapper .coll-card {
     width: 100%;
