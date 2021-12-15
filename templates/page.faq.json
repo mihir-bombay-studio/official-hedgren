@@ -211,10 +211,18 @@
             "question": "RFID Blocking Technology",
             "answer": "Skimming fingers beware! This digital information is protected.\n<br><br>\nYour RFID pocket enables cards against unauthorized RFID readers. Many credit cards, passports and other RFID enabled media contain RFID chips that record your personal information, if you do not use protective measures with RFID pockets, identity thieves can obtain your credit card data using hidden RFID readers without you ever knowing."
           }
+        },
+        "b98c87d5-2b40-4950-a3f0-d135f0695a80": {
+          "type": "faq",
+          "settings": {
+            "question": "How To Set Your TSA-LOCK",
+            "answer": "The original number is 0-0-0.\n<br><br>\nTo set your personal combination, follow these steps: \n<br><br>\n1. Put the dials at its original numbers: 0-0-0.<br>\n2. Push the button A to the end as the arrow showed, hold it until you finish the next step.<br>\n3. Set your combination by turning the dials B, for example: 8-8-8.<br>\n4. Now you can release the button A, and let it spring back.<br><br>\nYour personal code is now set. Note it down in a safe place in case you forget it. If you wish to change the combination, repeat steps 1-4.\n<br><br>\nThere is no key included with this lock, only custom authoroties have the approved key. For more info, go to www.hedgren.com."
+          }
         }
       },
       "block_order": [
-        "12b7fc87-09fe-4451-81f0-bced8a1d8ee5"
+        "12b7fc87-09fe-4451-81f0-bced8a1d8ee5",
+        "b98c87d5-2b40-4950-a3f0-d135f0695a80"
       ],
       "settings": {
         "background": "normal-bg",
