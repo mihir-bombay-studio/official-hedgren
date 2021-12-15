@@ -152,7 +152,8 @@
       }
     });
   });
-  
+  $('.product-font.money').css('visibility','hidden');
+  $('.product-font.save-money').css('visibility','hidden');
   var mlvedaData = {"data": [{"url":"{{ product.url }}"}]};
   var mlvedaCallUrl = "//www.mlveda.com/ShopifyApps/ShopifyMultiPricing/getPrices?shop=hedgrenstore.myshopify.com";         
   $.ajax({
