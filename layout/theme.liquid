@@ -337,7 +337,15 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  
+    
+    {% if settings.mlvedaACS_enable %}
+   <script>
+      $acs = $.noConflict(true);
+     mlflag1 = false;
+     mlflag2 = false;
+   </script>
+    {% endif %}
+  {% include 'mlveda-currencies' %}
 	{{ shop.metafields.loox["global_html_body"] }}
 </body>
 </html>
