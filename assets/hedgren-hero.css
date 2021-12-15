@@ -200,6 +200,15 @@
 .add-direct.no-avaliable svg {
   display: none;
 }
+span.sub-head {
+  display: block;
+  font-family: 'Circular';
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  width: 100%;
+  line-height: normal;
+}
 @media(max-width: 992px){
 
   .hero, .hero.alternate-hero {
