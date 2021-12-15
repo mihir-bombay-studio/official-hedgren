@@ -155,16 +155,19 @@
   
   var mlvedaData = {"data": [{"url":"{{ product.url }}"}]};
   var mlvedaCallUrl = "//www.mlveda.com/ShopifyApps/ShopifyMultiPricing/getPrices?shop=hedgrenstore.myshopify.com";         
-  var abcd = $.ajax({
+  $.ajax({
      url: mlvedaCallUrl,
         type: "POST",
         dataType: "json",
         timeout: 10000,
         data: {data: JSON.stringify(mlvedaData)},
-        success: function(response) {
+    })
+        .done(function( response ) { 
               $('.product-font.money').text(response.data[0].price);
-                   }
-   });
+                   })
+      .fail(function(error) {
+        console.log( error );
+      });
   
   $('.add-to-cart').click(function() {
     var formData = {
