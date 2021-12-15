@@ -6,8 +6,8 @@
   <div class="footer-newsletter">
     <form id="email_signup" class="klaviyo_styling klaviyo_gdpr_embed_RaHJHf" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
       <div class="klaviyo_messages">
-        <div class="success_message form-success text-center note" style="display:none;">Newsletter subscribed successfully</div>
-        <div class="error_message form-error text-center note" style="display:none;">Incorrecte Email</div>
+        <div id="f-success" class="success_message form-success text-center note" style="display:none;">Newsletter subscribed successfully</div>
+        <div id="f-error" class="error_message form-error text-center note" style="display:none;">Incorrecte Email</div>
       </div>
 
       <input type="hidden" name="g" value="RaHJHf">
@@ -30,8 +30,8 @@
     <script type="text/javascript">
       KlaviyoSubscribe.attachToForms('#email_signup', {
         hide_form_on_success: true,
-        success_message: "Gelukt! Je ontvangt een bevestigingsmail (kan in spam zitten).",
-        error_message: "Falsche Email",
+        success_message: $('#f-success').text(),
+        error_message: $('#f-error').text(),
         extra_properties: {
           $source: '$embed',
           $method_type: "Klaviyo Form",
