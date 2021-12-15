@@ -1,6 +1,6 @@
 {{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
-
-<div class="hero" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
+{% assign aspectratio = section.settings.image.width | divided_by: section.settings.image.height %}
+<div class="hero {% if aspectratio > 2 %}alternate-hero{% endif %}" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
   <div class="container flex-box justify-end">
     <h1 class="hero-text">
       {{ section.settings.heading }}
