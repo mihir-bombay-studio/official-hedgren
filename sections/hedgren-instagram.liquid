@@ -6,7 +6,7 @@
     <div class="insta-images flex-box">
     	{% for block in section.blocks %}
       		{% if block.type == 'imgs' %}
-      <a class="insta-img{% if forloop.index > 6 %} no-t-m{% endif %}" href="{{ block.settings.link }}" target="_blank" title="Hedgren Image" rel="noopener noreferrer"><img src="{{ block.settings.img | img_url: '360x' }}" loading="lazy" alt="{{ block.settings.img.alt | default: block.settings.img.src }}"></a>
+      <a class="insta-img{% if forloop.index > 6 %} no-t-m{% endif %}" href="{{ block.settings.link }}" target="_blank" title="Hedgren Image" rel="noopener noreferrer"><img src="{{ block.settings.img | img_url: '450x' }}" loading="lazy" alt="{{ block.settings.img.alt | default: block.settings.img.src }}"></a>
       		{% endif %}
       	{% endfor %}
     </div>
