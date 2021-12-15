@@ -3,6 +3,7 @@
 <div class="hero {% if aspectratio > 2 %}alternate-hero{% endif %}" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
   <div class="container flex-box justify-end">
     <h1 class="hero-text">
+      <span class="sub-head">{{ section.settings.subheading }}</span>
       {{ section.settings.heading }}
     </h1>
   </div>
