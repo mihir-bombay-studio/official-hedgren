@@ -166,7 +166,7 @@
           "type": "imgs",
           "settings": {
             "img": "shopify:\/\/shop_images\/Image_2x_96d15e0d-f319-4820-81a0-874f8fbcd915.png",
-            "link": "https:\/\/www.instagram.com\/p\/CWIhMhADYRk\/"
+            "link": ""
           }
         },
         "7bdeb531-b0e1-4ac7-b2b0-eb0fd05e0ac6": {
@@ -203,27 +203,6 @@
             "img": "shopify:\/\/shop_images\/Image_2x_96d15e0d-f319-4820-81a0-874f8fbcd915.png",
             "link": "https:\/\/www.instagram.com\/p\/CWIhMhADYRk\/"
           }
-        },
-        "17782ff0-8bee-4a92-9a23-c4b316421492": {
-          "type": "imgs",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
-            "link": "https:\/\/www.instagram.com\/p\/CWIhMhADYRk\/"
-          }
-        },
-        "34535622-5b2b-4e87-ad88-94fd540bc757": {
-          "type": "imgs",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
-            "link": "https:\/\/www.instagram.com\/p\/CWIhMhADYRk\/"
-          }
-        },
-        "f6f601fc-a7a8-42ca-8e81-89fe8c4e7383": {
-          "type": "imgs",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Commute-FB-cover-1.jpg",
-            "link": "https:\/\/www.instagram.com\/p\/CWIhMhADYRk\/"
-          }
         }
       },
       "block_order": [
@@ -232,10 +211,7 @@
         "73772604-fe31-41d4-8414-499b8d7b4826",
         "103d4d2d-a896-4025-ac77-ea68951f399e",
         "5010d499-7996-4c3c-9961-3b34b04958ae",
-        "e1e8d6f7-0ab6-4cb3-a8e7-e24d8597ec1b",
-        "17782ff0-8bee-4a92-9a23-c4b316421492",
-        "34535622-5b2b-4e87-ad88-94fd540bc757",
-        "f6f601fc-a7a8-42ca-8e81-89fe8c4e7383"
+        "e1e8d6f7-0ab6-4cb3-a8e7-e24d8597ec1b"
       ],
       "settings": {
         "heading": "#hedgren"
