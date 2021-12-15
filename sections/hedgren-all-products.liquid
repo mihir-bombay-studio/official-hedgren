@@ -566,13 +566,13 @@
   })
   .done(function( response ) { 
 
-    $('.hedgren-color-active').each(function(index){
+    $('.hedgren-color-active').each(function(index, element){
       $(this).closest('.hero-product').find('.product-font.money').text("€"+parseFloat(response.data[index].price).toFixed(2).replace(/\.?00+$/, ''));
       if(typeof response.data[index].compare_at_price !== "undefined") {
         $(this).closest('.hero-product').find('.product-font.save-money').text("€"+parseFloat(response.data[index].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
       } 
+      $(this).closest('.hero-product').find('.add-to-cart').data('variant',response.data[index].variantId);
     });
-    $(this).closest('.hero-product').find('.add-to-cart').data('variant',response.data[index].variantId);
     $('.product-font.money').css('visibility','visible');
     $('.product-font.save-money').css('visibility','visible');
   })
