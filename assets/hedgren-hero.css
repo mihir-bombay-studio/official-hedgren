@@ -209,6 +209,12 @@ span.sub-head {
   width: 100%;
   line-height: normal;
 }
+.alternate-hero .justify-end {
+  justify-content: flex-start;
+}
+.alternate-hero .justify-end .hero-text {
+  text-align: left;
+}
 @media(max-width: 992px){
 
   .hero, .hero.alternate-hero {
