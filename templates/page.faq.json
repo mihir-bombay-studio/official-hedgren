@@ -182,11 +182,23 @@
     },
     "1639575567a170632b": {
       "type": "hedgren-faq",
+      "blocks": {
+        "8ab5cfab-f3e6-49ab-9f02-e3e0f93a22d6": {
+          "type": "faq",
+          "settings": {
+            "question": "Cleaning Your Hedgren Bag",
+            "answer": "Check out the following instructions, in case of emergency only.*\n\nClean the outside fabric with a slightly wet cloth. Do not bleach. Do not soak in water. Hang in a shady place. Avoid moistening the leather parts when cleaning.”\nWipe with a soft &amp; dry cloth. Do not use any chemical cleaners to care for the product.”\n\nPlease check the product details of your particular bag for more customized care instructions: www.wikihow.com\/Wash-a-Backpack\n\n* Emergencies may include, but are not limited to: coffee spills, luggage conveyer belt dust, cosmetics leaks, globetrotting wear-and-tear."
+          }
+        }
+      },
+      "block_order": [
+        "8ab5cfab-f3e6-49ab-9f02-e3e0f93a22d6"
+      ],
       "settings": {
         "background": "normal-bg",
-        "heading": "",
-        "sec_id": "",
-        "button_label": "Button label",
+        "heading": "Cleaning",
+        "sec_id": "Cleaning",
+        "button_label": "",
         "button_link": ""
       }
     },
