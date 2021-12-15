@@ -17,8 +17,7 @@
         Subscribe to hedgren
       </h3>
       <div class="input-group">
-        <input type="hidden" name="contact[tags]" value="newsletter">
-        <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="email@example.com" name="contact[email]" id="Email" aria-label="email" autocorrect="off" autocapitalize="off">
+        <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="email@example.com" name="email" id="Email" aria-label="email" autocorrect="off" autocapitalize="off">
         <input type="submit" name="commit" id="Subscribe" value="Subscribe">
       </div>
     </form>
