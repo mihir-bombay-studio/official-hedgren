@@ -160,11 +160,23 @@
     },
     "1639575557eade9ad7": {
       "type": "hedgren-faq",
+      "blocks": {
+        "f52644d0-845f-4e9b-b953-59a3e4141b76": {
+          "type": "faq",
+          "settings": {
+            "question": "Our Warranty Service",
+            "answer": "Hedgren provides a two-year warranty (5 years for hard-shell luggage) against material and manufacturing defects, which is valid from the date of purchase. If you find such a defect within the warranty period, bring the product to your local Hedgren dealer. Hedgren will repair or replace the product at its own discretion and free of charge. But don’t forget: for your warranty claim to be valid, you must be able to show a proof of purchase in the form of a warranty certificate. This will either have been filled in by the salesperson or accompanied by a receipt along with the date of purchase.\n\nImportant: the warranty is limited to the purchase price of the product. So, it does not cover damage caused by any of the following: incorrect use, negligence, carelessness, scratches, tearing, exposure to extreme temperatures, solvents, acid or water, normal wear, damage by normal use or transportation damage (at airline companies for example).\n\nIf the product is damaged due to one of those causes, you can of course still contact your Hedgren dealer. He will provide advice and offer to repair the product against the payment for such repair. Material and production defects found outside the warranty period can similarly be repaired against the payment for such repair (depending on the availability of the parts, that is).\n\nNotice: repairs carried out by service centres which are not approved by Hedgren are not covered by this warranty!"
+          }
+        }
+      },
+      "block_order": [
+        "f52644d0-845f-4e9b-b953-59a3e4141b76"
+      ],
       "settings": {
         "background": "normal-bg",
-        "heading": "",
-        "sec_id": "",
-        "button_label": "Button label",
+        "heading": "Warranty",
+        "sec_id": "Warranty",
+        "button_label": "",
         "button_link": ""
       }
     },
