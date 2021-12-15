@@ -65,21 +65,21 @@
           "type": "faq",
           "settings": {
             "question": "Where do you deliver?",
-            "answer": "Currently Hedgren delivers to customers who have an address in Albania, Austria, Belgium, Bosnia & Herzegovina, Croatia, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Italy, Ireland, Luxembourg, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, the Netherlands, Ukraine and United Kingdom."
+            "answer": "Currently Hedgren delivers to customers who have an address in Albania, Austria, Belgium, Bosnia &amp; Herzegovina, Croatia, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Italy, Ireland, Luxembourg, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, the Netherlands, Ukraine and United Kingdom."
           }
         },
         "b8c4e5d2-b90c-44d9-a07f-fda24127364a": {
           "type": "faq",
           "settings": {
             "question": "Is there a shipping charge for orders?",
-            "answer": "We offer FREE SHIPPING on all orders to residential addresses in Austria, Belgium, Denmark, France mainland, Germany, Luxembourg and the Netherlands. Deliveries to residential addresses in Albania, Bosnia & Herzegovina, Croatia, Czech Republic, Estonia, Finland, Greece,  Hungary, Ireland, Italy, Latvia, Lithuania, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom and also the islands are subject to an actual calculated transport cost which is shown in the shipping method section of the checkout process.  Please note that we have no control over custom matters\/import duties. Delivery to countries outside the European Union might involve additional custom costs."
+            "answer": "We offer FREE SHIPPING on all orders to residential addresses in Austria, Belgium, Denmark, France mainland, Germany, Luxembourg and the Netherlands. Deliveries to residential addresses in Albania, Bosnia &amp; Herzegovina, Croatia, Czech Republic, Estonia, Finland, Greece,  Hungary, Ireland, Italy, Latvia, Lithuania, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom and also the islands are subject to an actual calculated transport cost which is shown in the shipping method section of the checkout process.  \n<br><br>\nPlease note that we have no control over custom matters\/import duties. Delivery to countries outside the European Union might involve additional custom costs."
           }
         },
         "33347926-6f4b-48dc-bf78-b4a5894de59a": {
           "type": "faq",
           "settings": {
             "question": "When will I receive my order?",
-            "answer": "We deliver within 1 to 7 business days provided receipt of payment is before 2 PM Central European Time (i.e. Payment receipt before 2 PM on Monday and your order will arrive on Tuesday if the shipping address is located in Belgium. Any order after 2 PM with location Belgium on Monday will arrive on Wednesday).  Albania: 5 to 6 business days; Austria: 2 business days; Belgium: 1 business day; Bosnia & Herzegovina: 5 to 6 business days; Croatia: 3 business days; Czech Republic: 2 business days; Denmark: 2 business days; Estonia: 4 to 5 business days; Finland: 3 to 5 business days; France: 1 to 2 business days; Germany: 1 to 2 business days; Greece: 4 business days; Hungary: 3 business days; Italy: 2 business days; Ireland: 3 business days; Latvia: 3 to 4 business days; Lithuania: 3 to 4 business days; Luxembourg: 1 business day; Macedonia: 4 to 5 business days; Norway: 3 to 5 business days; Poland: 2 business days; Portugal: 3 to 4 business days; Romania: 4 business days; Russia: 5 to 6 business days; Serbia: 3 business days; Slovakia: 3 business days; Slovenia: 2 business days; Spain: 3 to 5 business days; Sweden: 2 to 5 business days; Switzerland: 3 to 5 business days; the Netherlands: 1 business day; Ukraine: 4 to 5 business days; United Kingdom: Normally 3 to 4 business days, but due to customs clearance the release of the package might take up to 10 working days."
+            "answer": "We deliver within 1 to 7 business days provided receipt of payment is before 2 PM Central European Time (i.e. Payment receipt before 2 PM on Monday and your order will arrive on Tuesday if the shipping address is located in Belgium. Any order after 2 PM with location Belgium on Monday will arrive on Wednesday).  Albania: 5 to 6 business days; Austria: 2 business days; Belgium: 1 business day; Bosnia &amp; Herzegovina: 5 to 6 business days; Croatia: 3 business days; Czech Republic: 2 business days; Denmark: 2 business days; Estonia: 4 to 5 business days; Finland: 3 to 5 business days; France: 1 to 2 business days; Germany: 1 to 2 business days; Greece: 4 business days; Hungary: 3 business days; Italy: 2 business days; Ireland: 3 business days; Latvia: 3 to 4 business days; Lithuania: 3 to 4 business days; Luxembourg: 1 business day; Macedonia: 4 to 5 business days; Norway: 3 to 5 business days; Poland: 2 business days; Portugal: 3 to 4 business days; Romania: 4 business days; Russia: 5 to 6 business days; Serbia: 3 business days; Slovakia: 3 business days; Slovenia: 2 business days; Spain: 3 to 5 business days; Sweden: 2 to 5 business days; Switzerland: 3 to 5 business days; the Netherlands: 1 business day; Ukraine: 4 to 5 business days; United Kingdom: Normally 3 to 4 business days, but due to customs clearance the release of the package might take up to 10 working days."
           }
         },
         "6a71d798-3d2c-4b9a-9808-c6c3000a7791": {
@@ -100,7 +100,7 @@
           "type": "faq",
           "settings": {
             "question": "What payment methods can I use?",
-            "answer": "We offer Visa, Mastercard, AMEX, Maestro, iDEAL, Bancontact\/Mister Cash, SOFORT Banking, Bitcoin, Belfius & KBC\/CBC."
+            "answer": "We offer Visa, Mastercard, AMEX, Maestro, iDEAL, Bancontact\/Mister Cash, SOFORT Banking, Bitcoin, Belfius &amp; KBC\/CBC."
           }
         }
       },
