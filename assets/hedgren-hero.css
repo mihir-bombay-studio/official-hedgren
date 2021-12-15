@@ -8,6 +8,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.hero.alternate-hero {
+  height: 40vw;
+  min-height: 600px;
+}
 .hero-text {
   display: flex;
   align-items: center;
@@ -198,7 +202,7 @@
 }
 @media(max-width: 992px){
 
-  .hero {
+  .hero, .hero.alternate-hero {
     height: calc(90vh - 135px);
     min-height: 450px;
   }
