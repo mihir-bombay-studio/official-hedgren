@@ -430,11 +430,11 @@
       
             var mlvedaData = {"data": []};
             mlvedaData.data.push({"url":current.parent().data('url')});
-      $('.product-font.money').css('visibility','hidden');
-      $('.product-font.save-money').css('visibility','hidden');
+      current.closest('.hero-product').find('.product-font.money').css('visibility','hidden');
+      current.closest('.hero-product').find('.product-font.save-money').css('visibility','hidden');
       setTimeout(function(){
-        $('.product-font.money').css('visibility','visible');
-        $('.product-font.save-money').css('visibility','visible');
+        current.closest('.hero-product').find('.product-font.money').css('visibility','visible');
+        current.closest('.hero-product').find('.product-font.save-money').css('visibility','visible');
       }, 4000);
       var mlvedaCallUrl = "//www.mlveda.com/ShopifyApps/ShopifyMultiPricing/getPrices?shop=hedgrenstore.myshopify.com";         
       $.ajax({
