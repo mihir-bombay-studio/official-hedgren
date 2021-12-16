@@ -15,7 +15,7 @@
     </div>
     <div class="discover-coll-sub-heading no-t-m">{{ section.settings.subtitle }}</div>
     <div class="featured-collections">
-      {% if settings.h_collection1 %}
+      {% if settings.h_collection1 != blank %}
       {% assign coll = settings.h_collection1 %}{% unless coll.handle == collection.handle %}
     <div class="featured-coll-card">
       {% assign collection_handle = settings.h_collection1 %}
@@ -35,7 +35,7 @@
       </div>
     </div>{% endunless %}
       {% endif %}
-      {% if settings.h_collection2 %}
+      {% if settings.h_collection2 != blank %}
       {% assign coll = settings.h_collection2 %}{% unless coll.handle == collection.handle %}
     <div class="featured-coll-card">
       {% assign collection_handle = settings.h_collection2 %}
