@@ -46,6 +46,9 @@
   width: 100% !important;
   margin: 0 auto !important;
 }
+.hidden.shg-lightbox {
+  display: none;
+}
 @media(max-width: 992px){
   .policies-headings-wrapper{
     padding-top: 40px;
