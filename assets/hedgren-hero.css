@@ -226,6 +226,10 @@ span.sub-head {
 .header-inner-wrapper hero-text {
   margin: 0;
 }
+.header-inner-wrapper a {
+  margin-right: auto;
+  margin-left: 0;
+}
 @media(max-width: 992px){
 
   .hero, .hero.alternate-hero {
