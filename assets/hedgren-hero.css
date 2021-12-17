@@ -69,12 +69,12 @@
 .hero-product-images-block {
   position: relative;
 }
-.hero-product-images-block img:first-child {
+.hero-product-images-block img:last-child {
   position: absolute;
   opacity: 0;
   transition: .4s ease;
 }
-.hero-product:hover .hero-product-images-block img:first-child {
+.hero-product:hover .hero-product-images-block img:last-child {
   opacity: 1;
 }
 .hero-product-images-block .variants {
