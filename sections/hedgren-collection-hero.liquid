@@ -280,7 +280,8 @@
     {% for block in section.blocks %}
     <div class="collection-features flex-box {% unless forloop.first %}no-disp{% endunless %} collection-features{{ forloop.index }}">
       {% if block.settings.feature_heading1 != blank %}
-      <div class="feature-card selected">
+      {% assign dc = block.settings.feature_heading1 | downcase %}
+      <div class="feature-card {% if dc contains "sustainable" %}selected{% endif %}">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img1 | image_url: width: 350 }}">
         </div>
@@ -291,7 +292,8 @@
       </div>
       {% endif %}
       {% if block.settings.feature_heading2 != blank %}
-      <div class="feature-card">
+      {% assign dc = block.settings.feature_heading2 | downcase %}
+      <div class="feature-card {% if dc contains "sustainable" %}selected{% endif %}">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img2 | image_url: width: 350 }}">
         </div>
