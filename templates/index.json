@@ -212,7 +212,7 @@
           "type": "testimonial",
           "settings": {
             "img": "shopify:\/\/shop_images\/HIC112_155_08_07_a4c63c46-e998-4706-9a14-e1cd8a76e94e.jpg",
-            "rating": 4,
+            "rating": 5,
             "prod_title": "LEONCE Small Vertical Crossover RFID",
             "testimonial_text": "I own this bag since 3 years and I use it everyday. It's like new, and it always looks fine, in every context - work, going for a walk, dancing. I love the compartments. I had a similar bigger Hedgren before which used for more than 10 years.",
             "author": "Corinna"
@@ -282,7 +282,7 @@
           "type": "imgs",
           "settings": {
             "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.11.13.png",
-            "link": "shopify:\/\/collections\/lineo"
+            "link": ""
           }
         }
       },
