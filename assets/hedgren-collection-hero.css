@@ -28,6 +28,20 @@
   width: 100%;
   height: 40vh;
 }
+.hero-productsx {
+  margin: 0 -13.3px;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero-productsx .hero-product {
+  margin: 0 13.3px;
+  width: calc(33.333% - 26.6px);
+  margin-bottom: 29px;
+}
+.hero-productsx .hero-product img {
+  display: block;
+}
 @media (max-width: 992px) {
   .hedgren-collection-hero .discover-coll-main-heading {
     font-size: 36px;
