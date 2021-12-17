@@ -6,6 +6,8 @@
         "image": "shopify:\/\/shop_images\/GIVING_4.png",
         "heading": "Giving",
         "subheading": "It's the season of",
+        "headinglink": "shopify:\/\/collections\/all",
+        "headinglinktext": "Shop All Products",
         "design2": true,
         "addtext": "ADD TO CART",
         "outtext": "OUT OF STOCK",
