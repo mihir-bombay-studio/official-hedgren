@@ -109,7 +109,7 @@
               {% elsif childlink.title != "(col)" %}
               {% if childlink.url == "#" %}
               <li class="link-heading">
-                <a href="#">{{ childlink.title | escape }}</a>
+                <a href="#" onclick="return false;">{{ childlink.title | escape }}</a>
               </li>
               {% else %}
               <li class="link-secondary">
@@ -196,7 +196,7 @@
 
   <div class="header-drawer no-d">
     <div class="mobile-menu-item-wrap">
-      <a href="#" class="drawer-menu-item-with-img">
+      <a href="/collections/all" class="drawer-menu-item-with-img">
         <div class="drawer-menu-item-img"><img src="https://cdn.shopify.com/s/files/1/1882/4247/files/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png?v=1636715308" loading="lazy"></div>
         <div class="drawer-menu-item-img-text">SHOP ALL <span class="link-arows">{% include "svg-arrow-white-small" %}{% include "svg-arrow-white-small" %}</span></div>
       </a>
