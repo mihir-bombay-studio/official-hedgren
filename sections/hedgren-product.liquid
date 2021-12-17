@@ -29,6 +29,7 @@
         </div>          
         {% endfor %}
         <div class="load-more-images">LOAD MORE IMAGES</div>
+        <div class="load-less-images no-disp">SHOW LESS IMAGES</div>
       </div>
       <div class="product-imgs-mobile no-d">
       	{% for media in product.media %}
@@ -129,8 +130,16 @@
  $(".product-img:lt(4)").show();
   
   $('.load-more-images').click(function() {
-  	$(".product-img").show();
+    $(".product-img").show();
     $(this).addClass('no-disp');
+    $('.load-less-images').removeClass('no-disp');
+  });
+
+  $('.load-less-images').click(function() {
+    $(".product-img").hide();
+    $(".product-img:lt(4)").show();
+    $(this).addClass('no-disp');
+    $('.load-more-images').removeClass('no-disp');
   });
   
   
