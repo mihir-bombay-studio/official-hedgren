@@ -248,7 +248,7 @@
               {% elsif childlink.title != "(col)" %}
               {% if childlink.url == "#" %}
               <li class="link-heading">
-                <a href="#">{{ childlink.title | escape }}</a>
+                <a href="#" onclick="return false;">{{ childlink.title | escape }}</a>
               </li>
               {% else %}
               <li class="link-secondary">
@@ -270,16 +270,16 @@
     <div class="mobile-menu-item-wrap">
       <div class="mobile-menu-links">
     	<a href="/account">LOG IN / REGISTER <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        <a href="#">CONTACT <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        <a href="#">FAQ <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        <a href="#">STORE LOCATOR <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
+        <a href="/pages/contact-us">CONTACT <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
+        <a href="/pages/faq">FAQ <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
+        <a href="/pages/store-locator">STORE LOCATOR <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
       </div>
     </div>
     <div class="mobile-menu-links">
-        <a href="#">OUR STORY <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        <a href="#">STORIES <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        <a href="#">LOYALTY PROGRAM <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-      	<a class="lang" href="#">LANGUAGE - ENGLISH</a>
+        <a href="/pages/our-story">OUR STORY <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
+        <a href="/blogs/stories">STORIES <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
+        <a href="/pages/community">LOYALTY PROGRAM <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
+      	<a class="lang" href="#" onclick="return false;" title="coming soon">LANGUAGE - ENGLISH</a>
       </div>
     <div class="social-media-icons">
       <div class="social-icon">
