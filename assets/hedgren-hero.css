@@ -223,7 +223,7 @@ span.sub-head {
   align-items: center;
   justify-content: center;
 }
-.header-inner-wrapper hero-text {
+.header-inner-wrapper .hero-text {
   margin: 0;
 }
 .header-inner-wrapper a {
