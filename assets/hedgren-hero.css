@@ -217,6 +217,12 @@ span.sub-head {
 .alternate-hero .justify-end .hero-text {
   text-align: left;
 }
+.header-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 @media(max-width: 992px){
 
   .hero, .hero.alternate-hero {
