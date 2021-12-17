@@ -48,4 +48,11 @@
     font-family: Hedgren-Shift;
     line-height: 40px;
   }
+  .hero-productsx {
+    margin: 0;
+  }
+  .hero-productsx .hero-product {
+    margin: 0;
+    width: 100%;
+  }
 }
