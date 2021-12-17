@@ -151,7 +151,7 @@
             </div>
           </div>
           {% assign split_filter = categoryp | split: "," | sort_natural %}
-          {% assign tags_filter = tagsp | split: "|" %}
+          {% assign tags_filter = tagsp | split: "|" | sort_natural %}
           {% for filter in split_filter %}
           {% assign floopindex = forloop.index %}
           <div class="filter-type">
