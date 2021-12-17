@@ -41,6 +41,7 @@ input#Subscribe {
   border-radius: 50px;
   padding: 14px 40px;
   cursor: pointer;
+  width: auto;
 }
 .footer-newsletter {
   padding-bottom: 80px;
