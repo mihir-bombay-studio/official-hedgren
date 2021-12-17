@@ -9,13 +9,13 @@
   <div class="container rel">
     <div class="discover-coll-heading flex-box">
       <div class="side-title">
-      	{% if section.settings.heading_left != "" %}{{ section.settings.heading_left }}{% else %}1994{% endif %}
+      	{% if collection.handle == "great-american-heritage" %}{% if section.settings.heading_left != "" %}{{ section.settings.heading_left }}{% else %}1994{% endif %}{% endif %}
       </div>
     	<h1 class="discover-coll-main-heading">
         {{ collection.title }}
       </h1>
       <div class="side-title">
-      	{% if section.settings.heading_right != "" %}{{ section.settings.heading_right }}{% else %}2021{% endif %}
+      	{% if collection.handle == "great-american-heritage" %}{% if section.settings.heading_right != "" %}{{ section.settings.heading_right }}{% else %}2021{% endif %}{% endif %}
       </div>
     </div>
     <div class="discover-coll-sub-heading">{{ section.settings.sub_heading }}</div>
