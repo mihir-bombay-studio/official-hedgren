@@ -150,8 +150,8 @@
             <div class="color-options panel">
             </div>
           </div>
-          {% assign split_filter = categoryp | split: "," | sort_natural %}
-          {% assign tags_filter = tagsp | split: "|" | sort_natural %}
+          {% assign split_filter = categoryp | split: "," %}
+          {% assign tags_filter = tagsp | split: "|" %}
           {% for filter in split_filter %}
           {% assign floopindex = forloop.index %}
           <div class="filter-type">
