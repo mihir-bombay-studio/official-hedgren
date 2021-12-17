@@ -13,7 +13,7 @@
         {{ section.settings.content }}
       </div>
       {% if section.settings.button_label %}
-      <a href="{% if section.settings.button_link %}{{section.settings.button_link}}{% else %}#{% endif %}">
+      <a href="{% if section.settings.button_link %}{{section.settings.button_link}}{% else %}#{% endif %}" {% if template contains "loyalty" %}onclick="SmileUI.openPanel();return false;"{% endif %}>
         {{ section.settings.button_label }} {% if section.settings.button_label != blank %}<span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>{% endif %}
       </a>
       {% endif %}
