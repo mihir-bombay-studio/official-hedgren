@@ -98,7 +98,7 @@
         "subheading": "Loyalty pays off!  Loyalty rewards!",
         "content": "Let’s move together!\nWherever you’re headed, we’ve got your back. \nEnjoy our rewards, special offers, exclusive events \nand inside information on our wonderful products.",
         "button_label": "JOIN TODAY",
-        "button_link": "\/account",
+        "button_link": "shopify:\/\/pages\/our-story",
         "extra_txt": "",
         "margin_top": "normal-top",
         "margin_bottom": "normal-bottom",
