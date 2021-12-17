@@ -223,6 +223,9 @@ span.sub-head {
   align-items: center;
   justify-content: center;
 }
+.header-inner-wrapper hero-text {
+  margin: 0;
+}
 @media(max-width: 992px){
 
   .hero, .hero.alternate-hero {
