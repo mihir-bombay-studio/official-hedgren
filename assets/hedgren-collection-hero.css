@@ -54,5 +54,6 @@
   .hero-productsx .hero-product {
     margin: 0;
     width: 100%;
+    margin-bottom: 29px;
   }
 }
