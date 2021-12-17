@@ -1,6 +1,6 @@
 {{ 'hedgren-faq.css' | asset_url | stylesheet_tag }}
-
-<div id="{{ section.settings.sec_id }}" class="faq-wrapper {{ section.settings.background }}">
+<span class="scroller"><span id="{{ section.settings.sec_id }}" class="for-scroll"></span></span>
+<div class="faq-wrapper {{ section.settings.background }}">
   <div class="container">
     <h2 class="faq-heading">{{ section.settings.heading }}</h2>
     {% for block in section.blocks %}
