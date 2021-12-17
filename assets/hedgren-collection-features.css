@@ -64,6 +64,7 @@
 
 .collection-features {
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .feature-card {
@@ -109,6 +110,7 @@
 @media(min-width: 993px) {
   .collection-features {
     margin: 0 -13.3px;
+  justify-content: flex-left;
   }
   .feature-card {
     margin: 0 13.3px;
