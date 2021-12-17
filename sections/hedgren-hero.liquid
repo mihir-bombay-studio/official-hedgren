@@ -9,7 +9,7 @@
           {{ section.settings.heading }}
         </span>
       </h1>
-      <a class="btn btn-center" href="/collections/all">SHOP ALL PRODUCTS</a>
+      {% if section.settings.headinglink != blank %}<a class="btn btn-center" href="{{ section.settings.headinglink }}">{{ section.settings.headinglinktext }}</a>{% endif %}
     </span>
   </div>
 </div>
