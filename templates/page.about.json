@@ -80,7 +80,7 @@
         "subheading": "",
         "content": "+ 50 countries<br><br>\n3000 points of sales",
         "button_label": "Find a store near you",
-        "button_link": "shopify:\/\/pages\/deliveries",
+        "button_link": "shopify:\/\/pages\/store-locator",
         "extra_txt": "",
         "margin_top": "normal-top",
         "margin_bottom": "normal-bottom",
@@ -201,7 +201,7 @@
           "type": "imgs",
           "settings": {
             "img": "shopify:\/\/shop_images\/Image_2x_96d15e0d-f319-4820-81a0-874f8fbcd915.png",
-            "link": "https:\/\/www.instagram.com\/p\/CWIhMhADYRk\/"
+            "link": ""
           }
         }
       },
