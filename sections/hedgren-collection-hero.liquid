@@ -281,7 +281,7 @@
     <div class="collection-features flex-box {% unless forloop.first %}no-disp{% endunless %} collection-features{{ forloop.index }}">
       {% if block.settings.feature_heading1 != blank %}
       {% assign dc = block.settings.feature_heading1 | downcase %}
-      <div class="feature-card selected">
+      <div class="feature-card {% if dc contains "sustainable" %}selected{% endif %}">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img1 | image_url: width: 350 }}">
         </div>
@@ -292,7 +292,8 @@
       </div>
       {% endif %}
       {% if block.settings.feature_heading2 != blank %}
-      <div class="feature-card">
+      {% assign dc = block.settings.feature_heading2 | downcase %}
+      <div class="feature-card {% if dc contains "sustainable" %}selected{% endif %}">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img2 | image_url: width: 350 }}">
         </div>
@@ -303,7 +304,8 @@
       </div>
       {% endif %}
       {% if block.settings.feature_heading3 != blank %}
-      <div class="feature-card">
+      {% assign dc = block.settings.feature_heading3 | downcase %}
+      <div class="feature-card {% if dc contains "sustainable" %}selected{% endif %}">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img3 | image_url: width: 350 }}">
         </div>
@@ -314,7 +316,8 @@
       </div>
       {% endif %}
       {% if block.settings.feature_heading4 != blank %}
-      <div class="feature-card">
+      {% assign dc = block.settings.feature_heading4 | downcase %}
+      <div class="feature-card {% if dc contains "sustainable" %}selected{% endif %}">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img4 | image_url: width: 350 }}">
         </div>
@@ -325,7 +328,8 @@
       </div>
       {% endif %}
       {% if block.settings.feature_heading5 != blank %}
-      <div class="feature-card">
+      {% assign dc = block.settings.feature_heading5 | downcase %}
+      <div class="feature-card {% if dc contains "sustainable" %}selected{% endif %}">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img5 | image_url: width: 350 }}">
         </div>
@@ -336,7 +340,8 @@
       </div>
       {% endif %}
       {% if block.settings.feature_heading6 != blank %}
-      <div class="feature-card">
+      {% assign dc = block.settings.feature_heading6 | downcase %}
+      <div class="feature-card {% if dc contains "sustainable" %}selected{% endif %}">
         <div class="feature-img">
           <img src="{{ block.settings.feature_img6 | image_url: width: 350 }}">
         </div>
