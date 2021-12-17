@@ -27,11 +27,86 @@
     "1637649148751d55cf": {
       "type": "hedgren-collection-hero",
       "blocks": {
+        "a9c3e227-519d-47e9-b512-35f18c756641": {
+          "type": "features",
+          "settings": {
+            "name": "QUEST",
+            "bag": "shopify:\/\/shop_images\/1_39943c54-a2b8-41af-81e2-8a1123fcffc6.png",
+            "feature_img1": "shopify:\/\/shop_images\/Web_580d7ae8-88e0-4544-932e-23bbb8d450dd.png",
+            "feature_heading1": "Sustainable materials",
+            "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.<br>\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.<br>\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
+            "feature_img2": "shopify:\/\/shop_images\/HGAHR01_580_01_5.jpg",
+            "feature_heading2": "Spacious compartment",
+            "feature_description2": "Including an RFID zipped pocket for passport and credit card protection, 1 open pocket to store a mobile phone or small accessories, a ket chain made of a 3-tone rope and metal hook.",
+            "feature_img3": "shopify:\/\/shop_images\/HGAHR01_580_01_2_68439144-6068-42f3-be7d-aa5c18da81dd.jpg",
+            "feature_heading3": "Large front pocket",
+            "feature_description3": "Practical large front pocket closed by a trendy 3-tone rope and a flap.",
+            "feature_img4": "shopify:\/\/shop_images\/HGAHR01_580_01_4d.jpg",
+            "feature_heading4": "Zipped pocket",
+            "feature_description4": "Quick access to zipped pocket in the back offering an extra security loop to insert the puller after closing. Ideal pocket to store a mobile phone, ID document and more.",
+            "feature_img5": "shopify:\/\/shop_images\/HGAHR01_580_01_4a.jpg",
+            "feature_heading5": "Hedgren hardware",
+            "feature_description5": "Iconic, qualitative Hedgren branded hardware: puller, front metal buckle, rope stopper, strap buckle.",
+            "feature_img6": "shopify:\/\/shop_images\/HGAHR01_580_01_4b.jpg",
+            "feature_heading6": "Fabric flap",
+            "feature_description6": "The main compartment zipper is covered by a fabric flap providing extra protection, especially against the rain."
+          }
+        },
+        "ffb2022c-fc95-44d7-8ce8-2e530baad17f": {
+          "type": "features",
+          "settings": {
+            "name": "MAP",
+            "bag": "shopify:\/\/shop_images\/2.png",
+            "feature_img1": "shopify:\/\/shop_images\/Web_580d7ae8-88e0-4544-932e-23bbb8d450dd.png",
+            "feature_heading1": "Sustainable Materials",
+            "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
+            "feature_img2": "shopify:\/\/shop_images\/HGAHR05_540_01_4b.jpg",
+            "feature_heading2": "An elastic security loop",
+            "feature_description2": "",
+            "feature_img3": "shopify:\/\/shop_images\/HGAHR05_540_01_4c.jpg",
+            "feature_heading3": "Includes an RFID protection pocket on the inside",
+            "feature_description3": "",
+            "feature_img4": "shopify:\/\/shop_images\/HGAHR05_540_01_2.jpg",
+            "feature_heading4": "A flap drawstring pocket",
+            "feature_description4": "",
+            "feature_img5": "shopify:\/\/shop_images\/HGAHR05_540_01_3.jpg",
+            "feature_heading5": "Adjustable strap so it fits perfectly on every body",
+            "feature_description5": "",
+            "feature_img6": "shopify:\/\/shop_images\/HGAHR05_540_01_5_74310637-919d-43c6-8480-067d0832e9aa.jpg",
+            "feature_heading6": "The inside keeps everything organised",
+            "feature_description6": "with a compartment for your phone and a hook for your key."
+          }
+        },
+        "5cfce837-a44a-43f0-a240-5af4ebd804ff": {
+          "type": "features",
+          "settings": {
+            "name": "RAMBLE",
+            "bag": "shopify:\/\/shop_images\/5.png",
+            "feature_img1": "shopify:\/\/shop_images\/Web_580d7ae8-88e0-4544-932e-23bbb8d450dd.png",
+            "feature_heading1": "Sustainable Materials",
+            "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.\"",
+            "feature_img2": "shopify:\/\/shop_images\/HGAHR_06_359_01_5.jpg",
+            "feature_heading2": "Laptop compartment",
+            "feature_description2": "A dedicated compartment for your laptop or A4 files Laptop size: 13,3\"",
+            "feature_img3": "shopify:\/\/shop_images\/HGAHR_06_359_01_4b.jpg",
+            "feature_heading3": "Includes an RFID protection pocket on the inside",
+            "feature_description3": "",
+            "feature_img4": "shopify:\/\/shop_images\/HGAHR_06_359_01_5.jpg",
+            "feature_heading4": "Back pocket can become a smart sleeve",
+            "feature_description4": "by using the zip, so you can place the bag over a trolley handle.",
+            "feature_img5": "shopify:\/\/shop_images\/HGAHR_06_359_01_4c.jpg",
+            "feature_heading5": "An elastic security loop",
+            "feature_description5": "",
+            "feature_img6": "shopify:\/\/shop_images\/HGAHR_06_359_01_2.jpg",
+            "feature_heading6": "Practical bag with a lot of pockets:",
+            "feature_description6": "3 zip pockets, 2 side open pockets, 1 flap drawstring pocket, 1 interior zip pocket"
+          }
+        },
         "411dc432-1cb7-4f96-bc4d-f31649016464": {
           "type": "features",
           "settings": {
             "name": "CRUSADE",
-            "bag": "shopify:\/\/shop_images\/HGAHR02_701_01_5.jpg",
+            "bag": "shopify:\/\/shop_images\/3.png",
             "feature_img1": "shopify:\/\/shop_images\/HGAHR02_701_01_5.jpg",
             "feature_heading1": "Spacious main compartment",
             "feature_description1": "with flap\nclosure including:\n<br>- RFID zipped pocket for passport and\ncredit card protection.<br>\n- 2 large inner pockets to store charger,\npower bank and small accessories,<br>\n- a key chain made of a 3-tone rope and\nmetal hook.",
@@ -56,7 +131,7 @@
           "type": "features",
           "settings": {
             "name": "CANYON",
-            "bag": "shopify:\/\/shop_images\/HGAHR03_359_01_5.jpg",
+            "bag": "shopify:\/\/shop_images\/4.png",
             "feature_img1": "shopify:\/\/shop_images\/HGAHR03_359_01_5.jpg",
             "feature_heading1": "2-compartment backpack:",
             "feature_description1": "- Main compartment provides space for larger\nitems and storage organization for charger,\npower bank and small accessories.<br>\n- RFID zipped pocket for passport and credit\ncard protection.<br>\n- Dedicated foamed back compartment\nfor 15.6’’ laptop.",
@@ -77,37 +152,12 @@
             "feature_description6": "material providing an ergonomic\nsupport."
           }
         },
-        "a9c3e227-519d-47e9-b512-35f18c756641": {
-          "type": "features",
-          "settings": {
-            "name": "QUEST",
-            "bag": "shopify:\/\/shop_images\/HGAHR01_580_01_6.jpg",
-            "feature_img1": "shopify:\/\/shop_images\/HGAHR01_580_01_2.jpg",
-            "feature_heading1": "Sustainable materials",
-            "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.<br>\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.<br>\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
-            "feature_img2": "shopify:\/\/shop_images\/HGAHR01_580_01_5.jpg",
-            "feature_heading2": "Spacious compartment",
-            "feature_description2": "Including an RFID zipped pocket for passport and credit card protection, 1 open pocket to store a mobile phone or small accessories, a ket chain made of a 3-tone rope and metal hook.",
-            "feature_img3": "shopify:\/\/shop_images\/HGAHR01_580_01_2_68439144-6068-42f3-be7d-aa5c18da81dd.jpg",
-            "feature_heading3": "Large front pocket",
-            "feature_description3": "Practical large front pocket closed by a trendy 3-tone rope and a flap.",
-            "feature_img4": "shopify:\/\/shop_images\/HGAHR01_580_01_4d.jpg",
-            "feature_heading4": "Zipped pocket",
-            "feature_description4": "Quick access to zipped pocket in the back offering an extra security loop to insert the puller after closing. Ideal pocket to store a mobile phone, ID document and more.",
-            "feature_img5": "shopify:\/\/shop_images\/HGAHR01_580_01_4a.jpg",
-            "feature_heading5": "Hedgren hardware",
-            "feature_description5": "Iconic, qualitative Hedgren branded hardware: puller, front metal buckle, rope stopper, strap buckle.",
-            "feature_img6": "shopify:\/\/shop_images\/HGAHR01_580_01_4b.jpg",
-            "feature_heading6": "Fabric flap",
-            "feature_description6": "The main compartment zipper is covered by a fabric flap providing extra protection, especially against the rain."
-          }
-        },
         "a5ac82d4-ab3b-4fcc-a01e-0f4942e3d2a4": {
           "type": "features",
           "settings": {
             "name": "VENTURA",
-            "bag": "shopify:\/\/shop_images\/HGAHR04_540_01_2_636b1f64-e585-4f85-8ca2-f97aac703314.jpg",
-            "feature_img1": "shopify:\/\/shop_images\/HGAHR04_540_01_3.jpg",
+            "bag": "shopify:\/\/shop_images\/6.png",
+            "feature_img1": "shopify:\/\/shop_images\/Web_580d7ae8-88e0-4544-932e-23bbb8d450dd.png",
             "feature_heading1": "Sustainable Materials",
             "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.<br>\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.<br>\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
             "feature_img2": "shopify:\/\/shop_images\/HGAHR04_540_01_5.jpg",
@@ -127,62 +177,12 @@
             "feature_description6": "with foamed muffle\nfor extra comfort."
           }
         },
-        "ffb2022c-fc95-44d7-8ce8-2e530baad17f": {
-          "type": "features",
-          "settings": {
-            "name": "MAP",
-            "bag": "shopify:\/\/shop_images\/HGAHR05_540_01_5.jpg",
-            "feature_img1": "shopify:\/\/shop_images\/HGAHR05_540_01_5.jpg",
-            "feature_heading1": "Sustainable Materials",
-            "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
-            "feature_img2": "shopify:\/\/shop_images\/HGAHR05_540_01_4b.jpg",
-            "feature_heading2": "An elastic security loop",
-            "feature_description2": "",
-            "feature_img3": "shopify:\/\/shop_images\/HGAHR05_540_01_4c.jpg",
-            "feature_heading3": "Includes an RFID protection pocket on the inside",
-            "feature_description3": "",
-            "feature_img4": "shopify:\/\/shop_images\/HGAHR05_540_01_2.jpg",
-            "feature_heading4": "A flap drawstring pocket",
-            "feature_description4": "",
-            "feature_img5": "shopify:\/\/shop_images\/HGAHR05_540_01_3.jpg",
-            "feature_heading5": "Adjustable strap so it fits perfectly on every body",
-            "feature_description5": "",
-            "feature_img6": "shopify:\/\/shop_images\/HGAHR05_540_01_5_74310637-919d-43c6-8480-067d0832e9aa.jpg",
-            "feature_heading6": "The inside keeps everything organised",
-            "feature_description6": "with a compartment for your phone and a hook for your key."
-          }
-        },
-        "5cfce837-a44a-43f0-a240-5af4ebd804ff": {
-          "type": "features",
-          "settings": {
-            "name": "RAMBLE",
-            "bag": "shopify:\/\/shop_images\/HGAHR_06_359_01_2.jpg",
-            "feature_img1": "shopify:\/\/shop_images\/HGAHR_06_359_01_1.jpg",
-            "feature_heading1": "Sustainable Materials",
-            "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.\"",
-            "feature_img2": "shopify:\/\/shop_images\/HGAHR_06_359_01_5.jpg",
-            "feature_heading2": "Laptop compartment",
-            "feature_description2": "A dedicated compartment for your laptop or A4 files Laptop size: 13,3\"",
-            "feature_img3": "shopify:\/\/shop_images\/HGAHR_06_359_01_4b.jpg",
-            "feature_heading3": "Includes an RFID protection pocket on the inside",
-            "feature_description3": "",
-            "feature_img4": "shopify:\/\/shop_images\/HGAHR_06_359_01_5.jpg",
-            "feature_heading4": "Back pocket can become a smart sleeve",
-            "feature_description4": "by using the zip, so you can place the bag over a trolley handle.",
-            "feature_img5": "shopify:\/\/shop_images\/HGAHR_06_359_01_4c.jpg",
-            "feature_heading5": "An elastic security loop",
-            "feature_description5": "",
-            "feature_img6": "shopify:\/\/shop_images\/HGAHR_06_359_01_2.jpg",
-            "feature_heading6": "Practical bag with a lot of pockets:",
-            "feature_description6": "3 zip pockets, 2 side open pockets, 1 flap drawstring pocket, 1 interior zip pocket"
-          }
-        },
         "37ccae0c-1347-47ca-bc8c-7e044efd78c2": {
           "type": "features",
           "settings": {
             "name": "RAMBLE",
-            "bag": "shopify:\/\/shop_images\/HGAHR07_359_01_6.jpg",
-            "feature_img1": "shopify:\/\/shop_images\/HGAHR07_359_01_1_7580243a-2712-4f90-a766-36fb6fa6ee8f.jpg",
+            "bag": "shopify:\/\/shop_images\/7.png",
+            "feature_img1": "shopify:\/\/shop_images\/Web_580d7ae8-88e0-4544-932e-23bbb8d450dd.png",
             "feature_heading1": "Sustainable Materials",
             "feature_description1": "The outer and inner fabrics used for this\ncollection are recycled and use 2 different recycling\ntechniques. These fabrics are durable and do not\ncompromise on Hedgren quality.\nThe main material is 100% recycled nylon, made from fiber waste collected during yarn spinning. This fabric has the same satin and deep colour rendering as our iconic fabric and is water repellent.\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance to our products. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.\"",
             "feature_img2": "shopify:\/\/shop_images\/HGAHR07_359_01_6_202b5789-74a0-44e3-8793-4b679687440a.jpg",
@@ -204,12 +204,12 @@
         }
       },
       "block_order": [
-        "411dc432-1cb7-4f96-bc4d-f31649016464",
-        "09c32939-19d2-4927-9549-7a4d226c120d",
         "a9c3e227-519d-47e9-b512-35f18c756641",
-        "a5ac82d4-ab3b-4fcc-a01e-0f4942e3d2a4",
         "ffb2022c-fc95-44d7-8ce8-2e530baad17f",
         "5cfce837-a44a-43f0-a240-5af4ebd804ff",
+        "411dc432-1cb7-4f96-bc4d-f31649016464",
+        "09c32939-19d2-4927-9549-7a4d226c120d",
+        "a5ac82d4-ab3b-4fcc-a01e-0f4942e3d2a4",
         "37ccae0c-1347-47ca-bc8c-7e044efd78c2"
       ],
       "settings": {
