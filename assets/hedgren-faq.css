@@ -69,6 +69,13 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+span.scroller {
+  position: relative;
+}
+.for-scroll {
+  position: absolute;
+  top: -150px;
+}
 @media (max-width: 992px) {
   .hedgren-faq-page-heading-wrapper {
     margin-bottom: 40px;
