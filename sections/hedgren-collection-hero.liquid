@@ -265,6 +265,7 @@
 <div class="hedgren-collection-features-wrapper dark-bg">
   <div class="container">
     <h2 class="hedgren-collection-features-heading">Discover features</h2>
+    {% if section.blocks.size > 1 %}
     <div class="feature-subtitle no-d">SELECT A BAG</div>
     <div class="features-filter-wrap flex-box">
       {% for block in section.blocks %}
@@ -275,6 +276,7 @@
       {% endfor %}
       <div class="feature-subtitle no-t-m">SELECT A BAG</div>
     </div>
+    {% endif %}
     {% for block in section.blocks %}
     <div class="collection-features flex-box {% unless forloop.first %}no-disp{% endunless %} collection-features{{ forloop.index }}">
       {% if block.settings.feature_heading1 != blank %}
