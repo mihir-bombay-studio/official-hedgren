@@ -30,7 +30,7 @@ $(document).ready(function(){
     ]
   });
   
-  $('.featured-collectionsx').slick({
+  $('.featured-collections').slick({
     infinite: false,
     slidesToShow: 3,
     slidesToScroll: 3,
