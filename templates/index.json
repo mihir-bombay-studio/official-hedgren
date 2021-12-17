@@ -22,7 +22,7 @@
         "heading_color": "regular",
         "image": "shopify:\/\/shop_images\/IMage_2x_7b935bfc-a347-41d3-a170-722f41f36aff.png",
         "heading": "Hedgrenist",
-        "subheading": "stories",
+        "subheading": "Stories",
         "content": "Our Hedgrenists know the world is full of opportunities and are eager to take them on. Expanding their comfort zone, one challenge at a time, is what keeps them going. Meet our urban adventures and find out how they stand their ground. Discover how Hedgren plays a role in keeping them level-headed.",
         "button_label": "READ STORY",
         "button_link": "shopify:\/\/blogs\/stories",
@@ -342,6 +342,218 @@
         "padding_bottom": "p-no-bottom",
         "bg_color": ""
       }
+    },
+    "16377402112d16d687": {
+      "type": "hedgren-about-values",
+      "disabled": true,
+      "settings": {
+        "background": "dark-bg",
+        "heading": "We are",
+        "heading_two": "we value",
+        "content_one": "DOWN-TO-EARTH<br>ENERGETIC<br>INCLUSIVE",
+        "content_two": "INTUITIVE DESIGN<br>FREEDOM OF MOVEMENT<br>SMART FUNCTIONALITY"
+      }
+    },
+    "1637741742b6e6125e": {
+      "type": "hedgren-img-text",
+      "disabled": true,
+      "settings": {
+        "background": "dark-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
+        "heading": "Move",
+        "subheading": "We want everybody to be free to move",
+        "content": "It’s our mission to create essential bags and travel gear with smart functionality that helps you handle everyday adventures without compromising on your personality or freedom to move.<br><br> We promise that you will become part of an inclusive community that creates and embraces an endless portion of wanderlust.<br><br> We help you to get the most out of life by enabling your freedom of movement.",
+        "button_label": "",
+        "button_link": "",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
+    "1637742644c576d5fd": {
+      "type": "hedgren-half-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
+        "heading_main": "Get addicted!",
+        "sub_heading": "SIGN UP - EARN - SPEND"
+      }
+    },
+    "1637756153eb6098f2": {
+      "type": "hedgren-stories",
+      "disabled": true,
+      "blocks": {
+        "283d4390-a15c-4474-8908-7deadff1d147": {
+          "type": "img_txt",
+          "settings": {
+            "background": "normal-bg",
+            "order": "order-normal",
+            "heading_color": "regular",
+            "image": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
+            "heading": "Dieter",
+            "subheading": "Creative entrepreneur",
+            "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor",
+            "button_label": "READ STORY",
+            "button_link": "",
+            "extra_txt": ""
+          }
+        },
+        "0371bff2-138a-4f94-983b-335e0c98d400": {
+          "type": "img_txt",
+          "settings": {
+            "background": "normal-bg",
+            "order": "order-reversed",
+            "heading_color": "regular",
+            "image": "shopify:\/\/shop_images\/Image_2x_96d15e0d-f319-4820-81a0-874f8fbcd915.png",
+            "heading": "Image with text",
+            "subheading": "Subheading",
+            "content": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "extra_txt": ""
+          }
+        },
+        "78a37b0f-c565-4bf8-9432-a967c6493c81": {
+          "type": "img_txt",
+          "settings": {
+            "background": "normal-bg",
+            "order": "order-normal",
+            "heading_color": "regular",
+            "image": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
+            "heading": "Image with text",
+            "subheading": "Subheading",
+            "content": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "extra_txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "283d4390-a15c-4474-8908-7deadff1d147",
+        "0371bff2-138a-4f94-983b-335e0c98d400",
+        "78a37b0f-c565-4bf8-9432-a967c6493c81"
+      ],
+      "settings": {
+      }
+    },
+    "16378181835936a9a9": {
+      "type": "hedgren-contact",
+      "disabled": true,
+      "settings": {
+        "heading": "Contact us",
+        "contact_text": "If you have a remark, question or anything else we can help you with please fill in the form and we’ll get back to you asap.",
+        "address_head": "Company address",
+        "address": "Ankerrui 2<br> 2000 Antwerpen<br> Belgium",
+        "contact_info_heading": "Contact Information",
+        "contact_info": "Tel: <span class=\"tel\">+32 (0)15 300 560<\/span><br><br> We can be reached by telephone during office hours. Monday to Thursday between 9 AM &amp; 5 PM CET. Friday between 9 AM &amp; 4 PM CET."
+      }
+    },
+    "16378226154b875f73": {
+      "type": "hedgren-map",
+      "disabled": true,
+      "settings": {
+        "heading": "Find your store"
+      }
+    },
+    "16378264917c8079bd": {
+      "type": "hedgren-policies",
+      "disabled": true,
+      "settings": {
+        "heading_left": "1994",
+        "heading": "Privacy Policy",
+        "heading_right": "2021",
+        "content": "This privacy Policy governs the processing of your personal data by HEDGREN CREATIONS NV, Grote Steenweg 50, 2550 Kontich - Belgium when you visit HEDGREN E-Store. HEDGREN respects your privacy and strives to conform to the rules rules under applicable EU Regulation. Note : If you want general information on how we process your personal data through cookies, please refer to our Cookie Policy.<br><br><div class=\"policy-title\">1. WHO IS RESPONSIBLE FOR YOUR DATA?<\/div>When you visit HEDGREN Website and E-Store, HEDGREN CREATIONS NV, Grote Steenweg 50, 2550 Kontich is responsible for the processing of your personal data. At any time, you may contact us via E-store@hedgren.com with any privacy question or concerns you may have (see also point 8 hereafter “What rights do you have?”) HEDGREN reserves the right to change, modify or amend this Privacy Policy at its own discretion, or change, modify or withdraw access to the E-Store Website at any time and\/or without notice. HEDGREN will notify you of such change or modification by posting an updated version of this Privacy Policy on the E-store Website.<br><br>\nHEDGREN uses cookies on the E-Store Website. By clicking on “OK” after having being informed of our use of cookies, you acknowledge that you have read this Cookie Policy carefully and that you agree with it without reservation. Most browsers allow you to <strong>accept<\/strong> or <strong>refuse<\/strong> cookies. If you don’t want that Web sites can store cookies on your computer, you can adjust your browser settings. You will receive a warning before cookies are being posted. You can also customize your settings so that your browser refuses all cookies or only third party cookies. You can also remove cookies that have already been posted. Please note that you must adjust the settings separately for each browser on each device that you use. We want to remind you that if you do not want to use cookies, we unfortunately cannot guarantee that our online store is working properly. It may be that some features of the online store are lost or that you no longer can see certain pages at all. In addition, also note that rejecting cookies does not mean you will see no ads anymore. It just means the ads are not adapted to your interests anymore and are repeated more often. How you can customize your settings varies between browsers. Click on the links below to go directly to the manual of your browser or consult the help function of your browser if necessary. <span class=\"underline\">Chrome<\/span> - <span class=\"underline\">Safari<\/span> - <span class=\"underline\">Firefox<\/span> - Internet Explorer Edge Would you like to turn off cookies from specific parties, you can do so via www.youronlinechoices.com."
+      }
+    },
+    "16378358284111b380": {
+      "type": "hedgren-faq-page-heading",
+      "disabled": true,
+      "blocks": {
+        "24974ec3-f57b-40f3-af23-3dd684c6c7bf": {
+          "type": "faq_type",
+          "settings": {
+            "sec_name": "Shipping",
+            "sec_id": "shipping"
+          }
+        },
+        "93c746bb-4b88-4391-8ecb-a109e6b8cd8a": {
+          "type": "faq_type",
+          "settings": {
+            "sec_name": "Returns",
+            "sec_id": "returns"
+          }
+        },
+        "3d935971-4893-4f66-9ba8-1404ccf7b90c": {
+          "type": "faq_type",
+          "settings": {
+            "sec_name": "Warrenty",
+            "sec_id": "warrenty"
+          }
+        },
+        "7d1812a2-f388-4b4f-bd32-0b85f25c1faa": {
+          "type": "faq_type",
+          "settings": {
+            "sec_name": "Cleaning",
+            "sec_id": "cleaning"
+          }
+        },
+        "746b242a-794f-4193-a5cd-cfb0878a267b": {
+          "type": "faq_type",
+          "settings": {
+            "sec_name": "Features",
+            "sec_id": "features"
+          }
+        }
+      },
+      "block_order": [
+        "24974ec3-f57b-40f3-af23-3dd684c6c7bf",
+        "93c746bb-4b88-4391-8ecb-a109e6b8cd8a",
+        "3d935971-4893-4f66-9ba8-1404ccf7b90c",
+        "7d1812a2-f388-4b4f-bd32-0b85f25c1faa",
+        "746b242a-794f-4193-a5cd-cfb0878a267b"
+      ],
+      "settings": {
+        "heading_left": "1994",
+        "heading": "FAQ",
+        "heading_right": "2021"
+      }
+    },
+    "16378373813177f295": {
+      "type": "hedgren-faq",
+      "disabled": true,
+      "blocks": {
+        "7bb2b86c-e1fa-455b-824e-7392f2c375b4": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I place an order?",
+            "answer": "To place an order select your desired item and add it to your shopping cart. If you are interested in buying one or more items, you can change the quantity and selection in the course of the buying process. Follow the instructions on the checkout page to complete your order. As soon as you confirm your order, an automated e-mail confirmation will be sent."
+          }
+        },
+        "95dec638-66f3-46bd-a060-d0b64be221fd": {
+          "type": "faq",
+          "settings": {
+            "question": "What payment methods can I use?",
+            "answer": "We offer Visa, Mastercard, AMEX, Maestro, iDEAL, Bancontact\/Mister Cash, SOFORT Banking, Bitcoin, Belfius &amp; KBC\/CBC."
+          }
+        }
+      },
+      "block_order": [
+        "7bb2b86c-e1fa-455b-824e-7392f2c375b4",
+        "95dec638-66f3-46bd-a060-d0b64be221fd"
+      ],
+      "settings": {
+        "background": "normal-bg",
+        "heading": "Shipping",
+        "sec_id": "shipping",
+        "button_label": "OTHER QUESTION? CONTACT US",
+        "button_link": "shopify:\/\/pages\/contact-us"
+      }
     }
   },
   "order": [
@@ -355,6 +567,15 @@
     "1637590678006e9bf8",
     "16376443013d854169",
     "1637732040ea16813e",
-    "16377374959756b2a0"
+    "16377374959756b2a0",
+    "16377402112d16d687",
+    "1637741742b6e6125e",
+    "1637742644c576d5fd",
+    "1637756153eb6098f2",
+    "16378181835936a9a9",
+    "16378226154b875f73",
+    "16378264917c8079bd",
+    "16378358284111b380",
+    "16378373813177f295"
   ]
 }
