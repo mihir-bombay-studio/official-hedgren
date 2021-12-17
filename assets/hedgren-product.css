@@ -244,6 +244,17 @@
 .product-usp-title p strong {
   font-weight: 400;
 }
+.load-less-images {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.21px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 @media(max-width: 992px){
 	.product-info-imgs {
     flex-direction: column;
