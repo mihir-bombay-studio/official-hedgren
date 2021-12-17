@@ -2,12 +2,15 @@
 {% assign aspectratio = section.settings.image.width | divided_by: section.settings.image.height %}
 <div class="hero {% if aspectratio > 1.9 and section.settings.design2 %}alternate-hero{% endif %}" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
   <div class="container flex-box justify-end">
-    <h1 class="hero-text">
-      <span>
-      {% if section.settings.design2 %}<span class="sub-head">{{ section.settings.subheading }}</span>{% endif %}
-      {{ section.settings.heading }}
-      </span>
-    </h1>
+    <span class="header-inner-wrapper">
+      <h1 class="hero-text">
+        <span>
+          {% if section.settings.design2 %}<span class="sub-head">{{ section.settings.subheading }}</span>{% endif %}
+          {{ section.settings.heading }}
+        </span>
+      </h1>
+      <a class="btn btn-center" href="/collections/all">SHOP ALL PRODUCTS</a>
+    </span>
   </div>
 </div>
 {% if section.settings.collection %}
@@ -252,6 +255,16 @@
         "id": "subheading",
         "label": "Sub heading",
 		"default": "It's the season of"
+      },
+      {
+        "type": "url",
+        "id": "headinglink",
+        "label": "Heading Button"
+      },
+      {
+        "type": "text",
+        "id": "headinglinktext",
+        "label": "Heading Button Text"
       },
       {
         "type": "checkbox",
