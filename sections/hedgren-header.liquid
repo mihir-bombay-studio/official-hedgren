@@ -1,6 +1,5 @@
-<link rel="stylesheet" href="{{ 'hedgren-header.css' | asset_url }}" media="print" onload="this.media='all'">
+{{ 'hedgren-header.css' | asset_url | stylesheet_tag }}
 
-<noscript>{{ 'hedgren-header.css' | asset_url | stylesheet_tag }}</noscript>
 <header class="{% if section.settings.enable_sticky_header %}sticky{% endif %}">
   <div class="upper-header flex-box justify-between flex-center">
     <div class="upper-nav-left no-t-m">
