@@ -1,6 +1,6 @@
 {{ 'hedgren-product.css' | asset_url | stylesheet_tag }}
-{% assign name_of_handles = "" %}
-{% include "color-product-handles" , name_of_handles: name_of_handles %}
+
+{% include "color-product-handles" %}
 
 <div class="product-wrap">
   <div class="container">
@@ -22,9 +22,6 @@
         	{% include 'icon-black-star' %}
           {% endfor %}
           <span class="no-of-ratings">
-  {% for hand in n_handles %}
-  console.log("{{p_handle}}{{hand}}");
-  {% endfor %}
             {% if product.metafields.loox.num_reviews %}({{ product.metafields.loox.num_reviews }}){% endif %}</span>
         </div>
       </div>
