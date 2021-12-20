@@ -40,12 +40,13 @@
 }
 
 .about-img-text-text .img-text-text-subheading {
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 2.21px;
-    color: #D3142B;
-    margin-bottom: 11px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 2.21px;
+  color: #D3142B;
+  margin-bottom: 11px;
+  text-shadow: 1px 2px #000000c2;
 }
 
 .about-img-text-text .img-text-text-heading {
