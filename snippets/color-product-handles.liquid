@@ -726,3 +726,14 @@
   console.log("{{no_of_rev}}");
   console.log("{{avg_rev}}");
 </script>
+
+
+
+<div class="product-rating">
+  {%for i in (1..avg_rev) %}
+  {% include 'icon-black-star' %}
+  {% endfor %}
+  <span class="no-of-ratings">
+    {% if no_of_rev != 0 %}({{ no_of_rev }}){% endif %}
+  </span>
+</div>

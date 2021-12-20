@@ -1,6 +1,6 @@
 {{ 'hedgren-product.css' | asset_url | stylesheet_tag }}
 
-{% include "color-product-handles" %}
+
 
 <div class="product-wrap">
   <div class="container">
@@ -17,13 +17,9 @@
             </span>
           </div>
         </div>
-        <div class="product-rating">
-        	{%for i in (1..product.metafields.loox.avg_rating) %}
-        	{% include 'icon-black-star' %}
-          {% endfor %}
-          <span class="no-of-ratings">
-            {% if product.metafields.loox.num_reviews %}({{ product.metafields.loox.num_reviews }}){% endif %}</span>
-        </div>
+        
+        {% include "color-product-handles" %}
+        
       </div>
       <div class="product-imgs flex-box no-t-m">
       	{% for media in product.media %}
