@@ -112,7 +112,7 @@
                 <div class="filter-type">
                   <div class="filter-type-title">{{filter}}</div>
                   <div class="filter-type-filters">
-                    {% assign tags = tags_filter[forloop.index0] | split: "," %}
+                    {% assign tags = tags_filter[forloop.index0] | split: "," | sort %}
                     <div class="filter-wrap">
                       {% for tag in tags %}  
                       <div class="filter-tag-wrapper">
@@ -157,7 +157,7 @@
           <div class="filter-type">
             <div class="filter-type-title accordion">{{filter}} <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
             <div class="filter-type-filters panel">
-              {% assign tags = tags_filter[forloop.index0] | split: "," %}
+              {% assign tags = tags_filter[forloop.index0] | split: "," | sort %}
               <div class="filter-wrap">
                 {% for tag in tags %}  
                 <div class="filter-tag-wrapper">
