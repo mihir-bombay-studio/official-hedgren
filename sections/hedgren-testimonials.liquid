@@ -816,7 +816,7 @@
                 {% endfor %}
               </div>
               {% assign splits = all_products[full_name].metafields.loox.reviews | split: '<div class="name">' %}
-              {% assign splits_2 = splits | split: '</div><div class="review_text">' %}
+              {% assign splits_2 = splits[1] | split: '</div><div class="review_text">' %}
               <div class="testimonial-title">{{ all_products[full_name].title }}</div>
               <div class="testimonial-desc">{{ splits_2[1] | replace: "</div>","" }}</div>
               <div class="testimonial-author">{{ splits_2[0] }}</div>
