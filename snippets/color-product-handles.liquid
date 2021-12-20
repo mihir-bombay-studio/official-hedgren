@@ -714,7 +714,7 @@
 <script>
   {% for hand in n_handles %}
     {% assign full_name = p_handle | append: hand %}  
-  {% if all_products[full_name].metafields.loox.num_reviews %}console.log("{{all_products[full_name].metafields.loox.reviews}}");
+  {% if all_products[full_name].metafields.loox.num_reviews %}console.log(`{{all_products[full_name].metafields.loox.reviews}}`);
       {% assign no_of_rev = no_of_rev | plus: all_products[full_name].metafields.loox.num_reviews %}
       {% if avg_rev != 0 %}
           {% assign avg_rev = avg_rev | plus: all_products[full_name].metafields.loox.avg_rating | divided_by: 2.0 %}
