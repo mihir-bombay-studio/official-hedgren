@@ -1,6 +1,6 @@
 {{ 'hedgren-product.css' | asset_url | stylesheet_tag }}
-
-{% include "color-product-handles" %}
+{% assign name_of_handles = "" %}
+{% include "color-product-handles" , name_of_handles: name_of_handles %}
 
 <div class="product-wrap">
   <div class="container">
