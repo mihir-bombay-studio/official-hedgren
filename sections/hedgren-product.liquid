@@ -21,7 +21,11 @@
         	{%for i in (1..product.metafields.loox.avg_rating) %}
         	{% include 'icon-black-star' %}
           {% endfor %}
-          <span class="no-of-ratings">{% if product.metafields.loox.num_reviews %}({{ product.metafields.loox.num_reviews }}){% endif %}</span>
+          <span class="no-of-ratings">
+  {% for hand in n_handles %}
+  console.log("{{p_handle}}{{hand}}");
+  {% endfor %}
+            {% if product.metafields.loox.num_reviews %}({{ product.metafields.loox.num_reviews }}){% endif %}</span>
         </div>
       </div>
       <div class="product-imgs flex-box no-t-m">
