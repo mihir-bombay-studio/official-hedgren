@@ -730,6 +730,7 @@
 
 
 <div class="product-rating">
+  {% assign avg_rev = avg_rev | plus: 0 %}
   {%for i in (1..avg_rev) %}
   {% include 'icon-black-star' %}
   {% endfor %}
