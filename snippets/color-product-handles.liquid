@@ -716,7 +716,7 @@
   {% assign full_name = p_handle | append: hand %}  
   {% if all_products[full_name].metafields.loox.num_reviews %}
   {% assign no_of_rev = no_of_rev | plus: all_products[full_name].metafields.loox.num_reviews %}
-  {% assign avg_rev = avg_rev | plus: all_products[full_name].metafields.loox.avg_rating | divided_by: 2 %}
+  {% assign avg_rev = avg_rev | plus: all_products[full_name].metafields.loox.avg_rating | divided_by: 2.0 %}
   {% endif %}
   {% endfor %}
   console.log("{{no_of_rev}}");
