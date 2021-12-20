@@ -17,8 +17,9 @@
             </span>
           </div>
         </div>
-        
+        <div class="product-rating no-t-m">
         {% include "color-product-handles" %}
+        </div>
         
       </div>
       <div class="product-imgs flex-box no-t-m">
@@ -47,10 +48,7 @@
           </span>
         </div>
         <div class="product-rating no-t-m">
-          {%for i in (1..product.metafields.loox.avg_rating) %}
-        	{% include 'icon-black-star' %}
-          {% endfor %}
-          <span class="no-of-ratings">{% if product.metafields.loox.num_reviews %}({{ product.metafields.loox.num_reviews }}){% endif %}</span>
+          {% include "color-product-handles" %}
         </div>
         <div class="color-variant-wrap">
           <div class="variant-title">COLOUR</div>
