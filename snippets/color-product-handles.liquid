@@ -730,8 +730,8 @@
 
 
 <div class="product-rating">
-  {% assign avg_rev = avg_rev | plus: 0 %}
-  {%for i in (1..avg_rev) %}
+  {% assign avg_rev_loop = avg_rev | round %}
+  {%for i in (1..avg_rev_loop) %}
   {% include 'icon-black-star' %}
   {% endfor %}
   <span class="no-of-ratings">
