@@ -784,32 +784,32 @@
       {% for hand in n_handles %}
         {% assign full_name = p_handle | append: hand %}  
         {% if all_products[full_name].metafields.loox.num_reviews %}
-          <div class="testimonial-card">
-            <div class="testimonial-img">
-              <img loading="lazy" src="{{ all_products[full_name].images.first | img_url: '350x' }}" alt="{{ all_products[full_name].images.first.alt | default: all_products[full_name].title }}">
-            </div>
-            <div class="testimonial-text">
-              <div class="testimonial-rating flex-box">
-                {% assign rating = all_products[full_name].metafields.loox.avg_rating %}
-                {% assign remain = 5 | minus: rating %}
-                {% for i in (1..rating) %}
-                <span class="active-star star">{% include "svg-star" %}</span>
-                {% endfor %}
-                {% for i in (1..remain) %}
-                <span class="star">{% include "svg-star" %}</span>
-                {% endfor %}
-              </div>
-              {% assign splits = all_products[full_name].metafields.loox.reviews | split: '<div class="name">' %}
-              {% assign splits_2 = splits[1] | split: '</div><div class="review_text">' %}
-              <div class="testimonial-title">{{ all_products[full_name].title }}</div>
-              <div class="testimonial-desc">{{ splits_2[1] | replace: "</div>","" }}</div>
-              <div class="testimonial-author">{{ splits_2[0] }}</div>
-            </div>
+      <div class="testimonial-card">
+        <div class="testimonial-img">
+          <img loading="lazy" src="{{ all_products[full_name].images.first | img_url: '350x' }}" alt="{{ all_products[full_name].images.first.alt | default: all_products[full_name].title }}">
+        </div>
+        <div class="testimonial-text">
+          <div class="testimonial-rating flex-box">
+            {% assign rating = all_products[full_name].metafields.loox.avg_rating %}
+            {% assign remain = 5 | minus: rating %}
+            {% for i in (1..rating) %}
+            <span class="active-star star">{% include "svg-star" %}</span>
+            {% endfor %}
+            {% for i in (1..remain) %}
+            <span class="star">{% include "svg-star" %}</span>
+            {% endfor %}
           </div>
+          {% assign splits = all_products[full_name].metafields.loox.reviews | split: '<div class="name">' %}
+          {% assign splits_2 = splits[1] | split: '</div><div class="review_text">' %}
+          <div class="testimonial-title">{{ all_products[full_name].title }}</div>
+          <div class="testimonial-desc">{{ splits_2[1] | replace: "</div>","" }}</div>
+          <div class="testimonial-author">{{ splits_2[0] }}</div>
+        </div>
+      </div>
+    </div>
         {% endif %}
       {% endfor %}
       {% endif %}
-      </div>
   </div>
 </div>
 
