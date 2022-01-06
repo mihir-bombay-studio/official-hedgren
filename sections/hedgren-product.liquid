@@ -26,11 +26,11 @@
       	{% for media in product.media %}
                 
         {% if media.media_type == "video" %}
-        <div class="product-img" href="{{ media | img_url: 'master' }}" data-caption="{{ product.title | escape  }}" data-width="{{media.width}}" data-height="{{media.height}}" itemprop="contentUrl" data-index="{{ forloop.index0 }}">
+        <div class="product-img" data-vid="yes" href="{{ media | img_url: 'master' }}" data-caption="{{ product.title | escape  }}" data-width="{{media.width}}" data-height="{{media.height}}" itemprop="contentUrl" data-index="{{ forloop.index0 }}">
           <video autoplay muted playsinline="playsinline" preload="metadata" aria-label="{{ product.title }}" poster="{{ media.preview_image | img_url: 'x300' }}" loop>{% for video_source in media.sources %}<source src="{{ video_source.url }}" type="{{ video_source.mime_type }}">{% endfor %}</video>
         </div>  
         {% else %}
-        <div class="product-img" href="{{ media | img_url: 'master' }}" data-caption="{{ product.title | escape  }}" data-width="{{media.width}}" data-height="{{media.height}}" itemprop="contentUrl" data-index="{{ forloop.index0 }}">
+        <div class="product-img" data-vid="no" href="{{ media | img_url: 'master' }}" data-caption="{{ product.title | escape  }}" data-width="{{media.width}}" data-height="{{media.height}}" itemprop="contentUrl" data-index="{{ forloop.index0 }}">
         <img src="{{ media | img_url: 'x300' }}" alt="{{ media.alt | escape }}">
         </div>  
         {% endif %}
@@ -298,6 +298,7 @@
   
     // Loop over gallery items and push it to the array
     $('.product-imgs .product-img').each(function() {
+      
       var $link = $(this),
           item = {
             src: $link.attr('href'),
