@@ -177,3 +177,16 @@
 .pswp__error-msg a {
   color: #CCC;
   text-decoration: underline; }
+
+.pswp__zoom-wrap video {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.pswp__zoom-wrap {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
