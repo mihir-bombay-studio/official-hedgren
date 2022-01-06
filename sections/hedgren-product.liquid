@@ -27,7 +27,7 @@
         <div class="product-img" href="{{ media | img_url: 'master' }}" data-caption="{{ product.title | escape  }}" data-width="{{media.width}}" data-height="{{media.height}}" itemprop="contentUrl" data-index="{{ forloop.index0 }}">
         <img src="{{ media | img_url: 'x300' }}" alt="{{ media.alt | escape }}">
         </div>          
-        {% if media.type == "video" %}
+        {% if media.media_type == "video" %}
         <span></span>
         {% endif %}
         {% endfor %}
