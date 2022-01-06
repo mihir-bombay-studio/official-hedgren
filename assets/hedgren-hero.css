@@ -87,6 +87,8 @@
   background-color: #ffffffcc;
   opacity: 0;
   padding: 0 32px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .hero-product:hover .hero-product-images-block .variants {
   opacity: 1;
