@@ -263,7 +263,7 @@
     flex-direction: column;
 }
 
-  .product-img-mob img{
+  .product-img-mob img, .product-img-mob video{
     width: 100%;
     object-fit: cover;
   }
