@@ -27,7 +27,6 @@
                 
         {% if media.media_type == "video" %}
         <div class="product-img" href="{{ media | img_url: 'master' }}" data-caption="{{ product.title | escape  }}" data-width="{{media.width}}" data-height="{{media.height}}" itemprop="contentUrl" data-index="{{ forloop.index0 }}">
-        {{ media | media_tag }}
           <video playsinline="playsinline" preload="metadata" aria-label="{{ product.title }}" poster="{{ media.preview_image | img_url: 'x300' }}" autoplay>{% for video_source in media.sources %}<source src="{{ video_source.url }}" type="{{ video_source.mime_type }}">{% endfor %}</video>
         </div>  
         {% else %}
