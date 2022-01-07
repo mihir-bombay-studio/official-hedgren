@@ -177,7 +177,7 @@
            </div>
            <div class="apply-clear-filters-wrap">
              <div class="apply-clear-filters">
-             <div class="clear-filters">CLEAR ALL</div>
+             <div class="clear-filters">{{ section.settings.clear_text }}</div>
         <div class="apply-filters-btn">{{ section.settings.filter_text_apply }}</div>
              </div>
            </div>
@@ -185,12 +185,12 @@
         
       </div>
      
-        <div class="filters sort-title-wrap"><span class="fil">SORT</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
+        <div class="filters sort-title-wrap"><span class="fil">{{ section.settings.sort_text }}</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
         <div class="sort-wrap">
-          <div class="sort new-first" data-sort="created-descending">Newest first</div>
-          <div class="sort bestsellers" data-sort="best-selling">Bestsellers</div>
-          <div class="sort ltoh" data-sort="price-ascending">Price, low - high</div>
-          <div class="sort htol" data-sort="price-descending">Price, high - low</div>
+          <div class="sort new-first" data-sort="created-descending">{{ section.settings.sort_text1 }}</div>
+          <div class="sort bestsellers" data-sort="best-selling">{{ section.settings.sort_text2 }}</div>
+          <div class="sort ltoh" data-sort="price-ascending">{{ section.settings.sort_text3 }}</div>
+          <div class="sort htol" data-sort="price-descending">{{ section.settings.sort_text4 }}</div>
         </div>
       </div>
     </div>
@@ -198,7 +198,7 @@
     </div>
       <div class="applied-filters-wrap no-disp">
         <div class="applied-filters"></div>
-        <div class="clear-filters no-t-m">CLEAR ALL <span class="close-icon">{% include 'icon-close-new' %}</span></div>
+        <div class="clear-filters no-t-m">{{ section.settings.clear_text }} <span class="close-icon">{% include 'icon-close-new' %}</span></div>
       </div>
     </div>
     <div class="all-products">
@@ -694,6 +694,12 @@
           "id": "sort_text4",
           "label": "Sort text",
           "default": "Price, high - low"
+        },
+		{
+          "type": "text",
+          "id": "clear_text",
+          "label": "Clear text",
+          "default": "CLEAR ALL"
         }
 	],
 	"presets": [
