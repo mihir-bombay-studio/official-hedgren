@@ -57,7 +57,7 @@
       </div>
 
       <a href="{{ collection.url }}" class="btn prod-coll-btn">
-        SHOP COLLECTION
+        {{ section.settings.shop_text }}
       </a>
 
     </div>  
@@ -70,7 +70,12 @@
  {
    "name":"Hedgren Prod Collection",
    "settings":[
-      
+		{
+          "type": "text",
+          "id": "shop_text",
+          "label": "Shop text",
+          "default": "SHOP COLLECTION"
+        }
    ],
    "presets":[
       {
