@@ -14,7 +14,7 @@
   {% if cart.item_count == 0 %}
   <div class="drawer-cart-main-sec">
     <div class="cart-body c-empty">
-      <div class="cart-empty">Fill up your <a href="/collections/all">cart <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>{% include "svg-bag" %}</div>      
+      <div class="cart-empty">{{ section.settings.fill_text }} <a href="/collections/all">{{ section.settings.cart_text }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>{% include "svg-bag" %}</div>      
     </div>
   </div>
   {% else %}
@@ -39,7 +39,7 @@
               <div class="qty-manipulation-symbol plus-symbol cart-plus" data-variant="{{ item.variant.id }}" data-value="{{item.quantity}}">+</div>
             </div>
             <div class="delete-cart-product" data-variant="{{ item.variant.id }}">
-              <div class="delete-text">delete</div>
+              <div class="delete-text">{{ section.settings.delete_text }}</div>
               <div class="delete-icon">{% include 'icon-delete-new' %}</div>
             </div>
           </div>
@@ -53,7 +53,7 @@
     {% unless upsell %}
     {% assign featured_image = section.settings.upsell.variant.image.src | default: section.settings.upsell.featured_image %}
     <div class="drawer-cart-upsell">
-      <div class="upsell-title">PEOPLE ALSO BOUGHT:</div>
+      <div class="upsell-title">{{ section.settings.people_text }}</div>
       <div class="upsell-product-wrap">
         <div class="upsell-product-image">
         	<img src="{{ featured_image | product_img_url: '100x' }}">
@@ -72,15 +72,15 @@
     {% endunless %}
     <div class="drawer-cart-checkout">
       <div class="checkout-subtotal justify-between">
-        <div class="checkout-title">Subtotal</div>
+        <div class="checkout-title">{{ section.settings.subtotal_text }}</div>
         <div class="subtotal">{{ cart.total_price | money_without_trailing_zeros }}</div>
       </div>
       <div class="checkout-shipping justify-between">
-        <div class="shipping-title">Shipping</div>
-        <div class="shipping-price">Calculated at checkout</div>
+        <div class="shipping-title">{{ section.settings.shipping_text }}</div>
+        <div class="shipping-price">{{ section.settings.calc_text }}</div>
       </div>
-      <a href="/checkout" class="checkout-btn"><span class="secure-icon">{% render "svg-lock" %}</span> CHECKOUT</a>
-      <a href="/collections/all" class="cont-shopping">Continue shopping</a>
+      <a href="/checkout" class="checkout-btn"><span class="secure-icon">{% render "svg-lock" %}</span> {{ section.settings.checkout_text }}</a>
+      <a href="/collections/all" class="cont-shopping">{{ section.settings.continue_text }}</a>
     </div>
   </div>
   {% endif %}
@@ -272,7 +272,61 @@
 			"id": "upsell",
 			"type": "product",
 			"label": "Upsell Product"
-		}
+		},
+		{
+          "type": "text",
+          "id": "fill_text",
+          "label": "Fill text",
+          "default": "Fill up your"
+        },
+		{
+          "type": "text",
+          "id": "cart_text",
+          "label": "Cart text",
+          "default": "cart"
+        },
+		{
+          "type": "text",
+          "id": "delete_text",
+          "label": "Delete text",
+          "default": "delete"
+        },
+		{
+          "type": "text",
+          "id": "people_text",
+          "label": "People text",
+          "default": "PEOPLE ALSO BOUGHT:"
+        },
+		{
+          "type": "text",
+          "id": "subtotal_text",
+          "label": "Subtotal text",
+          "default": "Subtotal"
+        },
+		{
+          "type": "text",
+          "id": "shipping_text",
+          "label": "Shipping text",
+          "default": "Shipping"
+        },
+		{
+          "type": "text",
+          "id": "calc_text",
+          "label": "Calc text",
+          "default": "Calculated at checkout"
+        },
+		{
+          "type": "text",
+          "id": "checkout_text",
+          "label": "Checkout text",
+          "default": "CHECKOUT"
+        },
+		{
+          "type": "text",
+          "id": "continue_text",
+          "label": "Continue text",
+          "default": "Continue shopping"
+        }
 	]
   }
 {% endschema %}
