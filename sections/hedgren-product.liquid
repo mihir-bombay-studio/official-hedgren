@@ -35,8 +35,8 @@
         </div>  
         {% endif %}
         {% endfor %}
-        <div class="load-more-images">LOAD MORE IMAGES</div>
-        <div class="load-less-images no-disp">SHOW LESS IMAGES</div>
+        <div class="load-more-images">{{ section.settings.more }}</div>
+        <div class="load-less-images no-disp">{{ section.settings.less }}</div>
       </div>
       <div class="product-imgs-mobile no-d">
       	{% for media in product.media %}
@@ -347,7 +347,20 @@
 {% schema %}
   {
     "name": "Hedgren Product",
-    "settings": [],
+    "settings": [
+		{
+          "type": "text",
+          "id": "more",
+          "label": "More text",
+          "default": "LOAD MORE IMAGES"
+        },
+		{
+           "type":"text",
+           "id":"less",
+           "default":"SHOW LESS IMAGES",
+           "label":"Less text"
+        }
+	],
 	"presets": [
 		{
 			"name": "Hedgren Product"
