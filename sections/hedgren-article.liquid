@@ -18,7 +18,7 @@
       </div>
       <div class="article-author-date flex-box">
         <div class="article-author-img"><img src="{{ 'IMage_2x.png' | asset_img_url: '50x' }}"></div>
-        <div class="article-author">WRITTEN BY {{ article.author }}</div>
+        <div class="article-author">{{ section.settings.written }} {{ article.author }}</div>
         <div class="article-date">{{ article.created_at | date: "%d/%m/'%y" }}</div>
       </div>
       <div class="wrappers-wrapper">
@@ -284,7 +284,14 @@
 {% schema %}
   {
     "name": "Hedgren Article",
-    "settings": [],
+    "settings": [
+		{
+          "type": "text",
+          "id": "written",
+          "label": "Written text",
+          "default": "WRITTEN BY"
+        }
+	],
 	"presets": [{"name": "Hedgren Article"}]
   }
 {% endschema %}
