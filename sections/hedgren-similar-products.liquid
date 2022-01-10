@@ -25,7 +25,7 @@
 <div class="hero-products-wrapper similar-products-wrapper">
   <div class="container">
     <h2 class="similar-prods-heading">{{ section.settings.heading }}</h2>
-    <div class="similar-prods-subheading">WHAT OTHER HEDGRENISTS THINK</div>
+    <div class="similar-prods-subheading">{{ section.settings.what_text }}</div>
     <div class="similar-products flex-box justify-between hero-products">
       
       {% for product in collection.products %}
@@ -275,6 +275,12 @@
         "id": "buttontext",
         "label": "Button text",
 		"default": "SHOP ALL PRODUCTS"
+      },
+      {
+        "type": "text",
+        "id": "what_text",
+        "label": "What text",
+		"default": "WHAT OTHER HEDGRENISTS THINK"
       }
 	],
 	"presets": [
