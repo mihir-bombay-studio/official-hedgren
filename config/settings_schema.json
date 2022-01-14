@@ -1002,6 +1002,12 @@
       },
       {
         "type": "image_picker",
+        "id": "teclipse",
+        "label": "Total Eclipse",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
         "id": "cabernet",
         "label": "Cabernet",
         "info": "Add\/Replace image for Color Swatch"
