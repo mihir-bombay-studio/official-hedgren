@@ -164,6 +164,7 @@
     "cosmicm": "shopify:\/\/shop_images\/cosmic_mix.jpg",
     "smokeym": "shopify:\/\/shop_images\/smokey_mauve.jpg",
     "bikingr": "shopify:\/\/shop_images\/biking_red.jpg",
+    "teclipse": "shopify:\/\/shop_images\/total_eclipse.jpg",
     "cabernet": "shopify:\/\/shop_images\/cabernet.jpg",
     "h_name1": "Great American Heritage",
     "h_collection1": "great-american-heritage",
@@ -336,7 +337,16 @@
       "hedgren-cart-drawer": {
         "type": "hedgren-cart-drawer",
         "settings": {
-          "upsell": "canyon-square-backpack-15-rfid-mustardo"
+          "upsell": "canyon-square-backpack-15-rfid-mustardo",
+          "fill_text": "Fill up your",
+          "cart_text": "cart",
+          "delete_text": "delete",
+          "people_text": "PEOPLE ALSO BOUGHT:",
+          "subtotal_text": "Subtotal",
+          "shipping_text": "Shipping",
+          "calc_text": "Calculated at checkout",
+          "checkout_text": "CHECKOUT",
+          "continue_text": "Continue shopping"
         }
       },
       "hedgren-footer": {
