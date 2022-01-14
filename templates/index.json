@@ -3,7 +3,7 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/GIVING_4.png",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_Esohe_09.jpg",
         "heading": "sale",
         "subheading": "Are you ready for this?",
         "headinglink": "shopify:\/\/collections\/deal",
@@ -86,7 +86,9 @@
         "title_left": "1994",
         "title_mid": "Discover our collections",
         "title_right": "2021",
-        "subtitle": "OUR COLLECTIONS"
+        "subtitle": "OUR COLLECTIONS",
+        "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
+        "discover_text": "DISCOVER COLLECTION"
       }
     },
     "1636701628c3f2b6f2": {
@@ -453,7 +455,8 @@
         "address_head": "Company address",
         "address": "Ankerrui 2<br> 2000 Antwerpen<br> Belgium",
         "contact_info_heading": "Contact Information",
-        "contact_info": "Tel: <span class=\"tel\">+32 (0)15 300 560<\/span><br><br> We can be reached by telephone during office hours. Monday to Thursday between 9 AM &amp; 5 PM CET. Friday between 9 AM &amp; 4 PM CET."
+        "contact_info": "Tel: <span class=\"tel\">+32 (0)15 300 560<\/span><br><br> We can be reached by telephone during office hours. Monday to Thursday between 9 AM &amp; 5 PM CET. Friday between 9 AM &amp; 4 PM CET.",
+        "thank": "Thank you for getting in touch, we'll get back to you."
       }
     },
     "16378226154b875f73": {
