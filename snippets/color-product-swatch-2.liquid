@@ -398,3 +398,8 @@
     <span class="variant-color-wrapper" title="Biking Red" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.bikingr | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Biking Red" %}<span class="variant-color-wrapper" title="Biking Red" data-url="{% include 'removelist' %}-bikingr"><img class="hedgren-color-inactive" src="{{ settings.bikingr | img_url: '' }}"></span>
      {% endif %}
+
+{% if product.tags contains "2.Color_Total Eclipse" and product.url contains "-teclipse" %}
+    <span class="variant-color-wrapper" title="Total Eclipse" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.teclipse | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Total Eclipse" %}<span class="variant-color-wrapper" title="Total Eclipse" data-url="{% include 'removelist' %}-teclipse"><img class="hedgren-color-inactive" src="{{ settings.teclipse | img_url: '' }}"></span>
+     {% endif %}
