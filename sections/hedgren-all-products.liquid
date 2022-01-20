@@ -19,7 +19,7 @@
       	{% assign tagx = tag | split: " - " %}
 		{% endif %}
       	{% assign tag_first = tagx[0] | strip | replace: "filter:","" | replace: "Filter:","" | strip %}
-		{% unless categoryp == tag_first %}
+		{% unless categoryp contains tag_first %}
 			{% if categoryp == "" %}
 				{% assign categoryp = tag_first %}
 			{% else %}
