@@ -1008,6 +1008,90 @@
       },
       {
         "type": "image_picker",
+        "id": "pearlyw",
+        "label": "Pearly White",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "dpbl",
+        "label": "Deep Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "jeans",
+        "label": "Jeans",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "fugr",
+        "label": "Fumo Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "baltbl",
+        "label": "Baltic Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "botgr",
+        "label": "Botanical Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "purdusk",
+        "label": "Purple Dusk",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "tigreye",
+        "label": "Tiger Eye",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "mornsky",
+        "label": "Morning Sky",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "orchflw",
+        "label": "Orchid Flower",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "esnatur",
+        "label": "Essence Natural",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "tan",
+        "label": "Tan",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "csmmx",
+        "label": "Cosmic Mix II",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "scamix",
+        "label": "Escape Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
         "id": "cabernet",
         "label": "Cabernet",
         "info": "Add\/Replace image for Color Swatch"
