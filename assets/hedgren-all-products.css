@@ -142,7 +142,10 @@
 
 .filter-type-title {
     letter-spacing: 2.21px;
-    margin-bottom: 12px;
+    margin-bottom: 12px;  
+}
+.filter-type-title:first-letter {
+    text-transform: capitalize;
 }
 
 .filter-wrap {
