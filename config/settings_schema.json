@@ -1092,6 +1092,18 @@
       },
       {
         "type": "image_picker",
+        "id": "brwn",
+        "label": "Brown",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "coastalf",
+        "label": "Coastal Fjord",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
         "id": "cabernet",
         "label": "Cabernet",
         "info": "Add\/Replace image for Color Swatch"
