@@ -473,3 +473,13 @@
     <span class="variant-color-wrapper" title="Cosmic Mix II" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.csmmx | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Cosmic Mix II" %}<span class="variant-color-wrapper" title="Cosmic Mix II" data-url="{% include 'removelist' %}-csmmx"><img class="hedgren-color-inactive" src="{{ settings.csmmx | img_url: '' }}"></span>
      {% endif %}
+
+{% if product.tags contains "2.Color_Brown" and product.url contains "-brwn" %}
+    <span class="variant-color-wrapper" title="Brown" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.brwn | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Brown" %}<span class="variant-color-wrapper" title="Brown" data-url="{% include 'removelist' %}-brwn"><img class="hedgren-color-inactive" src="{{ settings.brwn | img_url: '' }}"></span>
+     {% endif %}
+
+{% if product.tags contains "2.Color_Coastal Fjord" and product.url contains "-coastalf" %}
+    <span class="variant-color-wrapper" title="Coastal Fjord" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.coastalf | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Coastal Fjord" %}<span class="variant-color-wrapper" title="Coastal Fjord" data-url="{% include 'removelist' %}-coastalf"><img class="hedgren-color-inactive" src="{{ settings.coastalf | img_url: '' }}"></span>
+     {% endif %}
