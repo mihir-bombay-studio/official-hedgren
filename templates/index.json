@@ -3,16 +3,16 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Valentijn_banner_1.png",
-        "heading": "",
-        "subheading": "",
-        "headinglink": "shopify:\/\/collections\/deal",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_Esohe_09_8dbc012d-1433-4e9c-838e-cd14b7907e06.jpg",
+        "heading": "Better together",
+        "subheading": "Buy 2 bags and enjoy 25% off on your 2nd bag",
+        "headinglink": "shopify:\/\/collections\/all",
         "headinglinktext": "Shop now",
         "design2": true,
         "addtext": "ADD TO CART",
         "outtext": "OUT OF STOCK",
         "moretext": "More info",
-        "collection": "outlet",
+        "collection": "all-women-bags",
         "buttontext": "SHOP ALL PRODUCTS"
       }
     },
