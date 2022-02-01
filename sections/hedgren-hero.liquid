@@ -1,6 +1,15 @@
 {{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
+{% if section.settings.imagemobile %}
+<style>
+  @media(max-width: 992px){
+    #herodiv {
+      background-image: url({{ section.settings.imagemobile | img_url: "2000x" }});
+    }
+  }
+</style>
+{% endif %}
 {% assign aspectratio = section.settings.image.width | divided_by: section.settings.image.height %}
-<div class="hero {% if aspectratio > 1.9 and section.settings.design2 %}alternate-hero{% endif %}" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
+<div id="herodiv" class="hero {% if aspectratio > 1.9 and section.settings.design2 %}alternate-hero{% endif %}" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
   <div class="container flex-box justify-end">
     <span class="header-inner-wrapper">
       <h1 class="hero-text">
@@ -243,6 +252,11 @@
          "type":"image_picker",
          "id":"image",
          "label":"Image"
+      },
+      {
+         "type":"image_picker",
+         "id":"imagemobile",
+         "label":"Mobile Image"
       },
       {
         "type": "html",
