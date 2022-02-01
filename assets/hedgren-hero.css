@@ -284,3 +284,16 @@ span.sub-head {
     width: calc(65.5% - 2px);
   }
 }
+@media (max-width: 380px) {
+  .hero-text {
+    font-size: 58px;
+    line-height: 58px;
+    margin-top: -70px !important;
+    letter-spacing: -2.9px;
+    text-align: center;
+  }
+  .header-inner-wrapper a {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
