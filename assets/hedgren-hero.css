@@ -244,6 +244,7 @@ span.sub-head {
   .hero-text {
     font-size: 66px;
     line-height: 65px;
+    margin-top: -70px !important;
     letter-spacing: -2.9px;
     text-align: center;
   }
