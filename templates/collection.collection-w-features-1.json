@@ -30,21 +30,22 @@
         "411dc432-1cb7-4f96-bc4d-f31649016464": {
           "type": "features",
           "settings": {
-            "name": "Quest",
-            "bag": "shopify:\/\/shop_images\/quest1.png",
-            "feature_img1": "shopify:\/\/shop_images\/Image_2x_96d15e0d-f319-4820-81a0-874f8fbcd915.png",
-            "feature_heading1": "Sustainable materials",
-            "feature_description1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
-            "feature_img2": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
-            "feature_heading2": "Spacious compartment",
-            "feature_description2": "Including an RFID zipped pocket for passport and credit card protection, 1 open pocket to store a mobile phone or small accessories, a ket chain made of a 3-tone rope and metal hook.",
-            "feature_img3": "shopify:\/\/shop_images\/Hedgren_Banner.jpg",
-            "feature_heading3": "Large front pocket",
-            "feature_description3": "Practical large front pocket closed by a trendy 3-tone rope and a flap.",
-            "feature_img4": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
-            "feature_heading4": "Zipped pocket",
-            "feature_description4": "Quick access to zipped pocket in the back offering an extra security loop to insert the puller after closing. Ideal pocket to store a mobile phone, ID document and more.",
-            "feature_heading5": "",
+            "name": "Free",
+            "bag": "shopify:\/\/shop_images\/1_3b4c5d27-125b-4cb5-b6b5-01daf8c7aadc.png",
+            "feature_img1": "shopify:\/\/shop_images\/HLBR01_368_01_4a.jpg",
+            "feature_heading1": "Eye-catching Buckle",
+            "feature_description1": "",
+            "feature_img2": "shopify:\/\/shop_images\/HLBR01_368_01_4b.jpg",
+            "feature_heading2": "Key Hanger",
+            "feature_description2": "",
+            "feature_img3": "shopify:\/\/shop_images\/HLBR01_368_01_4d.jpg",
+            "feature_heading3": "RFID Protection",
+            "feature_description3": "",
+            "feature_img4": "shopify:\/\/shop_images\/HLBR01_368_01_4c.jpg",
+            "feature_heading4": "Removable Shoulder Strap",
+            "feature_description4": "",
+            "feature_img5": "shopify:\/\/shop_images\/HLBR01_368_01_5.jpg",
+            "feature_heading5": "Large main pocket",
             "feature_description5": "",
             "feature_heading6": "",
             "feature_description6": ""
@@ -53,10 +54,48 @@
         "1612ed30-a773-4f02-8227-012e4f9fe485": {
           "type": "features",
           "settings": {
-            "name": "Featured",
-            "bag": "shopify:\/\/shop_images\/quest2.png",
+            "name": "Fair",
+            "bag": "shopify:\/\/shop_images\/2_d03558d0-26df-4499-920b-4f6b75dbc0b1.png",
             "feature_img1": "shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png",
             "feature_heading1": "fdghdfgh dfgh dfg",
+            "feature_description1": "",
+            "feature_heading2": "",
+            "feature_description2": "",
+            "feature_heading3": "",
+            "feature_description3": "",
+            "feature_heading4": "",
+            "feature_description4": "",
+            "feature_heading5": "",
+            "feature_description5": "",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        },
+        "19d1852c-e433-4e47-8ba0-6cb8dbb65d09": {
+          "type": "features",
+          "settings": {
+            "name": "Even",
+            "bag": "shopify:\/\/shop_images\/3_b7ccdc5b-81cd-4940-9736-18172be8b31c.png",
+            "feature_heading1": "",
+            "feature_description1": "",
+            "feature_heading2": "",
+            "feature_description2": "",
+            "feature_heading3": "",
+            "feature_description3": "",
+            "feature_heading4": "",
+            "feature_description4": "",
+            "feature_heading5": "",
+            "feature_description5": "",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        },
+        "d87d3b4c-a7a5-4f62-a6c5-d6106f93f776": {
+          "type": "features",
+          "settings": {
+            "name": "Balanced",
+            "bag": "shopify:\/\/shop_images\/4_a71db5c0-00eb-47d5-9ad2-6973f0da509c.png",
+            "feature_heading1": "",
             "feature_description1": "",
             "feature_heading2": "",
             "feature_description2": "",
@@ -73,14 +112,19 @@
       },
       "block_order": [
         "411dc432-1cb7-4f96-bc4d-f31649016464",
-        "1612ed30-a773-4f02-8227-012e4f9fe485"
+        "1612ed30-a773-4f02-8227-012e4f9fe485",
+        "19d1852c-e433-4e47-8ba0-6cb8dbb65d09",
+        "d87d3b4c-a7a5-4f62-a6c5-d6106f93f776"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
         "heading_left": "",
-        "heading_main": "",
         "heading_right": "",
-        "sub_heading": ""
+        "sub_heading": "",
+        "addtext": "ADD TO CART",
+        "outtext": "OUT OF STOCK",
+        "moretext": "More info",
+        "buttontext": "SHOP ALL PRODUCTS"
       }
     },
     "1637658320f19f8e7c": {
@@ -89,49 +133,57 @@
         "13021447-4b2d-470a-aee2-66f69c98fa2e": {
           "type": "collect",
           "settings": {
-            "coll": "great-american-heritage"
+            "coll": "great-american-heritage",
+            "page": ""
           }
         },
         "23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8": {
           "type": "collect",
           "settings": {
-            "coll": "cabin-size"
+            "coll": "cabin-size",
+            "page": ""
           }
         },
         "2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3": {
           "type": "collect",
           "settings": {
-            "coll": "aura"
+            "coll": "aura",
+            "page": ""
           }
         },
         "1ed8fe6f-6171-47fc-a151-13c318a5e2e3": {
           "type": "collect",
           "settings": {
-            "coll": "charm-business"
+            "coll": "charm-business",
+            "page": ""
           }
         },
         "f657a88c-b943-44c3-a8c7-16c9811d888d": {
           "type": "collect",
           "settings": {
-            "coll": "luggage"
+            "coll": "luggage",
+            "page": ""
           }
         },
         "3a0a04e6-8f94-49cd-8d5a-a9457f1b6755": {
           "type": "collect",
           "settings": {
-            "coll": "diamond-star"
+            "coll": "diamond-star",
+            "page": ""
           }
         },
         "a726fe23-c473-4920-8305-df6d75419a8b": {
           "type": "collect",
           "settings": {
-            "coll": "commute"
+            "coll": "commute",
+            "page": ""
           }
         },
         "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df": {
           "type": "collect",
           "settings": {
-            "coll": "escapade-1"
+            "coll": "escapade-1",
+            "page": ""
           }
         }
       },
@@ -149,7 +201,9 @@
         "title_left": "1994",
         "title_mid": "Discover our collections",
         "title_right": "2021",
-        "subtitle": "SUBTITLE"
+        "subtitle": "SUBTITLE",
+        "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
+        "discover_text": "DISCOVER COLLECTION"
       }
     }
   },
