@@ -79,10 +79,10 @@
         {%- if link.links != blank -%}
         <div class="dropdown">  
           <div class="container flex-box justify-between">
-            {% if link.links.first.title == "(col-left)" %}
+            {% if link.links.first.title == "(col-left)" or link.links.first.title == "(Spalte-links)" or link.links.first.title == "(col-gauche)" %}
             <div class="nav-left-cards">
               {%- for childlink in link.links -%}
-              {% if childlink.title == "(col-left)" %}
+              {% if childlink.title == "(col-left)" or childlink.title == "(Spalte-links)" or childlink.title == "(col-gauche)"  %}
               {% assign handlesxn = childlink.url | split: "/" %}
               <div class="nav-card">
                 {% assign colxn = collections[handlesxn.last] %}
@@ -105,7 +105,7 @@
               <li class="link-primary">
                 <a href="{{ childlink.url }}">{{ childlink.title | escape | remove_first: "-" }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
               </li>
-              {% elsif childlink.title != "(col)" %}
+              {% elsif childlink.title != "(col)" and childlink.title != "(mit dem)" and childlink.title != "(avec le)" %}
               {% if childlink.url == "#" %}
               <li class="link-heading">
                 <a href="#" onclick="return false;">{{ childlink.title | escape }}</a>
@@ -121,7 +121,7 @@
             {% endif %}
             <div class="nav-right-cards">
               {%- for childlink in link.links -%}
-              {% if childlink.title == "(col)" %}
+              {% if childlink.title == "(col)" or childlink.title == "(mit dem)" or childlink.title == "(avec le)" %}
               {% assign handlesxn = childlink.url | split: "/" %}
               <div class="nav-card">
                 {% assign colxn = collections[handlesxn.last] %}
@@ -218,10 +218,10 @@
         {%- if link.links != blank -%}
         <div class="panel">
           	<div class="sub-menu-wrap flex-box justify-between">            
-            {% if link.links.first.title == "(col-left)" %}
+            {% if link.links.first.title == "(col-left)" or link.links.first.title == "(Spalte-links)" or link.links.first.title == "(col-gauche)" %}
             <div class="nav-right-cards">
               {%- for childlink in link.links -%}
-              {% if childlink.title == "(col-left)" or childlink.title == "(col)" %}
+              {% if childlink.title == "(col-left)" or childlink.title == "(col)" or childlink.title == "(mit dem)" or childlink.title == "(avec le)" or childlink.title == "(Spalte-links)" or childlink.title == "(col-gauche)" %}
               {% assign handlesxn = childlink.url | split: "/" %}
               <div class="nav-card">
                 {% assign colxn = collections[handlesxn.last] %}
@@ -244,7 +244,7 @@
               <li class="link-primary">
                 <a href="{{ childlink.url }}">{{ childlink.title | escape | remove_first: "-" }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
               </li>
-              {% elsif childlink.title != "(col)" %}
+              {% elsif childlink.title != "(col)" and childlink.title != "(mit dem)" and childlink.title != "(avec le)" %}
               {% if childlink.url == "#" %}
               <li class="link-heading">
                 <a href="#" onclick="return false;">{{ childlink.title | escape }}</a>
