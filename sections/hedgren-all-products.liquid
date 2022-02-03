@@ -25,6 +25,14 @@
             {% endif %}
          {% endfor %}
       	{% assign tagx = nl[position] | split: " - " %}
+		{% elsif request.locale.iso_code == 'de' %}
+		{% for item in en %}
+          {% if item == tag %}
+              {% assign position = forloop.index0 %}
+              {% break %} 
+            {% endif %}
+         {% endfor %}
+      	{% assign tagx = de[position] | split: " - " %}
 		{% else %}
       	{% assign tagx = tag | split: " - " %}
 		{% endif %}
@@ -227,7 +235,7 @@
       {% paginate collection.products by 2000 %}
       {% for product in collection.products %}
       {% if product.tags contains "Main" %}
-      <div class="hero-product {% for tag in product.tags %}{% if tag contains "filter:" or tag contains "Filter:" %}{% if request.locale.iso_code == 'fr' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = fr[position] | split: " - " %}{% elsif request.locale.iso_code == 'nl' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = nl[position] | split: " - " %}{% else %}{% assign tagx = tag | split: " - " %}{% endif %}{{ tagx[0] | replace: "Filter:","" | replace: "filter:","" | strip | replace: " ","-" }}-{{ tagx[1] | strip | replace: " ","-" | capitalize }} {% endif %}{% endfor %}">
+      <div class="hero-product {% for tag in product.tags %}{% if tag contains "filter:" or tag contains "Filter:" %}{% if request.locale.iso_code == 'fr' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = fr[position] | split: " - " %}{% elsif request.locale.iso_code == 'nl' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = nl[position] | split: " - " %}{% elsif request.locale.iso_code == 'de' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = de[position] | split: " - " %}{% else %}{% assign tagx = tag | split: " - " %}{% endif %}{{ tagx[0] | replace: "Filter:","" | replace: "filter:","" | strip | replace: " ","-" }}-{{ tagx[1] | strip | replace: " ","-" | capitalize }} {% endif %}{% endfor %}">
         <div>
           <div class="hero-product-images-block rel">
             <a href="{{ product.url }}">
