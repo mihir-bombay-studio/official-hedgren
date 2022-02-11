@@ -399,6 +399,11 @@
   "shopify": {
     "pagination": {
       "next": "Next"
+    },
+    "checkout": {
+      "order_summary": {
+        "estimated_taxes_label": "Taxes (estimation)"
+      }
     }
   }
 }
