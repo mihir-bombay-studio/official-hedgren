@@ -34,7 +34,7 @@
       "settings": {
         "background": "normal-bg",
         "order": "order-normal",
-        "heading_color": "regular",
+        "heading_color": "red",
         "image": "shopify:\/\/shop_images\/Hedgrenist_Dieter_2020_3264_1_a8be051f-f14a-450e-ab7c-61a025e3dda4.jpg",
         "heading": "How it started",
         "subheading": "The name Hedgren was taken from Xavier Kegels’ beloved grandmother, Elisabeth Hedgren.",
@@ -74,7 +74,7 @@
       "settings": {
         "background": "normal-bg",
         "order": "order-normal",
-        "heading_color": "regular",
+        "heading_color": "red",
         "image": "shopify:\/\/shop_images\/Web_2.png",
         "heading": "7 offices worldwide",
         "subheading": "",
