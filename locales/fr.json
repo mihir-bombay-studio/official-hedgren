@@ -403,6 +403,14 @@
     "checkout": {
       "order_summary": {
         "estimated_taxes_label": "Taxes (estimation)"
+      },
+      "delivery_options": {
+        "ship": "Expédiez"
+      },
+      "payment": {
+        "delete_customer_mandate_modal_title": "Supprimer cette carte ?",
+        "delete_customer_mandate_modal_body": "Cette opération est irréversible.",
+        "delete_customer_mandate_modal_confirm": "Retirer"
       }
     }
   }
