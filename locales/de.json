@@ -116,7 +116,7 @@
         "unit_price": "Grundpreis"
       },
       "share": "Dieses Produkt teilen",
-      "sold_out": "Ausverkauft",
+      "sold_out": "NICHT MEHR LIEFERBAR",
       "unavailable": "Nicht verfügbar",
       "vendor": "Anbieter",
       "video_exit_message": "{{ title }} öffnet das Video auf derselben Seite im Vollbildmodus.",
@@ -416,6 +416,28 @@
         "delete_customer_mandate_modal_title": "Diese Karte entfernen?",
         "delete_customer_mandate_modal_body": "Dies kann nicht rückgängig gemacht werden.",
         "delete_customer_mandate_modal_confirm": "Entfernen"
+      },
+      "processing": {
+        "you_will_receive_confirmation": "Wir bekommen gerade sehr viele Bestellungen herein. Du solltest deine Bestätigung in Kürze per E-Mail oder per SMS erhalten. Wenn du diese nicht in der Nextn Stunde erhalten solltest, dann gib uns Bescheid."
+      },
+      "thank_you": {
+        "order_updates_upcoming_step_prefix": "Nextr Schritt: "
+      },
+      "remember_me": {
+        "description_html": "Wenn du das Next Mal hier oder in anderen Shops von Shopify auscheckst, erhältst du per Textnachricht einen Code und kannst sicher mit Shop Pay einkaufen."
+      }
+    },
+    "pagination": {
+      "next": "Next"
+    },
+    "notices": {
+      "cart": {
+        "too_many_items_in_cart": "Du kannst keine weiteren %{name}-Produkte IN DEN WARENKORB."
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "next_day": "Abholbereit am Nextn Tag"
       }
     }
   }
