@@ -395,5 +395,28 @@
       "copy_code_success": "Code erfolgreich kopiert",
       "print_gift_card": "Drucken"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "pick_up_next_day": "Abholbereit am Nextn Tag"
+      },
+      "customer_account": {
+        "save_my_information_label": "Meine Informationen speichern und Nexts Mal schneller bezahlen"
+      },
+      "stock": {
+        "title": "NICHT MEHR LIEFERBAR",
+        "sold_out_label": "NICHT MEHR LIEFERBAR"
+      },
+      "order_summary": {
+        "shipping_default_value": "Wird im Nextn Schritt berechnet",
+        "estimated_taxes_label": "Steuern"
+      },
+      "payment": {
+        "delete_customer_mandate_modal_title": "Diese Karte entfernen?",
+        "delete_customer_mandate_modal_body": "Dies kann nicht rückgängig gemacht werden.",
+        "delete_customer_mandate_modal_confirm": "Entfernen"
+      }
+    }
   }
 }
