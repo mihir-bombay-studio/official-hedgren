@@ -55,7 +55,7 @@
     </div>
     <div class="upper-nav-right"> 
       {% if shop.customer_accounts_optional or shop.customer_accounts_enabled %}
-      <a class="no-t-m" href="/account">{% if customer %}Account{% else %}Sign in{% endif %}</a>
+      <a class="no-t-m" href="/account">{% if customer %}Account{% else %}{{ "customer.login_page.sign_in" | t }}{% endif %}</a>
       {% endif %}
       {% if section.settings.show_search %}
       <a href="/search" title="search">
