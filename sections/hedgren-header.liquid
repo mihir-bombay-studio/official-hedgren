@@ -3,7 +3,10 @@
 <header class="{% if section.settings.enable_sticky_header %}sticky{% endif %}">
   <div class="upper-header flex-box justify-between flex-center">
     <div class="upper-nav-left no-t-m">
-      <a href="#" title="Translation into French and Dutch coming soon">English</a>
+      <a href="#" title="{{ shop_locale.name }}">{{ shop_locale.name }}</a>
+      <div class="no-disp">
+        <a href="#" title="Translation into French and Dutch coming soon">English</a>
+      </div>
     </div>
     <nav class="header-hamburger-menu left-nav no-d">
       <button type="button" class="navbar-toggler">
