@@ -7,7 +7,7 @@
     <form id="email_signup" class="klaviyo_styling klaviyo_gdpr_embed_RaHJHf" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
       
       <h3>
-        Subscribe to hedgren
+        {{ section.settings.sub2 }}
       </h3>
       <div class="klaviyo_messages">
         <div id="f-success" class="success_message form-success text-center note" style="display:none;">Newsletter subscribed successfully</div>
@@ -19,7 +19,7 @@
       <input type="hidden" name="$list_fields" value="$consent">
       <div class="input-group">
         <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="email@example.com" name="email" id="Email" aria-label="email" autocorrect="off" autocapitalize="off">
-        <input type="submit" name="commit" id="Subscribe" value="Subscribe">
+        <input type="submit" name="commit" id="Subscribe" value="{{ section.settings.sub }}">
       </div>
     </form>
     <style>
@@ -182,6 +182,18 @@
         "id": "menu4",
         "default": "main-menu",
         "label": "Sub Footer Column 4"
+      },
+      {
+        "type": "text",
+        "id": "sub2",
+        "default": "Subscribe to hedgren",
+        "label": "Sub to text"
+      },
+      {
+        "type": "text",
+        "id": "sub",
+        "default": "Subscribe",
+        "label": "Sub button text"
       }
 	]
   }
