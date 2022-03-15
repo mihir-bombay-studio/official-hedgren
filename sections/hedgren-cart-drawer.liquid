@@ -120,7 +120,7 @@
     })
     .done(function( data ) {     
       $.ajax({
-        url: '{% if shop_locale.primary %}/{% else %}/{{ shop_locale.root_url }}{% endif %}?sections=hedgren-cart-drawer',
+        url: '/?sections=hedgren-cart-drawer',
         method: "GET",
         dataType: "json"
       })
@@ -152,7 +152,7 @@
     })
     .done(function( data ) {     
       $.ajax({
-        url: '{% if shop_locale.primary %}/{% else %}/{{ shop_locale.root_url }}{% endif %}?sections=hedgren-cart-drawer',
+        url: '/?sections=hedgren-cart-drawer',
         method: "GET",
         dataType: "json"
       })
@@ -184,7 +184,7 @@
       })
       .done(function( data ) {     
         $.ajax({
-          url: '{% if shop_locale.primary %}/{% else %}/{{ shop_locale.root_url }}{% endif %}?sections=hedgren-cart-drawer',
+          url: '/?sections=hedgren-cart-drawer',
           method: "GET",
           dataType: "json"
         })
@@ -216,7 +216,7 @@
       })
       .done(function( data ) {     
         $.ajax({
-          url: '{% if shop_locale.primary %}/{% else %}/{{ shop_locale.root_url }}{% endif %}?sections=hedgren-cart-drawer',
+          url: '/?sections=hedgren-cart-drawer',
           method: "GET",
           dataType: "json"
         })
