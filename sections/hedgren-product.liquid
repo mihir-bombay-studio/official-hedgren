@@ -221,7 +221,7 @@
     })
     .done(function( data ) {     
       $.ajax({
-        url: '/?sections=hedgren-cart-drawer',
+        url: '{% if shop_locale.primary %}/{% else %}/{{ shop_locale.root_url }}{% endif %}?sections=hedgren-cart-drawer',
         method: "GET",
         dataType: "json"
       })
