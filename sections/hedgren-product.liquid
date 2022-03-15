@@ -71,7 +71,7 @@
             {% include 'color-product-swatch-2' %}
           </div>
         </div>
-        <div class="add-to-cart" data-variant="{{ product.selected_or_first_available_variant.id }}">{% if product.available %}{{ "products.product.add_to_cart" | t | uppercase }}{% else %}Coming Soon{% endif %} {% include 'icon-plus-black' %}</div>
+        <div class="add-to-cart" data-variant="{{ product.selected_or_first_available_variant.id }}">{% if product.available %}{{ "products.product.add_to_cart" | t | upcase }}{% else %}Coming Soon{% endif %} {% include 'icon-plus-black' %}</div>
         <div class="product-desc">{% if product.description contains '<!-- split -->' %}{% assign desc = product.description | split: '<!-- split -->' %}{{ desc[1] }}{% else %}{{ product.description }}{% endif %}</div>
         <div class="product-usps">
           {% if product.description contains '<!-- split -->' %}
