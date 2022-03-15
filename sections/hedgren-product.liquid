@@ -65,7 +65,7 @@
           {% include "color-product-handles" %}
         </div>
         <div class="color-variant-wrap">
-          <div class="variant-title">COLOUR</div>
+          <div class="variant-title">{{ section.settings.forcolor }}</div>
           <div class="variants2 flex-box">
             {% include 'color-product-swatch' %}
             {% include 'color-product-swatch-2' %}
@@ -353,6 +353,12 @@
           "id": "more",
           "label": "More text",
           "default": "LOAD MORE IMAGES"
+        },
+		{
+          "type": "text",
+          "id": "forcolor",
+          "label": "Colour text",
+          "default": "COLOUR"
         },
 		{
            "type":"text",
