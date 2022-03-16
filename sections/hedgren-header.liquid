@@ -32,13 +32,13 @@
     <div class="upper-nav-left no-t-m">
       <a href="#" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
       <div class="lang-dd">
-        {% if request.locale != "en" %}
+        {% if request.locale.iso_code != "en" %}
         <a href="{{ request.origin }}{{ request.path }}" title="English">English</a>
         {% endif %}
-        {% if request.locale != "fr" %}
+        {% if request.locale.iso_code != "fr" %}
         <a href="{{ request.origin }}/fr{{ request.path }}" title="Français">Français</a>
         {% endif %}
-        {% if request.locale != "nl" %}{{ request.locale }}
+        {% if request.locale.iso_code != "nl" %}
         <a href="{{ request.origin }}/nl{{ request.path }}" title="Nederlands">Nederlands</a>
         {% endif %}
       </div>
