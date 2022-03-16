@@ -38,7 +38,7 @@
         {% if request.locale != "fr" %}
         <a href="{{ request.origin }}/fr{{ request.path }}" title="Français">Français</a>
         {% endif %}
-        {% if request.locale != "nl" %}
+        {% if request.locale != "nl" %}{{ request.locale }}
         <a href="{{ request.origin }}/nl{{ request.path }}" title="Nederlands">Nederlands</a>
         {% endif %}
       </div>
