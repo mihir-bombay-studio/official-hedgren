@@ -323,7 +323,7 @@
         <a href="/blogs/stories">STORIES <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
         <a href="/pages/community">LOYALTY PROGRAM <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
       
-      <a href="#" onclick="return false;" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
+      <a href="#" onclick="return false;" title="{{ request.locale.name }}">LANGUAGE - {{ request.locale.name }}</a>
         {% if request.locale.iso_code != "en" %}
         <a class="lang" href="https://hedgren.com{{ request.path | remove: "/nl" | remove: "/fr" }}" title="English">English</a>
         {% endif %}
