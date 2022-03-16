@@ -259,6 +259,13 @@
       $(".drawer-cart").addClass("drawn");
       $(".background-drawer-cart").addClass("drawn");
     }
+    var search = window.location.search.substring(1);
+    $('.lang-dd a').each(function() {
+      $(this).attr('href',$(this).attr('href') +'?'+ search);
+    });
+    $('a.lang').each(function() {
+      $(this).attr('href',$(this).attr('href') +'?'+ search);
+    });
 
   });
 </script>
