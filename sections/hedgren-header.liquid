@@ -33,13 +33,13 @@
       <a href="#" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
       <div class="lang-dd">
         {% if request.locale != "en" %}
-        <a href="#" title="English">English</a>
+        <a href="{{ request.path }}" title="English">English</a>
         {% endif %}
         {% if request.locale != "fr" %}
-        <a href="#" title="Français">Français</a>
+        <a href="/fr{{ request.path }}" title="Français">Français</a>
         {% endif %}
-        {% if request.locale != "de" %}
-        <a href="{% if routes.root_url != "/" %}{{ routes.root_url }}{% endif %}{{ request.path }}" title="Nederlands">Nederlands</a>
+        {% if request.locale != "nl" %}
+        <a href="/nl{{ request.path }}" title="Nederlands">Nederlands</a>
         {% endif %}
       </div>
     </div>
