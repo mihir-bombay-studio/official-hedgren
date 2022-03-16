@@ -25,11 +25,17 @@
     display: block;
     transition: all .4s ease;
   }
+  .lang-dd a {
+    margin: 0;
+    justify-content: flex-start;
+    margin-bottom: 6px;
+    min-width: 96px;
+  }
 </style>
 
 <header class="{% if section.settings.enable_sticky_header %}sticky{% endif %}">
   <div class="upper-header flex-box justify-between flex-center">
-    <div class="upper-nav-left no-t-m">
+    <div class="upper-nav-left no-t-m rel">
       <a href="#" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
       <div class="lang-dd">
         {% if request.locale.iso_code != "en" %}
