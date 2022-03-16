@@ -323,6 +323,17 @@
         <a href="/blogs/stories">STORIES <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
         <a href="/pages/community">LOYALTY PROGRAM <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
       	<a class="lang" href="#" onclick="return false;" title="coming soon">LANGUAGE - ENGLISH</a>
+      
+      <a class="lang" href="#" onclick="return false;" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
+        {% if request.locale.iso_code != "en" %}
+        <a href="https://hedgren.com{{ request.path | remove: "/nl" | remove: "/fr" }}" title="English">English</a>
+        {% endif %}
+        {% if request.locale.iso_code != "fr" %}
+        <a href="https://hedgren.com/fr{{ request.path | remove: "/nl" }}" title="Français">Français</a>
+        {% endif %}
+        {% if request.locale.iso_code != "nl" %}
+        <a href="https://hedgren.com/nl{{ request.path | remove: "/fr" }}" title="Nederlands">Nederlands</a>
+        {% endif %}
       </div>
     <div class="social-media-icons">
       <div class="social-icon">
