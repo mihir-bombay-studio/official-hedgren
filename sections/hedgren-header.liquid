@@ -39,16 +39,16 @@
       <a href="#" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
       <div class="lang-dd">
         {% if request.locale.iso_code != "en" %}
-        <a id="en" href="https://hedgren.com{{ request.path | remove: "/nl" | remove: "/fr" | remove: "/de" }}" title="English">English</a>
+        <a id="en" href="https://hedgren.com{{ request.path | remove: "/nl-nl" | remove: "/fr-fr" | remove: "/de-de" }}" title="English">English</a>
         {% endif %}
         {% if request.locale.iso_code != "fr" %}
-        <a id="fr" href="https://hedgren.com/fr-fr/{{ request.path | remove: "/nl" | remove: "/de" }}" title="Français">Français</a>
+        <a id="fr" href="https://hedgren.com/fr-fr/{{ request.path | remove: "/nl-nl" | remove: "/de-de" }}" title="Français">Français</a>
         {% endif %}
         {% if request.locale.iso_code != "nl" %}
-        <a id="nl" href="https://hedgren.com/nl-nl/{{ request.path | remove: "/fr" | remove: "/de" }}" title="Nederlands">Nederlands</a>
+        <a id="nl" href="https://hedgren.com/nl-nl/{{ request.path | remove: "/fr-fr" | remove: "/de-de" }}" title="Nederlands">Nederlands</a>
         {% endif %}
         {% if request.locale.iso_code != "de" %}
-        <a id="nl" href="https://hedgren.com/de-de/{{ request.path | remove: "/fr" | remove: "/nl" }}" title="Deutch">Deutsch</a>
+        <a id="nl" href="https://hedgren.com/de-de/{{ request.path | remove: "/fr-fr" | remove: "/nl-nl" }}" title="Deutch">Deutsch</a>
         {% endif %}
       </div>
     </div>
