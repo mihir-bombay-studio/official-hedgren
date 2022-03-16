@@ -39,7 +39,7 @@
       <a href="#" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
       <div class="lang-dd">
         {% if request.locale.iso_code != "en" %}
-        <a href="https://hedgren.com{{ request.path | remove: "/nl" | remove: "/fr" }}" title="English">English</a>
+        <a href="https://hedgren.com{{ request.path | replace: "/nl/","/" | replace: "/fr/","/" }}" title="English">English</a>
         {% endif %}
         {% if request.locale.iso_code != "fr" %}
         <a href="https://hedgren.com/fr{{ request.path | remove: "/nl" }}" title="Français">Français</a>
