@@ -1,11 +1,46 @@
 {{ 'hedgren-header.css' | asset_url | stylesheet_tag }}
+<style>
+  .lang-dd {
+    position: absolute;
+    top: 19px;
+    left: 24px;
+    background-color: transparent;
+    width: auto;
+    z-index: 2;
+    visibility: hidden;
+    -webkit-transition: none;
+    transition: none;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    border-top: 5px solid transparent;
+    padding: 10px 5px;
+    box-shadow: 0 2px 4px #00000026;
+  }
+  a:hover + .lang-dd, .lang-dd:hover {
+    max-height: 2000vh;
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    display: block;
+    transition: all .4s ease;
+  }
+</style>
 
 <header class="{% if section.settings.enable_sticky_header %}sticky{% endif %}">
   <div class="upper-header flex-box justify-between flex-center">
     <div class="upper-nav-left no-t-m">
       <a href="#" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
-      <div class="no-disp">
-        <a href="#" title="Translation into French and Dutch coming soon">English</a>
+      <div class="lang-dd">
+        {% if request.locale != "en" %}
+        <a href="#" title="English">English</a>
+        {% endif %}
+        {% if request.locale != "fr" %}
+        <a href="#" title="Français">Français</a>
+        {% endif %}
+        {% if request.locale != "de" %}
+        <a href="{% if routes.root_url != "/" %}{{ routes.root_url }}{% endif %}{{ request.path }}" title="Nederlands">Nederlands</a>
+        {% endif %}
       </div>
     </div>
     <nav class="header-hamburger-menu left-nav no-d">
