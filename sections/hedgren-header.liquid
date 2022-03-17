@@ -1,4 +1,9 @@
 {{ 'hedgren-header.css' | asset_url | stylesheet_tag }}
+
+{% assign en= "Filter:BagType-Crossover,Filter:BagType-Shoulderbag,Filter:BagType-Backpack,Filter:BagType-Handbag,Filter:BagType-Totebag,Filter:BagType-Laptopbag,Filter:BagType-Sportbag,Filter:BagType-Waistbag,Filter:BagType-Pouches,Filter:BagType-Babybags,Filter:BagType-Accessories,Filter:BagType-Travel,Filter:BagType-Forher,Filter:BagType-Forhim,Filter:BackpackType-Laptop,Filter:BackpackType-Sling,Filter:BackpackType-Travel,Filter:BackpackType-Forhim,Filter:BackpackType-Forher,Filter:LuggageType-Cabin,Filter:LuggageType-Check-in,Filter:LuggageType-Dufflebagsandduffleonwheels,Filter:Lengthofstay-Daytrip,Filter:Lengthofstay-Overnighter,Filter:Lengthofstay-Weekendescape,Filter:Lengthofstay-1weekorlonger,Filter:AccessoryType-Waistbag,Filter:AccessoryType-Phonebag,Filter:AccessoryType-Pouches,Filter:AccessoryType-Forhim,Filter:AccessoryType-Forher,Filter:Deals-Deal,Filter:Eco-friendly-Yes,Filter:Eco-friendly-No" | split:',' %}
+{% assign fr= "Filter:Typedesac-SacBandoulière,Filter:Typedesac-SacEpaule,Filter:Typedesac-Sacàdos,Filter:Typedesac-SacàMain,Filter:Typedesac-SacShopper,Filter:Typedesac-SacOrdinateur,Filter:Typedesac-SacdeSport,Filter:Typedesac-SacBanane,Filter:Typedesac-Pochettes,Filter:Typedesac-SacsBébés,Filter:Typedesac-Accessoires,Filter:Typedesac-SacVoyage,Filter:Typedesac-PourElle,Filter:Typedesac-PourLui,Filter:typedesacàdos-SacàDosOrdinateur,Filter:typedesacàdos-SacàDosBandoulière,Filter:typedesacàdos-SacàDosVoyage,Filter:typedesacàdos-SacàDosHomme,Filter:typedesacàdos-SacàDosFemme,Filter:Typedebagage-ValiseCabine,Filter:Typedebagage-ValiseSoute,Filter:Typedebagage-Sacspolochonetpolochonsurroues,Filter:Duréeduséjour-Voyaged'unejournée,Filter:Duréeduséjour-24H,Filter:Duréeduséjour-Week-endescapade,Filter:Duréeduséjour-1semaineouplus,Filter:Typed'accessoire-Sacbanane,Filter:Typed'accessoire-Pochettedetéléphone,Filter:Typed'accessoire-Pochettes,Filter:Typed'accessoire-Pourlui,Filter:Typed'accessoire-PourElle,Filter:Offres-Offre,Filter:Eco-friendly-Oui,Filter:Eco-friendly-Non" | split:',' %}
+{% assign nl= "Filter:TypeTas-Crossbodytas,Filter:TypeTas-Schoudertas,Filter:TypeTas-Rugzak,Filter:TypeTas-Handtas,Filter:TypeTas-Draagtas,Filter:TypeTas-Laptoptas,Filter:TypeTas-Sporttas,Filter:TypeTas-Heuptas,Filter:TypeTas-Zakjes,Filter:TypeTas-Babytas,Filter:TypeTas-Accessories,Filter:TypeTas-Reistassen,Filter:TypeTas-Voorhem,Filter:TypeTas-Voorhaar,Filter:TypeRugzak-Laptop,Filter:TypeRugzak-Sling,Filter:TypeRugzak-Reis,Filter:TypeRugzak-Voorhem,Filter:TypeRugzak-Voorhaar,Filter:TypeBagage-Cabin,Filter:TypeBagage-Check-in,Filter:TypeBagage-Duffel+Duffelmetwielen,Filter:Duurverblijf-Daguitstap,Filter:Duurverblijf-Overnachting,Filter:Duurverblijf-Weekendjeweg,Filter:Duurverblijf-1weekoflanger,Filter:TypeAccessoire-Heuptas,Filter:TypeAccessoire-Telefoontasje,Filter:TypeAccessoire-Zakjes,Filter:TypeAccessoire-Voorhem,Filter:TypeAccessoire-Voorhaar,Filter:Deals-Deal,Filter:Milieuvriendelijk-Ja,Filter:Milieuvriendelijk-Nee" | split:',' %}
+{% assign de= "Filter:TaschenModelle-Crossover,Filter:TaschenModelle-Schultertasche,Filter:TaschenModelle-Rucksack,Filter:TaschenModelle-Handtasche,Filter:TaschenModelle-Tote,Filter:TaschenModelle-LaptopTasche,Filter:TaschenModelle-SportTasche,Filter:TaschenModelle-GürtelTasche,Filter:TaschenModelle-Beutel,Filter:TaschenModelle-Wickeltasche,Filter:TaschenModelle-Accessoires,Filter:TaschenModelle-Reise,Filter:TaschenModelle-FürSIE,Filter:TaschenModelle-FürIHN,Filter:RucksackModelle-Laptop,Filter:RucksackModelle-Sling,Filter:RucksackModelle-Reise,Filter:RucksackModelle-FürIHN,Filter:RucksackModelle-FürSIE,Filter:GepäckModelle-Cabin,Filter:GepäckModelle-Check-In,Filter:GepäckModelle-Duffle+DufflemitRollen,Filter:Reisedauer-Tagesreise,Filter:Reisedauer-OverNighter,Filter:Reisedauer-Weekender,Filter:Reisedauer-1Wocheoderlänger,Filter:AccessoryModelle-Gürteltasche,Filter:AccessoryModelle-Telefontasche,Filter:AccessoryModelle-Beutel,Filter:AccessoryModelle-FürIHN,Filter:AccessoryModelle-FürSIE,Filter:Deals-Deal,Filter:Ecofriendly-YES,Filter:Ecofriendly-NO" | split:',' %}
 <style>
   .lang-dd {
     position: absolute;
@@ -147,6 +152,42 @@
             {% else %}
             <ul class="order-2">
               {%- for childlink in link.links -%}
+              
+              {% assign childlinkSplits = childlink.url | split: "filter_top=" %}
+              {% assign filterSplits = childlinkSplits.last | split: "," %}
+              {% assign childlinkUrl = childlink.url %}
+              
+              {% for filters in filterSplits %}
+              {% if request.locale.iso_code == 'fr' %}
+              {% for item in en %}
+                {% if item == filters %}
+                    {% assign position = forloop.index0 %}
+                    {% break %} 
+                  {% endif %}
+               {% endfor %}
+              {% assign filterx = fr[position] %}
+              {% assign childlinkUrl = childlinkUrl | replace: filters,filterx %}
+              {% elsif request.locale.iso_code == 'nl' %}
+              {% for item in en %}
+                {% if item == filters %}
+                    {% assign position = forloop.index0 %}
+                    {% break %} 
+                  {% endif %}
+               {% endfor %}
+              {% assign filterx = nl[position] %}
+              {% assign childlinkUrl = childlinkUrl | replace: filters,filterx %}
+              {% elsif request.locale.iso_code == 'de' %}
+              {% for item in filters %}
+                {% if item == tag %}
+                    {% assign position = forloop.index0 %}
+                    {% break %} 
+                  {% endif %}
+               {% endfor %}
+              {% assign filterx = de[position] %}
+              {% assign childlinkUrl = childlinkUrl | replace: filters,filterx %}
+              {% endif %}
+              {% endfor %}
+              
               {% assign first_letter = childlink.title | slice: 0 %}
               {% if first_letter == "-" %}
               <li class="link-primary">
