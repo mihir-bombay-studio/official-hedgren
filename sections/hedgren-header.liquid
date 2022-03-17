@@ -172,8 +172,8 @@
                {% endfor %}
               {% assign filterx = fr[position] %}
               {% assign filterxSplits = filterx | split: "---" %}
-              {% assign filterxSplitsLast = filterxSplits[1] | capitalize %}
-              {% assign newLink = filterxSplits[0] | append: "-" | append: filterxSplitsLast %}
+              {% assign filterxSplitsLast = filterxSplits.last | capitalize %}
+              {% assign newLink = filterxSplits.first | append: "-" | append: filterxSplitsLast %}
               {% assign childlinkUrl = childlinkUrl | replace: filters,newLink %}
               {% elsif request.locale.iso_code == 'nl' %}
               {% for item in en %}
