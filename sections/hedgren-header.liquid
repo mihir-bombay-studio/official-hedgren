@@ -189,7 +189,7 @@
                   {% endif %}
                {% endfor %}
               {% assign filterx = de[position] %}
-              {% assign childlinkUrl = childlinkUrl | replace: filters,filterx %}<script>console.log('{{childlinkUrl}}')</script>
+              {% assign childlinkUrl = childlinkUrl | replace: filters,filterx %}<script>console.log('{{de | size}}')</script>
               {% endif %}
               {% endfor %}
               
