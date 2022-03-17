@@ -50,6 +50,9 @@
         {% assign cutPath = cutPath | append: "/" | append: cleanPath %}
         {% endif %}
         {% endfor %}
+        {% if routes.root_url == "/" %}
+        {% assign cutPath = request.path %}
+        {% endif %}
         
         {% if request.locale.iso_code != "en" %}
         <a id="en" href="https://hedgren.com{{ cutPath }}" title="English">English</a>
