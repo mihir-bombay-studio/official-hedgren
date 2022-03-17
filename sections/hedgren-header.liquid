@@ -318,19 +318,12 @@
         {%- for link in section.settings.mobilemenu1.links -%}
         <a href="{{ link.url }}">{{ link.title }} <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
         {%- endfor -%}
-    	<a href="/account">LOG IN / REGISTER <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        <a href="/pages/contact-us">CONTACT <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        <a href="/pages/faq">FAQ <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        <a href="/pages/store-locator">STORE LOCATOR <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
       </div>
     </div>
     <div class="mobile-menu-links">
         {%- for link in section.settings.mobilemenu2.links -%}
       	<a href="{{ link.url }}">{{ link.title }} <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
         {%- endfor -%}
-        <a href="/pages/our-story">OUR STORY <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        <a href="/blogs/stories">STORIES <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        <a href="/pages/community">LOYALTY PROGRAM <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
       
       <a href="#" onclick="return false;" title="{{ request.locale.name }}">LANGUAGE - {{ request.locale.name }}</a>
         {% if request.locale.iso_code != "en" %}
