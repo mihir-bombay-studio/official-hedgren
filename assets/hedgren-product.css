@@ -60,6 +60,9 @@
     font-size: 13px;
     line-height: 18px;
 }
+.product-info .variants2 {
+    flex-wrap: wrap;
+}
 
 .color-variant-wrap {
     margin-bottom: 24px;
