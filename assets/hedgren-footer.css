@@ -196,5 +196,11 @@ hr.footer-hr {
   
   .footer-line-left span {
     margin-right: 0;
-}
+  }
+  .footer-line {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-break: break-word;
+  }
 }
