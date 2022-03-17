@@ -84,7 +84,7 @@
       {% endif %}
       {% endfor %}
     </div>
-    <a class="btn btn-center similar-prods-btn" href="{{ collection.url }}">Shop All products</a>
+    <a class="btn btn-center similar-prods-btn" href="{{ collection.url }}">{{ section.settings.shop_all_text }}</a>
   </div>
 </div>
 
@@ -281,6 +281,12 @@
         "id": "what_text",
         "label": "What text",
 		"default": "WHAT OTHER HEDGRENISTS THINK"
+      },
+      {
+        "type": "text",
+        "id": "shop_all_text",
+        "label": "Shop all text",
+		"default": "Shop All products"
       }
 	],
 	"presets": [
