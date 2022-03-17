@@ -338,6 +338,9 @@
         {% if request.locale.iso_code != "de" %}
         <a class="lang" id="de-m" href="https://hedgren.com/de{{ request.path | remove: "/fr" | remove: "/nl" }}" title="Deutch">Deutsch</a>
         {% endif %}
+      <script>
+        console.log("{{request.path}}");
+      </script>
       </div>
     <div class="social-media-icons">
       <div class="social-icon">
