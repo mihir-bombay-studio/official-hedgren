@@ -90,6 +90,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+.hero-product-text-block .variants {
+    flex-wrap: wrap;
+}
 .hero-product:hover .hero-product-images-block .variants {
   opacity: 1;
 }
