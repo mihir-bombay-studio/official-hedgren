@@ -171,7 +171,7 @@
                   {% endif %}
                {% endfor %}
               {% assign filterx = fr[position] %}
-              {% assign filterxSplits = filterx | split: "---" %}
+              {% assign filterxSplits = filterx | split: "---" %}<script>console.log("{{ filterx }}")</script>
               {% assign filterxSplitsLast = filterxSplits.last | capitalize %}
               {% assign newLink = filterxSplits.first | append: "-" | append: filterxSplitsLast %}
               {% assign childlinkUrl = childlinkUrl | replace: filters,newLink %}
