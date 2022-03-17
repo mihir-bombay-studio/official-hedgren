@@ -336,7 +336,7 @@
     </div>{% endunless %}
       {% endif %}
       </div>
-    <a href="/collections" class="btn btn-center featured-coll-btn">SHOP COLLECTIONS</a>
+    <a href="/collections" class="btn btn-center featured-coll-btn">{{ section.settings.discover_shoptext }}</a>
   </div>
 </div>
 
@@ -375,6 +375,12 @@
 			"type": "text",
 			"label": "Discover Text",
 			"default": "DISCOVER COLLECTION"
+		},
+		{
+			"id": "discover_shoptext",
+			"type": "text",
+			"label": "Shop Text",
+			"default": "SHOP COLLECTIONS"
 		}
 	],
 	"blocks": [
