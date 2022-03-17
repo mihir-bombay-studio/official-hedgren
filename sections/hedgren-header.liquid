@@ -182,8 +182,8 @@
               {% assign filterx = nl[position] %}
               {% assign childlinkUrl = childlinkUrl | replace: filters,filterx %}
               {% elsif request.locale.iso_code == 'de' %}
-              {% for item in filters %}
-                {% if item == tag %}
+              {% for item in en %}
+                {% if item == filters %}
                     {% assign position = forloop.index0 %}
                     {% break %} 
                   {% endif %}
