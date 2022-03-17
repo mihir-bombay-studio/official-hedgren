@@ -154,7 +154,12 @@
               {%- for childlink in link.links -%}
               
               {% assign childlinkSplits = childlink.url | split: "filter_top=" %}
+              {% assign childlinkSplitsSize = childlinkSplits | size %}
+              {% if childlinkSplitsSize > 1 %}
               {% assign filterSplits = childlinkSplits.last | split: "," %}
+              {% else %}
+              {% assign filterSplits = blank %}
+              {% endif %}
               {% assign childlinkUrl = childlink.url %}
               
               {% for filters in filterSplits %}
