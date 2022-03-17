@@ -60,7 +60,7 @@
       </button>
     </nav>
     <div class="upper-nav-center flex-box">  
-      <a href="/" title="Hedgren">
+      <a href="{{ routes.root_url }}" title="Hedgren">
         {%- if section.settings.logo != blank -%}
         <img
              src="{{ section.settings.logo | img_url: '140x' }}"              
