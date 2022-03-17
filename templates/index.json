@@ -6,7 +6,7 @@
         "image": "shopify:\/\/shop_images\/1NGren_Lucid_Hedgren_SS2_40.jpg",
         "imagemobile": "shopify:\/\/shop_images\/Mobile2.jpg",
         "heading": "New arrivals",
-        "subheading": "",
+        "subheading": "New",
         "headinglink": "shopify:\/\/collections\/all",
         "headinglinktext": "Shop now",
         "design2": true,
@@ -89,7 +89,8 @@
         "title_right": "2021",
         "subtitle": "OUR COLLECTIONS",
         "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
-        "discover_text": "DISCOVER COLLECTION"
+        "discover_text": "DISCOVER COLLECTION",
+        "discover_shoptext": "SHOP COLLECTIONS"
       }
     },
     "1636701628c3f2b6f2": {
