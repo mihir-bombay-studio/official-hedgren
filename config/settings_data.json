@@ -345,6 +345,8 @@
         "type": "hedgren-header",
         "settings": {
           "menu": "hedgren-updated",
+          "mobilemenu1": "hedgren-mobile-1",
+          "mobilemenu2": "hedgren-mobile-2",
           "menu2": "hedgren-mobile",
           "show_search": true,
           "enable_sticky_header": true
@@ -371,7 +373,9 @@
           "menu": "hedgren-footer-1",
           "menu2": "hedgren-footer-2",
           "menu3": "hedgren-footer-3",
-          "menu4": "hedgren-footer-4"
+          "menu4": "hedgren-footer-4",
+          "sub2": "Subscribe to hedgren",
+          "sub": "Subscribe"
         }
       }
     },
