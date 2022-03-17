@@ -183,7 +183,10 @@
                   {% endif %}
                {% endfor %}
               {% assign filterx = nl[position] %}
-              {% assign childlinkUrl = childlinkUrl | replace: filters,filterx %}
+              {% assign filterxSplits = filterx | split: "---" %}
+              {% assign filterxSplitsLast = filterxSplits[1] | capitalize %}
+              {% assign newLink = filterxSplits[0] | append: "-" | append: filterxSplitsLast %}
+              {% assign childlinkUrl = childlinkUrl | replace: filters,newLink %}
               {% elsif request.locale.iso_code == 'de' %}
               {% for item in en %}
                 {% if item == filters %}
@@ -192,7 +195,10 @@
                   {% endif %}
                {% endfor %}
               {% assign filterx = de[position] %}
-              {% assign childlinkUrl = childlinkUrl | replace: filters,filterx %}
+              {% assign filterxSplits = filterx | split: "---" %}
+              {% assign filterxSplitsLast = filterxSplits[1] | capitalize %}
+              {% assign newLink = filterxSplits[0] | append: "-" | append: filterxSplitsLast %}
+              {% assign childlinkUrl = childlinkUrl | replace: filters,newLink %}
               {% endif %}
               {% endfor %}
               
