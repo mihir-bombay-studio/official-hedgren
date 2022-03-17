@@ -191,7 +191,7 @@
               {% assign first_letter = childlink.title | slice: 0 %}
               {% if first_letter == "-" %}
               <li class="link-primary">
-                <a href="{{ childlink.url }}">{{ childlink.title | escape | remove_first: "-" }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
+                <a href="{{ childlinkUrl }}">{{ childlink.title | escape | remove_first: "-" }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
               </li>
               {% elsif childlink.title != "(col)" and childlink.title != "(met de)" and childlink.title != "(avec le)" %}
               {% if childlink.url == "#" %}
@@ -200,7 +200,7 @@
               </li>
               {% else %}
               <li class="link-secondary">
-                <a href="{{ childlink.url }}">{{ childlink.title | escape }} <span class="link-arows">{% include "svg-arrow" %}</span></a>
+                <a href="{{ childlinkUrl }}">{{ childlink.title | escape }} <span class="link-arows">{% include "svg-arrow" %}</span></a>
               </li>
               {% endif %}
               {% endif %}
