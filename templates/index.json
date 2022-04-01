@@ -3,17 +3,17 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1NGren_Lucid_Hedgren_SS2_40.jpg",
+        "image": "shopify:\/\/shop_images\/Desktop_2000_891.jpg",
         "imagemobile": "shopify:\/\/shop_images\/Mobile2.jpg",
-        "heading": "New arrivals",
+        "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/all",
+        "headinglink": "shopify:\/\/collections\/mid-season-sale-ss22",
         "headinglinktext": "Shop now",
         "design2": true,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "inner-city",
+        "collection": "mid-season-sale-ss22",
         "buttontext": "SHOP ALL PRODUCTS"
       }
     },
