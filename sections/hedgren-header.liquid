@@ -43,28 +43,24 @@
     <div class="upper-nav-left no-t-m rel">
       <a href="#" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
       <div class="lang-dd">
-        {% assign cutPath = "" %}
-        {% assign cleanPathSplits = request.path | split: "/" %}
-        {% for cleanPath in cleanPathSplits %}
-        {% if forloop.index > 2 %}
-        {% assign cutPath = cutPath | append: "/" | append: cleanPath %}
-        {% endif %}
-        {% endfor %}
-        {% if routes.root_url == "/" %}
-        {% assign cutPath = request.path %}
-        {% endif %}
+        {% unless routes.root_url == "/" %}
+        {% assign pathx = request.path | replace: routes.root_url,'' %}
+        {% else %}
+        {% assign pathx = request.path %}
+        {% endunless %}
+        {% assign pathx = pathx | remove_first: "/" %}
         
         {% if request.locale.iso_code != "en" %}
-        <a id="en" href="https://hedgren.com{{ cutPath }}" title="English">English</a>
+        <a id="en" href="/{{ pathx }}" title="English">English</a>
         {% endif %}
         {% if request.locale.iso_code != "fr" %}
-        <a id="fr" href="https://hedgren.com/fr-fr{{ cutPath }}" title="Français">Français</a>
+        <a id="fr" href="/fr-fr/{{ pathx }}" title="Français">Français</a>
         {% endif %}
         {% if request.locale.iso_code != "nl" %}
-        <a id="nl" href="https://hedgren.com/nl-nl{{ cutPath }}" title="Nederlands">Nederlands</a>
+        <a id="nl" href="/nl-nl/{{ pathx }}" title="Nederlands">Nederlands</a>
         {% endif %}
         {% if request.locale.iso_code != "de" %}
-        <a id="nl" href="https://hedgren.com/de-de{{ cutPath }}" title="Deutch">Deutsch</a>
+        <a id="de" href="/de-de/{{ pathx }}" title="Deutch">Deutsch</a>
         {% endif %}
       </div>
     </div>
