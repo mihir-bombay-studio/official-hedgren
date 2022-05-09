@@ -431,11 +431,18 @@ button.slick-arrow.slick-disabled {
 @media (max-width: 560px) {
   .slick-dots li.slick-active
   {
-    width: 12px !important;
+    width: 5px !important;
   }
   .slick-dots li.slick-active button
   {
-    width: 12px !important;
+    width: 5px !important;
+  }
+  .slick-dots li.slick-active button:before {
+    width: 5px!important;
+  }
+  .slick-dots li, .slick-dots li button, .slick-dots li button:before {
+    width: 5px;
+    height: 5px;
   }
 }
 
