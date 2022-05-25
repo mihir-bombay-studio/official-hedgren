@@ -119,6 +119,12 @@
         "content_two": "INTUITIVE DESIGN<br>\nFREEDOM OF MOVEMENT<br>\nSMART FUNCTIONALITY"
       }
     },
+    "1653489781db834e0f": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form"
+      }
+    },
     "16391337289111c1f8": {
       "type": "hedgren-img-text",
       "settings": {
@@ -226,6 +232,7 @@
     "1639133344a1bb9dd3",
     "163913354341753be9",
     "163913334841e680e3",
+    "1653489781db834e0f",
     "16391337289111c1f8",
     "1639133868af65049b",
     "16376443013d854169"
