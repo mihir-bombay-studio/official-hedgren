@@ -40,7 +40,7 @@
             "feature_description2": "",
             "feature_img3": "shopify:\/\/shop_images\/HCOCN02_003_01_4c.jpg",
             "feature_heading3": "Removable inner pouch",
-            "feature_description3": "Except in the Snug and Cosy.",
+            "feature_description3": "Except in the Snug.",
             "feature_img4": "shopify:\/\/shop_images\/HCOCN03_003_01_1_d4a1bf97-95c1-471a-b568-9f10eeba8b0f.jpg",
             "feature_heading4": "Protected and comfort feeling",
             "feature_description4": "",
@@ -141,7 +141,10 @@
         "title_left": "1994",
         "title_mid": "Discover our collections",
         "title_right": "2022",
-        "subtitle": "Our collections"
+        "subtitle": "Our collections",
+        "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
+        "discover_text": "DISCOVER COLLECTION",
+        "discover_shoptext": "SHOP COLLECTIONS"
       }
     }
   },
