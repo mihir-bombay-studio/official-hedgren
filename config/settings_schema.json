@@ -1104,6 +1104,96 @@
       },
       {
         "type": "image_picker",
+        "id": "btrchoc",
+        "label": "Bitter Chocolate",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "chrymah",
+        "label": "Cherry Mahogany",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cedgr",
+        "label": "Cedar Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "violber",
+        "label": "Violet Berry",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "oceanbl",
+        "label": "Oceanic Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "deepvel",
+        "label": "Deep Velvet",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "quiltbl",
+        "label": "Quilted Black",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "ebark",
+        "label": "Essence Bark",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "coffee",
+        "label": "Coffee",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cork",
+        "label": "Cork",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "elmix",
+        "label": "Elegant Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cosx",
+        "label": "Cosmic Mix III",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "upbrw",
+        "label": "Uptown Brown",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "citbl",
+        "label": "City Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "dsblue",
+        "label": "Deep Sea Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
         "id": "cabernet",
         "label": "Cabernet",
         "info": "Add\/Replace image for Color Swatch"
