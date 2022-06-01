@@ -1,7 +1,742 @@
+{% assign categoryp = "" %}
+{% assign tagsp = "" %}
+{% assign en = "Filter: Bag Type - Cross over,Filter: Bag Type - Shoulder bag,Filter: Bag Type - Backpack,Filter: Bag Type - Handbag,Filter: Bag Type - Tote bag,Filter: Bag Type - Laptop bag,Filter: Bag Type - Sport bag,Filter: Bag Type - Waist bag,Filter: Bag Type - Pouches,Filter: Bag Type - Baby bags,Filter: Bag Type - Accessories ,Filter: Bag Type - Travel,Filter: Bag Type - For her,Filter: Bag Type - For him,Filter: Backpack Type - Laptop,Filter: Backpack Type - Sling,Filter: Backpack Type - Travel,Filter: Backpack Type - For him,Filter: Backpack Type - For her,Filter: Luggage Type - Cabin,Filter: Luggage Type - Check-in,Filter: Luggage Type - Duffle bags and duffle on wheels,Filter: Length of stay - Day trip,Filter: Length of stay - Over nighter,Filter: Length of stay - Weekend escape,Filter: Length of stay - 1 week or longer,Filter: Accessory Type - Waist bag,Filter: Accessory Type - Phone bag,Filter: Accessory Type - Pouches,Filter: Accessory Type - For him,Filter: Accessory Type - For her,Filter: Deals - Deal,Filter: Eco-friendly - Yes,Filter: Eco-friendly - No" | split: ',' %}
+{% assign fr = "Filter: Type de sac - Sac Bandoulière,Filter: Type de sac - Sac Epaule,Filter: Type de sac - Sac à dos,Filter: Type de sac - Sac à Main ,Filter: Type de sac - Sac Shopper,Filter: Type de sac - Sac Ordinateur,Filter: Type de sac - Sac de Sport,Filter: Type de sac - Sac Banane,Filter: Type de sac - Pochettes,Filter: Type de sac - Sacs Bébés,Filter: Type de sac - Accessoires,Filter: Type de sac - Sac Voyage,Filter: Type de sac - Pour Elle,Filter: Type de sac - Pour Lui ,Filter: type de sac à dos - Sac à Dos Ordinateur,Filter: type de sac à dos - Sac à Dos Bandoulière,Filter: type de sac à dos - Sac à Dos Voyage,Filter: type de sac à dos - Sac à Dos Homme,Filter: type de sac à dos - Sac à Dos Femme,Filter: Type de bagage - Valise Cabine,Filter: Type de bagage - Valise Soute ,Filter: Type de bagage - Sacs polochon et polochon sur roues,Filter: Durée du séjour - Voyage d'une journée,Filter: Durée du séjour - 24H,Filter: Durée du séjour - Week-end escapade,Filter: Durée du séjour - 1 semaine ou plus,Filter: Type d'accessoire - Sac banane,Filter: Type d'accessoire - Pochette de téléphone,Filter: Type d'accessoire - Pochettes,Filter: Type d'accessoire - Pour lui,Filter: Type d'accessoire - Pour Elle,Filter: Offres - Offre,Filter: Eco-friendly - Oui,Filter: Eco-friendly - Non" | split: ',' %}
+{% assign nl = "Filter: Type Tas - Crossbody tas,Filter: Type Tas - Schoudertas,Filter: Type Tas - Rugzak,Filter: Type Tas - Handtas,Filter: Type Tas - Draagtas,Filter: Type Tas - Laptop tas,Filter: Type Tas - Sporttas,Filter: Type Tas - Heuptas,Filter: Type Tas - Zakjes,Filter: Type Tas - Babytas,Filter: Type Tas - Accessories ,Filter: Type Tas - Reistassen ,Filter: Type Tas - Voor hem,Filter: Type Tas - Voor haar,Filter: Type Rugzak  - Laptop,Filter: Type Rugzak  - Sling,Filter: Type Rugzak  - Reis,Filter: Type Rugzak  - Voor hem,Filter: Type Rugzak  - Voor haar,Filter: Type Bagage  - Cabin,Filter: Type Bagage  - Check-in,Filter: Type Bagage  - Duffel + Duffel met wielen,Filter: Duur verblijf - Daguitstap,Filter: Duur verblijf - Overnachting,Filter: Duur verblijf - Weekendje weg,Filter: Duur verblijf - 1 week of langer,Filter: Type Accessoire - Heuptas ,Filter: Type Accessoire - Telefoontasje,Filter: Type Accessoire - Zakjes ,Filter: Type Accessoire - Voor hem,Filter: Type Accessoire - Voor haar,Filter: Deals - Deal,Filter: Milieuvriendelijk - Ja,Filter: Milieuvriendelijk - Nee" | split: ',' %}
+{% assign de = "Filter: Taschen Modelle - Cross over,Filter: Taschen Modelle - Schultertasche,Filter: Taschen Modelle - Rucksack,Filter: Taschen Modelle - Handtasche,Filter: Taschen Modelle - Tote,Filter: Taschen Modelle - Laptop Tasche,Filter: Taschen Modelle - Sport Tasche,Filter: Taschen Modelle - Gürtel Tasche,Filter: Taschen Modelle - Beutel,Filter: Taschen Modelle - Wickeltasche,Filter: Taschen Modelle - Accessoires,Filter: Taschen Modelle - Reise,Filter: Taschen Modelle - Für SIE,Filter: Taschen Modelle - Für IHN,Filter: Rucksack Modelle - Laptop  ,Filter: Rucksack Modelle - Sling,Filter: Rucksack Modelle - Reise,Filter: Rucksack Modelle - Für IHN,Filter: Rucksack Modelle - Für SIE,Filter: Gepäck Modelle - Cabin,Filter: Gepäck Modelle - Check-In,Filter: Gepäck Modelle - Duffle+Duffle mit Rollen,Filter: Reisedauer - Tagesreise,Filter: Reisedauer - Over Nighter,Filter: Reisedauer - Weekender,Filter: Reisedauer - 1 Woche oder länger,Filter: Accessory Modelle - Gürteltasche,Filter: Accessory Modelle - Telefontasche,Filter: Accessory Modelle - Beutel,Filter: Accessory Modelle - Für IHN,Filter: Accessory Modelle - Für SIE,Filter: Deals - Deal,Filter: Ecofriendly - YES,Filter: Ecofriendly - NO"| split: ',' %}
+{% paginate collection.products by 900 %}
+  {% for product in collection.products %}
+
+    {% for tag in product.tags %}
+      {% if tag contains "filter:" or tag contains "Filter:" %}
+		{% if request.locale.iso_code == 'fr' %}
+		{% for item in en %}
+          {% if item == tag %}
+              {% assign position = forloop.index0 %}
+              {% break %} 
+            {% endif %}
+         {% endfor %}
+      	{% assign tagx = fr[position] | split: " - " %}
+		{% elsif request.locale.iso_code == 'nl' %}
+		{% for item in en %}
+          {% if item == tag %}
+              {% assign position = forloop.index0 %}
+              {% break %} 
+            {% endif %}
+         {% endfor %}
+      	{% assign tagx = nl[position] | split: " - " %}
+		{% elsif request.locale.iso_code == 'de' %}
+		{% for item in en %}
+          {% if item == tag %}
+              {% assign position = forloop.index0 %}
+              {% break %} 
+            {% endif %}
+         {% endfor %}
+      	{% assign tagx = de[position] | split: " - " %}
+		{% else %}
+      	{% assign tagx = tag | split: " - " %}
+		{% endif %}
+		{% assign tag_first = tagx[0] | strip | replace: "filter:","" | replace: "Filter:","" | strip %}
+		{% unless categoryp contains tag_first %}
+			{% if categoryp == "" %}
+				{% assign categoryp = tag_first %}
+			{% else %}
+				{% assign categoryp = categoryp | append: "," | append: tag_first %}
+			{% endif %}
+		{% endunless %}
+		{% assign tag_last = tagx[1] | strip | replace: " ","-" %}
+			{% if tagsp == "" %}
+				{% assign tagsp = tag_last %}
+			{% else %}
+				{% assign stringbuilder = "" %}
+				{% assign categoryp_split = categoryp | split: "," %}
+				{% assign index_no = 0 %}
+				{% for categories in categoryp_split %}
+					{% if categories == tag_first %}{% assign index_no = forloop.index0 %}{% endif %}
+				{% endfor %}
+				{% assign tagsp_split = tagsp | split: "|" %}
+				{% assign tagsp_split_size = tagsp_split | size | minus: 1 %}
+				{% if index_no > tagsp_split_size %}
+					{% assign tagsp = tagsp | append: "|" | append: tag_last %}
+				{% else %}
+                  {% for tags in tagsp_split %}
+                      {% if forloop.index0 == index_no %}
+                          {% unless tags contains tag_last %}
+							{% assign stringbuilder = tags | append: "," | append: tag_last %}
+                          {% endunless %}
+                      {% endif %}
+                  {% endfor %}
+
+					{% assign superstring = "" %}
+                  {% for tags in tagsp_split %}
+                      {% if forloop.index0 == index_no %}
+						{% unless tags contains tag_last %}
+                        {% if forloop.last %}
+                            {% assign superstring = superstring | append: stringbuilder %}
+                        {% else %}
+                            {% assign superstring = superstring | append: stringbuilder | append: "|" %}
+                        {% endif %}
+						{% else %}
+							{% if forloop.last %}
+                                {% assign superstring = superstring | append: tags %}
+                            {% else %}
+                                {% assign superstring = superstring | append: tags | append: "|" %}
+                            {% endif %}
+						{% endunless %}
+                      {% else %}
+                        {% if forloop.last %}
+                            {% assign superstring = superstring | append: tags %}
+                        {% else %}
+                            {% assign superstring = superstring | append: tags | append: "|" %}
+                        {% endif %}
+                      {% endif %}
+                  {% endfor %}
+					{% assign tagsp = superstring %}
+				{% endif %}
+			{% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endpaginate %}
+
+
+
+
+
+{{ 'hedgren-product.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-hero.css' | asset_url | stylesheet_tag }}
+{{ 'hedgren-all-products.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .filter-tag-wrapper.selected .filter-checkbox{
+    background-image: url('{{ 'check_2x.png' | asset_img_url: '100x' }}');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #000000;
+      }
+  .all-products-wrapper .hero-product .hero-product-images-block .variants {
+    opacity: 1;
+    margin-bottom: 0;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .all-products-wrapper .hero-product .hero-product-images-block .variants img{
+    opacity: 1;
+  }
+  .all-products .variants {
+    flex-wrap: wrap;
+  }
+</style>
+
+<div class="all-products-wrapper">
+  <div class="container">
+    <div class="all-filters-sorts-wrap">
+    <div class="filter-sort-products rel no-t-m">
+      <div class="filters filters-filter"><span class="fil">{{ section.settings.filter_text }}</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
+
+        <div class="filters-dropdown">
+          <div class="filters-dropdown-wrap">
+                {% assign split_filter = categoryp | split: "," %}
+                {% assign tags_filter = tagsp | split: "|" %}
+                {% for filter in split_filter %}
+                {% assign floopindex = forloop.index %}
+                <div class="filter-type">
+                  <div class="filter-type-title">{{filter}}</div>
+                  <div class="filter-type-filters">
+                    {% assign tags = tags_filter[forloop.index0] | split: "," | sort %}
+                    <div class="filter-wrap">
+                      {% for tag in tags %}  
+                      <div class="filter-tag-wrapper">
+                      <div class="filter-checkbox" data-value="{{filter | strip | replace: " ","-"}}-{{tag | replace: " ","-" | capitalize}}"></div>  
+                      <div class="filter-txt">{{tag | replace: " ","-" | capitalize}}</div>    
+                      </div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+            
+          </div>
+          <div class="apply-filters-btn">{{ section.settings.filter_text_apply }}</div>
+        </div>
+
+      </div>
+
+      <div class="filters sort-title-wrap"><span class="fil">{{ section.settings.sort_text }}</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
+        <div class="sort-wrap">
+          <div class="sort new-first" data-sort="created-descending">{{ section.settings.sort_text1 }}</div>
+          <div class="sort bestsellers" data-sort="best-selling">{{ section.settings.sort_text2 }}</div>
+          <div class="sort ltoh" data-sort="price-ascending">{{ section.settings.sort_text3 }}</div>
+          <div class="sort htol" data-sort="price-descending">{{ section.settings.sort_text4 }}</div>
+        </div>
+      </div>
+      </div>
+      <div class="filter-sort-products rel no-d">
+        <div class="filters filters-filter"><span class="fil">{{ section.settings.filter_text }}</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
+      	
+         <div class="filters-dropdown">
+        <div class="filters-dropdown-wrap">
+          <div class="filter-type">
+          <div class="filter-type-title accordion">COLOURS <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
+            <div class="color-options panel">
+            </div>
+          </div>
+          {% assign split_filter = categoryp | split: "," %}
+          {% assign tags_filter = tagsp | split: "|" %}
+          {% for filter in split_filter %}
+          {% assign floopindex = forloop.index %}
+          <div class="filter-type">
+            <div class="filter-type-title accordion">{{filter}} <span class="down-chev">{% include 'icon-down-chevron-black' %}</span></div>
+            <div class="filter-type-filters panel">
+              {% assign tags = tags_filter[forloop.index0] | split: "," | sort %}
+              <div class="filter-wrap">
+                {% for tag in tags %}  
+                <div class="filter-tag-wrapper">
+                  <div class="filter-checkbox" data-value="{{filter | strip | replace: " ","-"}}-{{tag | replace: " ","-" | capitalize}}"></div>  
+                  <div class="filter-txt">{{tag | replace: " ","-" | capitalize}}</div>    
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+
+           </div>
+           <div class="apply-clear-filters-wrap">
+             <div class="apply-clear-filters">
+             <div class="clear-filters">{{ section.settings.clear_text }}</div>
+        <div class="apply-filters-btn">{{ section.settings.filter_text_apply }}</div>
+             </div>
+           </div>
+      </div>
+        
+      </div>
+     
+        <div class="filters sort-title-wrap"><span class="fil">{{ section.settings.sort_text }}</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
+        <div class="sort-wrap">
+          <div class="sort new-first" data-sort="created-descending">{{ section.settings.sort_text1 }}</div>
+          <div class="sort bestsellers" data-sort="best-selling">{{ section.settings.sort_text2 }}</div>
+          <div class="sort ltoh" data-sort="price-ascending">{{ section.settings.sort_text3 }}</div>
+          <div class="sort htol" data-sort="price-descending">{{ section.settings.sort_text4 }}</div>
+        </div>
+      </div>
+    </div>
+    <div class="color-options no-t-m">
+    </div>
+      <div class="applied-filters-wrap no-disp">
+        <div class="applied-filters"></div>
+        <div class="clear-filters no-t-m">{{ section.settings.clear_text }} <span class="close-icon">{% include 'icon-close-new' %}</span></div>
+      </div>
+    </div>
+    <div class="all-products">
+      {% paginate collection.products by 2000 %}
+      {% for product in collection.products %}
+      <div class="hero-product {% for tag in product.tags %}{% if tag contains "filter:" or tag contains "Filter:" %}{% if request.locale.iso_code == 'fr' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = fr[position] | split: " - " %}{% elsif request.locale.iso_code == 'nl' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = nl[position] | split: " - " %}{% elsif request.locale.iso_code == 'de' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = de[position] | split: " - " %}{% else %}{% assign tagx = tag | split: " - " %}{% endif %}{{ tagx[0] | replace: "Filter:","" | replace: "filter:","" | strip | replace: " ","-" }}-{{ tagx[1] | strip | replace: " ","-" | capitalize }} {% endif %}{% endfor %}">
+        <div>
+          <div class="hero-product-images-block rel">
+            <a href="{{ product.url }}">
+              {% if product.tags contains "Outlet" %}<div class="prod-tag">{{ section.settings.outlet_text }}</div>{% elsif product.tags contains "New" %}<div class="prod-tag">{{ section.settings.new_text }}</div>{% elsif product.tags contains "Back in stock" %}<div class="prod-tag">Back in stock</div>{% endif %}
+              {% for image in product.images limit: 2 %}
+              <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
+              {% endfor %}              
+            </a>
+          </div>
+
+          <div class="hero-product-text-block">
+            <div class="hero-row">
+              <div class="hero-col">
+                <span class="product-font product-title">
+                  {{ product.title | truncatewords: 1, "" }}
+                </span>            
+                <span class="product-tag">
+                  {% assign remove_word = product.title | truncatewords: 1, "" %}
+                  {{ product.title | replace: remove_word,"" }}
+                </span>
+              </div>
+              <div class="hero-col">
+                <span class="product-font save-money">
+                  {{ product.compare_at_price | money_without_trailing_zeros | strip_html }}
+                </span>
+                <span class="product-font money">
+                  {{ product.price | money_without_trailing_zeros | strip_html }}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-product-text-block">
+
+          <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt no-d">{% if product.available %}ADD{% else %}Sold Out{% endif %}</span><span class="cart-txt no-t-m">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
+          <a href="{{ product.url }}" class="more-info" title="{{ product.title }}">
+            {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+      {% endpaginate %}
+    </div>
+  </div>
+</div>
+
+
+<script>
+  $('.fil').click(function(e) {
+  	$(this).parent().toggleClass('clicked');
+  });
+  $('.filter-tag-wrapper').click(function() {
+    if(!$(this).hasClass('selected')){
+    	$(this).addClass('selected');
+    }else{
+    	$(this).removeClass('selected');
+    }
+  });
+  
+  $('.apply-filters-btn').click(function() {   
+    $('.filters.filters-filter').removeClass('clicked');
+    runFilter();
+  });
+
+  
+  $('.clear-filters').click(function() {
+  	$('.applied-filters-wrap').addClass('no-disp');
+    $('.applied-filter').remove(); 
+    $('.filter-tag-wrapper').each(function() {
+    	$(this).removeClass('selected');
+    });
+    runFilter();
+  });
+  
+  
+
+  var arrayObj = [];
+  $('.variant-color-wrapper').each(function() {
+    var index = arrayObj.findIndex(x => x.name==$(this).attr('title'));
+    if(index === -1) {
+      arrayObj.push({name:$(this).attr('title'), img: $(this).find('img').attr('src'), class: 'color-'+$(this).attr('title').replace(' ','-')})
+    }
+  });
+  $(arrayObj).each(function(index,item) {
+    $('.color-options').append(`
+		<div class="color-wrap" data-val="`+item.class+`"><div class="variant-color" style="background-image:url(`+item.img+`);"></div><div class="color-name">`+item.name+`</div></div>
+	`);
+  });
+  $('.hero-product').each(function(index,item){
+  	var current = $(this);
+    $(this).find('.variant-color-wrapper').each(function(){
+    	current.addClass('color-'+$(this).attr('title').replace(' ','-'));
+    });
+  });
+  $('.color-wrap').click(function() {
+    if(!$(this).hasClass('selected')){
+    	$(this).addClass('selected');
+    }else{
+    	$(this).removeClass('selected');
+    }
+    runFilter();
+  });
+  
+  function runFilter() {
+    $('.applied-filter').remove(); 
+    var fil_len = $('.filter-tag-wrapper.selected').length;
+    if(fil_len>0){
+      $('.applied-filters-wrap').removeClass('no-disp');
+    } else {
+      $('.applied-filters-wrap').addClass('no-disp');
+    }
+    var classString = "";
+    var i;
+    $('.filter-row').html('');
+    $('.hero-product').addClass('no-disp');
+
+    if($('.color-wrap.selected').length > 0) {
+      $('.hero-product').each(function() {
+        $(this).data('iterationx',0);
+        var curx = $(this);
+        $('.color-wrap.selected').each(function() {
+          if(curx.hasClass($(this).data('val'))) {
+            curx.data('iterationx',(parseInt(curx.data('iterationx')) || 0)+1);
+          }
+        });
+        if($(this).data('iterationx') == $('.color-wrap.selected').length){
+          $(this).addClass('fop');
+        }
+      });
+    } else {
+      $('.hero-product').addClass('fop');
+    }
+
+
+    if($('.filter-tag-wrapper.selected').length > 0) {
+      var arrClass = [];
+      $('.hero-product').data('iteration',0);
+      $('.filter-tag-wrapper.selected').each(function() {
+      	var filt_text = $(this).find('.filter-txt').text();
+        $('.applied-filters').append(`<div class="applied-filter" data-val="` +$(this).find('.filter-checkbox').data('value')+ `">`+filt_text+`<span class='close-icon'><svg xmlns="http://www.w3.org/2000/svg" width="17.414" height="17.414" viewBox="0 0 17.414 17.414">
+  <g id="Close" transform="translate(-1129.328 -4781.55)">
+    <path id="Path_7" data-name="Path 7" d="M0,0H22.626" transform="translate(1130.036 4782.258) rotate(45)" fill="none" stroke="#000" stroke-width="2"/>
+    <path id="Path_10" data-name="Path 10" d="M0,0H22.626" transform="translate(1146.034 4782.257) rotate(135)" fill="none" stroke="#000" stroke-width="2"/>
+  </g>
+</svg>
+</span></div>`);
+        arrClass.push($(this).find('.filter-checkbox').data('value'));
+      });
+      $.each(arrClass , function(index, val) {
+        $('.hero-product').each(function(i,v) {            
+          if($(this).hasClass(val)) {
+            $(this).data('iteration',(parseInt($(this).data('iteration')) || 0)+1);
+          }
+        });
+        $('.hero-product').each(function(i,v) {            
+          if($(this).data('iteration') == $('.filter-tag-wrapper.selected').length && $(this).hasClass('fop')) {
+            $(this).removeClass('no-disp');
+          }
+        });
+      });
+    } else {
+      $('.hero-product.fop').removeClass('no-disp');
+    }
+    
+    $('.fop').removeClass('fop');   
+    
+    
+    $('.applied-filter:not(.added)').click(function() {
+      console.log($(this).data('val'));
+      
+      var curr = $(this).data('val');
+      $('.filter-tag-wrapper').each(function() {
+        console.log($(this).find('.filter-checkbox').data('value'));
+        if($(this).find('.filter-checkbox').data('value') == curr) {
+          $(this).removeClass('selected');
+        }
+      });
+      $(this).remove();
+      runFilter();   	
+      });         
+    $('.applied-filter').addClass('added');
+  }
+  runFilter();
+  
+  function forcards() {
+  $('.variants img').click(function() {
+    $(this).closest('.variants').find('img').removeClass('hedgren-color-active').addClass('hedgren-color-inactive');
+    $(this).addClass('hedgren-color-active').removeClass('hedgren-color-inactive');
+    var current = $(this);
+    $.ajax({
+      url: $(this).parent().data('url')+'.js',
+      method: "GET",
+      dataType: "json"
+    })
+    .done(function( data ) {
+      current.closest('.hero-product').find('.money').text("€"+(data.price / 100).toFixed(2).replace(/\.?00+$/, ''));
+      if(data.compare_at_price != null && data.compare_at_price != 0) {
+        current.closest('.hero-product').find('.save-money').text("€"+(data.compare_at_price / 100).toFixed(2).replace(/\.?00+$/, ''));
+      }
+      current.closest('.hero-product').find('a').attr('href',data.url);   
+      if(data.available) {
+        current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.addtext }}');
+        current.closest('.hero-product').find('.add-direct .cart-txt.no-d').text('ADD');
+                                                                            current.closest('.hero-product').find('.add-direct').removeClass('no-avaliable');        
+      } else {
+        current.closest('.hero-product').find('.add-direct .cart-txt').text('{{ section.settings.outtext }}');
+        current.closest('.hero-product').find('.add-direct .cart-txt.no-d').text('Sold Out');
+                                                                            current.closest('.hero-product').find('.add-direct').addClass('no-avaliable');        	
+      }
+      current.closest('.hero-product').find('.product-title').text(data.title.split(" ")[0]);
+      current.closest('.hero-product').find('.product-tag').text(data.title.replace(data.title.split(" ")[0],""));
+      current.closest('.hero-product').find('.add-direct').data('variant',data.variants[0].id);
+      current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.images[0]);
+      current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.images[1]);
+      
+            var mlvedaData = {"data": []};
+            mlvedaData.data.push({"url":current.parent().data('url')});
+      current.closest('.hero-product').find('.product-font.money').css('visibility','hidden');
+      current.closest('.hero-product').find('.product-font.save-money').css('visibility','hidden');
+      setTimeout(function(){
+        current.closest('.hero-product').find('.product-font.money').css('visibility','visible');
+        current.closest('.hero-product').find('.product-font.save-money').css('visibility','visible');
+      }, 4000);
+      var mlvedaCallUrl = "//www.mlveda.com/ShopifyApps/ShopifyMultiPricing/getPrices?shop=hedgrenstore.myshopify.com";         
+      $.ajax({
+        url: mlvedaCallUrl,
+        type: "POST",
+        dataType: "json",
+        timeout: 10000,
+        data: {data: JSON.stringify(mlvedaData)},
+      })
+      .done(function( response ) { 
+          if(typeof response.data[index].price !== "undefined") {
+            current.closest('.hero-product').find('.product-font.money').text("€"+parseFloat(response.data[index].price).toFixed(2).replace(/\.?00+$/, ''));
+          }
+          if(typeof response.data[index].compare_at_price !== "undefined") {
+            current.closest('.hero-product').find('.product-font.save-money').text("€"+parseFloat(response.data[index].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
+          } 
+          if(typeof response.data[index].variantId !== "undefined") {
+            current.closest('.hero-product').find('.add-to-cart').data('variant',response.data[index].variantId);
+          }
+        $('.product-font.money').css('visibility','visible');
+        $('.product-font.save-money').css('visibility','visible');
+      })
+      .fail(function(error) {
+        console.log( error );
+        $('.product-font.money').css('visibility','visible');
+        $('.product-font.save-money').css('visibility','visible');
+      });
+    })
+    .fail(function(error) {
+      console.log( error );
+    });
+  });
+
+  $('.more-color-link').click(function() {
+    $(this).parent().find('.no-disp').removeClass('no-disp');
+    $(this).addClass('no-disp');
+  });    
+
+  $('.add-direct').click(function() {
+    var formData = {
+      'items': [{
+        'id': parseInt($(this).data('variant')),
+        'quantity': 1
+      }]
+    };
+    $.ajax({
+      url: "/cart/add.js",
+      method: "POST",
+      dataType: "json",
+      data: formData,
+    })
+    .done(function( data ) {     
+      $.ajax({
+        url: '{{ routes.root_url }}?sections=hedgren-cart-drawer',
+        method: "GET",
+        dataType: "json"
+      })
+      .done(function( data ) {
+        $(data["hedgren-cart-drawer"]).insertAfter("#shopify-section-hedgren-header");
+        $('.cart-remover').last().remove();
+        $('.drawer-cart').addClass('drawn');
+        $('body').addClass('no-scroll');
+      })
+      .fail(function(error) {
+        console.log( error );
+      });
+    })
+    .fail(function(error) {
+      console.log( error );
+    });
+  });
+  }
+  forcards();
+  
+  $('.sort-wrap .sort').click(function() {
+    $('.sort-wrap .sort').removeClass('selected');
+    $(this).addClass('selected');
+    $.ajax({
+      url: window.location.pathname+'?sort_by='+$(this).data('sort'),
+      method: "GET"
+    })
+    .done(function( data ) {
+      var placeholder = document.createElement('div');
+      placeholder.innerHTML = data;
+      var divx = $(placeholder).find('.all-products');
+      $('.all-products').first().replaceWith(placeholder.querySelector('.all-products'));
+      relaunch();
+      forcards();
+      runFilter();
+    })
+    .fail(function(error) {
+      console.log( error );
+    });
+  });
+  
+  function relaunch() {
+
+    $('.hero-product').each(function(index,item){
+      var current = $(this);
+      $(this).find('.variant-color-wrapper').each(function(){
+        current.addClass('color-'+$(this).attr('title').replace(' ','-'));
+      });
+    });
+  }
+  
+  $(document).ready(function() {
+
+    var getUrlParameter = function getUrlParameter(sParam) {
+      var sPageURL = window.location.search.substring(1),
+          sURLVariables = sPageURL.split('&'),
+          sParameterName,
+          i;
+
+      for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+          return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+      }
+    };
+
+    var filtervar = getUrlParameter('filter_top');
+
+    if(typeof filtervar !== "undefined") {        
+      var array = filtervar.split(",");
+      $.each(array,function(i){
+        if ($(window).width() < 993) {
+
+          $('.filter-sort-products.no-d .filter-checkbox').each(function() {
+            if($(this).data('value') == array[i].replace('Filter:-','')) {
+              $(this).parent().addClass('selected');
+            }
+          });
+        }
+        else {
+          $('.filter-sort-products.no-t-m .filter-checkbox').each(function() {
+            if($(this).data('value') == array[i].replace('Filter:-','')) {
+              $(this).parent().addClass('selected');
+            }
+          });
+        }
+
+      });
+      runFilter();
+    }
+
+  });
+  
+  
+  var mlvedaData = {"data": []};
+  $('.hedgren-color-active').each(function(){
+    mlvedaData.data.push({"url":$(this).parent().data('url')});
+  });
+  $('.product-font.money').css('visibility','hidden');
+  $('.product-font.save-money').css('visibility','hidden');
+  setTimeout(function(){
+    $('.product-font.money').css('visibility','visible');
+    $('.product-font.save-money').css('visibility','visible');
+  }, 4000);
+  var mlvedaCallUrl = "//www.mlveda.com/ShopifyApps/ShopifyMultiPricing/getPrices?shop=hedgrenstore.myshopify.com";         
+  $.ajax({
+     url: mlvedaCallUrl,
+    type: "POST",
+    dataType: "json",
+    timeout: 10000,
+    data: {data: JSON.stringify(mlvedaData)},
+  })
+  .done(function( response ) { 
+
+    $('.hedgren-color-active').each(function(index, element){
+      if(typeof response.data[index].price !== "undefined") {
+        $(this).closest('.hero-product').find('.product-font.money').text("€"+parseFloat(response.data[index].price).toFixed(2).replace(/\.?00+$/, ''));
+      }
+      if(typeof response.data[index].compare_at_price !== "undefined") {
+        $(this).closest('.hero-product').find('.product-font.save-money').text("€"+parseFloat(response.data[index].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
+      } 
+      if(typeof response.data[index].variantId !== "undefined") {
+        $(this).closest('.hero-product').find('.add-to-cart').data('variant',response.data[index].variantId);
+      }
+    });
+    $('.product-font.money').css('visibility','visible');
+    $('.product-font.save-money').css('visibility','visible');
+  })
+  .fail(function(error) {
+    console.log( error );
+    $('.product-font.money').css('visibility','visible');
+    $('.product-font.save-money').css('visibility','visible');
+  });
+</script>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Hedgren All Products",
+    "settings": [
+		{
+          "type": "text",
+          "id": "addtext",
+          "label": "Add button text",
+          "default": "ADD TO CART"
+        },
+        {
+          "type": "text",
+          "id": "outtext",
+          "label": "Out of stock button text",
+          "default": "COMING SOON"
+        },
+        {
+          "type": "text",
+          "id": "moretext",
+          "label": "More button text",
+          "default": "More info"
+        },
+		{
+          "type": "text",
+          "id": "filter_text",
+          "label": "Filter text",
+          "default": "FILTER"
+        },
+		{
+          "type": "text",
+          "id": "filter_text_apply",
+          "label": "Apply Filter text",
+          "default": "APPLY FILTER"
+        },
+		{
+          "type": "text",
+          "id": "sort_text",
+          "label": "Sort text",
+          "default": "SORT"
+        },
+		{
+          "type": "text",
+          "id": "sort_text1",
+          "label": "Sort text",
+          "default": "Newest first"
+        },
+		{
+          "type": "text",
+          "id": "sort_text2",
+          "label": "Sort text",
+          "default": "Bestsellers"
+        },
+		{
+          "type": "text",
+          "id": "sort_text3",
+          "label": "Sort text",
+          "default": "Price, low - high"
+        },
+		{
+          "type": "text",
+          "id": "sort_text4",
+          "label": "Sort text",
+          "default": "Price, high - low"
+        },
+		{
+          "type": "text",
+          "id": "clear_text",
+          "label": "Clear text",
+          "default": "CLEAR ALL"
+        },
+		{
+          "type": "text",
+          "id": "outlet_text",
+          "label": "Outlet text",
+          "default": "Outlet"
+        },
+		{
+          "type": "text",
+          "id": "new_text",
+          "label": "New text",
+          "default": "New"
+        }
+	],
+	"presets": [
+		{
+			"name": "Hedgren All Products Seperate"
+		}
+	]
   }
 {% endschema %}
 
