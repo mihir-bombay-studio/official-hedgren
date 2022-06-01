@@ -406,12 +406,10 @@ h3.form__message {
 :is(.account, .order) {
   margin: 6rem auto 9rem;
   max-width: var(--page-width);
-  padding: 0 2rem;
 }
 
 @media screen and (min-width: 750px) {
   :is(.account, .order) {
-    padding: 0 5rem;
   }
 }
 
