@@ -33,11 +33,26 @@
       </label>
       <input
         type="text"
-        name="customer[name]"
+        name="customer[first_name]"
         id="RegisterForm-FirstName"
         {% if form.first_name %}value="{{ form.first_name }}"{% endif %}
         autocomplete="given-name"
-        placeholder="First & last name"
+        placeholder="First name"
+        required
+      />
+      
+    </div>
+    <div class="field">      
+      <label for="RegisterForm-LastName">
+        Full name*
+      </label>
+      <input
+        type="text"
+        name="customer[last_name]"
+        id="RegisterForm-LastName"
+        {% if form.last_name %}value="{{ form.last_name }}"{% endif %}
+        autocomplete="family-name"
+        placeholder="Last name"
         required
       />
       
