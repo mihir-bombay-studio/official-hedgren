@@ -24,15 +24,28 @@
         "collapse_on_larger_devices": false
       }
     },
-    "16381766261c7dbe21": {
-      "type": "hedgren-all-products",
+    "1654077829dc8d9046": {
+      "type": "hedgren-all-products-seperate",
       "settings": {
+        "addtext": "ADD TO CART",
+        "outtext": "COMING SOON",
+        "moretext": "More info",
+        "filter_text": "FILTER",
+        "filter_text_apply": "APPLY FILTER",
+        "sort_text": "SORT",
+        "sort_text1": "Newest first",
+        "sort_text2": "Bestsellers",
+        "sort_text3": "Price, low - high",
+        "sort_text4": "Price, high - low",
+        "clear_text": "CLEAR ALL",
+        "outlet_text": "Outlet",
+        "new_text": "New"
       }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "16381766261c7dbe21"
+    "1654077829dc8d9046"
   ]
 }
