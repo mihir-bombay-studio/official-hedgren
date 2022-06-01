@@ -243,6 +243,10 @@
               <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}">
               {% endfor %}              
             </a>
+            <div class="variants flex-box no-t-m">
+              {% include 'color-product-swatch' %}
+              {% include 'color-product-swatch-2' %}
+            </div>
           </div>
 
           <div class="hero-product-text-block">
@@ -269,6 +273,12 @@
         </div>
         <div class="hero-product-text-block">
 
+          <div class="hero-row no-d"> 
+            <div class="variants flex-box">
+              {% include 'color-product-swatch' %}
+              {% include 'color-product-swatch-2' %}
+            </div>
+          </div>
           <button class="add-direct btn btn-center {% unless product.available %}no-avaliable{% endunless %}"  data-variant="{{ product.selected_or_first_available_variant.id }}"><span class="cart-txt no-d">{% if product.available %}ADD{% else %}Sold Out{% endif %}</span><span class="cart-txt no-t-m">{% if product.available %}{{ section.settings.addtext }}{% else %}{{ section.settings.outtext }}{% endif %}</span> {% render "svg-plus" %}</button>
           <a href="{{ product.url }}" class="more-info" title="{{ product.title }}">
             {{ section.settings.moretext }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>
@@ -314,7 +324,7 @@
   var arrayObj = [];
   $('.variant-color-wrapper').each(function() {
     var index = arrayObj.findIndex(x => x.name==$(this).attr('title'));
-    if(index === -1) {
+    if(index === -1 && $(this).find('img').hasClass('hedgren-color-active')) {
       arrayObj.push({name:$(this).attr('title'), img: $(this).find('img').attr('src'), class: 'color-'+$(this).attr('title').replace(' ','-')})
     }
   });
