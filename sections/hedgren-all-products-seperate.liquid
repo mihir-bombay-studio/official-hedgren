@@ -336,7 +336,9 @@
   $('.hero-product').each(function(index,item){
   	var current = $(this);
     $(this).find('.variant-color-wrapper').each(function(){
+      if($(this).find('img').hasClass('hedgren-color-active')) {
     	current.addClass('color-'+$(this).attr('title').replace(' ','-'));
+      }
     });
   });
   $('.color-wrap').click(function() {
