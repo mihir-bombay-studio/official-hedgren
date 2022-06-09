@@ -789,7 +789,7 @@
           <img loading="lazy" src="{{ all_products[full_name].images.first | img_url: '350x' }}" alt="{{ all_products[full_name].images.first.alt | default: all_products[full_name].title }}">
         </div>
         <div class="testimonial-text">
-          <div class="testimonial-rating flex-box">
+          <div class="testimonial-rating flex-box" data-u="{{all_products[full_name].metafields.loox.avg_rating}}">
             {% assign rating = all_products[full_name].metafields.loox.avg_rating %}
             {% assign remain = 5 | minus: rating %}
             {% for i in (1..rating) %}
