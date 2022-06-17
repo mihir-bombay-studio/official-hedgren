@@ -38,7 +38,7 @@
   }
 </style>
 
-<header class="{% if section.settings.enable_sticky_header %}sticky{% endif %}">
+<header class="{% if section.settings.enable_sticky_header %}sticky{% endif %} hedgren-header">
   <div class="upper-header flex-box justify-between flex-center">
     <div class="upper-nav-left no-t-m rel">
       <a href="#" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
@@ -431,6 +431,38 @@
   </div>
 </header>
 
+<script>    
+       
+  
+  $(function() {
+
+    var $window       = $(window);
+    var lastScrollTop = 0;
+    var $header       = $('.hedgren-header');
+    window.headerHeight  = 135.78;    
+
+    $window.scroll(function() {
+      var windowTop  = $window.scrollTop();
+
+      if ( windowTop >= headerHeight ) {
+        $header.addClass( 'active' );
+      } else {
+        $header.removeClass( 'active' );
+        $header.removeClass( 'active-show' );
+      }
+
+      if ( $header.hasClass( 'active' ) ) {
+
+        if ( windowTop < lastScrollTop ) {
+          $header.addClass( 'active-show' );
+        } else {
+          $header.removeClass( 'active-show' );
+        }
+      }
+      lastScrollTop = windowTop;
+    } );
+  });
+</script>
 
 <script>
   $('.navbar-toggler').click(function() {
