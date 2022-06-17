@@ -248,6 +248,10 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder { /* Microsoft Edg
   .no-d{
     display: none !important;
   }
+  .dropdown-1>a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media(max-width: 992px){
