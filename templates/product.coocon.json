@@ -1,0 +1,241 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "loox-rating",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "163790218256dd6a24": {
+      "type": "hedgren-product",
+      "settings": {
+      }
+    },
+    "16391218459658d81d": {
+      "type": "hedgren-testimonials",
+      "blocks": {
+        "904cd6de-3041-42fd-840c-084496eac604": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HNOV05_512_01_1.jpg",
+            "rating": 4,
+            "prod_title": "GALACTIC Shoulder Bag Tote",
+            "testimonial_text": "Love this bag!! Great colour, enough space for all things required, even when going out with kids. A lot of pockets, waterproof (really important in Scotland) and very light. I have 2 fancy lather bag - hate that they are very heavy. This doesn't make you feel that you have such a large bag. The second time I buy from Hedgren, and really love the brand.",
+            "author": "Luminita M."
+          }
+        },
+        "6da15cbe-ef07-43e4-b8c7-6899c13378b1": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HIC419_316_02_07_dffd614e-9570-4a20-9b8e-3359a6a95f3f.jpg",
+            "rating": 5,
+            "prod_title": "FAITH Crossover Safety Hook RFID",
+            "testimonial_text": "Wonderful bag very easy and light to wear. What I was looking for!",
+            "author": "loredana c."
+          }
+        },
+        "0a749d23-d061-4926-b252-8c8e95f62037": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HIC112_155_08_07_a4c63c46-e998-4706-9a14-e1cd8a76e94e.jpg",
+            "rating": 4,
+            "prod_title": "LEONCE Small Vertical Crossover RFID",
+            "testimonial_text": "I own this bag since 3 years and I use it everyday. It's like new, and it always looks fine, in every context - work, going for a walk, dancing. I love the compartments. I had a similar bigger Hedgren before which used for more than 10 years.",
+            "author": "Corinna"
+          }
+        },
+        "6b95d9aa-9051-4d27-bfee-13114fab575b": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HIC11L_316_09_07_53cfb374-427a-456f-a65f-89d940b179ae.jpg",
+            "rating": 4,
+            "prod_title": "VOGUE L Backpack Large RFID",
+            "testimonial_text": "An amazing high quality backpack I always buy Hedgren products as they are so well made.",
+            "author": "Katharine P."
+          }
+        }
+      },
+      "block_order": [
+        "904cd6de-3041-42fd-840c-084496eac604",
+        "6da15cbe-ef07-43e4-b8c7-6899c13378b1",
+        "0a749d23-d061-4926-b252-8c8e95f62037",
+        "6b95d9aa-9051-4d27-bfee-13114fab575b"
+      ],
+      "settings": {
+        "title": "Reviews",
+        "subtitle": "WHAT DO OUR CUSTOMERS THINK?"
+      }
+    },
+    "1639121864070ecb61": {
+      "type": "hedgren-faq",
+      "blocks": {
+        "9499df00-fd68-4103-ada4-32ca9b778294": {
+          "type": "faq",
+          "settings": {
+            "question": "Where do you deliver?",
+            "answer": "Currently Hedgren delivers to customers who have an address in Albania, Austria, Belgium, Bosnia & Herzegovina, Croatia, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Italy, Ireland, Luxembourg, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, the Netherlands, Ukraine and United Kingdom."
+          }
+        },
+        "f61268ed-7577-4fdb-914f-e7e55cc1f8d8": {
+          "type": "faq",
+          "settings": {
+            "question": "Is there a shipping charge for orders?",
+            "answer": "We offer FREE SHIPPING on all orders to residential addresses in Austria, Belgium, Denmark, France mainland, Germany, Luxembourg and the Netherlands. Deliveries to residential addresses in Albania, Bosnia & Herzegovina, Croatia, Czech Republic, Estonia, Finland, Greece,  Hungary, Ireland, Italy, Latvia, Lithuania, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom and also the islands are subject to an actual calculated transport cost which is shown in the shipping method section of the checkout process.Please note that we have no control over custom matters\/import duties. Delivery to countries outside the European Union might involve additional custom costs."
+          }
+        },
+        "4c8e3893-1f4c-4397-a920-09a339796bef": {
+          "type": "faq",
+          "settings": {
+            "question": "When will I receive my order?",
+            "answer": "We deliver within 1 to 7 business days provided receipt of payment is before 2 PM Central European Time (i.e. Payment receipt before 2 PM on Monday and your order will arrive on Tuesday if the shipping address is located in Belgium. Any order after 2 PM with location Belgium on Monday will arrive on Wednesday).Albania: 5 to 6 business days; Austria: 2 business days; Belgium: 1 business day; Bosnia & Herzegovina: 5 to 6 business days; Croatia: 3 business days; Czech Republic: 2 business days; Denmark: 2 business days; Estonia: 4 to 5 business days; Finland: 3 to 5 business days; France: 1 to 2 business days; Germany: 1 to 2 business days; Greece: 4 business days; Hungary: 3 business days; Italy: 2 business days; Ireland: 3 business days; Latvia: 3 to 4 business days; Lithuania: 3 to 4 business days; Luxembourg: 1 business day; Macedonia: 4 to 5 business days; Norway: 3 to 5 business days; Poland: 2 business days; Portugal: 3 to 4 business days; Romania: 4 business days; Russia: 5 to 6 business days; Serbia: 3 business days; Slovakia: 3 business days; Slovenia: 2 business days; Spain: 3 to 5 business days; Sweden: 2 to 5 business days; Switzerland: 3 to 5 business days; the Netherlands: 1 business day; Ukraine: 4 to 5 business days; United Kingdom: Normally 3 to 4 business days, but due to customs clearance the release of the package might take up to 10 working days."
+          }
+        }
+      },
+      "block_order": [
+        "9499df00-fd68-4103-ada4-32ca9b778294",
+        "f61268ed-7577-4fdb-914f-e7e55cc1f8d8",
+        "4c8e3893-1f4c-4397-a920-09a339796bef"
+      ],
+      "settings": {
+        "background": "normal-bg",
+        "heading": "FAQ",
+        "sec_id": "",
+        "button_label": "More FAQ's",
+        "button_link": "shopify:\/\/pages\/faq"
+      }
+    },
+    "16379239984199c29f": {
+      "type": "hedgren-similar-products",
+      "settings": {
+        "heading": "You may also like",
+        "addtext": "ADD TO CART",
+        "outtext": "COMING SOON",
+        "moretext": "More info",
+        "buttontext": "SHOP ALL PRODUCTS"
+      }
+    },
+    "163791773478585842": {
+      "type": "hedgren-product-features",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "163790218256dd6a24",
+    "16391218459658d81d",
+    "1639121864070ecb61",
+    "16379239984199c29f",
+    "163791773478585842",
+    "loox-product-reviews-app-section"
+  ]
+}
