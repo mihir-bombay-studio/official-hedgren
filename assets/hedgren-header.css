@@ -4,6 +4,22 @@ header {
   width: 100%;
   z-index: 9;
   background-color: #fff;
+  -webkit-transition: all .5s ease,padding 0s;
+  -moz-transition: all .5s ease,padding 0s;
+  -o-transition: all .5s ease,padding 0s;
+  transition: all .5s ease,padding 0s;
+}
+.hedgren-header.active {
+  position: fixed;
+  z-index: 5;
+  -webkit-transition: all .5s ease,padding 0s;
+  -moz-transition: all .5s ease,padding 0s;
+  -o-transition: all .5s ease,padding 0s;
+  transition: all .5s ease,padding 0s;
+  top: -135.78px;
+}
+.hedgren-header.active.active-show {
+  top: 0;
 }
 .upper-header {
   padding: 25px;
