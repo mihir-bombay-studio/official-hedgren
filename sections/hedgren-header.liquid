@@ -221,7 +221,7 @@
                 <a href="#" onclick="return false;">{{ childlink.title | escape }}</a>
               </li>
               {% else %}
-              <li class="link-secondary">
+              <li class="link-secondary" data-abc="{{combinedHash}}">
                 <a href="{{ childlinkUrl }}">{{ childlink.title | escape }} <span class="link-arows">{% include "svg-arrow" %}</span></a>
               </li>
               {% endif %}
