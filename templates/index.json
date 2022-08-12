@@ -3,8 +3,8 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Next_banner_2000_x_891.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Next_banner_1200_x_1200.jpg",
+        "image": "shopify:\/\/shop_images\/HGA_2000_x_891.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/HGA_1200_x_1200.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
@@ -14,7 +14,7 @@
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "next-1",
+        "collection": "great-american-heritage",
         "buttontext": "SHOP ALL PRODUCTS"
       }
     },
