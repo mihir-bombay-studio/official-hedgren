@@ -213,7 +213,7 @@
         "37ccae0c-1347-47ca-bc8c-7e044efd78c2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
+        "image": "shopify:\/\/shop_images\/HGA_2000_x_891.jpg",
         "heading_left": "",
         "heading_right": "",
         "sub_heading": "",
@@ -297,7 +297,10 @@
         "title_left": "1994",
         "title_mid": "Discover our collections",
         "title_right": "2022",
-        "subtitle": "Our collections"
+        "subtitle": "Our collections",
+        "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
+        "discover_text": "DISCOVER COLLECTION",
+        "discover_shoptext": "SHOP COLLECTIONS"
       }
     }
   },
