@@ -558,3 +558,8 @@
     <span class="variant-color-wrapper" title="Uptown Brown" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.upbrw | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Uptown Brown" %}<span class="variant-color-wrapper" title="Uptown Brown" data-url="{% include 'removelist' %}-upbrw"><img class="hedgren-color-inactive" src="{{ settings.upbrw | img_url: '' }}"></span>
      {% endif %}
+     
+{% if product.tags contains "2.Color_Cabernet" and product.url contains "-cabernet" %}
+    <span class="variant-color-wrapper" title="Cabernet" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.cabernet | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Cabernet" %}<span class="variant-color-wrapper" title="Cabernet" data-url="{% include 'removelist' %}-cabernet"><img class="hedgren-color-inactive" src="{{ settings.cabernet | img_url: '' }}"></span>
+     {% endif %}
