@@ -468,7 +468,10 @@
       current.closest('.hero-product').find('.product-font.save-money').css('visibility','hidden');
       setTimeout(function(){
         current.closest('.hero-product').find('.product-font.money').css('visibility','visible');
-        current.closest('.hero-product').find('.product-font.save-money').css('visibility','visible');
+        if(data.compare_at_price != null && data.compare_at_price != 0){
+          current.closest('.hero-product').find('.product-font.save-money').css('visibility','visible');
+        }
+        
       }, 4000);
       var mlvedaCallUrl = "//www.mlveda.com/ShopifyApps/ShopifyMultiPricing/getPrices?shop=hedgrenstore.myshopify.com";         
       $.ajax({
@@ -489,7 +492,9 @@
             current.closest('.hero-product').find('.add-to-cart').data('variant',response.data[index].variantId);
           }
         $('.product-font.money').css('visibility','visible');
+        if(data.compare_at_price != null && data.compare_at_price != 0){
         $('.product-font.save-money').css('visibility','visible');
+        }
       })
       .fail(function(error) {
         console.log( error );
