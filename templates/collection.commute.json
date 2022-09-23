@@ -238,6 +238,7 @@
     },
     "16639326218eac90ee": {
       "type": "hedgren-img-text",
+      "disabled": true,
       "settings": {
         "background": "normal-bg",
         "order": "order-normal",
