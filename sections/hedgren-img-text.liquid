@@ -13,9 +13,12 @@
         {{ section.settings.content }}
       </div>
       {% if section.settings.button_label %}
+        {% if section.settings.custom_link %}
+          {% else %}
       <a href="{% if section.settings.button_link %}{{section.settings.button_link}}{% else %}#{% endif %}" {% if template contains "loyalty" %}onclick="SmileUI.openPanel();return false;"{% endif %}>
         {{ section.settings.button_label }} {% if section.settings.button_label != blank %}<span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span>{% endif %}
       </a>
+          {% endif %}
       {% endif %}
       <div class="extra-text{% if section.settings.order == 'order-normal' %} txt-right{% endif %} no-d">{{ section.settings.extra_txt }}</div>
     </div>  
