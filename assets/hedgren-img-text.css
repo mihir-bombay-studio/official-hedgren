@@ -39,13 +39,14 @@
   line-height: 18px;
   margin-bottom: 14px;
 }
-.img-text-text a {
+.img-text-text a, .img-text-text .custom_link {
   color: #000;
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 2.2px;
   font-size: 13px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .img-text-img img {
   width: 100%;
