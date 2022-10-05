@@ -56,8 +56,8 @@
             console.log('click');
             var scrollto = $(this).data('linkid');
             $('html, body').animate({
-        scrollTop: $("{{section.settings.button_link}}").offset().top
-    }, 2000);
+        scrollTop: $("{{section.settings.button_link}}").offset().top-10
+    }, 500);
             // $('body').animate({scrollTop: $('').offset().top-10},1000);
           });
         </script>
