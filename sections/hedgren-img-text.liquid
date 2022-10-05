@@ -51,6 +51,13 @@
   </div>
 </div>
 
+        <script>
+          $('.custom_link').click(function() {
+            var scrollto = $(this).data('linkid');
+            $('body').animate({scrollTop: $(scrollto).offset().top-10},1000);
+          });
+        </script>
+
 {% schema %}
  {
    "name":"Hedgren Image and text",
