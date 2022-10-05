@@ -53,6 +53,7 @@
 
         <script>
           $('.custom_link').click(function() {
+            console.log('click');
             var scrollto = $(this).data('linkid');
             $('body').animate({scrollTop: $(scrollto).offset().top-10},1000);
           });
