@@ -1,16 +1,16 @@
-{% if product.metafields.custom.colour_text == "Black" %}
+{% if product.metafields.custom.color_name contains "Black" %}
     <span class="meta-color-wrapper" title="Black" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.black | img_url: '' }}"> 
       </span>
      {% endif %}
-     {% if product.metafields.custom.colour_text == "Red" %}
+     {% if product.metafields.custom.color_name == "Red" %}
     <span class="meta-color-wrapper" title="Red" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.red | img_url: '' }}"> 
       </span>
      {% endif %}
-     {% if product.metafields.custom.colour_text == "Blue" %}
+     {% if product.metafields.custom.color_name == "Blue" %}
     <span class="meta-color-wrapper" title="Blue" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.blue | img_url: '' }}"> 
       </span>
      {% endif %}
-     {% if product.metafields.custom.colour_text == "Green" %}
+     {% if product.metafields.custom.color_name == "Green" %}
     <span class="meta-color-wrapper" title="Green" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.green | img_url: '' }}"> 
       </span>
      {% endif %}
