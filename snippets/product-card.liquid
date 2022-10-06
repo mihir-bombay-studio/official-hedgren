@@ -122,7 +122,7 @@
         </div>
       {%- endif -%}
 
-      <div class="card__badge prod-tag">
+      <div class="prod-tag">
         {%- if product_card_product.available == false -%}
           <span class="">{{ 'products.product.sold_out' | t }}</span>
         {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
