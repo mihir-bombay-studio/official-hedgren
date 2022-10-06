@@ -8,6 +8,16 @@ This file can be re-written at any time.
   
 <head>
   
+   
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-223SQEKF1L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-223SQEKF1L');
+</script>
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -222,6 +232,7 @@ This file can be re-written at any time.
 	{{ shop.metafields.loox["global_html_head"] }}
 
   {% render 'shogun-head' %}
+    {% include 'dataLayer-allPages' %}
 
 </head>
 
