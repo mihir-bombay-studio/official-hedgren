@@ -246,7 +246,6 @@
       {% if product.tags contains "Main" %}
       <div class="hero-product{% for meta in product.metafields.custom.color_name.value %} color-{{ meta }}{% endfor %} {% for tag in product.tags %}{% if tag contains "filter:" or tag contains "Filter:" %}{% if request.locale.iso_code == 'fr' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = fr[position] | split: " - " %}{% elsif request.locale.iso_code == 'nl' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = nl[position] | split: " - " %}{% elsif request.locale.iso_code == 'de' %}{% for item in en %}{% if item == tag %}{% assign position = forloop.index0 %}{% break %}{% endif %}{% endfor %}{% assign tagx = de[position] | split: " - " %}{% else %}{% assign tagx = tag | split: " - " %}{% endif %}{{ tagx[0] | replace: "Filter:","" | replace: "filter:","" | strip | replace: " ","-" }}-{{ tagx[1] | strip | replace: " ","-" | capitalize }} {% endif %}{% endfor %}">
         <div>
-          {{ product.metafields.custom.color_name.value }}
           <div class="hero-product-images-block rel">
             <a href="{{ product.url }}">
               {% if product.tags contains "Outlet" %}<div class="prod-tag">{{ section.settings.outlet_text }}</div>{% elsif product.tags contains "New" %}<div class="prod-tag">{{ section.settings.new_text }}</div>{% elsif product.tags contains "Back in stock" %}<div class="prod-tag">Back in stock</div>{% endif %}
