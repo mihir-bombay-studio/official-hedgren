@@ -1,6 +1,6 @@
 {% for meta in product.metafields.custom.color_name.value %}
   {% if product.metafields.custom.color_name.value contains meta %}
-    <span class="meta-color-wrapper" title="{{ meta }}" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.meta | img_url: '' }}"> 
+    <span class="meta-color-wrapper" title="{{ meta }}" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.{{ meta }} | img_url: '' }}"> 
       </span>
      {% endif %}
 {% endfor %}
