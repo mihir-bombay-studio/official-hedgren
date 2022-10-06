@@ -1,10 +1,3 @@
-{% for meta in product.metafields.custom.color_name.value %}
-  {% if product.metafields.custom.color_name.value contains meta %}
-    <span class="meta-color-wrapper" title="{{ meta }}" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.meta | img_url: '' }}"> 
-      </span>
-     {% endif %}
-{% endfor %}
-
 {% if product.metafields.custom.color_name.value contains "Black" %}
     <span class="meta-color-wrapper" title="Black" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.black | img_url: '' }}"> 
       </span>
