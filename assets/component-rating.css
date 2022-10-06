@@ -60,6 +60,7 @@
     width: fit-content;
     position: absolute;
     top: 16px;
+    bottom: unset;
     left: 0;
     text-transform: uppercase;
     z-index: 1;
