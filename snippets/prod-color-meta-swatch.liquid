@@ -2,7 +2,7 @@
     <span class="meta-color-wrapper" title="Black" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.black | img_url: '' }}"> 
       </span>
      {% endif %}
-     {% if product.metafields.custom.color_name.value == "Red" %}
+     {% if product.metafields.custom.color_name.value contains "Red" %}
     <span class="meta-color-wrapper" title="Red" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.red | img_url: '' }}"> 
       </span>
      {% endif %}
