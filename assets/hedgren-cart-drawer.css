@@ -384,4 +384,8 @@
   .cart-body.upsell-added {
     height: calc(100vh - 271px);
   }
+
+  .drawer-cart{
+    overflow:scroll;
+  }
 }
