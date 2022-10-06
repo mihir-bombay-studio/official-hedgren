@@ -6,11 +6,11 @@
     <span class="meta-color-wrapper" title="Red" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.red | img_url: '' }}"> 
       </span>
      {% endif %}
-     {% if product.metafields.custom.color_name == "Blue" %}
+     {% if product.metafields.custom.color_name.value contains "Blue" %}
     <span class="meta-color-wrapper" title="Blue" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.blue | img_url: '' }}"> 
       </span>
      {% endif %}
-     {% if product.metafields.custom.color_name == "Green" %}
+     {% if product.metafields.custom.color_name.value contains "Green" %}
     <span class="meta-color-wrapper" title="Green" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.green | img_url: '' }}"> 
       </span>
      {% endif %}
