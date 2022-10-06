@@ -1,0 +1,16 @@
+{% if product.metafields.custom.colour_text == "Black" %}
+    <span class="meta-color-wrapper" title="Black" data-url="{{ product.url }}"><img class="" src="{{ settings.black | img_url: '' }}"> 
+      </span>
+     {% endif %}
+     {% if product.metafields.custom.colour_text == "Red" %}
+    <span class="meta-color-wrapper" title="Red" data-url="{{ product.url }}"><img class="" src="{{ settings.red | img_url: '' }}"> 
+      </span>
+     {% endif %}
+     {% if product.metafields.custom.colour_text == "Blue" %}
+    <span class="meta-color-wrapper" title="Blue" data-url="{{ product.url }}"><img class="" src="{{ settings.blue | img_url: '' }}"> 
+      </span>
+     {% endif %}
+     {% if product.metafields.custom.colour_text == "Green" %}
+    <span class="meta-color-wrapper" title="Green" data-url="{{ product.url }}"><img class="" src="{{ settings.green | img_url: '' }}"> 
+      </span>
+     {% endif %}
