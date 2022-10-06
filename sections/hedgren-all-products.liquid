@@ -244,6 +244,9 @@
               <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}" loading="lazy">
               {% endfor %}              
             </a>
+            <div class="meta-colors">
+              {% include 'prod-color-meta-swatch' %}
+            </div>
             <div class="variants flex-box no-t-m">
               {% include 'color-product-swatch' %}
               {% include 'color-product-swatch-2' %}
