@@ -1,4 +1,4 @@
-{% for meta in produt.metafields.custom.color_name.value %}
+{% for meta in product.metafields.custom.color_name.value %}
   {% assign meta_down = meta | downcase %}
   {% if product.metafields.custom.color_name.value contains meta %}
   <span class="meta-color-wrapper" title="{{ meta }}" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.meta_down | img_url: '' }}"> 
