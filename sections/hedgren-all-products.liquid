@@ -345,7 +345,7 @@
   $('.meta-color-wrapper').each(function() {
     var index = arrayObj.findIndex(x => x.name==$(this).attr('title'));
     if(index === -1) {
-      arrayObj.push({name:$(this).attr('title'), img: $(this).find('img').attr('src'), class: 'color-'+$(this).attr('title').replace(' ','-')})
+      arrayObj.push({name:$(this).attr('title'), img: $(this).find('img').attr('src'), class: 'color-meta-'+$(this).attr('title').replace(' ','-')})
     }
   });
   $(arrayObj).each(function(index,item) {
