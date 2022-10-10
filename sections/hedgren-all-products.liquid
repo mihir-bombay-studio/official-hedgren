@@ -269,8 +269,10 @@
                   {{ product.title | truncatewords: 1, "" }}
                 </span>            
                 <span class="product-tag">
+                  {% comment %}
                   {% assign remove_word = product.title | truncatewords: 1, "" %}
                   {{ product.title | replace: remove_word,"" }}
+        {% endcomment %}
                 </span>
               </div>
               <div class="hero-col">
