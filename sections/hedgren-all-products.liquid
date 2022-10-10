@@ -269,6 +269,7 @@
                   {{ product.title | truncatewords: 1, "" }}
                 </span>            
                 <span class="product-tag">
+                  {% include 'color-product-swatch-title' %}{% include 'color-product-swatch-title-2' %}
                   {% comment %}
                   {% assign remove_word = product.title | truncatewords: 1, "" %}
                   {{ product.title | replace: remove_word,"" }}
