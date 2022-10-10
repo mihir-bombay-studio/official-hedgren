@@ -367,6 +367,16 @@
     }
     runFilter();
   });
+  function runColorFilter(){
+    $('.hero-product').each(function() {
+      var curx = $(this);
+      $('.color-wrap.selected').each(function() {
+        if(curx.hasClass($(this).data('val'))){
+          curx.addClass('fop');
+        }
+      });
+    });
+  }
   
   function runFilter() {
     $('.applied-filter').remove(); 
