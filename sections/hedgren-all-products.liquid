@@ -248,7 +248,7 @@
         <div>
           <div class="hero-product-images-block rel">
             <a href="{{ product.url }}">
-              {% if product.tags contains "Sale" %}<div class="prod-tag">{{ section.settings.sale_text }}</div>{% elsif product.tags contains "Outlet" %}<div class="prod-tag">{{ section.settings.outlet_text }}</div>{% elsif product.tags contains "New" %}<div class="prod-tag">{{ section.settings.new_text }}</div>{% elsif product.tags contains "Back in stock" %}<div class="prod-tag">Back in stock</div>{% endif %}
+              {% if product.compare_at_price > product.price %}<div class="prod-tag">{{ section.settings.sale_text }}</div>{% elsif product.tags contains "Outlet" %}<div class="prod-tag">{{ section.settings.outlet_text }}</div>{% elsif product.tags contains "New" %}<div class="prod-tag">{{ section.settings.new_text }}</div>{% elsif product.tags contains "Back in stock" %}<div class="prod-tag">Back in stock</div>{% endif %}
               {% for image in product.images limit: 2 %}
               <img src="{{ image | img_url: "450x" }}" alt="{{ product.title }}" loading="lazy">
               {% endfor %}              
