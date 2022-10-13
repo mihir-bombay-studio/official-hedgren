@@ -74,8 +74,8 @@
         {% if product.available %}
         <div class="add-to-cart" data-variant="{{ product.selected_or_first_available_variant.id }}">{% if product.available %}{{ "products.product.add_to_cart" | t | upcase }}{% else %}Coming Soon{% endif %} {% include 'icon-plus-black' %}</div>
         {% else %}
-          <span class="coming-soon-text">Coming soon</span>
-        <a class="klaviyo-bis-trigger notify-button" href="#">Notify Me</a>
+          <span class="coming-soon-text">{{ section.settings.coming_soon_text }}</span>
+        <a class="klaviyo-bis-trigger notify-button" href="#">{{ section.settings.notify_me_text }}</a>
           {% endif %}
         <style>
           .product-detail__trust-icons {
