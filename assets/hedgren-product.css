@@ -262,8 +262,8 @@
   text-align: center;
 }
 
-.notify-button{
-  padding: 15px 53px;
+.notify-button {
+    padding: 15px 53px;
     border: 2px solid;
     border-radius: 23px;
     font-size: 13px;
@@ -274,6 +274,17 @@
     width: fit-content;
     cursor: pointer;
     margin-bottom: 24px;
+    display: block;
+    width: fit-content;
+    width: -moz-fit-content;
+    color: #000;
+    text-decoration: none;
+  transition: .4s ease;
+}
+
+.notify-button:hover{
+	color: #ffffff;
+  background-color: #000000;
 }
 @media(max-width: 992px){
 	.product-info-imgs {
