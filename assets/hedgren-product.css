@@ -279,7 +279,6 @@
     width: -moz-fit-content;
     color: #000;
     text-decoration: none;
-  transition: .4s ease;
 }
 
 .notify-button:hover{
