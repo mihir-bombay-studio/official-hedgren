@@ -464,7 +464,7 @@
     var color_name = $(this).parent().attr('title');
     console.log(color_name);
     var current = $(this);
-    current.closest('.hero-product').find('.product-current-color').text(color_name);
+    
     $.ajax({
       url: $(this).parent().data('url')+'.js',
       method: "GET",
@@ -490,6 +490,7 @@
       current.closest('.hero-product').find('.add-direct').data('variant',data.variants[0].id);
       current.closest('.hero-product').find('.hero-product-images-block a img').first().attr('src',data.images[0]);
       current.closest('.hero-product').find('.hero-product-images-block a img').last().attr('src',data.images[1]);
+      current.closest('.hero-product').find('.product-current-color').text(color_name);
       
             var mlvedaData = {"data": []};
             mlvedaData.data.push({"url":current.parent().data('url')});
