@@ -28,3 +28,9 @@ h3.modal-title {
     letter-spacing: .11px;
     font-weight: 700;
 }
+
+p {
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Circular, sans-serif;
+}
