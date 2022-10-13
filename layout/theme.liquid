@@ -335,12 +335,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
   });
 </script>
-    <script>
-      frame.addEventListener("load", ev => {
-    const new_style_element = document.createElement("link");
-    new_style_element.textContent = "rel='stylesheet' href='{{ \'popup_iframe.css\' | asset_url }}'"
-    ev.target.contentDocument.head.appendChild(new_style_element);
-});
-    </script>
 </body>
 </html>
