@@ -464,6 +464,7 @@
     var color_name = $(this).parent().attr('title');
     console.log(color_name);
     var current = $(this);
+    current.closest('.hero-product').find('.product-current-color').text(color_name);
     $.ajax({
       url: $(this).parent().data('url')+'.js',
       method: "GET",
