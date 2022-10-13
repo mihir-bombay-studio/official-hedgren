@@ -16,3 +16,15 @@ button.btn.btn-success.btn-lg.col-xs-12 {
     background-color: #fff;
     width: 100%;
 }
+
+button.btn.btn-success.btn-lg.col-xs-12:hover{
+	color: #ffffff;
+  background-color: #000000;
+}
+
+h3.modal-title {
+    font-size: 36px;
+    line-height: 35px;
+    letter-spacing: .11px;
+    font-weight: 700;
+}
