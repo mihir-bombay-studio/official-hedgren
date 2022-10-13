@@ -461,6 +461,8 @@
   $('.variants img').click(function() {
     $(this).closest('.variants').find('img').removeClass('hedgren-color-active').addClass('hedgren-color-inactive');
     $(this).addClass('hedgren-color-active').removeClass('hedgren-color-inactive');
+    var color_name = $(this).parent().attr('title');
+    console.log(color_name);
     var current = $(this);
     $.ajax({
       url: $(this).parent().data('url')+'.js',
