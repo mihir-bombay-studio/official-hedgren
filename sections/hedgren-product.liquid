@@ -74,6 +74,7 @@
         {% if product.available %}
         <div class="add-to-cart" data-variant="{{ product.selected_or_first_available_variant.id }}">{% if product.available %}{{ "products.product.add_to_cart" | t | upcase }}{% else %}Coming Soon{% endif %} {% include 'icon-plus-black' %}</div>
         {% else %}
+          <span class="coming-soon-text">Coming soon</span>
         <a class="klaviyo-bis-trigger notify-button" href="#">Notify Me</a>
           {% endif %}
         <style>
@@ -431,6 +432,18 @@
            "id":"less",
            "default":"SHOW LESS IMAGES",
            "label":"Less text"
+        },
+        {
+          "type": "text",
+          "id": "coming_soon_text",
+          "label": "Coming Soon Text",
+          "default": "Coming Soon Text"
+        },
+        {
+          "type": "text",
+          "id": "notify_me_text",
+          "label": "Notify Me Text",
+          "default": "Notify Me"
         }
 	],
 	"presets": [
