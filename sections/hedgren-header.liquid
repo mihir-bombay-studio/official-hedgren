@@ -305,7 +305,7 @@
 
   <div class="header-drawer no-d">
     <div class="mobile-menu-item-wrap">
-      <a href="/collections/all" class="drawer-menu-item-with-img">
+      <a href="{{ section.settings.mob_drawer_button_url }}" class="drawer-menu-item-with-img">
         <div class="drawer-menu-item-img"><img src="{{ section.settings.mob_drawer_button_img | image_url }}" loading="lazy"></div>
         <div class="drawer-menu-item-img-text">{{ section.settings.mob_drawer_button_text }} <span class="link-arows">{% include "svg-arrow-white-small" %}{% include "svg-arrow-white-small" %}</span></div>
       </a>
