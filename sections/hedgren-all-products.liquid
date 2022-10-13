@@ -266,7 +266,7 @@
             <div class="hero-row">
               <div class="hero-col">
                 <span class="product-font product-title">
-                  {{ product.title | truncatewords: 1, "" }}
+                  {{ product.title | escape }}
                 </span>  
                 <span class="product-current-color">
                   {% include 'color-product-swatch-title' %}{% include 'color-product-swatch-title-2' %}
