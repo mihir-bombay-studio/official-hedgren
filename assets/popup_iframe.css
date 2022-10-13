@@ -1,4 +1,18 @@
-body{
-  scroll: smooth;
-  background-color:red;
+button.btn.btn-success.btn-lg.col-xs-12 {
+    padding: 15px 53px;
+    border: 2px solid;
+    border-radius: 23px;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing: 2.21px;
+    width: moz-fit-content;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    width: -moz-fit-content;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    width: 100%;
 }
