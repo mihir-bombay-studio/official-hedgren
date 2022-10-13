@@ -325,8 +325,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      drop_background_color: "#000",
      background_color: "#fff",
      text_color: "#222",
-     button_text_color: "#000",
-     button_background_color: "#fff",
+     button_text_color: "#fff",
+     button_background_color: "#439fdb",
      close_button_color: "#ccc",
      error_background_color: "#fcd6d7",
      error_text_color: "#C72E2F",
@@ -335,5 +335,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
   });
 </script>
+    <script>
+      frame.addEventListener("load", ev => {
+    const new_style_element = document.createElement("link");
+    new_style_element.textContent = ".my-class { display: none; }"
+    ev.target.contentDocument.head.appendChild(new_style_element);
+});
+    </script>
 </body>
 </html>
