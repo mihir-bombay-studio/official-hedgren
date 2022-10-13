@@ -267,15 +267,16 @@
               <div class="hero-col">
                 <span class="product-font product-title">
                   {{ product.title | truncatewords: 1, "" }}
-                </span>            
-                <span class="product-tag">
-                  {% comment %}
+                </span>  
+                <span class="product-current-color">
                   {% include 'color-product-swatch-title' %}{% include 'color-product-swatch-title-2' %}
-                  {% endcomment %}
+                </span>
+                {% comment %}
+                <span class="product-tag">
                   {% assign remove_word = product.title | truncatewords: 1, "" %}
                   {{ product.title | replace: remove_word,"" }}
-        
                 </span>
+                {% endcomment %}
               </div>
               <div class="hero-col">
                 <span class="product-font save-money">
