@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="add-to-cart" data-variant="{{ product.selected_or_first_available_variant.id }}">{% if product.available %}{{ "products.product.add_to_cart" | t | upcase }}{% else %}Coming Soon{% endif %} {% include 'icon-plus-black' %}</div>
-        {% unless product.available %}<a class="klaviyo-bis-trigger" href="#">Notify Me When Available</a>{% endunless %}
+        {% unless product.available %}<a class="klaviyo-bis-trigger notify-button" href="#">Notify Me When Available</a>{% endunless %}
         <style>
           .product-detail__trust-icons {
             display: flex;
