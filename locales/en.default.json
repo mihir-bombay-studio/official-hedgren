@@ -102,6 +102,7 @@
       "add_to_cart": "Add to cart",
       "description": "Description",
       "on_sale": "Sale",
+      "outlet": "Outlet",
       "trust": {
         "product_variants": "Product variants",
         "returns": "Free Returns",
