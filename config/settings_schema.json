@@ -1197,6 +1197,12 @@
         "id": "cabernet",
         "label": "Cabernet",
         "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "white",
+        "label": "White",
+        "info": "Add\/Replace image for Color Swatch"
       }
     ]
   },
