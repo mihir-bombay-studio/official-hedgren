@@ -65,14 +65,18 @@
           {% include "color-product-handles" %}
         </div>
         <div class="color-variant-wrap">
-          <div class="variant-title">{{ section.settings.forcolor }}</div>
+          <div class="variant-title">{{ section.settings.forcolor }} : {% include 'color-product-swatch-title' %}{% include 'color-product-swatch-title-2' %}</div>
           <div class="variants2 flex-box">
             {% include 'color-product-swatch' %}
             {% include 'color-product-swatch-2' %}
           </div>
         </div>
+        {% if product.available %}
         <div class="add-to-cart" data-variant="{{ product.selected_or_first_available_variant.id }}">{% if product.available %}{{ "products.product.add_to_cart" | t | upcase }}{% else %}Coming Soon{% endif %} {% include 'icon-plus-black' %}</div>
-        
+        {% else %}
+          <span class="coming-soon-text">{{ section.settings.coming_soon_text }}</span>
+        <a class="klaviyo-bis-trigger notify-button" href="#">{{ section.settings.notify_me_text }}</a>
+          {% endif %}
         <style>
           .product-detail__trust-icons {
             display: flex;
@@ -428,6 +432,18 @@
            "id":"less",
            "default":"SHOW LESS IMAGES",
            "label":"Less text"
+        },
+        {
+          "type": "text",
+          "id": "coming_soon_text",
+          "label": "Coming Soon Text",
+          "default": "Out of stock: Coming Soon"
+        },
+        {
+          "type": "text",
+          "id": "notify_me_text",
+          "label": "Notify Me Text",
+          "default": "Notify Me"
         }
 	],
 	"presets": [

@@ -368,7 +368,10 @@
           "mobilemenu2": "hedgren-mobile-2",
           "menu2": "hedgren-mobile",
           "show_search": true,
-          "enable_sticky_header": true
+          "enable_sticky_header": true,
+          "mob_drawer_button_img": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.webp",
+          "mob_drawer_button_text": "SHOP ALL",
+          "mob_drawer_button_link": ""
         }
       },
       "hedgren-cart-drawer": {
@@ -404,6 +407,12 @@
     "blocks": {
       "12793297677437526120": {
         "type": "shopify:\/\/apps\/content-translation\/blocks\/custom_translations\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }

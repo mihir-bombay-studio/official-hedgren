@@ -27,6 +27,20 @@
     "16381766261c7dbe21": {
       "type": "hedgren-all-products",
       "settings": {
+        "addtext": "ADD TO CART",
+        "outtext": "COMING SOON",
+        "moretext": "More info",
+        "filter_text": "FILTER",
+        "filter_text_apply": "APPLY FILTER",
+        "sort_text": "SORT",
+        "sort_text1": "Newest first",
+        "sort_text2": "Bestsellers",
+        "sort_text3": "Price, low - high",
+        "sort_text4": "Price, high - low",
+        "clear_text": "CLEAR ALL",
+        "outlet_text": "Outlet",
+        "sale_text": "Outlet",
+        "new_text": "New"
       }
     }
   },

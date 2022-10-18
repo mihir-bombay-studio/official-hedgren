@@ -1,0 +1,24 @@
+{% for meta in product.metafields.custom.color_name.value %}
+  {% assign meta_down = meta | downcase %}
+  <span class="meta-color-wrapper" title="{{ meta }}" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings[meta_down] | img_url: '' }}"> 
+      </span>
+  {% endfor %}
+
+{% comment %}
+{% if product.metafields.custom.color_name.value contains "Black" %}
+    <span class="meta-color-wrapper" title="Black" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.black | img_url: '' }}"> 
+      </span>
+     {% endif %}
+     {% if product.metafields.custom.color_name.value contains "Red" %}
+    <span class="meta-color-wrapper" title="Red" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.red | img_url: '' }}"> 
+      </span>
+     {% endif %}
+     {% if product.metafields.custom.color_name.value contains "Blue" %}
+    <span class="meta-color-wrapper" title="Blue" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.blue | img_url: '' }}"> 
+      </span>
+     {% endif %}
+     {% if product.metafields.custom.color_name.value contains "Green" %}
+    <span class="meta-color-wrapper" title="Green" data-url="{{ product.url }}"><img class="meta-color-swatch" src="{{ settings.green | img_url: '' }}"> 
+      </span>
+     {% endif %}
+     {% endcomment %}

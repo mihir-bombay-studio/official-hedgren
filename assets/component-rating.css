@@ -49,6 +49,23 @@
   margin: 0;
 }
 
+.prod-tag{
+    background-color: #000;
+    color: #fff;
+    padding: 6px 14px;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    width: moz-fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 16px;
+    bottom: unset;
+    left: 0;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+
 @media (forced-colors: active) {
   .rating {
     display: none;
