@@ -1,5 +1,5 @@
 /* Color custom properties */
-
+.bluebg {background-color:#0129a3!important;}
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
