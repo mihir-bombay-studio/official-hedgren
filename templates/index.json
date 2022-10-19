@@ -42,17 +42,24 @@
     "163757919167ffebdf": {
       "type": "hedgren-discover-collection",
       "blocks": {
+        "58abe3f2-e024-4693-8b01-a69ba1fa91e5": {
+          "type": "collect",
+          "settings": {
+            "coll": "commute",
+            "page": "shopify:\/\/collections\/commute"
+          }
+        },
+        "a0fc0cf1-9cac-4f41-aa22-dd78d94ddf23": {
+          "type": "collect",
+          "settings": {
+            "coll": "nova",
+            "page": "shopify:\/\/collections\/nova"
+          }
+        },
         "e7d8f46b-e25f-458b-86c8-02fc482a56c9": {
           "type": "collect",
           "settings": {
             "coll": "great-american-heritage",
-            "page": ""
-          }
-        },
-        "e43561e7-da9e-480d-b5e9-7eb9159e5849": {
-          "type": "collect",
-          "settings": {
-            "coll": "charm",
             "page": ""
           }
         },
@@ -62,36 +69,13 @@
             "coll": "cocoon",
             "page": ""
           }
-        },
-        "11fe1852-cfa0-44f8-a1ea-7434bbfe54ce": {
-          "type": "collect",
-          "settings": {
-            "coll": "aura",
-            "page": ""
-          }
-        },
-        "2de9460c-f8b0-4272-b16d-6289d9201057": {
-          "type": "collect",
-          "settings": {
-            "coll": "diamond-star",
-            "page": ""
-          }
-        },
-        "58abe3f2-e024-4693-8b01-a69ba1fa91e5": {
-          "type": "collect",
-          "settings": {
-            "coll": "",
-            "page": "shopify:\/\/collections\/commute"
-          }
         }
       },
       "block_order": [
+        "58abe3f2-e024-4693-8b01-a69ba1fa91e5",
+        "a0fc0cf1-9cac-4f41-aa22-dd78d94ddf23",
         "e7d8f46b-e25f-458b-86c8-02fc482a56c9",
-        "e43561e7-da9e-480d-b5e9-7eb9159e5849",
-        "f11c2d38-ceab-4e98-8eb1-c3a40d01d7c0",
-        "11fe1852-cfa0-44f8-a1ea-7434bbfe54ce",
-        "2de9460c-f8b0-4272-b16d-6289d9201057",
-        "58abe3f2-e024-4693-8b01-a69ba1fa91e5"
+        "f11c2d38-ceab-4e98-8eb1-c3a40d01d7c0"
       ],
       "settings": {
         "title_left": "1994",
