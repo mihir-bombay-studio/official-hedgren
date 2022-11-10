@@ -18,6 +18,12 @@
       },
       {
         "type": "image_picker",
+        "id": "canyon-rose",
+        "label": "Canyon Rose",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
         "id": "astro_print",
         "label": "Astro Print",
         "info": "Add\/Replace image for Color Swatch"
