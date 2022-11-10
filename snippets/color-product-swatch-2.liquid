@@ -2,6 +2,10 @@
     <span class="variant-color-wrapper" title="Apricot Brandy / Off White" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.apricot_brandy_off_white | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Apricot Brandy / Off White" %}<span class="variant-color-wrapper" title="Apricot Brandy / Off White" data-url="{% include 'removelist' %}-apricot-brandy-off"><img class="hedgren-color-inactive" src="{{ settings.apricot_brandy_off_white | img_url: '' }}"></span>
      {% endif %}
+     {% if product.tags contains "2.Color_Canyon Rose" and product.url contains "-canyon-rose" %}
+    <span class="variant-color-wrapper" title="Canyon Rose" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.canyon-rose | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Canyon Rose" %}<span class="variant-color-wrapper" title="Canyon Rose" data-url="{% include 'removelist' %}-canyon-rose"><img class="hedgren-color-inactive" src="{{ settings.canyon-rose | img_url: '' }}"></span>
+     {% endif %}   
     {% if product.tags contains "2.Color_Astro Print" and product.url contains "-astro-print" %}
     <span class="variant-color-wrapper" title="Astro Print" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.astro_print | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Astro Print" %}<span class="variant-color-wrapper" title="Astro Print" data-url="{% include 'removelist' %}-astro-print"><img class="hedgren-color-inactive" src="{{ settings.astro_print | img_url: '' }}"></span>
