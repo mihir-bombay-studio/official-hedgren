@@ -393,7 +393,7 @@
       "hedgren-footer": {
         "type": "hedgren-footer",
         "settings": {
-          "menu": "",
+          "menu": "hedgren-footer-1",
           "menu2": "",
           "menu3": "",
           "menu4": "",
