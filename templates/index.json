@@ -3,8 +3,8 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Black_friday_Bannner_2000_x_891_v2.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Black_friday_Bannner_1200_x_1200_v2.jpg",
+        "image": "shopify:\/\/shop_images\/hero.webp",
+        "imagemobile": "shopify:\/\/shop_images\/mobile_hero.webp",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
@@ -24,7 +24,6 @@
         "background": "dark-bg",
         "order": "order-normal",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_Stefanos_RESHOOT_37.jpg",
         "heading": "Hedgrenist",
         "subheading": "Stories",
         "content": "Our Hedgrenists know the world is full of opportunities and are eager to take them on. Expanding their comfort zone, one challenge at a time, is what keeps them going. Meet our urban adventures and find out how they stand their ground. Discover how Hedgren plays a role in keeping them level-headed.",
@@ -93,7 +92,6 @@
         "background": "normal-bg",
         "order": "order-normal",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
         "heading": "Become a hedgrenist",
         "subheading": "Loyalty pays off!  Loyalty rewards!",
         "content": "Let’s move together!\nWherever you’re headed, we’ve got your back. \nEnjoy our rewards, special offers, exclusive events \nand inside information on our wonderful products.",
@@ -114,7 +112,6 @@
         "background": "dark-bg",
         "order": "order-reversed",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/DSC_4303-zwedit.jpg",
         "heading": "How it started",
         "subheading": "",
         "content": "Never underestimate a Belgian brand on a mission. We’ve been around since 1993, and have always remained true to our purpose. Wherever you go, we’re right next to you. We’re your most faithful, reliable and eager companion.",
@@ -135,7 +132,6 @@
         "background": "dark-bg",
         "order": "order-normal",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
         "heading": "How it’s going",
         "subheading": "",
         "content": "We understand your needs evolve as your world changes. That is why we still design our collections to fit your plans. We know where you’re coming from and see where you’re headed. We happen to be facing the same direction.",
@@ -194,7 +190,6 @@
         "6cf8b202-3e6c-43f3-ad2f-dbd0cea7751d": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HNOV05_512_01_1.jpg",
             "rating": 4,
             "prod_title": "GALACTIC Shoulder Bag Tote",
             "testimonial_text": "Love this bag!! Great colour, enough space for all things required, even when going out with kids. A lot of pockets, waterproof (really important in Scotland) and very  light. I have 2 fancy lather bag - hate that they are very heavy. This doesn't make you feel that you have such a large bag. The second time I buy from Hedgren, and really love the brand.",
@@ -204,7 +199,6 @@
         "b06dd702-88f7-4053-be84-18fd17feed98": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HIC419_316_02_07_dffd614e-9570-4a20-9b8e-3359a6a95f3f.jpg",
             "rating": 5,
             "prod_title": "FAITH Crossover Safety Hook RFID",
             "testimonial_text": "Wonderful bag very easy and light to wear. What I was looking for!",
@@ -214,7 +208,6 @@
         "a7c89255-a3fc-40fd-80d6-adaa838902d1": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HIC112_155_08_07_a4c63c46-e998-4706-9a14-e1cd8a76e94e.jpg",
             "rating": 5,
             "prod_title": "LEONCE Small Vertical Crossover RFID",
             "testimonial_text": "I own this bag since 3 years and I use it everyday. It's like new, and it always looks fine, in every context - work, going for a walk, dancing. I love the compartments. I had a similar bigger Hedgren before which used for more than 10 years.",
@@ -224,7 +217,6 @@
         "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HIC11L_316_09_07_53cfb374-427a-456f-a65f-89d940b179ae.jpg",
             "rating": 4,
             "prod_title": "VOGUE L Backpack Large RFID",
             "testimonial_text": "An amazing high quality backpack I always buy Hedgren products as they are so well made.",
@@ -249,42 +241,36 @@
         "14fa8911-6ccb-4e9d-b672-7ae707c8c650": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.17.40.png",
             "link": "shopify:\/\/collections\/edge"
           }
         },
         "7bdeb531-b0e1-4ac7-b2b0-eb0fd05e0ac6": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.09.58.png",
             "link": "https:\/\/hedgren.com\/collections\/nova"
           }
         },
         "73772604-fe31-41d4-8414-499b8d7b4826": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
             "link": "https:\/\/hedgren.com\/collections\/inner-city"
           }
         },
         "103d4d2d-a896-4025-ac77-ea68951f399e": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.12.57.png",
             "link": "shopify:\/\/collections\/edge"
           }
         },
         "5010d499-7996-4c3c-9961-3b34b04958ae": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.11.36.png",
             "link": "shopify:\/\/collections\/charm"
           }
         },
         "e1e8d6f7-0ab6-4cb3-a8e7-e24d8597ec1b": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.11.13.png",
             "link": ""
           }
         }
@@ -308,7 +294,6 @@
         "353ec5bf-72f5-4eb2-99ea-07f09346e875": {
           "type": "img_over_img",
           "settings": {
-            "img_over_hero": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
             "over_sub_heading": "A BELGIAN BRAND BORN IN",
             "over_heading": "antwerp"
           }
@@ -318,7 +303,6 @@
         "353ec5bf-72f5-4eb2-99ea-07f09346e875"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png",
         "heading_left": "1994",
         "heading_main": "Hedgren",
         "heading_right": "2021",
@@ -332,7 +316,6 @@
         "background": "dark-bg",
         "order": "order-reversed",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
         "heading": "Our values",
         "subheading": "",
         "content": "Regardless of in-between distances, within our global network we will always be connected by the 6 values that lie embedded in our Hedgren DNA. And we will always be open to include everybody <br><br>who shares our values in our family circle. Therefore we look at people with an open mind. We respect their personality and personal style and we’re always ready to fulfil their desire to belong.",
@@ -365,7 +348,6 @@
         "background": "dark-bg",
         "order": "order-normal",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
         "heading": "Move",
         "subheading": "We want everybody to be free to move",
         "content": "It’s our mission to create essential bags and travel gear with smart functionality that helps you handle everyday adventures without compromising on your personality or freedom to move.<br><br> We promise that you will become part of an inclusive community that creates and embraces an endless portion of wanderlust.<br><br> We help you to get the most out of life by enabling your freedom of movement.",
@@ -384,7 +366,6 @@
       "type": "hedgren-half-hero",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
         "heading_main": "Get addicted!",
         "sub_heading": "SIGN UP - EARN - SPEND"
       }
@@ -399,7 +380,6 @@
             "background": "normal-bg",
             "order": "order-normal",
             "heading_color": "regular",
-            "image": "shopify:\/\/shop_images\/Image_2x_240149ee-58de-4020-bb28-3543808a432a.png",
             "heading": "Dieter",
             "subheading": "Creative entrepreneur",
             "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor",
@@ -414,7 +394,6 @@
             "background": "normal-bg",
             "order": "order-reversed",
             "heading_color": "regular",
-            "image": "shopify:\/\/shop_images\/Image_2x_96d15e0d-f319-4820-81a0-874f8fbcd915.png",
             "heading": "Image with text",
             "subheading": "Subheading",
             "content": "",
@@ -429,7 +408,6 @@
             "background": "normal-bg",
             "order": "order-normal",
             "heading_color": "regular",
-            "image": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
             "heading": "Image with text",
             "subheading": "Subheading",
             "content": "",
