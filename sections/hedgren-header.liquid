@@ -393,7 +393,7 @@
       
       <a href="#" onclick="return false;" title="{{ request.locale.name }}">LANGUAGE - {{ request.locale.name }}</a>
       
-        
+        {% comment %}
         {% unless routes.root_url == "/" %}
         {% assign pathx = request.path | replace: routes.root_url,'' %}
         {% else %}
@@ -413,6 +413,7 @@
         {% if request.locale.iso_code != "de" %}
         <a class="lang" id="de-m" href="/de-de/{{ pathx }}" title="Deutcha">Deutsch</a>
         {% endif %}
+        {% endcomment %}
       <script>
         console.log("{{request.path}}");
       </script>
