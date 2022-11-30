@@ -394,9 +394,9 @@
         "type": "hedgren-footer",
         "settings": {
           "menu": "hedgren-footer-1",
-          "menu2": "",
-          "menu3": "",
-          "menu4": "",
+          "menu2": "hedgren-footer-2",
+          "menu3": "hedgren-footer-3",
+          "menu4": "hedgren-footer-4",
           "sub2": "Subscribe to hedgren",
           "sub": "Subscribe"
         }
