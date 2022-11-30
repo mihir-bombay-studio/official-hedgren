@@ -372,7 +372,7 @@
           "enable_sticky_header": true,
           "mob_drawer_button_img": "shopify:\/\/shop_images\/hedgren_mobile_menu.webp",
           "mob_drawer_button_text": "SHOP ALL",
-          "mob_drawer_button_link": "shopify:\/\/collections\/all-products"
+          "mob_drawer_button_link": "shopify:\/\/collections\/all"
         }
       },
       "hedgren-cart-drawer": {
