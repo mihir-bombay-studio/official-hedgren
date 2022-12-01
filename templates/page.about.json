@@ -12,7 +12,7 @@
         "badb7be0-fb6a-4e11-af1e-eab37075785d": {
           "type": "img_over_img",
           "settings": {
-            "img_over_hero": "shopify:\/\/shop_images\/VLW8646.jpg",
+            "img_over_hero": "shopify:\/\/shop_images\/VLW8646_650x_63c57dcc-09cd-4581-a35a-1d8a6ca8288c.webp",
             "over_sub_heading": "A BELGIAN BRAND BORN IN",
             "over_heading": "antwerp"
           }
@@ -22,7 +22,7 @@
         "badb7be0-fb6a-4e11-af1e-eab37075785d"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Web.png",
+        "image": "shopify:\/\/shop_images\/Web_2000x_ff35130a-0003-4de5-8e19-4506ef8e3809.webp",
         "heading_left": "1993",
         "heading_main": "Hedgren",
         "heading_right": "2022",
@@ -35,11 +35,11 @@
         "background": "normal-bg",
         "order": "order-normal",
         "heading_color": "red",
-        "image": "shopify:\/\/shop_images\/Hedgrenist_Dieter_2020_3264_1_a8be051f-f14a-450e-ab7c-61a025e3dda4.jpg",
         "heading": "How it started",
         "subheading": "The name Hedgren was taken from Xavier Kegels’ beloved grandmother, Elisabeth Hedgren.",
         "content": "Her down-to-earth nature, open-minded spirit, and passion for intuitive design were passed on through Xavier’s DNA. They are what make Hedgren the brand it is today.",
         "button_label": "",
+        "custom_link": false,
         "button_link": "",
         "extra_txt": "",
         "margin_top": "normal-top",
@@ -55,11 +55,11 @@
         "background": "normal-bg",
         "order": "order-reversed",
         "heading_color": "red",
-        "image": "shopify:\/\/shop_images\/VLW7443.jpg",
         "heading": "Global family",
         "subheading": "We’re not just a global network, we’re a global family.",
         "content": "With 7 offices and a network of 3,000 points off sale in more than 50 countries, we have developed a solid global network. As an inclusive brand, we see this network and our partners as an extension of our family, sharing the same values, investing in collaborations and believing in the power of local knowledge and execution.",
         "button_label": "",
+        "custom_link": false,
         "button_link": "",
         "extra_txt": "",
         "margin_top": "normal-top",
@@ -75,11 +75,11 @@
         "background": "normal-bg",
         "order": "order-normal",
         "heading_color": "red",
-        "image": "shopify:\/\/shop_images\/Web_2.png",
         "heading": "7 offices worldwide",
         "subheading": "",
         "content": "+ 50 countries<br><br>\n3000 points of sales",
         "button_label": "Find a store near you",
+        "custom_link": false,
         "button_link": "shopify:\/\/pages\/store-locator",
         "extra_txt": "",
         "margin_top": "normal-top",
@@ -95,11 +95,11 @@
         "background": "dark-bg",
         "order": "order-reversed",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/Hedgren_Eshoe_2020_2238-32.jpg",
         "heading": "Our values",
         "subheading": "",
         "content": "Regardless of in-between distances, within our global network we will always be connected by the 6 values that lie embedded in our Hedgren DNA. And we will always be open to include everybody<br><br> who shares our values in our family circle. Therefore we look at people with an open mind. We respect their personality and personal style and we’re always ready to fulfil their desire to belong.",
         "button_label": "",
+        "custom_link": false,
         "button_link": "",
         "extra_txt": "",
         "margin_top": "normal-top",
@@ -125,11 +125,11 @@
         "background": "dark-bg",
         "order": "order-normal",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/Image_3x_a16c0b6e-481c-4927-8cb4-a10d83498ba3.png",
         "heading": "Move",
         "subheading": "We want everybody to be free to move",
         "content": "It’s our mission to create essential bags and travel gear with smart functionality that helps you handle everyday adventures without compromising on your personality or freedom to move.<br><br> We promise that you will become part of an inclusive community that creates and embraces an endless portion of wanderlust.<br><br> We help you to get the most out of life by enabling your freedom of movement.",
         "button_label": "",
+        "custom_link": false,
         "button_link": "",
         "extra_txt": "",
         "margin_top": "no-top",
@@ -145,11 +145,11 @@
         "background": "normal-bg",
         "order": "order-reversed",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/LUCID_HEDGREN_Sofie_06_8a956346-151d-455f-a864-d4dc79ff8f90.jpg",
         "heading": "Designed for",
         "subheading": "Designed for the true hedgrenist",
         "content": "Our consumers are not looking for the most… or the best… but what offers the most, or the best… for THEM.<br><br> What helps them get the most out of life without making compromises. Hedgren designs essential bags and travel gear to enable our consumers to realise the perfect balance between work and play.<br><br> The true Hedgrenist wants to use products that express their style every moment of the day, in every possible situation.",
         "button_label": "Read their stories",
+        "custom_link": false,
         "button_link": "",
         "extra_txt": "",
         "margin_top": "normal-top",
@@ -165,42 +165,36 @@
         "14fa8911-6ccb-4e9d-b672-7ae707c8c650": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.17.40.png",
             "link": "shopify:\/\/collections\/edge"
           }
         },
         "7bdeb531-b0e1-4ac7-b2b0-eb0fd05e0ac6": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.09.58.png",
             "link": ""
           }
         },
         "73772604-fe31-41d4-8414-499b8d7b4826": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
             "link": ""
           }
         },
         "103d4d2d-a896-4025-ac77-ea68951f399e": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.12.57.png",
             "link": "shopify:\/\/collections\/edge"
           }
         },
         "5010d499-7996-4c3c-9961-3b34b04958ae": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.11.36.png",
             "link": "shopify:\/\/collections\/charm"
           }
         },
         "e1e8d6f7-0ab6-4cb3-a8e7-e24d8597ec1b": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.11.13.png",
             "link": "shopify:\/\/collections\/lineo"
           }
         }
