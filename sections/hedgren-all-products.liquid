@@ -471,9 +471,9 @@
       dataType: "json"
     })
     .done(function( data ) {
-      current.closest('.hero-product').find('.money').text("€"+(data.price / 100).toFixed(2).replace(/\.?00+$/, ''));
+      current.closest('.hero-product').find('.money').text("$"+(data.price / 100).toFixed(2).replace(/\.?00+$/, ''));
       if(data.compare_at_price != null && data.compare_at_price != 0) {
-        current.closest('.hero-product').find('.save-money').text("€"+(data.compare_at_price / 100).toFixed(2).replace(/\.?00+$/, ''));
+        current.closest('.hero-product').find('.save-money').text("$"+(data.compare_at_price / 100).toFixed(2).replace(/\.?00+$/, ''));
       }
       current.closest('.hero-product').find('a').attr('href',data.url);   
       if(data.available) {
@@ -513,10 +513,10 @@
       })
       .done(function( response ) { 
           if(typeof response.data[index].price !== "undefined") {
-            current.closest('.hero-product').find('.product-font.money').text("€"+parseFloat(response.data[index].price).toFixed(2).replace(/\.?00+$/, ''));
+            current.closest('.hero-product').find('.product-font.money').text("$"+parseFloat(response.data[index].price).toFixed(2).replace(/\.?00+$/, ''));
           }
           if(typeof response.data[index].compare_at_price !== "undefined") {
-            current.closest('.hero-product').find('.product-font.save-money').text("€"+parseFloat(response.data[index].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
+            current.closest('.hero-product').find('.product-font.save-money').text("$"+parseFloat(response.data[index].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
           } 
           if(typeof response.data[index].variantId !== "undefined") {
             current.closest('.hero-product').find('.add-to-cart').data('variant',response.data[index].variantId);
@@ -676,10 +676,10 @@
 
     $('.hedgren-color-active').each(function(index, element){
       if(typeof response.data[index].price !== "undefined") {
-        $(this).closest('.hero-product').find('.product-font.money').text("€"+parseFloat(response.data[index].price).toFixed(2).replace(/\.?00+$/, ''));
+        $(this).closest('.hero-product').find('.product-font.money').text("$"+parseFloat(response.data[index].price).toFixed(2).replace(/\.?00+$/, ''));
       }
       if(typeof response.data[index].compare_at_price !== "undefined") {
-        $(this).closest('.hero-product').find('.product-font.save-money').text("€"+parseFloat(response.data[index].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
+        $(this).closest('.hero-product').find('.product-font.save-money').text("$"+parseFloat(response.data[index].compare_at_price).toFixed(2).replace(/\.?00+$/, ''));
       } 
       if(typeof response.data[index].variantId !== "undefined") {
         $(this).closest('.hero-product').find('.add-to-cart').data('variant',response.data[index].variantId);
