@@ -714,7 +714,7 @@
 <script>
   {% for hand in n_handles %}
     {% assign full_name = p_handle | append: hand %}  
-  {% if all_products[full_name].metafields.loox.num_reviews %}console.log(`{{all_products[full_name].metafields.loox.reviews}}`);
+  {% if all_products[full_name].metafields.loox.num_reviews %}console.log('review: '+`{{all_products[full_name].metafields.loox.reviews}}`);
       {% assign no_of_rev = no_of_rev | plus: all_products[full_name].metafields.loox.num_reviews %}
     {% endif %}
   {% endfor %}
