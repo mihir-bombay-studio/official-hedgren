@@ -3,18 +3,18 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cocoon_banner_2000_x_8912-no_logo.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Cocoon_banner_1200_x_1200-no_logo.jpg",
+        "image": "shopify:\/\/shop_images\/Libra_Parfum_banner_2000_x_891.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Libra_Parfum_banner_1200_x_1200.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/cocoon",
+        "headinglink": "shopify:\/\/pages\/perfume",
         "headinglinktext": "Shop now",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "cocoon",
+        "collection": "libra",
         "buttontext": "SHOP ALL PRODUCTS"
       }
     },
