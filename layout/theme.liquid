@@ -42,7 +42,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% render 'meta-tags' %}
     <script src="{{ 'jquery-3.6.0.min.js' | asset_url }}"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    {% comment %}
     <script src="https://conditional-redirect.spicegems.com/js/scripttags/hedgrenstore/static/country-redirect.js?shop=hedgrenstore"></script>
+    {% endcomment %}
     {{ content_for_header }}
 
     {%- liquid
