@@ -147,7 +147,7 @@
       <div class="filters filters-filter"><span class="fil">{{ section.settings.filter_text }}</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
 
         <div class="filters-dropdown">
-          <div class="filters-dropdown-wrap">
+          <div class="filters-dropdown-wrap xy">
                 {% assign split_filter = categoryp | split: "," %}
                 {% assign tags_filter = tagsp | split: "|" %}
                 {% for filter in split_filter %}
