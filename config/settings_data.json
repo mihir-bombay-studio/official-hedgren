@@ -393,7 +393,7 @@
       "hedgren-cart-drawer": {
         "type": "hedgren-cart-drawer",
         "settings": {
-          "upsell": "franc-l-3-zipper-pouch-large-rfid-black",
+          "upsell": "franc-m-3-zipper-pouch-medium-rfid-black",
           "fill_text": "Fill up your",
           "cart_text": "cart",
           "delete_text": "delete",
