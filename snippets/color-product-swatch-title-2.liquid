@@ -494,7 +494,7 @@
   </span>
  {% endif %}
 
-{% if product.tags contains "2.Color_Cedar Green" and product.url contains "-cedgr" %}
+{% if product.tags contains "2.Color_Cedar Green" and product.metafields.custom.actual_color_name == 'Cedar Green' %}
 <span class="variant-color-title" title="Cedar Green" data-url="{{ product.url }}"> Cedar Green
   </span>
  {% endif %}
