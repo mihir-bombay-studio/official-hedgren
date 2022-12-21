@@ -24,6 +24,96 @@
       },
       {
         "type": "image_picker",
+        "id": "stone-beige",
+        "label": "Stone Beige",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "celestial-berry",
+        "label": "Celestial Berry",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "opaline-lime",
+        "label": "Opaline Lime",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "summer-sky",
+        "label": "Summer Sky",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "navy-cosmos",
+        "label": "Navy Cosmos",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "terracotta",
+        "label": "Terracotta",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "sepia2",
+        "label": "Sepia",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "quilted-sage",
+        "label": "Quilted Sage",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "essence-rattan",
+        "label": "Essence Rattan",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "essence-dew",
+        "label": "Essence Dew",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blossom-print",
+        "label": "Blossom Print",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "fresh-lilac",
+        "label": "Fresh Lilac",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "spring-mix",
+        "label": "Spring Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cosmic-mix4",
+        "label": "Cosmic Mix IV",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "transparent",
+        "label": "Transparent",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
         "id": "astro_print",
         "label": "Astro Print",
         "info": "Add\/Replace image for Color Swatch"
