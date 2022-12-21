@@ -635,10 +635,7 @@
     <span class="variant-color-wrapper" title="Stylish Grey" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.stylishg | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Stylish Grey" %}<span class="variant-color-wrapper" title="Stylish Grey" data-url="{% include 'removelist' %}-stylishg"><img class="hedgren-color-inactive" src="{{ settings.stylishg | img_url: '' }}"></span>
      {% endif %}
-{% if product.tags contains "2.Color_Gradient Print" and product.url contains "-gradient" %}
-    <span class="variant-color-wrapper" title="Gradient Print" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.gradient | img_url: '' }}"> 
-      </span>{% elsif product.tags contains "2.Color_Gradient Print" %}<span class="variant-color-wrapper" title="Gradient Print" data-url="{% include 'removelist' %}-gradient"><img class="hedgren-color-inactive" src="{{ settings.gradient | img_url: '' }}"></span>
-     {% endif %}
+
 {% if product.tags contains "2.Color_White" and product.url contains "-white" %}
     <span class="variant-color-wrapper" title="White" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.white | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_White" %}<span class="variant-color-wrapper" title="White" data-url="{% include 'removelist' %}-white"><img class="hedgren-color-inactive" src="{{ settings.white | img_url: '' }}"></span>
