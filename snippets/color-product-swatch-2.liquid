@@ -631,6 +631,10 @@
     <span class="variant-color-wrapper" title="Cabernet" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.cabernet | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Cabernet" %}<span class="variant-color-wrapper" title="Cabernet" data-url="{% include 'removelist' %}-cabernet"><img class="hedgren-color-inactive" src="{{ settings.cabernet | img_url: '' }}"></span>
      {% endif %}
+     {% if product.tags contains "2.Color_Stylish Grey" and product.url contains "-stylishg" %}
+    <span class="variant-color-wrapper" title="Stylish Grey" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.stylishg | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Stylish Grey" %}<span class="variant-color-wrapper" title="Stylish Grey" data-url="{% include 'removelist' %}-stylishg"><img class="hedgren-color-inactive" src="{{ settings.stylishg | img_url: '' }}"></span>
+     {% endif %}
 
 {% if product.tags contains "2.Color_White" and product.url contains "-white" %}
     <span class="variant-color-wrapper" title="White" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.white | img_url: '' }}"> 
