@@ -642,8 +642,9 @@
     <span class="variant-color-wrapper" title="Multicolor" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.multicolor | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Multicolor" %}<span class="variant-color-wrapper" title="Multicolor" data-url="{% include 'removelist' %}-multicolor"><img class="hedgren-color-inactive" src="{{ settings.multicolor | img_url: '' }}"></span>
      {% endif %}  
-
+{% comment %}
 {% if product.tags contains "2.Color_Summer Sky" and product.url contains "-summer-sky" %}
     <span class="variant-color-wrapper" title="Summer Sky" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.summer-sky | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Summer Sky" %}<span class="variant-color-wrapper" title="Summer Sky" data-url="{% include 'removelist' %}-summer-sky"><img class="hedgren-color-inactive" src="{{ settings.summer-sky | img_url: '' }}"></span>
      {% endif %}
+     {% endcomment %}
