@@ -86,6 +86,16 @@
   </div>
   {% endif %}
   </div>
+
+  <div class="uk-shipping-popup">
+    <div class="uk-shipping-title-wrap">
+      <div class="uk-shipping-title">
+        {{ section.settings.uk_popup_title }}
+      </div>
+      <div class="uk-shipping-popup-close">{% include 'icon-close-new' %}</div>
+    </div>
+    <div class="uk-shipping-desc">{{ section.settings.uk_popup_text }}</div>
+  </div>
 <script>
   {% if cart.item_count == 0 %}
   $('#draw_cart').addClass('empty-c');
@@ -280,6 +290,10 @@
         $('.uk-shipping').addClass('no-disp');
       }
 }, "jsonp");
+  });
+
+  $('.uk-shipping span').click(function() {
+    
   });
 </script>
 
