@@ -191,7 +191,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "Secure Checkout",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         }
       },
