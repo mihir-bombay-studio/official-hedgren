@@ -143,8 +143,8 @@
             {% if block.type == 'icon' %}
               {% assign icon_exist = false %}
               {% for icon in product.metafields.custom.icons.value %}
-                {{ product.metafields.custom.icons.value }}<br>
-                {{ block.settings.icon_name }}<br>
+                Metafield-value: {{ product.metafields.custom.icons.value }}<br>
+                Block-icon-name: {{ block.settings.icon_name }}<br>
                 {% if product.metafields.custom.icons.value == block.settings.icon_name %}
                   {% assign icon_exist = true %}
                 {% endif %}
