@@ -342,6 +342,14 @@
 .cart-body.upsell-added {
   height: calc(100vh - 348px);
 }
+
+.uk-shipping {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
 @media (max-width: 992px) {
   .drawer-cart-header {
     position: relative;
