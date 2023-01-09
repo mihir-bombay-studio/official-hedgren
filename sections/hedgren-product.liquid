@@ -137,6 +137,18 @@
               <p>{{ "products.product.trust.checkout" | t }}</p>
             </figcaption>
           </figure>
+          {% for block in section.blocks %}
+            {% if block.type == 'icon' %}
+              <figure class="product-detail__trust-icon">
+                <div class="product-detail__trust-img" style="height: 22px;width: 22px;">
+                  {{ block.settings.icon }}
+                </div>
+                <figcaption class="product-detail__trust-caption rte">
+                  <p>{{ block.settings.icon_name }}</p>
+                </figcaption>
+              </figure>
+            {% endif %}
+          {% endfor %}
         </div>
         
         <div class="product-desc">{% if product.description contains '<!-- split -->' %}{% assign desc = product.description | split: '<!-- split -->' %}{{ desc[1] }}{% else %}{{ product.description }}{% endif %}</div>
