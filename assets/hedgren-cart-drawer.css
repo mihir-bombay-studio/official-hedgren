@@ -356,11 +356,19 @@
   cursor: pointer;
 }
 
+.uk-shipping-popup-bg{
+  background-color: #000;
+  position: fixed;
+    z-index: 11;
+  height: 100vh;
+  width: 100vw;
+}
+
 .uk-shipping-popup {
     background-color: #fff;
     padding: 40px 40px 20px;
     position: fixed;
-    z-index: 10;
+    z-index: 11;
     top: 300px;
     width: 450px;
     left: calc(50% - 225px);
