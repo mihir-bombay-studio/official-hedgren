@@ -74,8 +74,12 @@
         {% if product.available %}
         <div class="add-to-cart" data-variant="{{ product.selected_or_first_available_variant.id }}">{% if product.available %}{{ "products.product.add_to_cart" | t | upcase }}{% else %}Coming Soon{% endif %} {% include 'icon-plus-black' %}</div>
         {% else %}
+          {% if product.metafields.custom.product_will_be_continued %}
           <span class="coming-soon-text">{{ section.settings.coming_soon_text }}</span>
         <a class="klaviyo-bis-trigger notify-button" href="#">{{ section.settings.notify_me_text }}</a>
+          {% else %}
+            <span class="coming-soon-text">{{ section.settings.not_comingback_text }}</span>
+          {% endif %}
           {% endif %}
         <style>
           .product-detail__trust-icons {
@@ -468,6 +472,12 @@
           "id": "notify_me_text",
           "label": "Notify Me Text",
           "default": "Notify Me"
+        },
+        {
+          "type": "text",
+          "id": "not_comingback_text",
+          "label": "Not Coming Back Text",
+          "default": "This item will not get back in stock"
         }
 	],
     "blocks": [
