@@ -100,77 +100,77 @@
           "type": "icon",
           "settings": {
             "icon_name": "Water Repellent Coating",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "ff432024-88be-4a16-9dd5-c30dcb39bd80": {
           "type": "icon",
           "settings": {
             "icon_name": "Bottle Pocket",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "e0ecf946-d1f5-42c1-bbc8-70dcea787dbb": {
           "type": "icon",
           "settings": {
             "icon_name": "Organiser",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "aca7e740-2978-4123-bf57-938b2e129c12": {
           "type": "icon",
           "settings": {
             "icon_name": "RFID Pocket",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "86bbabc2-9a08-415b-b589-6cec077a807e": {
           "type": "icon",
           "settings": {
             "icon_name": "Computer",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "614a7f3d-8df6-43fc-847e-750ea5fb7583": {
           "type": "icon",
           "settings": {
             "icon_name": "A4 Size",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "5e1cf9ad-e649-45d4-ac66-5439f68b5009": {
           "type": "icon",
           "settings": {
             "icon_name": "TSA Lock",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "ce8cd7e0-8a8d-4eb1-bc29-ec22cf0dddbc": {
           "type": "icon",
           "settings": {
             "icon_name": "Carry on Luggage",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "40715f98-13be-41c8-88c7-702944a8b189": {
           "type": "icon",
           "settings": {
             "icon_name": "USB Patch Hole",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "50108395-9761-4f2d-a2a4-5761c7db571f": {
           "type": "icon",
           "settings": {
             "icon_name": "USB Exit Port",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "6ff06298-5011-43e2-ba4a-9e249d5b4145": {
           "type": "icon",
           "settings": {
             "icon_name": "Raincover",
-            "icon": ""
+            "icon": "<svg class=\"cc-icon\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\" style=\"width: 22px;height: 22px;\"><path d=\"M7.48 10.57v1.83a.5.5 0 001 0v-1.81a1.1 1.1 0 10-1-.02z\"><\/path>\n                <path d=\"M13.15 5.66h-2.08V3.79a3.7 3.7 0 00-.8-2.3C9.76.88 8.98.5 8 .5c-.98 0-1.76.37-2.29 1a3.7 3.7 0 00-.79 2.3v1.86H2.83a.5.5 0 00-.5.5V15c0 .28.23.5.5.5h10.32a.5.5 0 00.5-.5V6.16a.5.5 0 00-.5-.5zM5.9 3.92v-.08-.02c.03-.7.22-1.28.56-1.68.32-.39.81-.64 1.52-.64s1.2.26 1.52.64c.34.4.54.98.56 1.68v1.84H5.91V3.92zm6.74 10.58H3.33V6.66h9.32v7.84z\"><\/path><\/svg>"
           }
         },
         "6d961475-0a3e-4a5e-bb58-2addbe1c5cae": {
