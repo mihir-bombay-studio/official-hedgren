@@ -87,7 +87,7 @@
   {% endif %}
   </div>
 
-  <div class="uk-shipping-popup no-disp">
+  <div id="uk_shipping_popup" class="uk-shipping-popup no-disp">
     <div class="uk-shipping-title-wrap">
       <div class="uk-shipping-title">
         {{ section.settings.uk_popup_title }}
@@ -292,10 +292,20 @@
 }, "jsonp");
   });
 
+  var popup_open = false;
   $('.uk-shipping span').click(function() {
     $('.uk-shipping-popup').removeClass('no-disp');
+    popup_open = true;
   });
 
+  if(popup_open){
+    $("body").click(function(event) {
+        if (event.target.id != "picker") {
+            $("#picker").fadeOut();
+        }
+    });
+  }
+  
   $('.uk-shipping-popup-close').click(function() {
     $('.uk-shipping-popup').addClass('no-disp');
   });
