@@ -359,7 +359,8 @@
 .uk-shipping-popup {
     background-color: #fff;
     padding: 40px 40px 20px;
-    position: absolute;
+    position: fixed;
+    z-index: 10;
     top: 300px;
     width: 450px;
     left: calc(50% - 225px);
