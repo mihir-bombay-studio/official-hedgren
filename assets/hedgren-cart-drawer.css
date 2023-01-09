@@ -363,6 +363,7 @@
     top: 300px;
     width: 450px;
     left: calc(50% - 225px);
+  box-shadow: -10px 0 30px #00000026;
 }
 @media (max-width: 992px) {
   .drawer-cart-header {
