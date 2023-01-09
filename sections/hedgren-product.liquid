@@ -143,9 +143,9 @@
             {% if block.type == 'icon' %}
               {% assign icon_exist = false %}
               {% for icon in product.metafields.custom.icons.value %}
-                Metafield-value: {{ product.metafields.custom.icons.value }}<br>
+                Metafield-value: {{ icon }}<br>
                 Block-icon-name: {{ block.settings.icon_name }}<br>
-                {% if product.metafields.custom.icons.value == block.settings.icon_name %}
+                {% if icon == block.settings.icon_name %}
                   {% assign icon_exist = true %}
                 {% endif %}
               {% endfor %}
