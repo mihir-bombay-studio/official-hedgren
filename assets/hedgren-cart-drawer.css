@@ -358,12 +358,12 @@
 
 .uk-shipping-popup {
     background-color: #fff;
-    padding: 40px;
+    padding: 40px 40px 20px;
     position: absolute;
     top: 300px;
     width: 450px;
     left: calc(50% - 225px);
-  box-shadow: -10px 0 30px #00000026;
+    box-shadow: -10px 0 30px #00000026;
 }
 
 .uk-shipping-title {
