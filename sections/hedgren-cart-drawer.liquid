@@ -284,10 +284,8 @@
     $.get("https://ipinfo.io", function(response) {
     console.log(response.city, response.country);
       if(response.country == 'GB'){
-        console.log('england');
         $('.uk-shipping').removeClass('no-disp');
       } else {
-        console.log('not england');
         $('.uk-shipping').addClass('no-disp');
       }
 }, "jsonp");
