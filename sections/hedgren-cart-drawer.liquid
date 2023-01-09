@@ -87,7 +87,7 @@
   {% endif %}
   </div>
 
-  <div class="uk-shipping-popup-bg"></div>
+  <div class="uk-shipping-popup-bg no-disp"></div>
   <div id="uk_shipping_popup" class="uk-shipping-popup no-disp">
     <div class="uk-shipping-title-wrap">
       <div class="uk-shipping-title">
@@ -295,10 +295,12 @@
 
   $('.uk-shipping span').click(function() {
     $('.uk-shipping-popup').removeClass('no-disp');
+    $('.uk-shipping-popup-bg').removeClass('no-disp');
   });
   
   $('.uk-shipping-popup-close').click(function() {
     $('.uk-shipping-popup').addClass('no-disp');
+    $('.uk-shipping-popup-bg').addClass('no-disp');
   });
 </script>
 
