@@ -271,6 +271,11 @@
 
     $.get("https://ipinfo.io", function(response) {
     console.log(response.city, response.country);
+      if(response.country == 'GB'){
+        console.log('england');
+      } else {
+        console.log('not england');
+      }
 }, "jsonp");
   });
 </script>
