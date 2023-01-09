@@ -114,10 +114,10 @@
     </div>
     <div class="upper-nav-right"> 
       {% if shop.customer_accounts_optional or shop.customer_accounts_enabled %}
-      <a class="no-t-m" href="/account">{% if customer %}{{ "customer.account.title" | t }}{% else %}{{ "customer.login_page.sign_in" | t }}{% endif %}</a>
+      <a class="no-t-m" href="{{ routes.root_url }}account">{% if customer %}{{ "customer.account.title" | t }}{% else %}{{ "customer.login_page.sign_in" | t }}{% endif %}</a>
       {% endif %}
       {% if section.settings.show_search %}
-      <a href="/search" title="search" class='{{ routes.root_url }}'>
+      <a href="{{ routes.root_url }}search" title="search" class='{{ routes.root_url }}'>
         {% render "svg-search" %}
       </a>      
       {% endif %}
