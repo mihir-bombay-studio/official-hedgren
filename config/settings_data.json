@@ -402,7 +402,10 @@
           "shipping_text": "Shipping",
           "calc_text": "Calculated at checkout",
           "checkout_text": "CHECKOUT",
-          "continue_text": "Continue shopping"
+          "continue_text": "Continue shopping",
+          "uk_shipping_text": "Extra custom fees for shipping to UK. <span>More info<\/span>",
+          "uk_popup_title": "Extra custom fees for shipping to UK.",
+          "uk_popup_text": "There will be extra custom fees for shipping to UK."
         }
       },
       "hedgren-footer": {
