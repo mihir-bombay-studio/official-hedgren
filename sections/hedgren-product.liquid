@@ -141,6 +141,13 @@
           </figure>
           {% for block in section.blocks %}
             {% if block.type == 'icon' %}
+              {% assign icon_exist = false %}
+              {% for icon in product.metafields.custom.icons.value %}
+                {% if product.metafields.custom.icons.value == block.settings.icon_name %}
+                  {% assign icon_exist = true %}
+                {% endif %}
+              {% endfor %}
+              {% if icon_exist %}
               <figure class="product-detail__trust-icon">
                 <div class="product-detail__trust-img" style="height: 22px;width: 22px;">
                   {{ block.settings.icon }}
@@ -149,6 +156,7 @@
                   <p>{{ block.settings.icon_name }}</p>
                 </figcaption>
               </figure>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </div>
