@@ -441,3 +441,9 @@
     overflow:scroll;
   }
 }
+
+@media(max-width: 489px){
+  .uk-shipping-popup{
+    left: 20px;
+  }
+}
