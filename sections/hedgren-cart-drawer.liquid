@@ -79,6 +79,7 @@
         <div class="shipping-title">{{ section.settings.shipping_text }}</div>
         <div class="shipping-price">{{ section.settings.calc_text }}</div>
       </div>
+      <div class="uk-shipping no-disp">{{ section.settings.uk_shipping_text }}</div>
       <a href="{% if request.locale.root_url != "/" %}{{ request.locale.root_url }}{% endif %}/checkout" class="checkout-btn"><span class="secure-icon">{% render "svg-lock" %}</span> {{ section.settings.checkout_text }}</a>
       <a href="/collections/all" class="cont-shopping">{{ section.settings.continue_text }}</a>
     </div>
@@ -273,8 +274,10 @@
     console.log(response.city, response.country);
       if(response.country == 'GB'){
         console.log('england');
+        $('.uk-shipping').removeClass('no-disp');
       } else {
         console.log('not england');
+        $('.uk-shipping').addClass('no-disp');
       }
 }, "jsonp");
   });
