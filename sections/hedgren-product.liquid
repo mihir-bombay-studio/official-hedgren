@@ -156,7 +156,10 @@
               {% if icon_exist %}
               <figure class="product-detail__trust-icon">
                 <div class="product-detail__trust-img" style="height: 22px;width: 22px;">
+                {% comment %}
                   {{ block.settings.icon }}
+                {% endcomment %}
+                  <img src={{ block.settings.icon_img }} alt="{{ block.settings.icon_name }}"
                 </div>
                 <figcaption class="product-detail__trust-caption rte">
                   <p>{{ block.settings.icon_name }}</p>
@@ -491,8 +494,8 @@
             "label": "Icon Name"
           },
           {
-            "type": "html",
-            "id": "icon",
+            "type": "image_picker",
+            "id": "icon_img",
             "label": "Icon"
           }
         ]
