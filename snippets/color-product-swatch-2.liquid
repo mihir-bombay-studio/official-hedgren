@@ -50,10 +50,6 @@
     <span class="variant-color-wrapper" title="Blossom Print" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.blossom-print | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Blossom Print" %}<span class="variant-color-wrapper" title="Blossom Print" data-url="{% include 'removelist' %}-blossom-print"><img class="hedgren-color-inactive" src="{{ settings.blossom-print | img_url: '' }}"></span>
      {% endif %}
-     {% if product.tags contains "2.Color_Blossom Print" and product.url contains "-blossom-print" %}
-    <span class="variant-color-wrapper" title="Blossom Print" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.blossom-print | img_url: '' }}"> 
-      </span>{% elsif product.tags contains "2.Color_Blossom Print" %}<span class="variant-color-wrapper" title="Blossom Print" data-url="{% include 'removelist' %}-blossom-print"><img class="hedgren-color-inactive" src="{{ settings.blossom-print | img_url: '' }}"></span>
-     {% endif %}
      {% if product.tags contains "2.Color_Fresh Lilac" and product.url contains "-fresh-lilac" %}
     <span class="variant-color-wrapper" title="Fresh Lilac" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.fresh-lilac | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Fresh Lilac" %}<span class="variant-color-wrapper" title="Fresh Lilac" data-url="{% include 'removelist' %}-fresh-lilac"><img class="hedgren-color-inactive" src="{{ settings.fresh-lilac | img_url: '' }}"></span>
