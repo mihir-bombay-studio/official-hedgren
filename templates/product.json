@@ -106,79 +106,92 @@
         "ff432024-88be-4a16-9dd5-c30dcb39bd80": {
           "type": "icon",
           "settings": {
-            "icon_name": "Bottle Pocket"
+            "icon_name": "Bottle Pocket",
+            "icon_img": "shopify:\/\/shop_images\/Cosmic_Mix_IV_4b2c2a59-5bd7-4362-b021-5929ca29c2ac.jpg"
           }
         },
         "e0ecf946-d1f5-42c1-bbc8-70dcea787dbb": {
           "type": "icon",
           "settings": {
-            "icon_name": "Organiser"
+            "icon_name": "Organiser",
+            "icon_img": "shopify:\/\/shop_images\/Blossom_Print_7a2197cc-448a-4944-bef7-8a79f99ddd63.jpg"
           }
         },
         "aca7e740-2978-4123-bf57-938b2e129c12": {
           "type": "icon",
           "settings": {
-            "icon_name": "RFID Pocket"
+            "icon_name": "RFID Pocket",
+            "icon_img": "shopify:\/\/shop_images\/Spring_Mix.jpg"
           }
         },
         "86bbabc2-9a08-415b-b589-6cec077a807e": {
           "type": "icon",
           "settings": {
-            "icon_name": "Computer"
+            "icon_name": "Computer",
+            "icon_img": "shopify:\/\/shop_images\/Essence_Dew_1917e15f-ee13-449b-86c2-09bafc708343.jpg"
           }
         },
         "614a7f3d-8df6-43fc-847e-750ea5fb7583": {
           "type": "icon",
           "settings": {
-            "icon_name": "A4 Size"
+            "icon_name": "A4 Size",
+            "icon_img": "shopify:\/\/shop_images\/Essence_Rattan_e6f0f57a-c2c0-4e01-b8fa-267742d5397e.jpg"
           }
         },
         "5e1cf9ad-e649-45d4-ac66-5439f68b5009": {
           "type": "icon",
           "settings": {
-            "icon_name": "TSA Lock"
+            "icon_name": "TSA Lock",
+            "icon_img": "shopify:\/\/shop_images\/Canyon_Rose_f2e15553-6348-4f8f-9769-c6abc17a58ac.jpg"
           }
         },
         "ce8cd7e0-8a8d-4eb1-bc29-ec22cf0dddbc": {
           "type": "icon",
           "settings": {
-            "icon_name": "Carry on Luggage"
+            "icon_name": "Carry on Luggage",
+            "icon_img": "shopify:\/\/shop_images\/Quilted_Sage_e991e355-e4f7-4f21-a25f-3209eaade757.jpg"
           }
         },
         "40715f98-13be-41c8-88c7-702944a8b189": {
           "type": "icon",
           "settings": {
-            "icon_name": "USB Patch Hole"
+            "icon_name": "USB Patch Hole",
+            "icon_img": "shopify:\/\/shop_images\/Quilted_Sage_e991e355-e4f7-4f21-a25f-3209eaade757.jpg"
           }
         },
         "50108395-9761-4f2d-a2a4-5761c7db571f": {
           "type": "icon",
           "settings": {
-            "icon_name": "USB Exit Port"
+            "icon_name": "USB Exit Port",
+            "icon_img": "shopify:\/\/shop_images\/Quilted_Sage_e991e355-e4f7-4f21-a25f-3209eaade757.jpg"
           }
         },
         "6ff06298-5011-43e2-ba4a-9e249d5b4145": {
           "type": "icon",
           "settings": {
-            "icon_name": "Raincover"
+            "icon_name": "Raincover",
+            "icon_img": "shopify:\/\/shop_images\/Quilted_Sage_e991e355-e4f7-4f21-a25f-3209eaade757.jpg"
           }
         },
         "6d961475-0a3e-4a5e-bb58-2addbe1c5cae": {
           "type": "icon",
           "settings": {
-            "icon_name": "Free Returns"
+            "icon_name": "Free Returns",
+            "icon_img": "shopify:\/\/shop_images\/Quilted_Sage_e991e355-e4f7-4f21-a25f-3209eaade757.jpg"
           }
         },
         "021a32d8-9cde-45e0-9795-d326b947bc95": {
           "type": "icon",
           "settings": {
-            "icon_name": "2 Year Warranty"
+            "icon_name": "2 Year Warranty",
+            "icon_img": "shopify:\/\/shop_images\/Quilted_Sage_e991e355-e4f7-4f21-a25f-3209eaade757.jpg"
           }
         },
         "31842526-c84b-4d82-a7b2-81663e2a6570": {
           "type": "icon",
           "settings": {
-            "icon_name": "Secure Checkout"
+            "icon_name": "Secure Checkout",
+            "icon_img": "shopify:\/\/shop_images\/Quilted_Sage_e991e355-e4f7-4f21-a25f-3209eaade757.jpg"
           }
         }
       },
