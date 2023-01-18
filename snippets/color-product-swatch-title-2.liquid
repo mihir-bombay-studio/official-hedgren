@@ -120,6 +120,18 @@
 <span class="variant-color-title" title="Terracotta" data-url="{{ product.url }}"> Terracotta
   </span>
  {% endif %}
+ {% if product.tags contains "2.Color_Blossom Print" and product.url contains "-blossom-print" %}
+<span class="variant-color-title" title="Blossom Print" data-url="{{ product.url }}"> Blossom Print
+  </span>
+ {% endif %}
+  {% if product.tags contains "2.Color_Quilted Sage" and product.url contains "-quilted-sage" %}
+<span class="variant-color-title" title="Quilted Sage" data-url="{{ product.url }}"> Quilted Sage
+  </span>
+ {% endif %}
+  {% if product.tags contains "2.Color_Essence Rattan" and product.url contains "-essence-rattan" %}
+<span class="variant-color-title" title="Essence Rattan" data-url="{{ product.url }}"> Essence Rattan
+  </span>
+ {% endif %}
 {% if product.tags contains "2.Color_Dress Blue" and product.url contains "dressb" %}
 <span class="variant-color-title" title="Dress Blue" data-url="{{ product.url }}"> Dress Blue
   </span>
