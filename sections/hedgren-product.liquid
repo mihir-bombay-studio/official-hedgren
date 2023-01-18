@@ -159,7 +159,7 @@
                 {% comment %}
                   {{ block.settings.icon }}
                 {% endcomment %}
-                  <img src={{ block.settings.icon_img }} alt="{{ block.settings.icon_name }}"
+                  <img src={{ block.settings.icon_img | image_url }} alt="{{ block.settings.icon_name }}"
                 </div>
                 <figcaption class="product-detail__trust-caption rte">
                   <p>{{ block.settings.icon_name }}</p>
