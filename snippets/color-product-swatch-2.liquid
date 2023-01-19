@@ -6,6 +6,14 @@
     <span class="variant-color-wrapper" title="Creased Black" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased-black | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Creased Black" %}<span class="variant-color-wrapper" title="Creased Black" data-url="{% include 'removelist' %}-creased-black"><img class="hedgren-color-inactive" src="{{ settings.creased-black | img_url: '' }}"></span>
      {% endif %}
+     {% if product.tags contains "2.Color_Creased Strong Blue" and product.url contains "-creased-strong-blue" %}
+    <span class="variant-color-wrapper" title="Creased Strong Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased-strong-blue | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Creased Strong Blue" %}<span class="variant-color-wrapper" title="Creased Strong Blue" data-url="{% include 'removelist' %}-creased-strong-blue"><img class="hedgren-color-inactive" src="{{ settings.creased-strong-blue | img_url: '' }}"></span>
+     {% endif %}
+     {% if product.tags contains "2.Color_Creased Safari Beige" and product.url contains "-creased-safari-beige" %}
+    <span class="variant-color-wrapper" title="Creased Safari Beige" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased-safari-beige | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Creased Safari Beige" %}<span class="variant-color-wrapper" title="Creased Safari Beige" data-url="{% include 'removelist' %}-creased-safari-beige"><img class="hedgren-color-inactive" src="{{ settings.creased-safari-beige | img_url: '' }}"></span>
+     {% endif %}
      {% if product.tags contains "2.Color_Northern Green" and product.url contains "-northern-green" %}
     <span class="variant-color-wrapper" title="Northern Green" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.northern-green | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Northern Green" %}<span class="variant-color-wrapper" title="Northern Green" data-url="{% include 'removelist' %}-northern-green"><img class="hedgren-color-inactive" src="{{ settings.northern-green | img_url: '' }}"></span>
