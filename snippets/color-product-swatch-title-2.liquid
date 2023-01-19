@@ -26,6 +26,10 @@
 <span class="variant-color-title" title="Essence Dew" data-url="{{ product.url }}"> Essence Dew
   </span>
  {% endif %}
+  {% if product.tags contains "2.Color_Fresh Lilac" and product.url contains "-fresh-lilac" %}
+<span class="variant-color-title" title="Fresh Lilac" data-url="{{ product.url }}"> Fresh Lilac
+  </span>
+ {% endif %}
  {% if product.tags contains "2.Color_Citadel Blue" and product.url contains "-citadel" %}
 <span class="variant-color-title" title="Citadel Blue" data-url="{{ product.url }}"> Citadel Blue
   </span>
