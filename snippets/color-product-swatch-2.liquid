@@ -2,6 +2,10 @@
     <span class="variant-color-wrapper" title="Apricot Brandy / Off White" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.apricot_brandy_off_white | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Apricot Brandy / Off White" %}<span class="variant-color-wrapper" title="Apricot Brandy / Off White" data-url="{% include 'removelist' %}-apricot-brandy-off"><img class="hedgren-color-inactive" src="{{ settings.apricot_brandy_off_white | img_url: '' }}"></span>
      {% endif %}
+     {% if product.tags contains "2.Color_Northern Green" and product.url contains "-northern-green" %}
+    <span class="variant-color-wrapper" title="Northern Green" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.northern-green | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Northern Green" %}<span class="variant-color-wrapper" title="Northern Green" data-url="{% include 'removelist' %}-northern-green"><img class="hedgren-color-inactive" src="{{ settings.northern-green | img_url: '' }}"></span>
+     {% endif %}
      {% if product.tags contains "2.Color_Safari Beige" and product.url contains "-safari-beige" %}
     <span class="variant-color-wrapper" title="Safari Beige" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.safari-beige | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Safari Beige" %}<span class="variant-color-wrapper" title="Safari Beige" data-url="{% include 'removelist' %}-safari-beige"><img class="hedgren-color-inactive" src="{{ settings.safari-beige | img_url: '' }}"></span>
