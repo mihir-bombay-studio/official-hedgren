@@ -31,7 +31,6 @@
           "type": "features",
           "settings": {
             "name": "Charm Business",
-            "bag": "shopify:\/\/shop_images\/HCHMB02_003_01_04a.jpg",
             "feature_img1": "shopify:\/\/shop_images\/LOW_RES.jpg",
             "feature_heading1": "Water repellent coating",
             "feature_description1": "",
@@ -41,13 +40,12 @@
             "feature_img3": "shopify:\/\/shop_images\/HCHMB02_003_01_04e.jpg",
             "feature_heading3": "Key hook",
             "feature_description3": "",
-            "feature_img4": "shopify:\/\/shop_images\/HCHMB01M_131_01_4c.jpg",
+            "feature_img4": "shopify:\/\/shop_images\/HCHMB01M_131_01_4c.webp",
             "feature_heading4": "Light chrome or gold metal details",
             "feature_description4": "",
             "feature_img5": "shopify:\/\/shop_images\/HCHMB02_003_01_04f.jpg",
             "feature_heading5": "Split leather trims with detailed stitching",
             "feature_description5": "",
-            "feature_img6": "shopify:\/\/shop_images\/HEDGREN-119249.jpg",
             "feature_heading6": "",
             "feature_description6": ""
           }
@@ -57,7 +55,6 @@
         "411dc432-1cb7-4f96-bc4d-f31649016464"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
         "heading_left": "",
         "heading_right": "",
         "sub_heading": "",
@@ -141,7 +138,10 @@
         "title_left": "1994",
         "title_mid": "Discover our collections",
         "title_right": "2022",
-        "subtitle": "Our collections"
+        "subtitle": "Our collections",
+        "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
+        "discover_text": "DISCOVER COLLECTION",
+        "discover_shoptext": "SHOP COLLECTIONS"
       }
     }
   },
