@@ -180,17 +180,23 @@
           "type": "features",
           "settings": {
             "name": "ODYSSEY",
+            "bag": "shopify:\/\/shop_images\/7.webp",
             "feature_img1": "shopify:\/\/shop_images\/Web_580d7ae8-88e0-4544-932e-23bbb8d450dd.png",
             "feature_heading1": "Sustainable",
             "feature_description1": "The fabrics used are recycled. They are durable and do not compromise on quality. The main material is 100% recycled nylon with the same satin and deep colour rendering as our iconic fabric.<br>\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
+            "feature_img2": "shopify:\/\/shop_images\/HGAHR07_359_01_6_202b5789-74a0-44e3-8793-4b679687440a.jpg",
             "feature_heading2": "Roll the bag along on wheels",
             "feature_description2": "when the terrain is smooth or use the large, comfortable handles to carry it over rougher areas.",
+            "feature_img3": "shopify:\/\/shop_images\/HGAHR07_359_01_5.jpg",
             "feature_heading3": "Spacious main compartment",
             "feature_description3": "with wide opening\nthanks to the U-shape, including:\n- 2 large open pockets to store accessories,\n- a key chain made of a 3-tone rope\nand metal hook,\n- 1 zipped pocket.\"",
+            "feature_img4": "shopify:\/\/shop_images\/HGAHR07_359_01_4d.jpg",
             "feature_heading4": "Quick access to zipped side pockets",
             "feature_description4": "offering an extra security loop to\ninsert the puller after closing. Ideal\npocket to store the last minutes\nitems.\"",
+            "feature_img5": "shopify:\/\/shop_images\/HGAHR07_359_01_3.jpg",
             "feature_heading5": "Adjustable and removable shoulder",
             "feature_description5": "strap with metal hardware. Foamed\nshoulder pad for extra comfort.\"",
+            "feature_img6": "shopify:\/\/shop_images\/HGAHR07_359_01_4a.jpg",
             "feature_heading6": "Iconic, qualitative Hedgren branded hardware",
             "feature_description6": "puller,\nfront metal buckle, rope\nstopper.\""
           }
