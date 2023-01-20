@@ -31,6 +31,7 @@
           "type": "features",
           "settings": {
             "name": "Charm Business",
+            "bag": "shopify:\/\/shop_images\/HCHMB02_003_01_04a.jpg",
             "feature_img1": "shopify:\/\/shop_images\/LOW_RES.jpg",
             "feature_heading1": "Water repellent coating",
             "feature_description1": "",
