@@ -32,16 +32,22 @@
           "settings": {
             "name": "Lineo",
             "bag": "shopify:\/\/shop_images\/hlno01mex_250_01_1.jpg",
+            "feature_img1": "shopify:\/\/shop_images\/hlno01mex_250_01_3.jpg",
             "feature_heading1": "TSA lock",
             "feature_description1": "Using TSA approved locks allows your luggage to be unlocked and inspected by security authorities without damage.",
+            "feature_img2": "shopify:\/\/shop_images\/hlno01mex_250_01_2.jpg",
             "feature_heading2": "Durability",
             "feature_description2": "Lightweight durability thanks to the high-quality polycarbonate 100% Makrolon® ET3113. This highly impact-resistant material is strong, lightweight, flexible and stands up to the rigors of frequent travel.",
+            "feature_img3": "shopify:\/\/shop_images\/hlno01mex_250_01_8b.jpg",
             "feature_heading3": "Expandable zip",
             "feature_description3": "Bring back more with the extra packing capacity given by the expandable zip on our Medium and Large sizes.",
+            "feature_img4": "shopify:\/\/shop_images\/hlno01mex_250_01_7.jpg",
             "feature_heading4": "Tie Down Strap",
             "feature_description4": "The soft and adjustable tie down strap makes it easy to keep your clothes nicely in place. The strap is made of adjustable soft webbing, that doesn’t wrinkle clothes.",
+            "feature_img5": "shopify:\/\/shop_images\/hlno01mex_250_01_8.jpg",
             "feature_heading5": "Mesh divider",
             "feature_description5": "The trolleys are easy to expand to create more room. Say goodbye to any stress and enjoy your vacation to the fullest.",
+            "feature_img6": "shopify:\/\/shop_images\/hlno01mex_250_01_8d.jpg",
             "feature_heading6": "Twin wheels",
             "feature_description6": "Using 4 wheels, compared to 2 wheels, causes less weight on the arm and brings an unmatched driving experience, especially on smooth surfaces."
           }
