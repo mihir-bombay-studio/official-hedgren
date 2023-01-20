@@ -31,17 +31,23 @@
           "type": "features",
           "settings": {
             "name": "Cocoon",
+            "bag": "shopify:\/\/shop_images\/HCOCN03_003_01_1.webp",
             "feature_img1": "shopify:\/\/shop_images\/Untitled_design_8.jpg",
             "feature_heading1": "Water repellent coating",
             "feature_description1": "",
+            "feature_img2": "shopify:\/\/shop_images\/HEDGREN-119249.jpg",
             "feature_heading2": "Inner pocket with colour and material contrast",
             "feature_description2": "",
+            "feature_img3": "shopify:\/\/shop_images\/HCOCN02_003_01_4c.jpg",
             "feature_heading3": "Removable inner pouch",
             "feature_description3": "Except in the Snug.",
+            "feature_img4": "shopify:\/\/shop_images\/HCOCN03_003_01_1_d4a1bf97-95c1-471a-b568-9f10eeba8b0f.jpg",
             "feature_heading4": "Protected and comfort feeling",
             "feature_description4": "",
+            "feature_img5": "shopify:\/\/shop_images\/HCOCN02_003_01_4b.jpg",
             "feature_heading5": "Eyecatching decorative detail",
             "feature_description5": "",
+            "feature_img6": "shopify:\/\/shop_images\/Untitled_design_7.webp",
             "feature_heading6": "Key hook",
             "feature_description6": ""
           }
