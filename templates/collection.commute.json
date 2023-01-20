@@ -152,16 +152,22 @@
           "settings": {
             "name": "Rail",
             "bag": "shopify:\/\/shop_images\/5_a1a1dae6-fd5b-488a-9a83-9d255dc0ed77.png",
+            "feature_img1": "shopify:\/\/shop_images\/HCOM05-_7.jpg",
             "feature_heading1": "Side Straps",
             "feature_description1": "2 compression side straps which bring additional security",
+            "feature_img2": "shopify:\/\/shop_images\/HCOM05_003_01_4g.jpg",
             "feature_heading2": "Hidden Pocket",
             "feature_description2": "Hidden zipped pocket on the back panel",
+            "feature_img3": "shopify:\/\/shop_images\/HCOM04-_2_1.jpg",
             "feature_heading3": "Water Repellent",
             "feature_description3": "Water repellent coating",
+            "feature_img4": "shopify:\/\/shop_images\/HCOM03_163_01_4c.jpg",
             "feature_heading4": "Adjustable strap",
             "feature_description4": "Adjustable chest strap",
+            "feature_img5": "shopify:\/\/shop_images\/HCOM05_163_01_4h.jpg",
             "feature_heading5": "RFID pocket",
             "feature_description5": "RFID pocket",
+            "feature_img6": "shopify:\/\/shop_images\/HCOM05_163_01_4d.jpg",
             "feature_heading6": "Security hook",
             "feature_description6": "Security hook"
           }
