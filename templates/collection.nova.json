@@ -31,23 +31,22 @@
           "type": "features",
           "settings": {
             "name": "Next",
-            "bag": "shopify:\/\/shop_images\/HNOV01_512_01_3.jpg",
+            "bag": "shopify:\/\/shop_images\/HNOV01_512_01_3.webp",
             "feature_img1": "shopify:\/\/shop_images\/HCOM04-_2_1_0698b64f-6c1a-4502-b2f8-4a87769e7d0b.jpg",
             "feature_heading1": "Water & dust repellent coating",
             "feature_description1": "",
-            "feature_img2": "shopify:\/\/shop_images\/SOLAR_BOT.GREEN_keychain.jpg",
+            "feature_img2": "shopify:\/\/shop_images\/SOLAR_BOT.GREEN_keychain.webp",
             "feature_heading2": "Key Hook",
             "feature_description2": "",
-            "feature_img3": "shopify:\/\/shop_images\/HNOV01_512_01_3.jpg",
+            "feature_img3": "shopify:\/\/shop_images\/HNOV01_512_01_3.webp",
             "feature_heading3": "Coloured straps",
             "feature_description3": "",
-            "feature_img4": "shopify:\/\/shop_images\/HNOV03_512_01_6.jpg",
+            "feature_img4": "shopify:\/\/shop_images\/HNOV03_512_01_6.webp",
             "feature_heading4": "Lightweight bags",
             "feature_description4": "",
             "feature_img5": "shopify:\/\/shop_images\/HIC370_479_10_5.jpg",
             "feature_heading5": "",
             "feature_description5": "",
-            "feature_img6": "shopify:\/\/shop_images\/HNXT04_003_01_6.jpg",
             "feature_heading6": "",
             "feature_description6": ""
           }
@@ -57,7 +56,6 @@
         "411dc432-1cb7-4f96-bc4d-f31649016464"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
         "heading_left": "",
         "heading_right": "",
         "sub_heading": "",
@@ -141,7 +139,10 @@
         "title_left": "1994",
         "title_mid": "Discover our collections",
         "title_right": "2022",
-        "subtitle": "Our collections"
+        "subtitle": "Our collections",
+        "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
+        "discover_text": "DISCOVER COLLECTION",
+        "discover_shoptext": "SHOP COLLECTIONS"
       }
     }
   },
