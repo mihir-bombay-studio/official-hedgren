@@ -56,17 +56,23 @@
           "type": "features",
           "settings": {
             "name": "MAP",
+            "bag": "shopify:\/\/shop_images\/2.webp",
             "feature_img1": "shopify:\/\/shop_images\/Web_580d7ae8-88e0-4544-932e-23bbb8d450dd.png",
             "feature_heading1": "Sustainable",
             "feature_description1": "The fabrics used are recycled. They are durable and do not compromise on quality. The main material is 100% recycled nylon with the same satin and deep colour rendering as our iconic fabric.<br>\nA combined high-density polyester material is used at the bottom of the bags to give additional protection and resistance. This fabric is 100% recycled polyester (RPET), made from recycled plastic bottles.",
+            "feature_img2": "shopify:\/\/shop_images\/HGAHR05_540_01_4d.jpg",
             "feature_heading2": "An elastic security loop",
             "feature_description2": "",
+            "feature_img3": "shopify:\/\/shop_images\/HGAHR05_540_01_4c.jpg",
             "feature_heading3": "Includes an RFID protection pocket on the inside",
             "feature_description3": "",
+            "feature_img4": "shopify:\/\/shop_images\/HGAHR05_540_01_4b.jpg",
             "feature_heading4": "A flap drawstring pocket",
             "feature_description4": "",
+            "feature_img5": "shopify:\/\/shop_images\/HGAHR05_540_01_3.jpg",
             "feature_heading5": "Adjustable strap so it fits perfectly on every body",
             "feature_description5": "",
+            "feature_img6": "shopify:\/\/shop_images\/HGAHR05_540_01_5_74310637-919d-43c6-8480-067d0832e9aa.jpg",
             "feature_heading6": "The inside keeps everything organised",
             "feature_description6": "with a compartment for your phone and a hook for your key."
           }
