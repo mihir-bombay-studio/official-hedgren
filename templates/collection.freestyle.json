@@ -31,8 +31,8 @@
           "type": "features",
           "settings": {
             "name": "Freestyle",
-            "bag": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04d.jpg",
-            "feature_img1": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04d.jpg",
+            "bag": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04d.webp",
+            "feature_img1": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04d.webp",
             "feature_heading1": "100% Polycarbonate",
             "feature_description1": "Ultra-resistant and light. Polycarbonate is very popular material for hard luggage. It is light and durable. The material flexes to absorb the impact and then flexes back to its original shape, making polycarbonate luggage extremely resilient to rough handling.",
             "feature_img2": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04i.jpg",
@@ -41,7 +41,7 @@
             "feature_img3": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04a.jpg",
             "feature_heading3": "Double tube handle",
             "feature_description3": "The handle locks into two different positions. This ensures smooth manoeuvrability at all times. Using 4 wheels, compared to 2, causes less weight on the arm and brings an unmatched driving experience.",
-            "feature_img4": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04b.jpg",
+            "feature_img4": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04b.webp",
             "feature_heading4": "TSA lock",
             "feature_description4": "Using TSA approved locks allows your luggage to be unlocked and inspected by security authorities without damage.",
             "feature_img5": "shopify:\/\/shop_images\/HFRS01MEX_645_01_04c.jpg",
@@ -57,7 +57,6 @@
         "411dc432-1cb7-4f96-bc4d-f31649016464"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
         "heading_left": "",
         "heading_right": "",
         "sub_heading": "",
@@ -141,7 +140,10 @@
         "title_left": "1994",
         "title_mid": "Discover our collections",
         "title_right": "2022",
-        "subtitle": "Our collections"
+        "subtitle": "Our collections",
+        "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
+        "discover_text": "DISCOVER COLLECTION",
+        "discover_shoptext": "SHOP COLLECTIONS"
       }
     }
   },
