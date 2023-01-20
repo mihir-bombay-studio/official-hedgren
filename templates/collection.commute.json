@@ -202,16 +202,22 @@
           "settings": {
             "name": "Turtle",
             "bag": "shopify:\/\/shop_images\/7_0909fd5b-4d75-4c2c-98d1-771e0f86540d.png",
+            "feature_img1": "shopify:\/\/shop_images\/HEDGREN-120782.jpg",
             "feature_heading1": "Computer Pocket",
             "feature_description1": "15.6’’ computer pocket on the back panel closed by a puller with hook",
+            "feature_img2": "shopify:\/\/shop_images\/HCOM07_163_01_4h.jpg",
             "feature_heading2": "Deep pocket",
             "feature_description2": "1 deep zipped pocket at the bottom (laundry or shoes storage)",
+            "feature_img3": "shopify:\/\/shop_images\/HCOM07_003_01_5.webp",
             "feature_heading3": "Large storage",
             "feature_description3": "Large storage capacity",
+            "feature_img4": "shopify:\/\/shop_images\/HEDGREN-120791.jpg",
             "feature_heading4": "Organised",
             "feature_description4": "Easy access zipped pocket on the top including:\nRFID zipped pocket, multiple pockets and key chain",
+            "feature_img5": "shopify:\/\/shop_images\/HCOM07_003_01_4e.jpg",
             "feature_heading5": "Security Hook",
             "feature_description5": "security hook",
+            "feature_img6": "shopify:\/\/shop_images\/HCOM07_003_01_4b.jpg",
             "feature_heading6": "USB port",
             "feature_description6": "USB port"
           }
