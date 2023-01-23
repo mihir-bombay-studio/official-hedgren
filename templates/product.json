@@ -84,7 +84,7 @@
       "type": "product-recommendations",
       "disabled": true,
       "settings": {
-        "heading": "You may also like ",
+        "heading": "You may also like",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
