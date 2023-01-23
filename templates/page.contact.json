@@ -28,6 +28,7 @@
     },
     "163913561890838b7f": {
       "type": "hedgren-map",
+      "disabled": true,
       "settings": {
         "heading": "Find your store"
       }
