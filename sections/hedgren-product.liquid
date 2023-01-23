@@ -346,6 +346,7 @@
         method: "GET"
       })
       .done(function( data ) {
+        console.log(data);
         $('main').prepend(data['hedgren-product']);
         var acc = document.getElementsByClassName("product-usp-title");
         var i;
