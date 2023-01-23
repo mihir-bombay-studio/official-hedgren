@@ -339,6 +339,7 @@
   });
   
   $('body').on('click', '.product-wrap .variant-color-wrapper', function() {
+    var isUSP = 0;
     var url = $(this).data('url');
     if($(this).find('img').hasClass('hedgren-color-inactive')) {
       $.ajax({
@@ -346,9 +347,10 @@
         method: "GET"
       })
       .done(function( data ) {
-        var figures = document.createElement('div');
-        figures.classList.add('product-detail__trust-icons');
-        {% for block in section.blocks %}
+        if(isUSP == 0) {
+          var figures = document.createElement('div');
+          figures.classList.add('product-detail__trust-icons');
+          {% for block in section.blocks %}
             {% if block.type == 'icon' %}
               {% assign icon_exist = false %}
               {% for icon in product.metafields.custom.icons.value %}
@@ -366,6 +368,8 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          isUSP++;
+        }
         $('main').prepend(data['hedgren-product']);
         var divx = $('.product-wrap').find('.product-detail__trust-icons');
         $(divx).replaceWith(figures);
