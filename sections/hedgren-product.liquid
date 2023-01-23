@@ -340,6 +340,7 @@
   
   $('.product-wrap .variant-color-wrapper').click(function() {
     var url = $(this).data('url');
+    var usps = $('.product-detail__trust-icons');
     if($(this).find('img').hasClass('hedgren-color-inactive')) {
       $.ajax({
         url: $(this).data('url')+'/?sections=hedgren-product',
@@ -347,6 +348,9 @@
       })
       .done(function( data ) {
         $('main').prepend(data['hedgren-product']);
+        var divx = $('.product-wrap').first().find('.product-detail__trust-icons');
+        $(divx).replaceWith(usps);
+        
         var acc = document.getElementsByClassName("product-usp-title");
         var i;
 
