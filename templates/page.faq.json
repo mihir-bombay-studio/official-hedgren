@@ -64,14 +64,14 @@
         "86633901-b234-4660-a75c-3582922534b6": {
           "type": "faq",
           "settings": {
-            "question": "Delivery times?",
+            "question": "Delivery times",
             "answer": "We deliver within 7 business days in Australia provided receipt of payment is before 2 PM Australian Eastern Standard Time on NSW business days."
           }
         },
         "b8c4e5d2-b90c-44d9-a07f-fda24127364a": {
           "type": "faq",
           "settings": {
-            "question": "Is there a shipping charge for orders?",
+            "question": "Shipping Charges",
             "answer": "We offer FREE SHIPPING & RETURNS on all orders to residential addresses in Australia."
           }
         },
