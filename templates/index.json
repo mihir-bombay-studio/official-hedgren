@@ -15,7 +15,8 @@
         "outtext": "COMING SOON",
         "moretext": "More info",
         "collection": "cocoon",
-        "buttontext": "SHOP ALL PRODUCTS"
+        "buttontext": "SHOP ALL PRODUCTS",
+        "buttonurl": "shopify:\/\/collections\/all"
       }
     },
     "1638356576387ca461": {
