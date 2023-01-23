@@ -346,7 +346,8 @@
         method: "GET"
       })
       .done(function( data ) {
-        var figures = document.createElement('div').classList.add('product-detail__trust-icons');
+        var figures = document.createElement('div');
+        figures.classList.add('product-detail__trust-icons');
         {% for block in section.blocks %}
             {% if block.type == 'icon' %}
               {% assign icon_exist = false %}
