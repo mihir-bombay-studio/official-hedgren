@@ -349,10 +349,9 @@
       })
       .done(function( data ) {
         $('main').prepend(data['hedgren-product']);
-        var divx = $('.product-wrap:last-child').find('.product-detail__trust-icons');
+        var divx = $('.product-wrap').first().find('.product-detail__trust-icons');
         console.log(divx);
-        $(divx).append(usps);
-        // $(divx).find('.product-detail__trust-icons:first-child').remove();
+        $(divx).replaceWith(usps);
         
         var acc = document.getElementsByClassName("product-usp-title");
         var i;
