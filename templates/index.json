@@ -89,6 +89,7 @@
     },
     "1636701628c3f2b6f2": {
       "type": "hedgren-img-text",
+      "disabled": true,
       "settings": {
         "background": "normal-bg",
         "order": "order-normal",
@@ -135,7 +136,7 @@
         "background": "dark-bg",
         "order": "order-normal",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/Image_2x_800x_92967f3e-100a-48ea-a8e6-9567a5678144.webp",
+        "image": "shopify:\/\/shop_images\/homepage.png",
         "heading": "How it’s going",
         "subheading": "",
         "content": "We understand your needs evolve as your world changes. That is why we still design our collections to fit your plans. We know where you’re coming from and see where you’re headed. We happen to be facing the same direction.",
