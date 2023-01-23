@@ -341,7 +341,6 @@
   $('body').on('click', '.product-wrap .variant-color-wrapper', function() {
     var url = $(this).data('url');
     var usps = $('.product-detail__trust-icons');
-    console.log(usps);
     if($(this).find('img').hasClass('hedgren-color-inactive')) {
       $.ajax({
         url: $(this).data('url')+'/?sections=hedgren-product',
@@ -350,7 +349,6 @@
       .done(function( data ) {
         $('main').prepend(data['hedgren-product']);
         var divx = $('.product-wrap').first().find('.product-detail__trust-icons');
-        console.log(divx);
         $(divx).replaceWith(usps);
         
         var acc = document.getElementsByClassName("product-usp-title");
