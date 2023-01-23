@@ -112,6 +112,7 @@
         {%- endif -%}      
       </a>
     </div>
+    
     <div class="upper-nav-right"> 
       {% if shop.customer_accounts_optional or shop.customer_accounts_enabled %}
       <a class="no-t-m" href="{% unless routes.root_url == "/" %}{{ routes.root_url }}/account{% else %}/account{% endunless %}">{% if customer %}{{ "customer.account.title" | t }}{% else %}{{ "customer.login_page.sign_in" | t }}{% endif %}</a>
