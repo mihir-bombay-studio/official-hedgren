@@ -346,7 +346,7 @@
         method: "GET"
       })
       .done(function( data ) {
-        console.log(data['hedgren-product'].find('.product-detail__trust-icons'));
+        console.log(data['hedgren-product']);
         $('main').prepend(data['hedgren-product']);
         var acc = document.getElementsByClassName("product-usp-title");
         var i;
