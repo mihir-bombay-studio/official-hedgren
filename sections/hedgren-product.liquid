@@ -338,7 +338,7 @@
     });
   });
   
-  $('body').on('click', '.product-wrap .variant-color-wrapper', function() {
+  $('.product-wrap .variant-color-wrapper').click(function() {
     var url = $(this).data('url');
     var usps = $('.product-detail__trust-icons');
     if($(this).find('img').hasClass('hedgren-color-inactive')) {
