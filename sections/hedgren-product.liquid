@@ -346,10 +346,6 @@
         method: "GET"
       })
       .done(function( data ) {
-        var placeholder = document.createElement('div');
-        placeholder.innerHTML = data['hedgren-product'];
-        var divx = $(placeholder).find('.product-detail__trust-icons');
-        console.log(divx);
         $('main').prepend(data['hedgren-product']);
         var acc = document.getElementsByClassName("product-usp-title");
         var i;
