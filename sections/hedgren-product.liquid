@@ -368,7 +368,7 @@
           {% endfor %}
         $('main').prepend(data['hedgren-product']);
         var divx = $('.product-wrap').find('.product-detail__trust-icons');
-        $(divx).replaceWith(figures);
+        $(divx).replaceAll(figures);
         console.log(figures);
         var acc = document.getElementsByClassName("product-usp-title");
         var i;
