@@ -357,12 +357,7 @@
               {% endfor %}
               {% if icon_exist %}
                 var figure = document.createElement('figure').classList.add('product-detail__trust-icon');
-                figure.innerHTML = `<div class="product-detail__trust-img">
-                  <img src="`+{{ block.settings.icon_img | image_url }}+`" alt="`+{{ block.settings.icon_name }}+`" style="height: 40px; width: 40px;" title="`+{{ block.settings.icon_name }}+`">
-                </div>
-                <figcaption class="product-detail__trust-caption rte">
-                  <p>`+{{ block.settings.icon_name }}+`</p>
-                </figcaption>`;
+                figure.innerHTML = '<div class="product-detail__trust-img"><img src="'+{{ block.settings.icon_img | image_url }}+'" alt="'+{{ block.settings.icon_name }}+'" style="height: 40px; width: 40px;" title="'+{{ block.settings.icon_name }}+'"></div><figcaption class="product-detail__trust-caption rte"><p>'+{{ block.settings.icon_name }}+'</p></figcaption>';
                 $(figures).append(figure);
               {% endif %}
             {% endif %}
