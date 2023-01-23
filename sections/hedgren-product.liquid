@@ -338,7 +338,7 @@
     });
   });
   
-  $('.product-wrap .variant-color-wrapper').click(function() {
+  $('body').on('click', '.product-wrap .variant-color-wrapper', function() {
     var url = $(this).data('url');
     if($(this).find('img').hasClass('hedgren-color-inactive')) {
       $.ajax({
