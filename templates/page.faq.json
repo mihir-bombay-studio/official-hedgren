@@ -89,13 +89,6 @@
             "answer": "Any complaints regarding the state in which goods have been delivered must be made to Hedgren by contacting customer service using the contact form or alternatively you can give us a call no later than two working days upon receipt of the goods."
           }
         },
-        "994eb0fc-8cc9-4557-a062-5e26d5ba871e": {
-          "type": "faq",
-          "settings": {
-            "question": "How can I place an order?",
-            "answer": "To place an order select your desired item and add it to your shopping cart. If you are interested in buying one or more items, you can change the quantity and selection in the course of the buying process. Follow the instructions on the checkout page to complete your order. As soon as you confirm your order, an automated e-mail confirmation will be sent."
-          }
-        },
         "f40049b5-4740-48f1-a7fe-764bbc01d2c3": {
           "type": "faq",
           "settings": {
@@ -109,7 +102,6 @@
         "b8c4e5d2-b90c-44d9-a07f-fda24127364a",
         "33347926-6f4b-48dc-bf78-b4a5894de59a",
         "6a71d798-3d2c-4b9a-9808-c6c3000a7791",
-        "994eb0fc-8cc9-4557-a062-5e26d5ba871e",
         "f40049b5-4740-48f1-a7fe-764bbc01d2c3"
       ],
       "settings": {
