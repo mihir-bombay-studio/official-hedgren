@@ -125,10 +125,18 @@
         <a href="#">GET CONNECTED</a>
       </li>
       <li class="social-links">
+        {% if settings.social_facebook_link != blank %}
         <a href="{{ settings.social_facebook_link }}" target="_blank" title="facebook" rel="noopener noreferrer">{% render "svg-facebook" %}</a>
+        {% endif %}
+        {% if settings.social_instagram_link != blank %}
         <a href="{{ settings.social_instagram_link }}" target="_blank" title="Instagram" rel="noopener noreferrer">{% render "svg-instagram" %}</a>
+        {% endif %}
+        {% if settings.social_pinterest_link != blank %}
         <a href="{{ settings.social_pinterest_link }}" target="_blank" title="pinterest" rel="noopener noreferrer">{% render "svg-pinterest" %}</a>
+          {% endif %}
+          {% if settings.social_youtube_link != blank %}
         <a href="{{ settings.social_youtube_link }}" target="_blank" title="youtube" rel="noopener noreferrer">{% render "svg-youtube" %}</a>
+            {% endif %}
       </li>
     </ul>
   </div>
