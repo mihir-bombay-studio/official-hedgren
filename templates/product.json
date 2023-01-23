@@ -95,7 +95,129 @@
     },
     "163790218256dd6a24": {
       "type": "hedgren-product",
+      "blocks": {
+        "ad55d4f8-4dd4-468a-a907-83f8cab18413": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "Water Repellent Coating",
+            "icon_img": "shopify:\/\/shop_images\/water_repellent__grey.png"
+          }
+        },
+        "ff432024-88be-4a16-9dd5-c30dcb39bd80": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "Bottle Pocket",
+            "icon_img": "shopify:\/\/shop_images\/Bottle_Grey.png"
+          }
+        },
+        "e0ecf946-d1f5-42c1-bbc8-70dcea787dbb": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "Organiser",
+            "icon_img": "shopify:\/\/shop_images\/Organiser_Grey.png"
+          }
+        },
+        "aca7e740-2978-4123-bf57-938b2e129c12": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "RFID Pocket",
+            "icon_img": "shopify:\/\/shop_images\/RFID_Grey.png"
+          }
+        },
+        "86bbabc2-9a08-415b-b589-6cec077a807e": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "Computer",
+            "icon_img": "shopify:\/\/shop_images\/computer_Grey.png"
+          }
+        },
+        "614a7f3d-8df6-43fc-847e-750ea5fb7583": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "A4 Size",
+            "icon_img": "shopify:\/\/shop_images\/A4.png"
+          }
+        },
+        "5e1cf9ad-e649-45d4-ac66-5439f68b5009": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "TSA Lock",
+            "icon_img": "shopify:\/\/shop_images\/Lock.png"
+          }
+        },
+        "ce8cd7e0-8a8d-4eb1-bc29-ec22cf0dddbc": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "Carry on Luggage",
+            "icon_img": "shopify:\/\/shop_images\/Carry_on.png"
+          }
+        },
+        "40715f98-13be-41c8-88c7-702944a8b189": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "USB Patch Hole",
+            "icon_img": "shopify:\/\/shop_images\/USB_hole-Grey.png"
+          }
+        },
+        "50108395-9761-4f2d-a2a4-5761c7db571f": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "USB Exit Port",
+            "icon_img": "shopify:\/\/shop_images\/usb_grey.png"
+          }
+        },
+        "6ff06298-5011-43e2-ba4a-9e249d5b4145": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "Raincover",
+            "icon_img": "shopify:\/\/shop_images\/Raincover_Grey.png"
+          }
+        },
+        "6d961475-0a3e-4a5e-bb58-2addbe1c5cae": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "Free Returns",
+            "icon_img": "shopify:\/\/shop_images\/Free_Returns.jpg"
+          }
+        },
+        "021a32d8-9cde-45e0-9795-d326b947bc95": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "2 Year Warranty",
+            "icon_img": "shopify:\/\/shop_images\/2_Year_warranty_a8d31cb6-d0b7-4fc2-a6a9-473bbc0921bc.jpg"
+          }
+        },
+        "31842526-c84b-4d82-a7b2-81663e2a6570": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "Secure Checkout",
+            "icon_img": "shopify:\/\/shop_images\/Secure_Checkout.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "ad55d4f8-4dd4-468a-a907-83f8cab18413",
+        "ff432024-88be-4a16-9dd5-c30dcb39bd80",
+        "e0ecf946-d1f5-42c1-bbc8-70dcea787dbb",
+        "aca7e740-2978-4123-bf57-938b2e129c12",
+        "86bbabc2-9a08-415b-b589-6cec077a807e",
+        "614a7f3d-8df6-43fc-847e-750ea5fb7583",
+        "5e1cf9ad-e649-45d4-ac66-5439f68b5009",
+        "ce8cd7e0-8a8d-4eb1-bc29-ec22cf0dddbc",
+        "40715f98-13be-41c8-88c7-702944a8b189",
+        "50108395-9761-4f2d-a2a4-5761c7db571f",
+        "6ff06298-5011-43e2-ba4a-9e249d5b4145",
+        "6d961475-0a3e-4a5e-bb58-2addbe1c5cae",
+        "021a32d8-9cde-45e0-9795-d326b947bc95",
+        "31842526-c84b-4d82-a7b2-81663e2a6570"
+      ],
       "settings": {
+        "more": "LOAD MORE IMAGES",
+        "forcolor": "COLOUR",
+        "less": "SHOW LESS IMAGES",
+        "coming_soon_text": "Out of stock: Coming Soon",
+        "notify_me_text": "Notify Me",
+        "not_comingback_text": "Out of stock"
       }
     },
     "16391218459658d81d": {
@@ -160,21 +282,21 @@
           "type": "faq",
           "settings": {
             "question": "Where do you deliver?",
-            "answer": "Currently Hedgren delivers to customers who have an address in Albania, Austria, Belgium, Bosnia & Herzegovina, Croatia, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Italy, Ireland, Luxembourg, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, the Netherlands, Ukraine and United Kingdom."
+            "answer": "Currently Hedgren delivers to customers who have an address in Albania, Austria, Belgium, Bosnia &amp; Herzegovina, Croatia, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Italy, Ireland, Luxembourg, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, the Netherlands, Ukraine and United Kingdom."
           }
         },
         "f61268ed-7577-4fdb-914f-e7e55cc1f8d8": {
           "type": "faq",
           "settings": {
             "question": "Is there a shipping charge for orders?",
-            "answer": "We offer FREE SHIPPING on all orders to residential addresses in Austria, Belgium, Denmark, France mainland, Germany, Luxembourg and the Netherlands. Deliveries to residential addresses in Albania, Bosnia & Herzegovina, Croatia, Czech Republic, Estonia, Finland, Greece,  Hungary, Ireland, Italy, Latvia, Lithuania, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom and also the islands are subject to an actual calculated transport cost which is shown in the shipping method section of the checkout process.Please note that we have no control over custom matters\/import duties. Delivery to countries outside the European Union might involve additional custom costs."
+            "answer": "We offer FREE SHIPPING on all orders to residential addresses in Austria, Belgium, Denmark, France mainland, Germany, Luxembourg and the Netherlands. Deliveries to residential addresses in Albania, Bosnia &amp; Herzegovina, Croatia, Czech Republic, Estonia, Finland, Greece,  Hungary, Ireland, Italy, Latvia, Lithuania, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom and also the islands are subject to an actual calculated transport cost which is shown in the shipping method section of the checkout process.Please note that we have no control over custom matters\/import duties. Delivery to countries outside the European Union might involve additional custom costs."
           }
         },
         "4c8e3893-1f4c-4397-a920-09a339796bef": {
           "type": "faq",
           "settings": {
             "question": "When will I receive my order?",
-            "answer": "We deliver within 1 to 7 business days provided receipt of payment is before 12 AM Central European Time (i.e. Payment receipt before 12 AM on Monday and your order will arrive on Tuesday if the shipping address is located in Belgium. Any order after 12 AM with location Belgium on Monday will arrive on Wednesday).Albania: 5 to 6 business days; Austria: 2 business days; Belgium: 1 business day; Bosnia & Herzegovina: 5 to 6 business days; Croatia: 3 business days; Czech Republic: 2 business days; Denmark: 2 business days; Estonia: 4 to 5 business days; Finland: 3 to 5 business days; France: 1 to 2 business days; Germany: 1 to 2 business days; Greece: 4 business days; Hungary: 3 business days; Italy: 2 business days; Ireland: 3 business days; Latvia: 3 to 4 business days; Lithuania: 3 to 4 business days; Luxembourg: 1 business day; Macedonia: 4 to 5 business days; Norway: 3 to 5 business days; Poland: 2 business days; Portugal: 3 to 4 business days; Romania: 4 business days; Russia: 5 to 6 business days; Serbia: 3 business days; Slovakia: 3 business days; Slovenia: 2 business days; Spain: 3 to 5 business days; Sweden: 2 to 5 business days; Switzerland: 3 to 5 business days; the Netherlands: 1 business day; Ukraine: 4 to 5 business days; United Kingdom: Normally 3 to 4 business days, but due to customs clearance the release of the package might take up to 10 working days."
+            "answer": "We deliver within 1 to 7 business days provided receipt of payment is before 12 AM Central European Time (i.e. Payment receipt before 12 AM on Monday and your order will arrive on Tuesday if the shipping address is located in Belgium. Any order after 12 AM with location Belgium on Monday will arrive on Wednesday).Albania: 5 to 6 business days; Austria: 2 business days; Belgium: 1 business day; Bosnia &amp; Herzegovina: 5 to 6 business days; Croatia: 3 business days; Czech Republic: 2 business days; Denmark: 2 business days; Estonia: 4 to 5 business days; Finland: 3 to 5 business days; France: 1 to 2 business days; Germany: 1 to 2 business days; Greece: 4 business days; Hungary: 3 business days; Italy: 2 business days; Ireland: 3 business days; Latvia: 3 to 4 business days; Lithuania: 3 to 4 business days; Luxembourg: 1 business day; Macedonia: 4 to 5 business days; Norway: 3 to 5 business days; Poland: 2 business days; Portugal: 3 to 4 business days; Romania: 4 business days; Russia: 5 to 6 business days; Serbia: 3 business days; Slovakia: 3 business days; Slovenia: 2 business days; Spain: 3 to 5 business days; Sweden: 2 to 5 business days; Switzerland: 3 to 5 business days; the Netherlands: 1 business day; Ukraine: 4 to 5 business days; United Kingdom: Normally 3 to 4 business days, but due to customs clearance the release of the package might take up to 10 working days."
           }
         }
       },
@@ -198,7 +320,8 @@
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "buttontext": "SHOP ALL PRODUCTS"
+        "buttontext": "SHOP ALL PRODUCTS",
+        "what_text": "WHAT OTHER HEDGRENISTS THINK"
       }
     },
     "163791773478585842": {
@@ -215,6 +338,7 @@
           "settings": {
             "only_photos": false,
             "aggregated": false,
+            "limit": 20,
             "hide_thumbnails": false,
             "maxwidth": 1080
           }

@@ -79,11 +79,23 @@
         <div class="shipping-title">{{ section.settings.shipping_text }}</div>
         <div class="shipping-price">{{ section.settings.calc_text }}</div>
       </div>
+      <div class="uk-shipping no-disp">{{ section.settings.uk_shipping_text }}</div>
       <a href="{% if request.locale.root_url != "/" %}{{ request.locale.root_url }}{% endif %}/checkout" class="checkout-btn"><span class="secure-icon">{% render "svg-lock" %}</span> {{ section.settings.checkout_text }}</a>
       <a href="/collections/all" class="cont-shopping">{{ section.settings.continue_text }}</a>
     </div>
   </div>
   {% endif %}
+  </div>
+
+  <div class="uk-shipping-popup-bg no-disp"></div>
+  <div id="uk_shipping_popup" class="uk-shipping-popup no-disp">
+    <div class="uk-shipping-title-wrap">
+      <div class="uk-shipping-title">
+        {{ section.settings.uk_popup_title }}
+      </div>
+      <div class="uk-shipping-popup-close">{% include 'icon-close-new' %}</div>
+    </div>
+    <div class="uk-shipping-desc">{{ section.settings.uk_popup_text }}</div>
   </div>
 <script>
   {% if cart.item_count == 0 %}
@@ -269,6 +281,23 @@
     });
     {% endcomment %}
 
+    $.get("https://ipinfo.io", function(response) {
+      if(response.country == 'GB'){
+        $('.uk-shipping').removeClass('no-disp');
+      } else {
+        $('.uk-shipping').addClass('no-disp');
+      }
+}, "jsonp");
+  });
+
+  $('.uk-shipping span').click(function() {
+    $('.uk-shipping-popup').removeClass('no-disp');
+    $('.uk-shipping-popup-bg').removeClass('no-disp');
+  });
+  
+  $('.uk-shipping-popup-close, .uk-shipping-popup-bg').click(function() {
+    $('.uk-shipping-popup').addClass('no-disp');
+    $('.uk-shipping-popup-bg').addClass('no-disp');
   });
 </script>
 
@@ -335,6 +364,21 @@
           "id": "continue_text",
           "label": "Continue text",
           "default": "Continue shopping"
+        },
+        {
+          "type": "html",
+          "id": "uk_shipping_text",
+          "label": "UK Shipping Text"
+        },
+        {
+          "type": "text",
+          "id": "uk_popup_title",
+          "label": "UK Popup Title"
+        },
+        {
+          "type": "text",
+          "id": "uk_popup_text",
+          "label": "UK Popup Text"
         }
 	]
   }

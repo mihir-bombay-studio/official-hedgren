@@ -114,10 +114,10 @@
     </div>
     <div class="upper-nav-right"> 
       {% if shop.customer_accounts_optional or shop.customer_accounts_enabled %}
-      <a class="no-t-m" href="/account">{% if customer %}{{ "customer.account.title" | t }}{% else %}{{ "customer.login_page.sign_in" | t }}{% endif %}</a>
+      <a class="no-t-m" href="{% unless routes.root_url == "/" %}{{ routes.root_url }}/account{% else %}/account{% endunless %}">{% if customer %}{{ "customer.account.title" | t }}{% else %}{{ "customer.login_page.sign_in" | t }}{% endif %}</a>
       {% endif %}
       {% if section.settings.show_search %}
-      <a href="/search" title="search">
+      <a href="{% unless routes.root_url == "/" %}{{ routes.root_url }}/search{% else %}/search{% endunless %}" title="search" class='{{ routes.root_url }}'>
         {% render "svg-search" %}
       </a>      
       {% endif %}
@@ -239,7 +239,7 @@
                 {% assign colxn = all_products[handlesxn.last] %}
                 {% endif %}
                 <a href="{{ colxn.url }}">
-                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
+                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain; background-color: #f1f1f1;"{% endif %}>
                   <div class="nav-title">{{ colxn.title }}</div>
                 </a>
               </div>
