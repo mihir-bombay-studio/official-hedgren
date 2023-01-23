@@ -339,7 +339,6 @@
   });
   
   $('body').on('click', '.product-wrap .variant-color-wrapper', function() {
-    var isUSP = 0;
     var url = $(this).data('url');
     if($(this).find('img').hasClass('hedgren-color-inactive')) {
       $.ajax({
@@ -347,33 +346,11 @@
         method: "GET"
       })
       .done(function( data ) {
-        if(isUSP == 0) {
-          var figures = document.createElement('div');
-          figures.classList.add('product-detail__trust-icons');
-          {% for block in section.blocks %}
-            {% if block.type == 'icon' %}
-              {% assign icon_exist = false %}
-              {% for icon in product.metafields.custom.icons.value %}
-                {% if icon == block.settings.icon_name %}
-                  {% assign icon_exist = true %}
-                {% endif %}
-              {% endfor %}
-              {% if icon_exist %}
-                var figure = document.createElement('div');
-                figure.classList.add('product-detail__trust-icon');
-                console.log("{{ block.settings.icon_img | img_url: "200x" }}");
-                figure.innerHTML = '<div class="product-detail__trust-img"><img src="{{ block.settings.icon_img | img_url: "200x" }}" alt="{{ block.settings.icon_name }}" style="height: 40px; width: 40px;" title="{{ block.settings.icon_name }}"></div><figcaption class="product-detail__trust-caption rte"><p>"{{ block.settings.icon_name }}"</p></figcaption>';
-                console.log(figure);
-                $(figures).append(figure);
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-          isUSP++;
-        }
+        var usps = $('.product-detail__trust-icons');
         $('main').prepend(data['hedgren-product']);
         var divx = $('.product-wrap').find('.product-detail__trust-icons');
-        $(divx).replaceWith(figures);
-        console.log(figures);
+        $(divx).replaceWith(usps);
+        
         var acc = document.getElementsByClassName("product-usp-title");
         var i;
 
