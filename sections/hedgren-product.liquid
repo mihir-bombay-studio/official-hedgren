@@ -347,7 +347,7 @@
       })
       .done(function( data ) {
         var placeholder = document.createElement('div');
-        placeholder.innerHTML = customerDNAJson['hedgren-product'];
+        placeholder.innerHTML = data['hedgren-product'];
         var divx = $(placeholder).find('.product-detail__trust-icons');
         console.log(divx);
         $('main').prepend(data['hedgren-product']);
