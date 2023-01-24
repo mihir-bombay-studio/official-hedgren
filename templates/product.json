@@ -177,28 +177,28 @@
           "type": "icon",
           "settings": {
             "icon_name": "Free Returns",
-            "icon_img": "shopify:\/\/shop_images\/Free_Returns.jpg"
+            "icon_img": "shopify:\/\/shop_images\/Free_returns.png"
           }
         },
         "021a32d8-9cde-45e0-9795-d326b947bc95": {
           "type": "icon",
           "settings": {
             "icon_name": "2 Year Warranty",
-            "icon_img": "shopify:\/\/shop_images\/2_Year_warranty_a8d31cb6-d0b7-4fc2-a6a9-473bbc0921bc.jpg"
+            "icon_img": "shopify:\/\/shop_images\/Warranty.png"
           }
         },
         "31842526-c84b-4d82-a7b2-81663e2a6570": {
           "type": "icon",
           "settings": {
             "icon_name": "Secure Checkout",
-            "icon_img": "shopify:\/\/shop_images\/Secure_Checkout.jpg"
+            "icon_img": "shopify:\/\/shop_images\/Secure_Checkout.png"
           }
         },
         "15bc9924-5948-4975-904d-359d58bda19a": {
           "type": "icon",
           "settings": {
             "icon_name": "5 year Warranty",
-            "icon_img": "shopify:\/\/shop_images\/2_Year_warranty_a8d31cb6-d0b7-4fc2-a6a9-473bbc0921bc.jpg"
+            "icon_img": "shopify:\/\/shop_images\/Warranty_2f788345-8fbe-4ae0-a125-3bd38862ed79.png"
           }
         }
       },
