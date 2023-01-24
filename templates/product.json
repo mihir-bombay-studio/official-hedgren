@@ -193,6 +193,13 @@
             "icon_name": "Secure Checkout",
             "icon_img": "shopify:\/\/shop_images\/Secure_Checkout.jpg"
           }
+        },
+        "15bc9924-5948-4975-904d-359d58bda19a": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "5 year Warranty",
+            "icon_img": "shopify:\/\/shop_images\/2_Year_warranty_a8d31cb6-d0b7-4fc2-a6a9-473bbc0921bc.jpg"
+          }
         }
       },
       "block_order": [
@@ -209,7 +216,8 @@
         "6ff06298-5011-43e2-ba4a-9e249d5b4145",
         "6d961475-0a3e-4a5e-bb58-2addbe1c5cae",
         "021a32d8-9cde-45e0-9795-d326b947bc95",
-        "31842526-c84b-4d82-a7b2-81663e2a6570"
+        "31842526-c84b-4d82-a7b2-81663e2a6570",
+        "15bc9924-5948-4975-904d-359d58bda19a"
       ],
       "settings": {
         "more": "LOAD MORE IMAGES",
