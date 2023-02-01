@@ -72,7 +72,7 @@
           "type": "faq",
           "settings": {
             "question": "Shipping Charges",
-            "answer": "We offer FREE SHIPPING & RETURNS on all orders to residential addresses in Australia."
+            "answer": "We offer FREE SHIPPING &amp; RETURNS on all orders to residential addresses in Australia."
           }
         },
         "33347926-6f4b-48dc-bf78-b4a5894de59a": {
@@ -143,10 +143,19 @@
             "question": "Our Warranty Service",
             "answer": "Hedgren provides a two-year warranty (5 years for hard-shell luggage) against material and manufacturing defects, which is valid from the date of purchase. If you find such a defect within the warranty period, bring the product to your local Hedgren dealer. Hedgren will repair or replace the product at its own discretion and free of charge. But don’t forget: for your warranty claim to be valid, you must be able to show a proof of purchase in the form of a warranty certificate. This will either have been filled in by the salesperson or accompanied by a receipt along with the date of purchase.\n<br><br>\nImportant: the warranty is limited to the purchase price of the product. So, it does not cover damage caused by any of the following: incorrect use, negligence, carelessness, scratches, tearing, exposure to extreme temperatures, solvents, acid or water, normal wear, damage by normal use or transportation damage (at airline companies for example).\n<br><br>\nIf the product is damaged due to one of those causes, you can of course still contact your Hedgren dealer. He will provide advice and offer to repair the product against the payment for such repair. Material and production defects found outside the warranty period can similarly be repaired against the payment for such repair (depending on the availability of the parts, that is).\n<br><br>\nNotice: repairs carried out by service centres which are not approved by Hedgren are not covered by this warranty!"
           }
+        },
+        "0367dadf-3c1d-49e8-92cb-6461559f190d": {
+          "type": "faq",
+          "disabled": true,
+          "settings": {
+            "question": "",
+            "answer": ""
+          }
         }
       },
       "block_order": [
-        "f52644d0-845f-4e9b-b953-59a3e4141b76"
+        "f52644d0-845f-4e9b-b953-59a3e4141b76",
+        "0367dadf-3c1d-49e8-92cb-6461559f190d"
       ],
       "settings": {
         "background": "normal-bg",
@@ -163,7 +172,7 @@
           "type": "faq",
           "settings": {
             "question": "Cleaning Your Hedgren Bag",
-            "answer": "Check out the following instructions, in case of emergency only.*\n\nClean the outside fabric with a slightly wet cloth. Do not bleach. Do not soak in water. Hang in a shady place. Avoid moistening the leather parts when cleaning.”\nWipe with a soft &amp; dry cloth. Do not use any chemical cleaners to care for the product.”\n\nPlease check the product details of your particular bag for more customized care instructions: www.wikihow.com\/Wash-a-Backpack\n\n* Emergencies may include, but are not limited to: coffee spills, luggage conveyer belt dust, cosmetics leaks, globetrotting wear-and-tear."
+            "answer": "To clean and maintain your Hedgren bag, please follow the below advice:<br>\n<ul>\n<li>Wipe clean any marks of the outside fabric with a slightly wet cloth or baby wipe. <\/li>\n<li>Do not bleach.<\/li>\n<li>Do not soak in water<\/li>\n<li>Avoid moistening the leather parts<\/li>\n<li>Hang in a shady place to dry<\/li>\n<li>In case of a deep stain, clean the fabric with a cloth or soft brush using water and neutral soap.<\/li>\n<li>Do not use hot water while washing, as the backing of materials will get damaged.<\/li>\n<li>Do not store your bags away for a long period of time. Fabrics and fibres can react to the environment and have an adverse reaction.<\/li>\n<\/ul>"
           }
         }
       },
