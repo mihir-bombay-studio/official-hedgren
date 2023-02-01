@@ -250,52 +250,52 @@
         "14fa8911-6ccb-4e9d-b672-7ae707c8c650": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.17.40_450x_4ba99cdb-367b-4e4b-af30-b9155276c737.webp",
-            "link": "shopify:\/\/collections\/edge"
+            "img": "shopify:\/\/shop_images\/26.png",
+            "link": "shopify:\/\/collections\/cocoon"
           }
         },
-        "7bdeb531-b0e1-4ac7-b2b0-eb0fd05e0ac6": {
+        "103d4d2d-a896-4025-ac77-ea68951f399e": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.09.58_450x_9c75044f-64f4-4885-b9be-c2fadd2cac08.webp",
-            "link": "https:\/\/hedgren.com\/collections\/nova"
+            "img": "shopify:\/\/shop_images\/Febr_Nova_22_2.png",
+            "link": "shopify:\/\/collections\/inner-city"
           }
         },
         "73772604-fe31-41d4-8414-499b8d7b4826": {
           "type": "imgs",
           "settings": {
             "img": "shopify:\/\/shop_images\/hedgren_mobile_menu.webp",
-            "link": "https:\/\/hedgren.com\/collections\/inner-city"
-          }
-        },
-        "103d4d2d-a896-4025-ac77-ea68951f399e": {
-          "type": "imgs",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.12.57_450x_1b9e3ab1-497c-4de7-8e41-89128380206f.webp",
-            "link": "shopify:\/\/collections\/edge"
+            "link": "shopify:\/\/collections\/nova"
           }
         },
         "5010d499-7996-4c3c-9961-3b34b04958ae": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.11.36_450x_49bce296-20ee-4f7e-bc71-b7462e074d52.webp",
-            "link": "shopify:\/\/collections\/charm"
+            "img": "shopify:\/\/shop_images\/Febr_Nova_17.png",
+            "link": "shopify:\/\/collections\/nova"
+          }
+        },
+        "7bdeb531-b0e1-4ac7-b2b0-eb0fd05e0ac6": {
+          "type": "imgs",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/next.png",
+            "link": ""
           }
         },
         "e1e8d6f7-0ab6-4cb3-a8e7-e24d8597ec1b": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.11.13_450x_23b577c0-e7cd-40a7-b4be-8aa9f55295cb.webp",
-            "link": ""
+            "img": "shopify:\/\/shop_images\/Libra_x_Laura_11.png",
+            "link": "shopify:\/\/collections\/libra"
           }
         }
       },
       "block_order": [
         "14fa8911-6ccb-4e9d-b672-7ae707c8c650",
-        "7bdeb531-b0e1-4ac7-b2b0-eb0fd05e0ac6",
-        "73772604-fe31-41d4-8414-499b8d7b4826",
         "103d4d2d-a896-4025-ac77-ea68951f399e",
+        "73772604-fe31-41d4-8414-499b8d7b4826",
         "5010d499-7996-4c3c-9961-3b34b04958ae",
+        "7bdeb531-b0e1-4ac7-b2b0-eb0fd05e0ac6",
         "e1e8d6f7-0ab6-4cb3-a8e7-e24d8597ec1b"
       ],
       "settings": {
