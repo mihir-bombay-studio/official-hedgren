@@ -86,7 +86,7 @@
           "type": "faq",
           "settings": {
             "question": "Customer services",
-            "answer": "Any complaints regarding the state in which goods have been delivered must be made to Hedgren by contacting customer service using the contact form or alternatively you can give us a call no later than two working days upon receipt of the goods."
+            "answer": "Any complaints regarding the state in which goods have been delivered must be made to Hedgren by contacting customer service using the <a href=\"url\">contact form<\/a> or alternatively you can give us a call no later than two working days upon receipt of the goods."
           }
         }
       },
