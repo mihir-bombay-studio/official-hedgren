@@ -202,6 +202,26 @@
             "author": "Pamela P."
           }
         },
+        "a7c89255-a3fc-40fd-80d6-adaa838902d1": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hitc05_003_01.jpg",
+            "rating": 5,
+            "prod_title": "SWING tote",
+            "testimonial_text": "Just what I needed. Spacious tote to take on holidays. Expansive space for hat, coat etc. Little spots for phone, glasses and wallet. Best of all it has a sleeve to slip over the handle of my wheelie bag - hands free bliss",
+            "author": "Robin Y."
+          }
+        },
+        "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hic11xl_003_01_07.jpg",
+            "rating": 4,
+            "prod_title": "VOGUE L Backpack Large RFID",
+            "testimonial_text": "An amazing high quality backpack I always buy Hedgren products as they are so well made.",
+            "author": "Katharine P."
+          }
+        },
         "b06dd702-88f7-4053-be84-18fd17feed98": {
           "type": "testimonial",
           "settings": {
@@ -211,33 +231,13 @@
             "testimonial_text": "I really love this bag, it's lightweight, compact yet has so much room and I love all the different compartments.",
             "author": "Ali N."
           }
-        },
-        "a7c89255-a3fc-40fd-80d6-adaa838902d1": {
-          "type": "testimonial",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/HIC112_155_08_07_350x_1ae15e0b-2b60-42ad-a1c4-a6a9c67a83e7.jpg",
-            "rating": 5,
-            "prod_title": "LEONCE Small Vertical Crossover RFID",
-            "testimonial_text": "I own this bag since 3 years and I use it everyday. It's like new, and it always looks fine, in every context - work, going for a walk, dancing. I love the compartments. I had a similar bigger Hedgren before which used for more than 10 years.",
-            "author": "Corinna"
-          }
-        },
-        "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae": {
-          "type": "testimonial",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/HIC11L_316_09_07_350x_3104a59a-cfd1-4d3e-be42-ab771852be60.jpg",
-            "rating": 4,
-            "prod_title": "VOGUE L Backpack Large RFID",
-            "testimonial_text": "An amazing high quality backpack I always buy Hedgren products as they are so well made.",
-            "author": "Katharine P."
-          }
         }
       },
       "block_order": [
         "6cf8b202-3e6c-43f3-ad2f-dbd0cea7751d",
-        "b06dd702-88f7-4053-be84-18fd17feed98",
         "a7c89255-a3fc-40fd-80d6-adaa838902d1",
-        "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae"
+        "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae",
+        "b06dd702-88f7-4053-be84-18fd17feed98"
       ],
       "settings": {
         "title": "Reviews",
