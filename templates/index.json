@@ -192,14 +192,14 @@
     "1637590678006e9bf8": {
       "type": "hedgren-testimonials",
       "blocks": {
-        "6cf8b202-3e6c-43f3-ad2f-dbd0cea7751d": {
+        "b2dddc8d-bebb-4e1d-b2e7-e49047a8ef65": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/hic370_003_09_07.jpg",
+            "img": "shopify:\/\/shop_images\/HNOV03_680_01_1.jpg",
             "rating": 4,
-            "prod_title": "ORVA crossover RFID",
-            "testimonial_text": "This is the best and most useful handbag I have ever used! It is lightweight, has just the right number of compartments which are all securely zipped, is waterproof and stylish.",
-            "author": "Pamela P."
+            "prod_title": "GRAVITY medium crossbody",
+            "testimonial_text": "Great lightweight bag with plenty of storage and what a fabulous colour",
+            "author": "Cate R."
           }
         },
         "a7c89255-a3fc-40fd-80d6-adaa838902d1": {
@@ -212,14 +212,14 @@
             "author": "Robin Y."
           }
         },
-        "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae": {
+        "6cf8b202-3e6c-43f3-ad2f-dbd0cea7751d": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/hic11xl_003_01_07.jpg",
+            "img": "shopify:\/\/shop_images\/HIC370_252_10_1.jpg",
             "rating": 4,
-            "prod_title": "VOGUE L Backpack Large RFID",
-            "testimonial_text": "An amazing high quality backpack I always buy Hedgren products as they are so well made.",
-            "author": "Katharine P."
+            "prod_title": "ORVA crossover RFID",
+            "testimonial_text": "This is the best and most useful handbag I have ever used! It is lightweight, has just the right number of compartments which are all securely zipped, is waterproof and stylish.",
+            "author": "Pamela P."
           }
         },
         "b06dd702-88f7-4053-be84-18fd17feed98": {
@@ -231,13 +231,24 @@
             "testimonial_text": "I really love this bag, it's lightweight, compact yet has so much room and I love all the different compartments.",
             "author": "Ali N."
           }
+        },
+        "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hic11xl_003_01_07.jpg",
+            "rating": 4,
+            "prod_title": "VOGUE L Backpack Large RFID",
+            "testimonial_text": "An amazing high quality backpack I always buy Hedgren products as they are so well made.",
+            "author": "Katharine P."
+          }
         }
       },
       "block_order": [
-        "6cf8b202-3e6c-43f3-ad2f-dbd0cea7751d",
+        "b2dddc8d-bebb-4e1d-b2e7-e49047a8ef65",
         "a7c89255-a3fc-40fd-80d6-adaa838902d1",
-        "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae",
-        "b06dd702-88f7-4053-be84-18fd17feed98"
+        "6cf8b202-3e6c-43f3-ad2f-dbd0cea7751d",
+        "b06dd702-88f7-4053-be84-18fd17feed98",
+        "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae"
       ],
       "settings": {
         "title": "Reviews",
