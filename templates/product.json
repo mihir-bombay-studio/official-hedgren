@@ -103,37 +103,47 @@
         "904cd6de-3041-42fd-840c-084496eac604": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HNOV05_512_01_1_350x_79bb6e08-c8a5-4aa1-a566-a0b9b50c525d.jpg",
+            "img": "shopify:\/\/shop_images\/HNOV03_680_01_1.jpg",
             "rating": 4,
-            "prod_title": "GALACTIC Shoulder Bag Tote",
-            "testimonial_text": "Love this bag!! Great colour, enough space for all things required, even when going out with kids. A lot of pockets, waterproof (really important in Scotland) and very light. I have 2 fancy lather bag - hate that they are very heavy. This doesn't make you feel that you have such a large bag. The second time I buy from Hedgren, and really love the brand.",
+            "prod_title": "GRAVITY medium crossbody",
+            "testimonial_text": "Great lightweight bag with plenty of storage and what a fabulous colour",
             "author": "Luminita M."
           }
         },
         "6da15cbe-ef07-43e4-b8c7-6899c13378b1": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HIC419_316_02_07_350x_12b022d5-9fb2-4e1d-87e7-f6d0d52a96fe.jpg",
+            "img": "shopify:\/\/shop_images\/hitc05_003_01.jpg",
             "rating": 5,
-            "prod_title": "FAITH Crossover Safety Hook RFID",
-            "testimonial_text": "Wonderful bag very easy and light to wear. What I was looking for!",
-            "author": "loredana c."
+            "prod_title": "SWING tote",
+            "testimonial_text": "Just what I needed. Spacious tote to take on holidays. Expansive space for hat, coat etc. Little spots for phone, glasses and wallet. Best of all it has a sleeve to slip over the handle of my wheelie bag - hands free bliss",
+            "author": "Robin Y."
           }
         },
         "0a749d23-d061-4926-b252-8c8e95f62037": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HIC112_155_08_07_350x_1ae15e0b-2b60-42ad-a1c4-a6a9c67a83e7.jpg",
+            "img": "shopify:\/\/shop_images\/HIC370_252_10_1.jpg",
             "rating": 4,
-            "prod_title": "LEONCE Small Vertical Crossover RFID",
-            "testimonial_text": "I own this bag since 3 years and I use it everyday. It's like new, and it always looks fine, in every context - work, going for a walk, dancing. I love the compartments. I had a similar bigger Hedgren before which used for more than 10 years.",
-            "author": "Corinna"
+            "prod_title": "ORVA crossover RFID",
+            "testimonial_text": "This is the best and most useful handbag I have ever used! It is lightweight, has just the right number of compartments which are all securely zipped, is waterproof and stylish.",
+            "author": "Pamela P."
           }
         },
         "6b95d9aa-9051-4d27-bfee-13114fab575b": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HIC11L_316_09_07_350x_3104a59a-cfd1-4d3e-be42-ab771852be60.jpg",
+            "img": "shopify:\/\/shop_images\/HIC176_615_09_1.jpg",
+            "rating": 4,
+            "prod_title": "EYE quilted crossbody",
+            "testimonial_text": "I really love this bag, it's lightweight, compact yet has so much room and I love all the different compartments.",
+            "author": "Ali N."
+          }
+        },
+        "fce25e73-f11f-4d50-801d-aa5d68177c64": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hic11xl_003_01_07.jpg",
             "rating": 4,
             "prod_title": "VOGUE L Backpack Large RFID",
             "testimonial_text": "An amazing high quality backpack I always buy Hedgren products as they are so well made.",
@@ -145,7 +155,8 @@
         "904cd6de-3041-42fd-840c-084496eac604",
         "6da15cbe-ef07-43e4-b8c7-6899c13378b1",
         "0a749d23-d061-4926-b252-8c8e95f62037",
-        "6b95d9aa-9051-4d27-bfee-13114fab575b"
+        "6b95d9aa-9051-4d27-bfee-13114fab575b",
+        "fce25e73-f11f-4d50-801d-aa5d68177c64"
       ],
       "settings": {
         "title": "Reviews",
