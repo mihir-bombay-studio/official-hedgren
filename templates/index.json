@@ -3,18 +3,18 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/hero.webp",
-        "imagemobile": "shopify:\/\/shop_images\/mobile_hero_57cec682-1aea-4369-a811-4d476435d6c7.png",
+        "image": "shopify:\/\/shop_images\/Nova_banner_valentine_2000_x_891.png",
+        "imagemobile": "shopify:\/\/shop_images\/Nova_banner_valentine_1200_x_1200.png",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/cocoon",
+        "headinglink": "shopify:\/\/collections\/nova",
         "headinglinktext": "Shop now",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "cocoon",
+        "collection": "nova",
         "buttontext": "SHOP ALL PRODUCTS"
       }
     },
@@ -36,7 +36,7 @@
         "margin_bottom": "normal-bottom",
         "padding_top": "p-half-top",
         "padding_bottom": "p-normal-bottom",
-        "bg_color": "#375d54"
+        "bg_color": "#994459"
       }
     },
     "163757919167ffebdf": {
