@@ -34,9 +34,9 @@
         "extra_txt": "",
         "margin_top": "no-top",
         "margin_bottom": "normal-bottom",
-        "padding_top": "p-half-top",
+        "padding_top": "p-normal-top",
         "padding_bottom": "p-normal-bottom",
-        "bg_color": "#994459"
+        "bg_color": "#121212"
       }
     },
     "163757919167ffebdf": {
