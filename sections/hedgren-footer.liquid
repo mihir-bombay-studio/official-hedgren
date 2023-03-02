@@ -4,7 +4,7 @@
 <div class="footer-wrapper">
 <footer>
   <div class="footer-newsletter">
-    <form id="email_signup" class="klaviyo_styling klaviyo_gdpr_embed_" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
+    <form id="email_signup" class="klaviyo_styling klaviyo_gdpr_embed_{{ section.settings.klaviyo__list_id }}" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
       
       <h3>
         {{ section.settings.sub2 }}
@@ -14,7 +14,7 @@
         <div id="f-error" class="error_message form-error text-center note" style="display:none;">Incorrecte Email</div>
       </div>
 
-      <input type="hidden" name="g" value="">
+      <input type="hidden" name="g" value="{{ section.settings.klaviyo__list_id }}">
       <input type="hidden" name="$fields" value="$consent">
       <input type="hidden" name="$list_fields" value="$consent">
       <div class="input-group">
@@ -167,6 +167,12 @@
   {
     "name": "Hedgren Footer",
     "settings": [
+      {
+        "type":"text",
+        "id":"klaviyo__list_id",
+        "label":"Klaviyo List ID",
+        "info":"Klaviyo List ID for newsletter. For find list ID in klaviyo. > [URL](https://help.klaviyo.com/hc/en-us/articles/115005078647-How-to-find-a-list-ID)"
+      }, 
       {
         "type": "link_list",
         "id": "menu",
