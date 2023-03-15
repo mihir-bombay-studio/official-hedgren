@@ -1305,6 +1305,18 @@
         "id": "multicolor",
         "label": "Multicolor",
         "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "pblack",
+        "label": "Pirate Black",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "zgrey",
+        "label": "Zen Grey",
+        "info": "Add\/Replace image for Color Swatch"
       }
     ]
   },
