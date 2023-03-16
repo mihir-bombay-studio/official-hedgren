@@ -638,13 +638,3 @@
     <span class="variant-color-wrapper" title="Multicolor" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.multicolor | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Multicolor" %}<span class="variant-color-wrapper" title="Multicolor" data-url="{% include 'removelist' %}-multicolor"><img class="hedgren-color-inactive" src="{{ settings.multicolor | img_url: '' }}"></span>
      {% endif %}  
-
-{% if product.tags contains "2.Color_Pirate Black" and product.url contains "-pblack" %}
-    <span class="variant-color-wrapper" title="Pirate Black" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.pblack | img_url: '' }}"> 
-      </span>{% elsif product.tags contains "2.Color_Pirate Black" %}<span class="variant-color-wrapper" title="Pirate Black" data-url="{% include 'removelist' %}-pblack"><img class="hedgren-color-inactive" src="{{ settings.pblack | img_url: '' }}"></span>
-     {% endif %}
-
-{% if product.tags contains "2.Color_Zen Grey" and product.url contains "-zgrey" %}
-    <span class="variant-color-wrapper" title="Zen Grey" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.pblack | img_url: '' }}"> 
-      </span>{% elsif product.tags contains "2.Color_Zen Grey" %}<span class="variant-color-wrapper" title="Zen Grey" data-url="{% include 'removelist' %}-zgrey"><img class="hedgren-color-inactive" src="{{ settings.zgrey | img_url: '' }}"></span>
-     {% endif %} 
