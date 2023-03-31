@@ -3,18 +3,18 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Libra_banner_1200_x_12003.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Libra_banner_2000_x_8913.jpg",
+        "image": "shopify:\/\/shop_images\/Lineo_Onak_banner_2000_x_8912.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Lineo_Onak_banner_1200_x_12002.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/libra",
+        "headinglink": "shopify:\/\/pages\/competition-lineo",
         "headinglinktext": "Shop now",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "libra",
+        "collection": "lineo",
         "buttontext": "SHOP ALL PRODUCTS",
         "buttonurl": "shopify:\/\/collections\/all"
       }
