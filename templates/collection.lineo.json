@@ -67,6 +67,41 @@
         "buttontext": "SHOP ALL PRODUCTS"
       }
     },
+    "95cb7e29-310a-426a-83a8-a7828ddf959b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15476827980029__95cb7e29-310a-426a-83a8-a7828ddf959b-16802639477e59ee77-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BUY A BAG AND WIN A KAYAK"
+          }
+        },
+        "template--15476827980029__95cb7e29-310a-426a-83a8-a7828ddf959b-16802639477e59ee77-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hedgren partnered up with Belgian brand ONAK to create the best outdoor experience!<\/p><p>The lightest and most compact origami boat in the world. An ONAK unfolds from box to boat in less than 5 minutes. The structure is sturdy and the design is optimized for maximum water fun. <\/p><p>All you have to do is buy a bag from our LINEO collection and you'll be in the running to win an ONAK KAYAK, worth 930 euros. You'll receive a voucher with more information and a unique code, together with your bag.<\/p>"
+          }
+        },
+        "template--15476827980029__95cb7e29-310a-426a-83a8-a7828ddf959b-16802639477e59ee77-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "ENTER YOUR CODE",
+            "button_link": "shopify:\/\/pages\/competition"
+          }
+        }
+      },
+      "block_order": [
+        "template--15476827980029__95cb7e29-310a-426a-83a8-a7828ddf959b-16802639477e59ee77-0",
+        "template--15476827980029__95cb7e29-310a-426a-83a8-a7828ddf959b-16802639477e59ee77-1",
+        "template--15476827980029__95cb7e29-310a-426a-83a8-a7828ddf959b-16802639477e59ee77-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ontwerp_zonder_titel.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
     "1637658320f19f8e7c": {
       "type": "hedgren-discover-collection",
       "blocks": {
@@ -141,7 +176,10 @@
         "title_left": "1994",
         "title_mid": "Discover our collections",
         "title_right": "2022",
-        "subtitle": "Our collections"
+        "subtitle": "Our collections",
+        "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
+        "discover_text": "DISCOVER COLLECTION",
+        "discover_shoptext": "SHOP COLLECTIONS"
       }
     }
   },
@@ -149,6 +187,7 @@
     "banner",
     "product-grid",
     "1637649148751d55cf",
+    "95cb7e29-310a-426a-83a8-a7828ddf959b",
     "1637658320f19f8e7c"
   ]
 }
