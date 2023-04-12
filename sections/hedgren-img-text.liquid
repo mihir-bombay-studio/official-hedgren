@@ -43,8 +43,8 @@
               width="{{ section.settings.image.width }}"
               height="{{ section.settings.image.height }}"
             >
-          {%- else -%}
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+<!--           {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }} -->
           {%- endif -%} 
       <div class="extra-text{% if section.settings.order == 'order-normal' %} txt-right{% endif %} no-t-m">{{ section.settings.extra_txt }}</div>
     </div>
