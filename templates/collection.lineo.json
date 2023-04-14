@@ -68,6 +68,26 @@
         "buttontext": "SHOP ALL PRODUCTS"
       }
     },
+    "522aae39-4c3f-42fa-914c-ec83b5a1598c": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "heading": "BUY A BAG WIN A KAYAK",
+        "subheading": "LEARN MORE",
+        "content": "<p>Hedgren partnered up with Belgian brand ONAK to create the best outdoor experience!<\/p><p>The lightest and most compact origami boat in the world. An ONAK unfolds from box to boat in less than 5 minutes. The structure is sturdy and the design is optimized for maximum water fun.<\/p><p>All you must do is buy a bag from our LINEO collection and you'll be in the running to win an ONAK KAYAK, worth 930 euros. You'll receive a voucher with more information and a unique code, together with your bag.<\/p>",
+        "button_label": "ENTER YOUR CODE",
+        "custom_link": false,
+        "button_link": "shopify:\/\/pages\/competition",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
     "1637658320f19f8e7c": {
       "type": "hedgren-discover-collection",
       "blocks": {
@@ -153,6 +173,7 @@
     "banner",
     "product-grid",
     "1637649148751d55cf",
+    "522aae39-4c3f-42fa-914c-ec83b5a1598c",
     "1637658320f19f8e7c"
   ]
 }
