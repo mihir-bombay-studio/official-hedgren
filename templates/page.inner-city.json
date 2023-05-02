@@ -197,32 +197,10 @@
         "discover_text": "DISCOVER COLLECTION",
         "discover_shoptext": "SHOP COLLECTIONS"
       }
-    },
-    "79d5762c-bee1-41c4-a198-98c62f5285af": {
-      "type": "hedgren-img-text",
-      "settings": {
-        "background": "normal-bg",
-        "order": "order-normal",
-        "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/Zonder_titel_540_x_540_px.jpg",
-        "heading": "Image with text",
-        "subheading": "Subheading",
-        "content": "<p>asdfasdf<\/p>",
-        "button_label": "Button label",
-        "custom_link": false,
-        "button_link": "",
-        "extra_txt": "",
-        "margin_top": "normal-top",
-        "margin_bottom": "normal-bottom",
-        "padding_top": "p-no-top",
-        "padding_bottom": "p-no-bottom",
-        "bg_color": ""
-      }
     }
   },
   "order": [
     "16389903857f4039a8",
-    "163899354782bb1c63",
-    "79d5762c-bee1-41c4-a198-98c62f5285af"
+    "163899354782bb1c63"
   ]
 }
