@@ -204,6 +204,7 @@
         "background": "normal-bg",
         "order": "order-normal",
         "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Zonder_titel_540_x_540_px.jpg",
         "heading": "Image with text",
         "subheading": "Subheading",
         "content": "<p>asdfasdf<\/p>",
