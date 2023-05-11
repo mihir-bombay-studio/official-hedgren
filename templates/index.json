@@ -3,18 +3,18 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Lineo_Onak_banner_2000_x_8912.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Lineo_Onak_banner_1200_x_12002.jpg",
+        "image": "shopify:\/\/shop_images\/custom_resized_64608b7c-5b06-42c3-b636-2e712916aac8.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Inner_city_mothers_banner_1200_x_12002_d1d0e34b-48dc-423a-8246-46db94d49ee9.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/lineo",
+        "headinglink": "shopify:\/\/collections\/inner-city",
         "headinglinktext": "Shop now",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "lineo",
+        "collection": "inner-city",
         "buttontext": "SHOP ALL PRODUCTS",
         "buttonurl": "shopify:\/\/collections\/all"
       }
