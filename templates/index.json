@@ -3,18 +3,18 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/30_Anniversary_2000_x_891_copy_bbef5b19-3f25-425a-a678-0b087c6f2634.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/30_Anniversary_banner_1200_x_1200.jpg",
+        "image": "shopify:\/\/shop_images\/Next_Fathersday_2000_x_8913.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Next_fathersday_1200_x_12003.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/inner-city",
+        "headinglink": "shopify:\/\/collections\/next-1",
         "headinglinktext": "Shop now",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "inner-city",
+        "collection": "next-1",
         "buttontext": "SHOP ALL PRODUCTS",
         "buttonurl": "shopify:\/\/collections\/all"
       }
