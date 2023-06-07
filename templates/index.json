@@ -3,18 +3,18 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Inner_city_mothers_banner_2000_x_891.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Inner_city_mothers_banner_1200_x_1200.jpg",
+        "image": "shopify:\/\/shop_images\/Libra_banner_2000_x_891_35377c30-15a9-454e-b33f-6f990afa1d37.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Libra_banner_1200_x_1200.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/inner-city",
+        "headinglink": "shopify:\/\/collections\/libra",
         "headinglinktext": "Shop now",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "inner-city",
+        "collection": "libra",
         "buttontext": "SHOP ALL PRODUCTS"
       }
     },
