@@ -721,6 +721,58 @@
 
   {% assign name_of_handles = name_of_handles | append: "-zgrey" | append: "|" %}
  {% endif %}
+
+{% if product.tags contains "2.Color_Creased Black" %}    
+{% assign name_of_handles = name_of_handles | append: "-creased-black" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_City Blue" %}    
+{% assign name_of_handles = name_of_handles | append: "-citbl" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_Creased Safari Beige" %}    
+{% assign name_of_handles = name_of_handles | append: "-creased-safari-beige" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_Creased Strong Blue" %}    
+{% assign name_of_handles = name_of_handles | append: "-creased-strong-blue" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_New Quilt Brandy Brown" %}    
+{% assign name_of_handles = name_of_handles | append: "-nq-brandy-brown" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_New Quilt Black" %}    
+{% assign name_of_handles = name_of_handles | append: "-nq-black" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_Northern Green" %}    
+{% assign name_of_handles = name_of_handles | append: "-northern-green" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_Strong Blue" %}    
+{% assign name_of_handles = name_of_handles | append: "-strong-blue" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_Strong Red" %}    
+{% assign name_of_handles = name_of_handles | append: "-strong-red" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_Safari Beige" %}    
+{% assign name_of_handles = name_of_handles | append: "-safari-beige" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_Cosmic Mix V" %}    
+{% assign name_of_handles = name_of_handles | append: "-cosmic-mix5" | append: "|" %}
+{% endif %}
+
+{% if product.tags contains "2.Color_Creased Mix " %}    
+{% assign name_of_handles = name_of_handles | append: "-creased-mix" | append: "|" %}
+{% endif %}
+
+
+
+
  
 {% assign name_of_handles = name_of_handles | split: "" | reverse | join: "" | remove_first: "|" | split: "" | reverse | join: "" %}
 {% assign n_handles = name_of_handles | split: "|" %}
