@@ -3,20 +3,20 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Next_Fathersday_2000_x_8913.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Next_fathersday_1200_x_12003.jpg",
+        "image": "shopify:\/\/shop_images\/Libra_Next_banner_2000_x_891.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Libra_Next_banner_1200_x_1200.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/next-1",
-        "headinglinktext": "Shop now",
+        "headinglink": "shopify:\/\/collections\/deal",
+        "headinglinktext": "SALE",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "next-1",
-        "buttontext": "SHOP ALL PRODUCTS",
-        "buttonurl": "shopify:\/\/collections\/all"
+        "collection": "libra",
+        "buttontext": "SALE",
+        "buttonurl": "shopify:\/\/collections\/deal"
       }
     },
     "1638356576387ca461": {
