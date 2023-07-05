@@ -638,17 +638,17 @@
       </span>{% elsif product.tags contains "2.Color_Multicolor" %}<span class="variant-color-wrapper" title="Multicolor" data-url="{% include 'removelist' %}-multicolor"><img class="hedgren-color-inactive" src="{{ settings.multicolor | img_url: '' }}"></span>
      {% endif %}
 
-{% if product.tags contains "2.Color_Creased Black" and product.url contains "-creased-black" %}
+{% if product.tags contains "2.Color_Creased Black" and product.url contains "creased-black" %}
  <span class="variant-color-wrapper" title="Creased Black" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased-black| img_url: '' }}"> 
 </span>{% elsif product.tags contains "2.Color_Creased Black" %}<span class="variant-color-wrapper" title="Creased Black" data-url="{% include 'removelist' %}-creased-black"><img class="hedgren-color-inactive" src="{{ settings.creased-black| img_url: '' }}"></span>
 {% endif %}
 
-{% if product.tags contains "2.Color_Creased Safari Beige" and product.url contains "-creased-safari-beige" %}
+{% if product.tags contains "2.Color_Creased Safari Beige" and product.url contains "creased-safari-beige" %}
  <span class="variant-color-wrapper" title="Creased Safari Beige" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased-safari-beige| img_url: '' }}"> 
 </span>{% elsif product.tags contains "2.Color_Creased Safari Beige" %}<span class="variant-color-wrapper" title="Creased Safari Beige" data-url="{% include 'removelist' %}-creased-safari-beige"><img class="hedgren-color-inactive" src="{{ settings.creased-safari-beige| img_url: '' }}"></span>
 {% endif %}
 
-{% if product.tags contains "2.Color_Creased Strong Blue" and product.url contains "-creased-strong-blue" %}
+{% if product.tags contains "2.Color_Creased Strong Blue" and product.url contains "creased-strong-blue" %}
  <span class="variant-color-wrapper" title="Creased Strong Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased-strong-blue| img_url: '' }}"> 
 </span>{% elsif product.tags contains "2.Color_Creased Strong Blue" %}<span class="variant-color-wrapper" title="Creased Strong Blue" data-url="{% include 'removelist' %}-creased-strong-blue"><img class="hedgren-color-inactive" src="{{ settings.creased-strong-blue| img_url: '' }}"></span>
 {% endif %}
