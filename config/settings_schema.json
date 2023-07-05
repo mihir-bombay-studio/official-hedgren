@@ -1320,7 +1320,7 @@
       },
       {
         "type": "image_picker",
-        "id": "creased_black",
+        "id": "creased-black",
         "label": "Creased Black",
         "info": "Add\/Replace image for Color Swatch"
       },
