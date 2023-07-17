@@ -70,6 +70,7 @@
     },
     "522aae39-4c3f-42fa-914c-ec83b5a1598c": {
       "type": "hedgren-img-text",
+      "disabled": true,
       "settings": {
         "background": "normal-bg",
         "order": "order-normal",
