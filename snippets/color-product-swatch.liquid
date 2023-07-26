@@ -354,12 +354,12 @@
 </span>{% elsif product.tags contains "2.Color_Safari Beige" %}<span class="variant-color-wrapper" title="Safari Beige" data-url="{% include 'removelist' %}-safari-beige"><img class="hedgren-color-inactive" src="{{ settings.safari-beige| img_url: '' }}"></span>
 {% endif %}
 
-{% if product.tags contains "2.Color_Strong Blue" and product.url contains "-strong-blue" %}
- <span class="variant-color-wrapper" title="Strong Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.strong-blue| img_url: '' }}"> 
-</span>{% elsif product.tags contains "2.Color_Strong Blue" %}<span class="variant-color-wrapper" title="Strong Blue" data-url="{% include 'removelist' %}-strong-blue"><img class="hedgren-color-inactive" src="{{ settings.strong-blue| img_url: '' }}"></span>
-{% endif %}
-
 {% if product.tags contains "2.Color_Cosmic Mix V" and product.url contains "-cosmic-mix5" %}
  <span class="variant-color-wrapper" title="Cosmic Mix V" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.cosmic-mix5| img_url: '' }}"> 
 </span>{% elsif product.tags contains "2.Color_Cosmic Mix V" %}<span class="variant-color-wrapper" title="Cosmic Mix V" data-url="{% include 'removelist' %}-cosmic-mix5"><img class="hedgren-color-inactive" src="{{ settings.cosmic-mix5| img_url: '' }}"></span>
+{% endif %}
+
+{% if product.tags contains "2.Color_Strong Blue" and product.url contains "-strong-blue" %}
+ <span class="variant-color-wrapper" title="Strong Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.strong-blue| img_url: '' }}"> 
+</span>{% elsif product.tags contains "2.Color_Strong Blue" %}<span class="variant-color-wrapper" title="Strong Blue" data-url="{% include 'removelist' %}-strong-blue"><img class="hedgren-color-inactive" src="{{ settings.strong_blue| img_url: '' }}"></span>
 {% endif %}
