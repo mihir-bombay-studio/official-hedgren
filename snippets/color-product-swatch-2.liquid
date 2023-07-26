@@ -637,7 +637,6 @@
     <span class="variant-color-wrapper" title="Multicolor" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.multicolor | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Multicolor" %}<span class="variant-color-wrapper" title="Multicolor" data-url="{% include 'removelist' %}-multicolor"><img class="hedgren-color-inactive" src="{{ settings.multicolor | img_url: '' }}"></span>
      {% endif %}
-
 {% if product.tags contains "2.Color_Beige Olive" and product.url contains "-beige-olive" %}
     <span class="variant-color-wrapper" title="Beige Olive" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.beige-olive | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Beige Olive" %}<span class="variant-color-wrapper" title="Beige Olive" data-url="{% include 'removelist' %}-beige-olive"><img class="hedgren-color-inactive" src="{{ settings.beige-olive | img_url: '' }}"></span>
