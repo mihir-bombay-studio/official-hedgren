@@ -1320,67 +1320,67 @@
       },
       {
         "type": "image_picker",
-        "id": "creased-black",
+        "id": "creased_black",
         "label": "Creased Black",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "creased-safari-beige",
+        "id": "creased_safari_beige",
         "label": "Creased Safari Beige",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "creased-strong-blue",
+        "id": "creased_strong_blue",
         "label": "Creased Strong Blue",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "nq-brandy-brown",
+        "id": "nq_brandy_brown",
         "label": "New Quilt Brandy Brown",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "nq-black",
+        "id": "nq_black",
         "label": "New Quilt Black",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "safari-beige",
+        "id": "safari_beige",
         "label": "Safari Beige",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "northern-green",
+        "id": "northern_green",
         "label": "Northern Green",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "strong-blue",
+        "id": "strong_blue",
         "label": "Strong Blue",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "strong-red",
+        "id": "strong_red",
         "label": "Strong Red",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "cosmic-mix5",
+        "id": "cosmic_mix5",
         "label": "Cosmic Mix V",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "creased-mix",
+        "id": "creased_mix",
         "label": "Creased Mix",
         "info": "Add\/Replace image for Color Swatch"
       }
