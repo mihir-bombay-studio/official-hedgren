@@ -259,7 +259,6 @@
     <span class="variant-color-wrapper" title="Misty Lavender" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.mlavender | img_url: '' }}">
       </span>{% elsif product.tags contains "2.Color_Misty Lavender" %}<span class="variant-color-wrapper" title="Misty Lavender" data-url="{% include 'removelist' %}-mlavender"><img class="hedgren-color-inactive" src="{{ settings.mlavender | img_url: '' }}"></span>
      {% endif %}
-
 {% if product.tags contains "2.Color_Vineyard Wine" and product.url contains "-vineyard" %}
     <span class="variant-color-wrapper" title="Vineyard Wine" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.vineyard | img_url: '' }}">
       </span>{% elsif product.tags contains "2.Color_Vineyard Wine" %}<span class="variant-color-wrapper" title="Vineyard Wine" data-url="{% include 'removelist' %}-vineyard"><img class="hedgren-color-inactive" src="{{ settings.vineyard | img_url: '' }}"></span>
@@ -325,7 +324,7 @@
 {% endif %}
 
 {% if product.tags contains "2.Color_Creased Strong Blue" and product.url contains "-creased-strong-blue" %}
- <span class="variant-color-wrapper" title="Creased Strong Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased_strong-blue| img_url: '' }}"> 
+ <span class="variant-color-wrapper" title="Creased Strong Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased_strong_blue| img_url: '' }}"> 
 </span>{% elsif product.tags contains "2.Color_Creased Strong Blue" %}<span class="variant-color-wrapper" title="Creased Strong Blue" data-url="{% include 'removelist' %}-creased-strong-blue"><img class="hedgren-color-inactive" src="{{ settings.creased_strong_blue| img_url: '' }}"></span>
 {% endif %}
 
