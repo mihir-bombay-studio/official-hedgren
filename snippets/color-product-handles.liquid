@@ -769,10 +769,6 @@
 {% if product.tags contains "2.Color_Creased Mix " %}    
 {% assign name_of_handles = name_of_handles | append: "-creased-mix" | append: "|" %}
 {% endif %}
-
-
-
-
  
 {% assign name_of_handles = name_of_handles | split: "" | reverse | join: "" | remove_first: "|" | split: "" | reverse | join: "" %}
 {% assign n_handles = name_of_handles | split: "|" %}
