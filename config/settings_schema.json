@@ -1320,68 +1320,74 @@
       },
       {
         "type": "image_picker",
-        "id": "creased_black",
-        "label": "Creased Black",
-        "info": "Add\/Replace image for Color Swatch"
-      },
-      {
-        "type": "image_picker",
-        "id": "creased_safari_beige",
-        "label": "Creased Safari Beige",
-        "info": "Add\/Replace image for Color Swatch"
-      },
-      {
-        "type": "image_picker",
-        "id": "creased_strong_blue",
-        "label": "Creased Strong Blue",
-        "info": "Add\/Replace image for Color Swatch"
-      },
-      {
-        "type": "image_picker",
-        "id": "nq_brandy_brown",
-        "label": "New Quilt Brandy Brown",
-        "info": "Add\/Replace image for Color Swatch"
-      },
-      {
-        "type": "image_picker",
-        "id": "nq_black",
-        "label": "New Quilt Black",
-        "info": "Add\/Replace image for Color Swatch"
-      },
-      {
-        "type": "image_picker",
-        "id": "safari_beige",
-        "label": "Safari Beige",
-        "info": "Add\/Replace image for Color Swatch"
-      },
-      {
-        "type": "image_picker",
-        "id": "northern_green",
-        "label": "Northern Green",
-        "info": "Add\/Replace image for Color Swatch"
-      },
-      {
-        "type": "image_picker",
-        "id": "strong_blue",
+        "id": "strong-blue",
         "label": "Strong Blue",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "strong_red",
+        "id": "safari-beige",
+        "label": "Safari Beige",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "strong-red",
         "label": "Strong Red",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "cosmic_mix5",
+        "id": "northern-green",
+        "label": "Northern Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "creased-black",
+        "label": "Creased Black",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "creased-safari-beige",
+        "label": "Creased Safari Beige",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "creased-strong-blue",
+        "label": "Creased Strong Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "nq-brandy-brown",
+        "label": "New Quilt Brandy Brown",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "nq-black",
+        "label": "New Quilt Black",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "creased-mix",
+        "label": "Creased Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "cosmic-mix5",
         "label": "Cosmic Mix V",
         "info": "Add\/Replace image for Color Swatch"
       },
       {
         "type": "image_picker",
-        "id": "creased_mix",
-        "label": "Creased Mix",
+        "id": "beige-olive",
+        "label": "Beige Olive",
         "info": "Add\/Replace image for Color Swatch"
       }
     ]
