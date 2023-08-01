@@ -45,6 +45,7 @@
       "blocks": {
         "58abe3f2-e024-4693-8b01-a69ba1fa91e5": {
           "type": "collect",
+          "disabled": true,
           "settings": {
             "coll": "commute",
             "page": "shopify:\/\/collections\/commute"
@@ -70,13 +71,21 @@
             "coll": "cocoon",
             "page": ""
           }
+        },
+        "a1d03fcd-c095-49e4-a183-004a69cea130": {
+          "type": "collect",
+          "settings": {
+            "coll": "inner-city",
+            "page": "shopify:\/\/collections\/inner-city"
+          }
         }
       },
       "block_order": [
         "58abe3f2-e024-4693-8b01-a69ba1fa91e5",
         "a0fc0cf1-9cac-4f41-aa22-dd78d94ddf23",
         "e7d8f46b-e25f-458b-86c8-02fc482a56c9",
-        "f11c2d38-ceab-4e98-8eb1-c3a40d01d7c0"
+        "f11c2d38-ceab-4e98-8eb1-c3a40d01d7c0",
+        "a1d03fcd-c095-49e4-a183-004a69cea130"
       ],
       "settings": {
         "title_left": "1994",
