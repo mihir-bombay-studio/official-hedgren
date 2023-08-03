@@ -126,6 +126,10 @@
     <span class="variant-color-wrapper" title="Dark Champagne" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.darkchampagne | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Dark Champagne" %}<span class="variant-color-wrapper" title="Dark Champagne" data-url="{% include 'removelist' %}-dchampagne"><img class="hedgren-color-inactive" src="{{ settings.darkchampagne | img_url: '' }}"></span>
      {% endif %}
+     {% if product.tags contains "2.Color_Creased Black" and product.url contains "-creased-black" %}
+      <span class="variant-color-wrapper" title="Creased Black" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased-black | img_url: '' }}"> 
+        </span>{% elsif product.tags contains "2.Color_Creased Black" %}<span class="variant-color-wrapper" title="Creased Black" data-url="{% include 'removelist' %}-creased-black"><img class="hedgren-color-inactive" src="{{ settings.creased-black | img_url: '' }}"></span>
+       {% endif %}
   {% if product.tags contains "2.Color_Black" and product.url contains "-black" %}
     {% unless product.url contains '-creased-black' or product.url contains '-nq-black' %}
     <span class="variant-color-wrapper" title="Black" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.black | img_url: '' }}"> 

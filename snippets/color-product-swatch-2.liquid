@@ -657,10 +657,7 @@
     <span class="variant-color-wrapper" title="New Quilt Brandy Brown" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.nq-brandy-brown | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_New Quilt Brandy Brown" %}<span class="variant-color-wrapper" title="New Quilt Brandy Brown" data-url="{% include 'removelist' %}-nq-brandy-brown"><img class="hedgren-color-inactive" src="{{ settings.nq-brandy-brown | img_url: '' }}"></span>
      {% endif %}
-     {% if product.tags contains "2.Color_Creased Black" and product.url contains "-creased-black" %}
-    <span class="variant-color-wrapper" title="Creased Black" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased-black | img_url: '' }}"> 
-      </span>{% elsif product.tags contains "2.Color_Creased Black" %}<span class="variant-color-wrapper" title="Creased Black" data-url="{% include 'removelist' %}-creased-black"><img class="hedgren-color-inactive" src="{{ settings.creased-black | img_url: '' }}"></span>
-     {% endif %}
+     
      {% if product.tags contains "2.Color_Creased Strong Blue" and product.url contains "-creased-strong-blue" %}
     <span class="variant-color-wrapper" title="Creased Strong Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creased-strong-blue | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Creased Strong Blue" %}<span class="variant-color-wrapper" title="Creased Strong Blue" data-url="{% include 'removelist' %}-creased-strong-blue"><img class="hedgren-color-inactive" src="{{ settings.creased-strong-blue | img_url: '' }}"></span>
