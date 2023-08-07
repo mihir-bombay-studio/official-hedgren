@@ -38,9 +38,9 @@
         "sort_text3": "Price, low - high",
         "sort_text4": "Price, high - low",
         "clear_text": "CLEAR ALL",
-        "outlet_text": "SALE",
-        "sale_text": "SALE",
-        "new_text": "New"
+        "outlet_text": "Outlet",
+        "sale_text": "Sale",
+        "new_text": "NEW"
       }
     }
   },

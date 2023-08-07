@@ -79,20 +79,26 @@
         {% if product.available %}
         <div class="add-to-cart" data-variant="{{ product.selected_or_first_available_variant.id }}">{% if product.available %}{{ "products.product.add_to_cart" | t | upcase }}{% else %}Coming Soon{% endif %} {% include 'icon-plus-black' %}</div>
         {% else %}
+          {% if product.metafields.custom.product_will_be_continued %}
           <span class="coming-soon-text">{{ section.settings.coming_soon_text }}</span>
         <a class="klaviyo-bis-trigger notify-button" href="#">{{ section.settings.notify_me_text }}</a>
+          {% else %}
+            <span class="coming-soon-text">{{ section.settings.not_comingback_text }}</span>
+          {% endif %}
           {% endif %}
         <style>
           .product-detail__trust-icons {
             display: flex;
             overflow-x: auto;
             margin-bottom: 16px;
+            flex-wrap: wrap;
           }
           .product-detail__trust-icon {
             padding-right: 16px;
             text-align: center;
             flex-basis: 25%;
             margin: 0;
+            margin-top: 16px;
           }
           .product-detail__trust-img {
             margin: 0 auto;
@@ -114,6 +120,7 @@
         </style>
         
         <div class="product-detail__trust-icons">
+          {% comment %}
           <figure class="product-detail__trust-icon">
             <div class="product-detail__trust-img" style="height: 22px;width: 22px;">
               <svg class="cc-icon" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" style="width: 22px;height: 22px;"><path d="M9 .5a.5.5 0 000 1h1a4.5 4.5 0 110 9H2.2l3.15-3.15a.5.5 0 10-.7-.7l-4 4a.5.5 0 000 .7l4 4a.5.5 0 00.7-.7L2.21 11.5H10a5.5 5.5 0 100-11H9z"></path></svg>
@@ -142,6 +149,30 @@
               <p>{{ "products.product.trust.checkout" | t }}</p>
             </figcaption>
           </figure>
+          {% endcomment %}
+          {% for block in section.blocks %}
+            {% if block.type == 'icon' %}
+              {% assign icon_exist = false %}
+              {% for icon in product.metafields.custom.icons.value %}
+                {% if icon == block.settings.icon_name %}
+                  {% assign icon_exist = true %}
+                {% endif %}
+              {% endfor %}
+              {% if icon_exist %}
+              <figure class="product-detail__trust-icon">
+                <div class="product-detail__trust-img" {% comment %}style="height: 22px;width: 22px;"{% endcomment %}>
+                {% comment %}
+                  {{ block.settings.icon }}
+                {% endcomment %}
+                  <img src="{{ block.settings.icon_img | image_url }}" alt="{{ block.settings.icon_name }}" style="height: 40px; width: 40px;" title="{{ block.settings.icon_name }}">
+                </div>
+                <figcaption class="product-detail__trust-caption rte">
+                  <p>{{ block.settings.icon_name }}</p>
+                </figcaption>
+              </figure>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
         </div>
         
         <div class="product-desc">{% if product.description contains '<!-- split -->' %}{% assign desc = product.description | split: '<!-- split -->' %}{{ desc[1] }}{% else %}{{ product.description }}{% endif %}</div>
@@ -314,6 +345,7 @@
   
   $('.product-wrap .variant-color-wrapper').click(function() {
     var url = $(this).data('url');
+    var usps = $('.product-detail__trust-icons');
     if($(this).find('img').hasClass('hedgren-color-inactive')) {
       $.ajax({
         url: $(this).data('url')+'/?sections=hedgren-product',
@@ -321,6 +353,9 @@
       })
       .done(function( data ) {
         $('main').prepend(data['hedgren-product']);
+        var divx = $('.product-wrap').first().find('.product-detail__trust-icons');
+        $(divx).replaceWith(usps);
+        
         var acc = document.getElementsByClassName("product-usp-title");
         var i;
 
@@ -449,8 +484,32 @@
           "id": "notify_me_text",
           "label": "Notify Me Text",
           "default": "Notify Me"
+        },
+        {
+          "type": "text",
+          "id": "not_comingback_text",
+          "label": "Not Coming Back Text",
+          "default": "This item will not get back in stock"
         }
 	],
+    "blocks": [
+      {
+        "type": "icon",
+        "name": "Icon",
+        "settings": [
+          {
+            "type": "text",
+            "id": "icon_name",
+            "label": "Icon Name"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon_img",
+            "label": "Icon"
+          }
+        ]
+      }
+    ],
 	"presets": [
 		{
 			"name": "Hedgren Product"

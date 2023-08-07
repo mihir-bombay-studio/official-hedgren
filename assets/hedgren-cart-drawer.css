@@ -342,6 +342,61 @@
 .cart-body.upsell-added {
   height: calc(100vh - 348px);
 }
+
+
+
+
+.uk-shipping {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.uk-shipping span{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.uk-shipping-popup-bg{
+  background-color: #0000003d;
+  position: fixed;
+    z-index: 11;
+  height: 100vh;
+  width: 100vw;
+}
+
+.uk-shipping-popup {
+    background-color: #fff;
+    padding: 40px 40px 20px;
+    position: fixed;
+    z-index: 11;
+    top: 300px;
+    width: calc(100vw - 40px);
+    max-width: 450px;
+    left: calc(50% - 225px);
+    box-shadow: -10px 0 30px #00000026;
+}
+
+.uk-shipping-title {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.uk-shipping-title-wrap {
+    position: relative;
+}
+
+.uk-shipping-popup-close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    cursor: pointer;
+}
 @media (max-width: 992px) {
   .drawer-cart-header {
     position: relative;
@@ -387,5 +442,11 @@
 
   .drawer-cart{
     overflow:scroll;
+  }
+}
+
+@media(max-width: 489px){
+  .uk-shipping-popup{
+    left: 20px;
   }
 }

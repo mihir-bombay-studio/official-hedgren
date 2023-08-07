@@ -59,8 +59,7 @@
         "addtext": "ADD TO CART",
         "outtext": "OUT OF STOCK",
         "moretext": "More info",
-        "buttontext": "SHOP ALL PRODUCTS",
-        "collection": "inner-city"
+        "buttontext": "SHOP ALL PRODUCTS"
       }
     },
     "163899354782bb1c63": {
@@ -193,7 +192,10 @@
         "title_left": "1994",
         "title_mid": "Discover our collections",
         "title_right": "2021",
-        "subtitle": "SUBTITLE"
+        "subtitle": "SUBTITLE",
+        "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
+        "discover_text": "DISCOVER COLLECTION",
+        "discover_shoptext": "SHOP COLLECTIONS"
       }
     }
   },

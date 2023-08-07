@@ -85,7 +85,7 @@
         {% endif %}
         {% endfor %}
       </div>
-      <a class="btn btn-center" href="/collections/all">{{ section.settings.buttontext }}</a>
+      <a class="btn btn-center" href="{{ section.settings.buttonurl }}">{{ section.settings.buttontext }}</a>
     </div>
   </div>
 </div>
@@ -322,6 +322,11 @@
         "id": "buttontext",
         "label": "Button text",
 		"default": "SHOP ALL PRODUCTS"
+      },
+      {
+        "type": "url",
+        "id": "buttonurl",
+        "label": "Shop all button URL"
       }
      ],
    "presets":[

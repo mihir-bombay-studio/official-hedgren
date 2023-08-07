@@ -3,19 +3,21 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/innercity_2000_x_891.png",
-        "imagemobile": "shopify:\/\/shop_images\/innercity_1200_x_1200.png",
+
+        "image": "shopify:\/\/shop_images\/Back_to_school_2000_x_891.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Back_to_school_1200_x_1200-1.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/inner-city",
-        "headinglinktext": "Shop now",
+        "headinglink": "shopify:\/\/collections\/back-to-school",
+        "headinglinktext": "VIEW MORE",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "inner-city",
-        "buttontext": "SHOP ALL PRODUCTS"
+        "collection": "back-to-school",
+        "buttontext": "SHOP ALL PRODUCTS",
+        "buttonurl": "shopify:\/\/collections\/back-to-school"
       }
     },
     "1638356576387ca461": {
@@ -24,11 +26,11 @@
         "background": "dark-bg",
         "order": "order-normal",
         "heading_color": "regular",
-        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_Stefanos_RESHOOT_37_800x_36fa3cec-4845-4b9a-bd8b-27f73fec49b2.webp",
-        "heading": "Hedgrenism",
-        "subheading": "The story",
-        "content": "<br>Hedgrenists know the world is full of opportunities and are eager to take them on. Expanding their comfort zone, one challenge at a time, is what keeps them going. The urban adventurer  is our muse.",
-        "button_label": "",
+        "image": "shopify:\/\/shop_images\/Lucid_Hedgren_Stefanos_RESHOOT_37.jpg",
+        "heading": "Hedgrenist",
+        "subheading": "Stories",
+        "content": "<p>Our Hedgrenists know the world is full of opportunities and are eager to take them on. Expanding their comfort zone, one challenge at a time, is what keeps them going. Meet our urban adventures and find out how they stand their ground. Discover how Hedgren plays a role in keeping them level-headed.<\/p>",
+        "button_label": "READ STORY",
         "custom_link": false,
         "button_link": "shopify:\/\/blogs\/news",
         "extra_txt": "",
@@ -42,13 +44,6 @@
     "163757919167ffebdf": {
       "type": "hedgren-discover-collection",
       "blocks": {
-        "58abe3f2-e024-4693-8b01-a69ba1fa91e5": {
-          "type": "collect",
-          "settings": {
-            "coll": "commute",
-            "page": "shopify:\/\/collections\/commute"
-          }
-        },
         "a0fc0cf1-9cac-4f41-aa22-dd78d94ddf23": {
           "type": "collect",
           "settings": {
@@ -58,6 +53,7 @@
         },
         "e7d8f46b-e25f-458b-86c8-02fc482a56c9": {
           "type": "collect",
+          "disabled": true,
           "settings": {
             "coll": "great-american-heritage",
             "page": ""
@@ -65,22 +61,38 @@
         },
         "f11c2d38-ceab-4e98-8eb1-c3a40d01d7c0": {
           "type": "collect",
+          "disabled": true,
           "settings": {
             "coll": "cocoon",
             "page": ""
           }
+        },
+        "a1d03fcd-c095-49e4-a183-004a69cea130": {
+          "type": "collect",
+          "settings": {
+            "coll": "inner-city",
+            "page": "shopify:\/\/collections\/inner-city"
+          }
+        },
+        "58abe3f2-e024-4693-8b01-a69ba1fa91e5": {
+          "type": "collect",
+          "settings": {
+            "coll": "commute",
+            "page": "shopify:\/\/collections\/commute"
+          }
         }
       },
       "block_order": [
-        "58abe3f2-e024-4693-8b01-a69ba1fa91e5",
         "a0fc0cf1-9cac-4f41-aa22-dd78d94ddf23",
         "e7d8f46b-e25f-458b-86c8-02fc482a56c9",
-        "f11c2d38-ceab-4e98-8eb1-c3a40d01d7c0"
+        "f11c2d38-ceab-4e98-8eb1-c3a40d01d7c0",
+        "a1d03fcd-c095-49e4-a183-004a69cea130",
+        "58abe3f2-e024-4693-8b01-a69ba1fa91e5"
       ],
       "settings": {
         "title_left": "1994",
         "title_mid": "Discover our collections",
-        "title_right": "2021",
+        "title_right": "2023",
         "subtitle": "OUR COLLECTIONS",
         "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
         "discover_text": "DISCOVER COLLECTION",
@@ -97,7 +109,7 @@
         "image": "shopify:\/\/shop_images\/hedgren_mobile_menu.webp",
         "heading": "Become a hedgrenist",
         "subheading": "Loyalty pays off!  Loyalty rewards!",
-        "content": "Let’s move together!\nWherever you’re headed, we’ve got your back. \nEnjoy our rewards, special offers, exclusive events \nand inside information on our wonderful products.",
+        "content": "<p>Let’s move together!\nWherever you’re headed, we’ve got your back. \nEnjoy our rewards, special offers, exclusive events \nand inside information on our wonderful products.<\/p>",
         "button_label": "JOIN TODAY",
         "custom_link": false,
         "button_link": "shopify:\/\/pages\/contact-us",
@@ -118,8 +130,8 @@
         "image": "shopify:\/\/shop_images\/DSC_4303-zwedit_800x_3dc3b19a-24a2-43f3-84ec-a862524a5e57.webp",
         "heading": "How it started",
         "subheading": "",
-        "content": "Never underestimate a Belgian brand on a mission. We’ve been around since 1993, and have always remained true to our purpose. Wherever you go, we’re right next to you. We’re your most faithful, reliable and eager companion.",
-        "button_label": "",
+        "content": "<p>Never underestimate a Belgian brand on a mission. We’ve been around since 1993, and have always remained true to our purpose. Wherever you go, we’re right next to you. We’re your most faithful, reliable and eager companion.<\/p>",
+        "button_label": "READ OUR STORY",
         "custom_link": false,
         "button_link": "shopify:\/\/pages\/our-story",
         "extra_txt": "",
@@ -139,8 +151,8 @@
         "image": "shopify:\/\/shop_images\/homepage.png",
         "heading": "How it’s going",
         "subheading": "",
-        "content": "We understand your needs evolve as your world changes. That is why we still design our collections to fit your plans. We know where you’re coming from and see where you’re headed. We happen to be facing the same direction.",
-        "button_label": "",
+        "content": "<p>We understand your needs evolve as your world changes. That is why we still design our collections to fit your plans. We know where you’re coming from and see where you’re headed. We happen to be facing the same direction.<\/p>",
+        "button_label": "READ THE STORIES",
         "custom_link": false,
         "button_link": "shopify:\/\/blogs\/stories",
         "extra_txt": "",
