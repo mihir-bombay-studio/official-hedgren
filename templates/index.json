@@ -168,7 +168,7 @@
           "type": "faq",
           "settings": {
             "question": "Where do you deliver?",
-            "answer": "Currently Hedgren delivers to customers who have an address in Albania, Austria, Belgium, Bosnia &amp; Herzegovina, Croatia, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Italy, Ireland, Luxembourg, Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, the Netherlands, Ukraine and United Kingdom."
+            "answer": "Currently Hedgren delivers to customers who have an address in Austria, Belgium, Croatia, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Italy, Ireland, Luxembourg, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, the Netherlands and United Kingdom."
           }
         },
         "de81b47e-4eeb-40c2-a8eb-265e05a6d704": {
@@ -314,7 +314,6 @@
     },
     "1637732040ea16813e": {
       "type": "hedgren-about-hero",
-      "disabled": true,
       "blocks": {
         "353ec5bf-72f5-4eb2-99ea-07f09346e875": {
           "type": "img_over_img",
@@ -328,6 +327,7 @@
       "block_order": [
         "353ec5bf-72f5-4eb2-99ea-07f09346e875"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_Hedgren_needs_to_make_this_2x_e3d2b19e-5d9e-4ba1-9847-73412c58c9b8.png",
         "heading_left": "1994",
@@ -402,7 +402,6 @@
     },
     "1637756153eb6098f2": {
       "type": "hedgren-stories",
-      "disabled": true,
       "blocks": {
         "283d4390-a15c-4474-8908-7deadff1d147": {
           "type": "img_txt",
@@ -455,6 +454,7 @@
         "0371bff2-138a-4f94-983b-335e0c98d400",
         "78a37b0f-c565-4bf8-9432-a967c6493c81"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -490,7 +490,6 @@
     },
     "16378358284111b380": {
       "type": "hedgren-faq-page-heading",
-      "disabled": true,
       "blocks": {
         "24974ec3-f57b-40f3-af23-3dd684c6c7bf": {
           "type": "faq_type",
@@ -535,6 +534,7 @@
         "7d1812a2-f388-4b4f-bd32-0b85f25c1faa",
         "746b242a-794f-4193-a5cd-cfb0878a267b"
       ],
+      "disabled": true,
       "settings": {
         "heading_left": "1994",
         "heading": "FAQ",
@@ -543,7 +543,6 @@
     },
     "16378373813177f295": {
       "type": "hedgren-faq",
-      "disabled": true,
       "blocks": {
         "7bb2b86c-e1fa-455b-824e-7392f2c375b4": {
           "type": "faq",
@@ -564,6 +563,7 @@
         "7bb2b86c-e1fa-455b-824e-7392f2c375b4",
         "95dec638-66f3-46bd-a060-d0b64be221fd"
       ],
+      "disabled": true,
       "settings": {
         "background": "normal-bg",
         "heading": "Shipping",
