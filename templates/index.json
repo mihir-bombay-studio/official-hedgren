@@ -3,20 +3,20 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Back_to_school_2000_x_891.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Back_to_school_1200_x_1200-1.jpg",
+        "image": "shopify:\/\/shop_images\/Back_to_school_2000_x_891_v2.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Back_to_School_1200_x_1200_v2.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/back-to-school",
+        "headinglink": "shopify:\/\/collections\/inner-city",
         "headinglinktext": "VIEW MORE",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "back-to-school",
+        "collection": "inner-city",
         "buttontext": "SHOP ALL PRODUCTS",
-        "buttonurl": "shopify:\/\/collections\/back-to-school"
+        "buttonurl": "shopify:\/\/collections\/inner-city"
       }
     },
     "1638356576387ca461": {
