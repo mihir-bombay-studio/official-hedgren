@@ -165,56 +165,6 @@
             "feature_heading6": "Key hanger",
             "feature_description6": "The key hanger with key chain allows effortless storage and swift key location."
           }
-        },
-        "10beabcd-fbbb-4c70-9ed8-2ebc5e5411e7": {
-          "type": "features",
-          "settings": {
-            "name": "Suburbanite",
-            "bag": "shopify:\/\/shop_images\/6_af2dca01-b40e-467c-b1bf-69f9045ad7b5.png",
-            "feature_img1": "shopify:\/\/shop_images\/HCOM06_003_01_4k.jpg",
-            "feature_heading1": "Clothing storage",
-            "feature_description1": "Full opening for an easy packing. Elastic strap to maintain the clothing.",
-            "feature_img2": "shopify:\/\/shop_images\/HCOM06_003_01_4g.jpg",
-            "feature_heading2": "Double side pockets",
-            "feature_description2": "Zipped pocket and mesh pocket behind for bottle or umbrella storage",
-            "feature_img3": "shopify:\/\/shop_images\/HCOM06_003_01_4b.jpg",
-            "feature_heading3": "RFID pocket",
-            "feature_description3": "Multiple pockets including and RFID pocket",
-            "feature_img4": "shopify:\/\/shop_images\/HCOM06-_16_copy.jpg",
-            "feature_heading4": "Rain Cover",
-            "feature_description4": "Rain cover, stored in a hidden water proof zipped pocket",
-            "feature_img5": "shopify:\/\/shop_images\/HCOM06_003_01_4c.jpg",
-            "feature_heading5": "Expandable",
-            "feature_description5": "Expandable",
-            "feature_img6": "shopify:\/\/shop_images\/HCOM06_003_01_4e.jpg",
-            "feature_heading6": "Adjustable strap",
-            "feature_description6": "Adjustable chest strap"
-          }
-        },
-        "a2280178-d8ee-4a36-bba4-fee8d8e4accc": {
-          "type": "features",
-          "settings": {
-            "name": "Turtle",
-            "bag": "shopify:\/\/shop_images\/7_0909fd5b-4d75-4c2c-98d1-771e0f86540d.png",
-            "feature_img1": "shopify:\/\/shop_images\/HEDGREN-120782.jpg",
-            "feature_heading1": "Computer Pocket",
-            "feature_description1": "15.6’’ computer pocket on the back panel closed by a puller with hook",
-            "feature_img2": "shopify:\/\/shop_images\/HCOM07_163_01_4h.jpg",
-            "feature_heading2": "Deep pocket",
-            "feature_description2": "1 deep zipped pocket at the bottom (laundry or shoes storage)",
-            "feature_img3": "shopify:\/\/shop_images\/HCOM07_003_01_5.jpg",
-            "feature_heading3": "Large storage",
-            "feature_description3": "Large storage capacity",
-            "feature_img4": "shopify:\/\/shop_images\/HEDGREN-120791.jpg",
-            "feature_heading4": "Organised",
-            "feature_description4": "Easy access zipped pocket on the top including:\nRFID zipped pocket, multiple pockets and key chain",
-            "feature_img5": "shopify:\/\/shop_images\/HCOM07_003_01_4e.jpg",
-            "feature_heading5": "Security Hook",
-            "feature_description5": "security hook",
-            "feature_img6": "shopify:\/\/shop_images\/HCOM07_003_01_4b.jpg",
-            "feature_heading6": "USB port",
-            "feature_description6": "USB port"
-          }
         }
       },
       "block_order": [
@@ -222,9 +172,7 @@
         "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7",
         "7c289c8d-f795-426d-a6f0-ccbb7e116719",
         "3bad18c4-f5e6-4a34-ada7-18bfb7b11f97",
-        "096ebac3-047d-4dc9-b070-3620abbc4c46",
-        "10beabcd-fbbb-4c70-9ed8-2ebc5e5411e7",
-        "a2280178-d8ee-4a36-bba4-fee8d8e4accc"
+        "096ebac3-047d-4dc9-b070-3620abbc4c46"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
