@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-product",
-      "disabled": true,
       "blocks": {
         "vendor": {
           "type": "text",
@@ -31,6 +30,15 @@
         "loox-rating": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
           }
         },
         "variant_picker": {
@@ -74,6 +82,7 @@
         "description",
         "share"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "hide_variants": false,
@@ -200,6 +209,13 @@
             "icon_name": "5 year Warranty",
             "icon_img": "shopify:\/\/shop_images\/Warranty_2f788345-8fbe-4ae0-a125-3bd38862ed79.png"
           }
+        },
+        "00d68f18-e201-4207-85ca-358377d37706": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "High Water Repellency",
+            "icon_img": "shopify:\/\/shop_images\/water_repellent_high__black.png"
+          }
         }
       },
       "block_order": [
@@ -217,7 +233,8 @@
         "6d961475-0a3e-4a5e-bb58-2addbe1c5cae",
         "021a32d8-9cde-45e0-9795-d326b947bc95",
         "31842526-c84b-4d82-a7b2-81663e2a6570",
-        "15bc9924-5948-4975-904d-359d58bda19a"
+        "15bc9924-5948-4975-904d-359d58bda19a",
+        "00d68f18-e201-4207-85ca-358377d37706"
       ],
       "settings": {
         "more": "LOAD MORE IMAGES",
