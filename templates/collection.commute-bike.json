@@ -152,6 +152,10 @@
         "3bad18c4-f5e6-4a34-ada7-18bfb7b11f97",
         "096ebac3-047d-4dc9-b070-3620abbc4c46"
       ],
+      "custom_css": [
+        ".filter-name {text-wrap: nowrap;}",
+        ".filter{width:80px;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
         "heading_left": "",
