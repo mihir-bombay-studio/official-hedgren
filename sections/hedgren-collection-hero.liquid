@@ -274,7 +274,7 @@
         <div class="filter-name">{{ block.settings.name }}</div>
       </div>
       {% endfor %}
-      <div class="feature-subtitle no-t-m">SELECT A BAG</div>
+      <div class="feature-subtitle no-t-m">SELECT A {% if collection.handle == 'commute-bike' %}FEATURE{% else %}BAG{% endif %}</div>
     </div>
     {% endif %}
     {% for block in section.blocks %}
