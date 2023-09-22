@@ -105,18 +105,11 @@
     "163790218256dd6a24": {
       "type": "hedgren-product",
       "blocks": {
-        "00d68f18-e201-4207-85ca-358377d37706": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "High Water Repellency",
-            "icon_img": "shopify:\/\/shop_images\/water_repellent_high__black.png"
-          }
-        },
         "ad55d4f8-4dd4-468a-a907-83f8cab18413": {
           "type": "icon",
           "settings": {
             "icon_name": "Water Repellent Coating",
-            "icon_img": "shopify:\/\/shop_images\/water_repellent__grey.png"
+            "icon_img": "shopify:\/\/shop_images\/water_repellent__grey_b789cec6-779f-468c-a6c5-33222e172808.png"
           }
         },
         "ff432024-88be-4a16-9dd5-c30dcb39bd80": {
@@ -219,7 +212,6 @@
         }
       },
       "block_order": [
-        "00d68f18-e201-4207-85ca-358377d37706",
         "ad55d4f8-4dd4-468a-a907-83f8cab18413",
         "ff432024-88be-4a16-9dd5-c30dcb39bd80",
         "e0ecf946-d1f5-42c1-bbc8-70dcea787dbb",
