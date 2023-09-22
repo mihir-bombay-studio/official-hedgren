@@ -167,13 +167,6 @@
         "buttontext": "SHOP ALL PRODUCTS"
       }
     },
-    "1663596510c820a18e": {
-      "type": "hedgren-colorful-cards",
-      "settings": {
-        "heading": "",
-        "subheading": ""
-      }
-    },
     "1663596479e46c6f0c": {
       "type": "custom-liquid",
       "settings": {
@@ -265,7 +258,6 @@
     "banner",
     "product-grid",
     "1637649148751d55cf",
-    "1663596510c820a18e",
     "1663596479e46c6f0c",
     "1637658320f19f8e7c"
   ]
