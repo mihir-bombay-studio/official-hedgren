@@ -77,7 +77,7 @@
           "type": "features",
           "settings": {
             "name": "Comfort",
-            "bag": "shopify:\/\/shop_images\/3_953c3126-efbe-489f-88fd-450ca9b23bea.png",
+            "bag": "shopify:\/\/shop_images\/comfort_6e70a106-0fc6-4c81-84a3-2aba5925bf38.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_0278_991aa6b4-0bef-4c88-9131-70bb40a6d03d.jpg",
             "feature_heading1": "2 Side Pockets",
             "feature_description1": "Convenient for storage of small items like umbrellas or water bottles.",
@@ -154,7 +154,7 @@
       ],
       "custom_css": [
         ".filter-name {text-wrap: nowrap;}",
-        ".filter{width:80px;}"
+        ".filter {width: 80px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
