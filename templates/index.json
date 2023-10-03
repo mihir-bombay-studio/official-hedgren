@@ -3,20 +3,20 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Back_to_school_2000_x_891_v2.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Back_to_School_1200_x_1200_v2.jpg",
+        "image": "shopify:\/\/shop_images\/Nova_banner_Partner_2000_x_891_66.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Nova_banner_Partner_1200_x_12004_1.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/inner-city",
+        "headinglink": "shopify:\/\/collections\/nova",
         "headinglinktext": "VIEW MORE",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "inner-city",
+        "collection": "nova",
         "buttontext": "SHOP ALL PRODUCTS",
-        "buttonurl": "shopify:\/\/collections\/inner-city"
+        "buttonurl": "shopify:\/\/collections\/nova"
       }
     },
     "1638356576387ca461": {
