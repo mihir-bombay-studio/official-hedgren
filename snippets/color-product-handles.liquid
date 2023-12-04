@@ -701,6 +701,11 @@
 
   {% assign name_of_handles = name_of_handles | append: "-smokeym" | append: "|" %}
  {% endif %}
+{% if product.tags contains "2.Color_Creased Strong Blue" %}
+
+  {% assign name_of_handles = name_of_handles | append: "-creased-strong-blue" | append: "|" %}
+ {% endif %}
+ 
 
 {% if product.tags contains "2.Color_Biking Red" %}
 
