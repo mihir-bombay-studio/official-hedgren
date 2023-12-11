@@ -306,4 +306,7 @@
   .product-price {
     text-align: right;
   }
+  .m-font{
+    font-weight: 900;
+  }
 }

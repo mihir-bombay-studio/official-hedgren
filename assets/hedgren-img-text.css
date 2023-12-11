@@ -127,6 +127,13 @@
   padding-bottom: 0;
 }
 
+h1.img-text-text-heading.h2-condition{
+  font-size: 80px;
+  line-height: 71px;
+  font-family: var(--font-heading-family);
+  letter-spacing: -3.5px;
+}
+
 @media(max-width: 992px){
   .normal-top {
     margin-top: 80px;
@@ -204,5 +211,10 @@
   .img-text-text-subheading {
     margin-bottom: 16px;
     margin-top: 20px;
+  }
+  h1.img-text-text-heading.h2-condition{
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -1.73px;
   }
 }

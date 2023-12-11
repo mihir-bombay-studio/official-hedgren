@@ -138,11 +138,62 @@
     margin-right: 8px;
     position: relative!important;
 }
+
+  .col-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+  .shelf-info__text {
+    display: inline-block;
+    display: -webkit-box;
+    max-height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    padding-right: .25rem;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 14px;
+  }
+  .is-expanded .shelf-info__text {
+    max-height: none;
+    overflow: auto;
+    line-height: 1.5;
+    -webkit-box-orient: initial;
+    -webkit-line-clamp: initial;
+    padding-right: 0;
+  }
+  .read-fewer{
+  display:none;
+  }
+  .is-expanded .read-more{
+      display:none;
+  }
+  .is-expanded .read-fewer{
+      display:block;
+  }
 </style>
 
 <div class="all-products-wrapper">
   <div class="container">
     <div class="all-filters-sorts-wrap">
+      <div class="collection-title">
+        <h1 class="col-title">{{ collection.title }}</h1>
+      </div>
+      <div class="collection-description" id="collection-description">
+        {% if collection.description != blank %}
+          <p class="shelf-info__text" data-shell-infotext>{{ collection.description }}</p>
+          <a href="#" class="read-more-link read-more" data-read-more>Read More</a>
+          <a href="#" class="read-more-link read-fewer" data-read-more>Read fewer</a>
+        {% endif %}
+      </div>
+     
     <div class="filter-sort-products rel no-t-m">
       <div class="filters filters-filter"><span class="fil">{{ section.settings.filter_text }}</span> <span class="down-chev fil">{% include 'icon-down-chev-red' %}</span>
 
@@ -695,7 +746,78 @@
   });
 </script>
 
+<script>
+  // Select all read-more-link elements
+  var readMoreLinks = document.querySelectorAll('[data-read-more]');
 
+  // Loop through each link
+  for (var i = 0; i < readMoreLinks.length; i++) {
+    // Add click event listener
+    readMoreLinks[i].addEventListener('click', function (event) {
+      // Prevent default action
+      event.preventDefault();
+
+      // Toggle is-expanded class on parent
+      this.parentNode.classList.toggle('is-expanded');
+    });
+  }
+  // Select all shelf-info__text elements
+  var shelfInfoTexts = document.querySelectorAll('[data-shell-infotext]');
+
+  // Loop through each element
+  for (var i = 0; i < shelfInfoTexts.length; i++) {
+    // Get the text inside the element
+    var text = shelfInfoTexts[i].textContent || shelfInfoTexts[i].innerText;
+
+    // Check if the length of the text is less than 140
+    if (text.length < 140 && window.innerWidth > 800) {
+      // Select the read more link inside the current shelf-info__text element
+      var readMoreLink = document.querySelector('.read-more');
+
+      // Hide the read more link
+      if (readMoreLink) {
+        readMoreLink.style.display = 'none';
+      } else {
+        // Show the read more link
+        if (readMoreLink) {
+          readMoreLink.style.display = 'block';
+        }
+      }
+    }
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "ItemList",
+    "name": {{ collection.title | escape | json }},
+    "description": {{ collection.description | escape | json }},
+    "itemListElement": [
+  	{% for product in collection.products %}
+  	{
+  	  "@type": "Product",
+  	  "name": {{ product.title | json }},
+  	  "image": {{ product.featured_image.src | image_url: 'master' | json }},
+  	  "description": {{ product.description | strip_html | json }},
+  	  "sku": {{ product.sku | json }},
+  	  "brand": {
+  		"@type": "Brand",
+  		"name": {{ product.vendor | json }}
+  	  },
+  	  "offers": {
+  		"@type": "Offer",
+  		"price": {{ product.price | money_without_currency | json }},
+  		"priceCurrency": {{ shop.currency | json }},
+  		"availability": "https://schema.org/InStock",
+  		"url": {{ product.url | json }}
+  	  }
+  	}
+  	{% unless forloop.last %},{% endunless %}
+  	{% endfor %}
+    ]
+
+  }
+</script>
 {% schema %}
   {
     "name": "Hedgren All Products",

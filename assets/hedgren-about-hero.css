@@ -59,7 +59,15 @@
 .hedgren-about-hero .img-text {
     margin-top: 0;
 }
+.img-text-text-heading.customdiv {
+  font-size: 80px;
+  line-height: 71px;
+  font-family: var(--font-heading-family);
+  letter-spacing: -3.5px;
+  margin: 0;
+  margin-bottom: 40px;
 
+}
 @media(max-width: 1200px){
 	.about-page-sub-heading {
   margin-bottom: 3vw;
@@ -120,4 +128,9 @@
   	margin-top: -20px;
     margin-bottom: 50px;
   }
+  .img-text-text-heading.customdiv {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -1.73px;
+}
 }

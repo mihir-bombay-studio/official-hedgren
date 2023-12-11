@@ -317,7 +317,10 @@
   height: auto;
   margin-right: 8px;
 }
-
+.newdiv{
+  line-height: 71px;
+  font-family: var(--font-heading-family);
+}
 
 /* width */
 .cart-body::-webkit-scrollbar {
@@ -443,6 +446,9 @@
   .drawer-cart{
     overflow:scroll;
   }
+  .newdiv{
+    line-height: 40px;
+     }
 }
 
 @media(max-width: 489px){

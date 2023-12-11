@@ -12,12 +12,12 @@
 <div id="herodiv" class="hero {% if aspectratio > 1.9 and section.settings.design2 %}alternate-hero{% endif %}" style="{% if section.settings.image %}background-image: url({{ section.settings.image | img_url: "2000x" }}){% else %}background: #375D54{% endif %}">
   <div class="container flex-box justify-end">
     <span class="header-inner-wrapper">
-      <h1 class="hero-text" style="color: {{ section.settings.hero_text_color }}">
+      <div class="hero-text" style="color: {{ section.settings.hero_text_color }}">
         <span>
           {% if section.settings.design2 %}<span class="sub-head">{{ section.settings.subheading }}</span>{% endif %}
           {{ section.settings.heading }}
         </span>
-      </h1>
+      </div>
       {% comment %}<p class="hero-sub-text" style="color: {{ section.settings.hero_text_color }}">{{ section.settings.subheading }}</p>{% endcomment %}
       {% if section.settings.headinglink != blank %}<a class="btn btn-center" href="{{ section.settings.headinglink }}">{{ section.settings.headinglinktext }}</a>{% endif %}
     </span>
