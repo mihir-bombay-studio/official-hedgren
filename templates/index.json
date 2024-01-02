@@ -3,20 +3,20 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cocoon_2000_x_891.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Cocoon_1200_x_1200.jpg",
+        "image": "shopify:\/\/shop_images\/Next_banner_Global_2000_x_891_no_logo_01.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Next_banner_1200_x_1200_no_logo_01.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/cocoon",
+        "headinglink": "shopify:\/\/collections\/next-1",
         "headinglinktext": "VIEW MORE",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "cocoon",
+        "collection": "next-1",
         "buttontext": "SHOP ALL PRODUCTS",
-        "buttonurl": "shopify:\/\/collections\/cocoon"
+        "buttonurl": "shopify:\/\/collections\/next-1"
       }
     },
     "1638356576387ca461": {
