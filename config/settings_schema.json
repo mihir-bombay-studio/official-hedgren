@@ -12,6 +12,54 @@
     "settings": [
       {
         "type": "image_picker",
+        "id": "coralgreysignature",
+        "label": "Coral Grey Signature",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blueaboard",
+        "label": "Blue Aboard",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "blushn",
+        "label": "Blush",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "creasedgrey",
+        "label": "Creased Vaporous Grey",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "creasedblackcoral",
+        "label": "Creased Black With Coral",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "creasedroyal",
+        "label": "Creased Royal Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "newquiltfullblack",
+        "label": "New Quilt Full Black",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "pearlblue",
+        "label": "Pearl Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
         "id": "peacoatblue",
         "label": "Peacoat Blue",
         "info": "Add\/Replace image for Color Swatch"
