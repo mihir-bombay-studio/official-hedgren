@@ -24,12 +24,6 @@
       },
       {
         "type": "image_picker",
-        "id": "blushn",
-        "label": "Blush",
-        "info": "Add\/Replace image for Color Swatch"
-      },
-      {
-        "type": "image_picker",
         "id": "creasedgrey",
         "label": "Creased Vaporous Grey",
         "info": "Add\/Replace image for Color Swatch"
