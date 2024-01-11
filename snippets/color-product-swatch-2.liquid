@@ -1,3 +1,18 @@
+    {% if product.tags contains "2.Color_Birch" and product.url contains "-birch" %}
+    <span class="variant-color-wrapper" title="Birch" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.birch | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Birch" %}<span class="variant-color-wrapper" title="Birch" data-url="{% include 'removelist' %}-birch"><img class="hedgren-color-inactive" src="{{ settings.birch | img_url: '' }}"></span>
+     {% endif %}
+
+    {% if product.tags contains "2.Color_Peacoat Blue" and product.url contains "-peacoatblue" %}
+    <span class="variant-color-wrapper" title="Peacoat Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.peacoatblue | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Peacoat Blue" %}<span class="variant-color-wrapper" title="Peacoat Blue" data-url="{% include 'removelist' %}-peacoat-blue"><img class="hedgren-color-inactive" src="{{ settings.peacoatblue | img_url: '' }}"></span>
+     {% endif %}
+
+    {% if product.tags contains "2.Color_Vintage Taupe" and product.url contains "-vintagetaupe" %}
+    <span class="variant-color-wrapper" title="Vintage Taupe" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.vintagetaupe | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Vintage Taupe" %}<span class="variant-color-wrapper" title="Vintage Taupe" data-url="{% include 'removelist' %}-vintagetaupe"><img class="hedgren-color-inactive" src="{{ settings.vintagetaupe | img_url: '' }}"></span>
+     {% endif %}
+    
     {% if product.tags contains "2.Color_Apricot Brandy / Off White" and product.url contains "-apricot-brandy-off" %}
     <span class="variant-color-wrapper" title="Apricot Brandy / Off White" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.apricot_brandy_off_white | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Apricot Brandy / Off White" %}<span class="variant-color-wrapper" title="Apricot Brandy / Off White" data-url="{% include 'removelist' %}-apricot-brandy-off"><img class="hedgren-color-inactive" src="{{ settings.apricot_brandy_off_white | img_url: '' }}"></span>
