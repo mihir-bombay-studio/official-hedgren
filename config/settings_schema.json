@@ -12,6 +12,24 @@
     "settings": [
       {
         "type": "image_picker",
+        "id": "peacoatblue",
+        "label": "Peacoat Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "vintagetaupe",
+        "label": "Vintage Taupe",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "birch",
+        "label": "Birch",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
         "id": "apricot_brandy_off_white",
         "label": "Apricot Brandy \/ Off White",
         "info": "Add\/Replace image for Color Swatch"
