@@ -189,8 +189,23 @@
                 {% assign colxn = all_products[handlesxn.last] %}
                 {% endif %}
                 <a href="{{ colxn.url }}">
-                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
-                  <div class="nav-title">{{ colxn.title }}</div>
+                  {% liquid 
+                    if colxn.featured_image.height >= colxn.featured_image.width 
+                    assign styles = "background-color: #f1f1f1,object-fit: contain;"
+                    endif 
+                  %} 
+                {{ colxn.featured_image 
+                  | image_url: width: 425 
+                  | image_tag: 
+                  loading: 'lazy',
+                  styles: styles,
+                  sizes: '(min-width: 900px) calc((600px) * 1 /  2),100vw',
+                  styles: styles,
+                   widths: '250, 275, 300, 315, 350, 375, 400, 425'
+                 }}
+                {% comment %} <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
+                 {% endcomment %}
+                <div class="nav-title">{{ colxn.title }}</div> 
                 </a>
               </div>
               {% endif %}
@@ -279,7 +294,20 @@
                 {% assign colxn = all_products[handlesxn.last] %}
                 {% endif %}
                 <a href="{{ colxn.url }}">
-                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain; background-color: #f1f1f1;"{% endif %}>
+                  {% liquid 
+                    if colxn.featured_image.height >= colxn.featured_image.width 
+                    assign styles = "background-color: #f1f1f1,object-fit: contain;"
+                    endif 
+                  %}  
+                {{ colxn.featured_image 
+                  | image_url: width: 425 
+                  | image_tag: 
+                  loading: 'lazy',
+                  sizes: '(min-width: 900px) calc((600px) * 1 /  2),100vw',
+                  styles: styles,
+                   widths: '250, 275, 300, 315, 350, 375, 400, 425'
+                 }}
+                {% comment %} <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain; background-color: #f1f1f1;"{% endif %}> {% endcomment %}
                   <div class="nav-title">{{ colxn.title }}</div>
                 </a>
               </div>
@@ -379,8 +407,22 @@
                 {% assign colxn = all_products[handlesxn.last] %}
                 {% endif %}
                 <a href="{{ colxn.url }}">
-                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
-                  <div class="nav-title">{{ colxn.title }}</div>
+                  {% liquid 
+                    if colxn.featured_image.height >= colxn.featured_image.width 
+                    assign styles = "background-color: #f1f1f1,object-fit: contain;"
+                    endif 
+                  %} 
+                {{ colxn.featured_image 
+                  | image_url: width: 425 
+                  | image_tag: 
+                  loading: 'lazy',
+                  sizes: '(min-width: 900px) calc((600px) * 1 /  2),100vw',
+                  styles: styles,
+                   widths: '250, 275, 300, 315, 350, 375, 400, 425'
+                 }}
+                {% comment %} <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
+                {% endcomment %}  
+                <div class="nav-title">{{ colxn.title }}</div> 
                 </a>
               </div>
               {% endif %}
