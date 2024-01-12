@@ -18,6 +18,12 @@
       },
       {
         "type": "image_picker",
+        "id": "newquiltpearlblue",
+        "label": "New Quilt Pearl Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
         "id": "blueaboard",
         "label": "Blue Aboard",
         "info": "Add\/Replace image for Color Swatch"
