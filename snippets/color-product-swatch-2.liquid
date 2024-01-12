@@ -1,3 +1,53 @@
+    {% if product.tags contains "2.Color_Pearl Blue" and product.url contains "-pearlblue" %}
+    <span class="variant-color-wrapper" title="Pearl Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.pearlblue | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Pearl Blue" %}<span class="variant-color-wrapper" title="Pearl Blue" data-url="{% include 'removelist' %}-pearlblue"><img class="hedgren-color-inactive" src="{{ settings.pearlblue | img_url: '' }}"></span>
+     {% endif %}
+
+    {% if product.tags contains "2.Color_New Quilt Pearl Blue" and product.url contains "-newquiltpearlblue" %}
+    <span class="variant-color-wrapper" title="New Quilt Pearl Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.newquiltpearlblue | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_New Quilt Pearl Blue" %}<span class="variant-color-wrapper" title="New Quilt Pearl Blue" data-url="{% include 'removelist' %}-newquiltpearlblue"><img class="hedgren-color-inactive" src="{{ settings.newquiltpearlblue | img_url: '' }}"></span>
+     {% endif %}
+
+    {% if product.tags contains "2.Color_New Quilt Full Black" and product.url contains "-newquiltfullblack" %}
+    <span class="variant-color-wrapper" title="New Quilt Full Black" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.newquiltfullblack | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_New Quilt Full Black" %}<span class="variant-color-wrapper" title="New Quilt Full Black" data-url="{% include 'removelist' %}-newquiltfullblack"><img class="hedgren-color-inactive" src="{{ settings.newquiltfullblack | img_url: '' }}"></span>
+     {% endif %}
+
+{% if product.tags contains "2.Color_Creased Royal Blue" and product.url contains "-creasedroyalblue" %}
+    <span class="variant-color-wrapper" title="Creased Royal Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creasedroyalblue | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Creased Royal Blue" %}<span class="variant-color-wrapper" title="Creased Royal Blue" data-url="{% include 'removelist' %}-creasedroyalblue"><img class="hedgren-color-inactive" src="{{ settings.creasedroyalblue | img_url: '' }}"></span>
+     {% endif %}
+
+{% if product.tags contains "2.Color_Creased Black/Coral" and product.url contains "-creasedblackcoral" %}
+    <span class="variant-color-wrapper" title="Creased Black/Coral" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creasedblackcoral | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Creased Black/Coral" %}<span class="variant-color-wrapper" title="Creased Black/Coral" data-url="{% include 'removelist' %}-creasedblackcoral"><img class="hedgren-color-inactive" src="{{ settings.creasedblackcoral | img_url: '' }}"></span>
+     {% endif %}
+
+{% if product.tags contains "2.Color_Vaporous Grey" and product.url contains "-creasedvaporousgrey" %}
+    <span class="variant-color-wrapper" title="Creased Vaporous Grey" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.creasedvaporousgrey | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Creased Vaporous Grey" %}<span class="variant-color-wrapper" title="Creased Vaporous Grey" data-url="{% include 'removelist' %}-creasedvaporousgrey"><img class="hedgren-color-inactive" src="{{ settings.creasedvaporousgrey | img_url: '' }}"></span>
+     {% endif %}
+
+{% if product.tags contains "2.Color_Nova Blush" and product.url contains "-blush" %}
+    <span class="variant-color-wrapper" title="Blush" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.novablush | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Nova Blush" %}<span class="variant-color-wrapper" title="Blush" data-url="{% include 'removelist' %}-blush"><img class="hedgren-color-inactive" src="{{ settings.novablush | img_url: '' }}"></span>
+     {% endif %}
+
+{% if product.tags contains "2.Color_Blue Aboard" and product.url contains "-blueaboard" %}
+    <span class="variant-color-wrapper" title="Blue Aboard" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.blueaboard | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Blue Aboard" %}<span class="variant-color-wrapper" title="Blue Aboard" data-url="{% include 'removelist' %}-blueaboard"><img class="hedgren-color-inactive" src="{{ settings.blueaboard | img_url: '' }}"></span>
+     {% endif %}
+
+{% if product.tags contains "2.Color_Nova Birch" and product.url contains "-birch" %}
+    <span class="variant-color-wrapper" title="Birch" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.novabirch | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Nova Birch" %}<span class="variant-color-wrapper" title="Birch" data-url="{% include 'removelist' %}-birch"><img class="hedgren-color-inactive" src="{{ settings.novabirch | img_url: '' }}"></span>
+     {% endif %}
+
+{% if product.tags contains "2.Color_Coral Grey Signature" and product.url contains "-coralgreysignature" %}
+    <span class="variant-color-wrapper" title="Coral Grey Signature" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.coralgreysignature| img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Coral Grey Signature" %}<span class="variant-color-wrapper" title="Coral Grey Signature" data-url="{% include 'removelist' %}-coralgreysignature"><img class="hedgren-color-inactive" src="{{ settings.coralgreysignature | img_url: '' }}"></span>
+     {% endif %}
+
     {% if product.tags contains "2.Color_Birch" and product.url contains "-birch" %}
     <span class="variant-color-wrapper" title="Birch" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.birch | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Birch" %}<span class="variant-color-wrapper" title="Birch" data-url="{% include 'removelist' %}-birch"><img class="hedgren-color-inactive" src="{{ settings.birch | img_url: '' }}"></span>
