@@ -42,7 +42,7 @@
       },
       {
         "type": "image_picker",
-        "id": "creasedgrey",
+        "id": "creasedvaporousgrey",
         "label": "Creased Vaporous Grey",
         "info": "Add\/Replace image for Color Swatch"
       },
@@ -54,7 +54,7 @@
       },
       {
         "type": "image_picker",
-        "id": "creasedroyal",
+        "id": "creasedroyalblue",
         "label": "Creased Royal Blue",
         "info": "Add\/Replace image for Color Swatch"
       },
