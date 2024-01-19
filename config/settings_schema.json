@@ -1700,6 +1700,36 @@
         "type": "html",
         "id": "h_description16",
         "label": "Enter description16"
+      },
+      {
+        "type": "text",
+        "id": "h_name17",
+        "label": "Name of collection17"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection17",
+        "label": "select collection17"
+      },
+      {
+        "type": "html",
+        "id": "h_description17",
+        "label": "Enter description17"
+      },
+      {
+        "type": "text",
+        "id": "h_name18",
+        "label": "Name of collection18"
+      },
+      {
+        "type": "collection",
+        "id": "h_collection18",
+        "label": "select collection18"
+      },
+      {
+        "type": "html",
+        "id": "h_description18",
+        "label": "Enter description18"
       }
     ]
   },
