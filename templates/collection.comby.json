@@ -1,0 +1,343 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1637649148751d55cf": {
+      "type": "hedgren-collection-hero",
+      "blocks": {
+        "411dc432-1cb7-4f96-bc4d-f31649016464": {
+          "type": "features",
+          "settings": {
+            "name": "Cortado",
+            "bag": "shopify:\/\/shop_images\/1_df1985b7-6a82-4a99-b571-3b7c7ccfcaf8.png",
+            "feature_img1": "shopify:\/\/shop_images\/GUN_1441.jpg",
+            "feature_heading1": "Padded phone pocket",
+            "feature_description1": "For protective and dedicated storage.",
+            "feature_img2": "shopify:\/\/shop_images\/GUN_1430.jpg",
+            "feature_heading2": "Safety back pocket",
+            "feature_description2": "With recessed zipper opening and close body positioning.",
+            "feature_img3": "shopify:\/\/shop_images\/GUN_1437.jpg",
+            "feature_heading3": "Double compartment",
+            "feature_description3": "For easy organization.",
+            "feature_img4": "shopify:\/\/shop_images\/GUN_1427.jpg",
+            "feature_heading4": "Refined, detachable key hanger",
+            "feature_description4": "With external and internal fixation options.",
+            "feature_img5": "shopify:\/\/shop_images\/GUN_1442.jpg",
+            "feature_heading5": "RFID",
+            "feature_description5": "RFID signal blocking pocket to protect your ID card or bank card from getting scanned and data stolen.",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        },
+        "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7": {
+          "type": "features",
+          "settings": {
+            "name": "Ristretto",
+            "bag": "shopify:\/\/shop_images\/2_4df11101-1895-4c05-b9d5-a300cf5fc688.png",
+            "feature_img1": "shopify:\/\/shop_images\/GUN_1470.jpg",
+            "feature_heading1": "Padded phone pocket",
+            "feature_description1": "For protective and dedicated storage.",
+            "feature_img2": "shopify:\/\/shop_images\/GUN_1460.jpg",
+            "feature_heading2": "Safety back pocket",
+            "feature_description2": "With recessed zipper opening and close body positioning.",
+            "feature_img3": "shopify:\/\/shop_images\/GUN_1452.jpg",
+            "feature_heading3": "Quick storage pocket",
+            "feature_description3": "For small essentials.",
+            "feature_img4": "shopify:\/\/shop_images\/GUN_1463.jpg",
+            "feature_heading4": "Refined, detachable keyhanger",
+            "feature_description4": "With external and internal fixation options.",
+            "feature_img5": "shopify:\/\/shop_images\/GUN_1471.jpg",
+            "feature_heading5": "RFID",
+            "feature_description5": "RFID signal blocking pocket to protect your ID card or bank card from getting scanned and data stolen.",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        },
+        "7c289c8d-f795-426d-a6f0-ccbb7e116719": {
+          "type": "features",
+          "settings": {
+            "name": "Americano",
+            "bag": "shopify:\/\/shop_images\/3_953c3126-efbe-489f-88fd-450ca9b23bea.png",
+            "feature_img1": "shopify:\/\/shop_images\/GUN_1504.jpg",
+            "feature_heading1": "Padded phone pocket",
+            "feature_description1": "For protective and dedicated storage.",
+            "feature_img2": "shopify:\/\/shop_images\/GUN_1485.jpg",
+            "feature_heading2": "Safety back pocket",
+            "feature_description2": "With recessed zipper opening and close body positioning.",
+            "feature_img3": "shopify:\/\/shop_images\/GUN_1489.jpg",
+            "feature_heading3": "Quick storage pocket",
+            "feature_description3": "For small essentials.",
+            "feature_img4": "shopify:\/\/shop_images\/GUN_1492.jpg",
+            "feature_heading4": "Refined, detachable key hanger",
+            "feature_description4": "With external and internal fixation options.",
+            "feature_img5": "shopify:\/\/shop_images\/GUN_1497.jpg",
+            "feature_heading5": "RFID",
+            "feature_description5": "RFID signal blocking pocket to protect your ID card or bank card from getting scanned and data stolen.",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        },
+        "3bad18c4-f5e6-4a34-ada7-18bfb7b11f97": {
+          "type": "features",
+          "settings": {
+            "name": "Doppio",
+            "bag": "shopify:\/\/shop_images\/4_ccd2a5c9-e8a4-40c0-9a6a-c2b42c4dcabf.png",
+            "feature_img1": "shopify:\/\/shop_images\/GUN_1543.jpg",
+            "feature_heading1": "Padded phone pocket",
+            "feature_description1": "For protective and dedicated storage.",
+            "feature_img2": "shopify:\/\/shop_images\/GUN_1548.jpg",
+            "feature_heading2": "RFID",
+            "feature_description2": "RFID signal blocking pocket to protect your ID card or bank card from getting scanned and data stolen.",
+            "feature_img3": "shopify:\/\/shop_images\/GUN_1539.jpg",
+            "feature_heading3": "Quick storage pocket",
+            "feature_description3": "For small essentials.",
+            "feature_img4": "shopify:\/\/shop_images\/GUN_1537.jpg",
+            "feature_heading4": "Double compartment",
+            "feature_description4": "For easy organization.",
+            "feature_img5": "shopify:\/\/shop_images\/GUN_1541.jpg",
+            "feature_heading5": "Safety back pocket",
+            "feature_description5": "With recessed zipper opening and close body positioning.",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        },
+        "096ebac3-047d-4dc9-b070-3620abbc4c46": {
+          "type": "features",
+          "settings": {
+            "name": "Frappe",
+            "bag": "shopify:\/\/shop_images\/5_a1a1dae6-fd5b-488a-9a83-9d255dc0ed77.png",
+            "feature_img1": "shopify:\/\/shop_images\/GUN_1567.jpg",
+            "feature_heading1": "Large front pocket",
+            "feature_description1": "Additional and zipped.",
+            "feature_img2": "shopify:\/\/shop_images\/GUN_1577.jpg",
+            "feature_heading2": "Removable inside pouche",
+            "feature_description2": "Discrete and qualitative execution with zipper closure and double press button fixation.",
+            "feature_img3": "shopify:\/\/shop_images\/GUN_1552.jpg",
+            "feature_heading3": "Mounted sleeve handle",
+            "feature_description3": "With colour details.",
+            "feature_img4": "shopify:\/\/shop_images\/GUN_1556.jpg",
+            "feature_heading4": "Double compartment",
+            "feature_description4": "With expandability option.",
+            "feature_img5": "shopify:\/\/shop_images\/GUN_1561.jpg",
+            "feature_heading5": "Safety back pocket",
+            "feature_description5": "With recessed zipper opening and close body positioning.",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        },
+        "10beabcd-fbbb-4c70-9ed8-2ebc5e5411e7": {
+          "type": "features",
+          "settings": {
+            "name": "Latte",
+            "bag": "shopify:\/\/shop_images\/6_af2dca01-b40e-467c-b1bf-69f9045ad7b5.png",
+            "feature_img1": "shopify:\/\/shop_images\/GUN_1610.jpg",
+            "feature_heading1": "Large front pocket",
+            "feature_description1": "Additional and zipped.",
+            "feature_img2": "shopify:\/\/shop_images\/GUN_1615.jpg",
+            "feature_heading2": "Practical middle pocket",
+            "feature_description2": "With magnetic closure and double compartment concept for easy organization.",
+            "feature_img3": "shopify:\/\/shop_images\/GUN_1534.jpg",
+            "feature_heading3": "Removable inside pouche",
+            "feature_description3": "Discrete and qualitative execution with zipper closure and double press button fixation.",
+            "feature_img4": "shopify:\/\/shop_images\/GUN_1596.jpg",
+            "feature_heading4": "Safety back pocket",
+            "feature_description4": "With recessed zipper opening and close body positioning.",
+            "feature_img5": "shopify:\/\/shop_images\/GUN_1600.jpg",
+            "feature_heading5": "RFID",
+            "feature_description5": "RFID signal blocking pocket to protect your ID card or bank card from getting scanned and data stolen.",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        },
+        "a2280178-d8ee-4a36-bba4-fee8d8e4accc": {
+          "type": "features",
+          "settings": {
+            "name": "Lungo",
+            "bag": "shopify:\/\/shop_images\/7_0909fd5b-4d75-4c2c-98d1-771e0f86540d.png",
+            "feature_img1": "shopify:\/\/shop_images\/GUN_1638.jpg",
+            "feature_heading1": "Padded laptop sleeve",
+            "feature_description1": "14” – Mac 15”",
+            "feature_img2": "shopify:\/\/shop_images\/GUN_1641.jpg",
+            "feature_heading2": "Practical middle pocket",
+            "feature_description2": "With magnetic closure and double compartment concept for easy organization.",
+            "feature_img3": "shopify:\/\/shop_images\/GUN_1534_9e8746ba-9526-4c3b-939b-bf541946d2ff.jpg",
+            "feature_heading3": "Removable inside pouche",
+            "feature_description3": "Discrete and qualitative execution with zipper closure and double press button fixation.",
+            "feature_img4": "shopify:\/\/shop_images\/GUN_1624.jpg",
+            "feature_heading4": "Smart sleeve",
+            "feature_description4": "Enabling the bag to be carried along with a luggage item.",
+            "feature_img5": "shopify:\/\/shop_images\/GUN_1634.jpg",
+            "feature_heading5": "Secure locking zippers",
+            "feature_description5": "On the laptop compartment to secure extra closure.",
+            "feature_heading6": "",
+            "feature_description6": ""
+          }
+        }
+      },
+      "block_order": [
+        "411dc432-1cb7-4f96-bc4d-f31649016464",
+        "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7",
+        "7c289c8d-f795-426d-a6f0-ccbb7e116719",
+        "3bad18c4-f5e6-4a34-ada7-18bfb7b11f97",
+        "096ebac3-047d-4dc9-b070-3620abbc4c46",
+        "10beabcd-fbbb-4c70-9ed8-2ebc5e5411e7",
+        "a2280178-d8ee-4a36-bba4-fee8d8e4accc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
+        "heading_left": "",
+        "heading_right": "",
+        "sub_heading": "",
+        "addtext": "ADD TO CART",
+        "outtext": "COMING SOON",
+        "moretext": "More info",
+        "buttontext": "SHOP ALL PRODUCTS"
+      }
+    },
+    "16639326218eac90ee": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/3DModel_cut_copy.280_G_b28960d5-7a13-4e0f-92de-3072a36455e4.jpg",
+        "heading": "ENVRIONMENT",
+        "subheading": "",
+        "content": "The 2 Main inside and outside fabrics are 100% recycled and certified RPET materials, made from recycled plastic bottles. \n<br><br>\nOutside fabric: 600D 100% recycled Polyester\nInside lining fabric: 150D 100% recycled Polyester\nTrim material: recycled (40ù) RPET PU",
+        "button_label": "",
+        "custom_link": false,
+        "button_link": "#coll_hero_products",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
+    "1663596510c820a18e": {
+      "type": "hedgren-colorful-cards",
+      "settings": {
+        "heading": "",
+        "subheading": ""
+      }
+    },
+    "1663596479e46c6f0c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
+    "1637658320f19f8e7c": {
+      "type": "hedgren-discover-collection",
+      "blocks": {
+        "13021447-4b2d-470a-aee2-66f69c98fa2e": {
+          "type": "collect",
+          "settings": {
+            "coll": "great-american-heritage",
+            "page": ""
+          }
+        },
+        "23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8": {
+          "type": "collect",
+          "settings": {
+            "coll": "cabin-size",
+            "page": ""
+          }
+        },
+        "2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3": {
+          "type": "collect",
+          "settings": {
+            "coll": "aura",
+            "page": ""
+          }
+        },
+        "1ed8fe6f-6171-47fc-a151-13c318a5e2e3": {
+          "type": "collect",
+          "settings": {
+            "coll": "charm-business",
+            "page": ""
+          }
+        },
+        "f657a88c-b943-44c3-a8c7-16c9811d888d": {
+          "type": "collect",
+          "settings": {
+            "coll": "luggage",
+            "page": ""
+          }
+        },
+        "3a0a04e6-8f94-49cd-8d5a-a9457f1b6755": {
+          "type": "collect",
+          "settings": {
+            "coll": "diamond-star",
+            "page": ""
+          }
+        },
+        "a726fe23-c473-4920-8305-df6d75419a8b": {
+          "type": "collect",
+          "settings": {
+            "coll": "commute",
+            "page": ""
+          }
+        },
+        "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df": {
+          "type": "collect",
+          "settings": {
+            "coll": "escapade-1",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "13021447-4b2d-470a-aee2-66f69c98fa2e",
+        "23fdbef3-0e4e-4e75-9ca0-c0fc28d89ab8",
+        "2ece5c5f-fe1f-45f7-bb5c-8faba78f55c3",
+        "1ed8fe6f-6171-47fc-a151-13c318a5e2e3",
+        "f657a88c-b943-44c3-a8c7-16c9811d888d",
+        "3a0a04e6-8f94-49cd-8d5a-a9457f1b6755",
+        "a726fe23-c473-4920-8305-df6d75419a8b",
+        "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df"
+      ],
+      "settings": {
+        "title_left": "1994",
+        "title_mid": "Discover our collections",
+        "title_right": "2022",
+        "subtitle": "Our collections",
+        "your_text": "Your favorite everyday companion. Ready-to-go bags and travel gear for everyday use.",
+        "discover_text": "DISCOVER COLLECTION",
+        "discover_shoptext": "SHOP COLLECTIONS"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1637649148751d55cf",
+    "16639326218eac90ee",
+    "1663596510c820a18e",
+    "1663596479e46c6f0c",
+    "1637658320f19f8e7c"
+  ]
+}
