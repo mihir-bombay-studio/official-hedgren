@@ -335,6 +335,38 @@
       </div>
     </div>{% endunless %}
       {% endif %}
+
+
+
+{% if settings.h_collection17 != blank %}
+      {% assign coll = settings.h_collection17 %}{% unless coll.handle == collection.handle %}
+    <div class="featured-coll-card">
+      {% assign collection_handle = settings.h_collection17 %}
+      		<div class="coll-card">
+              <div class="coll-img">
+              	{% if collection_handle.image %}
+                	<a href="{{ collection_handle.url }}"><img loading="lazy" src="{{ collection_handle.image | img_url: '350x' }}" alt="{{ collection_handle.title }}"></a>
+                {% else %}
+                	{{ 'collection-1' | placeholder_svg_tag }}
+				{% endif %}
+              </div>
+              <div class="coll-text">
+                <div class="coll-title">{{ collection_handle.title }}</div>
+              <div class="coll-desc">{% if collection_handle.description != "" %}{{ collection_handle.description }}{% else %}{{ section.settings.your_text }}{% endif %}</div>
+               <span class="free-radical"><a class="coll-url" href="{{ collection_handle.url }}"><span class="coll-url-text">{{ section.settings.discover_text }}</span><span class="right-chev-svgs">{% include 'icon-red-right-chevron' %}{% include 'icon-red-right-chevron' %}</span></a></span>
+              </div>
+      </div>
+    </div>{% endunless %}
+      {% endif %}
+
+
+
+
+
+
+
+
+      
       </div>
     <a href="/collections" class="btn btn-center featured-coll-btn">{{ section.settings.discover_shoptext }}</a>
   </div>
