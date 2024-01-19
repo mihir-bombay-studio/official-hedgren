@@ -15,6 +15,7 @@
 .features-filter-wrap {
   align-items: center;
   margin-bottom: 76px;
+  flex-flow:wrap;
 }
 
 .filter {
