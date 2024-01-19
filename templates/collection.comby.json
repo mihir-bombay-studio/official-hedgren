@@ -131,7 +131,8 @@
         "3bad18c4-f5e6-4a34-ada7-18bfb7b11f97"
       ],
       "custom_css": [
-        ".img-text-wrapper{display:none !important;}"
+        ".img-text-wrapper {display: none !important;}",
+        ".hedgren-collection-features-wrapper.dark-bg{padding-bottom:0px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
