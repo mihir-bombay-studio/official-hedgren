@@ -265,7 +265,13 @@
 <div class="hedgren-collection-features-wrapper dark-bg">
   <div class="container">
     <h2 class="hedgren-collection-features-heading">Discover features</h2>
-    <h4 class="hedgren-collection-features-heading" test="{{ section.id }}"></h4>
+    
+    {% if section.id == "template--20654866825550__1637649148751d55cf" %}
+    <h4 class="hedgren-collection-features-heading">Hardside</h3>
+      {% endif %}
+  {% if section.id == "template--20654866825550__hedgren_collection_hero_Y9aYHp" %}
+    <h4 class="hedgren-collection-features-heading" >Softside</h3>
+      {% endif %}
     {% if section.blocks.size > 1 %}
     <div class="feature-subtitle no-d">SELECT A BAG</div>
     <div class="features-filter-wrap flex-box">
