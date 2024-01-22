@@ -151,7 +151,7 @@
           "type": "features",
           "settings": {
             "name": "Visit",
-            "bag": "shopify:\/\/shop_images\/1_df1985b7-6a82-4a99-b571-3b7c7ccfcaf8.png",
+            "bag": "shopify:\/\/shop_images\/Visit.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1986.jpg",
             "feature_heading1": "Large main opening",
             "feature_description1": "With double and lockable zipper puller closure.",
@@ -175,7 +175,7 @@
           "type": "features",
           "settings": {
             "name": "Relax",
-            "bag": "shopify:\/\/shop_images\/2_4df11101-1895-4c05-b9d5-a300cf5fc688.png",
+            "bag": "shopify:\/\/shop_images\/Relax.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1967.jpg",
             "feature_heading1": "Large main opening",
             "feature_description1": "With double zipper puller closure and protective side gussets.",
@@ -198,7 +198,7 @@
           "type": "features",
           "settings": {
             "name": "Break",
-            "bag": "shopify:\/\/shop_images\/3_953c3126-efbe-489f-88fd-450ca9b23bea.png",
+            "bag": "shopify:\/\/shop_images\/Break.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1779.jpg",
             "feature_heading1": "Extra-large main opening",
             "feature_description1": "For good overview and easy handling.",
@@ -222,7 +222,7 @@
           "type": "features",
           "settings": {
             "name": "Handle M",
-            "bag": "shopify:\/\/shop_images\/4_ccd2a5c9-e8a4-40c0-9a6a-c2b42c4dcabf.png",
+            "bag": "shopify:\/\/shop_images\/Handle_M.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2020.jpg",
             "feature_heading1": "Inside organization",
             "feature_description1": "Including paper holder, cable pocket and RFID pocket.",
@@ -246,7 +246,7 @@
           "type": "features",
           "settings": {
             "name": "Handle L",
-            "bag": "shopify:\/\/shop_images\/5_a1a1dae6-fd5b-488a-9a83-9d255dc0ed77.png",
+            "bag": "shopify:\/\/shop_images\/Handle_L.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2020_a00cebb7-7a84-40c0-94e1-ec4094bfc43f.jpg",
             "feature_heading1": "Inside organization",
             "feature_description1": "Including paper holder, cable pocket and RFID pocket.",
@@ -270,7 +270,7 @@
           "type": "features",
           "settings": {
             "name": "Trip M",
-            "bag": "shopify:\/\/shop_images\/6_af2dca01-b40e-467c-b1bf-69f9045ad7b5.png",
+            "bag": "shopify:\/\/shop_images\/Trip_M.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2055.jpg",
             "feature_heading1": "Dedicated expandable compartment",
             "feature_description1": "For clothing storage with full opening for easy packing.",
@@ -294,7 +294,7 @@
           "type": "features",
           "settings": {
             "name": "Trip L",
-            "bag": "shopify:\/\/shop_images\/7_0909fd5b-4d75-4c2c-98d1-771e0f86540d.png",
+            "bag": "shopify:\/\/shop_images\/Trip_L.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2121.jpg",
             "feature_heading1": "Dedicated expandable compartment",
             "feature_description1": "For clothing storage with full opening for easy packing.",
@@ -318,7 +318,7 @@
           "type": "features",
           "settings": {
             "name": "Sojourn",
-            "bag": "shopify:\/\/shop_images\/7_0909fd5b-4d75-4c2c-98d1-771e0f86540d.png",
+            "bag": "shopify:\/\/shop_images\/Sojourn.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2134.jpg",
             "feature_heading1": "Convertible duffle\/backpack concept",
             "feature_description1": "The webbing loop with press button holds both handles together for comfortable carry usage and fast handling.",
@@ -342,7 +342,7 @@
           "type": "features",
           "settings": {
             "name": "Multy",
-            "bag": "shopify:\/\/shop_images\/7_0909fd5b-4d75-4c2c-98d1-771e0f86540d.png",
+            "bag": "shopify:\/\/shop_images\/Multy.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2171.jpg",
             "feature_heading1": "Convertible backpack concept",
             "feature_description1": "With ergonomic backpack system, fixation hooks and wheel covers.",
@@ -366,7 +366,7 @@
           "type": "features",
           "settings": {
             "name": "Weekend",
-            "bag": "shopify:\/\/shop_images\/7_0909fd5b-4d75-4c2c-98d1-771e0f86540d.png",
+            "bag": "shopify:\/\/shop_images\/Weekend.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2204.jpg",
             "feature_heading1": "Expandability feature",
             "feature_description1": "20-23cm: take smart advantage of the maximum, mostly free cabin allowances.",
@@ -390,7 +390,7 @@
           "type": "features",
           "settings": {
             "name": "Journey",
-            "bag": "shopify:\/\/shop_images\/7_0909fd5b-4d75-4c2c-98d1-771e0f86540d.png",
+            "bag": "shopify:\/\/shop_images\/Journey.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1932.jpg",
             "feature_heading1": "Upright construction",
             "feature_description1": "Voluminous, stable upright construction with flexible compression option.",
