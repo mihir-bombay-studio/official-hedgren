@@ -31,7 +31,7 @@
           "type": "features",
           "settings": {
             "name": "Grip XS",
-            "bag": "shopify:\/\/shop_images\/1_df1985b7-6a82-4a99-b571-3b7c7ccfcaf8.png",
+            "bag": "shopify:\/\/shop_images\/Grip_XS.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2214_Brushed.jpg",
             "feature_heading1": "4 Handles",
             "feature_description1": "Makes it child’s play to pick up the case and quickly place it on a conveyor belt or in the boot of your car.",
@@ -55,7 +55,7 @@
           "type": "features",
           "settings": {
             "name": "Grip S",
-            "bag": "shopify:\/\/shop_images\/2_4df11101-1895-4c05-b9d5-a300cf5fc688.png",
+            "bag": "shopify:\/\/shop_images\/Grip_S.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2247_Bruched.jpg",
             "feature_heading1": "4 Handles",
             "feature_description1": "Makes it child’s play to pick up the case and quickly place it on a conveyor belt or in the boot of your car.",
@@ -79,7 +79,7 @@
           "type": "features",
           "settings": {
             "name": "Grip M EXP",
-            "bag": "shopify:\/\/shop_images\/3_953c3126-efbe-489f-88fd-450ca9b23bea.png",
+            "bag": "shopify:\/\/shop_images\/Grip_M_EXP.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2247_Bruched_a32e6016-1ce8-41ca-bbd0-7c8e780b059c.jpg",
             "feature_heading1": "4 Handles",
             "feature_description1": "Makes it child’s play to pick up the case and quickly place it on a conveyor belt or in the boot of your car.",
@@ -103,7 +103,7 @@
           "type": "features",
           "settings": {
             "name": "Grip L EXP",
-            "bag": "shopify:\/\/shop_images\/4_ccd2a5c9-e8a4-40c0-9a6a-c2b42c4dcabf.png",
+            "bag": "shopify:\/\/shop_images\/Grip_L_EXP.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_2247_Bruched_a32e6016-1ce8-41ca-bbd0-7c8e780b059c.jpg",
             "feature_heading1": "4 Handles",
             "feature_description1": "Makes it child’s play to pick up the case and quickly place it on a conveyor belt or in the boot of your car.",
@@ -135,7 +135,6 @@
         ".hedgren-collection-features-wrapper {margin-bottom: 0px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
         "heading_left": "",
         "heading_right": "",
         "sub_heading": "",
