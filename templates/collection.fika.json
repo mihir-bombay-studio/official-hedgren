@@ -205,6 +205,9 @@
         "10beabcd-fbbb-4c70-9ed8-2ebc5e5411e7",
         "a2280178-d8ee-4a36-bba4-fee8d8e4accc"
       ],
+      "custom_css": [
+        ".img-text-wrapper {display: none !important;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
         "heading_left": "",
@@ -217,6 +220,27 @@
       }
     },
     "16639326218eac90ee": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/HEDGREN_ISABELLE_LIFESTYLE_OVERRIJSE-23_kopie.jpg",
+        "heading": "THE STORY",
+        "subheading": "",
+        "content": "<strong>Slow down and appreciate the good things in life.<\/strong> \n<br><br>\nThe literal meaning of the Swedish word ‘Fika’ is coffee. In its broader context, Fika stands for a moment to slow down and appreciate the good things in life.\nThis new, sustainable collection of crossover models, handbags, and a backpack aims to bring peace, quiet, and joy to your mind. Soft rounded edges, minimalistic design, and recycled materials pair beautifully with the witty design details of the Fika collection.\nAvailable in 4 sleek colour hues, this range offers all the smart functionality you expect from Hedgren. With a characteristic, bumpershaped front opening for the quick storage of smaller essentials, every bag also comes with a protective RFID pocket, a safety back pocket,\nan integrated phone pocket, and a refined, detachable key hanger to keep you secure and organised. Selected styles offer a removable inside pouch and laptop organisation.",
+        "button_label": "",
+        "custom_link": false,
+        "button_link": "#coll_hero_products",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
+    "hedgren_img_text_hBfc49": {
       "type": "hedgren-img-text",
       "settings": {
         "background": "normal-bg",
@@ -336,6 +360,7 @@
     "product-grid",
     "1637649148751d55cf",
     "16639326218eac90ee",
+    "hedgren_img_text_hBfc49",
     "1663596510c820a18e",
     "1663596479e46c6f0c",
     "1637658320f19f8e7c"
