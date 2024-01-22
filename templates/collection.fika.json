@@ -31,7 +31,7 @@
           "type": "features",
           "settings": {
             "name": "Cortado",
-            "bag": "shopify:\/\/shop_images\/1_df1985b7-6a82-4a99-b571-3b7c7ccfcaf8.png",
+            "bag": "shopify:\/\/shop_images\/Cortado.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1441.jpg",
             "feature_heading1": "Padded phone pocket",
             "feature_description1": "For protective and dedicated storage.",
@@ -55,7 +55,7 @@
           "type": "features",
           "settings": {
             "name": "Ristretto",
-            "bag": "shopify:\/\/shop_images\/2_4df11101-1895-4c05-b9d5-a300cf5fc688.png",
+            "bag": "shopify:\/\/shop_images\/Ristretto.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1470.jpg",
             "feature_heading1": "Padded phone pocket",
             "feature_description1": "For protective and dedicated storage.",
@@ -79,7 +79,7 @@
           "type": "features",
           "settings": {
             "name": "Americano",
-            "bag": "shopify:\/\/shop_images\/3_953c3126-efbe-489f-88fd-450ca9b23bea.png",
+            "bag": "shopify:\/\/shop_images\/Americano.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1504.jpg",
             "feature_heading1": "Padded phone pocket",
             "feature_description1": "For protective and dedicated storage.",
@@ -103,7 +103,7 @@
           "type": "features",
           "settings": {
             "name": "Doppio",
-            "bag": "shopify:\/\/shop_images\/4_ccd2a5c9-e8a4-40c0-9a6a-c2b42c4dcabf.png",
+            "bag": "shopify:\/\/shop_images\/Doppio.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1543.jpg",
             "feature_heading1": "Padded phone pocket",
             "feature_description1": "For protective and dedicated storage.",
@@ -127,7 +127,7 @@
           "type": "features",
           "settings": {
             "name": "Frappe",
-            "bag": "shopify:\/\/shop_images\/5_a1a1dae6-fd5b-488a-9a83-9d255dc0ed77.png",
+            "bag": "shopify:\/\/shop_images\/Frappe.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1567.jpg",
             "feature_heading1": "Large front pocket",
             "feature_description1": "Additional and zipped.",
@@ -151,7 +151,7 @@
           "type": "features",
           "settings": {
             "name": "Latte",
-            "bag": "shopify:\/\/shop_images\/6_af2dca01-b40e-467c-b1bf-69f9045ad7b5.png",
+            "bag": "shopify:\/\/shop_images\/Latte.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1610.jpg",
             "feature_heading1": "Large front pocket",
             "feature_description1": "Additional and zipped.",
@@ -175,7 +175,7 @@
           "type": "features",
           "settings": {
             "name": "Lungo",
-            "bag": "shopify:\/\/shop_images\/7_0909fd5b-4d75-4c2c-98d1-771e0f86540d.png",
+            "bag": "shopify:\/\/shop_images\/Lungo.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_1638.jpg",
             "feature_heading1": "Padded laptop sleeve",
             "feature_description1": "14” – Mac 15”",
