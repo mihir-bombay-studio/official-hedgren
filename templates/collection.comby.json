@@ -425,7 +425,8 @@
       ],
       "custom_css": [
         ".hedgren-collection-hero {display: none !important;}",
-        ".hedgren-collection-products-wrapper {display: none !important;}"
+        ".hedgren-collection-products-wrapper {display: none !important;}",
+        ".img-text-wrapper {display: none !important;}"
       ],
       "settings": {
         "heading_left": "",
@@ -438,6 +439,27 @@
       }
     },
     "16639326218eac90ee": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/DSC00751_kopie.jpg",
+        "heading": "THE STORY",
+        "subheading": "",
+        "content": "<strong>COME BY, EXPLORE AND FEEL FREE<\/strong>\n<br><br>\nStylish, comfortable, and sustainable travel has never been easier, thanks to our new Comby collection. This range is designed to help you move swiftly and secure as you dash between destinations. No matter how long you plan on travelling, Comby offers a solution for all your travel needs. This complete assortment of hardside cases and complementing softside bags provides a piece for every situation.\nComby comes in three matching contemporary colours, while the hard-side cases have two additional colour variations to match our existing handbags. The entire Comby collection is made with strong recycled materials and includes all the smart features you love, and more. The advanced integration of the new Hedgren signature logo makes the perfect finishing touch.",
+        "button_label": "",
+        "custom_link": false,
+        "button_link": "#coll_hero_products",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
+    "hedgren_img_text_MhypBR": {
       "type": "hedgren-img-text",
       "settings": {
         "background": "normal-bg",
@@ -558,6 +580,7 @@
     "1637649148751d55cf",
     "hedgren_collection_hero_Y9aYHp",
     "16639326218eac90ee",
+    "hedgren_img_text_MhypBR",
     "1663596510c820a18e",
     "1663596479e46c6f0c",
     "1637658320f19f8e7c"
