@@ -53,9 +53,9 @@
       </span>{% elsif product.tags contains "2.Color_Nova Birch" %}<span class="variant-color-wrapper" title="Birch" data-url="{% include 'removelist' %}-birch"><img class="hedgren-color-inactive" src="{{ settings.novabirch | img_url: '' }}"></span>
      {% endif %}
 
-{% if product.tags contains "2.Color_Coral Grey Signature" and product.url contains "-coralgreysignature" %}
-    <span class="variant-color-wrapper" title="Coral Grey Signature" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.coralgreysignature| img_url: '' }}"> 
-      </span>{% elsif product.tags contains "2.Color_Coral Grey Signature" %}<span class="variant-color-wrapper" title="Coral Grey Signature" data-url="{% include 'removelist' %}-coralgreysignature"><img class="hedgren-color-inactive" src="{{ settings.coralgreysignature | img_url: '' }}"></span>
+{% if product.tags contains "2.Color_Coral/Grey Signature" and product.url contains "-coralgreysignature" %}
+    <span class="variant-color-wrapper" title="Coral/Grey Signature" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.coralgreysignature| img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Coral/Grey Signature" %}<span class="variant-color-wrapper" title="Coral/Grey Signature" data-url="{% include 'removelist' %}-coralgreysignature"><img class="hedgren-color-inactive" src="{{ settings.coralgreysignature | img_url: '' }}"></span>
      {% endif %}
 
     {% if product.tags contains "2.Color_Birch" and product.url contains "-birch" %}
