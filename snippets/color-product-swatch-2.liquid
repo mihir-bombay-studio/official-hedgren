@@ -1,3 +1,13 @@
+{% if product.tags contains "2.Color_Vaporous Grey" and product.url contains "-vaporousgrey" %}
+    <span class="variant-color-wrapper" title="Vaporous Grey" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.vaporousgrey | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Vaporous Grey" %}<span class="variant-color-wrapper" title="Vaporous Grey" data-url="{% include 'removelist' %}-vaporousgrey"><img class="hedgren-color-inactive" src="{{ settings.vaporousgrey | img_url: '' }}"></span>
+     {% endif %}
+     
+     {% if product.tags contains "2.Color_Grey Green" and product.url contains "-greygreen" %}
+    <span class="variant-color-wrapper" title="Grey Green" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.greygreen | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Grey Green" %}<span class="variant-color-wrapper" title="Grey Green" data-url="{% include 'removelist' %}-greygreen"><img class="hedgren-color-inactive" src="{{ settings.greygreen | img_url: '' }}"></span>
+     {% endif %}
+     
     {% if product.tags contains "2.Color_Pearl Blue" and product.url contains "-pearlblue" %}
     <span class="variant-color-wrapper" title="Pearl Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.pearlblue | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Pearl Blue" %}<span class="variant-color-wrapper" title="Pearl Blue" data-url="{% include 'removelist' %}-pearlblue"><img class="hedgren-color-inactive" src="{{ settings.pearlblue | img_url: '' }}"></span>
