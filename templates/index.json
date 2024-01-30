@@ -8,15 +8,15 @@
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/deal",
-        "headinglinktext": "SALE",
+        "headinglink": "shopify:\/\/collections\/cocoon",
+        "headinglinktext": "VIEW MORE",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "deal",
+        "collection": "cocoon",
         "buttontext": "SHOP ALL PRODUCTS",
-        "buttonurl": "shopify:\/\/collections\/deal"
+        "buttonurl": "shopify:\/\/collections\/cocoon"
       }
     },
     "1638356576387ca461": {
