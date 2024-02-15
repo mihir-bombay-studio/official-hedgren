@@ -1,9 +1,17 @@
 {{ 'hedgren-header.css' | asset_url | stylesheet_tag }}
 
-{% assign en = "Filter:-Bag-Type-Cross-over,Filter:-Bag-Type-Shoulder-bag,Filter:-Bag-Type-Backpack,Filter:-Bag-Type-Handbag,Filter:-Bag-Type-Tote-bag,Filter:-Bag-Type-Laptop-bag,Filter:-Bag-Type-Sport-bag,Filter:-Bag-Type-Waist-bag,Filter:-Bag-Type-Pouches,Filter:-Bag-Type-Baby-bags,Filter:-Bag-Type-Accessories-,Filter:-Bag-Type-Travel,Filter:-Bag-Type-For-her,Filter:-Bag-Type-For-him,Filter:-Backpack-Type-Laptop,Filter:-Backpack-Type-Sling,Filter:-Backpack-Type-Travel,Filter:-Backpack-Type-For-him,Filter:-Backpack-Type-For-her,Filter:-Luggage-Type-Cabin,Filter:-Luggage-Type-Check-in,Filter:-Luggage-Type-Duffle-bags-and-duffle-on-wheels,Filter:-Length-of-stay-Day-trip,Filter:-Length-of-stay-Over-nighter,Filter:-Length-of-stay-Weekend-escape,Filter:-Length-of-stay-1-week-or-longer,Filter:-Accessory-Type-Waist-bag,Filter:-Accessory-Type-Phone-bag,Filter:-Accessory-Type-Pouches,Filter:-Accessory-Type-For-him,Filter:-Accessory-Type-For-her,Filter:-Deals-Deal,Filter:-Eco-friendly-Yes,Filter:-Eco-friendly-No" | split: ',' %}
-{% assign fr = "Filter:-Type-de-sac---Sac-Bandoulière,Filter:-Type-de-sac---Sac-Epaule,Filter:-Type-de-sac---Sac-à-dos,Filter:-Type-de-sac---Sac-à-Main-,Filter:-Type-de-sac---Sac-Shopper,Filter:-Type-de-sac---Sac-Ordinateur,Filter:-Type-de-sac---Sac-de-Sport,Filter:-Type-de-sac---Sac-Banane,Filter:-Type-de-sac---Pochettes,Filter:-Type-de-sac---Sacs-Bébés,Filter:-Type-de-sac---Accessoires,Filter:-Type-de-sac---Sac-Voyage,Filter:-Type-de-sac---Pour-Elle,Filter:-Type-de-sac---Pour-Lui-,Filter:-type-de-sac-à-dos---Sac-à-Dos-Ordinateur,Filter:-type-de-sac-à-dos---Sac-à-Dos-Bandoulière,Filter:-type-de-sac-à-dos---Sac-à-Dos-Voyage,Filter:-type-de-sac-à-dos---Sac-à-Dos-Homme,Filter:-type-de-sac-à-dos---Sac-à-Dos-Femme,Filter:-Type-de-bagage---Valise-Cabine,Filter:-Type-de-bagage---Valise-Soute-,Filter:-Type-de-bagage---Sacs-polochon-et-polochon-sur-roues,Filter:-Durée-du-séjour---Voyage-d'une-journée,Filter:-Durée-du-séjour---24H,Filter:-Durée-du-séjour---Week-end-escapade,Filter:-Durée-du-séjour---1-semaine-ou-plus,Filter:-Type-d'accessoire---Sac-banane,Filter:-Type-d'accessoire---Pochette-de-téléphone,Filter:-Type-d'accessoire---Pochettes,Filter:-Type-d'accessoire---Pour-lui,Filter:-Type-d'accessoire---Pour-Elle,Filter:-Offres---Offre,Filter:-Eco-friendly---Oui,Filter:-Eco-friendly---Non" | split: ',' %}
-{% assign nl = "Filter:-Type-Tas---Crossbody-tas,Filter:-Type-Tas---Schoudertas,Filter:-Type-Tas---Rugzak,Filter:-Type-Tas---Handtas,Filter:-Type-Tas---Draagtas,Filter:-Type-Tas---Laptop-tas,Filter:-Type-Tas---Sporttas,Filter:-Type-Tas---Heuptas,Filter:-Type-Tas---Zakjes,Filter:-Type-Tas---Babytas,Filter:-Type-Tas---Accessories-,Filter:-Type-Tas---Reistassen-,Filter:-Type-Tas---Voor-hem,Filter:-Type-Tas---Voor-haar,Filter:-Type-Rugzak----Laptop,Filter:-Type-Rugzak----Sling,Filter:-Type-Rugzak----Reis,Filter:-Type-Rugzak----Voor-hem,Filter:-Type-Rugzak----Voor-haar,Filter:-Type-Bagage----Cabin,Filter:-Type-Bagage----Check-in,Filter:-Type-Bagage----Duffel-+-Duffel-met-wielen,Filter:-Duur-verblijf---Daguitstap,Filter:-Duur-verblijf---Overnachting,Filter:-Duur-verblijf---Weekendje-weg,Filter:-Duur-verblijf---1-week-of-langer,Filter:-Type-Accessoire---Heuptas-,Filter:-Type-Accessoire---Telefoontasje,Filter:-Type-Accessoire---Zakjes-,Filter:-Type-Accessoire---Voor-hem,Filter:-Type-Accessoire---Voor-haar,Filter:-Deals---Deal,Filter:-Milieuvriendelijk---Ja,Filter:-Milieuvriendelijk---Nee" | split: ',' %}
-{% assign de = "Filter:-Taschen-Modelle---Cross-over,Filter:-Taschen-Modelle---Schultertasche,Filter:-Taschen-Modelle---Rucksack,Filter:-Taschen-Modelle---Handtasche,Filter:-Taschen-Modelle---Tote,Filter:-Taschen-Modelle---Laptop-Tasche,Filter:-Taschen-Modelle---Sport-Tasche,Filter:-Taschen-Modelle---Gürtel-Tasche,Filter:-Taschen-Modelle---Beutel,Filter:-Taschen-Modelle---Wickeltasche,Filter:-Taschen-Modelle---Accessoires,Filter:-Taschen-Modelle---Reise,Filter:-Taschen-Modelle---Für-SIE,Filter:-Taschen-Modelle---Für-IHN,Filter:-Rucksack-Modelle---Laptop--,Filter:-Rucksack-Modelle---Sling,Filter:-Rucksack-Modelle---Reise,Filter:-Rucksack-Modelle---Für-IHN,Filter:-Rucksack-Modelle---Für-SIE,Filter:-Gepäck-Modelle---Cabin,Filter:-Gepäck-Modelle---Check-In,Filter:-Gepäck-Modelle---Duffle+Duffle-mit-Rollen,Filter:-Reisedauer---Tagesreise,Filter:-Reisedauer---Over-Nighter,Filter:-Reisedauer---Weekender,Filter:-Reisedauer---1-Woche-oder-länger,Filter:-Accessory-Modelle---Gürteltasche,Filter:-Accessory-Modelle---Telefontasche,Filter:-Accessory-Modelle---Beutel,Filter:-Accessory-Modelle---Für-IHN,Filter:-Accessory-Modelle---Für-SIE,Filter:-Deals---Deal,Filter:-Ecofriendly---YES,Filter:-Ecofriendly---NO" | split: ',' %}
+{% assign en = 'Filter:-Bag-Type-Cross-over,Filter:-Bag-Type-Shoulder-bag,Filter:-Bag-Type-Backpack,Filter:-Bag-Type-Handbag,Filter:-Bag-Type-Tote-bag,Filter:-Bag-Type-Laptop-bag,Filter:-Bag-Type-Sport-bag,Filter:-Bag-Type-Waist-bag,Filter:-Bag-Type-Pouches,Filter:-Bag-Type-Baby-bags,Filter:-Bag-Type-Accessories-,Filter:-Bag-Type-Travel,Filter:-Bag-Type-For-her,Filter:-Bag-Type-For-him,Filter:-Backpack-Type-Laptop,Filter:-Backpack-Type-Sling,Filter:-Backpack-Type-Travel,Filter:-Backpack-Type-For-him,Filter:-Backpack-Type-For-her,Filter:-Luggage-Type-Cabin,Filter:-Luggage-Type-Check-in,Filter:-Luggage-Type-Duffle-bags-and-duffle-on-wheels,Filter:-Length-of-stay-Day-trip,Filter:-Length-of-stay-Over-nighter,Filter:-Length-of-stay-Weekend-escape,Filter:-Length-of-stay-1-week-or-longer,Filter:-Accessory-Type-Waist-bag,Filter:-Accessory-Type-Phone-bag,Filter:-Accessory-Type-Pouches,Filter:-Accessory-Type-For-him,Filter:-Accessory-Type-For-her,Filter:-Deals-Deal,Filter:-Eco-friendly-Yes,Filter:-Eco-friendly-No'
+  | split: ','
+%}
+{% assign fr = "Filter:-Type-de-sac---Sac-Bandoulière,Filter:-Type-de-sac---Sac-Epaule,Filter:-Type-de-sac---Sac-à-dos,Filter:-Type-de-sac---Sac-à-Main-,Filter:-Type-de-sac---Sac-Shopper,Filter:-Type-de-sac---Sac-Ordinateur,Filter:-Type-de-sac---Sac-de-Sport,Filter:-Type-de-sac---Sac-Banane,Filter:-Type-de-sac---Pochettes,Filter:-Type-de-sac---Sacs-Bébés,Filter:-Type-de-sac---Accessoires,Filter:-Type-de-sac---Sac-Voyage,Filter:-Type-de-sac---Pour-Elle,Filter:-Type-de-sac---Pour-Lui-,Filter:-type-de-sac-à-dos---Sac-à-Dos-Ordinateur,Filter:-type-de-sac-à-dos---Sac-à-Dos-Bandoulière,Filter:-type-de-sac-à-dos---Sac-à-Dos-Voyage,Filter:-type-de-sac-à-dos---Sac-à-Dos-Homme,Filter:-type-de-sac-à-dos---Sac-à-Dos-Femme,Filter:-Type-de-bagage---Valise-Cabine,Filter:-Type-de-bagage---Valise-Soute-,Filter:-Type-de-bagage---Sacs-polochon-et-polochon-sur-roues,Filter:-Durée-du-séjour---Voyage-d'une-journée,Filter:-Durée-du-séjour---24H,Filter:-Durée-du-séjour---Week-end-escapade,Filter:-Durée-du-séjour---1-semaine-ou-plus,Filter:-Type-d'accessoire---Sac-banane,Filter:-Type-d'accessoire---Pochette-de-téléphone,Filter:-Type-d'accessoire---Pochettes,Filter:-Type-d'accessoire---Pour-lui,Filter:-Type-d'accessoire---Pour-Elle,Filter:-Offres---Offre,Filter:-Eco-friendly---Oui,Filter:-Eco-friendly---Non"
+  | split: ','
+%}
+{% assign nl = 'Filter:-Type-Tas---Crossbody-tas,Filter:-Type-Tas---Schoudertas,Filter:-Type-Tas---Rugzak,Filter:-Type-Tas---Handtas,Filter:-Type-Tas---Draagtas,Filter:-Type-Tas---Laptop-tas,Filter:-Type-Tas---Sporttas,Filter:-Type-Tas---Heuptas,Filter:-Type-Tas---Zakjes,Filter:-Type-Tas---Babytas,Filter:-Type-Tas---Accessories-,Filter:-Type-Tas---Reistassen-,Filter:-Type-Tas---Voor-hem,Filter:-Type-Tas---Voor-haar,Filter:-Type-Rugzak----Laptop,Filter:-Type-Rugzak----Sling,Filter:-Type-Rugzak----Reis,Filter:-Type-Rugzak----Voor-hem,Filter:-Type-Rugzak----Voor-haar,Filter:-Type-Bagage----Cabin,Filter:-Type-Bagage----Check-in,Filter:-Type-Bagage----Duffel-+-Duffel-met-wielen,Filter:-Duur-verblijf---Daguitstap,Filter:-Duur-verblijf---Overnachting,Filter:-Duur-verblijf---Weekendje-weg,Filter:-Duur-verblijf---1-week-of-langer,Filter:-Type-Accessoire---Heuptas-,Filter:-Type-Accessoire---Telefoontasje,Filter:-Type-Accessoire---Zakjes-,Filter:-Type-Accessoire---Voor-hem,Filter:-Type-Accessoire---Voor-haar,Filter:-Deals---Deal,Filter:-Milieuvriendelijk---Ja,Filter:-Milieuvriendelijk---Nee'
+  | split: ','
+%}
+{% assign de = 'Filter:-Taschen-Modelle---Cross-over,Filter:-Taschen-Modelle---Schultertasche,Filter:-Taschen-Modelle---Rucksack,Filter:-Taschen-Modelle---Handtasche,Filter:-Taschen-Modelle---Tote,Filter:-Taschen-Modelle---Laptop-Tasche,Filter:-Taschen-Modelle---Sport-Tasche,Filter:-Taschen-Modelle---Gürtel-Tasche,Filter:-Taschen-Modelle---Beutel,Filter:-Taschen-Modelle---Wickeltasche,Filter:-Taschen-Modelle---Accessoires,Filter:-Taschen-Modelle---Reise,Filter:-Taschen-Modelle---Für-SIE,Filter:-Taschen-Modelle---Für-IHN,Filter:-Rucksack-Modelle---Laptop--,Filter:-Rucksack-Modelle---Sling,Filter:-Rucksack-Modelle---Reise,Filter:-Rucksack-Modelle---Für-IHN,Filter:-Rucksack-Modelle---Für-SIE,Filter:-Gepäck-Modelle---Cabin,Filter:-Gepäck-Modelle---Check-In,Filter:-Gepäck-Modelle---Duffle+Duffle-mit-Rollen,Filter:-Reisedauer---Tagesreise,Filter:-Reisedauer---Over-Nighter,Filter:-Reisedauer---Weekender,Filter:-Reisedauer---1-Woche-oder-länger,Filter:-Accessory-Modelle---Gürteltasche,Filter:-Accessory-Modelle---Telefontasche,Filter:-Accessory-Modelle---Beutel,Filter:-Accessory-Modelle---Für-IHN,Filter:-Accessory-Modelle---Für-SIE,Filter:-Deals---Deal,Filter:-Ecofriendly---YES,Filter:-Ecofriendly---NO'
+  | split: ','
+%}
 <style>
   .lang-dd {
     position: absolute;
@@ -36,7 +44,7 @@
     margin-bottom: 6px;
     min-width: 96px;
   }
-  
+
   .container.scrollmenu.flex-box.justify-between {
     overflow-y: auto;
     overflow-x: hidden;
@@ -64,8 +72,8 @@
   }
   .container.scrollmenu.flex-box.justify-between::-webkit-scrollbar {
     width: 6px;
-    
-  } 
+
+  }
   .container.scrollmenu.flex-box.justify-between::-webkit-scrollbar-track {
     background-color: #f1f1f1;
   }
@@ -82,24 +90,24 @@
     <div class="upper-nav-left no-t-m rel">
       <a href="#" title="{{ request.locale.name }}">{{ request.locale.name }}</a>
       <div class="lang-dd">
-        {% unless routes.root_url == "/" %}
-        {% assign pathx = request.path | replace: routes.root_url,'' %}
+        {% unless routes.root_url == '/' %}
+          {% assign pathx = request.path | replace: routes.root_url, '' %}
         {% else %}
-        {% assign pathx = request.path %}
+          {% assign pathx = request.path %}
         {% endunless %}
-        {% assign pathx = pathx | remove_first: "/" %}
-        
-        {% if request.locale.iso_code != "en" %}
-        <a id="en" href="/{{ pathx }}" title="English">English</a>
+        {% assign pathx = pathx | remove_first: '/' %}
+
+        {% if request.locale.iso_code != 'en' %}
+          <a id="en" href="/{{ pathx }}" title="English">English</a>
         {% endif %}
-        {% if request.locale.iso_code != "fr" %}
-        <a id="fr" href="/fr-fr/{{ pathx }}" title="Français">Français</a>
+        {% if request.locale.iso_code != 'fr' %}
+          <a id="fr" href="/fr-fr/{{ pathx }}" title="Français">Français</a>
         {% endif %}
-        {% if request.locale.iso_code != "nl" %}
-        <a id="nl" href="/nl-nl/{{ pathx }}" title="Nederlands">Nederlands</a>
+        {% if request.locale.iso_code != 'nl' %}
+          <a id="nl" href="/nl-nl/{{ pathx }}" title="Nederlands">Nederlands</a>
         {% endif %}
-        {% if request.locale.iso_code != "de" %}
-        <a id="de" href="/de-de/{{ pathx }}" title="Deutch">Deutsch</a>
+        {% if request.locale.iso_code != 'de' %}
+          <a id="de" href="/de-de/{{ pathx }}" title="Deutch">Deutsch</a>
         {% endif %}
       </div>
     </div>
@@ -110,411 +118,479 @@
         <span class="icon-bar bar3"></span>
       </button>
     </nav>
-    <div class="upper-nav-center flex-box">  
+    <div class="upper-nav-center flex-box">
       <a href="{{ routes.root_url }}" title="Hedgren">
         {%- if section.settings.logo != blank -%}
-        <img
-             src="{{ section.settings.logo | img_url: '140x' }}"              
-             alt="{{shop.name}}"
-             width="{{ section.settings.image.width }}"
-             height="{{ section.settings.image.height }}"
-             >
+          <img
+            src="{{ section.settings.logo | img_url: '140x' }}"
+            alt="{{shop.name}}"
+            width="{{ section.settings.image.width }}"
+            height="{{ section.settings.image.height }}"
+          >
         {%- else -%}
-
-        <?xml version="1.0" encoding="utf-8"?>
-        <!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-             width="135px" height="20" viewBox="0 0 539.8 80" style="enable-background:new 0 0 539.8 80;" xml:space="preserve">
-          <g>
-            <path d="M458.4,53h-54V42.2h54c0.9,0,1.6-0.2,2.1-0.7c0.5-0.5,0.6-1.2,0.6-1.7c0-0.1,0-15.8,0-15.8c0-6.4-2.3-8.7-8.8-8.7h-53.1
-                     c-4.5,0-9,1-9,8.7v30.4c0,4.5,3.3,7.1,9,7.1h59.3c1.2,0,2.6-0.5,2.6-2.6V55C461,54.1,460.6,53,458.4,53 M404.4,23.7h41.5
-                     c0.7,0,1,0.3,1,1v7.9c0,0.8-0.1,1-1,1h-41.5c0-0.5,0-1,0-1v-7.9V23.7z"/>
-            <path d="M313.7,15.2h-53.1c-6,0-9.1,3-9.1,8.8v29.9c0,6.6,4.4,7.5,9.1,7.5h47.6v10.2h-54c-1.1,0-2.7,0-2.7,1.9l0,4.5
-                     c0,0-0.2,1.9,2.5,1.9h59.8c6,0,8.7-1.2,8.7-8.1V23.7C322.4,16.7,319.1,15.2,313.7,15.2 M308.3,52c0,0.3,0,0.6-0.1,0.7
-                     c0,0-0.2,0.2-0.9,0.2h-41.5V23.7h41.5c0.9,0,1,0,1,1v26.5C308.2,51.1,308.3,51.9,308.3,52"/>
-            <path d="M63.3,0h-8.7c-1.9,0-2.9,1-2.9,2.9v19.8c0,0.9-0.2,1-1,1H14.3V2.9c0-1.7-1.1-2.8-2.8-2.8H2.7C0.8,0.1,0,1.6,0,2.9v55.7
-                     c0,1.7,1,2.7,2.7,2.7h8.9c1,0,2.7-0.3,2.7-2.7V32h37.6v26.4c0,1.9,1,2.9,2.9,2.9h8.6c1.7,0,2.7-1,2.7-2.7V2.8C66.1,1,65,0,63.3,0"
-                  />
-            <path d="M382.4,17.9c0-1-0.4-2.7-3.2-2.7H346c-7.1,0-9.1,1.9-9.1,8.8v34.7c0,1.7,0.9,2.6,2.7,2.6h8.8c1,0,2.8-0.3,2.8-2.6V23.6
-                     h28.4c1,0,1.7-0.2,2.2-0.7c0.6-0.6,0.7-1.4,0.7-2V17.9z"/>
-            <path d="M531,15h-54.4c-1.8,0-2.7,0.9-2.7,2.7v40.8c0,2.3,1.4,2.6,2.7,2.6h11.6V23.4h37.5v35.1c0,1.6,1.2,2.6,3,2.6h8.5
-                     c1.7,0,2.7-1.4,2.7-2.6V23.8C539.8,17.1,537.7,15,531,15"/>
-            <path d="M150.1,52.7h-54V41.9h54c1,0,1.6-0.2,2.1-0.7c0.5-0.5,0.6-1.2,0.6-1.7c0-0.1,0-15.8,0-15.8c0-6.4-2.3-8.7-8.8-8.7H90.9
-                     c-4.5,0-9.1,1-9.1,8.7v30.4c0,4.5,3.3,7.1,9,7.1h59.3c1.2,0,2.6-0.5,2.6-2.6v-3.8C152.8,53.8,152.3,52.7,150.1,52.7 M96.1,23.5
-                     h41.5c0.7,0,1,0.3,1,1v7.9c0,0.8-0.1,1-1,1H96.1v-1v-7.9V23.5z"/>
-            <path d="M235,0.1h-8.5c-3,0-3,2-3,2.8v12.2h-47.7c-3.9,0-9,0.9-9,8.8V52c0,8.2,4.8,9.2,9,9.2H235c1.6,0,2.6-1,2.6-2.6V2.9
-                     C237.6,1,236.3,0.1,235,0.1 M223.4,24.5v27.7c0,0,0,0.4-0.1,0.5c-0.1,0-0.9,0.1-0.9,0.1h-41.5V23.5h41.5
-                     C223.2,23.5,223.4,23.8,223.4,24.5"/>
-          </g>
-        </svg>
-
-        {%- endif -%}      
+          <!-- <?xml version="1.0" encoding="utf-8"?> -->
+          <!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="135px"
+            height="20"
+            viewBox="0 0 539.8 80"
+            style="enable-background:new 0 0 539.8 80;"
+            xml:space="preserve"
+          >
+            <g>
+              <path d="M458.4,53h-54V42.2h54c0.9,0,1.6-0.2,2.1-0.7c0.5-0.5,0.6-1.2,0.6-1.7c0-0.1,0-15.8,0-15.8c0-6.4-2.3-8.7-8.8-8.7h-53.1
+                       c-4.5,0-9,1-9,8.7v30.4c0,4.5,3.3,7.1,9,7.1h59.3c1.2,0,2.6-0.5,2.6-2.6V55C461,54.1,460.6,53,458.4,53 M404.4,23.7h41.5
+                       c0.7,0,1,0.3,1,1v7.9c0,0.8-0.1,1-1,1h-41.5c0-0.5,0-1,0-1v-7.9V23.7z"/>
+              <path d="M313.7,15.2h-53.1c-6,0-9.1,3-9.1,8.8v29.9c0,6.6,4.4,7.5,9.1,7.5h47.6v10.2h-54c-1.1,0-2.7,0-2.7,1.9l0,4.5
+                       c0,0-0.2,1.9,2.5,1.9h59.8c6,0,8.7-1.2,8.7-8.1V23.7C322.4,16.7,319.1,15.2,313.7,15.2 M308.3,52c0,0.3,0,0.6-0.1,0.7
+                       c0,0-0.2,0.2-0.9,0.2h-41.5V23.7h41.5c0.9,0,1,0,1,1v26.5C308.2,51.1,308.3,51.9,308.3,52"/>
+              <path d="M63.3,0h-8.7c-1.9,0-2.9,1-2.9,2.9v19.8c0,0.9-0.2,1-1,1H14.3V2.9c0-1.7-1.1-2.8-2.8-2.8H2.7C0.8,0.1,0,1.6,0,2.9v55.7
+                       c0,1.7,1,2.7,2.7,2.7h8.9c1,0,2.7-0.3,2.7-2.7V32h37.6v26.4c0,1.9,1,2.9,2.9,2.9h8.6c1.7,0,2.7-1,2.7-2.7V2.8C66.1,1,65,0,63.3,0"
+                    />
+              <path d="M382.4,17.9c0-1-0.4-2.7-3.2-2.7H346c-7.1,0-9.1,1.9-9.1,8.8v34.7c0,1.7,0.9,2.6,2.7,2.6h8.8c1,0,2.8-0.3,2.8-2.6V23.6
+                       h28.4c1,0,1.7-0.2,2.2-0.7c0.6-0.6,0.7-1.4,0.7-2V17.9z"/>
+              <path d="M531,15h-54.4c-1.8,0-2.7,0.9-2.7,2.7v40.8c0,2.3,1.4,2.6,2.7,2.6h11.6V23.4h37.5v35.1c0,1.6,1.2,2.6,3,2.6h8.5
+                       c1.7,0,2.7-1.4,2.7-2.6V23.8C539.8,17.1,537.7,15,531,15"/>
+              <path d="M150.1,52.7h-54V41.9h54c1,0,1.6-0.2,2.1-0.7c0.5-0.5,0.6-1.2,0.6-1.7c0-0.1,0-15.8,0-15.8c0-6.4-2.3-8.7-8.8-8.7H90.9
+                       c-4.5,0-9.1,1-9.1,8.7v30.4c0,4.5,3.3,7.1,9,7.1h59.3c1.2,0,2.6-0.5,2.6-2.6v-3.8C152.8,53.8,152.3,52.7,150.1,52.7 M96.1,23.5
+                       h41.5c0.7,0,1,0.3,1,1v7.9c0,0.8-0.1,1-1,1H96.1v-1v-7.9V23.5z"/>
+              <path d="M235,0.1h-8.5c-3,0-3,2-3,2.8v12.2h-47.7c-3.9,0-9,0.9-9,8.8V52c0,8.2,4.8,9.2,9,9.2H235c1.6,0,2.6-1,2.6-2.6V2.9
+                       C237.6,1,236.3,0.1,235,0.1 M223.4,24.5v27.7c0,0,0,0.4-0.1,0.5c-0.1,0-0.9,0.1-0.9,0.1h-41.5V23.5h41.5
+                       C223.2,23.5,223.4,23.8,223.4,24.5"/>
+            </g>
+          </svg>
+        {%- endif -%}
       </a>
     </div>
-    
-    <div class="upper-nav-right"> 
+
+    <div class="upper-nav-right">
       {% if shop.customer_accounts_optional or shop.customer_accounts_enabled %}
-      <a class="no-t-m" href="{% unless routes.root_url == "/" %}{{ routes.root_url }}/account{% else %}/account{% endunless %}">{% if customer %}{{ "customer.account.title" | t }}{% else %}{{ "customer.login_page.sign_in" | t }}{% endif %}</a>
+        <a
+          class="no-t-m"
+          href="{% unless routes.root_url == "/" %}{{ routes.root_url }}/account{% else %}/account{% endunless %}"
+        >
+          {%- if customer -%}
+            {{- 'customer.account.title' | t -}}
+          {%- else -%}
+            {{- 'customer.login_page.sign_in' | t -}}
+          {%- endif -%}
+        </a>
       {% endif %}
       {% if section.settings.show_search %}
-      <a href="{% unless routes.root_url == "/" %}{{ routes.root_url }}/search{% else %}/search{% endunless %}" title="search" class='{{ routes.root_url }}'>
-        {% render "svg-search" %}
-      </a>      
+        <a
+          href="{% unless routes.root_url == "/" %}{{ routes.root_url }}/search{% else %}/search{% endunless %}"
+          title="search"
+          class="{{ routes.root_url }}"
+        >
+          {% render 'svg-search' %}
+        </a>
       {% endif %}
       <a title="cart" id="draw_cart" class="{% if cart.item_count == 0 %}empty-c{% endif %}">
-        {% render "svg-cart" %}
+        {% render 'svg-cart' %}
       </a>
     </div>
   </div>
   <div class="lower-header container">
-    
-    
     <ul class="order-1">
-      
+      {%- if section.settings.menu != blank -%}
+        {%- for link in section.settings.menu.links -%}
+          <li class="dropdown-1 no-t-m {% if collection.url == link.url %}active-link{% endif %}">
+            <a href="{{ link.url }}">{{ link.title | escape }}</a>
+            {%- if link.links != blank -%}
+              <div class="dropdown menu-pad">
+                <div class="container scrollmenu flex-box justify-between">
+                  {% if link.links.first.title == '(col-left)'
+                    or link.links.first.title == '(Spalte-links)'
+                    or link.links.first.title == '(col-gauche)'
+                  %}
+                    <div class="nav-left-cards">
+                      {%- for childlink in link.links -%}
+                        {% if childlink.title == '(col-left)'
+                          or childlink.title == '(Spalte-links)'
+                          or childlink.title == '(col-gauche)'
+                        %}
+                          {% assign handlesxn = childlink.url | split: '/' %}
+                          <div class="nav-card">
+                            {% assign colxn = collections[handlesxn.last] %}
+                            {% if colxn.url == blank %}
+                              {% assign colxn = all_products[handlesxn.last] %}
+                            {% endif %}
+                            <a href="{{ colxn.url }}">
+                              {% liquid
+                                if colxn.featured_image.height >= colxn.featured_image.width
+                                  assign styles = 'background-color: #f1f1f1,object-fit: contain;'
+                                endif
+                              %}
+                              {{
+                                colxn.featured_image
+                                | image_url: width: 425
+                                | image_tag:
+                                  loading: 'lazy',
+                                  styles: styles,
+                                  sizes: '(min-width: 900px) calc((600px) * 1 /  2),100vw',
+                                  styles: styles,
+                                  widths: '250, 275, 300, 315, 350, 375, 400, 425'
+                              }}
+                              {% comment %}
+                                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
+                              {% endcomment %}
+                              <div class="nav-title">{{ colxn.title }}</div>
+                            </a>
+                          </div>
+                        {% endif %}
+                      {%- endfor -%}
+                    </div>
+                  {% else %}
+                    <ul class="order-2">
+                      {%- for childlink in link.links -%}
+                        {% assign childlinkSplits = childlink.url | split: 'filter_top=' %}
+                        {% assign childlinkSplitsSize = childlinkSplits | size %}
+                        {% if childlinkSplitsSize > 1 %}
+                          {% assign filterSplits = childlinkSplits.last | split: ',' %}
+                        {% else %}
+                          {% assign filterSplits = blank %}
+                        {% endif %}
+                        {% assign childlinkUrl = childlink.url %}
+
+                        {% for filters in filterSplits %}
+                          {% if request.locale.iso_code == 'fr' %}
+                            {% for item in en %}
+                              {% if item == filters %}
+                                {% assign position = forloop.index0 %}
+                                {% break %}
+                              {% endif %}
+                            {% endfor %}
+                            {% assign filterx = fr[position] %}
+                            {% assign filterxSplits = filterx | split: '---' %}
+                            {% assign filterxSplitsLast = filterxSplits[1] | capitalize %}
+                            {% assign newLink = filterxSplits[0] | append: '-' | append: filterxSplitsLast %}
+                            {% assign childlinkUrl = childlinkUrl | replace: filters, newLink %}
+                          {% elsif request.locale.iso_code == 'nl' %}
+                            {% for item in en %}
+                              {% if item == filters %}
+                                {% assign position = forloop.index0 %}
+                                {% break %}
+                              {% endif %}
+                            {% endfor %}
+                            {% assign filterx = nl[position] %}
+                            {% assign filterxSplits = filterx | split: '---' %}
+                            {% assign filterxSplitsLast = filterxSplits[1] | capitalize %}
+                            {% assign newLink = filterxSplits[0] | append: '-' | append: filterxSplitsLast %}
+                            {% assign childlinkUrl = childlinkUrl | replace: filters, newLink %}
+                          {% elsif request.locale.iso_code == 'de' %}
+                            {% for item in en %}
+                              {% if item == filters %}
+                                {% assign position = forloop.index0 %}
+                                {% break %}
+                              {% endif %}
+                            {% endfor %}
+                            {% assign filterx = de[position] %}
+                            {% assign filterxSplits = filterx | split: '---' %}
+                            {% assign filterxSplitsLast = filterxSplits[1] | capitalize %}
+                            {% assign newLink = filterxSplits[0] | append: '-' | append: filterxSplitsLast %}
+                            {% assign childlinkUrl = childlinkUrl | replace: filters, newLink %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% assign first_letter = childlink.title | slice: 0 %}
+                        {% if first_letter == '-' %}
+                          <li class="link-primary">
+                            <a href="{{ childlinkUrl }}">
+                              {{- childlink.title | escape | remove_first: '-' }}
+                              <span class="link-arows">
+                                {%- include 'svg-arrow' -%}
+                                {%- include 'svg-arrow' -%}
+                              </span></a
+                            >
+                          </li>
+                        {% elsif childlink.title != '(col)'
+                          and childlink.title != '(met de)'
+                          and childlink.title != '(avec le)'
+                        %}
+                          {% assign combinedHash = routes.root_url | append: '#' %}
+                          {% if childlink.url == '#' or childlink.url == combinedHash %}
+                            <li class="link-heading">
+                              <a href="#" onclick="return false;">{{ childlink.title | escape }}</a>
+                            </li>
+                          {% else %}
+                            <li class="link-secondary">
+                              <a href="{{ childlinkUrl }}">
+                                {{- childlink.title | escape }}
+                                <span class="link-arows">{% include 'svg-arrow' %}</span></a
+                              >
+                            </li>
+                          {% endif %}
+                        {% endif %}
+                      {%- endfor -%}
+                    </ul>
+                  {% endif %}
+                  <div class="nav-right-cards">
+                    {%- for childlink in link.links -%}
+                      {% if childlink.title == '(col)'
+                        or childlink.title == '(met de)'
+                        or childlink.title == '(avec le)'
+                      %}
+                        {% assign handlesxn = childlink.url | split: '/' %}
+                        <div class="nav-card">
+                          {% assign colxn = collections[handlesxn.last] %}
+                          {% if colxn.url == blank %}
+                            {% assign colxn = all_products[handlesxn.last] %}
+                          {% endif %}
+                          <a href="{{ colxn.url }}">
+                            {% liquid
+                              if colxn.featured_image.height >= colxn.featured_image.width
+                                assign styles = 'background-color: #f1f1f1,object-fit: contain;'
+                              endif
+                            %}
+                            {{
+                              colxn.featured_image
+                              | image_url: width: 425
+                              | image_tag:
+                                loading: 'lazy',
+                                sizes: '(min-width: 900px) calc((600px) * 1 /  2),100vw',
+                                styles: styles,
+                                widths: '250, 275, 300, 315, 350, 375, 400, 425'
+                            }}
+                            {% comment %} <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain; background-color: #f1f1f1;"{% endif %}> {% endcomment %}
+                            <div class="nav-title">{{ colxn.title }}</div>
+                          </a>
+                        </div>
+                      {% endif %}
+                    {%- endfor -%}
+                    <span class="image-overlay">
+                      {% include 'svg-arrows-big' %}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      {%- endif -%}
+
+      {%- if section.settings.menu2 != blank -%}
+        {%- for link in section.settings.menu2.links -%}
+          <li class="dropdown-1 no-d">
+            <a href="{{ link.url }}">{{ link.title | escape }}</a>
+          </li>
+        {%- endfor -%}
+      {%- endif -%}
+    </ul>
+
+    {% comment %}
       {%- if section.settings.menu != blank -%}
       {%- for link in section.settings.menu.links -%}
-      <li class="dropdown-1 no-t-m {% if collection.url == link.url %}active-link{% endif %}">        
-        <a href="{{ link.url }}">{{ link.title | escape }}</a>
+      <li>
         {%- if link.links != blank -%}
-        <div class="dropdown menu-pad">  
-          <div class="container scrollmenu flex-box justify-between">
-            {% if link.links.first.title == "(col-left)" or link.links.first.title == "(Spalte-links)" or link.links.first.title == "(col-gauche)" %}
-            <div class="nav-left-cards">
-              {%- for childlink in link.links -%}
-              {% if childlink.title == "(col-left)" or childlink.title == "(Spalte-links)" or childlink.title == "(col-gauche)"  %}
-              {% assign handlesxn = childlink.url | split: "/" %}
-              <div class="nav-card">
-                {% assign colxn = collections[handlesxn.last] %}
-                {% if colxn.url == blank %}
-                {% assign colxn = all_products[handlesxn.last] %}
-                {% endif %}
-                <a href="{{ colxn.url }}">
-                  {% liquid 
-                    if colxn.featured_image.height >= colxn.featured_image.width 
-                    assign styles = "background-color: #f1f1f1,object-fit: contain;"
-                    endif 
-                  %} 
-                {{ colxn.featured_image 
-                  | image_url: width: 425 
-                  | image_tag: 
-                  loading: 'lazy',
-                  styles: styles,
-                  sizes: '(min-width: 900px) calc((600px) * 1 /  2),100vw',
-                  styles: styles,
-                   widths: '250, 275, 300, 315, 350, 375, 400, 425'
-                 }}
-                {% comment %} <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
-                 {% endcomment %}
-                <div class="nav-title">{{ colxn.title }}</div> 
+        {{ link.title | escape }}
+        <ul class="">
+          {%- for childlink in link.links -%}
+          <li>
+            {%- if childlink.links == blank -%}
+            <a href="{{ childlink.url }}" class="{% if childlink.current %}active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+              {{ childlink.title | escape }}
+            </a>
+            {%- else -%}
+            {{ childlink.title | escape }}
+
+            <ul>
+              {%- for grandchildlink in childlink.links -%}
+              <li>
+                <a href="{{ grandchildlink.url }}" class="{% if grandchildlink.current %}active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                  {{ grandchildlink.title | escape }}
                 </a>
-              </div>
-              {% endif %}
-              {%- endfor -%}
-            </div>
-            {% else %}
-            <ul class="order-2">
-              {%- for childlink in link.links -%}
-              
-              {% assign childlinkSplits = childlink.url | split: "filter_top=" %}
-              {% assign childlinkSplitsSize = childlinkSplits | size %}
-              {% if childlinkSplitsSize > 1 %}
-              {% assign filterSplits = childlinkSplits.last | split: "," %}
-              {% else %}
-              {% assign filterSplits = blank %}
-              {% endif %}
-              {% assign childlinkUrl = childlink.url %}
-              
-              {% for filters in filterSplits %}
-              {% if request.locale.iso_code == 'fr' %}
-              {% for item in en %}
-                {% if item == filters %}
-                    {% assign position = forloop.index0 %}
-                    {% break %} 
-                  {% endif %}
-               {% endfor %}
-              {% assign filterx = fr[position] %}
-              {% assign filterxSplits = filterx | split: "---" %}
-              {% assign filterxSplitsLast = filterxSplits[1] | capitalize %}
-              {% assign newLink = filterxSplits[0] | append: "-" | append: filterxSplitsLast %}
-              {% assign childlinkUrl = childlinkUrl | replace: filters,newLink %}
-              {% elsif request.locale.iso_code == 'nl' %}
-              {% for item in en %}
-                {% if item == filters %}
-                    {% assign position = forloop.index0 %}
-                    {% break %} 
-                  {% endif %}
-               {% endfor %}
-              {% assign filterx = nl[position] %}
-              {% assign filterxSplits = filterx | split: "---" %}
-              {% assign filterxSplitsLast = filterxSplits[1] | capitalize %}
-              {% assign newLink = filterxSplits[0] | append: "-" | append: filterxSplitsLast %}
-              {% assign childlinkUrl = childlinkUrl | replace: filters,newLink %}
-              {% elsif request.locale.iso_code == 'de' %}
-              {% for item in en %}
-                {% if item == filters %}
-                    {% assign position = forloop.index0 %}
-                    {% break %} 
-                  {% endif %}
-               {% endfor %}
-              {% assign filterx = de[position] %}
-              {% assign filterxSplits = filterx | split: "---" %}
-              {% assign filterxSplitsLast = filterxSplits[1] | capitalize %}
-              {% assign newLink = filterxSplits[0] | append: "-" | append: filterxSplitsLast %}
-              {% assign childlinkUrl = childlinkUrl | replace: filters,newLink %}
-              {% endif %}
-              {% endfor %}
-              
-              {% assign first_letter = childlink.title | slice: 0 %}
-              {% if first_letter == "-" %}
-              <li class="link-primary">
-                <a href="{{ childlinkUrl }}">{{ childlink.title | escape | remove_first: "-" }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
               </li>
-              {% elsif childlink.title != "(col)" and childlink.title != "(met de)" and childlink.title != "(avec le)" %}
-              {% assign combinedHash = routes.root_url | append: "#" %}
-              {% if childlink.url == "#" or childlink.url == combinedHash %}
-              <li class="link-heading">
-                <a href="#" onclick="return false;">{{ childlink.title | escape }}</a>
-              </li>
-              {% else %}
-              <li class="link-secondary">
-                <a href="{{ childlinkUrl }}">{{ childlink.title | escape }} <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              {% endif %}
-              {% endif %}
               {%- endfor -%}
             </ul>
-            {% endif %}
-            <div class="nav-right-cards">
-              {%- for childlink in link.links -%}
-              {% if childlink.title == "(col)" or childlink.title == "(met de)" or childlink.title == "(avec le)" %}
-              {% assign handlesxn = childlink.url | split: "/" %}
-              <div class="nav-card">
-                {% assign colxn = collections[handlesxn.last] %}
-                {% if colxn.url == blank %}
-                {% assign colxn = all_products[handlesxn.last] %}
-                {% endif %}
-                <a href="{{ colxn.url }}">
-                  {% liquid 
-                    if colxn.featured_image.height >= colxn.featured_image.width 
-                    assign styles = "background-color: #f1f1f1,object-fit: contain;"
-                    endif 
-                  %}  
-                {{ colxn.featured_image 
-                  | image_url: width: 425 
-                  | image_tag: 
-                  loading: 'lazy',
-                  sizes: '(min-width: 900px) calc((600px) * 1 /  2),100vw',
-                  styles: styles,
-                   widths: '250, 275, 300, 315, 350, 375, 400, 425'
-                 }}
-                {% comment %} <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain; background-color: #f1f1f1;"{% endif %}> {% endcomment %}
-                  <div class="nav-title">{{ colxn.title }}</div>
-                </a>
-              </div>
-              {% endif %}
-              {%- endfor -%}
-              <span class="image-overlay">
-                {% include "svg-arrows-big" %}
-              </span>
-            </div>
-          </div>
-        </div>
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ul>
         {%- endif -%}
       </li>
       {%- endfor -%}
       {%- endif -%}
-      
-      {%- if section.settings.menu2 != blank -%}
-      {%- for link in section.settings.menu2.links -%}
-      <li class="dropdown-1 no-d">
-        <a href="{{ link.url }}">{{ link.title | escape }}</a>
-      </li>
-      {%- endfor -%}
-      {%- endif -%}
-      
-    </ul>
-    
-    
-    {% comment %}
-    {%- if section.settings.menu != blank -%}
-    {%- for link in section.settings.menu.links -%}
-    <li>
-      {%- if link.links != blank -%}
-      {{ link.title | escape }}
-      <ul class="">
-        {%- for childlink in link.links -%}
-        <li>
-          {%- if childlink.links == blank -%}
-          <a href="{{ childlink.url }}" class="{% if childlink.current %}active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-            {{ childlink.title | escape }}
-          </a>
-          {%- else -%}
-          {{ childlink.title | escape }}
-
-          <ul>
-            {%- for grandchildlink in childlink.links -%}
-            <li>
-              <a href="{{ grandchildlink.url }}" class="{% if grandchildlink.current %}active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                {{ grandchildlink.title | escape }}
-              </a>
-            </li>
-            {%- endfor -%}
-          </ul>
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      </ul>
-      {%- endif -%}
-    </li>
-    {%- endfor -%}
-    {%- endif -%}
     {% endcomment %}
   </div>
 
   <div class="header-drawer no-d">
     <div class="mobile-menu-item-wrap">
       <a href="{{ section.settings.mob_drawer_button_link }}" class="drawer-menu-item-with-img">
-        <div class="drawer-menu-item-img"><img src="{{ section.settings.mob_drawer_button_img | image_url }}" loading="lazy"></div>
-        <div class="drawer-menu-item-img-text">{{ section.settings.mob_drawer_button_text }} <span class="link-arows">{% include "svg-arrow-white-small" %}{% include "svg-arrow-white-small" %}</span></div>
+        <div class="drawer-menu-item-img">
+          <img src="{{ section.settings.mob_drawer_button_img | image_url }}" loading="lazy">
+        </div>
+        <div class="drawer-menu-item-img-text">
+          {{ section.settings.mob_drawer_button_text }}
+          <span class="link-arows">
+            {%- include 'svg-arrow-white-small' -%}
+            {%- include 'svg-arrow-white-small' -%}
+          </span>
+        </div>
       </a>
     </div>
-    
-      
-        
-          
-          
-    
-    
+
     {%- if section.settings.menu != blank -%}
       {%- for link in section.settings.menu.links -%}
-      <div class="mobile-menu-item-wrap">
-        <div class="accordion-wrap">
-          <div class="mobile-menu-item-with-acco accordion">
-            <span class="mobile-menu-item-name">{{ link.title | escape }}</span>
-            <span class="down-chev">{% include 'icon-down-chevron-black' %}</span>
-          </div>
-        {%- if link.links != blank -%}
-        <div class="panel">
-          	<div class="sub-menu-wrap flex-box justify-between">            
-            {% if link.links.first.title == "(col-left)" or link.links.first.title == "(Spalte-links)" or link.links.first.title == "(col-gauche)" %}
-            <div class="nav-right-cards">
-              {%- for childlink in link.links -%}
-              {% if childlink.title == "(col-left)" or childlink.title == "(col)" or childlink.title == "(met de)" or childlink.title == "(avec le)" or childlink.title == "(Spalte-links)" or childlink.title == "(col-gauche)" %}
-              {% assign handlesxn = childlink.url | split: "/" %}
-              <div class="nav-card">
-                {% assign colxn = collections[handlesxn.last] %}
-                {% if colxn.url == blank %}
-                {% assign colxn = all_products[handlesxn.last] %}
-                {% endif %}
-                <a href="{{ colxn.url }}">
-                  {% liquid 
-                    if colxn.featured_image.height >= colxn.featured_image.width 
-                    assign styles = "background-color: #f1f1f1,object-fit: contain;"
-                    endif 
-                  %} 
-                {{ colxn.featured_image 
-                  | image_url: width: 425 
-                  | image_tag: 
-                  loading: 'lazy',
-                  sizes: '(min-width: 900px) calc((600px) * 1 /  2),100vw',
-                  styles: styles,
-                   widths: '250, 275, 300, 315, 350, 375, 400, 425'
-                 }}
-                {% comment %} <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
-                {% endcomment %}  
-                <div class="nav-title">{{ colxn.title }}</div> 
-                </a>
-              </div>
-              {% endif %}
-              {%- endfor -%}
+        <div class="mobile-menu-item-wrap">
+          <div class="accordion-wrap">
+            <div class="mobile-menu-item-with-acco accordion">
+              <span class="mobile-menu-item-name">{{ link.title | escape }}</span>
+              <span class="down-chev">{% include 'icon-down-chevron-black' %}</span>
             </div>
-            {% else %}
-            <ul class="order-2">
-              {%- for childlink in link.links -%}
-              {% assign first_letter = childlink.title | slice: 0 %}
-              {% if first_letter == "-" %}
-              <li class="link-primary">
-                <a href="{{ childlink.url }}">{{ childlink.title | escape | remove_first: "-" }} <span class="link-arows">{% include "svg-arrow" %}{% include "svg-arrow" %}</span></a>
-              </li>
-              {% elsif childlink.title != "(col)" and childlink.title != "(met de)" and childlink.title != "(avec le)" %}
-              {% assign combinedHash = routes.root_url | append: "#" %}
-              {% if childlink.url == "#" or childlink.url == combinedHash %}
-              <li class="link-heading">
-                <a href="#" onclick="return false;">{{ childlink.title | escape }}</a>
-              </li>
-              {% else %}
-              <li class="link-secondary">
-                <a href="{{ childlink.url }}">{{ childlink.title | escape }} <span class="link-arows">{% include "svg-arrow" %}</span></a>
-              </li>
-              {% endif %}
-              {% endif %}
-              {%- endfor -%}
-            </ul>
-            {% endif %}
+            {%- if link.links != blank -%}
+              <div class="panel">
+                <div class="sub-menu-wrap flex-box justify-between">
+                  {% if link.links.first.title == '(col-left)'
+                    or link.links.first.title == '(Spalte-links)'
+                    or link.links.first.title == '(col-gauche)'
+                  %}
+                    <div class="nav-right-cards">
+                      {%- for childlink in link.links -%}
+                        {% if childlink.title == '(col-left)'
+                          or childlink.title == '(col)'
+                          or childlink.title == '(met de)'
+                          or childlink.title == '(avec le)'
+                          or childlink.title == '(Spalte-links)'
+                          or childlink.title == '(col-gauche)'
+                        %}
+                          {% assign handlesxn = childlink.url | split: '/' %}
+                          <div class="nav-card">
+                            {% assign colxn = collections[handlesxn.last] %}
+                            {% if colxn.url == blank %}
+                              {% assign colxn = all_products[handlesxn.last] %}
+                            {% endif %}
+                            <a href="{{ colxn.url }}">
+                              {% liquid
+                                if colxn.featured_image.height >= colxn.featured_image.width
+                                  assign styles = 'background-color: #f1f1f1,object-fit: contain;'
+                                endif
+                              %}
+                              {{
+                                colxn.featured_image
+                                | image_url: width: 425
+                                | image_tag:
+                                  loading: 'lazy',
+                                  sizes: '(min-width: 900px) calc((600px) * 1 /  2),100vw',
+                                  styles: styles,
+                                  widths: '250, 275, 300, 315, 350, 375, 400, 425'
+                              }}
+                              {% comment %}
+                                <img src="{{ colxn.featured_image | image_url: width: 350 }}" alt="{{ colxn.title }}" loading="lazy" {% if colxn.featured_image.height >= colxn.featured_image.width %}style="object-fit: contain;"{% endif %}>
+                              {% endcomment %}
+                              <div class="nav-title">{{ colxn.title }}</div>
+                            </a>
+                          </div>
+                        {% endif %}
+                      {%- endfor -%}
+                    </div>
+                  {% else %}
+                    <ul class="order-2">
+                      {%- for childlink in link.links -%}
+                        {% assign first_letter = childlink.title | slice: 0 %}
+                        {% if first_letter == '-' %}
+                          <li class="link-primary">
+                            <a href="{{ childlink.url }}">
+                              {{- childlink.title | escape | remove_first: '-' }}
+                              <span class="link-arows">
+                                {%- include 'svg-arrow' -%}
+                                {%- include 'svg-arrow' -%}
+                              </span></a
+                            >
+                          </li>
+                        {% elsif childlink.title != '(col)'
+                          and childlink.title != '(met de)'
+                          and childlink.title != '(avec le)'
+                        %}
+                          {% assign combinedHash = routes.root_url | append: '#' %}
+                          {% if childlink.url == '#' or childlink.url == combinedHash %}
+                            <li class="link-heading">
+                              <a href="#" onclick="return false;">{{ childlink.title | escape }}</a>
+                            </li>
+                          {% else %}
+                            <li class="link-secondary">
+                              <a href="{{ childlink.url }}">
+                                {{- childlink.title | escape }}
+                                <span class="link-arows">{% include 'svg-arrow' %}</span></a
+                              >
+                            </li>
+                          {% endif %}
+                        {% endif %}
+                      {%- endfor -%}
+                    </ul>
+                  {% endif %}
+                </div>
+              </div>
+            {%- endif -%}
           </div>
         </div>
-        {%- endif -%}
-        </div>
-      </div>
       {%- endfor -%}
-      {%- endif -%}
-    
+    {%- endif -%}
+
     <div class="mobile-menu-item-wrap">
       <div class="mobile-menu-links">
         {%- for link in section.settings.mobilemenu1.links -%}
-        <a href="{{ link.url }}">{{ link.title }} <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
+          <a href="{{ link.url }}">
+            {{- link.title }}
+            <span class="link-arows">{% include 'icon-right-chev-black' %}</span></a
+          >
         {%- endfor -%}
       </div>
     </div>
     <div class="mobile-menu-links">
-        {%- for link in section.settings.mobilemenu2.links -%}
-      	<a href="{{ link.url }}">{{ link.title }} <span class="link-arows">{% include "icon-right-chev-black" %}</span></a>
-        {%- endfor -%}
-      
+      {%- for link in section.settings.mobilemenu2.links -%}
+        <a href="{{ link.url }}">
+          {{- link.title }}
+          <span class="link-arows">{% include 'icon-right-chev-black' %}</span></a
+        >
+      {%- endfor -%}
+
       <a href="#" onclick="return false;" title="{{ request.locale.name }}">LANGUAGE - {{ request.locale.name }}</a>
-      
-        
-        {% unless routes.root_url == "/" %}
-        {% assign pathx = request.path | replace: routes.root_url,'' %}
-        {% else %}
+
+      {% unless routes.root_url == '/' %}
+        {% assign pathx = request.path | replace: routes.root_url, '' %}
+      {% else %}
         {% assign pathx = request.path %}
-        {% endunless %}
-        {% assign pathx = pathx | remove_first: "/" %}
-      
-        {% if request.locale.iso_code != "en" %}
+      {% endunless %}
+      {% assign pathx = pathx | remove_first: '/' %}
+
+      {% if request.locale.iso_code != 'en' %}
         <a class="lang" id="en-m" href="/{{ pathx }}" title="English">English</a>
-        {% endif %}
-        {% if request.locale.iso_code != "fr" %}
+      {% endif %}
+      {% if request.locale.iso_code != 'fr' %}
         <a class="lang" id="fr-m" href="/fr-fr/{{ pathx }}" title="Français">Français</a>
-        {% endif %}
-        {% if request.locale.iso_code != "nl" %}
+      {% endif %}
+      {% if request.locale.iso_code != 'nl' %}
         <a class="lang" id="nl-m" href="/nl-nl/{{ pathx }}" title="Nederlands">Nederlands</a>
-        {% endif %}
-        {% if request.locale.iso_code != "de" %}
+      {% endif %}
+      {% if request.locale.iso_code != 'de' %}
         <a class="lang" id="de-m" href="/de-de/{{ pathx }}" title="Deutcha">Deutsch</a>
-        {% endif %}
+      {% endif %}
       <script>
         console.log("{{request.path}}");
       </script>
-      </div>
+    </div>
     <div class="social-media-icons">
       <div class="social-icon">
-        <a href="{{ settings.social_facebook_link }}" target="_blank">{% include "icon-fb-black" %}</a>
+        <a href="{{ settings.social_facebook_link }}" target="_blank">{% include 'icon-fb-black' %}</a>
       </div>
       <div class="social-icon">
-        <a href="{{ settings.social_instagram_link }}" target="_blank">{% include "icon-insta-black" %}</a>
+        <a href="{{ settings.social_instagram_link }}" target="_blank">{% include 'icon-insta-black' %}</a>
       </div>
       <div class="social-icon">
-        <a href="{{ settings.social_pinterest_link }}" target="_blank">{% include "icon-pint-black" %}</a>
+        <a href="{{ settings.social_pinterest_link }}" target="_blank">{% include 'icon-pint-black' %}</a>
       </div>
       <div class="social-icon">
-        <a href="{{ settings.social_youtube_link }}" target="_blank">{% include "icon-yt-black" %}</a>
+        <a href="{{ settings.social_youtube_link }}" target="_blank">{% include 'icon-yt-black' %}</a>
       </div>
     </div>
-    
   </div>
 </header>
-
 
 <script>
   $('.navbar-toggler').click(function() {
@@ -528,66 +604,66 @@
   });
 </script>
 {% schema %}
-  {
-    "name": "Hedgren header",
-    "settings": [		
-      {
-         "type":"image_picker",
-         "id":"logo",
-         "label":"Store logo"
-      },
-      {
-        "type": "link_list",
-        "id": "menu",
-        "default": "main-menu",
-        "label": "Menu Desktop"
-      },
-      {
-        "type": "link_list",
-        "id": "mobilemenu1",
-        "label": "Menu 1 Mobile in drawer"
-      },
-      {
-        "type": "link_list",
-        "id": "mobilemenu2",
-        "label": "Menu 2 Mobile in drawer"
-      },
-      {
-        "type": "link_list",
-        "id": "menu2",
-        "default": "main-menu",
-        "label": "Menu Mobile"
-      },
-      {
-        "type": "checkbox",
-        "id": "show_search",
-        "default": true,
-        "label": "Show search"
-      },
-      {
-        "type": "checkbox",
-        "id": "enable_sticky_header",
-        "default": true,
-        "label": "Enable sticky header"
-      },
-      {
-        "type": "image_picker",
-        "id": "mob_drawer_button_img",
-        "label": "Mobile Drawer Button Image"
-      },
-      {
-        "type": "text",
-        "id": "mob_drawer_button_text",
-        "label": "Mobile Drawer Button Text",
-        "default": "SHOP ALL"
-      },
-      {
-        "type": "url",
-        "id": "mob_drawer_button_link",
-        "label": "Mobile Drawer Button Link"
-      }
-	]
-  }
+ {
+   "name": "Hedgren header",
+   "settings": [
+     {
+        "type":"image_picker",
+        "id":"logo",
+        "label":"Store logo"
+     },
+     {
+       "type": "link_list",
+       "id": "menu",
+       "default": "main-menu",
+       "label": "Menu Desktop"
+     },
+     {
+       "type": "link_list",
+       "id": "mobilemenu1",
+       "label": "Menu 1 Mobile in drawer"
+     },
+     {
+       "type": "link_list",
+       "id": "mobilemenu2",
+       "label": "Menu 2 Mobile in drawer"
+     },
+     {
+       "type": "link_list",
+       "id": "menu2",
+       "default": "main-menu",
+       "label": "Menu Mobile"
+     },
+     {
+       "type": "checkbox",
+       "id": "show_search",
+       "default": true,
+       "label": "Show search"
+     },
+     {
+       "type": "checkbox",
+       "id": "enable_sticky_header",
+       "default": true,
+       "label": "Enable sticky header"
+     },
+     {
+       "type": "image_picker",
+       "id": "mob_drawer_button_img",
+       "label": "Mobile Drawer Button Image"
+     },
+     {
+       "type": "text",
+       "id": "mob_drawer_button_text",
+       "label": "Mobile Drawer Button Text",
+       "default": "SHOP ALL"
+     },
+     {
+       "type": "url",
+       "id": "mob_drawer_button_link",
+       "label": "Mobile Drawer Button Link"
+     }
+]
+ }
 {% endschema %}
 
 {% stylesheet %}
