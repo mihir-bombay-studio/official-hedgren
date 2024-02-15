@@ -1,22 +1,24 @@
-{% include 'buildify-global' %}<!doctype html>
+{% include 'buildify-global' %}
+<!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NQ2J583');</script>
-<!-- End Google Tag Manager -->
-    
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NQ2J583');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     {% if template == '404' %}
       <meta name="robots" content="noindex">
-    {% endif %}  
+    {% endif %}
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
@@ -28,14 +30,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
-    {% if template == 'cart' %}  
-    <meta http-equiv="refresh" content = "0; url = https://{{ shop.domain }}?cartopen=true">
-    <script>
-      window.location.replace("https://{{ shop.domain }}?cartopen=true");
-    </script>
+    {% if template == 'cart' %}
+      <meta http-equiv="refresh" content="0; url = https://{{ shop.domain }}?cartopen=true">
+      <script>
+        window.location.replace("https://{{ shop.domain }}?cartopen=true");
+      </script>
     {% endif %}
     <title>
-      {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+      {{ page_title }}
+      {% if current_tags -%}
+        {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+      {%- endif %}
+      {% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}
+      {% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
     </title>
 
     {% if page_description %}
@@ -45,7 +52,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% render 'meta-tags' %}
     <script src="{{ 'jquery-3.6.0.min.js' | asset_url }}"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    <script src="https://conditional-redirect.spicegems.com/js/scripttags/hedgrenstore/static/country-redirect.js?shop=hedgrenstore"></script>
+    <script
+      src="https://conditional-redirect.spicegems.com/js/scripttags/hedgrenstore/static/country-redirect.js?shop=hedgrenstore"
+    ></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -53,159 +62,159 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
-<meta name="google-site-verification" content="EiTifLPnEQtgI8OsmPS7-32R20reChtCRZ63Id8BmyE" />
+    <meta name="google-site-verification" content="EiTifLPnEQtgI8OsmPS7-32R20reChtCRZ63Id8BmyE">
     {% style %}
-      
-      @font-face {
-        font-family: 'Hedgren-Shift';
-        src: url('{{ "Hedgren-Shift_1.otf" | asset_url }}');
-        font-weight: bold;    
-    	font-display: swap;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: 'Circular';
-        src: url('{{ "CircularStd-Bold.otf" | asset_url }}');
-        font-weight: bold; 
-    	font-display: swap;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: 'Circular';
-        src: url('{{ "CircularStd-BookItalic.otf" | asset_url }}');
-        font-weight: 500; 
-    	font-display: swap;
-        font-style: italic;
-      }
-      @font-face {
-        font-family: 'Circular';
-        src: url('{{ "CircularStd-Book.otf" | asset_url }}');
-        font-weight: 500; 
-    	font-display: swap;
-        font-style: normal;
-      }
 
-      :root {
-        --font-body-family: 'Circular', sans-serif;
-        --font-body-style: normal;
-        --font-body-weight: 500;
+        @font-face {
+          font-family: 'Hedgren-Shift';
+          src: url('{{ "Hedgren-Shift_1.otf" | asset_url }}');
+          font-weight: bold;
+      	font-display: swap;
+          font-style: normal;
+        }
+        @font-face {
+          font-family: 'Circular';
+          src: url('{{ "CircularStd-Bold.otf" | asset_url }}');
+          font-weight: bold;
+      	font-display: swap;
+          font-style: normal;
+        }
+        @font-face {
+          font-family: 'Circular';
+          src: url('{{ "CircularStd-BookItalic.otf" | asset_url }}');
+          font-weight: 500;
+      	font-display: swap;
+          font-style: italic;
+        }
+        @font-face {
+          font-family: 'Circular';
+          src: url('{{ "CircularStd-Book.otf" | asset_url }}');
+          font-weight: 500;
+      	font-display: swap;
+          font-style: normal;
+        }
 
-        --font-heading-family: 'Hedgren-Shift', sans-serif;
-        --font-heading-style: normal;
-        --font-heading-weight: 700;
+        :root {
+          --font-body-family: 'Circular', sans-serif;
+          --font-body-style: normal;
+          --font-body-weight: 500;
 
-        --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
-        --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
+          --font-heading-family: 'Hedgren-Shift', sans-serif;
+          --font-heading-style: normal;
+          --font-heading-weight: 700;
 
-        --color-base-text: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
-        --color-base-background-1: {{ settings.colors_background_1.red }}, {{ settings.colors_background_1.green }}, {{ settings.colors_background_1.blue }};
-        --color-base-background-2: {{ settings.colors_background_2.red }}, {{ settings.colors_background_2.green }}, {{ settings.colors_background_2.blue }};
-        --color-base-solid-button-labels: {{ settings.colors_solid_button_labels.red }}, {{ settings.colors_solid_button_labels.green }}, {{ settings.colors_solid_button_labels.blue }};
-        --color-base-outline-button-labels: {{ settings.colors_outline_button_labels.red }}, {{ settings.colors_outline_button_labels.green }}, {{ settings.colors_outline_button_labels.blue }};
-        --color-base-accent-1: {{ settings.colors_accent_1.red }}, {{ settings.colors_accent_1.green }}, {{ settings.colors_accent_1.blue }};
-        --color-base-accent-2: {{ settings.colors_accent_2.red }}, {{ settings.colors_accent_2.green }}, {{ settings.colors_accent_2.blue }};
-        --payment-terms-background-color: {{ settings.colors_background_1 }};
+          --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
+          --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
 
-        --gradient-base-background-1: {% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ settings.colors_background_1 }}{% endif %};
-        --gradient-base-background-2: {% if settings.gradient_background_2 != blank %}{{ settings.gradient_background_2 }}{% else %}{{ settings.colors_background_2 }}{% endif %};
-        --gradient-base-accent-1: {% if settings.gradient_accent_1 != blank %}{{ settings.gradient_accent_1 }}{% else %}{{ settings.colors_accent_1 }}{% endif %};
-        --gradient-base-accent-2: {% if settings.gradient_accent_2 != blank %}{{ settings.gradient_accent_2 }}{% else %}{{ settings.colors_accent_2 }}{% endif %};
+          --color-base-text: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
+          --color-base-background-1: {{ settings.colors_background_1.red }}, {{ settings.colors_background_1.green }}, {{ settings.colors_background_1.blue }};
+          --color-base-background-2: {{ settings.colors_background_2.red }}, {{ settings.colors_background_2.green }}, {{ settings.colors_background_2.blue }};
+          --color-base-solid-button-labels: {{ settings.colors_solid_button_labels.red }}, {{ settings.colors_solid_button_labels.green }}, {{ settings.colors_solid_button_labels.blue }};
+          --color-base-outline-button-labels: {{ settings.colors_outline_button_labels.red }}, {{ settings.colors_outline_button_labels.green }}, {{ settings.colors_outline_button_labels.blue }};
+          --color-base-accent-1: {{ settings.colors_accent_1.red }}, {{ settings.colors_accent_1.green }}, {{ settings.colors_accent_1.blue }};
+          --color-base-accent-2: {{ settings.colors_accent_2.red }}, {{ settings.colors_accent_2.green }}, {{ settings.colors_accent_2.blue }};
+          --payment-terms-background-color: {{ settings.colors_background_1 }};
 
-        --page-width: {{ settings.page_width | divided_by: 10 }}rem;
-        --page-width-margin: {% if settings.page_width == '1600' %}2{% else %}0{% endif %}rem;
+          --gradient-base-background-1: {% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ settings.colors_background_1 }}{% endif %};
+          --gradient-base-background-2: {% if settings.gradient_background_2 != blank %}{{ settings.gradient_background_2 }}{% else %}{{ settings.colors_background_2 }}{% endif %};
+          --gradient-base-accent-1: {% if settings.gradient_accent_1 != blank %}{{ settings.gradient_accent_1 }}{% else %}{{ settings.colors_accent_1 }}{% endif %};
+          --gradient-base-accent-2: {% if settings.gradient_accent_2 != blank %}{{ settings.gradient_accent_2 }}{% else %}{{ settings.colors_accent_2 }}{% endif %};
+
+          --page-width: {{ settings.page_width | divided_by: 10 }}rem;
+          --page-width-margin: {% if settings.page_width == '1600' %}2{% else %}0{% endif %}rem;
+        }
+
+        *,
+        *::before,
+        *::after {
+          box-sizing: inherit;
+        }
+        * {
+            outline: 0!important;
+            box-sizing: border-box
+        }
+        html {
+          box-sizing: border-box;
+          font-size: calc(var(--font-body-scale) * 62.5%);
+          height: 100%;
+      	scroll-behavior: smooth
+        }
+
+        body {
+          display: grid;
+          grid-template-rows: auto auto 1fr auto;
+          grid-template-columns: 100%;
+          min-height: 100%;
+          margin: 0;
+          font-size: 1.5rem;
+          letter-spacing: 0.06rem;
+          line-height: calc(1 + 0.8 / var(--font-body-scale));
+          font-family: var(--font-body-family);
+          font-style: var(--font-body-style);
+          font-weight: var(--font-body-weight);
+        }
+        .container {
+            display: block;
+            width: 100%;
+            max-width: 988px;
+            padding: 0 25px;
+            margin: 0 auto
+        }
+
+        .rel {
+            position: relative!important
+        }
+
+        .text-center {
+            text-align: center!important
+        }
+
+        .text-right {
+            text-align: right!important
+        }
+
+        .justify-center {
+            justify-content: center!important
+        }
+
+        .justify-between {
+            justify-content: space-between!important
+        }
+      	.justify-end {
+            justify-content: flex-end;
+        }
+        .flex-box {
+            display: flex;
+            height: 100%
+        }
+
+        .flex-center {
+            align-self: center
+        }
+
+        .no-disp {
+            display: none!important
+        }
+      h2 {
+        font-size: 80px;
+        line-height: 71px;
+        font-family: var(--font-heading-family);
+        letter-spacing: -3.5px;
+          margin: 0;
+      	margin-bottom: 40px;
       }
-
-      *,
-      *::before,
-      *::after {
-        box-sizing: inherit;
-      }
-      * {
-          outline: 0!important;
-          box-sizing: border-box
-      }
-      html {
-        box-sizing: border-box;
-        font-size: calc(var(--font-body-scale) * 62.5%);
-        height: 100%;    
-    	scroll-behavior: smooth
-      }
-
-      body {
-        display: grid;
-        grid-template-rows: auto auto 1fr auto;
-        grid-template-columns: 100%;
-        min-height: 100%;
+      h3 {
+        font-size: 36px;
+        line-height: 71px;
+        font-family: var(--font-heading-family);
+        letter-spacing: -1.7px;
         margin: 0;
-        font-size: 1.5rem;
-        letter-spacing: 0.06rem;
-        line-height: calc(1 + 0.8 / var(--font-body-scale));
-        font-family: var(--font-body-family);
-        font-style: var(--font-body-style);
-        font-weight: var(--font-body-weight);
+        margin-bottom: 24px;
+        text-align: center;
       }
-      .container {
-          display: block;
-          width: 100%;
-          max-width: 988px;
-          padding: 0 25px;
-          margin: 0 auto
-      }
-
-      .rel {
-          position: relative!important
-      }
-
-      .text-center {
-          text-align: center!important
-      }
-
-      .text-right {
-          text-align: right!important
-      }
-
-      .justify-center {
-          justify-content: center!important
-      }
-
-      .justify-between {
-          justify-content: space-between!important
-      }
-    	.justify-end {
-          justify-content: flex-end;
-      }
-      .flex-box {
-          display: flex;
-          height: 100%
-      }
-
-      .flex-center {
-          align-self: center
-      }
-
-      .no-disp {
-          display: none!important
-      }
-    h2 {
-      font-size: 80px;
-      line-height: 71px;
-      font-family: var(--font-heading-family);
-      letter-spacing: -3.5px;
-        margin: 0;
-    	margin-bottom: 40px;
-    }
-    h3 {
-      font-size: 36px;
-      line-height: 71px;
-      font-family: var(--font-heading-family);
-      letter-spacing: -1.7px;
-      margin: 0;
-      margin-bottom: 24px;
-      text-align: center;
-    }
     {% endstyle %}
-	{% comment %}
-    {{ 'base.css' | asset_url | stylesheet_tag }}
+    {% comment %}
+      {{ 'base.css' | asset_url | stylesheet_tag }}
     {% endcomment %}
 
     {{ 'slick.css' | asset_url | stylesheet_tag }}
@@ -217,25 +226,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {%- endunless -%}
 
     {%- if settings.predictive_search_enabled -%}
-      <link rel="stylesheet" href="{{ 'component-predictive-search.css' | asset_url }}" media="print" onload="this.media='all'">
+      <link
+        rel="stylesheet"
+        href="{{ 'component-predictive-search.css' | asset_url }}"
+        media="print"
+        onload="this.media='all'"
+      >
     {%- endif -%}
 
-    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-    <meta name="facebook-domain-verification" content="95prg0opv4jd3pbvriz5viuahrfq8d" />
-  
-	{{ shop.metafields.loox["global_html_head"] }}
+    <script>
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    </script>
+    <meta name="facebook-domain-verification" content="95prg0opv4jd3pbvriz5viuahrfq8d">
 
-  {% render 'shogun-head' %}
+    {{ shop.metafields.loox.global_html_head }}
+
+    {% render 'shogun-head' %}
     {% include 'dataLayer-allPages' %}
-</head>
+  </head>
 
-  <body class="gradient">
-    
+  <body class="gradient test_class">
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQ2J583"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NQ2J583"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     {% section 'hedgren-header' %}
     {% section 'hedgren-cart-drawer' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
@@ -243,7 +264,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </main>
 
     {% section 'hedgren-footer' %}
-	<script src="{{ 'slick.js' | asset_url }}"></script>
+    <script src="{{ 'slick.js' | asset_url }}"></script>
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
     </ul>
@@ -271,9 +292,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         shareSuccess: `{{ 'general.share.success_message' | t }}`,
       }
     </script>
-    
+
     <script>
-        
+
       var acc = document.getElementsByClassName("accordion");
       var i;
 
@@ -285,59 +306,57 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             panel.style.maxHeight = null;
           } else {
             panel.style.maxHeight = panel.scrollHeight + "px";
-          } 
+          }
         });
       }
     </script>
-  
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  
-	{{ shop.metafields.loox["global_html_body"] }}
- {% include 'smile-initializer' %}
 
+    {{ shop.metafields.loox.global_html_body }}
+    {% include 'smile-initializer' %}
 
-{% include 'swymSnippet' %}
-<script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
-<script>
-    var klaviyo = klaviyo || [];
-    klaviyo.init({
-      account: "R9KYK2",
-      platform: "shopify"
-    });
-    klaviyo.enable("backinstock",{ 
-    trigger: {
-      product_page_text: "Notify Me When Available",
-      product_page_class: "btn",
-      product_page_text_align: "center",
-      product_page_margin: "0px",
-      replace_anchor: false
-    },
-    modal: {
-     headline: "{product_name}",
-     body_content: "Register to receive a notification when this item comes back in stock.",
-     email_field_label: "Email",
-     button_label: "Notify me when available",
-     subscription_success_label: "You're in! We'll let you know when it's back.",
-     footer_content: '',
-     additional_styles: "@import url('{{ 'popup_iframe.css' | asset_url }}');",
-     drop_background_color: "#000",
-     background_color: "#fff",
-     text_color: "#222",
-     button_text_color: "#fff",
-     button_background_color: "#439fdb",
-     close_button_color: "#ccc",
-     error_background_color: "#fcd6d7",
-     error_text_color: "#C72E2F",
-     success_background_color: "#d3efcd",
-     success_text_color: "#1B9500"
-    }
-  });
-</script>
-<!-- CRITEO START -->
-{% render 'criteo-tracking' %}
-<!-- CRITEO END -->
-</body>
+    {% include 'swymSnippet' %}
+    <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+    <script>
+        var klaviyo = klaviyo || [];
+        klaviyo.init({
+          account: "R9KYK2",
+          platform: "shopify"
+        });
+        klaviyo.enable("backinstock",{
+        trigger: {
+          product_page_text: "Notify Me When Available",
+          product_page_class: "btn",
+          product_page_text_align: "center",
+          product_page_margin: "0px",
+          replace_anchor: false
+        },
+        modal: {
+         headline: "{product_name}",
+         body_content: "Register to receive a notification when this item comes back in stock.",
+         email_field_label: "Email",
+         button_label: "Notify me when available",
+         subscription_success_label: "You're in! We'll let you know when it's back.",
+         footer_content: '',
+         additional_styles: "@import url('{{ 'popup_iframe.css' | asset_url }}');",
+         drop_background_color: "#000",
+         background_color: "#fff",
+         text_color: "#222",
+         button_text_color: "#fff",
+         button_background_color: "#439fdb",
+         close_button_color: "#ccc",
+         error_background_color: "#fcd6d7",
+         error_text_color: "#C72E2F",
+         success_background_color: "#d3efcd",
+         success_text_color: "#1B9500"
+        }
+      });
+    </script>
+    <!-- CRITEO START -->
+    {% render 'criteo-tracking' %}
+    <!-- CRITEO END -->
+  </body>
 </html>
