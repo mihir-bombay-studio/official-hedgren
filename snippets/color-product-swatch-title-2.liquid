@@ -649,7 +649,12 @@
   </span>
  {% endif %}
 
-  {% if product.tags contains "2.Color_Peacoat Blue" and product.url contains "peacoatblue" %}
+  {% if product.tags contains "2.Color_Peacoat Blue" and product.url contains "peacoat-blue" %}
 <span class="variant-color-title" title="Peacoat Blue" data-url="{{ product.url }}"> Peacoat Blue
+  </span>
+ {% endif %}
+
+   {% if product.tags contains "2.Color_Vintage Taupe" and product.url contains "vintage-taupe" %}
+<span class="variant-color-title" title="Vintage Taupe" data-url="{{ product.url }}"> Vintage Taupe
   </span>
  {% endif %}
