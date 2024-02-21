@@ -42,11 +42,29 @@
         "sale_text": "Sale",
         "new_text": "NEW"
       }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
     }
   },
   "order": [
+    "shogun-helper",
+    "shogun-above",
     "banner",
     "product-grid",
-    "16381766261c7dbe21"
+    "16381766261c7dbe21",
+    "shogun-below"
   ]
 }
