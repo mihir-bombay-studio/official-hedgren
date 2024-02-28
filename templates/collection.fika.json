@@ -353,9 +353,26 @@
         "discover_text": "DISCOVER COLLECTION",
         "discover_shoptext": "SHOP COLLECTIONS"
       }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
     }
   },
   "order": [
+    "shogun-helper",
+    "shogun-above",
     "banner",
     "product-grid",
     "1637649148751d55cf",
@@ -363,6 +380,7 @@
     "hedgren_img_text_hBfc49",
     "1663596510c820a18e",
     "1663596479e46c6f0c",
-    "1637658320f19f8e7c"
+    "1637658320f19f8e7c",
+    "shogun-below"
   ]
 }
