@@ -3,8 +3,8 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cocoon_banner_Global_2000_x_891_No_Logo_01.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Cocoon_Banner_1200_x_1200_No_Logo_01.jpg",
+        "image": "shopify:\/\/shop_images\/Fika_2000_x_891.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Fika_2000_x_891.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
@@ -14,7 +14,7 @@
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "cocoon",
+        "collection": "fika",
         "buttontext": "SHOP ALL PRODUCTS",
         "buttonurl": "shopify:\/\/collections\/cocoon"
       }
