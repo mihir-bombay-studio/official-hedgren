@@ -170,6 +170,7 @@
     },
     "cf69160b-0132-43dd-aad4-2c4e83689d9e": {
       "type": "hedgren-img-text",
+      "disabled": true,
       "settings": {
         "background": "normal-bg",
         "order": "order-normal",
@@ -189,8 +190,30 @@
         "bg_color": ""
       }
     },
+    "hedgren_img_text_PzQ39m": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/3DModel_cut_copy.280_G.jpg",
+        "heading": "Environment",
+        "subheading": "",
+        "content": "The 2 Main inside and outside fabrics are 100% recycled and certified RPET materials, made from recycled plastic bottles. \n<br><br>\nOutside fabric: 600D 100% recycled Polyester<br>\nInside lining fabric: 150D 100% recycled Polyester",
+        "button_label": "",
+        "custom_link": false,
+        "button_link": "",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
     "1663596479e46c6f0c": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": ""
       }
@@ -265,6 +288,7 @@
         "a726fe23-c473-4920-8305-df6d75419a8b",
         "8ce418e0-fc2b-4b4f-b53b-d1ba7c0982df"
       ],
+      "disabled": true,
       "settings": {
         "title_left": "1994",
         "title_mid": "Discover our collections",
@@ -281,6 +305,7 @@
     "product-grid",
     "1637649148751d55cf",
     "cf69160b-0132-43dd-aad4-2c4e83689d9e",
+    "hedgren_img_text_PzQ39m",
     "1663596479e46c6f0c",
     "1637658320f19f8e7c"
   ]
