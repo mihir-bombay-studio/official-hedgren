@@ -257,39 +257,45 @@
     "16376443013d854169": {
       "type": "hedgren-instagram",
       "blocks": {
+        "imgs_HXQVgL": {
+          "type": "imgs",
+          "settings": {
+            "link": ""
+          }
+        },
         "14fa8911-6ccb-4e9d-b672-7ae707c8c650": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.17.40.png",
-            "link": "shopify:\/\/collections\/edge"
+            "img": "shopify:\/\/shop_images\/commutebike3.jpg",
+            "link": "shopify:\/\/collections\/commute-bike"
           }
         },
         "7bdeb531-b0e1-4ac7-b2b0-eb0fd05e0ac6": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.09.58.png",
-            "link": "https:\/\/hedgren.com\/collections\/nova"
+            "img": "shopify:\/\/shop_images\/commutebike4.jpg",
+            "link": "shopify:\/\/collections\/commute-bike"
           }
         },
         "73772604-fe31-41d4-8414-499b8d7b4826": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Image_2x_bc97108c-45be-44f9-bd36-781deba020c5.png",
-            "link": "https:\/\/hedgren.com\/collections\/inner-city"
+            "img": "shopify:\/\/shop_images\/commutebike5.jpg",
+            "link": "shopify:\/\/collections\/commute-bike"
           }
         },
         "103d4d2d-a896-4025-ac77-ea68951f399e": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.12.57.png",
-            "link": "shopify:\/\/collections\/edge"
+            "img": "shopify:\/\/shop_images\/commutebike1.jpg",
+            "link": "shopify:\/\/collections\/commute-bike"
           }
         },
         "5010d499-7996-4c3c-9961-3b34b04958ae": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.11.36.png",
-            "link": "shopify:\/\/collections\/charm"
+            "img": "shopify:\/\/shop_images\/commutebike2.jpg",
+            "link": "shopify:\/\/collections\/commute-bike"
           }
         },
         "e1e8d6f7-0ab6-4cb3-a8e7-e24d8597ec1b": {
@@ -301,6 +307,7 @@
         }
       },
       "block_order": [
+        "imgs_HXQVgL",
         "14fa8911-6ccb-4e9d-b672-7ae707c8c650",
         "7bdeb531-b0e1-4ac7-b2b0-eb0fd05e0ac6",
         "73772604-fe31-41d4-8414-499b8d7b4826",
