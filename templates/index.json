@@ -257,12 +257,6 @@
     "16376443013d854169": {
       "type": "hedgren-instagram",
       "blocks": {
-        "imgs_HXQVgL": {
-          "type": "imgs",
-          "settings": {
-            "link": ""
-          }
-        },
         "14fa8911-6ccb-4e9d-b672-7ae707c8c650": {
           "type": "imgs",
           "settings": {
@@ -301,13 +295,12 @@
         "e1e8d6f7-0ab6-4cb3-a8e7-e24d8597ec1b": {
           "type": "imgs",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Schermafbeelding_2021-12-17_om_12.11.13.png",
-            "link": ""
+            "img": "shopify:\/\/shop_images\/commutebike6.jpg",
+            "link": "shopify:\/\/collections\/commute-bike"
           }
         }
       },
       "block_order": [
-        "imgs_HXQVgL",
         "14fa8911-6ccb-4e9d-b672-7ae707c8c650",
         "7bdeb531-b0e1-4ac7-b2b0-eb0fd05e0ac6",
         "73772604-fe31-41d4-8414-499b8d7b4826",
