@@ -202,52 +202,52 @@
     "1637590678006e9bf8": {
       "type": "hedgren-testimonials",
       "blocks": {
-        "6cf8b202-3e6c-43f3-ad2f-dbd0cea7751d": {
+        "testimonial_7dGEx7": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HNOV05_512_01_1.jpg",
-            "rating": 4,
-            "prod_title": "GALACTIC Shoulder Bag Tote",
-            "testimonial_text": "Love this bag!! Great colour, enough space for all things required, even when going out with kids. A lot of pockets, waterproof (really important in Scotland) and very  light. I have 2 fancy lather bag - hate that they are very heavy. This doesn't make you feel that you have such a large bag. The second time I buy from Hedgren, and really love the brand.",
-            "author": "Luminita M."
-          }
-        },
-        "b06dd702-88f7-4053-be84-18fd17feed98": {
-          "type": "testimonial",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/HIC419_316_02_07_dffd614e-9570-4a20-9b8e-3359a6a95f3f.jpg",
+            "img": "shopify:\/\/shop_images\/HNOV08_220_01_01.jpg",
             "rating": 5,
-            "prod_title": "FAITH Crossover Safety Hook RFID",
-            "testimonial_text": "Wonderful bag very easy and light to wear. What I was looking for!",
-            "author": "loredana C."
+            "prod_title": "Christine D.",
+            "testimonial_text": "This is my second Orbit Flat Crossover. I've had a beautiful deep green colour one for almost 2 years and it still looks like new. Just ordered the stone beige for a second color. Perfect size to fit my phone, glasses, a thin wallet, hand sanitizer, and lipstick, yet still lie flat enough to look good and be comfortable.",
+            "author": "Christine D."
           }
         },
-        "a7c89255-a3fc-40fd-80d6-adaa838902d1": {
+        "testimonial_7NJAjC": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HIC112_155_08_07_a4c63c46-e998-4706-9a14-e1cd8a76e94e.jpg",
+            "img": "shopify:\/\/shop_images\/HIC370_479_10_1.jpg",
             "rating": 5,
-            "prod_title": "LEONCE Small Vertical Crossover RFID",
-            "testimonial_text": "I own this bag since 3 years and I use it everyday. It's like new, and it always looks fine, in every context - work, going for a walk, dancing. I love the compartments. I had a similar bigger Hedgren before which used for more than 10 years.",
-            "author": "Corinna"
+            "prod_title": "Perfect Travel Bag",
+            "testimonial_text": "Great. My previous travel bag was stolen while I was on vacation. While looking online to replace it, I stumbled upon Hedgren. The Orva bag is literally perfect. Comfortable to wear, lots of compartments to hold all necessities and rain resistant.",
+            "author": "Marlene S."
           }
         },
-        "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae": {
+        "testimonial_GrKmHa": {
           "type": "testimonial",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HIC11L_316_09_07_53cfb374-427a-456f-a65f-89d940b179ae.jpg",
-            "rating": 4,
-            "prod_title": "VOGUE L Backpack Large RFID",
-            "testimonial_text": "An amazing high quality backpack I always buy Hedgren products as they are so well made.",
-            "author": "Katharine P."
+            "img": "shopify:\/\/shop_images\/HIC11_865_09_1.jpg",
+            "rating": 5,
+            "prod_title": "Love my backpack",
+            "testimonial_text": "Excellent! I've bought over ten of these backpacks and LOVE them!!! They are the perfect size for me.",
+            "author": "Lynda A"
+          }
+        },
+        "testimonial_iV9KQH": {
+          "type": "testimonial",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HNXT08_003_01_6.jpg",
+            "rating": 5,
+            "prod_title": "Fabulous",
+            "testimonial_text": "I have been a crew member for a major airline for over 39 yrs. I have tried every 'tote', 'computer bag' out there. Then, I found Hedgren. Bought the Byte Laptop Bag. What a beautiful piece of equipment to add to my traveling experience. Top of the industry materials and workmanship. You'll not find anything anywhere as fanatsic as this piece in this size range.",
+            "author": "Fletcher S."
           }
         }
       },
       "block_order": [
-        "6cf8b202-3e6c-43f3-ad2f-dbd0cea7751d",
-        "b06dd702-88f7-4053-be84-18fd17feed98",
-        "a7c89255-a3fc-40fd-80d6-adaa838902d1",
-        "3c7ce39f-d82e-4b9f-b29e-aa21e41e03ae"
+        "testimonial_7dGEx7",
+        "testimonial_7NJAjC",
+        "testimonial_GrKmHa",
+        "testimonial_iV9KQH"
       ],
       "settings": {
         "title": "Reviews",
