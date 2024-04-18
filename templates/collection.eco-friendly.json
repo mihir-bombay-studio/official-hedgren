@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "16381766261c7dbe21": {
+      "type": "hedgren-all-products",
+      "settings": {
+        "addtext": "ADD TO CART",
+        "outtext": "COMING SOON",
+        "moretext": "More info",
+        "filter_text": "FILTER",
+        "filter_text_apply": "APPLY FILTER",
+        "sort_text": "SORT",
+        "sort_text1": "Newest first",
+        "sort_text2": "Bestsellers",
+        "sort_text3": "Price, low - high",
+        "sort_text4": "Price, high - low",
+        "clear_text": "CLEAR ALL",
+        "outlet_text": "Outlet",
+        "sale_text": "Sale",
+        "new_text": "NEW"
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "banner",
+    "product-grid",
+    "16381766261c7dbe21",
+    "shogun-below"
+  ]
+}
