@@ -20,7 +20,6 @@
     },
     "hedgren_img_text_7NWXdE": {
       "type": "hedgren-img-text",
-      "disabled": true,
       "settings": {
         "background": "normal-bg",
         "order": "order-normal",
@@ -31,7 +30,7 @@
         "content": "We're thrilled to share our commitment to sustainability at Hedgren. By investing in eco-friendly materials, we're taking strides to reduce our environmental impact while maintaining the quality and style you love. Join us in our mission to make a positive change with every purchase. To celebrate, enjoy a 10% discount on our eco-friendly products, available for today only!",
         "button_label": "SHOP EARTH DAY",
         "custom_link": false,
-        "button_link": "https:\/\/hedgren.com\/discount\/EARTH24",
+        "button_link": "https:\/\/hedgren.com\/discount\/EARTH24\/?redirect=\/collections\/eco-friendly",
         "extra_txt": "",
         "margin_top": "normal-top",
         "margin_bottom": "normal-bottom",
