@@ -20,6 +20,7 @@
     },
     "hedgren_img_text_7NWXdE": {
       "type": "hedgren-img-text",
+      "disabled": true,
       "settings": {
         "background": "normal-bg",
         "order": "order-normal",
