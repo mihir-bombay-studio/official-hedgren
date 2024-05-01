@@ -3,18 +3,18 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Commute_Bike_banner_Global_2000_x_891.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/Commute_Bike_Banner_1200_x_1200_3a41e300-e1c6-42fd-8f6b-f4b405c3d730.jpg",
+        "image": "shopify:\/\/shop_images\/Comby_2000_x_891.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Comby_1200_x_1200_v24.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/commute-bike",
+        "headinglink": "shopify:\/\/collections\/comby",
         "headinglinktext": "VIEW MORE",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "commute-bike",
+        "collection": "comby",
         "buttontext": "SHOP ALL PRODUCTS",
         "buttonurl": "shopify:\/\/collections\/commute-bike"
       }
