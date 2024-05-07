@@ -1,5 +1,23 @@
 {
   "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "hedgren_half_hero_nDpXi9": {
+      "type": "hedgren-half-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mothers_day_banner_Global_2000_x_891.jpg",
+        "heading_main": "",
+        "sub_heading": ""
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -43,18 +61,8 @@
         "new_text": "NEW"
       }
     },
-    "shogun-above": {
-      "type": "shogun-above",
-      "settings": {
-      }
-    },
     "shogun-below": {
       "type": "shogun-below",
-      "settings": {
-      }
-    },
-    "shogun-helper": {
-      "type": "shogun-helper",
       "settings": {
       }
     }
@@ -62,6 +70,7 @@
   "order": [
     "shogun-helper",
     "shogun-above",
+    "hedgren_half_hero_nDpXi9",
     "banner",
     "product-grid",
     "16381766261c7dbe21",
