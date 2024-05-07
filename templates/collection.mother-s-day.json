@@ -10,10 +10,10 @@
       "settings": {
       }
     },
-    "hedgren_half_hero_nDpXi9": {
+    "hedgren_half_hero_7W9LaN": {
       "type": "hedgren-half-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mothers_day_banner_Global_2000_x_891.jpg",
+        "image": "shopify:\/\/shop_images\/mothersdayglobal.jpg",
         "heading_main": "",
         "sub_heading": ""
       }
@@ -70,7 +70,7 @@
   "order": [
     "shogun-helper",
     "shogun-above",
-    "hedgren_half_hero_nDpXi9",
+    "hedgren_half_hero_7W9LaN",
     "banner",
     "product-grid",
     "16381766261c7dbe21",
