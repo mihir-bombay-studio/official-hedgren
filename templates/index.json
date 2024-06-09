@@ -3,20 +3,20 @@
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/HIC_Seasonal_2000_x_891.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/HIC_Seasonal_1200_x_1200_v2.jpg",
+        "image": "shopify:\/\/shop_images\/Father_banner_Global_2000_x_891_No_Logo_01.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Father_Banner_1200_x_1200_Carousel_05.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/inner-city",
+        "headinglink": "shopify:\/\/collections\/next-1",
         "headinglinktext": "VIEW MORE",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "inner-city",
+        "collection": "next-1",
         "buttontext": "SHOP ALL PRODUCTS",
-        "buttonurl": "shopify:\/\/collections\/inner-city"
+        "buttonurl": "shopify:\/\/collections\/next-1"
       }
     },
     "1638356576387ca461": {
