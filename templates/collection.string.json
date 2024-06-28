@@ -41,20 +41,22 @@
           "settings": {
             "name": "Smart Functionality",
             "bag": "shopify:\/\/shop_images\/visibility.jpg",
-            "feature_img1": "shopify:\/\/shop_images\/GUN_0612.jpg",
+            "feature_img1": "shopify:\/\/shop_images\/GUN_3791.jpg",
             "feature_heading1": "WATER REPELLENT COATING",
             "feature_description1": "",
-            "feature_img2": "shopify:\/\/shop_images\/GUN_0174_W_66d956b6-1b51-4c47-860d-a6b2deec5806.jpg",
+            "feature_img2": "shopify:\/\/shop_images\/GUN_3446.jpg",
             "feature_heading2": "FLEXIBLE STRING CONCEPT",
             "feature_description2": "Allowing easy expandability or compression of the bag’s volume.",
-            "feature_img3": "shopify:\/\/shop_images\/GUN_0278.jpg",
+            "feature_img3": "shopify:\/\/shop_images\/GUN_3440.jpg",
             "feature_heading3": "KEY HANGER",
             "feature_description3": "Use the key hanger as an external eyecatcher or keep your keys instantly available by the outside fixation. Extra inside fixation: use the internal ring for swift key location and secure storage.",
-            "feature_img4": "shopify:\/\/shop_images\/GUN_0290.jpg",
+            "feature_img4": "shopify:\/\/shop_images\/GUN_34552.jpg",
             "feature_heading4": "INSIDE ZIPPER POCKET",
             "feature_description4": "For discrete and organised storage of personal items.",
+            "feature_img5": "shopify:\/\/shop_images\/GUN_3092.jpg",
             "feature_heading5": "SAFETY BACK POCKET",
             "feature_description5": "The back pocket comes with a recessed zipper opening and close body positioning, assuring safety during usage.",
+            "feature_img6": "shopify:\/\/shop_images\/GUN_3805.jpg",
             "feature_heading6": "PHONE POCKET\/ ACCESSORIES POCKET",
             "feature_description6": "For protective and dedicated storage of your phone or accessories. Note: size varies per model, larger styles offer 2 pockets."
           }
@@ -90,7 +92,7 @@
       "custom_css": [
         ".filter-name {text-wrap: nowrap;}",
         ".filter {width: 80px;}",
-        "div.img-text-wrapper.normal-bg > div{display:none;}"
+        "div.img-text-wrapper.normal-bg > div {display: none;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
