@@ -39,24 +39,24 @@
         "411dc432-1cb7-4f96-bc4d-f31649016464": {
           "type": "features",
           "settings": {
-            "name": "Visibility",
+            "name": "Smart Functionality",
             "bag": "shopify:\/\/shop_images\/visibility.jpg",
             "feature_img1": "shopify:\/\/shop_images\/GUN_0612.jpg",
-            "feature_heading1": "Front panel",
-            "feature_description1": "Bold printing is used around the quick access front pocket and on the reflective signature.",
+            "feature_heading1": "WATER REPELLENT COATING",
+            "feature_description1": "",
             "feature_img2": "shopify:\/\/shop_images\/GUN_0174_W_66d956b6-1b51-4c47-860d-a6b2deec5806.jpg",
-            "feature_heading2": "Reflective piping",
-            "feature_description2": "Integrated on all front panel edges, making the reflective material visible in its side view as well.",
+            "feature_heading2": "FLEXIBLE STRING CONCEPT",
+            "feature_description2": "Allowing easy expandability or compression of the bag’s volume.",
             "feature_img3": "shopify:\/\/shop_images\/GUN_0278.jpg",
-            "feature_heading3": "Side pockets",
-            "feature_description3": "The 3 largest styles come with extra reflective piping on the side pockets.",
+            "feature_heading3": "KEY HANGER",
+            "feature_description3": "Use the key hanger as an external eyecatcher or keep your keys instantly available by the outside fixation. Extra inside fixation: use the internal ring for swift key location and secure storage.",
             "feature_img4": "shopify:\/\/shop_images\/GUN_0290.jpg",
-            "feature_heading4": "360° visibility",
-            "feature_description4": "Reflective piping is added on the backpack straps of the 3 largest styles.",
-            "feature_heading5": "",
-            "feature_description5": "",
-            "feature_heading6": "",
-            "feature_description6": ""
+            "feature_heading4": "INSIDE ZIPPER POCKET",
+            "feature_description4": "For discrete and organised storage of personal items.",
+            "feature_heading5": "SAFETY BACK POCKET",
+            "feature_description5": "The back pocket comes with a recessed zipper opening and close body positioning, assuring safety during usage.",
+            "feature_heading6": "PHONE POCKET\/ ACCESSORIES POCKET",
+            "feature_description6": "For protective and dedicated storage of your phone or accessories. Note: size varies per model, larger styles offer 2 pockets."
           }
         },
         "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7": {
@@ -81,86 +81,11 @@
             "feature_heading6": "",
             "feature_description6": ""
           }
-        },
-        "7c289c8d-f795-426d-a6f0-ccbb7e116719": {
-          "type": "features",
-          "settings": {
-            "name": "Comfort",
-            "bag": "shopify:\/\/shop_images\/comfort_6e70a106-0fc6-4c81-84a3-2aba5925bf38.jpg",
-            "feature_img1": "shopify:\/\/shop_images\/GUN_0278_991aa6b4-0bef-4c88-9131-70bb40a6d03d.jpg",
-            "feature_heading1": "2 Side Pockets",
-            "feature_description1": "Convenient for storage of small items like umbrellas or water bottles.",
-            "feature_img2": "shopify:\/\/shop_images\/GUN_0290_c2533697-a2d5-43be-a037-0804b8a7289b.jpg",
-            "feature_heading2": "Back Panel & Backpack Straps",
-            "feature_description2": "The padded air mesh back panel brings both carrying comfort and ventilation.",
-            "feature_img3": "shopify:\/\/shop_images\/GUN_0366.jpg",
-            "feature_heading3": "Interior Organisation",
-            "feature_description3": "All 4 models come with a laptop organisation, offer various inside pockets and are A4 size compatible.",
-            "feature_img4": "shopify:\/\/shop_images\/LisaVanBiesenPhotography-9573_1_cb5779bc-df19-40f7-8cf5-75f6eabe3a6f.jpg",
-            "feature_heading4": "Lightweight",
-            "feature_description4": "Regardless the structure, the extensive features and the highly water-repellent coated material, all models are still remarkably lightweight.",
-            "feature_img5": "shopify:\/\/shop_images\/GUN_0174_W_a5686690-ad21-4f59-a485-4a23c78a8979.jpg",
-            "feature_heading5": "Top carry handle",
-            "feature_description5": "Integrated on all styles and always directly accessible, it allows easy and quick maneuverability.",
-            "feature_heading6": "",
-            "feature_description6": ""
-          }
-        },
-        "3bad18c4-f5e6-4a34-ada7-18bfb7b11f97": {
-          "type": "features",
-          "settings": {
-            "name": "Bike Usage",
-            "bag": "shopify:\/\/shop_images\/bike.jpg",
-            "feature_img1": "shopify:\/\/shop_images\/LisaVanBiesenPhotography-9596_1_1.jpg",
-            "feature_heading1": "Quick mount fixation system",
-            "feature_description1": "All bags can be effortlessly fixed to a standard bike carrier rack.",
-            "feature_img2": "shopify:\/\/shop_images\/GUN_0275.jpg",
-            "feature_heading2": "Smart Sleeve",
-            "feature_description2": "Webbing fixator can be used as smart sleeve function",
-            "feature_img3": "shopify:\/\/shop_images\/LisaVanBiesenPhotography-9579.jpg",
-            "feature_heading3": "Back cover",
-            "feature_description3": "To prevent the back panel and backpack straps from getting wet and dirty on the bike carrier rack, they can simply be stored away behind the PU coated back cover.",
-            "feature_img4": "shopify:\/\/shop_images\/LisaVanBiesenPhotography-9487.jpg",
-            "feature_heading4": "Storage Pocket",
-            "feature_description4": "When not in usage, the back cover itself can be stored away as well, folding it loosely into its custom-made cover pocket, always located on the base of each bag.",
-            "feature_heading5": "",
-            "feature_description5": "",
-            "feature_heading6": "",
-            "feature_description6": ""
-          }
-        },
-        "096ebac3-047d-4dc9-b070-3620abbc4c46": {
-          "type": "features",
-          "settings": {
-            "name": "Smart Functionality",
-            "bag": "shopify:\/\/shop_images\/smart.jpg",
-            "feature_img1": "shopify:\/\/shop_images\/GUN_0299.jpg",
-            "feature_heading1": "Additional Zipper Closure",
-            "feature_description1": "The additional zipper closure on the roll up models ensure no objects fall out during handling or storage.",
-            "feature_img2": "shopify:\/\/shop_images\/GUN_0273.jpg",
-            "feature_heading2": "Direct access to main compartment",
-            "feature_description2": "An additional zipper opening in the side seam on the roll up models, allows quick access to the main compartment without having to release and unroll the main opening.",
-            "feature_img3": "shopify:\/\/shop_images\/Lock.jpg",
-            "feature_heading3": "Security",
-            "feature_description3": "All main compartments come with kissing sliders, making it possible to close them off with a padlock whenever the need is felt to do so.",
-            "feature_img4": "shopify:\/\/shop_images\/GUN_0307.jpg",
-            "feature_heading4": "RFID pocket",
-            "feature_description4": "These products are designed with a pocket containing a special lining to protect the Radio Frequency Identification (RFID) chips in your credit\/debit cards and passport from unwanted scanning and data stealing.",
-            "feature_img5": "shopify:\/\/shop_images\/HCBI01_849_01_5_1.jpg",
-            "feature_heading5": "Laptop sleeve",
-            "feature_description5": "The laptop sleeve comes with an additional webbing fixation to firmly keep the laptop in place during usage.",
-            "feature_img6": "shopify:\/\/shop_images\/GUN_0666.jpg",
-            "feature_heading6": "Key hanger",
-            "feature_description6": "The key hanger with key chain allows effortless storage and swift key location."
-          }
         }
       },
       "block_order": [
         "411dc432-1cb7-4f96-bc4d-f31649016464",
-        "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7",
-        "7c289c8d-f795-426d-a6f0-ccbb7e116719",
-        "3bad18c4-f5e6-4a34-ada7-18bfb7b11f97",
-        "096ebac3-047d-4dc9-b070-3620abbc4c46"
+        "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7"
       ],
       "custom_css": [
         ".filter-name {text-wrap: nowrap;}",
