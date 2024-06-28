@@ -102,7 +102,7 @@
         "div.img-text-wrapper.normal-bg > div {display: none;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
+        "image": "shopify:\/\/shop_images\/Hedgren_D3_Edits-6.jpg",
         "heading_left": "",
         "heading_right": "",
         "sub_heading": "",
@@ -115,7 +115,7 @@
     "cf69160b-0132-43dd-aad4-2c4e83689d9e": {
       "type": "hedgren-img-text",
       "custom_css": [
-        ".img-text-img{height:auto;}"
+        ".img-text-img {height: auto;}"
       ],
       "settings": {
         "background": "normal-bg",
