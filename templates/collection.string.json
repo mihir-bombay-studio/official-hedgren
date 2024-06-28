@@ -89,7 +89,8 @@
       ],
       "custom_css": [
         ".filter-name {text-wrap: nowrap;}",
-        ".filter {width: 80px;}"
+        ".filter {width: 80px;}",
+        "div.img-text-wrapper.normal-bg > div{display:none;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Hedgren_needs_to_make_this_image_2x_9e64d1c5-45b6-4c65-aafd-055b4e1c7bf5.png",
