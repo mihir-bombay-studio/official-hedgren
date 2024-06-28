@@ -114,6 +114,9 @@
     },
     "cf69160b-0132-43dd-aad4-2c4e83689d9e": {
       "type": "hedgren-img-text",
+      "custom_css": [
+        ".img-text-img{height:auto;}"
+      ],
       "settings": {
         "background": "normal-bg",
         "order": "order-normal",
