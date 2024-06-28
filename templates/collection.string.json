@@ -58,7 +58,10 @@
             "feature_description5": "The back pocket comes with a recessed zipper opening and close body positioning, assuring safety during usage.",
             "feature_img6": "shopify:\/\/shop_images\/GUN_3805.jpg",
             "feature_heading6": "PHONE POCKET\/ ACCESSORIES POCKET",
-            "feature_description6": "For protective and dedicated storage of your phone or accessories. Note: size varies per model, larger styles offer 2 pockets."
+            "feature_description6": "For protective and dedicated storage of your phone or accessories. Note: size varies per model, larger styles offer 2 pockets.",
+            "feature_img7": "shopify:\/\/shop_images\/GUN_3449.jpg",
+            "feature_heading7": "FRONT POCKET",
+            "feature_description7": "Recessed and spacious, zipper front pocket."
           }
         },
         "fb17f4bc-0e5a-44ba-a72a-9400e91b37d7": {
@@ -81,7 +84,9 @@
             "feature_heading5": "PADDED TABLET SLEEVE",
             "feature_description5": "",
             "feature_heading6": "A4 COMPATIBLE SIZE",
-            "feature_description6": ""
+            "feature_description6": "",
+            "feature_heading7": "",
+            "feature_description7": ""
           }
         }
       },
