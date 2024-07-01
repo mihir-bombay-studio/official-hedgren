@@ -1,22 +1,31 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "16371340368797eed8": {
       "type": "hedgren-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/HIC_Seasonal_2000_x_891.jpg",
-        "imagemobile": "shopify:\/\/shop_images\/HIC_Seasonal_1200_x_1200_v2.jpg",
+        "image": "shopify:\/\/shop_images\/Sale_banner_2000_x_891_Blue_01.jpg",
+        "imagemobile": "shopify:\/\/shop_images\/Sale_banner_1200_x_1200_Blue_01.jpg",
         "hero_text_color": "#ffffff",
         "heading": "",
         "subheading": "",
-        "headinglink": "shopify:\/\/collections\/inner-city",
+        "headinglink": "shopify:\/\/collections\/summer-sale-24",
         "headinglinktext": "VIEW MORE",
         "design2": false,
         "addtext": "ADD TO CART",
         "outtext": "COMING SOON",
         "moretext": "More info",
-        "collection": "inner-city",
+        "collection": "summer-sale-24",
         "buttontext": "SHOP ALL PRODUCTS",
-        "buttonurl": "shopify:\/\/collections\/inner-city"
+        "buttonurl": "shopify:\/\/collections\/summer-sale-24"
       }
     },
     "1638356576387ca461": {
