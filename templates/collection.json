@@ -1,5 +1,24 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -43,19 +62,46 @@
         "new_text": "NEW"
       }
     },
-    "shogun-above": {
-      "type": "shogun-above",
-      "settings": {
-      }
-    },
     "shogun-below": {
       "type": "shogun-below",
       "settings": {
       }
     },
-    "shogun-helper": {
-      "type": "shogun-helper",
+    "rich_text_aVpKqd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t9rpm9": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_KbhzKe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*Discounts up to 70% off valid on discontinued items only.<\/p>"
+          }
+        },
+        "button_Kiii7T": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_t9rpm9",
+        "text_KbhzKe",
+        "button_Kiii7T"
+      ],
       "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     }
   },
@@ -65,6 +111,7 @@
     "banner",
     "product-grid",
     "16381766261c7dbe21",
-    "shogun-below"
+    "shogun-below",
+    "rich_text_aVpKqd"
   ]
 }
