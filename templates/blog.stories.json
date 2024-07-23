@@ -146,6 +146,27 @@
         "sub_heading": "IT’S ALL ABOUT MOVING PEOPLE"
       }
     },
+    "1639489632c6749af1": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-reversed",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Hedgren_x_Florent-_bySterkendriesMayli-6_copy.jpg",
+        "heading": "Florent",
+        "subheading": "Hockey player for Belgium’s national team",
+        "content": "Florent is a talented athlete who represents Belgium on the\nnational hockey team.\n<br><br>\nDespite his demanding training schedule and frequent travel,\nFlorent manages to balance his athletic career with his personal\nlife. He commutes between Amsterdam and Ghent, two vibrant\ncities that hold a special place in his heart.",
+        "button_label": "Read his story",
+        "custom_link": false,
+        "button_link": "https:\/\/hedgren.com\/blogs\/stories\/florent-van-aubel",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
     "hedgren_img_text_YW8JpK": {
       "type": "hedgren-img-text",
       "settings": {
@@ -167,7 +188,7 @@
         "bg_color": ""
       }
     },
-    "1639489632c6749af1": {
+    "hedgren_img_text_NEnTeh": {
       "type": "hedgren-img-text",
       "settings": {
         "background": "normal-bg",
@@ -369,8 +390,9 @@
     "1639136095880eeb32",
     "1639136134ec3aabfa",
     "1639136284c83d20a7",
-    "hedgren_img_text_YW8JpK",
     "1639489632c6749af1",
+    "hedgren_img_text_YW8JpK",
+    "hedgren_img_text_NEnTeh",
     "hedgren_img_text_zLLbTn",
     "hedgren_img_text_HRMbKN",
     "hedgren_img_text_7pgzFR",
