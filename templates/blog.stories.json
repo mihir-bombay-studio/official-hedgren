@@ -146,6 +146,27 @@
         "sub_heading": "IT’S ALL ABOUT MOVING PEOPLE"
       }
     },
+    "1639489632c6749af1": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-reversed",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/JadeMadoe-00843-2.jpg",
+        "heading": "Isabelle",
+        "subheading": "Beauty editor, co-founder of Moments Magazine & mum of two beautiful daughters",
+        "content": "Isabelle is a beauty editor and a co-founder of Moments Magazine. As a passionate storyteller, she always looks for fascinating stories with an emotional touch.",
+        "button_label": "Read her story",
+        "custom_link": false,
+        "button_link": "https:\/\/hedgren.com\/blogs\/stories\/isabelle-vander-heyde",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
     "hedgren_img_text_YW8JpK": {
       "type": "hedgren-img-text",
       "settings": {
@@ -167,7 +188,7 @@
         "bg_color": ""
       }
     },
-    "1639489632c6749af1": {
+    "hedgren_img_text_HRMbKN": {
       "type": "hedgren-img-text",
       "settings": {
         "background": "normal-bg",
@@ -176,7 +197,7 @@
         "image": "shopify:\/\/shop_images\/LOW__LUCID_Hedgren_LAURA_11.jpg",
         "heading": "Laura",
         "subheading": "Artist,beauty journalist & perfumer",
-        "content": "Laura de Coninck is a visual artist who combines her art projects with beauty journalism. She was the first in Belgium to obtain a master's in Olfactory Art. \n<br><br>\nWe teamed up with Laura to create a perfume defined by the Freedom of Movement, one of our key Hedgren values. This brings Laura's dream to life. Through this partnership, Laura combines the art of painting and fragrance with complete artistic freedom.",
+        "content": "Laura de Coninck is a visual artist who combines her art projects with beauty journalism. She was the first in Belgium to obtain a master's in Olfactory Art. \n<br><br>\nWe teamed up with Laura to create a perfume defined by the Freedom of Movement, one of our key Hedgren values. This brings Laura's dream to life.",
         "button_label": "Read her story",
         "custom_link": false,
         "button_link": "https:\/\/hedgren.com\/blogs\/news\/stephanie-fiz",
@@ -197,7 +218,7 @@
         "image": "shopify:\/\/shop_images\/HIGH__LUCID_HEDGREN_Stefanos_17.jpg",
         "heading": "Stefanos",
         "subheading": "Owner of Coco-mat bike",
-        "content": "Stefanos Alexopoulos is creating quite the storm with the very first COCO-Mat bike shop in the world. He is inspired by how the beauty of nature can enhance an urban environment. \n<br><br>\nAccording to Stefanos there is an innate rhythm to everything. By finding the freedom to move according to your own pace, you find your path. \n<br><br>\n‘I believe there is a fire in everyone, the more you move, the bigger it gets’. \nThere are many reasons why Stefanos is one of our Hedgrenists, his free-spirited nature is just one of them.",
+        "content": "Stefanos Alexopoulos is creating quite the storm with the very first COCO-Mat bike shop in the world. He is inspired by how the beauty of nature can enhance an urban environment. \n<br><br>\nAccording to Stefanos there is an innate rhythm to everything. By finding the freedom to move according to your own pace, you find your path. \n<br><br>",
         "button_label": "Read his story",
         "custom_link": false,
         "button_link": "https:\/\/hedgren.com\/blogs\/stories\/stefanos-alexopoulos",
@@ -218,7 +239,7 @@
         "image": "shopify:\/\/shop_images\/7C0A2612.jpg",
         "heading": "Lily",
         "subheading": "Mindbody Coach – Herbalist",
-        "content": "Food has power. Don’t take our word for it, believe Lily’s – she knows what she’s talking about. They say food is the way to someone’s heart, but it’s also what brings us together and makes us connect. By bringing food to the table you invite hearts to join. \n<br><br>\nSo meet Lily. She knows all about food and how it feeds not just the body, but also the soul. Getting others to discover the flavor of nature is her move.",
+        "content": "Food has power. Don’t take our word for it, believe Lily’s – she knows what she’s talking about. \n<br><br>\nSo meet Lily. She knows all about food and how it feeds not just the body, but also the soul. Getting others to discover the flavor of nature is her move.",
         "button_label": "Read her Story",
         "custom_link": false,
         "button_link": "https:\/\/hedgren.com\/blogs\/stories\/lily-joan-roberts",
@@ -327,8 +348,9 @@
     "1639136095880eeb32",
     "1639136134ec3aabfa",
     "1639136284c83d20a7",
-    "hedgren_img_text_YW8JpK",
     "1639489632c6749af1",
+    "hedgren_img_text_YW8JpK",
+    "hedgren_img_text_HRMbKN",
     "hedgren_img_text_7pgzFR",
     "163948998160b8f47d",
     "16394901903a3b2923",
