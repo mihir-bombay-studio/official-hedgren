@@ -146,6 +146,27 @@
         "sub_heading": "IT’S ALL ABOUT MOVING PEOPLE"
       }
     },
+    "hedgren_img_text_YW8JpK": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/IMG_8351.jpg",
+        "heading": "Stephanie",
+        "subheading": "Co-founder of The Sybarite Flamingo & Moments Magazine",
+        "content": "Stephanie is a true all-rounder. Starting her career in Paris and Berlin, she discovered her passion for fashion and unique experiences and now lives in the stunning countryside of Mallorca. \n<br><br>",
+        "button_label": "Read her story",
+        "custom_link": false,
+        "button_link": "https:\/\/hedgren.com\/blogs\/news\/stephanie-fiz",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
     "1639489632c6749af1": {
       "type": "hedgren-img-text",
       "settings": {
@@ -158,7 +179,7 @@
         "content": "Laura de Coninck is a visual artist who combines her art projects with beauty journalism. She was the first in Belgium to obtain a master's in Olfactory Art. \n<br><br>\nWe teamed up with Laura to create a perfume defined by the Freedom of Movement, one of our key Hedgren values. This brings Laura's dream to life. Through this partnership, Laura combines the art of painting and fragrance with complete artistic freedom.",
         "button_label": "Read her story",
         "custom_link": false,
-        "button_link": "https:\/\/hedgren.com\/blogs\/stories\/laura-de-coninck",
+        "button_link": "https:\/\/hedgren.com\/blogs\/news\/stephanie-fiz",
         "extra_txt": "",
         "margin_top": "normal-top",
         "margin_bottom": "normal-bottom",
@@ -167,7 +188,7 @@
         "bg_color": ""
       }
     },
-    "hedgren_img_text_YW8JpK": {
+    "hedgren_img_text_7pgzFR": {
       "type": "hedgren-img-text",
       "settings": {
         "background": "normal-bg",
@@ -306,8 +327,9 @@
     "1639136095880eeb32",
     "1639136134ec3aabfa",
     "1639136284c83d20a7",
-    "1639489632c6749af1",
     "hedgren_img_text_YW8JpK",
+    "1639489632c6749af1",
+    "hedgren_img_text_7pgzFR",
     "163948998160b8f47d",
     "16394901903a3b2923",
     "1639490316ec6a410a",
