@@ -146,6 +146,27 @@
         "sub_heading": "IT’S ALL ABOUT MOVING PEOPLE"
       }
     },
+    "hedgren_img_text_YW8JpK": {
+      "type": "hedgren-img-text",
+      "settings": {
+        "background": "normal-bg",
+        "order": "order-normal",
+        "heading_color": "regular",
+        "image": "shopify:\/\/shop_images\/Hedgren_x_Moments-17.jpg",
+        "heading": "Nele",
+        "subheading": "Primary special education teacher & cyclist",
+        "content": "Nele believes in the power of emotions. She works as a full-time primary school teacher for children with mental and physical disabilities.\n<br><br>\nShe's full of energy and has a passion for cycling. She gathers her energy from moving from A to B and begin surrounded by the people she loves.",
+        "button_label": "Read her story",
+        "custom_link": false,
+        "button_link": "https:\/\/hedgren.com\/blogs\/stories\/nele-verheyden",
+        "extra_txt": "",
+        "margin_top": "normal-top",
+        "margin_bottom": "normal-bottom",
+        "padding_top": "p-no-top",
+        "padding_bottom": "p-no-bottom",
+        "bg_color": ""
+      }
+    },
     "1639489632c6749af1": {
       "type": "hedgren-img-text",
       "settings": {
@@ -167,7 +188,7 @@
         "bg_color": ""
       }
     },
-    "hedgren_img_text_YW8JpK": {
+    "hedgren_img_text_zLLbTn": {
       "type": "hedgren-img-text",
       "settings": {
         "background": "normal-bg",
@@ -348,8 +369,9 @@
     "1639136095880eeb32",
     "1639136134ec3aabfa",
     "1639136284c83d20a7",
-    "1639489632c6749af1",
     "hedgren_img_text_YW8JpK",
+    "1639489632c6749af1",
+    "hedgren_img_text_zLLbTn",
     "hedgren_img_text_HRMbKN",
     "hedgren_img_text_7pgzFR",
     "163948998160b8f47d",
