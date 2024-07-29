@@ -1,5 +1,17 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
+    "duckgreen": "shopify:\/\/shop_images\/duckgreen.jpg",
+    "bellwetherblue": "shopify:\/\/shop_images\/bellwetherblue.jpg",
+    "roseelegance": "shopify:\/\/shop_images\/roseelegance.jpg",
     "greygreen": "shopify:\/\/shop_images\/greygreen.jpg",
     "vaporousgrey": "shopify:\/\/shop_images\/vaporousgrey.jpg",
     "novablush": "shopify:\/\/shop_images\/novablush.jpg",
