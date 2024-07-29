@@ -1,6 +1,15 @@
+{% if product.tags contains "2.Color_Nova Mix" and product.url contains "-novamix" %}
+    <span class="variant-color-wrapper" title="Nova Mix" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.novamix| img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Nova Mix" %}<span class="variant-color-wrapper" title="Nova Mix" data-url="{% include 'removelist' %}-novamix"><img class="hedgren-color-inactive" src="{{ settings.novamix | img_url: '' }}"></span>
+     {% endif %}
+{% if product.tags contains "2.Color_Corduroy Mix" and product.url contains "-corduroymix" %}
+    <span class="variant-color-wrapper" title="Corduroy Mix" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.corduroymix| img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Corduroy Mix" %}<span class="variant-color-wrapper" title="Corduroy Mix" data-url="{% include 'removelist' %}-corduroymix"><img class="hedgren-color-inactive" src="{{ settings.corduroymix | img_url: '' }}"></span>
+     {% endif %}
+
 {% if product.tags contains "2.Color_Print Rose Elegance" and product.url contains "-printrose" %}
     <span class="variant-color-wrapper" title="Print Rose Elegance" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.printrose| img_url: '' }}"> 
-      </span>{% elsif product.tags contains "2.Print Rose Elegance" %}<span class="variant-color-wrapper" title="Print Rose Elegance" data-url="{% include 'removelist' %}-printrose"><img class="hedgren-color-inactive" src="{{ settings.printrose | img_url: '' }}"></span>
+      </span>{% elsif product.tags contains "2.Color_Print Rose Elegance" %}<span class="variant-color-wrapper" title="Print Rose Elegance" data-url="{% include 'removelist' %}-printrose"><img class="hedgren-color-inactive" src="{{ settings.printrose | img_url: '' }}"></span>
      {% endif %}
 
 {% if product.tags contains "2.Color_Varsity Green Quilt" and product.url contains "-varsitygreen" %}
