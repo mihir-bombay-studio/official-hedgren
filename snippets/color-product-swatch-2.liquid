@@ -1,3 +1,11 @@
+{% if product.tags contains "2.Color_Dusty Rose" and product.url contains "-dustyrose" %}
+    <span class="variant-color-wrapper" title="Dusty Rose" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.dustyrose | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Dusty Rose" %}<span class="variant-color-wrapper" title="Dusty Rose" data-url="{% include 'removelist' %}-dustyrose"><img class="hedgren-color-inactive" src="{{ settings.dustyrose | img_url: '' }}"></span>
+     {% endif %}
+{% if product.tags contains "2.Color_Celebration Black" and product.url contains "-celebrationblack" %}
+    <span class="variant-color-wrapper" title="Celebration Black" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.celebrationblack | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Celebration Black" %}<span class="variant-color-wrapper" title="Celebration Black" data-url="{% include 'removelist' %}-celebrationblack"><img class="hedgren-color-inactive" src="{{ settings.celebrationblack | img_url: '' }}"></span>
+     {% endif %}
 {% if product.tags contains "2.Color_Duck Green" and product.url contains "-duckgreen" %}
     <span class="variant-color-wrapper" title="Duck Green" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.duckgreen | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Duck Green" %}<span class="variant-color-wrapper" title="Duck Green" data-url="{% include 'removelist' %}-duckgreen"><img class="hedgren-color-inactive" src="{{ settings.duckgreen | img_url: '' }}"></span>

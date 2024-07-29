@@ -10,7 +10,13 @@
   {
     "name": "Color Swatch",
     "settings": [
-            {
+              {
+        "type": "image_picker",
+        "id": "dustyrose",
+        "label": "Dusty Rose",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
         "type": "image_picker",
         "id": "celebrationblack",
         "label": "celebrationblack",
