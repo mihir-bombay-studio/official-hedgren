@@ -16,6 +16,18 @@
         "label": "Duck Green",
         "info": "Add\/Replace image for Color Swatch"
       },
+       {
+        "type": "image_picker",
+        "id": "bellwetherblue",
+        "label": "Bellwether Blue",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+          {
+        "type": "image_picker",
+        "id": "roseelegance",
+        "label": "Rose Elegance",
+        "info": "Add\/Replace image for Color Swatch"
+      },
       {
         "type": "image_picker",
         "id": "greygreen",
