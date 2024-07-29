@@ -2,7 +2,14 @@
     <span class="variant-color-wrapper" title="Duck Green" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.duckgreen | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Duck Green" %}<span class="variant-color-wrapper" title="Duck Green" data-url="{% include 'removelist' %}-duckgreen"><img class="hedgren-color-inactive" src="{{ settings.duckgreen | img_url: '' }}"></span>
      {% endif %}
-
+{% if product.tags contains "2.Color_Bellwether Blue" and product.url contains "-bellwetherblue" %}
+    <span class="variant-color-wrapper" title="Bellwether Blue" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.bellwetherblue | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Bellwether Blue" %}<span class="variant-color-wrapper" title="Bellwether Blue" data-url="{% include 'removelist' %}-bellwetherblue"><img class="hedgren-color-inactive" src="{{ settings.bellwetherblue | img_url: '' }}"></span>
+     {% endif %}
+{% if product.tags contains "2.Color_Rose Elegance" and product.url contains "-roseelegance" %}
+    <span class="variant-color-wrapper" title="Rose Elegance" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.roseelegance | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Rose Elegance" %}<span class="variant-color-wrapper" title="Rose Elegance" data-url="{% include 'removelist' %}-roseelegance"><img class="hedgren-color-inactive" src="{{ settings.roseelegance | img_url: '' }}"></span>
+     {% endif %}
 
 {% if product.tags contains "2.Color_Vaporous Grey" and product.url contains "-vaporousgrey" %}
     <span class="variant-color-wrapper" title="Vaporous Grey" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.vaporousgrey | img_url: '' }}"> 

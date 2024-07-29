@@ -678,3 +678,13 @@
 <span class="variant-color-title" title="Duck Green" data-url="{{ product.url }}"> Duck Green
   </span>
  {% endif %}
+
+ {% if product.tags contains "2.Color_Bellwether Blue" and product.url contains "bellwetherblue" %}
+<span class="variant-color-title" title="Bellwether Blue" data-url="{{ product.url }}"> Bellwether Blue
+  </span>
+ {% endif %}
+
+  {% if product.tags contains "2.Color_Rose Elegance" and product.url contains "roseelegance" %}
+<span class="variant-color-title" title="Rose Elegance" data-url="{{ product.url }}"> Rose Elegance
+  </span>
+ {% endif %}
