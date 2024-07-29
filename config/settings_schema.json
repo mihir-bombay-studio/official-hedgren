@@ -10,7 +10,38 @@
   {
     "name": "Color Swatch",
     "settings": [
-              {
+
+    {
+        "type": "image_picker",
+        "id": "corduroy-dustyrose",
+        "label": "Corduroy Dusty Rose",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+        {
+        "type": "image_picker",
+        "id": "corduroy-duckgreen",
+        "label": "Corduroy Duck Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "corduroy-black",
+        "label": "Corduroy Black",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
+        "id": "greenmix",
+        "label": "Green Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+        {
+        "type": "image_picker",
+        "id": "rosemix",
+        "label": "Rose Mix",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
         "type": "image_picker",
         "id": "dustyrose",
         "label": "Dusty Rose",

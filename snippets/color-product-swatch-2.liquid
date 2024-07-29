@@ -1,3 +1,25 @@
+{% if product.tags contains "2.Color_Corduroy Duck Green" and product.url contains "-corduroy-duckgreen" %}
+    <span class="variant-color-wrapper" title="Corduroy Duck Green" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.corduroyduckgreen| img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Corduroy Duck Green" %}<span class="variant-color-wrapper" title="Corduroy Duck Green" data-url="{% include 'removelist' %}-corduroy-duckgreen"><img class="hedgren-color-inactive" src="{{ settings.corduroyduckgreen | img_url: '' }}"></span>
+     {% endif %}
+
+{% if product.tags contains "2.Color_Corduroy Dusty Rose" and product.url contains "-corduroy-dustyrose" %}
+    <span class="variant-color-wrapper" title="Corduroy Dusty Rose" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.corduroydustyrose| img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Corduroy Dusty Rose" %}<span class="variant-color-wrapper" title="Corduroy Dusty Rose" data-url="{% include 'removelist' %}-corduroy-dustyrose"><img class="hedgren-color-inactive" src="{{ settings.corduroydustyrose | img_url: '' }}"></span>
+     {% endif %}
+{% if product.tags contains "2.Color_Corduroy Black" and product.url contains "-corduroy-black" %}
+    <span class="variant-color-wrapper" title="Corduroy Black" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.corduroyblack| img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Corduroy Black" %}<span class="variant-color-wrapper" title="Corduroy Black" data-url="{% include 'removelist' %}-corduroy-black"><img class="hedgren-color-inactive" src="{{ settings.corduroyblack | img_url: '' }}"></span>
+     {% endif %}
+{% if product.tags contains "2.Color_Green Mix" and product.url contains "-greenmix" %}
+    <span class="variant-color-wrapper" title="Green Mix" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.greenmix | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Green Mix" %}<span class="variant-color-wrapper" title="Green Mix" data-url="{% include 'removelist' %}-greenmix"><img class="hedgren-color-inactive" src="{{ settings.greenmix | img_url: '' }}"></span>
+     {% endif %}
+{% if product.tags contains "2.Color_Rose Mix" and product.url contains "-rosemix" %}
+    <span class="variant-color-wrapper" title="Rose Mix" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.rosemix | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Rose Mix" %}<span class="variant-color-wrapper" title="Rose Mix" data-url="{% include 'removelist' %}-rosemix"><img class="hedgren-color-inactive" src="{{ settings.rosemix | img_url: '' }}"></span>
+     {% endif %}
+     
 {% if product.tags contains "2.Color_Dusty Rose" and product.url contains "-dustyrose" %}
     <span class="variant-color-wrapper" title="Dusty Rose" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.dustyrose | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Dusty Rose" %}<span class="variant-color-wrapper" title="Dusty Rose" data-url="{% include 'removelist' %}-dustyrose"><img class="hedgren-color-inactive" src="{{ settings.dustyrose | img_url: '' }}"></span>
