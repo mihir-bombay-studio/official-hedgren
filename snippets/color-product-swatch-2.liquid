@@ -1,3 +1,9 @@
+{% if product.tags contains "2.Color_Duck Green" and product.url contains "-duckgreen" %}
+    <span class="variant-color-wrapper" title="Duck Green" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.duckgreen | img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Duck Green" %}<span class="variant-color-wrapper" title="Duck Green" data-url="{% include 'removelist' %}-duckgreen"><img class="hedgren-color-inactive" src="{{ settings.duckgreen | img_url: '' }}"></span>
+     {% endif %}
+
+
 {% if product.tags contains "2.Color_Vaporous Grey" and product.url contains "-vaporousgrey" %}
     <span class="variant-color-wrapper" title="Vaporous Grey" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.vaporousgrey | img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Vaporous Grey" %}<span class="variant-color-wrapper" title="Vaporous Grey" data-url="{% include 'removelist' %}-vaporousgrey"><img class="hedgren-color-inactive" src="{{ settings.vaporousgrey | img_url: '' }}"></span>
