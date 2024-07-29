@@ -12,6 +12,12 @@
     "settings": [
       {
         "type": "image_picker",
+        "id": "duckgreen",
+        "label": "Duck Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
+        "type": "image_picker",
         "id": "greygreen",
         "label": "Grey Green",
         "info": "Add\/Replace image for Color Swatch"
