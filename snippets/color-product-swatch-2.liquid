@@ -1,3 +1,12 @@
+{% if product.tags contains "2.Color_Print Rose Elegance" and product.url contains "-printrose" %}
+    <span class="variant-color-wrapper" title="Print Rose Elegance" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.printrose| img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Print Rose Elegance" %}<span class="variant-color-wrapper" title="Print Rose Elegance" data-url="{% include 'removelist' %}-printrose"><img class="hedgren-color-inactive" src="{{ settings.printrose | img_url: '' }}"></span>
+     {% endif %}
+
+{% if product.tags contains "2.Color_Varsity Green Quilt" and product.url contains "-varsitygreen" %}
+    <span class="variant-color-wrapper" title="New Quilt Varsity Green" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.varsitygreen| img_url: '' }}"> 
+      </span>{% elsif product.tags contains "2.Color_Varsity Green" %}<span class="variant-color-wrapper" title="New Quilt Varsity Green" data-url="{% include 'removelist' %}-varsitygreen"><img class="hedgren-color-inactive" src="{{ settings.varsitygreen | img_url: '' }}"></span>
+     {% endif %}
 {% if product.tags contains "2.Color_Corduroy Duck Green" and product.url contains "-corduroy-duckgreen" %}
     <span class="variant-color-wrapper" title="Corduroy Duck Green" data-url="{{ product.url }}"><img class="hedgren-color-active" src="{{ settings.corduroyduckgreen| img_url: '' }}"> 
       </span>{% elsif product.tags contains "2.Color_Corduroy Duck Green" %}<span class="variant-color-wrapper" title="Corduroy Duck Green" data-url="{% include 'removelist' %}-corduroy-duckgreen"><img class="hedgren-color-inactive" src="{{ settings.corduroyduckgreen | img_url: '' }}"></span>
