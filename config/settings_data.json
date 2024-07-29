@@ -9,6 +9,14 @@
 */
 {
   "current": {
+    "printrose": "shopify:\/\/shop_images\/printrose.jpg",
+    "varsitygreen": "shopify:\/\/shop_images\/varsitygreen.jpg",
+    "corduroy-dustyrose": "shopify:\/\/shop_images\/dustyrose.jpg",
+    "corduroy-duckgreen": "shopify:\/\/shop_images\/duckgreen.jpg",
+    "corduroy-black": "shopify:\/\/shop_images\/black_240x240_7ebe9a89-3af4-4130-acaa-1ef0b7b98c92.jpg",
+    "greenmix": "shopify:\/\/shop_images\/greenmix.jpg",
+    "rosemix": "shopify:\/\/shop_images\/rosemix.jpg",
+    "dustyrose": "shopify:\/\/shop_images\/dustyrose.jpg",
     "duckgreen": "shopify:\/\/shop_images\/duckgreen.jpg",
     "bellwetherblue": "shopify:\/\/shop_images\/bellwetherblue.jpg",
     "roseelegance": "shopify:\/\/shop_images\/roseelegance.jpg",
