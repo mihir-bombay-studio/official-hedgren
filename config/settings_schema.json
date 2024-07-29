@@ -11,7 +11,19 @@
     "name": "Color Swatch",
     "settings": [
 
-    {
+      {
+        "type": "image_picker",
+        "id": "printrose",
+        "label": "Print Rose Elegance",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+           {
+        "type": "image_picker",
+        "id": "varsitygreen",
+        "label": "Varsity Green",
+        "info": "Add\/Replace image for Color Swatch"
+      },
+      {
         "type": "image_picker",
         "id": "corduroy-dustyrose",
         "label": "Corduroy Dusty Rose",
